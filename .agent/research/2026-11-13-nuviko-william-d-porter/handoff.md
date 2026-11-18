@@ -1,9 +1,21 @@
-# Handoff — current Porter narration
+# Handoff — Porter variants 2 / 5 / 10 minutes
 
-English `script.en.txt` is the proposed future voice/SRT master; `script.ru.txt` is the full editorial translation. Twelve current blocks are paired in `storyboard.json`. Previous package, visuals and review remain pinned at `2599f4cc15c1d4f352a23e0d3d590ebfac52a6f1`; no old verdict applies to this new text.
+**Status: EDITORIAL_CANDIDATE_UNREGISTERED. Recommended but unapproved: 05m Long.**
 
-This is an unregistered editorial candidate. On a user-authorized local production task follow current `uv run ytv start --channel nuviko_history --format short --intent 'Review Porter candidate PR #17'`, actual pinned task context and real independent reader. The reader receives exact EN without author rationale, reads both full cycles, identifies naturalness/attention/clarity/loop issues and returns the original hash-bound review schema. A Git merge or author self-check is not approval. Channel status comes from current ChannelSpec, not historical frozen notes.
+| Target | Complete English script candidate | Complete Russian review script | Intended format |
+|---|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | Short 9:16 with applicable loop |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | Long 16:9, provisional recommendation |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | Long 16:9, myth-vs-record layer |
 
-Only after script acceptance resolve actual voice, word timing, source references and images. The old 60-second grid is not current speech timing. S009 depicts the turn, S010 the explosion behind Iowa, S011 the primer explanation; S012 reuses exact S001 and matching camera crop rather than introducing a modern host. If a Nuviko host is added later, inspect and pass both accepted PNG references.
+Exact hashes, checks and comparison: [story-review](story-review.md). Common factual base: [research](research.md).
 
-Keep unknown message wording, exact distance and turn direction unspecified. No fake dialogue, blame motive, injury or attack casualty. Source research remains the historical basis, not a claim this language pass reread every archive. Full audio/music/subtitle/visual MP4 seam and rights checks remain unperformed. No TTS, imagegen, render, merge or upload authorized here.
+**Immutable baseline:** PR #17 pre-revision HEAD b5c7bb96634e4ecd7e493390e98197e88a3026e1; original root scripts preserved and original storyboard.json still contains 12 paired EN/RU blocks. That storyboard is pinned to original root scripts, not to any new variant. New storyboards and scene counts must follow a future *selected exact version hash*, not its old Short grid.
+
+**Independent reviewer:** new actual reader must receive whole EN and RU texts without writer scores; read narrative Short twice and report the literal seam. Compare with original only after first read. Save only authentic output in existing ytv-script-review-v1 response schema; no fake receipts, runs, measured duration or approval in this Git-only edit.
+
+**Production transfer if owner explicitly selects a version:** first check for saved run and its pinned context. If none exists, use canonical ytv start with real Nuviko History channel, selected supported format, complete UTF-8 source and origin commit/path/SHA-256; preserve real owner message and existing two approvals. Never overwrite old runtime pins with Git checkout or automatically start three productions. Use current docs/workflow.md source-import route only with authentic permission.
+
+**Format constraints:** ChannelSpec currently supports Short and Long, but actual channel credentials, voice, TTS, image references, music, studio endscreen and media remain UNVERIFIED. Nuviko's required two physical character-reference PNGs were not consumed or checked because no images were generated.
+
+**Narration cautions:** no invented torpedo hit, assassination intent, mass arrest, dialogue, direction of turn, exact blast distance or causal relation between later 1945 sinking and 1943 training mishap. Long's required story-linked ending needs a real next video, real opening clip and clickable endscreen; none has been invented in this editorial draft.

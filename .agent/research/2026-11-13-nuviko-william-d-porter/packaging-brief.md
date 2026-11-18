@@ -1,13 +1,13 @@
-# Packaging brief — not a release package
+# Packaging concepts — NOT publication metadata
 
-**Channel:** Nuviko History (frozen), prospective English Short. All three concepts promise only documented incident.
+Current Nuviko History profile is ACTIVE, including illustrated Short and Long. No claims about a verified audience response, finished thumbnail or native YouTube UI.
 
-1. **“His Own Navy Nearly Torpedoed Roosevelt”** — main. Main promise: a US Navy escort accidentally endangers the president. Visual: a real torpedo wake converging on USS Iowa, the smaller escort behind; use correct ship scales.
-2. **“The Torpedo That Nearly Hit a U.S. President”** — broader curiosity, a president + an approaching real weapon; naval identity revealed within the first seconds; title does NOT allege assassination.
-3. **“One Practice Launch Almost Hit Roosevelt”** — mechanism/irony angle, emphasizes routine drill becoming real. Thumbnail potentially less clear without the ships, still valid.
+| Script | Editorial title idea | Promise confirmed at opening | Full payoff |
+|---|---|---|---|
+| 02m | Why Did Roosevelt's Escort Fire a Torpedo? | US escort sends weapon toward Iowa | Lamp warnings fail, battleship turns, primer left in place |
+| 05m | The Destroyer That Nearly Torpedoed Roosevelt | Opening questions, actual presidential naval drill | Logged torpedo launch, radio warning and aftermath |
+| 10m | A Torpedo, the President, and the Navy's Unluckiest-Ship Myth | Questions on accident and later embellishment | The real near-hit separated from false mass-arrest legend and 1945 fate |
 
-**Thumbnail visual proposal (no image produced):** realistic 1943 battleship and small destroyer separated by a single white torpedo wake, dramatic but not a fake explosion on Iowa. Optional generated story text “HIS OWN NAVY?”; small-screen legibility and crop remain UNVERIFIED. Do not fake archival photo provenance or add inaccurate presidential portrait.
+Unproduced thumbnail idea: one large battleship, one smaller escort, a single plausible white torpedo wake; no fake hit or fabricated Roosevelt likeness. No finished art, crop, references, music or playback.
 
-**Promise/early confirmation:** S001 shows the torpedo and threat; S002 immediately says the firing ship was an escort, fulfilling early click expectation rather than delaying the twist. **Full payoff:** S009–S011 cover evasive action, miss and the neglected primer.
-
-**Limits:** historical accident, not intentional attack; no invented dialogue. No asserted CTR, native Shorts A/B, finished thumbnail, voice timing or approval.
+Long endscreen needs an actual related next video and real intro asset, and an authorized later YouTube Studio action. No next-video destination, teaser dialogue or click receipt was invented. Short must maintain real seam through its final sound/image; currently both media and independent listener evidence UNVERIFIED.

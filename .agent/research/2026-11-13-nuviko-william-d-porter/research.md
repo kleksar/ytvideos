@@ -86,3 +86,26 @@
 Проверены на 2026-11-13: активные PR #12–#16, старые закрытые PR, каталог эпизодов Nuviko History и Paper Detour в main, поиск GitHub по `William D. Porter`, `Roosevelt torpedo`, `Lorz`, `TACA`, `1904 marathon` (0 совпадений в индексируемых файлах). Это **не гарантия отсутствия всякого архива/неиндексируемого медиа**. В Nuviko History уже есть историческая морская история об Endurance, но нет такого сюжета о дружественном торпедном запуске. Текущая открытая версия #13 отвергнута владельцем; **#16 уже слит в main** (на момент создания этой ветки `50bb35ecd4ad2e832be5451fd2fa909794f047ed`) и закрепил audience-first отбор. Этот пакет следует действующему правилу, а не выдаёт непринятый PR за стандарт.
 
 **Запрет на драматизацию фактов:** не показывать убийство, попадание в линкор, выстрелы по Porter, массовые аресты, «покушение» как факт, выдуманные реплики, фантастический шторм или exact compass direction / explosion distance. Художественная реконструкция не архивная съёмка.
+
+
+---
+
+## 2026-11-18: supplemental sources for 2/5/10m Porter variants
+
+Original 2026-11-13 description of the Nuviko History channel as frozen is *historical*; current canonical main SHA 7c94f825056b98cb65d8de94dd3eec709cc78188 has an active channel, Short and Long configured. No old production run has been altered.
+
+| Claim added or made more specific | Source / location | Evidence limits |
+|---|---|---|
+| Named escorts Cogswell, Young and Porter; Roosevelt was on the first leg toward Tehran | U.S. Naval Institute, J. M. Caiella, Fact or Fiction?, June 2021, opening: https://www.usni.org/magazines/naval-history-magazine/2021/june/fact-or-fiction | Indexed detailed text; opening source page returned HTTP 403 on direct open 2026-11-18 |
+| AA balloon exercise, simulated destroyer torpedo attack using Iowa as target | U.S. Navy H-049-1, paragraph beginning “The facts of the accidental torpedo firing…”: https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-049/h-049-1.html | Official narrative; direct open returned HTTP 502; referenced via indexed passage |
+| Log timing 14:36 Porter firing; 14:38 Iowa warning; 15:03 Iowa resumed AA practice | USNI June 2021 quotes 1943 Porter and Iowa deck-log entries | Deck-log facsimiles not inspected in this run; identified secondary transcription |
+| Primer charge left in tube; later attempted destruction of evidence | Navy H-049-1, investigation paragraph | Do not assert a confession/dialogue during the torpedo run; official retrospective |
+| Bermuda inquiry, hard labor for chief torpedoman and Roosevelt's subsequent commutation; commander Walter not relieved | Navy H-049-1, aftermath section | No entire-crew arrest; do not imply an assassination motive |
+| Previous boiler malfunction verified; reported harbor collision and loose depth charge unsupported by relevant logs | Navy H-049-1, paragraphs on myth vs logs | 10m compares records and legend, never states these disputed events happened |
+| 1945 sinking near Okinawa after kamikaze-related underwater explosion; all 273 escaped | Navy H-049-1, opening/sinking section | Independent later incident, not caused by 1943 |
+| Roosevelt wheelchair moved to watch torpedo | USNI 2021 reconstructs this detail; Navy H-049-1 says “supposedly” | 10m attributes with uncertainty, no invented quote or personal feeling |
+| Torpedo missed and exploded behind Iowa; exact distance and turn side disputed | USNI 2021; Navy H-049-1; Navy H-029-4 https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-029/h-029-4.html | Keep direction and precise distance OUT of EN/RU; no naval gunfire invented |
+
+**Access status:** indexed source snippets and prior research were read, but original 1943 scanned logs were not directly inspected. High stakes and outcome are supported by official Navy history and USNI's identified transcription. No live view metrics or independent review was collected. The archival primary-record comparison remains UNVERIFIED.
+
+**Causal restrictions:** do not claim intentional assassination, torpedo hit, everyone arrested, guns fired from Iowa at Porter, the rumored harbor collision or a depth charge as fact, invented quotes, measured timing, or a causal link from the 1943 incident to the 1945 sinking.

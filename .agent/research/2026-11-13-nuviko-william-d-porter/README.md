@@ -1,9 +1,17 @@
-# Nuviko History — USS William D. Porter, spoken revision
+# Nuviko History — USS William D. Porter (1943)
 
-**[Русский сценарий](script.ru.txt)** · **[English narration](script.en.txt)**
+The US destroyer assigned to protect Roosevelt accidentally launched a live torpedo toward his battleship during a naval exercise. False signal-lamp messages and radio silence complicated the warning; Iowa turned and the torpedo missed.
 
-Эсминец, сопровождавший президента Рузвельта, выпустил боевую торпеду в сторону его линкора. Пока экипаж пытался исправить ошибку, радиомолчание и неверные световые сигналы задержали предупреждение.
+**EDITORIAL_CANDIDATE_UNREGISTERED.** No accepted master, runtime registration, independent reviewer, TTS, MP4 or owner approval is claimed.
 
-Current draft has twelve matched EN/RU narration blocks, a synchronized [provisional storyboard](storyboard.json), existing [source research](research.md) and a new [review](story-review.md). Exact previous package and longer original art briefs are preserved at commit `2599f4cc15c1d4f352a23e0d3d590ebfac52a6f1`.
+| Target | Full EN | Full RU | Editorial result |
+|---|---|---|---|
+| 2m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | Short; independent repeated loop UNVERIFIED |
+| **5m** | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | **Recommended Long** |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | Long; additional records and legend, less urgent second half |
 
-**EDITORIAL_CANDIDATE_UNREGISTERED.** No actual independent review, accepted script, generated media or official runtime run is claimed. Old 60s timing and prior exact-script checks are invalidated. Read [handoff](handoff.md) before any production. This revision does not add a modern host to the final shot; it reuses S001.
+**Selection reason:** 5m follows the failure chain from the first misread warning to radio contact, emergency turn and an inquiry. 10m adds valid history but loses some pressure after Iowa escapes. Recommendation is not approval.
+
+Exact SHA-256, three story maps, 8 criterion reviews and limits: [story-review](story-review.md). Evidence for new variants: [research](research.md). Transfer instructions: [handoff](handoff.md). Proposed titles/assets: [packaging-brief](packaging-brief.md).
+
+**Original protected:** PR #17 baseline b5c7bb96634e4ecd7e493390e98197e88a3026e1. Root files script.en.txt and script.ru.txt remain byte-identical. The 12 scene spans in storyboard.json match those original root texts only, NOT any variants; no new storyboard generated.
