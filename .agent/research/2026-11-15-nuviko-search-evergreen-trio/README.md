@@ -1,3 +1,17 @@
+# 2026-11-18 — all three existing search-first stories have full same-story variant sets
+
+PR #123 remains Draft / Git-only editorial candidate, not script gate. Titanic, Alexandria and Chernobyl now EACH independently have complete 02m/05m/10m EN+RU narration. This supersedes the historical 'Alexandria incomplete' status further below, retained as progress history. No owner-approved script, independent reviewer, runtime run or media exists for this change.
+
+| Alexandria version | Full texts | EN words | Editor recommendation |
+|---|---|---:|---|
+| 02m Long | [RU](05-alexandria-library/variants/02m/script.ru.txt) · [EN](05-alexandria-library/variants/02m/script.en.txt) | 310 | Complete compact answer, fast chronology |
+| **05m Long** | **[RU](05-alexandria-library/variants/05m/script.ru.txt)** · [EN](05-alexandria-library/variants/05m/script.en.txt) | 851 | **Provisional recommendation:** strongest balance of source distinctions and pacing |
+| 10m Long | [RU](05-alexandria-library/variants/10m/script.ru.txt) · [EN](05-alexandria-library/variants/10m/script.en.txt) | 1656 | Completes full research debate; weaker pacing after 391 |
+
+[Alexandria per-variant scorecards, exact SHA-256, story maps](05-alexandria-library/story-review.md) · [shared researched evidence](05-alexandria-library/research.md). Original 05m root and storyboard remain unchanged. Real independent review / bilingual listening, exact owner approval, proper pinned runtime, TTS, storyboard of changed variants, MP4/AV and measured audience demand are UNVERIFIED/not performed. No merge, production, publication, channel or contract changes.
+
+---
+
 # Search-first evergreen slate — progress at 2026-11-18
 
 **Same Draft PR #123, three different original stories.** Each requires its own three completed 02m/05m/10m EN+RU scripts. This review has now completed **Titanic** and **Chernobyl**. **Alexandria remains INCOMPLETE_3_VARIANTS** (only original 05m pair); do not announce entire PR as compliant. All are Long 16:9 under the active Nuviko History profile.

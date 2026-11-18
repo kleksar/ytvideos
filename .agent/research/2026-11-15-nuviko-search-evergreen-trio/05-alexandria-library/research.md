@@ -19,3 +19,17 @@ Signals: videos independently produced over years. Counter: large creator distri
 
 ## Alternative comparison
 Other actual candidates reviewed: Titanic empty boats, Chernobyl AZ-5, Roanoke disappearance (payoff irresolvable), WWI origins (too many causes for 5m), Roman concrete (thin one-mechanism surprise), pyramid construction (high contested reconstruction), already-existing Molasses / Pompeii / Berlin Wall. Relative to Roanoke, Alexandria delivers a *documentable answer* about sources instead of only listing theories. Relative to Titanic, this asks a different, literature-history question and keeps the 5-minute scope honest. Relative to queued Nuviko Tenerife, personal tragedy stakes lower but a clearer timeless Wikipedia-style query. No duplicate direct PR title detected in 122 remote PRs or topic path in main tree; private release metadata beyond inspected files is UNVERIFIED.
+
+## 2026-11-18 expanded-script evidence, author checked
+
+| New assertion in 02m / 10m | Source and explicit uncertainty |
+|---|---|
+| Hellenistic royal support, 145 BC Ptolemy VIII expulsions, papyrus copying; Galen's later shipbook story | [HISTORY, 2025-10-28](https://www.history.com/articles/library-of-alexandria-destroyed). Galen is a later reporter, not an eyewitness to the founding; no unverified ship-by-ship dialogue introduced. |
+| Harbor fire in 48 BC; Plutarch library versus Dio waterfront book warehouses | [Open University](https://www.open.edu/openlearn/history-the-arts/library-alexandria/content-section-3). Statements are late and conflict; no definite inventory or verified map of the library. |
+| Vestrheim's stronger claim Caesar destroyed Ptolemaic library | [Vestrheim, Eos 2016](https://eos.ptf.edu.pl/index.php/eos/article/view/203); [Open University](https://www.open.edu/openlearn/history-the-arts/library-alexandria/content-section-3) stresses uncertainties. Do not call either view universal consensus. |
+| Post-Caesar Mouseion mentioned by Strabo | [HISTORY](https://www.history.com/articles/library-of-alexandria-destroyed), historical overview; continued institution does not prove survival of all original rolls. |
+| Serapeum temple destroyed AD 391; library extent controversial | [Rohmann, Klio 2022](https://www.degruyterbrill.com/document/doi/10.1515/klio-2021-0021/html) argues its library was lost; [Vestrheim 2016](https://eos.ptf.edu.pl/index.php/eos/article/view/203) disputes an independent Serapeum library. Avoid claiming scholarly unanimity. |
+| Arab-conquest book-burning tale recorded much later | [Open University](https://www.open.edu/openlearn/history-the-arts/library-alexandria/content-section-3) and [World History Encyclopedia](https://www.worldhistory.org/Library_of_Alexandria/). Not an eyewitness account or established motive of seventh-century conquerors. |
+| Papyrus copying and survival of texts elsewhere | Supported as historical mechanism by [HISTORY](https://www.history.com/articles/library-of-alexandria-destroyed); no claim of the last surviving book's identified loss or invented human technological progress calculation. |
+
+The 10m expansion is nine source-motivated new mechanisms and historical disagreements placed after relevant events. It is not nine identical recaps or an imagined eyewitness story. Direct primary-text archival verification and independent fact reviewer still UNVERIFIED. Search volume/actual CTR/retention UNVERIFIED. The narrative does not claim uniform scholarly agreement about Caesar or Serapeum.

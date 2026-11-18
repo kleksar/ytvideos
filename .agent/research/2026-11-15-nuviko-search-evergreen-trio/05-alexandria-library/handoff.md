@@ -1,3 +1,11 @@
+# 2026-11-18 — Alexandria variants and exact master handoff
+
+New full EN/RU 02m, preserved 05m, new full EN/RU 10m now live at [review](story-review.md), with per-text SHA-256 and provisional **05m Long** recommendation. Root 05m source and old 48-scene storyboard are byte-identical; do not apply that board or its timings to the 02m/10m scripts. All 2/5/10 formats are 16:9 Long, not narrative Shorts. Durations are modeled, not voiced. No source text is approved, no media actions performed.
+
+Actual local runtime, saved task context, pins, receipts and independent reviewer unavailable via this GitHub-only editor. Status EDITORIAL_CANDIDATE_UNREGISTERED / independent review UNVERIFIED. On authorized host check existing run and pinned context first; attach exact script_variant pairs and story_review, obtain independently written reviewer result, and show owner one exact EN master for approval. Do not import Git checkout over existing runtime pins without migration. Linked end-screen requires real related video/intro and native YouTube setup, not a made-up segment.
+
+---
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 # Handoff — Library of Alexandria (~5 min)
