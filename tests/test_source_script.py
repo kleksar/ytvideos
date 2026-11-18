@@ -99,6 +99,49 @@ class SourceScriptTests(unittest.TestCase):
         self.assertIn("audio.produce", capabilities)
         self.assertIn("image.generate", capabilities)
 
+    def test_audio_generation_can_start_without_listening_but_cannot_complete(self):
+        self.accept()
+        self.service.capabilities(self.run_id, {
+            "audio.produce": {"available": True, "billing": "included"}, "audio.listen": False,
+        }, evidence="synthetic provider only, no listening available")
+        step = next(t for t in self.service.next(self.run_id)["tasks"] if t["id"] == "audio")
+        self.assertTrue(step["dispatchable"])
+        guide = self.service.context(self.run_id, "audio")["task_guide"]
+        self.assertEqual(guide["execution_capabilities"], ["audio.produce"])
+        self.assertIn("audio.listen", guide["completion_capabilities"])
+        self.assertIn("listening", guide["required_checks"])
+        claim = self.service.claim(self.run_id, "audio", "synthetic-producer")
+        run = self.service.store.get(self.run_id)
+        with self.assertRaisesRegex(WorkflowError, "audio completion requires audio.listen"):
+            self.service._validate_receipt(run, run["tasks"]["audio"], claim, {}, {})
+        self.assertEqual(run["tasks"]["audio"]["status"], "running")
+        self.assertFalse(valid_approval(run, "mp4"))
+        with self.assertRaises(Conflict):
+            self.service.claim(self.run_id, "subtitles", "synthetic-aligner")
+
+    def test_audio_generation_still_requires_provider_and_budget(self):
+        self.accept()
+        with self.assertRaisesRegex(WorkflowError, "audio.produce"):
+            self.service.claim(self.run_id, "audio", "synthetic-producer")
+        self.service.capabilities(self.run_id, {
+            "audio.produce": {"available": True, "billing": "metered"}, "audio.listen": False,
+        }, evidence="synthetic metered provider")
+        with self.assertRaisesRegex(WorkflowError, "reserve the observed provider cost"):
+            self.service.claim(self.run_id, "audio", "synthetic-producer")
+
+    def test_audio_listening_capability_does_not_replace_evidence(self):
+        self.accept()
+        self.service.capabilities(self.run_id, {
+            "audio.produce": {"available": True, "billing": "included"}, "audio.listen": True,
+        }, evidence="synthetic QA fixture")
+        claim = self.service.claim(self.run_id, "audio", "synthetic-producer")
+        run = self.service.store.get(self.run_id)
+        artifact = {"sha256": "1" * 64}
+        receipt = {"run_id": self.run_id, "task_id": "audio", "worker": claim["worker"],
+                   "input_hash": claim["input_hash"], "output_sha256": artifact["sha256"], "checks": []}
+        with self.assertRaisesRegex(WorkflowError, "missing checks:.*listening"):
+            self.service._validate_receipt(run, run["tasks"]["audio"], claim, artifact, receipt)
+
     def test_short_source_import_preserves_production_loop_policy(self):
         short = self.new_run(format="short")
         accept_source(self.service, short["id"], **self.decision())

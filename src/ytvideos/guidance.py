@@ -1,7 +1,7 @@
 """Read-only plans and task cards derived from the authoritative run graph."""
 
 from .context import TASK_EXECUTION_REFERENCE
-from .workflow import output_kind, required_checks, valid_approval
+from .workflow import execution_capabilities, output_kind, required_checks, valid_approval
 
 
 GOALS = {
@@ -60,6 +60,8 @@ def task_guide(run, task, references=(), requirements=None):
         "approval_gates": list(task["gates"]),
         "output_kind": output_kind(stage, requirements),
         "capabilities": [] if imported_step else list(task["capabilities"]),
+        "execution_capabilities": [] if imported_step else execution_capabilities(task),
+        "completion_capabilities": [] if imported_step else list(task["capabilities"]),
         "required_checks": [] if imported_step else sorted(required_checks(stage, requirements,
                                                   purpose=task.get("payload", {}).get("purpose"))),
         "next_tasks": [item["id"] for item in run["tasks"].values() if task["id"] in item["dependencies"]],

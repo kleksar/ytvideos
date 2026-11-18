@@ -497,3 +497,19 @@ uv run python -m ytvideos deferred-actions --run RUN_ID
 ```
 
 Старый `attempt_id` не подтверждает новую попытку. `deferred-actions` возвращает сохранённые pending `verify_public` и применимый `ab_test`; автоматический dispatcher этой командой не запускается — см. [runtime](runtime.md#развёртывание).
+
+## Audio: generation before listening
+
+An `audio` task may claim and produce media with its observed production capability
+(`audio.produce` or `audio.mix`) even when `audio.listen` is unavailable. Task guidance
+separates `execution_capabilities` from `completion_capabilities`; plan/doctor retain
+visibility of the listening gap. This permits preparation, not approval: `complete`
+still requires an available listening capability and all exact-artifact listening
+receipts. Subtitles/render dependencies and final review remain gated. A generated
+file is not accepted audio, a finished MP4, or permission to upload.
+
+Save provider handles, raw bytes and timestamps through the normal guarded adapter.
+If listening is unavailable, retain the existing operation/result for later QA and
+recovery; never issue a second TTS call merely to resume review. No fake listening
+receipt or direct-helper bypass is allowed. Existing runs must use `migrate-runtime`
+with their original snapshot; this change does not rewrite pins or paid budgets.

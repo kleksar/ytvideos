@@ -19,7 +19,7 @@ from .production_contract import (DELIVERY_SCHEMA, production_requirements, requ
                                   validate_review_observation)
 from .util import canonical, digest, file_digest, require_text, utc_now
 from .workflow import (EXTERNAL_STAGES, WORKFLOW_VERSION,
-                       configure_speech_tasks, derive_status, input_hash, make_task, new_tasks, output_kind, ready,
+                       configure_speech_tasks, derive_status, execution_capabilities, input_hash, make_task, new_tasks, output_kind, ready,
                        required_checks, valid_approval)
 
 
@@ -298,7 +298,7 @@ class Production:
         tasks = []
         for task in run["tasks"].values():
             if ready(run, task):
-                missing = [name for name in task["capabilities"] if not self._capable(run, name)]
+                missing = [name for name in execution_capabilities(task) if not self._capable(run, name)]
                 production_blocker = None
                 try:
                     self._production_ready(run, task)
@@ -442,7 +442,7 @@ class Production:
         if not ready(run, task):
             raise Conflict("task is not ready; inspect next/status")
         self._production_ready(run, task)
-        missing = [name for name in task["capabilities"] if not self._capable(run, name)]
+        missing = [name for name in execution_capabilities(task) if not self._capable(run, name)]
         if missing:
             raise WorkflowError("missing capabilities: " + ", ".join(missing))
         if task["attempt"] >= run["budget"]["max_task_attempts"]:
@@ -584,6 +584,8 @@ class Production:
         return self.store.mutate(run_id, change)
 
     def _validate_receipt(self, run, task, claim, artifact, receipt):
+        if task["stage"] == "audio" and not self._capable(run, "audio.listen"):
+            raise WorkflowError("audio completion requires audio.listen and real listening evidence; generation is not QA")
         evidence_artifacts = []
         expected = {"run_id": run["id"], "task_id": task["id"], "input_hash": claim["input_hash"],
                     "output_sha256": artifact["sha256"], "worker": claim["worker"]}
