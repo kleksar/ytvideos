@@ -8,7 +8,7 @@
 
 | Target | Channel format | Full EN master | Full RU review text | EN words | Editorial outcome |
 |---|---|---|---|---:|---|
-| 02m | short 9:16, supported | [EN](variants/02m/script.en.txt) (`253d7a5ef0532c90346e347fab3d0cecd0545b0cea8efc9f70c15cf35a68b7e9`) | [RU](variants/02m/script.ru.txt) (`892b296ade8866e3aace616458dd25f7ac708d2c9c4b90bba049177f7bb3737e`) | 219 | **Revised** safe-distance return, author loop read only; independent review UNVERIFIED |
+| 02m | short 9:16, supported | [EN](variants/02m/script.en.txt) (`253d7a5ef0532c90346e347fab3d0cecd0545b0cea8efc9f70c15cf35a68b7e9`) | [RU](variants/02m/script.ru.txt) (`5301ff57f2b43fb001377fb0de575665c4ed425899482452c966f5bc1ebf8def`) | 219 | **Revised** safe-distance return, author loop read only; independent review UNVERIFIED |
 | 05m | long 16:9, supported | [EN](variants/05m/script.en.txt) (`cd1598fc89d276386a88a01a0f227374718948a57292619da4b0d001ddd7ff3a`) | [RU](variants/05m/script.ru.txt) (`3f20a84a41cd1a10f074a9c551552b78b1bd58d253cb32a241ec9f62e1c25863`) | 625 | **Editorial recommendation**, runtime and reviewer pending |
 | 10m | long 16:9, supported | [EN](variants/10m/script.en.txt) (`59aeca27ccfb40e7ac809837b36c55a8f16de0409b2bba9f01974d42c515e21f`) | [RU](variants/10m/script.ru.txt) (`2a597a0e70ee169fdaf2d58b2f269e3de282419a916bb1c9be427f2eed36ae0d`) | 1461 | Complete, but weaker final third |
 
@@ -72,4 +72,4 @@ At owner selection, use the repository's actual `ytv start` and current pinned t
 
 ## Revision after initial three-version package — 2026-11-18
 
-**Was → became:** 02m at baseline `variants/02m/` was a byte copy of the root narration with colon-to-date restart (**authorial FAIL/REVISE**); the revised EN/RU are distinct full scripts framing the mile/400m spectator-distance precaution at the end and beginning. Old root and all 05m/10m narrations remain byte-for-byte unchanged. Exact revised 02m SHA-256: EN `253d7a5ef0532c90346e347fab3d0cecd0545b0cea8efc9f70c15cf35a68b7e9`; RU `892b296ade8866e3aace616458dd25f7ac708d2c9c4b90bba049177f7bb3737e`. Re-evaluate any prior storyboard scene spans, subtitle timing, or title promises against this exact hash. This change **does not** create production pins or a legitimate independent reviewer receipt.
+**Was → became:** 02m at baseline `variants/02m/` was a byte copy of the root narration with colon-to-date restart (**authorial FAIL/REVISE**); the revised EN/RU are distinct full scripts framing the mile/400m spectator-distance precaution at the end and beginning. Old root and all 05m/10m narrations remain byte-for-byte unchanged. Exact revised 02m SHA-256: EN `253d7a5ef0532c90346e347fab3d0cecd0545b0cea8efc9f70c15cf35a68b7e9`; RU `5301ff57f2b43fb001377fb0de575665c4ed425899482452c966f5bc1ebf8def`. Re-evaluate any prior storyboard scene spans, subtitle timing, or title promises against this exact hash. This change **does not** create production pins or a legitimate independent reviewer receipt.
