@@ -1,0 +1,57 @@
+I'm standing in front of two sale signs with three gifts on my list. A says twenty-five percent off. B says buy two, get the third free. Which one should I use? And why can two baskets with the same original price give opposite answers?
+
+This isn't a filmed shopping experiment. I'm building a checkout model with visible prices, stated rules, and one score: the amount I actually pay for gifts I already intended to buy. I can choose A or B, not both. In each comparison I reset the identical basket before applying the second offer. Taxes and shipping are outside the model unless I explicitly bring them back.
+
+The first three gifts have price tags of twenty-four dollars, twenty-four dollars, and twelve dollars. They add up to sixty. My budget for the whole purchase is forty-five. If I choose badly, I won't be able to buy all three within that budget.
+
+Before touching a calculator, I read what the signs actually mean. A reduces the price of every eligible gift by twenty-five percent. B requires three eligible gifts and makes the cheapest one free. The free-item rule matters: in some real offers the discount falls on the lowest-priced item. I'm specifying that rule up front rather than pretending every shop uses it.
+
+So which one fits my forty-five-dollar budget?
+
+I test A. Twenty-five percent of sixty is fifteen. Subtract fifteen, and the register asks for forty-five dollars. All three gifts fit my budget, exactly.
+
+I rewind to the original three prices and test B. The twelve-dollar gift is the cheapest, so that's the only price removed. Twenty-four plus twenty-four is forty-eight. Under B, I would need three dollars more than my budget.
+
+A wins this round. That isn't because percent signs are magic. It's because this percent removes fifteen dollars while the free-item offer removes only twelve.
+
+Now I hear an objection. Surely a free gift must be worth more than a twenty-five-percent discount somewhere. Yes. The same two offers can give the opposite answer without changing how much the basket costs.
+
+For the second round, I still need three gifts. This time they cost twenty dollars each. The total is still sixty. My budget is still forty-five. A still subtracts fifteen dollars and leaves forty-five. B makes one twenty-dollar gift free, so I pay forty.
+
+B now wins by five dollars, with five dollars left in my budget. The three prices changed, but neither the number of items nor the total price did. The first price pattern had one cheap gift that weakened B. The second had three equal gifts.
+
+This is the part I want to remember before the next holiday sale: the value of a free item depends on which item becomes free. I can't judge a basket by the headline discount or even by the basket total alone.
+
+Let's test the dividing line rather than guess it. My next three prices are twenty-five, twenty, and fifteen dollars. Once more, the total is sixty. A saves fifteen. B gives away the fifteen-dollar item. Both bills are forty-five. Neither option wins.
+
+I can now explain every result with just two numbers. The first number is twenty-five percent of the regular total of eligible items. The second is the regular price of the cheapest eligible item. Under these exact rules, the larger saving wins. If they're the same, the offers tie.
+
+I can even work backward. On a sixty-dollar basket, A always saves fifteen. For B to beat it, the cheapest of my three gifts must cost more than fifteen. That is why three twenty-dollar gifts favored B, and the twelve-dollar gift tipped the first basket toward A.
+
+There's a second way to express the same rule, useful if the basket total isn't a neat sixty. Suppose the two higher prices are twenty-four and twenty-four. How expensive must the cheapest item be for B to win? If its price is x, the basket total is forty-eight plus x. A saves a quarter of that. B saves x. So B wins when x is greater than a quarter of forty-eight plus x. Rearrange it: three quarters of x must exceed twelve. The cheapest gift must cost more than sixteen dollars.
+
+That sounds technical, but the practical test isn't. I look at the actual basket, find a quarter of its total, then glance at the cheapest qualifying item. No algebra at the checkout.
+
+But my model can still trick me if I choose the wrong starting problem.
+
+Imagine I need only two gifts, both priced at twenty-four dollars. With A, twenty-five percent off forty-eight leaves thirty-six dollars. With B, I cannot get a free item until I add a third eligible gift. Suppose I add one priced at twelve dollars; it becomes free, and I still pay forty-eight for all three. I carried an extra gift home, but I paid twelve dollars more than the thirty-six I could have spent on the two things I actually needed.
+
+It would be dishonest to announce that B 'gave me more stuff for the money' without saying I changed my shopping list. More units can be useful, but only when I actually want or can use them. The metric here is cost for my planned purchase, not the size of the haul.
+
+Now for a different twist: a large percentage sign might come with a cap. Let's return to my original twenty-four, twenty-four, twelve basket. Without any cap, A saves fifteen and wins. Suppose a different version of A says twenty-five percent off, maximum ten dollars saved per order. That's a new rule, and I need to disclose it before calculating. A now saves only ten, so I pay fifty. B still makes the twelve-dollar gift free, so I pay forty-eight. With this explicit cap, B wins by two.
+
+This isn't a contradiction. I changed the promotion, not the arithmetic. It's why I won't put an uncapped A result next to a capped B result and call it a fair test. Both options have to be evaluated under the terms that would really apply at checkout.
+
+Other conditions can matter just as much. Some products might be excluded; only certain colors or sizes may qualify; a promotion may have a limit per order. Some online shops require me to add the free item to my cart manually. If the gift isn't in the cart, I shouldn't count a discount I cannot claim. And if the two offers cannot be combined, stacking both is not a third, secret winning method.
+
+Here's an especially easy mistake: I see a low total after discount and assume the store's original prices were fair. But these two calculations only compare stated offers against the same stated list prices. They do not prove the list prices were the best available. To know whether I'm saving compared with another shop or last month's price, I'd need actual comparable price data. I don't have those data in this model.
+
+Returns add another reason to read the rules. A free-item promotion can spread its discount across the receipt for refund purposes. Target, for example, describes prorating the value of a BOGO discount across both products when an item is returned. That is a real published policy for that retailer's promotion, not a claim that our three-gift model has the same return policy. If I expect to return one gift, I need to compare the actual refund terms, not imagine I get the full original tag price back.
+
+So what would I put on the screen if I wanted this test to be reproducible? Three item prices and whether they're eligible. My actual planned quantity. The two written rules. The regular basket total. The discount each rule removes. And the final amount payable. Every time I change a condition, I reset both sides and say what changed.
+
+For the first basket, twenty-four, twenty-four, and twelve, A wins: forty-five against forty-eight. For three twenty-dollar items, B wins: forty against forty-five. For twenty-five, twenty, and fifteen, they tie at forty-five. A cap, an exclusion, or a different shopping list can reverse the result, but only because the inputs changed.
+
+I don't need to become a coupon expert to use this. I can make one small decision before buying: don't compare the biggest words on two signs. Compare what the receipt would charge for the things I already wanted.
+
+And when I walk into the next sale, I start in the same place: three gifts on my list, two discounts to check.
