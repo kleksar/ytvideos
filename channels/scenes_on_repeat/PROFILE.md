@@ -14,7 +14,7 @@
 
 Это правило относится к новому направлению, а не к историческим licensed-clips рецептам ниже. При регистрации проверенного You But Weird ChannelSpec закрепить в нём 1080p/30 fps для применимых форматов и сверить ориентацию; до этого `channel.json` Scenes on Repeat не является настроенным spec нового направления. Для действующих pinned runs применять [migration](../../docs/migration.md), а не незаметно заменять параметры.
 
-Для whole-frame движения горизонтального Long применять [YBW_LONG_MOTION](docs/YBW_LONG_MOTION.md): scoped перенос Nuviko/Paper чередования, консервативного размаха и обязательного motion-plan/preview gate.
+Для whole-frame движения горизонтального Long применять [YBW_LONG_MOTION](docs/YBW_LONG_MOTION.md): смысловые планы около 2 с как отправная точка, статика когда движение не помогает, малый размах выбранного pan/zoom и обязательный motion-plan/preview gate.
 
 ## Вертикальная адаптация You But Weird
 
