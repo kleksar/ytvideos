@@ -231,7 +231,8 @@ def validate_preview_alignment(path, *, transcript, audio_sha256, srt, duration,
     import hashlib
     source = json.loads(Path(path).read_text())
     display = str.maketrans('', '', '\"“”„‟«»')
-    tokens = lambda text: [t for token in text.split() if (t := token.translate(display))]
+    def tokens(text):
+        return [t for token in text.split() if (t := token.translate(display))]
     words = source.get("words") if isinstance(source, dict) else None
     if (not words or not isinstance(words, list) or any(not isinstance(w, dict) for w in words)
             or source.get("audio_sha256") != audio_sha256

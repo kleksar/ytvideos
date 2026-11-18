@@ -259,11 +259,16 @@ class SourceScriptTests(unittest.TestCase):
         from ytvideos.media_checks import validate_preview_alignment
         for defect in ("text", "overlap", "nan", "out_of_bounds", "audio"):
             bad = json.loads(json.dumps(data))
-            if defect == "text": bad["words"][0]["text"] = "different"
-            elif defect == "overlap": bad["words"][1]["start"] = 0
-            elif defect == "nan": bad["words"][0]["start"] = float("nan")
-            elif defect == "out_of_bounds": bad["words"][-1]["end"] = len(words)*2+5
-            else: bad["audio_sha256"] = "0"*64
+            if defect == "text":
+                bad["words"][0]["text"] = "different"
+            elif defect == "overlap":
+                bad["words"][1]["start"] = 0
+            elif defect == "nan":
+                bad["words"][0]["start"] = float("nan")
+            elif defect == "out_of_bounds":
+                bad["words"][-1]["end"] = len(words)*2+5
+            else:
+                bad["audio_sha256"] = "0"*64
             bad_path = self.fixture.output(bad, "invalid.words.json")
             with self.subTest(defect=defect), self.assertRaises(WorkflowError):
                 validate_preview_alignment(bad_path, transcript=transcript, audio_sha256=audio["sha256"],
@@ -271,9 +276,12 @@ class SourceScriptTests(unittest.TestCase):
 
         for defect in ("text", "start", "omitted"):
             content = srt.read_text()
-            if defect == "text": content = content.replace(words[0]["text"], "WRONG", 1)
-            elif defect == "start": content = content.replace("00:00:00,000", "00:00:00,100", 1)
-            else: content = "\n\n".join(content.strip().split("\n\n")[:-1]) + "\n"
+            if defect == "text":
+                content = content.replace(words[0]["text"], "WRONG", 1)
+            elif defect == "start":
+                content = content.replace("00:00:00,000", "00:00:00,100", 1)
+            else:
+                content = "\n\n".join(content.strip().split("\n\n")[:-1]) + "\n"
             bad_srt = self.fixture.output(content, "bad.srt")
             with self.subTest(srt_defect=defect), self.assertRaises(WorkflowError):
                 validate_preview_alignment(path, transcript=transcript, audio_sha256=audio["sha256"],
