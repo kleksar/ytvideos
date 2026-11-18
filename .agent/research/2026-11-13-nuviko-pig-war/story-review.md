@@ -1,62 +1,124 @@
-# Story review — editorial candidate, not script gate
+# Story review — Pig War / редакционный пакет 2–5–10 минут
 
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
+**EDITORIAL_CANDIDATE_UNREGISTERED — не официальный ytv script gate.** No independent first-listener, no production run, no MP4, no measured timing. Authorial scores are NOT independent receipts.
 
-## Exact inputs and order
-1. Broad research: 10 actual distinct candidate histories; detailed three finalist pitches in research.md. Author selected Pig War over BA 5390 for changing causal expectations and a tonal shift from rescue/disaster stories.
-2. Full EN and matching RU narration prepared BEFORE the preliminary storyboard.
-3. Authorial first-read, factual, cold-open and Short textual seam checks. No new independent reviewer/session or official ytv run exists in this host.
+## Baseline and revision
 
-## Author assessment (not independent)
-| Gate | Author result | Evidence / weakness |
-|---|---|---|
-| Audience stop | PASS (author hypothesis) | Shot pig → UK frigates and US troops in first two sentences; first sentence stands alone. |
-| Continued interest | PASS (author hypothesis) | 1846 treaty ambiguity → threatened arrest → 64 soldiers → 3 frigates/artillery → Scott de-escalation → 12 years → 1872 award. Risk: familiar OverSimplified covered subject. |
-| Viewer payoff | PASS (author) | Real dated legal ruling and no human combat death; meaningful answer, not unresolved teaser. |
-| Clarity | PASS (author) | The US/British claims and treaty channels explained in simple English. Physical geographic orientation requires production care. |
-| Factual support | PASS for scoped verified text | 1846 treaty original, 1872 award original, NPS historical synthesis; omit disputed landing day. |
-| Editorial independence | UNVERIFIED | No `sessions.independent` or fresh independent host session exposed. No `ytv-script-review-v1`, no double-reading independent receipt. |
-| Independent bilingual review | UNVERIFIED | Only author alignment at beat level. |
-| Timings / voice / SRT | UNVERIFIED | No TTS, MP4, alignment, timings, or provider run. |
-| Official script gate | NOT REACHED | No executable project checkout for `uv run ytv start`; no run ID or research/script receipts. |
+PR #31 baseline HEAD `fcbabe0596d42f773cc296d94d040cb0f92e00c7`, immutable source `script.en.txt` Git blob `b43515f3c08079c06061311674b3d57de1ab5952`, SHA-256 `c24049b6ad3eeb8bbc47a14d53531456a7982c66498e29a1a9ed1f4593169ab4`; `script.ru.txt` blob `48c84f281fb2749c44ccac26e12c471f235aa432`, SHA-256 `0613ca9f58e9588fbe15949ad3d9a0b495692b2cdef14707e1e9fce672354836`. Old 17-scene storyboard anchored to these two exact root files, NOT variants.
 
-## Exact Short end→start literal EN
-End-2: "No one on either side died in the standoff. The only casualty was the pig."
-End-1: "And it all began with one shot:"
-Start-1: "In 1859, an American farmer shot a pig in his potato patch."
-Start-2: "Weeks later, British warships were facing American soldiers."
+Было: 191-word English Short, полный RU, авторская петля через двоеточие, предварительная S001–S017; нет самостоятельных длинных версий. Стало: три новых полных композиции EN/RU и честное сравнение без перезаписи root master и original storyboard. Старые оценки/петля не переносятся на новые hashes. Владелец не принимал exact PR #31 source и запуск production по наблюдаемым комментариям/PR не установлен; внешние runtime/sessions недоступны из GitHub connector.
 
-Read together as one sequence:
-> No one on either side died in the standoff. The only casualty was the pig. And it all began with one shot: In 1859, an American farmer shot a pig in his potato patch. Weeks later, British warships were facing American soldiers.
+## Тексты и хронометраж
 
-**Author seam: PASS (text only)**. Full payoff is delivered BEFORE final causal hand-back; listener returns to the same island incident rather than hearing an exact repeated last fact. First sentence independently orients new viewers. AV seam: **UNVERIFIED**; S017/S001 use same potato patch topology but no actual composites, sound, edits, or narration timings exist.
+| Цель | Полные версии | EN words | RU words | Решение |
+|---|---|---:|---:|---|
+| 02m | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | 243 | 213 | Новое независимое Short с текстовой петлёй |
+| 05m | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | 607 | 531 | **Рекомендуется для editorial selection; не approval** |
+| 10m | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1368 | 1213 | Содержательная альтернатива; проигрывает темпом |
 
-## Точный текстовый стык RU конец→начало
-Предпоследняя: «В этом противостоянии не погиб ни один человек. Единственной жертвой оказалась свинья.»
-Последняя: «А началось всё с одного выстрела:»
-Первая: «В 1859 году американский фермер застрелил свинью на своей картофельной грядке.»
-Вторая: «Через несколько недель британские военные корабли стояли напротив американских солдат.»
+Темп до озвучки **допущение 125–155 английских слов/мин** с паузами вне подсчёта. Результаты не measured: 02m 1.6–1.9 мин; 05m 3.9–4.9 мин; 10m 8.8–10.9 мин. Профиль задаёт final speech speed 1.10×, но нет measured voice output; оценка требует последующего уточнения.
 
-Буквальная склейка:
-> В этом противостоянии не погиб ни один человек. Единственной жертвой оказалась свинья. А началось всё с одного выстрела: В 1859 году американский фермер застрелил свинью на своей картофельной грядке. Через несколько недель британские военные корабли стояли напротив американских солдат.
+| Exact path | SHA-256 of final UTF-8 bytes with terminal LF | Words |
+|---|---|---:|
+| `variants/02m/script.en.txt` | `0e60e56b9486d8b6469fc13c2a749f3154a6626eaab7d0fc9775eede2c663a44` | 243 |
+| `variants/02m/script.ru.txt` | `9e581c4bba5e8c5cf80a7bbcb984bf3b123863de24ead99f864fa14e4a56fb07` | 213 |
+| `variants/05m/script.en.txt` | `dc64cec4088ca63df21942be05fd0a450011a7a0fefd86373bc67af15c682af4` | 607 |
+| `variants/05m/script.ru.txt` | `9eca52cfa1e8ac984c4692f08e592a44ab6ee74049318e88156c9a0c146fd888` | 531 |
+| `variants/10m/script.en.txt` | `830c41deb7fcf1e7f52301ec7ddbc1da918617d7a1bbbabdf0e52cacd3d46d9a` | 1368 |
+| `variants/10m/script.ru.txt` | `11f1cd8dcc0444b719477904799e4c298e83f70e79fdf47563bd33cc4b252607` | 1213 |
 
-**Авторский PASS по текстовому кольцу**, не independent review; AV: **UNVERIFIED**. No jump that implies surviving sailors were killed; same story in EN/RU.
+## Story maps — именно готовые версии
 
-## Author weaknesses / limits
-- Big competitor has a 39-minute feature on same history; do not copy it. Alternative BA5390 has visceral immediacy; Pig War must truly earn treaty explanation and 12-year payoff for viewers unfamiliar with geography.
-- Potential low interest at treaty step S004; use two visibly distinct sea channels, **do not** turn into unlabeled abstract arrows.
-- Montage plan is PRELIMINARY and cannot establish a completed scene stage before script approval.
-- All reviews based only on text and opened historical materials. No false `ytv-script-review-v1`, no fabricated reviewer results, no claim artistic acceptance.
+### 02m
+1. pig in disputed garden → treaty with two possible channels
+2. arrest threat → US protection → Royal Navy escalation
+3. Scott de-escalates → garrisons coexist → Haro arbitration → no human combat deaths
+4. loop: “because” → “A pig…” after complete payoff
 
-## Required independent review at local host
-Present the exact EN script (read twice consecutively), opening first, then full text, then literal end-to-start seam WITHOUT author beats. Ask: why keep watching? exact sentence of interest loss? did payoff satisfy? Can reject topic. Only AFTER first independent read provide sources and strongest alternative BA5390. Bind reviewer to SHA256 of exact `script.en.txt`, capture genuine `ytv-script-review-v1` receipt per pinned task and its hash; retest RU with truly separate reviewer. If verdict merely “clear but why watch?” then FAIL and reselect. Actual user approval still required before media.
+### 05m
+1. opening questions → literal 1846 channel geometry → inhabited disputed farmland
+2. Cutlar compensation/arrest → Harney sends Pickett → Douglas sends Tribune, then two ships
+3. reinforcements + training fire + shared social contact → Scott reduces escalation
+4. two camps in 1860 → Washington Treaty 1871 → 1872 Haro award → meaning of the pig
 
-## 2026-11-13 — narrative-loop correction to current editorial standard
+### 10m
+1. three concrete questions → Oregon Treaty ambiguity → sheep farm and American settlers
+2. Cutlar payment / $100 threat → authority question → 64 men land
+3. Douglas/Hornby refusal to force clash → British naval buildup → 461 Americans + cannons
+4. naval target drills + officer social contact → Baynes refuses escalation → Scott negotiates
+5. British camp 1860 → daily coexistence during Civil War → 1871 referral → Geneva panel
+6. 21 Oct 1872 Haro award → staggered withdrawals in 1872/1874 → distinction between trigger and cause
 
-The old ending, `before a single soldier or warship was there`, was only a thematic reset. The new ending directly introduces the witnessed inciting event without changing the historical outcome:
+## Оценки по восьми критериям
 
-**EN end → start:** And it all began with one shot: In 1859, an American farmer shot a pig in his potato patch.
+### 02m: авторские редакционные оценки (не independent)
 
-**RU конец → начало:** А началось всё с одного выстрела: В 1859 году американский фермер застрелил свинью на своей картофельной грядке.
+| Критерий | Оценка | Основание и недостаток | Уверенность |
+|---|---:|---|---|
+| Интерес и значимость | 8/10 | Свинья на огороде → международный кризис за две фразы; спор известен массовой аудитории | moderate |
+| Начало | 8/10 | «A pig wandered into a potato patch…» самостоятельный контекст и мгновенное появление кораблей | moderate |
+| Развитие/причина досмотреть | 7/10 | Договор → арест → 64 солдата → три судна → дипломатия; середина вынужденно сжата | moderate |
+| Payoff | 8/10 | Харо + отсутствие боевых человеческих потерь; объясняет, почему всё произошло | high |
+| Свежесть угла | 6/10 | Факт широко известен через OverSimplified; отличие — юридическая подоплёка | moderate |
+| Визуальная выразительность | 8/10 | Огород, два пролива, корабли, артиллерия и пустые пушки | moderate |
+| Естественность и ясность речи | 8/10 | Короткие связные действия без риторических троек; стык требует independent read | moderate |
+| Подтверждённость интереса зрителей | **UNVERIFIED** | Публичный успех чужого видео не доказывает спрос, retention или CTR нового канала | нет собственных данных |
 
-**Text-only authorial bridge:** PASS; first line works on cold entry, the complete legal and peaceful outcome is before replay. The S017 visual plan now reuses S001's exact approved source image and ending crop, not a second imitation. Independent twice-through reviewer, source image bytes and final MP4 audio/subtitle/visual seam remain UNVERIFIED; no official ytv runtime script gate has been entered.
+**Слабое место:** после военно-морской эскалации согласование занимает всего несколько строк; фактический темп петли не прослушан. Текстовая фактологическая проверка: author-checked against shared research; независимый reviewer UNVERIFIED. Уверенность в художественной оценке: умеренная.
+
+### 05m: авторские редакционные оценки (не independent)
+
+| Критерий | Оценка | Основание и недостаток | Уверенность |
+|---|---:|---|---|
+| Интерес и значимость | 8/10 | Реальные последствия частного инцидента меняют смысл от комедии к пограничной дипломатии | moderate |
+| Начало | 8/10 | Три конкретных вопроса получают ответы в событиях; карта вводится без отвлечений | moderate |
+| Развитие/причина досмотреть | 9/10 | Cutlar → Harney/Pickett → Hornby → вооружение → Scott → совместное присутствие → арбитраж | moderate |
+| Payoff | 9/10 | Установлена конкретная линия Haro, указана дата и ограничение "1859 standoff" | high |
+| Свежесть угла | 7/10 | Двусмысленность одного юридического слова и опасный приказ Hornby; факт не нов | moderate |
+| Визуальная выразительность | 8/10 | Два морских пути, выгрузка, корабли, пушки, два лагеря, дипломатическое решение | moderate |
+| Естественность и ясность речи | 8/10 | Понятные причинные глаголы; фамилии могут затруднить восприятие на слух | moderate |
+| Подтверждённость интереса зрителей | **UNVERIFIED** | Публичный успех чужого видео не доказывает спрос, retention или CTR нового канала | нет собственных данных |
+
+**Слабое место:** два имени военных руководителей подряд могут ощущаться справочным блоком; уточнить после first-listener. Текстовая фактологическая проверка: author-checked against shared research; независимый reviewer UNVERIFIED. Уверенность в художественной оценке: умеренная.
+
+### 10m: авторские редакционные оценки (не independent)
+
+| Критерий | Оценка | Основание и недостаток | Уверенность |
+|---|---:|---|---|
+| Интерес и значимость | 8/10 | Детально раскрывается не только анекдот, но и долгий конфликт суверенитета | moderate |
+| Начало | 8/10 | Вопросы об угрозе, мирном соседстве и арбитраже; глубокое погружение затягивается | moderate |
+| Развитие/причина досмотреть | 7/10 | Дополнительные эскалации и Baynes сильны, но быт лагерей замедляет переход к решению | moderate |
+| Payoff | 8/10 | Haro/1872 и раздельные уходы 1872/1874 объясняют последствия | high |
+| Свежесть угла | 7/10 | Офицеры общаются на фоне корабельных учений и лагеря стоят во время Гражданской войны | moderate |
+| Визуальная выразительность | 8/10 | Масштаб фермы, два пролива, 31-пушечный фрегат, артиллерия, лагеря | moderate |
+| Естественность и ясность речи | 7/10 | Устная причинность выдержана, но обилие дат и имён усложняет 10m | moderate |
+| Подтверждённость интереса зрителей | **UNVERIFIED** | Публичный успех чужого видео не доказывает спрос, retention или CTR нового канала | нет собственных данных |
+
+**Слабое место:** после разговора о мирном сокращении войск блок об устройстве лагерей замедляет переход к арбитражу. Текстовая фактологическая проверка: author-checked against shared research; независимый reviewer UNVERIFIED. Уверенность в художественной оценке: умеренная.
+
+
+## Hard checks (не усреднять оценками)
+
+| Проверка | 02m | 05m | 10m |
+|---|---|---|---|
+| Full self-contained EN/RU and semantic consistency | AUTHOR CHECKED, independent UNVERIFIED | AUTHOR CHECKED, independent UNVERIFIED | AUTHOR CHECKED, independent UNVERIFIED |
+| Claimed historical facts | AUTHOR CHECKED; original legal/NPS sources | AUTHOR CHECKED; NPS and 1872 original | AUTHOR CHECKED; NPS + camps/commission |
+| First element of documentary Long: questions → substantive immersion → main hook | N_A (Short) | AUTHOR CHECKED; questions precede 1846 map, main hook at Cutlar/arrest | AUTHOR CHECKED; questions precede treaty/farm, main hook at claim/arrest |
+| Cold opening | AUTHOR CHECKED; single sentence comprehensible | AUTHOR CHECKED | AUTHOR CHECKED |
+| Short payoff before repeat, full EN and RU twice, literal seam | AUTHOR TEXT CHECKED, independent UNVERIFIED | N_A | N_A |
+| Actual MP4, TTS, AV seam, measured timing | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Independent first-listener / ytv-script-review-v1 | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Format / channel compatibility | Short 9:16 supported by current ChannelSpec | Long 16:9 supported | Long 16:9 supported |
+| Runtime registration/approval | UNREGISTERED / not approved | UNREGISTERED / not approved | UNREGISTERED / not approved |
+
+**Short literal EN seam:** “And an international confrontation had begun because” → “A pig wandered into a potato patch on an island that Britain and America both claimed.” This is syntactically continuous and the legal resolution is already delivered; it is not an AV proof. **RU:** «А международное противостояние началось из-за того, что» → «Свинья забрела на картофельную грядку на острове, который одновременно считали своим Британия и Америка.» Сначала пользователь слышит самостоятельное предложение, после повтора оно завершает финальную связку. Прочитано автором дважды; независимое double-read UNVERIFIED.
+
+## Comparison: marginal value, drop-off hypotheses, recommendation
+
+- **02 → 05:** география двух проливов раскрыта до выстрела; мотивация отправки войск, приказ Hornby избежать столкновения, настоящие учения и Scott дают последовательные новые причины, а не удлинённый пересказ. Уязвимый участок 02m — быстрая смена кораблей и дипломатов до того, как возникла человеческая линия.
+- **05 → 10:** ферма с тысячами овец, восемнадцать американских поселенцев, претензия $100, Baynes, взаимные богослужения, детали двух лагерей, Гражданская война, комиссия в Женеве и разный уход войск подтверждают длительный кризис. Однако начиная с «Imagine the practical result» история переключается на жизнь гарнизонов; после решения Scott зритель может перестать ждать ответа. Это гипотеза авторского чтения, не измеренное удержание.
+- **Рекомендовать 05m** как наиболее ясную причинную дугу и законченную отдачу; исходный 191-word Short оставить как archival source, новую 02m версию рассматривать отдельно для Short. Десять минут не выбирать по номинальной длительности. Recommended ≠ approved, all six editorial candidates not production masters.
+
+## Required next steps
+
+Independent cold first-listener reviews of exact six scripts, **without** the author verdict and scores; sources after first read. Revalidate exact hash after any revision. At production handoff choose ONE exact master and register a normal ytv run and proper receipts with pinned context, then seek owner script approval. Existing S001–S017 references only the archived root script hashes and must not be repurposed. No provider calls permitted by this editorial update.

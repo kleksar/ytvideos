@@ -18,3 +18,8 @@ B — Treaty paradox: aged nautical chart with two physical possible passages, a
 C — Comic historical aftermath: foreground empty pig pen against two camps peacefully sharing a prairie, rare period atmosphere; title 3 gives numbers, images give calm after expected fighting.
 
 Thumbnail and first-frame crop QA: at phone size identify pig or visible two-sided standoff instantly; keep main subject apart from subtitle-safe center/lower composition. All future thumbnail imagery must be AI-generated and visually checked using real output. Draft text does not claim CTR, watch intent or an official release asset.
+
+
+## Revised 2026-11-18 — variant isolation
+
+This packaging brief originally belonged to the 191-word archival root Short at baseline fcbabe0596d42f773cc296d94d040cb0f92e00c7; its storyboard S001–S017 and shot numbers refer ONLY to that archival exact text. New `variants/02m/`, `05m/` and `10m/` are independent editorials, not exact media bindings. The Short title/thumbnail concepts above remain candidate hypotheses; do NOT claim coverage for longer versions. For recommended 05m, the verified promise is **"How a treaty's two channels turned a dead pig into an armed standoff — and why nobody fought"**. First visual evidence should establish two waterways on a realistic period chart, then pig/company farmland, and only then guns/ships; no fake exact quotations embedded in a prop. New scene count and script-specific visual prompts require a selected exact hash and proper storyboard. CTR and image performance UNVERIFIED.

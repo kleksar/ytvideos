@@ -76,3 +76,22 @@ For BA finalist: **PRIMARY official** AAIB Aircraft Accident Report 1/92 https:/
 - **Best objection**: globally familiar story; if the new viewer already knows the treaty twist, 90 seconds could feel like recap. A genuine independent cold read is required before claiming artistic approval.
 
 Research sources were opened by external web, not taken from GitHub archival project notes. No scripted quotes fabricated. No ratings of virality or claims of retention.
+
+
+## 2026-11-18 — independent fact extension for 2/5/10 scripts (not audience verification)
+
+Historical research remains ONE shared file. Verified further from authoritative NPS sources, without adding fictional dialogue, thoughts, or precise disputed landing dates:
+
+| New beat | Evidence URL and factual scope | Caution |
+|---|---|---|
+| Belle Vue farm: 1,369 → over 4,500 sheep and eighteen settlers by 1859; land dispute before pig | NPS, The Pig War https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm | Counts refer to flock/settlers, not military force; do not imply cause of pig's behavior |
+| Cutlar offered to pay; British $100 demand and arrest threat | NPS Lyman Cutlar Homestead https://www.nps.gov/places/lyman-cutlar-homestead.htm | Narrative details are a later institutional account; do not invent exact quotations, motivation or exact arrest date |
+| Harney sends Pickett 64 soldiers; Douglas sends 31-gun HMS Tribune with order to avoid a clash, Satellite/Plumper follow | NPS The Pig War https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm | Arrival day inconsistent across two NPS sources (July 26 vs 27); script says late July only |
+| 461 American soldiers and 14 field guns by Aug 31; British shot at rocky bluffs during drills; officers attended services | NPS The Pig War same URL, August standoff paragraphs | No attack on American troops occurred; drills must not be depicted as firing at soldiers |
+| Rear Admiral Baynes opposes escalation; President Buchanan sends Scott; reduction and Scott/Douglas negotiated joint occupation | NPS The Pig War same URL, Scott paragraphs | Do not credit Baynes or Scott alone with deciding sovereignty |
+| British Royal Marines establish English Camp March 1860, troops exchange holiday visits, US camp active during Civil War | NPS American Camp https://home.nps.gov/sajh/learn/historyculture/american-camp.htm and NPS park archive https://npshistory.com/publications/sajh/index.htm | No claim of universal friendship, zero deaths across entire occupation, or exact simulated daily scenes |
+| 1871 Treaty of Washington; 3-member commission in Geneva; award 21 Oct 1872 for Haro, British departure Nov 1872, last US forces 1874 | NPS The Pig War and primary FRUS document https://history.state.gov/historicaldocuments/frus1872p2v5/d156 | Sovereignty ruling and later physical withdrawal are distinct events |
+
+**Source reliability:** original treaty https://avalon.law.yale.edu/19th_century/br-1846.asp and contemporary government award FRUS provide primary legal evidence; NPS provides historical synthesis for actions and counts. Scottish/Canadian historical identity, tribal sovereignty and later settlement context not explored fully; do not claim total historical completeness. Demand validation remains UNVERIFIED; OverSimplified public views are NOT predicted channel retention or CTR.
+
+**Baseline vs variants:** the original root scripts and 17 original storyboard scene spans are preserved unchanged; 02m/05m/10m use newly written compositions and must get new scene counts based on exact selected text. New Short has a different grammatical loop from the original colon-based one; AV seam still UNVERIFIED.
