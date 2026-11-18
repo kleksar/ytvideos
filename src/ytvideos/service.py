@@ -1557,8 +1557,10 @@ class Production:
                 raise Conflict("all associated provider operations must be reconciled as " + " or ".join(sorted(required)))
             current_input = input_hash(run, task)
             if old_claim["input_hash"] != current_input:
-                from .migration import confirmed_audio_recovery
-                if outcome != "completed" or not confirmed_audio_recovery(self, run, task, operations):
+                from .migration import confirmed_audio_recovery, held_image_recovery
+                if not ((outcome == "completed" and confirmed_audio_recovery(self, run, task, operations))
+                        or (outcome in {"completed", "not_performed"}
+                            and held_image_recovery(self, run, task, operations))):
                     raise Conflict("reconciled result belongs to obsolete inputs")
             if outcome == "not_performed":
                 run["budget"]["reserved"] -= old_claim["estimated_units"]
