@@ -226,6 +226,45 @@ def validate_srt(path, *, duration, project_root):
     return {"cues": len(cues), "last_end_seconds": previous_end, "media_duration_seconds": duration}
 
 
+def validate_preview_alignment(path, *, transcript, audio_sha256, srt, duration, project_root):
+    """Technical candidate alignment only; never evidence of audible words/sync."""
+    import hashlib
+    source = json.loads(Path(path).read_text())
+    display = str.maketrans('', '', '\"“”„‟«»')
+    def tokens(text):
+        return [t for token in text.split() if (t := token.translate(display))]
+    words = source.get("words") if isinstance(source, dict) else None
+    if (not words or not isinstance(words, list) or any(not isinstance(w, dict) for w in words)
+            or source.get("audio_sha256") != audio_sha256
+            or source.get("transcript_sha256") != hashlib.sha256(transcript.strip().encode()).hexdigest()
+            or [w.get("text") for w in words] != tokens(transcript)):
+        raise WorkflowError("candidate word map must preserve exact transcript and accepted audio")
+    previous_end = 0.0
+    for word in words:
+        start, end = word.get("start"), word.get("end")
+        if (type(start) not in (int, float) or type(end) not in (int, float)
+                or not math.isfinite(start) or not math.isfinite(end)
+                or not 0 <= start < end <= duration or start < previous_end):
+            raise WorkflowError("candidate word map has invalid timing bounds")
+        previous_end = end
+    validate_srt(srt, duration=duration, project_root=project_root)
+    spec = importlib.util.spec_from_file_location("ytvideos_preview_srt",
+        Path(project_root) / "automation/helpers/srt/scripts/srt_tool.py")
+    parser = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(parser)
+    index = 0
+    for cue in parser.parse_srt(Path(srt).read_text()):
+        group = tokens(cue["text"])
+        selected = words[index:index + len(group)]
+        if (not group or [w["text"] for w in selected] != group
+                or abs(float(cue["start_seconds"]) - selected[0]["start"]) > .0011
+                or abs(float(cue["end_seconds"]) - selected[-1]["end"]) > .0011):
+            raise WorkflowError("candidate SRT groups must match word order and alignment bounds")
+        index += len(group)
+    if index != len(words):
+        raise WorkflowError("candidate SRT omits aligned words")
+
+
 def validate_review(path, *, render_path, render_sha256, require_audio=True):
     try:
         review = json.loads(Path(path).read_text())

@@ -136,4 +136,6 @@ Completion проверяет audio через ffprobe/полное decode, а S
 
 ## Недоступное прослушивание при производстве
 
-Отсутствие реального прослушивания не блокирует генерацию, монтаж и выдачу MP4 для проверки владельцем. Непрослушанные listening/no_speech и проверку слышимого exact_text в audio сохранять как UNVERIFIED по [контракту](../operations/task-contract.md#audio-production-before-listening), с точным hash и причиной. Это не PASS: финальная приёмка и публикация по-прежнему требуют отдельной проверки. Измерения и запуск плеера не подменяют слух.
+Отсутствие реального прослушивания не блокирует генерацию, монтаж и выдачу MP4 для проверки владельцем. Непрослушанные listening/no_speech и проверку слышимого exact_text в audio и exact_speech/timing в subtitles сохранять как UNVERIFIED по [контракту](../operations/task-contract.md#audio-production-before-listening), с точным hash и причиной. Это не PASS: финальная приёмка и публикация по-прежнему требуют отдельной проверки. Измерения и запуск плеера не подменяют слух.
+
+Preview SRT без слуха должен точно соответствовать сохранённой candidate word map и принятому audio/source по техническому контракту. Native alignment и его speed/offset conform не доказывают audible sync: deferred checks остаются UNVERIFIED до финального прослушивания. Числовые bounds, порядок слов и canonical grouping/render checks не откладываются.

@@ -203,6 +203,90 @@ class SourceScriptTests(unittest.TestCase):
             with self.subTest(defect=defect), self.assertRaises(WorkflowError):
                 self.service._validate_receipt(changed_run, changed_task, claim, artifact, bad)
 
+    def test_subtitle_preview_defers_hearing_only_with_exact_valid_alignment(self):
+        import hashlib
+        self.accept()
+        self.service.capabilities(self.run_id, {"audio.listen": False}, evidence="No hearing interface")
+        audio = self.service.artifacts.put(self.script_path, "audio")
+        def accepted_audio(tx, run):
+            run["artifacts"][audio["id"]] = audio
+            run["tasks"]["audio"].update(status="complete", outputs=[audio["id"]])
+        self.service.store.mutate(self.run_id, accepted_audio)
+        transcript = self.script_path.read_text().strip()
+        display = str.maketrans('', '', '\"“”„‟«»')
+        words = [{"text": token.translate(display), "start": i * 2, "end": i * 2 + 1}
+                 for i, token in enumerate(transcript.split()) if token.translate(display)]
+        def stamp(seconds):
+            return f"{seconds // 3600:02}:{seconds // 60 % 60:02}:{seconds % 60:02},000"
+        srt = self.fixture.output("\n\n".join(f"{i+1}\n{stamp(w['start'])} --> {stamp(w['end'])}\n{w['text']}"
+                                  for i, w in enumerate(words)) + "\n", "candidate.srt")
+        artifact = self.service.artifacts.put(srt, "srt")
+        data = {"audio_sha256": audio["sha256"], "transcript_sha256": hashlib.sha256(transcript.encode()).hexdigest(),
+                "words": words, "status": "UNVERIFIED_SYNC"}
+        path = self.fixture.output(data, "candidate.words.json")
+        run = self.service.store.get(self.run_id)
+        task = run["tasks"]["subtitles"]
+        claim = {"worker": "aligner", "input_hash": "synthetic"}
+        observed = {"artifact_sha256": audio["sha256"], "script_sha256": file_digest(self.script_path),
+                    "subtitle_sha256": artifact["sha256"], "word_map": {"path": str(path), "sha256": file_digest(path)},
+                    "reason": "Provider candidate, not audibly verified"}
+        receipt = {"run_id": self.run_id, "task_id": "subtitles", "worker": "aligner", "input_hash": "synthetic",
+                   "output_sha256": artifact["sha256"], "checks": [{"name": name, "status": "unverified",
+                   "method": "native alignment plus technical checks", "observed": observed}
+                   for name in ("exact_speech", "timing")]}
+        with patch("ytvideos.media_checks.probe_media", return_value={"duration_seconds": len(words)*2+1}):
+            self.service._validate_receipt(run, task, claim, artifact, receipt)
+            for defect in ("audio", "script", "srt", "wordmap_hash", "false_pass", "available", "review", "audio_pending"):
+                bad = json.loads(json.dumps(receipt))
+                changed_run = json.loads(json.dumps(run))
+                changed_task = task
+                check = bad["checks"][0]
+                if defect in {"audio", "script", "srt"}:
+                    check["observed"][{"audio": "artifact_sha256", "script": "script_sha256", "srt": "subtitle_sha256"}[defect]] = "0"*64
+                elif defect == "wordmap_hash":
+                    check["observed"]["word_map"]["sha256"] = "0"*64
+                elif defect == "false_pass":
+                    check["status"] = "pass"
+                elif defect == "available":
+                    changed_run["capabilities"]["audio.listen"] = {"available": True, "evidence": "synthetic available"}
+                elif defect == "review":
+                    changed_task = run["tasks"]["review"]
+                    bad["task_id"] = "review"
+                else:
+                    changed_run["tasks"]["audio"]["status"] = "pending"
+                with self.subTest(defect=defect), self.assertRaises(WorkflowError):
+                    self.service._validate_receipt(changed_run, changed_task, claim, artifact, bad)
+        from ytvideos.media_checks import validate_preview_alignment
+        for defect in ("text", "overlap", "nan", "out_of_bounds", "audio"):
+            bad = json.loads(json.dumps(data))
+            if defect == "text":
+                bad["words"][0]["text"] = "different"
+            elif defect == "overlap":
+                bad["words"][1]["start"] = 0
+            elif defect == "nan":
+                bad["words"][0]["start"] = float("nan")
+            elif defect == "out_of_bounds":
+                bad["words"][-1]["end"] = len(words)*2+5
+            else:
+                bad["audio_sha256"] = "0"*64
+            bad_path = self.fixture.output(bad, "invalid.words.json")
+            with self.subTest(defect=defect), self.assertRaises(WorkflowError):
+                validate_preview_alignment(bad_path, transcript=transcript, audio_sha256=audio["sha256"],
+                                           srt=srt, duration=len(words)*2+1, project_root=self.service.project)
+
+        for defect in ("text", "start", "omitted"):
+            content = srt.read_text()
+            if defect == "text":
+                content = content.replace(words[0]["text"], "WRONG", 1)
+            elif defect == "start":
+                content = content.replace("00:00:00,000", "00:00:00,100", 1)
+            else:
+                content = "\n\n".join(content.strip().split("\n\n")[:-1]) + "\n"
+            bad_srt = self.fixture.output(content, "bad.srt")
+            with self.subTest(srt_defect=defect), self.assertRaises(WorkflowError):
+                validate_preview_alignment(path, transcript=transcript, audio_sha256=audio["sha256"],
+                                           srt=bad_srt, duration=len(words)*2+1, project_root=self.service.project)
+
     def test_no_speech_production_defers_listening_but_not_identity(self):
         self.accept()
         self.service.capabilities(self.run_id, {"audio.listen": False}, evidence="synthetic unavailable hearing")
