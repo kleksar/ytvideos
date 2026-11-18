@@ -155,6 +155,28 @@ class SourceScriptTests(unittest.TestCase):
         with self.assertRaises(WorkflowError):
             self.service._validate_receipt(run, review_task, claim, artifact, bad)
 
+    def test_no_speech_production_defers_listening_but_not_identity(self):
+        self.accept()
+        self.service.capabilities(self.run_id, {"audio.listen": False}, evidence="synthetic unavailable hearing")
+        run = self.service.store.get(self.run_id)
+        artifact = self.service.artifacts.put(self.script_path, "audio")
+        for stage, names in (("audio", ["source_identity", "listening", "no_speech"]),
+                             ("subtitles", ["no_speech"])):
+            task = run["tasks"][stage]
+            claim = {"worker": "synthetic-producer", "input_hash": "fixture"}
+            checks = [{"name": name, "status": "pass" if name == "source_identity" else "unverified",
+                       "method": "synthetic contract test", "observed": {"fixture": True} if name == "source_identity" else
+                       {"artifact_sha256": artifact["sha256"], "reason": "No listening interface"}} for name in names]
+            receipt = {"run_id": self.run_id, "task_id": stage, "worker": claim["worker"],
+                       "input_hash": "fixture", "output_sha256": artifact["sha256"], "checks": checks}
+            with self.subTest(stage=stage), patch.object(self.service, "requirements", return_value={"speech": {"mode": "none"}}), \
+                 patch.object(self.service, "_artifact", return_value=artifact), \
+                 patch("ytvideos.media_checks.probe_media", return_value={"duration_seconds": 1}):
+                self.service._validate_receipt(run, task, claim, artifact, receipt)
+                checks[0]["status"] = "fail"
+                with self.assertRaises(WorkflowError):
+                    self.service._validate_receipt(run, task, claim, artifact, receipt)
+
     def test_audio_generation_still_requires_provider_and_budget(self):
         self.accept()
         with self.assertRaisesRegex(WorkflowError, "audio.produce"):
