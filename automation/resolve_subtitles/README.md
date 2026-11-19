@@ -1,4 +1,4 @@
-# Native editable subtitle command (first slice)
+# Native editable subtitle command
 
 ```sh
 python automation/resolve_subtitles/command.py request.json --output channels/CHANNEL/videos/EPISODE/Work/Captions
@@ -8,7 +8,7 @@ Default is **offline planning only**, never an app connection, ASR call, render 
 All speech channels use the same command, but channel/format policy remains authoritative.
 This is not yet an automatic replacement for Paper/Nuviko branded on-screen captions.
 
-## Exact inputs and three modes of one command
+## Exact inputs and modes of one command
 
 1. In a coordinator-granted exclusive Resolve slot, run the command with `--inspect
    --exclusive-session`. The request needs `target` with exact saved `project_id`,
@@ -76,18 +76,45 @@ silently deleted or overwritten. A failed/timed-out mutation is UNKNOWN: inspect
 state before retrying; do not duplicate imports on a guessed failure. Only one worker
 may mutate the instance; the CLI flag records a grant, it cannot enforce other agents.
 
-`plan.json` records channel style/geometry. Native CC style remains the app's timed-text
-style: the command **does not install profile-branded Text+ or a word-highlight layer**.
-`branded_style: NOT_APPLIED`, `visual/playback: UNVERIFIED` are intentional blockers for
-claiming a complete screen-caption migration. Paper/Nuviko settings are not flattened
-or replaced with a generic font. Existing legacy renderers are not removed or migrated.
+## Branded editable captions (bounded native recipes)
 
-For the later branded implementation, the verified Paper route uses native transparent
-Background → Text+ word nodes → Merge → MediaOut on a dedicated owned lane, followed by
-`.comp` save and unconditional import/activation. Live direct-graph node values alone
-once looked valid while output was blank. A native compositor sample before/on/after
-real word boundaries and every section is required; this command does not yet perform
-that authoring. Channel-approved geometry, fonts, grouping and gaps must remain separate.
+`--apply-branded --exclusive-session` adds a dedicated editable Text+ lane to a new
+owned candidate, and independently authors disabled native CC from speech timings.
+It uses the same verified final-VO/source snapshot as `--apply-native-cc`. Supply:
+
+```json
+{"branded": {"recipe_id": "paper-short-v09", "existing_screen_caption_tracks": [],
+  "shots": [{"id": "shot-01", "carrier_id": "EXACT_NATIVE_ITEM_ID",
+    "start_frame": 0, "end_frame": 30}]}}
+```
+
+Shots are ordered, contiguous, absolute half-open intervals covering the selected
+caption groups. Each carrier must be an existing unity-rate source video item covering
+that interval. Explicit replacement tracks are disabled **only on the candidate**;
+otherwise original tracks remain unchanged. Existing burned-in text cannot be removed
+by this command: use a clean approved source, never silently double it.
+
+Current calibrated recipe is **Paper Detour Short, Flagship v09, 1440×2560** with the
+installed Chalkboard SE Bold face. This is not a generic Paper raster or Nuviko style.
+An unsupported recipe, changed active colors/font/raster, missing font or over-wide
+phrase fails rather than substituting, shrinking or flattening. Native Nuviko panel
+and metrics remain pending separate calibration; legacy channel renderers are not
+removed or automatically migrated.
+
+A group can persist through a picture cut, including a word spanning that cut; a new
+group starts only at its authored boundary. Highlight follows actual word intervals,
+neutral text persists through internal pauses. Speech-only SRT does not inherit display
+holds. `partition.py` tests these independently of typography and native authoring.
+
+The installed official MCP bridge creates native transparent Background → Text+ words
+→ Merge → MediaOut, serializes each `.comp`, then unconditionally imports and activates
+it. This rebind is essential: live-created graph values once looked valid while actual
+output was blank. Exact text, geometry, phrase intervals and source state are read back;
+a repeated unchanged request reuses the same owned candidate. Receipts distinguish
+`NATIVE_AUTHORED` from `visual/playback: UNVERIFIED`: a successful graph import is not
+visual or listening QA. Use native compositor samples around word/group/cut boundaries
+and native playback before accepting. No render, upload or source timeline replacement
+is performed.
 
 ## Evidence and acceptance
 
@@ -108,8 +135,13 @@ getters returned false, so source flags are captured while active and candidate 
 are checked only while it is active; a duplicate omitted entirely unused disabled AI
 audio defaults. Comparison normalizes only Voice Isolation/Dialogue Leveler families
 whose values are all false/zero, never enabled or nonzero latent settings. The exact
-source snapshot itself is not normalized. Prior episode-specific Text+ proof does not
-upgrade this command's branded-caption status.
+source snapshot itself is not normalized. A subsequent disposable Paper fixture exercised this command's branded path using a
+short excerpt of the approved final VO, four picture sections and three independent CC
+cues. CREATED → UNCHANGED retained one candidate; the original production view was
+restored. Twelve actual native compositor samples verified neutral pause hold across
+a cut, highlight across a mid-phrase cut, and a new group at an intentional boundary.
+This is bounded Paper visual evidence, not full narration alignment/listening QA or
+Nuviko profile validation. No production project content was modified or exported.
 
 Before acceptance: inspect exact cue starts/ends/text, preserved VO and picture, visible
 safe area and no double captions; play early/middle/late, pause/resume and shot joins in
