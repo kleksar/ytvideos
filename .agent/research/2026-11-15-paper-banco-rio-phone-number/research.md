@@ -57,7 +57,7 @@ Read remote main SHA 5d3222c8888c775d2195c8b2949949f2d992e98d, 107 PRs overall, 
 
 Paper wins over Shed on independent chain of consequences not exhausted by premise, and over Antwerp on the paired hostage-siege diversion and explicit investigative leak; this is an author's comparison, not experimental audience ranking. Fully staged EN/RU before detailed prompts; no provider spend, actual audio timing, media generation, independent reviewer or user approval. Film packaging must not call this a harmless crime and must deliver the promised phone number, not just a tunnel escape.
 
-## Revision evidence — 2026-11-19, factual additions specifically for 10m
+## Revision evidence — 2026-11-19, factual correction used in 02m and 10m
 
 - The 2006 prosecutor/investigation account gives a small basement opening, drainage access, semi-rigid boats, a water-raising dam and the getaway vehicle: https://www.lanacion.com.ar/sociedad/el-robo-del-siglo-a-juicio-oral-nid1043753/ (2008-08-25). Article describes a prosecution reconstruction, **not independently witnessed complete escape footage**. Our narration avoids disputed exact tunnel lengths and counts.
 - Sileo's later first-person account of the hostage situation and armed guard released with his weapon: https://www.lanacion.com.ar/seguridad/robo-del-siglo-no-fue-obra-maestra-nid2568110/ (2021-01-14). His recollections are attributed, not forensic proof of every weapon.
