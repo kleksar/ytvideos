@@ -6,6 +6,12 @@ For future videos across channels, prefer Deliver's built-in YouTube preset and 
 
 If the native route cannot verify destination, visibility, mandatory fields or completion, stop that upload, preserve job state and report the concrete blocker. Do not silently redirect to another account/tool or duplicate an UNKNOWN upload. Preserve rights, review and Studio read-back, and exact-file approval where the selected route requires a pre-existing file. Existing baked projects require scoped migration rather than a false claim of native reconstruction.
 
+### Codec for new native Deliver renders
+
+Set video codec to **H.265 (HEVC)** for new DaVinci Resolve Deliver jobs, retaining the approved container, dimensions, FPS, color and audio settings. This does not change historical H.264 evidence, existing exports, pinned artifacts, or the separate legacy FFmpeg recipe. If an approved scope explicitly pins H.264 for a new output, surface the conflict before queueing instead of changing it silently.
+
+For an authorized direct upload, start from the **YouTube 1080p** preset and retain the approved raster/orientation, `Upload directly` and the authorized privacy (`Unlisted` for Vice Wreckroom). In the active preset, select H.265 and read back both the codec and the enabled direct-upload option together, plus channel, privacy and required fields, **before adding a job**. If H.265 is absent, switching codecs disables direct upload, or both cannot be verified, report that exact blocker. Do not silently revert to H.264, switch to a local-only job, or enqueue twice. This is a preflight requirement, not evidence that every host/account exposes both settings.
+
 ### One dispatch for an approved cut
 
 When the owner approves the exact saved timeline revision/range and explicitly requests both render and upload, this is one dispatch, not a local-export handoff. Before adding or starting any job, match that exact revision/range, verify render settings and the destination channel ID in Resolve, read back the requested visibility (e.g. Unlisted for Vice Wreckroom), verify required metadata and rights, and check that no matching job or upload is already running or unresolved. If account, settings, rights, paywall, or another applicable release gate objectively blocks the job, report that blocker before enqueueing rather than substituting a local export.
@@ -16,13 +22,13 @@ With preflight complete, submit exactly one native Deliver YouTube job with `Upl
 
 Если владелец просит посмотреть видео в DaVinci, результат — редактируемая timeline и её playback/QA, без добавления или запуска полного либо тестового render job. Экспорт допустим только по явному поручению или как уже согласованная часть deliverable. Упоминание test/intermediate export в диагностике ниже само по себе не разрешает рендер ради QA. Пока экспорт не поручен, фиксировать проверенные timeline/range и наблюдения playback; не заявлять проверку exact MP4. Существующую очередь не менять и не отменять на основании этого правила.
 
-Использовать native Deliver queue в существующем проекте только при порученном рендере. Сверить exact timeline/job, range, video/audio codec, geometry/fps, bitrate/channel/sample rate с [delivery](../../../../docs/standards/delivery.md) и профилем. Проверенная комбинация H.264/AAC не отменяет канальные параметры. Не рендерить другой открытый проект; дождаться job completion, не считать enqueue успехом.
+Использовать native Deliver queue в существующем проекте только при порученном рендере. Сверить exact timeline/job, range, video/audio codec, geometry/fps, bitrate/channel/sample rate с [delivery](../../../../docs/standards/delivery.md) и профилем. Использовать codec по правилу выше, не подменяя остальные параметры каналов. Не рендерить другой открытый проект; дождаться job completion, не считать enqueue успехом.
 
 Если brief требует музыку с титульного начала, прослушать exact export с 0:00: музыка должна быть намеренно слышна, наличие waveform не является проверкой.
 
 Probe + полный decode итогового файла, длительность/число кадров, первый/средний/последний кадры планов и склейки, прослушивание sync/mix, alpha/captions/font/safe area. Screenshots viewer, track counts и отсутствие ошибок API не заменяют проверки exact MP4. Сохранить SHA-256, render settings, job result, sources/rights и QA. Передать exact export по обычному delivery workflow; не удалять единственные исходники.
 
-Для проверенного Short-пресета: **1080×1920, 30 fps, H.264/AAC**; остальные параметры взять из утверждённого выпуска/профиля и сверить read-back. Утверждённый mix **не нормализовать автоматически** и не включать новую loudness processing ради preset: любое изменение должно относиться к порученной правке и пройти повторное прослушивание. Это не перенос Short-пресета на Long или каналы с другой pixel policy.
+Для описанного вертикального Short: **1080×1920, 30 fps**; целевой codec нового Resolve render — **H.265**, с сохранением утверждённых параметров аудио. Исторически проверенный Short-пресет H.264/AAC не является проверкой HEVC; остальные параметры взять из утверждённого выпуска/профиля и сверить read-back. Утверждённый mix **не нормализовать автоматически** и не включать новую loudness processing ради preset: любое изменение должно относиться к порученной правке и пройти повторное прослушивание. Это не перенос Short-пресета на Long или каналы с другой pixel policy.
 
 ## Цветные полосы и другие кратковременные дефекты
 
