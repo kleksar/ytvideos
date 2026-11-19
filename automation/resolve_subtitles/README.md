@@ -6,7 +6,11 @@ python automation/resolve_subtitles/command.py request.json --output channels/CH
 
 Default is **offline planning only**, never an app connection, ASR call, render or upload.
 All speech channels use the same command, but channel/format policy remains authoritative.
-This is not yet an automatic replacement for Paper/Nuviko branded on-screen captions.
+This is not yet an automatic replacement for branded on-screen captions on any channel.
+`--apply-native-captions` fails closed: the independently editable, exactly styled
+legacy request route cannot author independent phrases. Use the separate bounded
+`titles_command.py` contract below; Plain CC is not its fallback.
+All channels require the [independent phrase delivery gate](../../.agents/skills/ytv-resolve/references/timeline.md#independent-phrase-delivery-gate).
 
 ## Exact inputs and modes of one command
 
@@ -76,9 +80,20 @@ silently deleted or overwritten. A failed/timed-out mutation is UNKNOWN: inspect
 state before retrying; do not duplicate imports on a guessed failure. Only one worker
 may mutate the instance; the CLI flag records a grant, it cannot enforce other agents.
 
-## Branded editable captions (bounded native recipes)
+## Legacy section-based branded recipe (reference/recovery only)
 
-`--apply-branded --exclusive-session` adds a dedicated editable Text+ lane to a new
+This previously verified path attaches a graph to picture sections: it does **not**
+provide an independently movable timeline clip per semantic phrase. It is not the
+current production default, even though Text+ nodes inside it are editable. The CLI
+rejects it without the explicit recovery flag. Recovery is not delivery acceptance.
+The future production route must use native Subtitle Track Style when actual app
+proof matches the exact approved style, or separate real native Fusion Title items
+per phrase. Do not invent a supported style API, remove whole-phrase holds to fit CC,
+or claim automatic white text/Georgia/background application from SRT import.
+
+## Historical bounded recipe details
+
+`--apply-branded --legacy-reference-recovery --exclusive-session` adds a dedicated editable Text+ lane to a new
 owned candidate, and independently authors disabled native CC from speech timings.
 It uses the same verified final-VO/source snapshot as `--apply-native-cc`. Supply:
 
@@ -200,3 +215,112 @@ following native frames and the audible phrase before acceptance. Offline regres
 cover late cuts, pause holds, cross-cut speech and immutable CC. The optional anchored
 path has **not yet received a live native fixture**; this does not upgrade its playback
 or visual status, and it never authorizes changes to a production timeline.
+
+## Legacy artifact inventory and migration boundary
+
+- `automation/subtitles/nuviko_long_subtitles.py` renders transparent word-highlight
+  **MOV** overlays (including ProRes 4444), not an editable Subtitle track.
+- `automation/helpers/paper-captions/scripts/render_paper_captions.py` creates raster
+  caption imagery; `automation/image_motion/layered_render.py` composites layers.
+  These tools remain for pinned historical reconstruction/reference, not a silent
+  fallback for the active Resolve caption route. Do not call every old artifact MP4:
+  inspect its actual codec/container and timeline role.
+- `branded_native.py` creates editable node graphs on section carriers, with separate
+  disabled CC. Its historical visual fixtures do not establish per-phrase clip editing.
+- `native.py` imports independent native Subtitle cues, currently disabled as separate
+  accessibility CC. It does not apply the channel's branded visual style or display holds.
+
+Next implementation proof: isolated candidate, actual supported Track Style or native
+Title creation, exact whole-phrase display partition and typography, per-cue Inspector
+edit/move/restore, old-carrier removal on candidate, save/reopen/readback and native
+playback. Keep production blocked until these checks pass; do not enable plain ST1 as
+an unapproved temporary branded substitute. No Resolve call or new live fixture was
+performed for this routing guard; prior bounded evidence above remains historical.
+
+## Independent native Text+ phrase route (bounded implementation)
+
+For visible captions on **all channels**, use one real native Text+ Title per semantic
+phrase on a normal video track. Optional accessibility CC is separate. Channel branding
+is authoritative: this contract does not make Georgia, white, a font reduction or any
+particular phrase merge universal. A semantic display phrase is not necessarily one
+speech-only SRT cue. Keep exact approved whole-phrase intervals/holds, not fixed cadence.
+
+`titles_command.py` is the new offline/batched route. The original command's
+`--apply-native-captions` guard remains closed to prevent accidental old request routing.
+Use the explicit request contract below, not a legacy branded request:
+
+```sh
+python automation/resolve_subtitles/titles_command.py request.json --output Work/TitleCandidate
+# Only inside a granted exclusive native slot, one bounded batch per invocation:
+python automation/resolve_subtitles/titles_command.py request.json --output Work/TitleCandidate --batch-start 0 --batch-size 5 --exclusive-session
+```
+
+The request retains `target`, `native_snapshot`, exact narration `placements` from the
+existing inspect/voice validation contract, original `words` with placement IDs and
+reviewed `keep_together` spans. Add `native_titles`: `locale`, `groups` (reviewed
+word-index lists separate from speech CC grouping), `recipe_id`, exact
+`style`, `display_evidence: {kind: approved_display_intervals, source: ...}`,
+`replace_tracks` (explicit old-caption-only video track indices, never base V1),
+`insertion_timecode` (exact source end, integer-rate timecode), and `display_clips`.
+Each clip has absolute integer `start_frame`, exclusive `end_frame`, full `text`,
+`width_review: native_verified`, and approved `panel` geometry/color. The list covers
+the target continuously. The canonical grouping validator requires every original
+word exactly once, exact displayed text, no speech-cut crossing and no split protected
+`keep_together` span. Direct free-text strings cannot bypass the reviewed token map.
+Russian locale additionally rejects stranded governing prepositions (for example
+`шли мимо с` / `Дмитрием`) through the existing semantic-grouping module, using its
+sentence/punctuation rules. This narrow sanity gate is not a complete Russian parser:
+conjunctions, negation and dependent phrases still require editorial review. Recheck
+width and word-aligned boundary after regrouping, without modifying ordinary CC. See `test_phrase_plan.py` for a synthetic schema example,
+not alignment or visual evidence. Inspect each whole phrase's actual fit; do not shrink
+or split automatically, or claim a supplied review flag is independent evidence.
+
+Only the measured 608×1080 Georgia Bold white recipe is currently implemented:
+`georgia-white-608x1080-native-v1`. The distinct
+`svin-white-608x1080-owner-smaller-v1` records the owner's **episode-specific** smaller
+font revision. Its supported size is explicit, not a global multiplier/default.
+A user-approved merge of adjacent display phrases is supplied as a new full text/span
+and reviewed panel width; speech CC remains unchanged. Other profiles/raster/style
+requests fail closed until separately calibrated. There is no Georgia fallback.
+
+The adapter creates a protected duplicate and a dedicated video lane, inserts stock
+`Text+` at the verified empty timeline end, trims via the installed supported
+`SetRightOffset`, moves via `SetPosition`, imports and activates a sanitized native
+phrase graph. Each resulting item must have `MediaPoolItem=None`, one composition,
+exact start/end, independently editable `Template.StyledText`, expected graph
+connections/font/color/panel. Readback also requires constant `Merge1.Blend=1`,
+full `Template`/`Panel` GlobalIn/GlobalOut and exact composition global/render ranges;
+missing or shortened range metadata fails closed rather than returning UNCHANGED.
+These guards have offline regressions, but the new range-attribute readback still
+requires disposable native integration proof. Source video/audio, CC text/timing and original view
+remain preserved. No media carrier, render or upload is created. Batches contain at
+most five titles. Resize only in verified empty staging space, **before** moving to
+the crowded destination lane: extending in place can trim the next native title.
+Existing placed clips are not resized by this adapter; rebuild an isolated candidate
+for a new plan and verify the entire topology. Persisted pending/done markers and graph readback allow unchanged
+rechecks; an uncertain partial item refuses retry instead of duplicating work.
+
+After actual native review, add `native_review` with exact plan `token`, provenance
+`source` and completed `visual`, `playback`, `independent_edit_move_restore`, `style`
+checks, then use `--finalize --exclusive-session`. Only then does the adapter remove
+the explicitly declared old caption clips **from the candidate**, after rechecking
+native titles and source IDs. Source/rollback/media remain untouched. This evidence is
+owner/operator-supplied, not created by the CLI. It is not permission to render.
+
+### Evidence boundary
+
+The operational worker exercised the same native APIs on 2026-11-19: true title
+creation, exact right-offset duration, move, text edit/restore and visible frame;
+29 independent continuous phrase titles were authored with original speech CC separate.
+The subsequent specifically requested first-phrase merge/font change produced 28 titles
+without changing the 29 speech cues. Those operational fixtures are not a live execution
+of this refactored CLI. UI Inspector screenshot evidence was not captured; do not label
+that test PASS based on API readback. The reusable implementation requires its own
+isolated integration run, idempotence/restore checks and native visual/playback acceptance
+before broad rollout. Keep this PR drafted until that proof and required CI/review pass.
+
+A reported Svin viewer error “No frame available for MediaOut1” occurred inside a
+title interval. Its cause is not established by these checks: static graph/range
+readback is not compositor or playback evidence. Inspect actual first/interior/last
+frames and transitions and listen in the isolated candidate before delivery. Do not
+label the operational screenshot issue resolved by an offline regression.

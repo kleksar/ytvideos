@@ -510,3 +510,29 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
         left, right = next(iter(exceptions))
         raise ValueError("unused subtitle boundary exception: " + left + " / " + right)
     return groups
+
+# Locale-scoped display-plan preflight; intentionally not a Russian grammar parser.
+# Unambiguous governing prepositions only, not ambiguous adverbs/particles ('около',
+# 'после', 'мимо') or conjunctions. Existing sentence/punctuation helpers own parsing.
+RUSSIAN_BOUND_PREPOSITIONS = frozenset('в во с со к ко о об обо от ото до из изо у без безо для при через над надо под подо перед передо про ради'.split())
+
+
+def validate_display_phrase_boundaries(phrases: Sequence[str], locale: str) -> None:
+    """Reject a Russian preposition stranded before its following display phrase.
+
+    This does not rewrite text/timings or touch accessibility CC. Other locales and
+    grammatical ambiguities still need their existing editorial review. Sentence-end
+    punctuation is respected (including quoted metalinguistic examples).
+    """
+    if str(locale).lower().replace('_', '-').split('-')[0] != 'ru':
+        return
+    for index, (left, right) in enumerate(zip(phrases, phrases[1:])):
+        tokens = str(left).split()
+        if not tokens or not str(right).strip():
+            continue
+        last = tokens[-1]
+        if is_sentence_end(last):
+            continue
+        if bare(last) in RUSSIAN_BOUND_PREPOSITIONS:
+            raise ValueError(f'Display phrase {index} strands Russian preposition {last!r}; '
+                             'regroup it with its dependent phrase and recheck width/timing')

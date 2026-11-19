@@ -1,0 +1,120 @@
+Composition {
+	CurrentTime = 0,
+	RenderRange = { 0, __END__ },
+	GlobalRange = { 0, __END__ },
+	CurrentID = 6,
+	HiQ = true,
+	Proxy = false,
+	PlaybackUpdateMode = 0,
+	StereoMode = false,
+	Version = "DaVinci Resolve Studio 21.2.0.0005",
+	SavedOutputs = 0,
+	HeldTools = 0,
+	DisabledTools = 0,
+	LockedTools = 0,
+	AudioOffset = 0,
+	Resumable = true,
+	OutputClips = {
+	},
+	CustomData = {
+		TEMPLATE_ID = "Text+"
+	},
+	Tools = {
+		Template = TextPlus {
+			Inputs = {
+				GlobalOut = Input { Value = __END__, },
+				Width = Input { Value = 608, },
+				Height = Input { Value = 1080, },
+				Center = Input { Value = { 0.5, 0.195634920634921 }, },
+				StyledText = Input { Value = __TEXT__, },
+				Font = Input { Value = "Georgia", },
+				Style = Input { Value = "Bold", },
+				Size = Input { Value = __SIZE__, },
+				VerticalJustificationNew = Input { Value = 3, },
+				HorizontalJustificationNew = Input { Value = 3, }
+			},
+			ViewInfo = OperatorInfo { Pos = { 220, 49.5 } },
+			Version = 1
+		},
+		Rectangle1 = RectangleMask {
+			Inputs = {
+				Filter = Input { Value = FuID { "Fast Gaussian" }, },
+				MaskWidth = Input { Value = 608, },
+				MaskHeight = Input { Value = 1080, },
+				PixelAspect = Input { Value = { 1, 1 }, },
+				UseFrameFormatSettings = Input { Value = 1, },
+				ClippingMode = Input { Value = FuID { "None" }, },
+				Center = Input { Value = { __PANEL_X__, 0.19212962962963 }, },
+				Width = Input { Value = __PANEL_WIDTH__, },
+				Height = Input { Value = 0.0638888888888889, }
+			},
+		},
+		Panel = Background {
+			Inputs = {
+				GlobalOut = Input { Value = __END__, },
+				Width = Input { Value = 608, },
+				Height = Input { Value = 1080, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				TopLeftRed = Input { Value = 0.125490196078431, },
+				TopLeftGreen = Input { Value = 0.145098039215686, },
+				TopLeftBlue = Input { Value = 0.168627450980392, },
+				TopLeftAlpha = Input { Value = 0.8, },
+				EffectMask = Input {
+					SourceOp = "Rectangle1",
+					Source = "Mask",
+				}
+			},
+		},
+		Merge1 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Panel",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Template",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, }
+			},
+		},
+		MediaOut1 = MediaOut {
+			Inputs = {
+				Index = Input { Value = "0", },
+				Input = Input {
+					SourceOp = "Merge1",
+					Source = "Output",
+				}
+			},
+			ViewInfo = OperatorInfo { Pos = { 440, 49.5 } },
+		}
+	},
+	Frames = {
+	},
+	Prefs = {
+		Comp = {
+			Interactive = {
+				Proxy = {
+					Scale = 4,
+				},
+			},
+			Views = {
+				View1 = {
+				},
+			},
+			FrameFormat = {
+				Width = 608,
+				GuideRatio = 1.77777777777778,
+				DepthFull = 3,
+				DepthPreview = 3,
+				DepthInteractive = 3,
+			},
+			Unsorted = {
+				GlobalEnd = __END__
+			},
+			SpellCheck = {
+			},
+		}
+	},
+}
+

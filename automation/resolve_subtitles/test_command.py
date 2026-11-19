@@ -1,15 +1,26 @@
 import copy
-import importlib.util
-import json
 from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).parent))
 import command
 
 class CommandTests(unittest.TestCase):
+    def test_legacy_branded_refused_before_app_or_file_access(self):
+        with patch.object(command, 'ResolveMCP') as app:
+            with self.assertRaises(SystemExit):
+                command.main(['missing.json', '--output', '/unused', '--apply-branded', '--exclusive-session'])
+            app.assert_not_called()
+
+    def test_branded_phrase_route_never_falls_back_to_plain_cc(self):
+        with patch.object(command, 'ResolveMCP') as app:
+            with self.assertRaises(SystemExit):
+                command.main(['missing.json', '--output', '/unused', '--apply-native-captions', '--exclusive-session'])
+            app.assert_not_called()
+
     def test_result_envelope_strict(self):
         self.assertEqual(command.unpack({'content':[{'type':'text','text':'{"result":{"ok":true}}'}]}), {'ok':True})
         with self.assertRaises(RuntimeError):
@@ -21,7 +32,8 @@ class CommandTests(unittest.TestCase):
 
     def test_final_audio_hash_snapshot_and_unsupported_trim(self):
         with tempfile.TemporaryDirectory() as temp:
-            path=Path(temp)/'voice.wav'; path.write_bytes(b'exact final source')
+            path=Path(temp)/'voice.wav'
+            path.write_bytes(b'exact final source')
             snap={'voice':[dict(id='v1',enabled=True,track_enabled=True,speed={'Percentage':100},left=0,start=10,end=40,path=str(path))]}
             request={'native_snapshot':copy.deepcopy(snap),'placements':[dict(id='v1',speed=1,source_in=0,
                 timeline_start=10,timeline_end=40,source_sha256=command.sha(path))]}
@@ -52,4 +64,5 @@ class CommandTests(unittest.TestCase):
         self.assertEqual(command.target_native({'fps':'30000/1001'})['native_fps_values'], ['30000/1001'])
         self.assertEqual(command.target_native({'fps':'30'})['native_fps_values'], ['30','30.0'])
 
-if __name__=='__main__': unittest.main()
+if __name__=='__main__':
+    unittest.main()

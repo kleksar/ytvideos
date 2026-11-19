@@ -5,7 +5,7 @@
 3. Импортировать source assets и edit timeline штатным native API. Для numbered PNG Resolve может ошибочно распознать sequence. При наблюдаемом Media Offline/ошибке длины подготовить uniquely named exact-length ProRes MOV carriers (4444 для alpha); сверить первый/последний кадр, fps, длительность и alpha, затем импортировать. Не выдавать это за обязательную конверсию любого PNG; исходники сохранить. Carrier не должен запекать монтажную камеру, которую требуется редактировать.
 4. Сохранить отдельные picture cuts, object/alpha overlays, narration, music и **один клип на каждый авторский SFX cue**. Для одновременных эффектов выделить необходимые неперекрывающиеся lanes, не фиксированное число дорожек. Проверить trim/position/gain/fades/ducking по фактической слышимости, clips/channel map и sync. Старый baked master допустим лишь как явно подписанный legacy underlay: из него не возникают отдельные editable voice/music/SFX; отсутствие stems записать, не обещать полную раздельную правку.
 5. Монтажная камера: static — полноценный выбор; где движение выбрано, native keyframes/эквивалентная проверенная editable конструкция линейны от первого до последнего отображённого кадра без ease/edge holds. Проверить interpolation фактически, не по имени preset. Применять актуальные правила общего visual/channel без ослабления: обычный zoom не более примерно ±5% от исходного скомпонованного framing, более строгий cap имеет приоритет; выбранные zoom в соседних движущихся планах чередуются. Проверять реальный видимый crop относительно fit, не одни Inspector numbers. Статику предпочитать при быстрых склейках без смысловой причины движения; pan в каждом из четырёх направлений выбирать по задаче reveal/action/travel, не ради квоты. Сохранить safe crop; направление artwork противоположно перемещению camera. Событийная анимация предмета имеет свой смысловой старт, не обязана двигаться весь кадр. Первый/средний/последний кадры и непрерывные соседние склейки проверять на clipping, скачки и повтор псевдо-нового плана.
-6. Субтитры: канальные single-line/word highlight/safe area сохраняются. Можно импортировать проверенный alpha karaoke слой; он baked относительно текста/тайминга, не нативно редактируемая subtitle track. Сохранить word map, cue map, source текста и способ пересборки. **SRT в Media Pool или sidecar не означает применённую subtitle track.** Для новых речевых выпусков импортировать финальный EN SRT (иной язык — только по явному языковому поручению) на отдельную **native editable subtitle track**, не только в Media Pool. Учитывать export origin/timeline offset; сверить текст, cue count и первый/последний cue, затем выполнить [проверку sync](#быстрая-проверка-синхронизации-субтитров) после всех trims. Проверить, что cues действительно доступны для редактирования, и повторно экспортировать отдельный timed SRT; прочитать его обратно и сравнить текст/таймкоды с финальным монтажом. Для `no_speech` не создавать фиктивную речь. Native CC track хранить отдельно от burned/alpha captions: явно выбрать видимость при render, чтобы оба слоя не отображались одновременно. Не считать импорт файла проверкой native-track применения. Для History-подобного hold сохранять текущую фразу до следующей, neutral highlight в паузах, только если это правило применимо каналу.
+6. Субтитры: для всех будущих каналов экранные фразы должны быть **самостоятельными редактируемыми native clips, одна смысловая фраза — один клип**, а не MP4/alpha overlay или одним Fusion carrier на сцену/ролик. Сохранять точные канальные font/size/color/background/safe area и continuous whole-phrase display/holds; word highlight — только где требует профиль. По последнему поручению экранный маршрут — настоящий отдельный native Text+ Title на обычной video track для каждой смысловой фразы. Subtitle/ST1 остаётся отдельной optional accessibility дорожкой, не заменой экранному оформлению. Plain ST1 не заменяет требуемое branded оформление. Не выдавать UI-возможность за реализованный scripting API. Недоказанный native метод блокирует экранный этап, не запускает baked fallback. Отдельный speech-only EN CC/SRT (иной язык только по явному поручению) — accessibility/export lane; его импорт не доказывает оформление экранных фраз. В Media Pool файл сам по себе не применён. Сверить origin, cues и [sync](#быстрая-проверка-синхронизации-субтитров), повторно экспортировать и прочитать timed SRT. Для `no_speech` не выдумывать cues. Старые alpha/carrier сохранять для reference/recovery и rollback, не оставлять активными рядом с новой версией.
 7. SaveProject и повторный read-back: project/timeline IDs, frame count, cut/track/item counts, offline state, endpoints, source hashes, editable vs baked components. Перед handoff выполнить обязательную приёмку ниже. Для порученного export после неё перейти к delivery reference.
 
 После сохранения выполните [приёмку exact таймлайна: кадры, склейки и слышимый playback](../../../../docs/standards/resolve-review.md), прежде чем назвать проект готовым. При поручении «только проект» эта проверка остаётся внутри Resolve, без экспорта.
@@ -23,11 +23,29 @@
 
 ## Reusable native subtitle command
 
-For an exact saved timeline, use the [native subtitle command](../../../../automation/resolve_subtitles/README.md):
-offline conform/word evidence first, official MCP inspect, then an exclusive-session
-native CC candidate. It reuses the final-speech sync checker and refuses ambiguous or
-stale inputs. The first slice creates an editable optional timed-text track, **not**
-profile-branded Text+; screen-style and playback remain explicit acceptance gates.
-Native trim/speed application and complete per-channel migration are not yet claimed.
-Keep existing approved media and caption layers until the replacement has real native
-visual/playback proof. No FFmpeg caption assembly/render or upload is part of this command.
+For an exact saved timeline, use the [native subtitle command](../../../../automation/resolve_subtitles/README.md)
+for offline conform and a separately verified accessibility lane. Current section-based
+Fusion mode is explicit legacy reference/recovery, not independent visual phrase clips.
+The new bounded `titles_command.py` uses true native Text+ items per phrase;
+unproven profile/style requests still fail closed; neither an enabled plain CC lane nor a single opaque/transparent carrier is a
+substitute. Existing pinned outputs are not silently migrated.
+
+### Independent phrase delivery gate
+
+On an isolated candidate, select an early, middle and late phrase in Resolve Inspector:
+verify each is a separate native Text+ Title item on a normal video track, edit its text and move
+its own boundary without changing another phrase; restore the approved text/timing.
+Inspect all phrase joins, pauses and cross-shot holds against final VO: no unintended
+gaps, doubled text, truncated phrase or disappearing words. Verify actual font, size,
+color (including white where that episode requires it), background and safe area from
+the approved profile/reference, not an assumed generic style. A visible Track Style
+control alone is not an automated style application/readback PASS.
+
+After replacement passes, remove the obsolete caption carrier from the **delivery
+candidate timeline** in the authorized scope (not merely hide it as the final handoff).
+Preserve the source project/media or verified rollback; do not delete unique sources.
+Read back tracks and inspect the composite: no caption MP4/MOV on a video caption lane,
+no extra baked captions in picture, no consolidated scene/episode Fusion carrier,
+no second visible CC layer. Accessibility CC may remain separately disabled/selectable.
+Record exact candidate, cue count, independent edit/move test, style and playback proof;
+untested items stay UNVERIFIED. No test render is implied by this gate.
