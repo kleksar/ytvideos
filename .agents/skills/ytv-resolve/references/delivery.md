@@ -9,6 +9,8 @@ If the native route cannot verify destination, visibility, mandatory fields or c
 
 ## Локальный экспорт
 
+Если владелец просит посмотреть видео в DaVinci, результат — редактируемая timeline и её playback/QA, без добавления или запуска полного либо тестового render job. Экспорт допустим только по явному поручению или как уже согласованная часть deliverable. Упоминание test/intermediate export в диагностике ниже само по себе не разрешает рендер ради QA. Пока экспорт не поручен, фиксировать проверенные timeline/range и наблюдения playback; не заявлять проверку exact MP4. Существующую очередь не менять и не отменять на основании этого правила.
+
 Использовать native Deliver queue в существующем проекте только при порученном рендере. Сверить exact timeline/job, range, video/audio codec, geometry/fps, bitrate/channel/sample rate с [delivery](../../../../docs/standards/delivery.md) и профилем. Проверенная комбинация H.264/AAC не отменяет канальные параметры. Не рендерить другой открытый проект; дождаться job completion, не считать enqueue успехом.
 
 Если brief требует музыку с титульного начала, прослушать exact export с 0:00: музыка должна быть намеренно слышна, наличие waveform не является проверкой.
