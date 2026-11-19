@@ -18,9 +18,9 @@ At a working **120–150 spoken EN words/minute**, words alone suggest 2m ≈ 2.
 
 | Duration | EN SHA-256 / Git blob | RU SHA-256 / Git blob |
 |---|---|---|
-| 02m | `96b153a284578ae6b205b59b1a78940da2956fee488d9700c505e122a1a88168` / `13669ad31bb1d03bb1b695c828c18e780e3b21f6` | `ac32a22447b5d659a7ea1617e1e23571e1696a4e1a777f3b6f66f168ad4a55e7` / `8ab1840253a004ffec3114ef0742c21bf5a59518` |
-| 05m | `8e2b50fe1c50a1a21df8613b49c99cd549581885fba3d7bd4532d661c3a6a4c0` / `1fbb05b058edea030e16231af3b7ba0786b24c0e` | `1d63f079f88621337653af4cb96029ce17c9d51f6e8be8601ec39e6938762308` / `ff5154b648415bae07ae3b337d63890f6375e1aa` |
-| 10m | `5afc73df229b9d0dfefeeabfa59903c9d157e95274acc05a607fc1659d2c2356` / `b73ef2f2d32452bd29757a2f5c925ca40cdaf139` | `03b4f33970c02e5c9498e9fd91f701d4b0c4e69a67c3bcaae85dd550e8044800` / `2379d7e46bd2e877caeec3ff58020f8591f22c77` |
+| 02m | `3d9eac9b1068c8173535edb200c5e91a9b1c99f969ace490c6c271b78e076942` / `13669ad31bb1d03bb1b695c828c18e780e3b21f6` | `40a54ee2e7001db077732a302625ea45680d49ef402c152adfdb2f0bbd325ccc` / `8ab1840253a004ffec3114ef0742c21bf5a59518` |
+| 05m | `87ad4110fd1e417babfc45646f8b6d17455169343970812d47fbf0e86d3d3d96` / `1fbb05b058edea030e16231af3b7ba0786b24c0e` | `dfecee73c1b3f3a983f7bd2b79a6d877021970b9e17010730198317551becdcc` / `ff5154b648415bae07ae3b337d63890f6375e1aa` |
+| 10m | `a1fffe73a6b996abc5292342c511f37f639b68ec59ef3f397999a4d71c37c728` / `b73ef2f2d32452bd29757a2f5c925ca40cdaf139` | `00215ee60c26f9b0d54cead8d891c79ab11d81256793c01e8771856e20eabb5e` / `2379d7e46bd2e877caeec3ff58020f8591f22c77` |
 
 ## Three separate story maps
 
@@ -87,7 +87,7 @@ Scores are author judgments 1–10 (not performance predictions). `UNVERIFIED` d
 | Global minima | **PASS deterministic**: 720 permutations; min all =12; eight ties; min with Grandma crossing twice =14. Counts per person A M6 D6 G4 S4 B4, B M2 D2 G4 S2 B2, C M2 D2 G2 S4 B4. |
 | Claims / uncertainty | **PASS author for declared model**; no real shooting-time or 50% time-saving claim. Documentary and empirical audience-value claims **UNVERIFIED**. |
 | First-person EN and semantic RU | **PASS author textual check**: both narrators act in first person, group sets/counts/trade-offs match; aligned paragraph counts 02m 8/8, 05m 14/14, 10m 24/24. Independent bilingual reviewer **UNVERIFIED**. |
-| 02m Short full loop (two author reading passes) | **PASS author text-only**, new request after all six shots and explicit 12-vs-14 answer; EN last “I look at the people waiting beside the camera and ask myself:” → first “I have to take six family photos before everyone sits down.” RU last “Я смотрю на родственников рядом с камерой и думаю:” → first “Мне нужно сделать шесть семейных фотографий до того, как все сядут за стол.” Physical MP4/voice seam **UNVERIFIED**. |
+| 02m Short full loop (two author reading passes) | **PASS author text-only**, next list after all six shots and explicit 12-vs-14 answer, with a new decision that restarts the opening; EN last “I have to decide the order all over again.” → first “I have to take six family photos before everyone sits down.” RU last “И мне опять нужно решить, в каком порядке их снимать.” → first “Мне нужно сделать шесть семейных фотографий до того, как все сядут за стол.” Physical MP4/voice seam **UNVERIFIED**. |
 | 05m/10m Long loop | **N_A**: documentary/explanatory Long does not require a loop, and Long format itself is unsupported for this channel. |
 | Old scene spans and timings | **PRESERVED only for old root EN/RU hashes**, not applied to any variant. New script needs its own full visual-intent storyboard after production authorization; scene count follows new text, not S001–S011. |
 | Live runtime / independent `ytv-script-review-v1` | **UNVERIFIED/UNREGISTERED**: no canonical run/pins/session result, no first-listener or bilingual review; self-check is not independent. Exact EN SHA changes require new independent result. |

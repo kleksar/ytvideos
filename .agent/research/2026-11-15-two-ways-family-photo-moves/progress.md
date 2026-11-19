@@ -7,3 +7,4 @@
 - **Math fact evidence:** [research](research.md), [reproducible checker](model_check.py) 720 orders, A24/B12/C14, eight minima 12, Grandma G2 minimum 14; no external shooting measurements. **Viewer demand UNVERIFIED**.
 - **Next in current queue:** technical PR #77/#78 targeted regression/contract audit, and older factual/story PRs after fresh head/status checks; do not reprocess this PR until substantive comment/changed text/CI failure. Entire 163-PR queue not reviewed by this change.
 - **No merge/media:** no original root rewrite, no owner approval, no production pins or schedule mutation. Latest PR head, remote diff, exact HEAD CI and review status must be re-read after this commit, not assumed.
+- **Final seam correction:** Short ends in an explicit fresh choice instead of a dangling colon; Long versions close with an actionable lesson rather than an artificial loop. All six hashes updated in story-review/handoff; independent and MP4 seam remain UNVERIFIED.

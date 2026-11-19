@@ -8,9 +8,9 @@ EDITORIAL_CANDIDATE_UNREGISTERED: no production/runtime state.
 
 | Duration | Complete EN/RU | SHA-256 EN | SHA-256 RU | Status |
 |---|---|---|---|---|
-| 02m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | `96b153a284578ae6b205b59b1a78940da2956fee488d9700c505e122a1a88168` | `ac32a22447b5d659a7ea1617e1e23571e1696a4e1a777f3b6f66f168ad4a55e7` | complete, author checked; independent UNVERIFIED |
-| 05m | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | `8e2b50fe1c50a1a21df8613b49c99cd549581885fba3d7bd4532d661c3a6a4c0` | `1d63f079f88621337653af4cb96029ce17c9d51f6e8be8601ec39e6938762308` | complete, author checked; independent UNVERIFIED |
-| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | `5afc73df229b9d0dfefeeabfa59903c9d157e95274acc05a607fc1659d2c2356` | `03b4f33970c02e5c9498e9fd91f701d4b0c4e69a67c3bcaae85dd550e8044800` | complete, author checked; independent UNVERIFIED |
+| 02m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | `3d9eac9b1068c8173535edb200c5e91a9b1c99f969ace490c6c271b78e076942` | `40a54ee2e7001db077732a302625ea45680d49ef402c152adfdb2f0bbd325ccc` | complete, author checked; independent UNVERIFIED |
+| 05m | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | `87ad4110fd1e417babfc45646f8b6d17455169343970812d47fbf0e86d3d3d96` | `dfecee73c1b3f3a983f7bd2b79a6d877021970b9e17010730198317551becdcc` | complete, author checked; independent UNVERIFIED |
+| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | `a1fffe73a6b996abc5292342c511f37f639b68ec59ef3f397999a4d71c37c728` | `00215ee60c26f9b0d54cead8d891c79ab11d81256793c01e8771856e20eabb5e` | complete, author checked; independent UNVERIFIED |
 
 **Editorial recommendation:** 05m (C14 with grandmother G2 gives genuine second payoff). This is **not owner approval or production permission**. All six text hashes, 8-criterion reviews, individual story maps, evidence and comparative weaknesses live in [story-review.md](story-review.md). [model_check.py](model_check.py) verifies exact totals. Existing research/video comparisons are retained and unchanged in substance.
 
