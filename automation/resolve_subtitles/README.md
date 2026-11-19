@@ -145,8 +145,10 @@ a cut, highlight across a mid-phrase cut, and a new group at an intentional boun
 This is bounded Paper visual evidence, not full narration alignment/listening QA or
 unseen profiles. A separate Nuviko-style fixture used the same approved speech excerpt
 (not a new Nuviko narration), its canonical long raster/font/panel and native full-span
-holds: CREATED → UNCHANGED, exact graph/CC readback and 12 compositor samples covering
-pause and phrase/word/cut transitions. This validates that recipe, not every channel or
+holds: CREATED → UNCHANGED, exact graph/CC readback and 18 compositor samples covering
+first/last holds, pause and phrase/word/cut transitions. The Nuviko creation was observed in the live tool output; the retained receipt/logs
+were overwritten by the successful UNCHANGED recheck and are not an original CREATE
+receipt. This validates that recipe, not every channel or
 word of a production episode. No production project content was modified or exported.
 
 Before acceptance: inspect exact cue starts/ends/text, preserved VO and picture, visible

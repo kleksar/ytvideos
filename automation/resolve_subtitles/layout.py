@@ -13,6 +13,9 @@ RECIPES = {
         'native_size':0.121875, 'native_outline':0.04, 'word_gap_ratio':2/3,
         'case':'upper', 'center_x':680, 'center_y':1950.72,
         'max_width':1024, 'neutral':'#F4E8C8', 'active':'#FFD166', 'outline':'#18243A',
+        'profile_geometry':{'reference_width':1440,'reference_height':2560,'font_size_px':104,
+                            'max_visible_width_px':1024,'center_x_ratio':0.4722222222222222,'center_y_ratio':0.762},
+        'profile_style':{'background':None,'outline_width':3,'pad_x':20,'pad_y':12,'font_index':2},
         'panel':None, 'evidence':'Paper Flagship v09 native imported Text+; 2026-11-19',
     },
     'nuviko-history-long-native-v1': {
@@ -21,6 +24,10 @@ RECIPES = {
         'native_size':0.046875,'native_outline':0,'word_gap_ratio':1,
         'case':'preserve','center_x':1280,'center_y':1255,
         'max_width':1286,'neutral':'#F3E9D5','active':'#FFD166','outline':'#20252B',
+        'profile_geometry':{'reference_width':2560,'reference_height':1440,'font_size_px':84,
+                            'max_visible_width_px':1344,'center_x_ratio':0.5,'baseline_y_ratio':0.8944444444444445,
+                            'bottom_y_ratio':0.925},
+        'profile_style':{'background':'#20252BCC','outline_width':0,'pad_x':29,'pad_y':17,'font_index':0},
         'panel':{'color':'#20252BCC','pad_x':29,'top':1193,'height':135},
         'evidence':'Canonical long/nuviko profile; native Georgia 84px caps/descenders calibration 2026-11-19',
     },
@@ -46,10 +53,12 @@ def native_layout(plan, shots, recipe_id, *, font_loader=None):
     if (style['style'].get('text') != recipe['neutral'] or style['style'].get('highlight') != recipe['active']
         or style['style'].get('outline') != recipe['outline']):
         raise ValueError('Active style colors differ from native calibration')
-    if recipe['panel'] and (style['style'].get('background') != recipe['panel']['color']
-        or style['style'].get('pad_x') != recipe['panel']['pad_x']
-        or style['style'].get('pad_y') != 17 or style['style'].get('outline_width') != 0):
-        raise ValueError('Active panel differs from native calibration')
+    if geometry != recipe['profile_geometry']:
+        raise ValueError('Active profile geometry differs from native calibration')
+    profile_style=style['style']
+    if any(key not in profile_style or type(profile_style[key]) is not type(expected)
+           or profile_style[key] != expected for key,expected in recipe['profile_style'].items()):
+        raise ValueError('Active panel, outline, padding or font index differs from native calibration')
     path=Path(style['style']['font'])
     if not path.is_file():
         raise ValueError('Required installed font file unavailable; no fallback')

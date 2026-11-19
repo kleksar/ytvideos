@@ -14,7 +14,10 @@ class LayoutTests(unittest.TestCase):
         cues,shots=fixture()
         plan=dict(target={'raster':[1440,2560]},conform_sha256='a'*64,cues=cues,style=dict(
             channel='paper_detour',format='short',font_face={'family':'Chalkboard SE','style':'Bold'},
-            geometry={'font_size_px':104},style={'font':str(path),'font_index':2,'text':'#F4E8C8','highlight':'#FFD166','outline':'#18243A'}))
+            geometry=dict(reference_width=1440,reference_height=2560,font_size_px=104,max_visible_width_px=1024,
+                          center_x_ratio=0.4722222222222222,center_y_ratio=0.762),
+            style=dict(font=str(path),font_index=2,text='#F4E8C8',highlight='#FFD166',outline='#18243A',
+                       background=None,outline_width=3,pad_x=20,pad_y=12)))
         return plan,shots
     def test_phrase_carries_geometry_but_only_speech_is_highlighted(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -54,7 +57,9 @@ class LayoutTests(unittest.TestCase):
         plan,shots=self.data(path)
         plan['target']['raster']=[2560,1440]
         plan['style']=dict(channel='nuviko_history',format='long',font_face={'family':'Georgia','style':'Bold'},
-                           geometry={'font_size_px':84}, style=dict(font=str(path),font_index=0,text='#F3E9D5',
+                           geometry=dict(reference_width=2560,reference_height=1440,font_size_px=84,max_visible_width_px=1344,
+                                         center_x_ratio=0.5,baseline_y_ratio=0.8944444444444445,bottom_y_ratio=0.925),
+                           style=dict(font=str(path),font_index=0,text='#F3E9D5',
                                highlight='#FFD166',outline='#20252B',background='#20252BCC',pad_x=29,pad_y=17,outline_width=0))
         return plan,shots
 
@@ -88,10 +93,30 @@ class LayoutTests(unittest.TestCase):
                 with self.subTest(key=key):
                     plan,shots=self.history(path)
                     plan['style']['style'][key]=value
-                    with self.assertRaisesRegex(ValueError,'Active panel differs'):
+                    with self.assertRaisesRegex(ValueError,'Active panel'):
                         native_layout(plan,shots,'nuviko-history-long-native-v1')
             plan,shots=self.history(path)
             with self.assertRaisesRegex(ValueError,'safe width'):
                 native_layout(plan,shots,'nuviko-history-long-native-v1',font_loader=lambda *a,**k:WideGeorgia())
+
+    def test_active_profile_geometry_and_style_drift_rejected_for_both_recipes(self):
+        with tempfile.TemporaryDirectory() as temp:
+            path=Path(temp)/'font';path.write_bytes(b'synthetic')
+            for factory,recipe,fields in (
+                (self.data,'paper-short-v09',('reference_width','center_x_ratio','center_y_ratio','max_visible_width_px')),
+                (self.history,'nuviko-history-long-native-v1',('reference_height','center_x_ratio','baseline_y_ratio','bottom_y_ratio','max_visible_width_px')),
+            ):
+                for field in fields:
+                    with self.subTest(recipe=recipe,field=field):
+                        plan,shots=factory(path)
+                        plan['style']['geometry'][field] += .01
+                        with self.assertRaisesRegex(ValueError,'profile geometry differs'):
+                            native_layout(plan,shots,recipe)
+                for field in ('background','outline_width','pad_x','pad_y','font_index'):
+                    with self.subTest(recipe=recipe,field=field):
+                        plan,shots=factory(path)
+                        del plan['style']['style'][field]
+                        with self.assertRaisesRegex(ValueError,'Active panel'):
+                            native_layout(plan,shots,recipe)
 
 if __name__=='__main__':unittest.main()
