@@ -137,12 +137,23 @@ def _route(task):
     return "thumbnail" if task["stage"] == "scene_image" and task.get("payload", {}).get("purpose") == "thumbnail" else task["stage"]
 
 
+def _reference_task(route):
+    """Translate the packet route into the task shape understood by the selector."""
+    if route == "thumbnail":
+        return {"stage": "scene_image", "payload": {"purpose": "thumbnail"}}
+    return {"stage": route}
+
+
+def _production_reference_tasks():
+    # Instruction-only operations such as retention are not saved run routes.
+    for route in (*STAGE_REFERENCES, "thumbnail"):
+        yield route, _reference_task(route)
+
+
 def snapshot_references(root, profile, format):
     """One run snapshot owns document contents and routing, without per-task copies."""
-    tasks = [{"stage": stage} for stage in STAGE_REFERENCES]
-    tasks.append({"stage": "scene_image", "payload": {"purpose": "thumbnail"}})
-    routes = {_route(task): task_references(task, profile=profile, format=format, project_root=root)
-              for task in tasks}
+    routes = {route: task_references(task, profile=profile, format=format, project_root=root)
+              for route, task in _production_reference_tasks()}
     paths = dict.fromkeys(path for values in routes.values() for path in values)
     return {"routes": routes, "documents": {path: _read_document(root, path, current=True) for path in paths}}
 
@@ -179,10 +190,7 @@ def validate_reference_routes(snapshot, profile, format):
     if (not isinstance(snapshot, dict) or not isinstance(snapshot.get("routes"), dict)
             or not isinstance(snapshot.get("documents"), dict)):
         raise WorkflowError("invalid pinned task reference routes")
-    tasks = [{"stage": stage} for stage in STAGE_REFERENCES]
-    tasks.append({"stage": "scene_image", "payload": {"purpose": "thumbnail"}})
-    for task in tasks:
-        route = _route(task)
+    for route, task in _production_reference_tasks():
         paths = snapshot["routes"].get(route)
         if not isinstance(paths, list) or any(not isinstance(path, str) for path in paths):
             raise WorkflowError(f"invalid pinned task reference route: {route}")
@@ -244,8 +252,7 @@ def instruction_packet(root, *, channel, stage, format):
         raise WorkflowError("channel configuration must stay inside the repository")
     configured = config_path.exists() or config_path.is_symlink()
     profile = read_profile(root / "channels", channel) if configured else {"id": channel}
-    task = ({"stage": "scene_image", "payload": {"purpose": "thumbnail"}}
-            if stage == "thumbnail" else {"stage": stage})
+    task = _reference_task(stage)
     catalog = json.loads(_read_document(root, ".agent/skill-catalog.json", current=True)["text"])
     if (not isinstance(catalog, dict) or not isinstance(catalog.get("skills"), list)
             or any(not isinstance(entry, dict) or not isinstance(entry.get("stages"), list)
