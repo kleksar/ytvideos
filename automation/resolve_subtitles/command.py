@@ -94,10 +94,16 @@ def main(argv=None):
     parser.add_argument('--output', type=Path, required=True)
     group = parser.add_mutually_exclusive_group()
     group.add_argument('--inspect', action='store_true', help='Read exact current native target; no edits')
-    group.add_argument('--apply-native-cc', action='store_true', help='Create isolated editable CC candidate; does not install branded screen captions')
-    group.add_argument('--apply-branded', action='store_true', help='Create an isolated editable branded+CC candidate for a calibrated recipe')
+    group.add_argument('--apply-native-cc', action='store_true', help='Create disabled accessibility CC lane, not branded on-screen captions')
+    group.add_argument('--apply-native-captions', action='store_true', help='Reserved branded per-phrase route; blocked until exact editable native styling is verified')
+    group.add_argument('--apply-branded', action='store_true', help='Legacy section-carrier recipe only; requires explicit recovery flag')
+    parser.add_argument('--legacy-reference-recovery', action='store_true', help='Explicit historical section-based Fusion recovery only; not per-phrase native caption delivery')
     parser.add_argument('--exclusive-session', action='store_true', help='Coordinator has granted sole access to this Resolve instance')
     args = parser.parse_args(argv)
+    if args.apply_native_captions:
+        parser.error('BLOCKED: exact branded independently editable phrase clips are not yet verified; plain CC and section-based Fusion are not substitutes')
+    if args.apply_branded and not args.legacy_reference_recovery:
+        parser.error('Section-based Fusion is legacy reference/recovery only; production per-phrase styling remains BLOCKED')
     request = json.loads(args.request.read_text())
     args.output.mkdir(parents=True, exist_ok=True)
     if (args.inspect or args.apply_native_cc or args.apply_branded) and not args.exclusive_session:
@@ -153,7 +159,9 @@ def main(argv=None):
             raise RuntimeError('Narration source changed during authoring; candidate requires review')
         receipt.update(source_hashes=hashes, conform_sha256=plan['conform_sha256'],
                        render=False, published=False, visual='UNVERIFIED', playback='UNVERIFIED',
-                       branded_style='NATIVE_AUTHORED' if layout else 'NOT_APPLIED', source_timeline_preserved=True)
+                       branded_style='NATIVE_AUTHORED' if layout else 'NOT_APPLIED', source_timeline_preserved=True,
+                       caption_structure='LEGACY_SECTION_FUSION' if layout else 'ACCESSIBILITY_CC_PER_CUE',
+                       inspector_edit_move='UNVERIFIED', style='UNVERIFIED')
         (args.output/'native-receipt.json').write_text(json.dumps(receipt, indent=2)+'\n')
         print(json.dumps(receipt, ensure_ascii=False))
     finally:

@@ -5,11 +5,24 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).parent))
 import command
 
 class CommandTests(unittest.TestCase):
+    def test_legacy_branded_refused_before_app_or_file_access(self):
+        with patch.object(command, 'ResolveMCP') as app:
+            with self.assertRaises(SystemExit):
+                command.main(['missing.json', '--output', '/unused', '--apply-branded', '--exclusive-session'])
+            app.assert_not_called()
+
+    def test_branded_phrase_route_never_falls_back_to_plain_cc(self):
+        with patch.object(command, 'ResolveMCP') as app:
+            with self.assertRaises(SystemExit):
+                command.main(['missing.json', '--output', '/unused', '--apply-native-captions', '--exclusive-session'])
+            app.assert_not_called()
+
     def test_result_envelope_strict(self):
         self.assertEqual(command.unpack({'content':[{'type':'text','text':'{"result":{"ok":true}}'}]}), {'ok':True})
         with self.assertRaises(RuntimeError):

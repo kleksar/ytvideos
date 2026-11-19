@@ -6,7 +6,10 @@ python automation/resolve_subtitles/command.py request.json --output channels/CH
 
 Default is **offline planning only**, never an app connection, ASR call, render or upload.
 All speech channels use the same command, but channel/format policy remains authoritative.
-This is not yet an automatic replacement for Paper/Nuviko branded on-screen captions.
+This is not yet an automatic replacement for branded on-screen captions on any channel.
+`--apply-native-captions` fails closed: the independently editable, exactly styled
+per-phrase authoring route has not been implemented/proven. Plain CC is not its fallback.
+All channels require the [independent phrase delivery gate](../../.agents/skills/ytv-resolve/references/timeline.md#independent-phrase-delivery-gate).
 
 ## Exact inputs and modes of one command
 
@@ -76,9 +79,20 @@ silently deleted or overwritten. A failed/timed-out mutation is UNKNOWN: inspect
 state before retrying; do not duplicate imports on a guessed failure. Only one worker
 may mutate the instance; the CLI flag records a grant, it cannot enforce other agents.
 
-## Branded editable captions (bounded native recipes)
+## Legacy section-based branded recipe (reference/recovery only)
 
-`--apply-branded --exclusive-session` adds a dedicated editable Text+ lane to a new
+This previously verified path attaches a graph to picture sections: it does **not**
+provide an independently movable timeline clip per semantic phrase. It is not the
+current production default, even though Text+ nodes inside it are editable. The CLI
+rejects it without the explicit recovery flag. Recovery is not delivery acceptance.
+The future production route must use native Subtitle Track Style when actual app
+proof matches the exact approved style, or separate real native Fusion Title items
+per phrase. Do not invent a supported style API, remove whole-phrase holds to fit CC,
+or claim automatic white text/Georgia/background application from SRT import.
+
+## Historical bounded recipe details
+
+`--apply-branded --legacy-reference-recovery --exclusive-session` adds a dedicated editable Text+ lane to a new
 owned candidate, and independently authors disabled native CC from speech timings.
 It uses the same verified final-VO/source snapshot as `--apply-native-cc`. Supply:
 
@@ -200,3 +214,24 @@ following native frames and the audible phrase before acceptance. Offline regres
 cover late cuts, pause holds, cross-cut speech and immutable CC. The optional anchored
 path has **not yet received a live native fixture**; this does not upgrade its playback
 or visual status, and it never authorizes changes to a production timeline.
+
+## Legacy artifact inventory and migration boundary
+
+- `automation/subtitles/nuviko_long_subtitles.py` renders transparent word-highlight
+  **MOV** overlays (including ProRes 4444), not an editable Subtitle track.
+- `automation/helpers/paper-captions/scripts/render_paper_captions.py` creates raster
+  caption imagery; `automation/image_motion/layered_render.py` composites layers.
+  These tools remain for pinned historical reconstruction/reference, not a silent
+  fallback for the active Resolve caption route. Do not call every old artifact MP4:
+  inspect its actual codec/container and timeline role.
+- `branded_native.py` creates editable node graphs on section carriers, with separate
+  disabled CC. Its historical visual fixtures do not establish per-phrase clip editing.
+- `native.py` imports independent native Subtitle cues, currently disabled as separate
+  accessibility CC. It does not apply the channel's branded visual style or display holds.
+
+Next implementation proof: isolated candidate, actual supported Track Style or native
+Title creation, exact whole-phrase display partition and typography, per-cue Inspector
+edit/move/restore, old-carrier removal on candidate, save/reopen/readback and native
+playback. Keep production blocked until these checks pass; do not enable plain ST1 as
+an unapproved temporary branded substitute. No Resolve call or new live fixture was
+performed for this routing guard; prior bounded evidence above remains historical.
