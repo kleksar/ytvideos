@@ -9,7 +9,7 @@
 | Short | 1440×2560, 9:16, square pixels, без запечённых полос |
 | Long | 2560×1440, 16:9; явное творческое исключение фиксируется в профиле |
 | Время | 30/1 FPS, progressive, фактический end frame exclusive |
-| Container / codec | MP4 / H.264 AVC |
+| Container / codec | MP4 / H.264 AVC для legacy FFmpeg-рецепта; новый Resolve Deliver — H.265 (HEVC) по [native delivery](../../.agents/skills/ytv-resolve/references/delivery.md#codec-for-new-native-deliver-renders) |
 | Pixels | `yuv420p`, SDR Rec.709; primaries/transfer/matrix `bt709`, range `tv` |
 | Audio | Принятый полный mix по [audio](audio.md), без автоматической смены каналов/скорости |
 | Inputs | Hashes точного текста, mix, images, word map, subtitle contract, профиля и кода |
