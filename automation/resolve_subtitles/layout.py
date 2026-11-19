@@ -41,7 +41,7 @@ def rgba(value):
     return [int(value[i:i+2],16)/255 for i in (0,2,4)]+[int(value[6:8],16)/255 if len(value)==8 else 1]
 
 
-def native_layout(plan, shots, recipe_id, *, font_loader=None):
+def native_layout(plan, shots, recipe_id, *, font_loader=None, display_cut_anchors=None):
     if recipe_id not in RECIPES:
         raise ValueError('No calibrated native recipe; do not substitute another channel')
     recipe=RECIPES[recipe_id]
@@ -70,7 +70,7 @@ def native_layout(plan, shots, recipe_id, *, font_loader=None):
     family, face=font.getname()
     if (normalized(family),normalized(face)) != (normalized(recipe['font']['family']), normalized(recipe['font']['style'])):
         raise ValueError('Installed font face does not match the calibrated native recipe')
-    sections=partition_cues(plan['cues'],shots)
+    sections=partition_cues(plan['cues'],shots,display_cut_anchors)
     width,height=recipe['raster']
     for shot in sections:
         nodes=[];panels=[]

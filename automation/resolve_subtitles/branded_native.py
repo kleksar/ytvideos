@@ -194,6 +194,12 @@ def verify_branded(candidate, base, before, layout, token, expected_cc, replace_
     return len(clips)
 
 
+def require_picture_cut(item, shot):
+    if shot.get('picture_cut_anchor'):
+        require(item.GetStart()==shot['start_frame'],
+                'Declared display anchor is not an actual carrier picture cut')
+
+
 def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp_paths, candidate_name, token, replace_tracks):
     manager,project,base=identity(resolve,target)
     require(snapshot(resolve,target)==before,'Source changed since final-VO verification')
@@ -206,6 +212,7 @@ def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp
     for shot in layout['shots']:
         item=original.get(shot['carrier_id'])
         require(item and item.GetStart()<=shot['start_frame']<shot['end_frame']<=item.GetEnd(),'Carrier does not cover exact authored section')
+        require_picture_cut(item,shot)
         require(item.GetSpeed().get('Percentage')==100,'Retimed carrier unsupported')
         require(item.GetMediaPoolItem(),'Carrier media unavailable')
         carriers.append(item)
