@@ -7,3 +7,5 @@ The existing S001–S044 references below belong **only to the unchanged origina
 3. **The Rescue That Pretended to Be an Aid Mission** — consequence angle, clearly identify fake organization and real Red Cross objection; not a Red Cross-led rescue.
 
 All headlines, thumbnails, promises, cast representations and sources are hypotheses until the owner chooses an exact script; their visual grounding and source footage rights require verification. No CTR, image generation, TTS, AV check or production is claimed.
+
+**05m new exact revision 2026-11-19:** EN SHA-256 `32ee00391140e46494a16fe41ef7fb9603ef84703b968d50a2cc5c9f8aa65189`; RU `6d501b0647f75eb2a87dfaacb588ea001d841711cc1a5d36bef48db79c929d0e`. The 05m visual spine must now establish captive risk before the reveal of military officers impersonating an aid mission, then show the guard escort and genuine freedom response. Original S001–S044 scene plan belongs only to unchanged root scripts; do not reuse timings/spans. No thumbnail/image produced.
