@@ -99,3 +99,17 @@ This is a mathematical illustration of **relative frame crossing count**. No rea
 ## Editorial conclusion and rights
 
 This is an experimental author-selected candidate: a recognizable social hassle + clear A/B metric + actual counted reverse result, **not a market-validated formula**. External URLs are evidence for the real *problem* and practitioner advice, not evidence that fictional family members, A/B orders or 24/12 were observed outside the model. No reused video, transcript, photography, audio, brand assets, private media bytes or copied thumbnail; prospective AI-image prompts only. The independent editor/first listener and exact video seam remain outstanding.
+
+## 2026-11-19 — revision of the *same* family-photo story, all three durations
+
+This section supplements, rather than replaces, the 2026-11-15 research. It does not claim new viewer-demand evidence. Exact unchanged baseline: PR #121 head `584c8fffb6cdfc143111aa7109e754e9c6012ead`, root EN SHA-256 `08fc974695c8765092ddba48fb5567b826f809836fb2522fee946f260a8b267e`, root RU SHA-256 `a74944c0b722fc0bab80155e1378bf8876004e5157c47877327c6871eb7b50c9`. The baseline short and its 11-shot preliminary storyboard are not new masters.
+
+A/B definitions from original research remain unchanged: `M` mother, `D` father, `G` grandmother, `S` sister, `B` brother. Six requested group sets, empty photo zone at both ends, each individual entry and exit counts 1. Only the **order** changes. The original supplied list is one intentionally inefficient example, not an average. A count 24 (per-person M6 D6 G4 S4 B4); B count 12 (M2 D2 G4 S2 B2). This claim is not measured walking distance or real shooting duration.
+
+The longer stories ask a **second, explicitly different question about the same six photographs**: what if we care about the grandmother making only one entry and one final departure? C order `parents → grandma_parents → whole → grandma_kids → grandma → kids → empty` has incremental totals 2, 3, 5, 7, 9, 12, **14**. Per-person M2 D2 G2 S4 B4. The cast and requested photographs are unchanged. A/B still compare total crossings; C is a separately labelled constrained trade-off, not a secretly changed A/B premise.
+
+[Reproducible stdlib Python verification](model_check.py) enumerates all `6! = 720` permutations, checks B's global minimum **12**, exactly **8** orders reaching 12, and minimum **14** among orders where grandmother crosses only twice. This is exact arithmetic for the declared fictional model, not historical or sociological evidence. It is not a proof of a universal optimal photography workflow.
+
+**Causal map of new material:** submitted order → repeated changes in frame membership → A24; reorder six fixed groups → B12; inspect per-person workload → grandmother still G4 despite global optimum; constrain G2 → C14 → outcome depends on chosen objective. No invented speech from real people. The human family scenario is explicitly modelled in the first person, not a claim of a filmed family event.
+
+**What is not supported:** no live Shorts performance, actual family-photo demand, physical walking distance, poses' comfort, accessibility, minutes saved, concrete real photos, identities/approved user reference PNGs or real visual seam. The 5- and 10-minute narratives do not give production permission for unsupported Long in `two_ways_lab/channel.json`. Source limitations and 2026-11-15 public-video observations remain in the preceding research section. No new web demand observed in this revision.

@@ -1,11 +1,17 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED: no official `ytv` run, independent reviewer, owner approval or production.
 
-# Two Ways Lab — Six family photos, half the moves (editorial candidate)
+# Two Ways Lab — Six family photos: 24 vs 12 moves, and who moves
 
-**Only original editorial material; not a registered or approved production run.** English narrated Short / vertical 1080×1920. Hypothetical reproducible frame-crossing count, **not a real experiment**. The same five relatives appear in the same six family photo combinations. Following the given request order counts **24** individual entries/exits; rearranging the photos with people staying in frame counts **12**. This does **not** measure or predict a 50% time saving.
+**One fictional, reproducible family-photo problem; three complete EN/RU editorial scripts.** Five people, six fixed requested shots, the same empty starting/ending posing area. Following the given list counts 24 individual crossings; minimizing total count gives 12; with Grandma entering/leaving once, the constrained best is 14. **These are calculated moves, never measured minutes.**
 
-**Full text:** [EN narration](script.en.txt) · [полный русский перевод](script.ru.txt).
+| Length | Full English | Full Russian | Editorial status |
+|---|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | Complete, author review only; independent UNVERIFIED; Short length outside usual 35–50s target |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | Complete, author review only; independent UNVERIFIED; **Long production blocked** |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | Complete, author review only; independent UNVERIFIED; **Long production blocked** |
 
-**Author-only score, experimental demand:** interest 8, hook 8, development 8, payoff 8, freshness 7, visual 8, speech 7, verified YouTube audience demand **UNVERIFIED**. Independent reviewer **UNVERIFIED**, no official `ytv start` / `awaiting_script_approval`, no approval, media or upload.
+**Editorial recommendation: 05m**, because the grandmother's unexpected second return turns a neat total into a real prioritization dilemma; ten minutes spends too long proving the arithmetic. The recommendation **does not enable unsupported Long** or allow production. The six full texts, exact hashes, eight separate editorial criteria per duration, assumptions and comparison are in [story-review.md](story-review.md). The verified fictional model, earlier audience research and new G2 constraint are in [research.md](research.md); reproduce the exact counts with [model_check.py](model_check.py).
 
-Read [research and actual YouTube findings](research.md), [scorecard and exact hashes](story-review.md), [preliminary scene states/prompts](storyboard.md), [packaging claims](packaging-brief.md) and [handoff for local migration](handoff.md). These are eight original text files only; common docs, channel specs and skills were not edited.
+**Preserved original source:** [root EN](script.en.txt) / [root RU](script.ru.txt) from PR head `584c8fffb6cdfc143111aa7109e754e9c6012ead`, unchanged; existing [S001–S011 storyboard](storyboard.md) and its spans are tied **only** to those baseline bytes (EN SHA-256 `08fc974695c8765092ddba48fb5567b826f809836fb2522fee946f260a8b267e`). No storyboard/timings for variants are validated. [Packaging](packaging-brief.md) and [handoff](handoff.md) remain text-only.
+
+**Gates:** model arithmetic PASS; author text/bilingual/02m loop check only; genuine independent first-listener, current channel audience demand, runtime registration, pins, voice, real visual references, images, TTS and AV loop **UNVERIFIED**. Long channel recipe unavailable. No media, merge or release requested or performed.

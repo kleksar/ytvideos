@@ -15,3 +15,7 @@ Same five relatives in recognizable 2D art, cyan left A showing returning mom an
 Early visual proof: within opening show the six same group cards and the empty single frame; A parents return twice visibly. Payoff: six completed photos on each side, count 24 vs 12, scope limitation narration audible. Alternative teaser: 'Why did Grandma go first?' (not a claim about all photo shoots).
 
 No release metadata, thumbnails, image generation or asset approvals performed.
+
+## New 2/5/10m script revisions (not final release metadata)
+
+The original packaging choices and A24/B12 thumbnail are attached to the **unchanged root** Short only; they are **not approved or automatically valid** for the new variants. In the 02m/05m/10m stories, the honest extra payoff is **C14 when Grandma crosses twice**; a candidate title could be “Half the Moves—But Not for Grandma” only once the exact script and format are approved. Never imply half the real-time duration or that Grandma is a real participant whose health was observed. `05m` and `10m` have a ChannelSpec Long blocker; no new thumbnail, release spec, end-screen link, media or rights grant has been created. A linked-next-video bridge/Short related-video can only be verified against actual authorized existing assets later.

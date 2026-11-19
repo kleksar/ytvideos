@@ -1,0 +1,9 @@
+# PR #121 editorial revision progress — 2026-11-19
+
+- Remote main observed at start: `bd5ae9b34749337e305a20345d163b7c2fa30827`; merged #124 canonical three-duration rule. Baseline exact head `584c8fffb6cdfc143111aa7109e754e9c6012ead`.
+- **Before:** one original EN/RU short, 11 preliminary storyboard spans, author-only 8-criterion single-version review. Root EN/RU hashes in [story-review](story-review.md).
+- **After:** six full new EN/RU variants and distinct story maps; preserved root source and storyboard; added constrained G2 / C14 model with executable verification, comparative author review, per-version hashes and handoff. New script commit: `275c2c8a40a328be3ff696e4f74c00655fd3ee44`. Files all in this one story path.
+- **Per version:** 02m [RU](variants/02m/script.ru.txt) [EN](variants/02m/script.en.txt): **PREPARED → AUTHOR CHECKED**, format feasibility pending; 05m [RU](variants/05m/script.ru.txt) [EN](variants/05m/script.en.txt): **PREPARED → AUTHOR CHECKED → EDITORIAL RECOMMENDED** with Long blocker; 10m [RU](variants/10m/script.ru.txt) [EN](variants/10m/script.en.txt): **PREPARED → AUTHOR CHECKED**, Long blocker. **Independent checked / approved / registered: none.**
+- **Math fact evidence:** [research](research.md), [reproducible checker](model_check.py) 720 orders, A24/B12/C14, eight minima 12, Grandma G2 minimum 14; no external shooting measurements. **Viewer demand UNVERIFIED**.
+- **Next in current queue:** technical PR #77/#78 targeted regression/contract audit, and older factual/story PRs after fresh head/status checks; do not reprocess this PR until substantive comment/changed text/CI failure. Entire 163-PR queue not reviewed by this change.
+- **No merge/media:** no original root rewrite, no owner approval, no production pins or schedule mutation. Latest PR head, remote diff, exact HEAD CI and review status must be re-read after this commit, not assumed.

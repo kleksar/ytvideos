@@ -1,25 +1,21 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED: no production/runtime state.
 
-# Handoff — Two Ways Lab six-photo grouping A/B
+# Handoff — PR #121 family-photo same-story variants
 
-- **Date/author:** 2026-11-15 UTC, original editorial-model text, author-only ratings, no independent review.
-- **Channel:** `two_ways_lab`, fresh main ChannelSpec active, English illustrated `short` 1080×1920, no long. New group-photo issue is not E001–E006 or #118.
-- **Base remote main when drafted:** `cc47270b107c503c08ec56d374c5075205bb752f` (must be refreshed and reconciled before merge or runtime migration).
-- **Full English narration:** `script.en.txt`, Git blob SHA-1 `1e9e9fe462c5ec5552c62b85ca21af6c8ecad202`, SHA-256 `08fc974695c8765092ddba48fb5567b826f809836fb2522fee946f260a8b267e`.
-- **Full Russian factual translation:** `script.ru.txt`, Git blob SHA-1 `401b11d18b1342ba508dc2540cf1613a4430de65`, SHA-256 `a74944c0b722fc0bab80155e1378bf8876004e5157c47877327c6871eb7b50c9`.
-- **Source evidence/limits:** independent old indexed YouTube uploads by Katelyn James (2021) and Cameron/Tia (2020) plus practitioner articles and Reddit, all URLs and crawl caveats in `research.md`. Same-author baseline 0 each; viewer interest and Shorts demand `UNVERIFIED`. All A/B integers are transparently calculated from a **fictional 5-person, 6-photo model**, not a filmed group photo.
-- **No original media or source reference bytes imported.** Hero and brand asset hashes in `brand/VISUAL_PROFILE.md` must be matched against actual available files before any production stage.
+**Source/baseline:** `584c8fffb6cdfc143111aa7109e754e9c6012ead` (root scripts, storyboard, prior review); read latest PR head before any continuation. Original root EN SHA-256 `08fc974695c8765092ddba48fb5567b826f809836fb2522fee946f260a8b267e`; root RU `a74944c0b722fc0bab80155e1378bf8876004e5157c47877327c6871eb7b50c9`. Neither original bytes nor old storyboard were overwritten.
 
-## Exact missing capability and local recovery
+**Current policy reference read:** remote main `bd5ae9b34749337e305a20345d163b7c2fa30827`, with #124's three-duration rule merged. Channel `two_ways_lab` supports English 1080×1920 illustrated Short, loop required, first-person participant narration. **Long has null video.canvas / fps**; 05m/10m remain editorial only. 02m is substantially longer than the normal 35–50 second Short target. `docs/standards/editorial.md` and `docs/standards/narration.md` read; exact run pins cannot be replaced by checkout.
 
-This host has authenticated GitHub API for TEXT commits but **no checked-out repo/workspace or persistent `ytv` run/artifact store** usable for `uv run ytv start`; therefore it cannot produce a true `plan_summary`, `read_next`, `task_guide` or pinned `reference_documents`. A browser connected to the user's Studio is unavailable in this host; public vidIQ balance is 0 credits. No independent host `sessions.independent` review was performed or forged.
+| Duration | Complete EN/RU | SHA-256 EN | SHA-256 RU | Status |
+|---|---|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | `96b153a284578ae6b205b59b1a78940da2956fee488d9700c505e122a1a88168` | `ac32a22447b5d659a7ea1617e1e23571e1696a4e1a777f3b6f66f168ad4a55e7` | complete, author checked; independent UNVERIFIED |
+| 05m | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | `8e2b50fe1c50a1a21df8613b49c99cd549581885fba3d7bd4532d661c3a6a4c0` | `1d63f079f88621337653af4cb96029ce17c9d51f6e8be8601ec39e6938762308` | complete, author checked; independent UNVERIFIED |
+| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | `5afc73df229b9d0dfefeeabfa59903c9d157e95274acc05a607fc1659d2c2356` | `03b4f33970c02e5c9498e9fd91f701d4b0c4e69a67c3bcaae85dd550e8044800` | complete, author checked; independent UNVERIFIED |
 
-On a capable local checkout of verified remote main, **start a new genuine run**, revalidate the external editorial candidate under its actual pinned rules and read every materialized context file:
+**Editorial recommendation:** 05m (C14 with grandmother G2 gives genuine second payoff). This is **not owner approval or production permission**. All six text hashes, 8-criterion reviews, individual story maps, evidence and comparative weaknesses live in [story-review.md](story-review.md). [model_check.py](model_check.py) verifies exact totals. Existing research/video comparisons are retained and unchanged in substance.
 
-```bash
-uv run ytv start --channel two_ways_lab --format short --intent 'Evaluate and register the Six family photos A/B editorial candidate from the linked Draft PR, no production'
-```
+## Recovery path in capable host
 
-Read the returned `plan_summary` / each `read_next`: `task_file`, `skill_file`, `requirement_files` and `task_guide`; read pinned `reference_documents` and exact Source/brand references. Move `research.md` and `script.en.txt` into this run's actual artifact paths following task context; **do not forge a pre-existing run ID, lease, input_hash, receipt or user approval**, and do not retroactively pretend start preceded this editorial research. Use the real `ytv-script-review-input-v1` helper and independent host session on the unchanged exact EN hash, then compare RU equivalence and full EN/RU loops. If the reviewer returns REVISE/REJECT, keep that result; a changed English byte invalidates any old review. User must actually approve the final exact script before ANY media or publishing.
+This GitHub-only run can write versioned text but has no local persistent `ytv` runtime/store, pinned task packets or genuine independent first-listener available here. No `ytv start`, official script gate, artifact IDs or review receipts were created. On a capable host, fetch **remote main**, inspect ChannelSpec and this PR's exact SHA-256, register a **single selected supported exact** text via the canonical `ytv` start / attach-artifact / reading-packet flow. In a genuine new run, respect its pinned context and do not silently migrate active runs. Supply independent reviewer the exact unscored EN before research and preserve the actual `ytv-script-review-v1` reply; read RU separately. Any revision to its English bytes requires a new independent review and invalidates old timing/spans.
 
-**Still blocked:** official runtime registration, pinned artifacts, independent first-listener, user script approval, real visual reference bytes, actual AI image feasibility for exact group members, voice/subtitles/AV seam, final MP4. No merges/production/media/TTS/imagegen/render/upload/publish/status changes made by this task.
+**Blockers:** Long configuration for recommended variant (not authorized to alter), independent first-listener, bilingual review, owner choice/approval, runtime registration, actual character/image reference bytes, revised storyboard, real TTS timing and MP4 loop. Do **not** use baseline S001–S011 with variants. No production, TTS, imagegen, upload, publication, auto-merge or merge authorized.
