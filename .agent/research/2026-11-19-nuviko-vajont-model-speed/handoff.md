@@ -4,7 +4,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 - Source GitHub remote main: `e8f2b5488b266ebc89ea7ef48360df7584088e82`, observed 2026-11-19. #124 is **merged** (2026-11-16); use **current main canonical editorial and writer skill**, not old proposed snapshot `7d6bdf7702a2a241a33a21677fce29f26ada9b72`. No unrelated policy changes imported.
 - Channel: `nuviko_history`, active illustrated narrative EN, `Long` configured. No `short` assets commissioned; Long 16:9, 10s end screen requires actual assets.
-- Proposed master: `variants/05m/script.en.txt` SHA-256 `7551527f3c094963fe8600bdc3a03006aef1a4d4e13fef2d4dd1c31a44fcd0cf`; full RU `variants/05m/script.ru.txt` SHA-256 `addfb25b20e1c440858d64a690b142536c1bcef94469feaaa800773210b0ada9`. Alternative 02m and REWORK 10m complete, hashes in [story-review](story-review.md); don't join into one TTS master.
+- Proposed master: `variants/05m/script.en.txt` SHA-256 `287b281d29e42a26824a0c40478acd9fe18340c43481d73604afaab544b16ce2`; full RU `variants/05m/script.ru.txt` SHA-256 `841f7e5d6b93f981a377955f4f4c3e27c6750b5d0f5e6fea8a9db17d1b12f69f`. Alternative 02m and REWORK 10m complete, hashes in [story-review](story-review.md); don't join into one TTS master.
 - **Exact capability blocker:** `uv run --offline ytv start --channel nuviko_history --format long --intent ...` attempted; `Failed to spawn: ytv - No such file or directory (os error 2)`. Thus NO run ID, lease, pinned context, plan_summary/read_next, task_guide or reference_documents. This Git-only editorial candidate is not script gate PASS.
 - **Independent reviewer unavailable.** No canonical reviewer receipt, same-hash approval, measured TTS duration, media rights or actual Nuviko traveler reference PNG checked. Review and source facts recorded authorially, not independently.
 - Current ref photos listed in channel profile, not fetched/seen; do not infer or manufacture media bytes. No TTS, imagegen, video providers, MP4, YouTube action, schedule or merge. No cross-PR state changes.
@@ -21,3 +21,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 `B1` ytv runtime executable absent; `B2` independent first-listener reviewer unavailable; `B3` factual external rights/PNG actuals not inspected; `B4` measured TTS/audio and edit windows absent; `B5` live next-video intro and endscreen target not verified; `B6` true audience CTR/retention and comparative YouTube baseline unavailable. None are hidden as PASS.
 
 No code, common docs/skills, ChannelSpec, releases or other PRs changed. This task only proposes an editorial Git queue candidate.
+## Revision from baseline eb14393a5f34850d9e9c52e4fc218d61bab61967
+
+- Human impact now runs through both 05m and 10m: observable last-day warnings → Gino Mazzorana in Longarone → documented rescue by Feliciano Antoniazzi → their recognition 60 years later. 10m replaces an abstract archive discussion with scoped 1971 court findings. Research entries 9–11 support the new claims; personal recollections remain attributed.
+- **02m script unchanged**, 05m and 10m exact hashes/author-only ratings refreshed in story-review. New 05m length 786 EN words is *not* measured as five minutes. Every storyboard, scene span, voice receipt and independent review for modified hashes remains UNVERIFIED.
+- This is still a Git-only candidate. The user has not selected or approved an exact master for production, and no saved run/pin or reviewer schema has been manufactured. Next unprocessed section is an actual code review of conflicting technical #77/#78 or another unapproved untouched Long after current remote status check.

@@ -1,6 +1,6 @@
 # Packaging brief · Nuviko History · Vajont (editorial only)
 
-Selected editorial script `variants/05m/script.en.txt`, SHA-256 `7551527f3c094963fe8600bdc3a03006aef1a4d4e13fef2d4dd1c31a44fcd0cf`. Intended Long 16:9. **No actual thumbnail image/video, title test, performance metric or approval yet.** Captions in English, original historical text only where actually present, Nuviko 2D traveler in otherwise photorealistic reconstruction according to the channel reference profile; actual two traveler PNG reference bytes unavailable in this environment; no claim of having seen them.
+Selected editorial script `variants/05m/script.en.txt`, SHA-256 `287b281d29e42a26824a0c40478acd9fe18340c43481d73604afaab544b16ce2`. Intended Long 16:9. **No actual thumbnail image/video, title test, performance metric or approval yet.** Captions in English, original historical text only where actually present, Nuviko 2D traveler in otherwise photorealistic reconstruction according to the channel reference profile; actual two traveler PNG reference bytes unavailable in this environment; no claim of having seen them.
 
 Three different factual concepts, not image-only color swaps:
 
@@ -13,3 +13,6 @@ Primary pairing not yet exposed to target viewers. Source-grounded initial scene
 **Next-video bridge and 10s end screen:** current ending finishes on survived wall/valley. A genuinely relevant existing approved Nuviko episode/its **real intro bytes** must be verified with identity, URL and rights before proposing text/scene. Candidate conceptual bridge only: from a monitored moving mountain to a different disaster where a warning did/didn't reach people, but **no invented target**. Leave actual live intro and native clickable endscreen as BLOCKER; do not bake a fake control into MP4.
 
 Before full storyboard/prompts, independent review of exact script 05m; then inspect required actual Nuviko traveler PNG hashes and period references. Proposed visuals remain *ideas*, not scene-ready production prompts.
+## Revision-linked visual intent (no media generated)
+
+05m and 10m narrations now include documented last-day road damage/road closure, a ten-year-old resident Gino Mazzorana and rescue by Alpino Feliciano Antoniazzi. If this exact narrative is later selected, plan a sequence from the monitored slope to the actual town, then to a careful non-graphic rescue and 2023 cemetery reunion. **Do not fabricate identifiable portraits or pretend generated faces/props are archival images**; actual period images, rights and Nuviko character PNGs require authorized inspection after script approval. Previous broad image concepts do not count as storyboard coverage, and 02m is unchanged.
