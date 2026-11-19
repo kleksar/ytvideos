@@ -17,3 +17,14 @@ First visual proof: side-by-side crowded queue, walking lane with visible gaps. 
 
 ### Prohibitions
 Do not use TfL footage, Cheddar/Vlogbrothers words, thumbnails or images. Do not imply our hypothetical two-minute visualization is an actual field measurement. No production rights, user approval or media generated.
+
+
+## 2026-11-19 variants and visual intent (not a production package)
+
+Read [three-version comparison](story-review.md) and [shared evidence](research.md). [02m RU](variants/02m/script.ru.txt) / [EN](variants/02m/script.en.txt), [05m RU](variants/05m/script.ru.txt) / [EN](variants/05m/script.en.txt), [10m RU](variants/10m/script.ru.txt) / [EN](variants/10m/script.en.txt). 05m is editorial recommendation, NOT master approval. The existing 10-shot `storyboard.md` is tied exclusively to unchanged ROOT ~1m Short: never attach its spans to 02/05/10m variants.
+
+Visual logic for new 02m: same queue of 400 at start of each branch, A left cyan 115/min→230 boarded/170 left, B right amber 151/min→302 boarded/98 left, mint +72. Do not show `302 reached top`; the measured rates are boarding rates. End frame returns narrator to a **new** crowded morning, linking semantically to first frame only; actual AV seam has not been checked.
+
+Visual logic for 05m: opening questions via entry queue and split lanes, then historic Holborn pilot signage (originally illustrated, NOT reproduced footage), then paired model reset/comparison, then empty-station countercase and nonadoption. A new Long storyboard requires a supported ChannelSpec and chosen exact master; otherwise visual intent is only a note.
+
+Visual logic for 10m: separate physical trial vs hypothetical demand-sensitivity 140 arrivals/min; show +25/min backlog under A and −11/min backlog under B only while an initial queue exists; do not present as TfL measurements. Keep camera/world consistent as prescribed by Two Ways Lab channel references. Any text/number graphics must comply with channel's generated-lettering requirement, not programmatic overlays. No new media, image/voice or paid providers authorized; 05/10 Long production BLOCKED by null canvas/fps.

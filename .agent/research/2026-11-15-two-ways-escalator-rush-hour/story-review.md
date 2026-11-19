@@ -32,3 +32,66 @@ Core criteria 1,3,4 each **8**: editorial filter met with medium confidence. Doe
 ## Independent-review handoff (do not manufacture approval)
 
 When transferred to a real local runtime, first give the reviewer the exact EN opening only, then full EN text twice back-to-back without this scorecard, beats, ratings or model-based persuasion. Ask exactly why they would continue, at which phrase they lose attention, one artificial phrase and the concrete payoff. **Only then** provide sources and strongest alternative (packing rolling vs folding, whose authentic physical test is unavailable). Preserve original output verbatim in existing schema and re-review any new EN hash. Reviewer may legitimately mark “interesting math, no need to watch” and reject this author pick. Do not treat this review as complete today.
+
+
+## 2026-11-19 — review of three complete exact versions (author-only)
+
+Baseline root EN/RU are preserved **byte-for-byte** as a separate short original; their prior `storyboard.md` spans and author loop assessment apply **only** to those root blobs. New variants are not yet accepted masters, and no old timing/review/approval has been transferred.
+
+### Exact SHA-256 / complete texts
+
+| Version | EN source | EN SHA-256 | RU source | RU SHA-256 | Words EN/RU | Paragraphs EN/RU |
+|---|---|---|---|---|---|---|
+| 02m | [script.en.txt](variants/02m/script.en.txt) | `b1e177399f0a34c944dfeb614f8ee8b84d5f569a0876ad016150caac307853f8` | [script.ru.txt](variants/02m/script.ru.txt) | `a830144b8fbcd4a398fe65146cf3850028aeb30321ce56d83caa6dd2cd709a3a` | 281 / 252 | 9 / 9 |
+| 05m | [script.en.txt](variants/05m/script.en.txt) | `12fc29a7b7b0dd9637ad93980934bfd5a0d68fb4d77abec58af70c51789e44a9` | [script.ru.txt](variants/05m/script.ru.txt) | `8cd1283b6ec2086490b9725c150ea0de1a80a61f53d295d4dc3b34bdf2729adc` | 676 / 574 | 14 / 14 |
+| 10m | [script.en.txt](variants/10m/script.en.txt) | `44c11591d82005dbb35a65c29027efb2d4047031791ba603a8846eee7fab10bd` | [script.ru.txt](variants/10m/script.ru.txt) | `d2770da3a5b8cb569b0026c082ba61b3017aec2148d61e436819a03191e8788a` | 1509 / 1277 | 25 / 25 |
+
+Hashes computed from exact UTF-8 file bytes including final newline, with SHA-256 implementation checked against the standard `abc` test vector. These are not approval hashes or reviewer receipts.
+
+### Separate editorial scoring
+
+Each rating is author's judgment on the above complete text, **not** verified click-through, retention or independent reviewer data. Each row includes its main defect and confidence. The eighth axis cannot honestly be scored because user/audience measurements are unavailable.
+
+| Criterion (1–10) | 02m: evidence / limitation / confidence | 05m: evidence / limitation / confidence | 10m: evidence / limitation / confidence |
+|---|---|---|---|
+| 1. Audience importance | **8**: packed queue is familiar and "everyone vs fastest" matters; niche outside transit; medium | **8**: commute choice plus real policy test; niche; medium | **7**: broader station design, narrower general audience; didactic risk; medium |
+| 2. Opening promise | **8**: initial two-lane choice immediate and understandable; only one main question; medium | **8**: questions about individual vs group speed and London answer; first event follows; medium | **8**: questions promise a real comparison and conditions; longer prelude; medium |
+| 3. Development | **7**: 230→302 reset→caveat→adoption; many numerical words quickly; medium | **8**: crowded entry→unused gaps→Holborn→comparison→policy twist; Holborn starts later than ideal; medium | **7**: historical sequence + demand stress test + fairness; repeated queue arithmetic in middle; medium |
+| 4. Payoff | **8**: +72 boardings, 170 vs 98 left, no false personal-time claim; dense; high on arithmetic | **8**: conditional difference and actual historical nonadoption explained; not an observed individual win; high on arithmetic | **8**: stable vs growing queue and explicit conditional policy conclusion; not generalizable; high on model math |
+| 5. Freshness | **6**: familiar escalator debate with a clear 400-person visual model; 2019 comparisons exist; high | **6**: focus on two competing metrics and nonadoption; known story; high | **6**: hypothetical 140/min sensitivity adds reasoning, not measured novel discovery; high |
+| 6. Visual storytelling | **8**: side-by-side crowd states and leftover queue obvious; numbers hard at phone scale; medium | **8**: reset, crowd gap, historical signage, quiet counterexample; no production shots yet; medium | **7**: many boarding/arrival states possible, but conceptual fairness passages difficult without static diagrams; medium |
+| 7. Natural speech EN/RU | **7**: first-person actions and sensory contrast; many spelled-out numbers, RU relatively long; medium | **8**: coherent first-person story and concrete entry actions; explanatory sections may sound like lecture; medium | **7**: oral voice mostly maintained but some analysis paragraphs sound technical; medium |
+| 8. Verified viewer interest | **UNVERIFIED**: two historic English Long examples, no comparable Short or channel baseline; low | **UNVERIFIED**: no exact 5m comparable audience figures, own retention unavailable; low | **UNVERIFIED**: no exact 10m comparative demand, no measured CTR; low |
+
+**Not a generic 9–10 assessment.** Strongest real weakness: the event is one counterintuitive mechanism, so long-form depth risks turning into an extended queue-theory lesson. Independent reviewer could reject the 05m recommendation in favor of original ~1m Short.
+
+### Three separate story maps / first-listener audit
+
+- **02m (nine semantic paragraphs):** p1 cold choice; p2 metric; p3 equal test and true historical rates; p4 A 230/170; p5 B 302/98 and +72 (main reveal); p6 field scope and personal-speed boundary; p7 adoption obstacle; p8 chosen next-day observation; p9 repeat choice at same kind of location. No claim of a new observed A/B. Biggest attention risk: numeric cluster in p4–p5.
+- **05m (14 paragraphs):** p1 linked questions; p2–3 arrival and metric; p4 mechanism of gaps; p5 pilot and social challenge (historical main hook); p6–9 common input/reset/math; p10 exact scope caveats; p11 quiet-counterexample; p12 adoption/pilot disruption; p13 payoff; p14 street-level decision. Biggest risk: transition after p9 into several consecutive limitations.
+- **10m (25 paragraphs):** p1 questions; p2–4 arrival and throughput mechanism; p5 central conflict; p6–8 historical trials and measured rates; p9–12 first modeled A/B payoff; p13 limitations; p14 queue-difference illustration; p15–16 140/min demand sensitivity; p17–18 low demand and length; p19 fairness; p20–21 social adoption and early interruption; p22 synthesis; p23 policy constraints; p24 exact result; p25 personal closing. Biggest risk: p14 re-explains arithmetic already understood at p12, and p19–23 slow the pace after the main answer.
+
+### Hard checks, kept separate from scores
+
+- **Math — AUTHOR PASS:** 2×115=230, 400−230=170; 2×151=302, 400−302=98; difference=72; 151/115−1≈31.3%; assumed +140 arrivals yields backlog +25/min under A and −11/min under B only while queue exists. Real trial reports rates; the 400- and 140-person inputs are explicitly hypothetical. Recheck before storyboard/displaying counts.
+- **Historical causality — AUTHOR PASS within reviewed sources:** late-2015 pilot; 2016 expanded trial; some rider noncompliance; interruption for maintenance; 2017 no wider rollout. No statement that rollout was canceled because throughput gains were false. TfL full original report **UNREAD**; source-level independent fact audit **UNVERIFIED**.
+- **EN/RU equivalence — AUTHOR PASS for story and numeric state:** matched paragraph counts 9/9, 14/14, 25/25; same branching results and caveats. Matched count does not equal independent bilingual review; that remains **UNVERIFIED**.
+- **Short full-script loop — AUTHOR REVIEW ONLY:** EN p9 "And there's the escalator again, packed at the bottom. Which side will I choose?" → p1 "At the bottom of a crowded escalator, I have two choices..." RU p9 "А вот и эскалатор — внизу снова толпа. Какую сторону я выберу?" → p1 "У подножия переполненного эскалатора у меня два варианта..." The payoff is completed before repeat; new recurring commute is plausible. Both complete language texts reviewed for semantics, but no genuine independent first-listener nor audio/video seam, so **AV UNVERIFIED**. This is a semantic question return, not proof of a seamless cut. Original root text's colon-loop is untouched.
+- **Long loop:** N_A for 05m and 10m.
+- **Production formats:** 02m editorial Short 9:16 is longer than existing channel's usual 35–50 second recipe; verify runtime/policy before acceptance. **05m and 10m Long BLOCKED** under main ChannelSpec; no format enablement allowed. Script completeness is not production readiness.
+- **Source and permission:** links/research only, no rights to use TfL footage, no image generation/media/TTS performed. Third-party footage/quotes not imported.
+- **Runtime / first listener / owner:** `EDITORIAL_CANDIDATE_UNREGISTERED`; `sessions.independent` and ytv runtime not available to this connected host, genuine reviewer output/receipt **UNVERIFIED**, explicit script approval NOT GRANTED. Reviewer must receive exact EN/RU without author scores/this analysis first and may reject all new variants or prefer root.
+- **Actual duration / interest:** TTS, voice timings, MP4, AV loop, Shorts audience fit, CTR/retention and YouTube metrics all **UNVERIFIED**.
+
+### Comparative verdict based on completed versions
+
+**02→05:** Adds the Holborn 2015/2016 experiment, clear distinction between boarded vs reached top, reasons people left walking-lane gaps, and operational nonadoption. Not merely elongated numbers. Main cost: after the numerical win p9, scope cautions p10–12 risk damping momentum.
+
+**05→10:** Adds explicit growing-vs-shrinking queue with hypothetical 140 arrivals/min, short-flight contrast, fairness goals and compliance dynamics. True explanatory value, but the second arithmetic recap (p14) is a specific likely exit point. The last quarter of 10m revisits the same conditional win, making it weaker for general viewers despite fuller content.
+
+**Recommend 05m** as the strongest balance of actual mechanism, historical consequence and honest limits. The original concise root Short may still be preferable for real production. Recommendation is author-only and NOT owner acceptance, approval, an independent review, or permission to produce three videos.
+
+### Blind independent reviewer handoff (not performed)
+
+In a real host, first give a reviewer the exact six script files with version IDs and **no** writer verdict, scores, beat sheet, source annotations or conclusion. Begin with each opening then present full texts, ask what answer they expect, where they would stop, whether the conditions and 400-person simulation are clear, and whether an old shorter version is better. Provide sources and this review only after their blind read. Preserve the authentic response in the existing `ytv-script-review-v1` schema; any changed EN hash needs re-review. Do not backfill a guessed session or falsified PASS.
+
