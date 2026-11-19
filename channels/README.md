@@ -12,4 +12,6 @@
 
 [Главред Борисенко](glavred_borisenko/PROFILE.md) ведётся вручную вне автоматического workflow. [Stories RU/EN](nuviko_stories/AGENTS.md) — отдельный ручной архив. Эти identities не заменяют ни один из пяти профилей. Подключение другого канала требует подтверждённой identity, прав, применимого голоса, календаря и исполняемого recipe.
 
+[Vice Wreckroom](vice_wreckroom/PROFILE.md) — проверенная YouTube identity для ручного GTA VI Shorts workflow; не шестой активированный ChannelSpec. Канальный Resolve/Unlisted scope, playlists и ограничения discovery — в профиле.
+
 Общие brand assets и provenance — [BRAND_ASSETS](BRAND_ASSETS.md). Канальный профиль не подтверждает наличие всех media в checkout.
