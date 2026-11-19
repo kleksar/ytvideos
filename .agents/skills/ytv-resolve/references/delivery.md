@@ -6,6 +6,11 @@ For future videos across channels, prefer Deliver's built-in YouTube preset and 
 
 If the native route cannot verify destination, visibility, mandatory fields or completion, stop that upload, preserve job state and report the concrete blocker. Do not silently redirect to another account/tool or duplicate an UNKNOWN upload. Preserve all existing exact-file approval, rights, review and Studio read-back requirements below. Existing baked projects require scoped migration rather than a false claim of native reconstruction.
 
+### One dispatch for an approved cut
+
+When the owner approves the exact saved timeline revision/range and explicitly requests both render and upload, this is one dispatch, not a local-export handoff. Before adding or starting any job, match that exact revision/range, verify render settings and the destination channel ID in Resolve, read back the requested visibility (e.g. Unlisted for Vice Wreckroom), verify required metadata and rights, and check that no matching job or upload is already running or unresolved. If account, settings, rights, paywall, or another applicable release gate objectively blocks the job, report that blocker before enqueueing rather than substituting a local export.
+
+With preflight complete, submit exactly one native Deliver YouTube job with `Upload directly` enabled. Do not add a separate local/QA render or ask the owner to listen to or approve the identical cut again merely because that job's output file does not exist yet. Preserve applicable technical QA, approvals for materially changed cuts, exact-file gates on other release routes, and post-job file/Studio read-back; a queue item or local file alone is not proof of upload.
 
 ## Локальный экспорт
 
