@@ -21,3 +21,7 @@ description: "Assemble, mix, subtitle, animate, render and hand off future ytvid
 ## Future-video native editability (owner clarification, 2026-11-19)
 
 For ALL future videos and channels, keep creative editing native and editable in Resolve: source gameplay/facecam crops and transforms, still/meme graphics, text/captions, speech, music and SFX as separate appropriate clips/tracks/nodes. Discovery tools supply source windows, timing and editable handoffs. FFmpeg may prepare/conform/validate technical inputs, but must not silently bake framing, captions or the finished creative edit as a substitute for native assembly. Existing baked carriers are a migration gap, not proof of native editability; preserve accepted outputs and pins and migrate only within authorized scope. This requirement does not change artistic profiles, approval gates or upload visibility.
+
+## Control route preference
+
+Prefer an available, verified MCP capability for the requested operation; otherwise use the officially supported Resolve scripting/API route. A preference does not establish that an MCP server, method or permission exists: inspect actual tools and documented API support, and preserve honest capability blockers. Use desktop UI only for gaps, visual QA or the requested native YouTube preset when needed and available. Coordinate foreground interaction with the owner and other workers; keep the existing single-instance serialization and prior-project preservation requirements. Do not simulate unsupported scripting operations or silently take over the active desktop.
