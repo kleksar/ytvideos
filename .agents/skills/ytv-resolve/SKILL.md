@@ -1,0 +1,18 @@
+---
+name: ytv-resolve
+description: "Assemble, mix, subtitle, animate, render and hand off future ytvideos episodes in DaVinci Resolve across channels; preserve editable sources and verify the exact export and authorized YouTube delivery."
+---
+
+# DaVinci Resolve — общий монтажный маршрут
+
+Для **всех новых каналов и будущих видео** Resolve — приложение по умолчанию для сборки, звука, экранных субтитров, монтажного движения, рендера и delivery. Это общий способ работы, не новый художественный профиль и не миграция готовых выпусков. Сценарий, ImageGen, ElevenLabs и подготовка исходников остаются у своих providers. FFmpeg/ffprobe допустимы для подготовки carrier media и независимой проверки, не как молчаливая замена Resolve-монтажа.
+
+Выполнить [task execution](../ytv-start/references/task-execution.md). Сохранить exact approved inputs, channel identity/voice/typography/pixel policy и existing run pins. Конфликт нового app default с закреплённым старым renderer решать по [migration](../../../docs/migration.md), не переписывать старый рецепт. Skill не устанавливает Resolve, не добавляет backend в `execute-media` и не доказывает доступность приложения: если нет пригодного native host route, назвать конкретный blocker, продолжать независимую подготовку.
+
+- Для монтажа/audio/subtitles/render читать [timeline](references/timeline.md). Сборка должна остаться редактируемой, не превращать всё в один готовый MP4.
+- Для export/upload/configure/read-back читать [delivery](references/delivery.md). Поручение собрать проект без рендера не разрешает render queue, upload или замену уже опубликованного видео.
+- Перед выбором метода сверить [проверенные возможности и границы](references/evidence.md). Не выдавать видимое UI-поле за успешную интеграцию/API или готовую публикацию.
+
+Разрешённые действия с одним Resolve instance выполнять **последовательно**. Независимую подготовку изображений, речи, SFX, metadata и QA можно распараллеливать. Не захватывать мышь/клавиатуру и не переключать пользовательский текущий проект ради фоновой работы; если native route требует конфликтующего переключения, остановить именно мутацию и согласовать безопасное окно. Не закрывать чужие проекты/задачи.
+
+На Mac использовать существующий `/Users/diplomat/ytvideos`, материалы выпуска внутри `channels/<id>/videos/<episode>/Work/`. Не создавать соседние clones/worktrees/каталоги проекта. В иных средах использовать их фактический repo root; Mac-путь не переносить буквально. Сохранять проект/export manifest, пути/hash исходников и QA рядом с выпуском, тяжёлые media и credentials не коммитить.

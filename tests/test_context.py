@@ -35,6 +35,23 @@ class ConfiguredRecipeTests(unittest.TestCase):
         self.assertEqual(formats["short"]["variants"]["scene"]["video"]["fps"], "24/1")
         self.assertEqual(formats["short"]["variants"]["meme_time_machine"]["video"]["fps"], "48/1")
 
+    def test_resolve_procedure_is_pinned_for_future_channels_and_preserves_stage_routes(self):
+        root = Path(__file__).resolve().parents[1]
+        paths = [".agents/skills/ytv-resolve/SKILL.md",
+                 ".agents/skills/ytv-resolve/references/evidence.md"]
+        profiles = [{"id": "future_channel"}]
+        profiles.extend(json.loads(p.read_text()) for p in (root / "channels").glob("*/channel.json"))
+        for profile in profiles:
+            for form in ("short", "long"):
+                snapshot = snapshot_references(root, profile, form)
+                for stage in ("audio", "subtitles", "render", "review", "upload", "configure_release", "verify_publication"):
+                    with self.subTest(channel=profile["id"], format=form, stage=stage):
+                        for path in paths:
+                            self.assertIn(path, snapshot["routes"][stage])
+                            self.assertEqual(snapshot["documents"][path]["text"], (root / path).read_text())
+                for stage in ("research", "script", "scene_image"):
+                    self.assertNotIn(paths[0], snapshot["routes"][stage])
+
     def test_clip_procedure_is_pinned_across_channels_without_thumbnail_leakage(self):
         root = Path(__file__).resolve().parents[1]
         path = ".agents/skills/ytv-produce-video/references/video-clips.md"

@@ -9,6 +9,7 @@
 | Постановка, actual references, кадры, цельное движение | [visual](../docs/standards/visual.md) |
 | Речь/voice/speed, mix, музыка, word map/SRT/caption semantics | [audio](../docs/standards/audio.md) |
 | Рендер/геометрия/время/codec/QA exact MP4 | [delivery](../docs/standards/delivery.md) |
+| Общая процедура Resolve-монтажа, native export и ограниченного YouTube handoff | [ytv-resolve](../.agents/skills/ytv-resolve/SKILL.md) |
 | Подготовка платной видеопартии, приёмка и повторное использование клипов | [video-clips skill reference](../.agents/skills/ytv-produce-video/references/video-clips.md) |
 | Приёмы обложек, AI-черновики, карточка/начало/payoff и QA | [thumbnails](../docs/standards/thumbnails.md) |
 | Структура thumbnail_plan, brief и exact reviewer result | [thumbnail contract](../docs/operations/thumbnail-contract.md) |

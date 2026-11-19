@@ -94,6 +94,16 @@
         "maintenance",
         "channel_onboarding"
       ]
+    },
+    {
+      "name": "ytv-resolve",
+      "path": ".agents/skills/ytv-resolve/SKILL.md",
+      "description": "Assemble, mix, subtitle, animate, render and hand off future ytvideos episodes in DaVinci Resolve across channels; preserve editable sources and verify the exact export and authorized YouTube delivery.",
+      "stages": [],
+      "intents": [
+        "resolve_edit",
+        "resolve_delivery"
+      ]
     }
   ]
 }

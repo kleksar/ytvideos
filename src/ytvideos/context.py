@@ -42,6 +42,19 @@ STAGE_REFERENCES = {
 }
 
 
+# Shared app procedure supplements (does not replace) the stage skill.
+RESOLVE_SKILL = ".agents/skills/ytv-resolve/SKILL.md"
+RESOLVE_EVIDENCE = ".agents/skills/ytv-resolve/references/evidence.md"
+RESOLVE_TIMELINE = ".agents/skills/ytv-resolve/references/timeline.md"
+RESOLVE_DELIVERY = ".agents/skills/ytv-resolve/references/delivery.md"
+for _stage in ("audio", "subtitles", "render", "review", "upload", "configure_release", "verify_publication"):
+    STAGE_REFERENCES[_stage].extend([RESOLVE_SKILL, RESOLVE_EVIDENCE])
+    if _stage in ("audio", "subtitles", "render", "review"):
+        STAGE_REFERENCES[_stage].append(RESOLVE_TIMELINE)
+    if _stage in ("render", "review", "upload", "configure_release", "verify_publication"):
+        STAGE_REFERENCES[_stage].append(RESOLVE_DELIVERY)
+
+
 # Read-only instruction routes are not production stages or run snapshot routes.
 INSTRUCTION_OPERATIONS = {
     "retention": {"skill": "ytv-operate", "format": "short",

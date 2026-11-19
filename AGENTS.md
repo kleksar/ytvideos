@@ -21,6 +21,8 @@ uv run ytv start --channel CHANNEL_ID --format short --intent 'точный за
 | Сюжетные Draft PR и переработка очереди | [ytv-write-script](.agents/skills/ytv-write-script/SKILL.md#сюжетные-pr-и-переработка) |
 | Узкая редактура текста/упаковки | `ytv instructions --channel CHANNEL_ID --stage STAGE --format short\|long`, выданный skill и документы; без нового run |
 
+Для будущего монтажа всех каналов приложение по умолчанию — **DaVinci Resolve**: [общий skill](.agents/skills/ytv-resolve/SKILL.md). Он дополняет stage skill, сохраняет профиль/pins и не означает наличие native host или разрешение upload.
+
 ## Исполнение и полномочия
 
 Перед действием выполнить [общую процедуру](.agents/skills/ytv-start/references/task-execution.md). Для run читать закреплённые skill, `task_guide`, `reference_documents`, профиль и точные входы из `context`/claim. Каталог не заменяет чтение. Без описанного метода/параметра/входа остановить затронутый этап с точным blocker; не выдумывать defaults/fallback и не менять правила ради обхода. Авторский выбор — только в разрешённых пределах.
