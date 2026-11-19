@@ -4,8 +4,13 @@
 
 For future videos across channels, prefer Deliver's built-in YouTube preset and Upload directly when the exact destination channel, visibility and required metadata can be verified. A preset is a starting point: retain the approved geometry/fps/audio contract and do not silently renormalize the mix. This preference is not upload authorization or evidence of successful native upload. The global initial Private visibility remains unchanged unless the owner explicitly authorizes another visibility for the named scope; [Vice Wreckroom](../../../../channels/vice_wreckroom/PROFILE.md) has its own narrow Unlisted requirement.
 
-If the native route cannot verify destination, visibility, mandatory fields or completion, stop that upload, preserve job state and report the concrete blocker. Do not silently redirect to another account/tool or duplicate an UNKNOWN upload. Preserve all existing exact-file approval, rights, review and Studio read-back requirements below. Existing baked projects require scoped migration rather than a false claim of native reconstruction.
+If the native route cannot verify destination, visibility, mandatory fields or completion, stop that upload, preserve job state and report the concrete blocker. Do not silently redirect to another account/tool or duplicate an UNKNOWN upload. Preserve rights, review and Studio read-back, and exact-file approval where the selected route requires a pre-existing file. Existing baked projects require scoped migration rather than a false claim of native reconstruction.
 
+### One dispatch for an approved cut
+
+When the owner approves the exact saved timeline revision/range and explicitly requests both render and upload, this is one dispatch, not a local-export handoff. Before adding or starting any job, match that exact revision/range, verify render settings and the destination channel ID in Resolve, read back the requested visibility (e.g. Unlisted for Vice Wreckroom), verify required metadata and rights, and check that no matching job or upload is already running or unresolved. If account, settings, rights, paywall, or another applicable release gate objectively blocks the job, report that blocker before enqueueing rather than substituting a local export.
+
+With preflight complete, submit exactly one native Deliver YouTube job with `Upload directly` enabled. Do not add a separate local/QA render or ask the owner to listen to or approve the identical cut again merely because that job's output file does not exist yet. Preserve applicable technical QA, approvals for materially changed cuts, exact-file gates on other release routes, and post-job file/Studio read-back; a queue item or local file alone is not proof of upload.
 
 ## Локальный экспорт
 
@@ -36,7 +41,7 @@ Probe + полный decode итогового файла, длительнос�
 
 Для порученного **Unlisted Short** явно выбрать и проверить Unlisted, не оставлять видимый Private по инерции. В этом Short-пресете `Chapters from Markers` выключен; chapter workflow длинного ролика не переносится автоматически на Short. Если нужное поле отсутствует или его значение нельзя прочитать, не имитировать успешную настройку: сохранить blocker и выполнить допустимый Studio follow-up для того же видео. Thumbnail path в Resolve не доказывает принятие обложки YouTube: проверить файл, eligibility и фактический thumbnail в Studio данного канала.
 
-Применить [release standard](../../../../docs/standards/release.md) и [release skill](../../ytv-release-video/SKILL.md): exact MP4 approval и upload scope, identity канала, видимость и отсутствие дубликата обязательны. Перед повтором UNKNOWN проверить queue/YouTube по результату и ID. Не переключать/добавлять accounts, не менять ограничения канала ради обхода.
+Применить [release standard](../../../../docs/standards/release.md) и [release skill](../../ytv-release-video/SKILL.md): upload scope, identity канала, видимость и отсутствие дубликата обязательны. Для готового MP4 и staged release сохраняется exact MP4 approval; для единого native dispatch применить [One dispatch for an approved cut](#one-dispatch-for-an-approved-cut). Перед повтором UNKNOWN проверить queue/YouTube по результату и ID. Не переключать/добавлять accounts, не менять ограничения канала ради обхода.
 
 ## Selectable captions и главы
 
