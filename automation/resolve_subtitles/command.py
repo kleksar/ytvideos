@@ -128,7 +128,7 @@ def main(argv=None):
                 raise ValueError('Explicit editable screen-caption replacement tracks required; no baked-caption fallback')
             layout=native_layout(plan, branded['shots'], branded['recipe_id'])
             (args.output/'native-layout.json').write_text(json.dumps(layout,indent=2))
-        token = candidate_token({'plan':plan,'layout':layout}, before) if layout else candidate_token(plan,before)
+        token = candidate_token({'plan':plan,'layout':layout,'replace_tracks':branded['existing_screen_caption_tracks']}, before) if layout else candidate_token(plan,before)
         name = 'Native CC candidate '+token[-16:]
         expected = [(c['spoken_start_frame'], c['spoken_end_frame'], c['text']) for c in plan['cues']]
         srt = str((args.output/'captions.srt').resolve())

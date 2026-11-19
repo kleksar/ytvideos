@@ -50,4 +50,48 @@ class LayoutTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'safe width'):
                 native_layout(plan,shots,'paper-short-v09',font_loader=lambda *a,**k:Wide())
 
+    def history(self,path):
+        plan,shots=self.data(path)
+        plan['target']['raster']=[2560,1440]
+        plan['style']=dict(channel='nuviko_history',format='long',font_face={'family':'Georgia','style':'Bold'},
+                           geometry={'font_size_px':84}, style=dict(font=str(path),font_index=0,text='#F3E9D5',
+                               highlight='#FFD166',outline='#20252B',background='#20252BCC',pad_x=29,pad_y=17,outline_width=0))
+        return plan,shots
+
+    def test_history_preserves_case_and_panel_geometry_across_cuts(self):
+        class Georgia(Font):
+            def getname(self): return ('Georgia','Bold')
+        with tempfile.TemporaryDirectory() as temp:
+            path=Path(temp)/'font';path.write_bytes(b'synthetic')
+            plan,shots=self.history(path)
+            result=native_layout(plan,shots,'nuviko-history-long-native-v1',font_loader=lambda *a,**k:Georgia())
+            first,next_shot=result['shots'][:2]
+            self.assertEqual([node['text'] for node in first['nodes']],['New','York'])
+            self.assertEqual([node['x'] for node in first['nodes']],[node['x'] for node in next_shot['nodes']])
+            panel,second=first['panels'][0],next_shot['panels'][0]
+            self.assertEqual(panel['x'],.5)
+            self.assertEqual(panel['y'],1-(1193+135/2)/1440)
+            self.assertEqual(panel['width'],(8*20+2*29)/2560)
+            self.assertEqual(panel['height'],135/1440)
+            self.assertEqual({k:v for k,v in panel.items() if k not in ('first','last')},
+                             {k:v for k,v in second.items() if k not in ('first','last')})
+            self.assertEqual((panel['first'],panel['last']),(0,3))
+            self.assertEqual((second['first'],second['last']),(0,7))
+
+    def test_history_rejects_panel_mismatch_and_overwide_phrase(self):
+        class WideGeorgia(Font):
+            def getname(self): return ('Georgia','Bold')
+            def getlength(self,text): return len(text)*162
+        with tempfile.TemporaryDirectory() as temp:
+            path=Path(temp)/'font';path.write_bytes(b'synthetic')
+            for key,value in (('background','#20252BFF'),('pad_x',20),('pad_y',5),('outline_width',1)):
+                with self.subTest(key=key):
+                    plan,shots=self.history(path)
+                    plan['style']['style'][key]=value
+                    with self.assertRaisesRegex(ValueError,'Active panel differs'):
+                        native_layout(plan,shots,'nuviko-history-long-native-v1')
+            plan,shots=self.history(path)
+            with self.assertRaisesRegex(ValueError,'safe width'):
+                native_layout(plan,shots,'nuviko-history-long-native-v1',font_loader=lambda *a,**k:WideGeorgia())
+
 if __name__=='__main__':unittest.main()

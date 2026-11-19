@@ -19,10 +19,47 @@ def highlight_expression(record, active, neutral):
     return None
 
 
+def named_tool(comp, name, kind):
+    tool=comp.FindTool(name)
+    attrs=tool.GetAttrs() if tool else {}
+    require(attrs.get('TOOLS_Name')==name and attrs.get('TOOLS_RegID')==kind,
+            'Native caption topology tool differs: '+name)
+    return tool
+
+
+def require_connection(target, control, source_name, source_kind):
+    inlet=getattr(target,control,None)
+    output=inlet.GetConnectedOutput() if inlet else None
+    source=output.GetTool() if output else None
+    attrs=source.GetAttrs() if source else {}
+    require(attrs.get('TOOLS_Name')==source_name and attrs.get('TOOLS_RegID')==source_kind,
+            'Native caption topology connection differs: '+control)
+
+
 def verify_caption_graph(comp, shot, recipe):
     neutral,active,outline=(color_parts(recipe[k]) for k in ('neutral','active','outline'))
+    bg=named_tool(comp,'CaptionBackground','Background')
+    for key,value in (('UseFrameFormatSettings',0),('Width',recipe['raster'][0]),
+                      ('Height',recipe['raster'][1]),('TopLeftAlpha',0)):
+        require(bg.GetInput(key,0)==value,'Native transparent background differs: '+key)
+    previous_name,previous_kind='CaptionBackground','Background'
+    for record in shot.get('panels',[]):
+        name=record['name'];panel=named_tool(comp,name,'Background');mask=named_tool(comp,name+'Mask','RectangleMask')
+        color=color_parts(recipe['panel']['color'])
+        for key,value in dict(UseFrameFormatSettings=0,Width=recipe['raster'][0],Height=recipe['raster'][1],
+                              TopLeftRed=color[0],TopLeftGreen=color[1],TopLeftBlue=color[2],TopLeftAlpha=color[3]).items():
+            require(abs(panel.GetInput(key,0)-value)<1e-6,'Native panel color/raster changed')
+        center=mask.GetInput('Center',0)
+        require(abs(center[1]-record['x'])<1e-8 and abs(center[2]-record['y'])<1e-8,'Native panel position changed')
+        for key,value in (('Width',record['width']),('Height',record['height']),('CornerRadius',0),('SoftEdge',0)):
+            require(abs(mask.GetInput(key,0)-value)<1e-8,'Native panel geometry changed')
+        require_connection(panel,'EffectMask',name+'Mask','RectangleMask')
+        display=named_tool(comp,name+'Display','Merge')
+        require(display.Blend.GetExpression()==phrase_expression(record),'Native panel timing changed')
+        require_connection(display,'Foreground',name,'Background');require_connection(display,'Background',previous_name,previous_kind)
+        previous_name,previous_kind=name+'Display','Merge'
     for record in shot['nodes']:
-        word=comp.FindTool(record['name'])
+        word=named_tool(comp,record['name'],'TextPlus')
         require(word and word.GetInput('StyledText',0)==record['text'],'Native word text readback differs')
         require(word.GetInput('Font',0)==recipe['font']['family'] and word.GetInput('Style',0)==recipe['font']['style'],'Native font inputs differ')
         center=word.GetInput('Center',0)
@@ -42,8 +79,13 @@ def verify_caption_graph(comp, shot, recipe):
                         'Native neutral color differs: '+key)
             else:
                 require(observed==expression,'Native highlight expression differs: '+key)
-        display=comp.FindTool('Display'+str(record['index']))
-        require(display and display.Blend.GetExpression()==phrase_expression(record),'Native phrase timing differs')
+        name='Display'+str(record['index'])
+        display=named_tool(comp,name,'Merge')
+        require(display.Blend.GetExpression()==phrase_expression(record),'Native phrase timing differs')
+        require_connection(display,'Foreground',record['name'],'TextPlus')
+        require_connection(display,'Background',previous_name,previous_kind)
+        previous_name,previous_kind=name,'Merge'
+    require_connection(named_tool(comp,'MediaOut1','MediaOut'),'Input',previous_name,previous_kind)
 
 
 def author_caption_comp(item, shot, recipe, export_path):
@@ -57,11 +99,26 @@ def author_caption_comp(item, shot, recipe, export_path):
         require(out,'Native MediaOut missing')
         bg=c.AddTool('Background',-4,0)
         require(bg,'Native transparent background missing')
+        bg.SetAttrs({'TOOLB_NameSet':True,'TOOLS_Name':'CaptionBackground'})
         bg.SetInput('UseFrameFormatSettings',0)
         bg.SetInput('Width',recipe['raster'][0]);bg.SetInput('Height',recipe['raster'][1])
         bg.SetInput('TopLeftAlpha',0)
         chain=bg
         neutral,active,outline=(color_parts(recipe[k]) for k in ('neutral','active','outline'))
+        for record in shot.get('panels',[]):
+            name=record['name'];panel=c.AddTool('Background',-5,-2);mask=c.AddTool('RectangleMask',-6,-2)
+            require(panel and mask,'Cannot create editable native panel')
+            panel.SetAttrs({'TOOLS_Name':name});mask.SetAttrs({'TOOLS_Name':name+'Mask'})
+            color=color_parts(recipe['panel']['color'])
+            for key,value in dict(UseFrameFormatSettings=0,Width=recipe['raster'][0],Height=recipe['raster'][1],
+                                  TopLeftRed=color[0],TopLeftGreen=color[1],TopLeftBlue=color[2],TopLeftAlpha=color[3]).items():panel.SetInput(key,value)
+            mask.SetInput('Center',{1:record['x'],2:record['y']})
+            for key,value in (('Width',record['width']),('Height',record['height']),('CornerRadius',0),('SoftEdge',0)):mask.SetInput(key,value)
+            require(panel.ConnectInput('EffectMask',mask),'Cannot connect native panel mask')
+            merge=c.AddTool('Merge',-3,-2);require(merge,'Cannot create native panel Merge')
+            merge.SetAttrs({'TOOLS_Name':name+'Display'})
+            require(merge.ConnectInput('Foreground',panel) and merge.ConnectInput('Background',chain),'Cannot compose panel')
+            merge.Blend.SetExpression(phrase_expression(record));chain=merge
         for index,record in enumerate(shot['nodes']):
             word=c.AddTool('TextPlus',-3-index%4,-4-index//4)
             require(word,'Cannot add editable Text+')
@@ -91,11 +148,23 @@ def author_caption_comp(item, shot, recipe, export_path):
         c.Unlock()
     # Crucial proven Paper route: live-created graph/node values can look valid
     # while final composite is blank. Always reimport, activate, then sample later.
+    before_names=item.GetFusionCompNameList() or []
     rebound=item.ImportFusionComp(export_path)
     require(rebound,'Cannot reimport serialized native comp')
-    names=item.GetFusionCompNameList()
-    require(names and item.LoadFusionCompByName(names[-1]),'Cannot activate imported native comp')
+    names=item.GetFusionCompNameList() or []
+    new_names=[name for name in names if name not in before_names]
+    # Resolve 21.2 can replace the sole newly-created composition in place.
+    # Accept only that unambiguous single-comp case or one uniquely added name.
+    if len(names)==1 and len(before_names)==1 and names==before_names:
+        active_name=names[0]
+    else:
+        require(len(names)==len(before_names)+1 and len(new_names)==1 and names.count(new_names[0])==1,
+                'Cannot identify imported native comp')
+        active_name=new_names[0]
+    active=item.LoadFusionCompByName(active_name)
+    require(active,'Cannot activate imported native comp')
     verify_caption_graph(rebound,shot,recipe)
+    verify_caption_graph(active,shot,recipe)
     return dict(words=len(shot['nodes']),serialized_comp=export_path,visual='UNVERIFIED')
 
 
@@ -117,8 +186,10 @@ def verify_branded(candidate, base, before, layout, token, expected_cc, replace_
     require(len(clips)==len(layout['shots']),'Branded clip count changed')
     for item,shot in zip(clips,layout['shots']):
         require((item.GetStart(),item.GetEnd())==(shot['start_frame'],shot['end_frame']),'Branded clip bounds changed')
-        comp=item.GetFusionCompByIndex(item.GetFusionCompCount())
-        require(comp,'Editable native comp missing')
+        names=item.GetFusionCompNameList() or []
+        require(names and len(set(names))==len(names),'Editable native comp missing or ambiguous')
+        comp=item.LoadFusionCompByName(names[-1])
+        require(comp,'Cannot activate owned native comp')
         verify_caption_graph(comp,shot,layout['recipe'])
     return len(clips)
 
@@ -126,7 +197,6 @@ def verify_branded(candidate, base, before, layout, token, expected_cc, replace_
 def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp_paths, candidate_name, token, replace_tracks):
     manager,project,base=identity(resolve,target)
     require(snapshot(resolve,target)==before,'Source changed since final-VO verification')
-    require(layout['recipe'].get('panel') is None,'This native implementation does not yet support panel recipes')
     require(len(comp_paths)==len(layout['shots']),'Missing owned comp paths')
     require(len(set(replace_tracks))==len(replace_tracks) and all(type(x) is int and 1<=x<=base.GetTrackCount('video') for x in replace_tracks),'Invalid replacement-track declaration')
     fonts=resolve.Fusion().FontManager.GetFontList()

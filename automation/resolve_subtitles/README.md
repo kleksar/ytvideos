@@ -94,12 +94,14 @@ that interval. Explicit replacement tracks are disabled **only on the candidate*
 otherwise original tracks remain unchanged. Existing burned-in text cannot be removed
 by this command: use a clean approved source, never silently double it.
 
-Current calibrated recipe is **Paper Detour Short, Flagship v09, 1440×2560** with the
-installed Chalkboard SE Bold face. This is not a generic Paper raster or Nuviko style.
+Calibrated recipes are **Paper Detour Short, Flagship v09, 1440×2560** with installed
+Chalkboard SE Bold, and **Nuviko History Long, 2560×1440**, `nuviko-history-long-native-v1`,
+with Georgia Bold. These are separate recipes, not universal raster/style substitutions.
 An unsupported recipe, changed active colors/font/raster, missing font or over-wide
-phrase fails rather than substituting, shrinking or flattening. Native Nuviko panel
-and metrics remain pending separate calibration; legacy channel renderers are not
-removed or automatically migrated.
+phrase fails rather than substituting, shrinking or flattening. Nuviko preserves case, the 84 px reference metrics, baseline 1288 and rectangular
+80%-alpha panel (top1193, height135, horizontal padding29) from canonical long/Nuviko
+profiles. Its native glyph size and anchor were separately sampled on caps/descenders;
+the Paper native values are not copied. Legacy renderers are not removed or migrated.
 
 A group can persist through a picture cut, including a word spanning that cut; a new
 group starts only at its authored boundary. Highlight follows actual word intervals,
@@ -141,10 +143,21 @@ cues. CREATED → UNCHANGED retained one candidate; the original production view
 restored. Twelve actual native compositor samples verified neutral pause hold across
 a cut, highlight across a mid-phrase cut, and a new group at an intentional boundary.
 This is bounded Paper visual evidence, not full narration alignment/listening QA or
-Nuviko profile validation. No production project content was modified or exported.
+unseen profiles. A separate Nuviko-style fixture used the same approved speech excerpt
+(not a new Nuviko narration), its canonical long raster/font/panel and native full-span
+holds: CREATED → UNCHANGED, exact graph/CC readback and 12 compositor samples covering
+pause and phrase/word/cut transitions. This validates that recipe, not every channel or
+word of a production episode. No production project content was modified or exported.
 
 Before acceptance: inspect exact cue starts/ends/text, preserved VO and picture, visible
 safe area and no double captions; play early/middle/late, pause/resume and shot joins in
 Resolve. Save/reopen and repeat relevant readback. For separate selectable captions,
 round-trip a timed SRT and follow the shared delivery workflow; MP4 upload is not CC
 transport. Use native Resolve review/delivery only, and never publish for a caption test.
+
+Native 21.2 may replace the sole newly-created Fusion composition during import rather
+than append a new name. Only that unambiguous singleton or one uniquely new name is
+accepted. Both the returned imported graph and explicitly activated graph are checked:
+transparent background/raster, exact Text+/Merge topology through MediaOut, optional
+panel mask/color/geometry, word expressions and phrase intervals. Mock corruption tests
+include disconnected output, wrong foreground/background, opacity and raster changes.

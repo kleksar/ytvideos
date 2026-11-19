@@ -2,6 +2,7 @@
 from pathlib import Path
 import hashlib
 import re
+import math
 from partition import partition_cues
 
 # Native numbers here are measured/accepted recipes, not an assumed px-to-Size conversion.
@@ -13,6 +14,15 @@ RECIPES = {
         'case':'upper', 'center_x':680, 'center_y':1950.72,
         'max_width':1024, 'neutral':'#F4E8C8', 'active':'#FFD166', 'outline':'#18243A',
         'panel':None, 'evidence':'Paper Flagship v09 native imported Text+; 2026-11-19',
+    },
+    'nuviko-history-long-native-v1': {
+        'channel':'nuviko_history','format':'long','raster':[2560,1440],
+        'font':{'family':'Georgia','style':'Bold'},'font_metrics_px':84,
+        'native_size':0.046875,'native_outline':0,'word_gap_ratio':1,
+        'case':'preserve','center_x':1280,'center_y':1255,
+        'max_width':1286,'neutral':'#F3E9D5','active':'#FFD166','outline':'#20252B',
+        'panel':{'color':'#20252BCC','pad_x':29,'top':1193,'height':135},
+        'evidence':'Canonical long/nuviko profile; native Georgia 84px caps/descenders calibration 2026-11-19',
     },
 }
 
@@ -36,6 +46,10 @@ def native_layout(plan, shots, recipe_id, *, font_loader=None):
     if (style['style'].get('text') != recipe['neutral'] or style['style'].get('highlight') != recipe['active']
         or style['style'].get('outline') != recipe['outline']):
         raise ValueError('Active style colors differ from native calibration')
+    if recipe['panel'] and (style['style'].get('background') != recipe['panel']['color']
+        or style['style'].get('pad_x') != recipe['panel']['pad_x']
+        or style['style'].get('pad_y') != 17 or style['style'].get('outline_width') != 0):
+        raise ValueError('Active panel differs from native calibration')
     path=Path(style['style']['font'])
     if not path.is_file():
         raise ValueError('Required installed font file unavailable; no fallback')
@@ -50,7 +64,7 @@ def native_layout(plan, shots, recipe_id, *, font_loader=None):
     sections=partition_cues(plan['cues'],shots)
     width,height=recipe['raster']
     for shot in sections:
-        nodes=[]
+        nodes=[];panels=[]
         for group in shot['sections']:
             words=group['words']
             labels=[w['text'].upper() if recipe['case']=='upper' else w['text'] for w in words]
@@ -60,6 +74,13 @@ def native_layout(plan, shots, recipe_id, *, font_loader=None):
             if total > recipe['max_width']:
                 raise ValueError('Reviewed phrase exceeds calibrated one-line safe width; regroup explicitly')
             left=recipe['center_x']-total/2
+            if recipe['panel']:
+                panel=recipe['panel'];box_width=math.ceil(total+2*panel['pad_x'])
+                box_left=round(recipe['center_x']-box_width/2)
+                panels.append(dict(name='Panel'+str(words[0]['index']),
+                    x=(box_left+box_width/2)/width,y=1-(panel['top']+panel['height']/2)/height,
+                    width=box_width/width,height=panel['height']/height,
+                    first=group['start_frame']-shot['start_frame'],last=group['end_frame']-shot['start_frame']))
             for word,label,length in zip(words,labels,lengths):
                 active_start=max(shot['start_frame'],group['start_frame'],word['start_frame'])
                 active_end=min(shot['end_frame'],group['end_frame'],word['end_frame'])
@@ -70,6 +91,7 @@ def native_layout(plan, shots, recipe_id, *, font_loader=None):
                     active_last=active_end-shot['start_frame'] if active_start<active_end else None))
                 left+=length+gap
         shot['nodes']=nodes
+        shot['panels']=panels
     return dict(recipe_id=recipe_id,recipe=recipe,shots=sections,
                 font_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
                 conform_sha256=plan['conform_sha256'],visual='UNVERIFIED',playback='UNVERIFIED')

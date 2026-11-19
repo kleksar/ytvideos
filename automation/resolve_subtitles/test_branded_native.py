@@ -38,12 +38,30 @@ class Control:
         return float(inside if int(first) <= frame < int(last) else outside)
 
 
+class Output:
+    def __init__(self, tool):
+        self.tool = tool
+
+    def GetTool(self): return self.tool
+
+
+class Inlet:
+    def __init__(self, tool, name):
+        self.tool, self.name = tool, name
+
+    def GetConnectedOutput(self):
+        tool = self.tool.connections.get(self.name)
+        return Output(tool) if tool else None
+
+
 class Tool:
     def __init__(self, kind, name=None):
         self.kind = kind
         self.name = name
         self.inputs = {}
         self.connections = {}
+        for key in ("Input", "Foreground", "Background", "EffectMask"):
+            setattr(self, key, Inlet(self, key))
         for key in ("Red1", "Green1", "Blue1", "Blend", "Alpha1"):
             setattr(self, key, Control())
 
@@ -221,6 +239,96 @@ class BrandedNativeTests(unittest.TestCase):
                     native.author_caption_comp(item, shot(4,10,(5,8)), RECIPE, "owned.comp")
                 self.assertIn(("load","imported"), item.operations)
                 self.assertFalse(item.graph.locked)
+
+    def test_reimport_rejects_invisible_or_rewired_topology_and_background(self):
+        failures = (
+            (lambda c: c.FindTool("MediaOut1").connections.clear(), "connection differs: Input"),
+            (lambda c: c.FindTool("Display0").ConnectInput("Foreground", c.FindTool("word_001_York")),
+             "connection differs: Foreground"),
+            (lambda c: c.FindTool("Display1").ConnectInput("Background", c.FindTool("CaptionBackground")),
+             "connection differs: Background"),
+            (lambda c: c.FindTool("CaptionBackground").SetInput("TopLeftAlpha", 1), "background differs: TopLeftAlpha"),
+            (lambda c: c.FindTool("CaptionBackground").SetInput("Height", 720), "background differs: Height"),
+        )
+        for corrupt, pattern in failures:
+            with self.subTest(pattern=pattern):
+                item = Item()
+                perform_import = item.ImportFusionComp
+
+                def corrupted_import(path):
+                    graph = perform_import(path)
+                    corrupt(graph)
+                    return graph
+
+                item.ImportFusionComp = corrupted_import
+                with self.assertRaisesRegex(RuntimeError, pattern):
+                    native.author_caption_comp(item, shot(4,10,(5,8)), RECIPE, "owned.comp")
+
+    def test_loaded_comp_not_merely_imported_proxy_gets_verified(self):
+        item = Item()
+        item.LoadFusionCompByName = lambda name: Comp(save=True)
+        with self.assertRaisesRegex(RuntimeError, "topology"):
+            native.author_caption_comp(item, shot(4,10,(5,8)), RECIPE, "owned.comp")
+
+    def test_ambiguous_new_comp_names_refuse_activation(self):
+        item = Item()
+        original_import = item.ImportFusionComp
+
+        def ambiguous_import(path):
+            graph = original_import(path)
+            item.names.append("second-result")
+            return graph
+
+        item.ImportFusionComp = ambiguous_import
+        with self.assertRaisesRegex(RuntimeError, "identify"):
+            native.author_caption_comp(item, shot(4,10,(5,8)), RECIPE, "owned.comp")
+        self.assertNotIn(("load","imported"), item.operations)
+
+    def test_import_replacing_sole_comp_activates_and_verifies_that_name(self):
+        item = Item()
+
+        def replace(path):
+            item.operations.append(("import", path))
+            return item.graph
+
+        item.ImportFusionComp = replace
+        result = native.author_caption_comp(item, shot(4,10,(5,8)), RECIPE, "owned.comp")
+        self.assertEqual(item.operations, ["add", ("import","owned.comp"), ("load","created")])
+        self.assertEqual(result["visual"], "UNVERIFIED")
+
+    def test_editable_history_panel_and_corrupted_native_readback(self):
+        recipe = dict(RECIPE, panel={"color":"#20252BCC"})
+        section = shot(4,10,(5,8))
+        section["panels"] = [dict(name="Panel0", x=.5, y=.14, width=.3, height=.1, first=4, last=10)]
+        item = Item()
+        result = native.author_caption_comp(item, section, recipe, "owned.comp")
+        self.assertEqual(result["visual"], "UNVERIFIED")
+        panel = item.graph.FindTool("Panel0")
+        mask = item.graph.FindTool("Panel0Mask")
+        display = item.graph.FindTool("Panel0Display")
+        self.assertEqual(panel.GetInput("TopLeftAlpha"), 204/255)
+        self.assertIs(panel.connections["EffectMask"], mask)
+        self.assertEqual(mask.GetInput("Center"), {1:.5,2:.14})
+        self.assertEqual([display.Blend.sample(frame) for frame in (3,4,9,10)], [0,1,1,0])
+        self.assertIs(item.graph.FindTool("Display0").connections["Background"], display)
+        for corrupt, pattern in (
+            (lambda c: c.FindTool("Panel0").SetInput("TopLeftAlpha",1), "panel color/raster"),
+            (lambda c: c.FindTool("Panel0Mask").SetInput("Width",.8), "panel geometry"),
+            (lambda c: c.FindTool("Panel0").connections.pop("EffectMask"), "EffectMask"),
+            (lambda c: c.FindTool("Panel0Display").connections.pop("Foreground"), "Foreground"),
+        ):
+            with self.subTest(pattern=pattern):
+                item = Item()
+                perform_import = item.ImportFusionComp
+
+                def broken_import(path):
+                    graph = perform_import(path)
+                    corrupt(graph)
+                    return graph
+
+                item.ImportFusionComp = broken_import
+                with self.assertRaisesRegex(RuntimeError, pattern):
+                    native.author_caption_comp(item, section, recipe, "owned.comp")
 
     def test_failed_timeline_restore_still_restores_playhead_and_page(self):
         resolve, manager, project, base, candidate = [Mock() for _ in range(5)]
