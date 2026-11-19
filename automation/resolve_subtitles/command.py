@@ -28,6 +28,8 @@ def unpack(response):
         value = value['result']
     if not isinstance(value, dict):
         raise RuntimeError('Native result must be a structured object')
+    if value.get('error'):
+        raise RuntimeError('Native script error: '+str(value['error']))
     return value
 
 
@@ -100,7 +102,7 @@ def main(argv=None):
     plan = None if args.inspect else plan_subtitles(request)
     if plan:
         (args.output/'plan.json').write_text(json.dumps(plan, indent=2, ensure_ascii=False)+'\n')
-        (args.output/'captions.en.srt').write_text(plan['srt'])
+        (args.output/'captions.srt').write_text(plan['srt'])
     if not (args.inspect or args.apply_native_cc):
         print('PLAN ONLY: native authoring/playback/style are UNVERIFIED')
         return 0
@@ -118,7 +120,7 @@ def main(argv=None):
         token = candidate_token(plan, before)
         name = 'Native CC candidate '+token[-16:]
         expected = [(c['spoken_start_frame'], c['spoken_end_frame'], c['text']) for c in plan['cues']]
-        srt = str((args.output/'captions.en.srt').resolve())
+        srt = str((args.output/'captions.srt').resolve())
         expression = 'install(resolve, '+', '.join(repr(v) for v in (target,before,expected,srt,name,token))+')'
         receipt_path = args.output/'native-receipt.json'
         receipt_path.write_text(json.dumps({'status':'IN_PROGRESS', 'candidate_name':name, 'token':token}))

@@ -16,6 +16,8 @@ class CommandTests(unittest.TestCase):
             command.unpack({'content':[]})
         with self.assertRaises(RuntimeError):
             command.unpack({'structuredContent':[]})
+        with self.assertRaisesRegex(RuntimeError,'Native script error'):
+            command.unpack({'content':[{'type':'text','text':'{"error":"native failure"}'}]})
 
     def test_final_audio_hash_snapshot_and_unsupported_trim(self):
         with tempfile.TemporaryDirectory() as temp:
