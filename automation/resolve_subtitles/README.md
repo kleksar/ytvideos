@@ -256,13 +256,22 @@ python automation/resolve_subtitles/titles_command.py request.json --output Work
 ```
 
 The request retains `target`, `native_snapshot`, exact narration `placements` from the
-existing inspect/voice validation contract. Add `native_titles`: `recipe_id`, exact
+existing inspect/voice validation contract, original `words` with placement IDs and
+reviewed `keep_together` spans. Add `native_titles`: `locale`, `groups` (reviewed
+word-index lists separate from speech CC grouping), `recipe_id`, exact
 `style`, `display_evidence: {kind: approved_display_intervals, source: ...}`,
 `replace_tracks` (explicit old-caption-only video track indices, never base V1),
 `insertion_timecode` (exact source end, integer-rate timecode), and `display_clips`.
 Each clip has absolute integer `start_frame`, exclusive `end_frame`, full `text`,
 `width_review: native_verified`, and approved `panel` geometry/color. The list covers
-the target continuously. See `test_phrase_plan.py` for a synthetic schema example,
+the target continuously. The canonical grouping validator requires every original
+word exactly once, exact displayed text, no speech-cut crossing and no split protected
+`keep_together` span. Direct free-text strings cannot bypass the reviewed token map.
+Russian locale additionally rejects stranded governing prepositions (for example
+`шли мимо с` / `Дмитрием`) through the existing semantic-grouping module, using its
+sentence/punctuation rules. This narrow sanity gate is not a complete Russian parser:
+conjunctions, negation and dependent phrases still require editorial review. Recheck
+width and word-aligned boundary after regrouping, without modifying ordinary CC. See `test_phrase_plan.py` for a synthetic schema example,
 not alignment or visual evidence. Inspect each whole phrase's actual fit; do not shrink
 or split automatically, or claim a supplied review flag is independent evidence.
 
@@ -281,7 +290,10 @@ phrase graph. Each resulting item must have `MediaPoolItem=None`, one compositio
 exact start/end, independently editable `Template.StyledText`, expected graph
 connections/font/color/panel. Source video/audio, CC text/timing and original view
 remain preserved. No media carrier, render or upload is created. Batches contain at
-most five titles. Persisted pending/done markers and graph readback allow unchanged
+most five titles. Resize only in verified empty staging space, **before** moving to
+the crowded destination lane: extending in place can trim the next native title.
+Existing placed clips are not resized by this adapter; rebuild an isolated candidate
+for a new plan and verify the entire topology. Persisted pending/done markers and graph readback allow unchanged
 rechecks; an uncertain partial item refuses retry instead of duplicating work.
 
 After actual native review, add `native_review` with exact plan `token`, provenance

@@ -7,16 +7,76 @@ sys.path.insert(0, str(Path(__file__).parent))
 from phrase_plan import RECIPE, STYLE, phrase_layout, write_comps
 
 
+def bind_words(request):
+    rows=request["native_titles"]["display_clips"]
+    words=[]
+    groups=[]
+    for row in rows:
+        indexes=[]
+        for token in row["text"].split():
+            indexes.append(len(words))
+            words.append(dict(text=token,placement_id="vo"))
+        groups.append(indexes)
+    request["words"]=words
+    request["native_titles"]["groups"]=groups
+    return request
+
+
 def fixture():
     panel = dict(center=[0.5, 0.19212962962962965], width=0.5, height=69/1080,
                  color=[32/255,37/255,43/255,0.8])
-    return dict(target=dict(origin_frame=0,end_frame=38,raster=[608,1080]),
-                native_titles=dict(recipe_id=RECIPE,style=copy.deepcopy(STYLE),
+    return bind_words(dict(target=dict(origin_frame=0,end_frame=38,raster=[608,1080]),
+                native_titles=dict(locale='en',recipe_id=RECIPE,style=copy.deepcopy(STYLE),
                 display_evidence=dict(kind='approved_display_intervals',source='synthetic fixture'),
-                display_clips=[dict(start_frame=0,end_frame=38,text='One phrase',panel=panel,width_review='native_verified')]))
+                display_clips=[dict(start_frame=0,end_frame=38,text='One phrase',panel=panel,width_review='native_verified')])))
 
 
 class PhrasePlanTests(unittest.TestCase):
+    def test_russian_preposition_preflight_does_not_rewrite_cc(self):
+        request=fixture()
+        request['native_titles']['locale']='ru-RU'
+        row=request['native_titles']['display_clips'][0]
+        row.update(text='шли мимо с',end_frame=20)
+        request['native_titles']['display_clips'].append(dict(row,start_frame=20,end_frame=38,text='Дмитрием'))
+        bind_words(request)
+        before=copy.deepcopy(request)
+        with self.assertRaisesRegex(ValueError,'preposition'):
+            phrase_layout(request)
+        self.assertEqual(request,before)
+        row['text']='шли мимо'
+        request['native_titles']['display_clips'][1]['text']='с Дмитрием'
+        bind_words(request)
+        self.assertEqual(len(phrase_layout(request)),2)
+        for text in ('буква «с».', 'с!', 'мимо'):
+            row['text']=text
+            bind_words(request)
+            self.assertEqual(len(phrase_layout(request)),2)
+        row['text']='шли мимо с,'
+        with self.assertRaisesRegex(ValueError,'preposition'):
+            phrase_layout(request)
+        request['native_titles']['locale']='en'
+        bind_words(request)
+        self.assertEqual(len(phrase_layout(request)),2)
+
+    def test_display_groups_preserve_protected_tokens_and_exact_text(self):
+        request=fixture()
+        request['keep_together']=[[0,1]]
+        row=request['native_titles']['display_clips'][0]
+        row.update(text='One',end_frame=20)
+        request['native_titles']['display_clips'].append(dict(row,start_frame=20,end_frame=38,text='phrase'))
+        request['native_titles']['groups']=[[0],[1]]
+        with self.assertRaisesRegex(ValueError,'protected'):
+            phrase_layout(request)
+        request['keep_together']=[]
+        self.assertEqual(len(phrase_layout(request)),2)
+        row['text']='Invented'
+        with self.assertRaisesRegex(ValueError,'exactly match'):
+            phrase_layout(request)
+        request=fixture()
+        request['native_titles'].pop('groups')
+        with self.assertRaisesRegex(ValueError,'grouping'):
+            phrase_layout(request)
+
     def test_whole_phrase_not_word_split_and_sanitized_comp(self):
         request=fixture()
         rows=phrase_layout(request)

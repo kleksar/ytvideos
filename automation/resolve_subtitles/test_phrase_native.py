@@ -165,3 +165,48 @@ class PhraseTests(unittest.TestCase):
                 install(*args)
             self.assertIs(project.timeline, base)
             self.assertEqual(candidate.insertions, 1)
+
+    def test_resize_staged_title_before_moving_to_crowded_lane(self):
+        class Title:
+            def __init__(self, start):
+                self.start = start
+                self.neighbor_duration = 40
+                self.calls = []
+
+            def GetMediaPoolItem(self):
+                return None
+
+            def GetStart(self):
+                return self.start
+
+            def GetDuration(self):
+                return 150
+
+            def GetRightOffset(self):
+                return 0
+
+            def SetRightOffset(self, offset, ripple, preserve):
+                self.calls.append(('resize', offset, ripple, preserve))
+                if self.start < 100:
+                    self.neighbor_duration = 20
+                return True
+
+            def SetPosition(self, position, ripple):
+                self.calls.append(('move', position, ripple))
+                self.start = position['startFrame']
+                return True
+
+        row = {'start_frame': 20, 'end_frame': 60}
+        staged = Title(100)
+        native['_phrase_place'](staged, row, 3, 100)
+        self.assertEqual(staged.calls, [
+            ('resize', 110, False, False),
+            ('move', {'trackIndex': 3, 'startFrame': 20}, False),
+        ])
+        self.assertEqual(staged.neighbor_duration, 40)
+
+        active = Title(20)
+        with self.assertRaisesRegex(RuntimeError, 'inside populated timeline'):
+            native['_phrase_place'](active, row, 3, 100)
+        self.assertEqual(active.calls, [])
+        self.assertEqual(active.neighbor_duration, 40)

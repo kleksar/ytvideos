@@ -143,6 +143,20 @@ def _phrase_staging_point(base, target, timecode):
             'Native title staging point must be the exact source timeline end')
 
 
+def _phrase_place(item, row, lane, staging_end):
+    # Resize only in the empty staging interval. Resizing in a crowded lane
+    # can trim a neighboring title even with both offset flags disabled.
+    require(item and item.GetMediaPoolItem() is None and item.GetStart() >= staging_end,
+            'Text+ staging failed or landed inside populated timeline; inspect candidate')
+    duration = row['end_frame'] - row['start_frame']
+    current_duration = item.GetDuration()
+    require(current_duration >= duration and item.SetRightOffset(
+        item.GetRightOffset() + current_duration - duration, False, False),
+        'Cannot set exact native title duration')
+    require(item.SetPosition({'trackIndex': lane, 'startFrame': row['start_frame']}, False),
+            'Cannot move native title')
+
+
 def install_phrase_batch(resolve, target, before, layout, comp_paths, candidate_name, token,
                          replace_tracks, insertion_timecode, batch_start, batch_size=5,
                          finalize=False):
@@ -238,14 +252,7 @@ def install_phrase_batch(resolve, target, before, layout, comp_paths, candidate_
                 require(manager.SaveProject(), 'Cannot checkpoint pending native phrase')
                 require(candidate.SetCurrentTimecode(insertion_timecode), 'Cannot seek native title staging point')
                 item = candidate.InsertFusionTitleIntoTimeline('Text+')
-                require(item and item.GetMediaPoolItem() is None and item.GetStart() >= target['end_frame'],
-                        'Text+ staging failed or landed inside populated timeline; inspect candidate')
-                duration = row['end_frame'] - row['start_frame']
-                require(item.GetDuration() >= duration and item.SetRightOffset(
-                    item.GetRightOffset() + item.GetDuration() - duration, False, False),
-                    'Cannot set exact native title duration')
-                require(item.SetPosition({'trackIndex': lane, 'startFrame': row['start_frame']}, False),
-                        'Cannot move native title')
+                _phrase_place(item, row, lane, target['end_frame'])
                 names = item.GetFusionCompNameList() or []
                 imported = item.ImportFusionComp(comp_paths[index])
                 require(imported, 'Native phrase graph import failed')

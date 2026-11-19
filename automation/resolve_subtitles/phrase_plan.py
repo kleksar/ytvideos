@@ -1,8 +1,10 @@
 """Explicit approved display intervals; no guessed speech alignment or style fallback."""
 import json
+import importlib.util
 import math
 import re
 from pathlib import Path
+from planning import _groups
 
 RECIPE = 'georgia-white-608x1080-native-v1'
 STYLE = {'font': 'Georgia', 'face': 'Bold', 'size': 0.10338345864661655,
@@ -21,9 +23,28 @@ def phrase_layout(request):
     evidence = data.get('display_evidence', {})
     if not evidence.get('source') or evidence.get('kind') != 'approved_display_intervals':
         raise ValueError('Reviewed whole-phrase display timing provenance required')
+    locale = data.get('locale')
+    if not isinstance(locale, str) or not locale.strip():
+        raise ValueError('Explicit phrase locale required for grammar preflight')
     rows = data['display_clips']
+    grammar_path = Path(__file__).parents[1] / 'helpers/paper-subtitles/scripts/semantic_grouping.py'
+    spec = importlib.util.spec_from_file_location('native_phrase_semantics', grammar_path)
+    grammar = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(grammar)
+    grammar.validate_display_phrase_boundaries([row['text'] for row in rows], locale)
     if not rows:
         raise ValueError('No display phrases')
+    words = request.get('words')
+    if (not isinstance(words, list) or not words
+            or any(not isinstance(w, dict) or not isinstance(w.get('text'), str)
+                   or not w['text'].strip() or not w.get('placement_id') for w in words)):
+        raise ValueError('Original reviewed speech words and placement IDs required')
+    # Reuse the existing semantic span validator; display groups are separate from CC.
+    grouped = _groups(dict(request, groups=data.get('groups')), words)
+    if len(grouped) != len(rows) or any(
+            ' '.join(word['text'] for word in group) != row['text']
+            for group, row in zip(grouped, rows)):
+        raise ValueError('Display text must exactly match reviewed token grouping')
     result = []
     previous = request['target']['origin_frame']
     for row in rows:
