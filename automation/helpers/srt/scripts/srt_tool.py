@@ -136,6 +136,34 @@ def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def compare_sync_anchors(anchors):
+    """Compare one caption layer against normalized Resolve record frames, without listening."""
+    if not isinstance(anchors, list) or len(anchors) < 3:
+        raise SrtError('Provide at least three anchors (start, middle and end of speech)')
+    measured = []
+    for anchor in anchors:
+        voice, caption = anchor['voice_frame'], anchor['caption_frame']
+        label = anchor['label']
+        if (not isinstance(label, str) or not label.strip()
+                or type(voice) is not int or type(caption) is not int
+                or min(voice, caption) < 0):
+            raise SrtError('Each anchor needs a label and nonnegative integer record frames')
+        if measured and voice <= measured[-1]['voice_frame']:
+            raise SrtError('Voice anchors must be in strictly increasing frame order')
+        measured.append({'label': label, 'voice_frame': voice, 'caption_frame': caption,
+                         'delta_frames': caption - voice})
+    deltas = [entry['delta_frames'] for entry in measured]
+    tolerance = 1
+    if max(map(abs, deltas)) <= tolerance:
+        result = 'WITHIN_ONE_FRAME'
+    elif max(deltas) - min(deltas) <= tolerance and all(deltas):
+        result = 'OFFSET_CANDIDATE'
+    else:
+        result = 'NON_UNIFORM'
+    return {'result': result, 'playback': 'UNVERIFIED', 'anchors': measured,
+            'tolerance_frames': tolerance, 'coverage': 'SUPPLIED_ANCHORS_ONLY'}
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
@@ -150,8 +178,15 @@ def main(argv=None):
             p.add_argument('--' + name, type=float)
         if command == 'build':
             p.add_argument('--output', type=Path, required=True, help='New SRT, never overwritten')
+    anchor_check = sub.add_parser('check-sync', help='Compare already measured Resolve record frames offline')
+    anchor_check.add_argument('--anchors', type=Path, required=True, help='JSON array for one layer')
     args = parser.parse_args(argv)
     try:
+        if args.command == 'check-sync':
+            anchors = json.loads(args.anchors.read_text(encoding='utf-8-sig'))
+            report = compare_sync_anchors(anchors)
+            print(json.dumps(report, ensure_ascii=False, indent=2))
+            return int(report['result'] != 'WITHIN_ONE_FRAME')
         targets = [p for p in [getattr(args, 'output', None), args.report] if p is not None]
         if len({p.resolve() for p in targets}) != len(targets):
             raise SrtError('Output and report paths must differ')

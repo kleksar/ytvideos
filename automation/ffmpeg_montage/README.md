@@ -10,7 +10,7 @@ Two Ways Lab использует `channel: "two_ways_lab"`, `format: "short"`, 
 
 ## План
 
-Относительные пути разрешаются от JSON. Для illustrated recipe интервалы `[start_frame,end_frame)` целые, непрерывные, 30 FPS. Paper/Nuviko сцены 120–180 кадров; `role: end_screen` допускает последнюю композицию 300 кадров в long. `enforce_scene_duration: false`/нестандартный canvas — только явно заданная техническая проба, не новый production default.
+Относительные пути разрешаются от JSON. Для illustrated recipe интервалы `[start_frame,end_frame)` целые, непрерывные, 30 FPS. В закреплённом FFmpeg-рецепте Paper/Nuviko действует legacy guard 120–180 кадров (не норма текущего native Resolve-монтажа); `role: end_screen` допускает последнюю композицию 300 кадров в long. `enforce_scene_duration: false`/нестандартный canvas — только явно заданная техническая проба, не новый production default.
 
 План содержит `channel`, `format`, `audio`, `audio_contract`, `scenes`, `subtitles`. `audio_contract` связывает exact final mix SHA-256, фактически применённую скорость и файл evidence. Renderer не выбирает музыку, не доказывает скорость по числу и не исправляет неизвестный mix.
 
