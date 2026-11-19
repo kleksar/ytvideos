@@ -103,3 +103,8 @@ Prior selection and research remain preserved above. Three variants share this f
 Story map, per version: 02m windscreen → grip → failed retrieval → second grip → safe landing → wrong bolts → rewind; 05m question → ordinary flight → failure and first grip → air/flight-control obstacles → handoff → landing → maintenance findings; 10m question → ordinary crew → decompression → divided rescue → handoff → landing → wrong bolts → wrong selection and missed checks → safety outcome.
 
 **Audience demand, exact measured narration durations, controlled retention/CTR, real MP4 seam, independent listener: UNVERIFIED.** Qualitative interest remains the original hypothesis, not a new empirical finding. New drafts do not replace pinned/approved runtime artifacts, if any.
+
+
+## 2026-11-19 r3 — verified original-evidence reuse for revised 02m
+
+The Short now includes released shoulder harnesses, radio console obstruction/noise, Ogden's injuries and relief, Southampton landing 22 minutes later, externally mounted windscreen pressure, wrong bolt sizes and the mechanic's comparison against an already-wrong removed sample. All are grounded in the existing AAIB primary-report claim ledger (§§1.1, 1.17.4.2, 3) and the already researched full 05m/10m scripts. No newly invented dialogue or thoughts, and no inference that public views prove actual retention. First-listener, TTS and AV seam remain UNVERIFIED.

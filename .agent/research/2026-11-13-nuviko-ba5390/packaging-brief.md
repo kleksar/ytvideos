@@ -18,6 +18,6 @@ References: `channels/nuviko_history/brand/VISUAL_PROFILE.md`, accepted 2026-11-
 
 ## r2 — duration-specific editorial positioning, no generated assets
 
-- 02m Short preserves baseline exterior captain / direct visual shock. Old storyboard applies only to original exact text. Visual and audio seam remain unverified.
+- 02m Short revised 2026-11-19: exterior captain remains the opening image, with fuller rescue actions and a return from the verified window failure to its human consequence. Root storyboard stays archival-only; this Short has different exact hashes and no verified visual/audio seam.
 - 05m Long (recommended): opening question about landing with a captain outside; supporting question about wrong bolts; establish flight roles, then ejection as main hook. Thumbnail hypothesis: flight deck window opening with clearly identified cabin attendant restraint; reconstruction, not archive. Prompt/storyboard for exact Long hash not yet made.
 - 10m Long: split story of in-flight restraint and earlier maintenance selection; strongest value is discovering that the previous window had already used incorrect bolts. Thumbnail must not claim a contemporary image. No viewer CTR observations; do not treat three candidates as three approved releases.
