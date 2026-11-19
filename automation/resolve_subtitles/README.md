@@ -8,7 +8,8 @@ Default is **offline planning only**, never an app connection, ASR call, render 
 All speech channels use the same command, but channel/format policy remains authoritative.
 This is not yet an automatic replacement for branded on-screen captions on any channel.
 `--apply-native-captions` fails closed: the independently editable, exactly styled
-per-phrase authoring route has not been implemented/proven. Plain CC is not its fallback.
+legacy request route cannot author independent phrases. Use the separate bounded
+`titles_command.py` contract below; Plain CC is not its fallback.
 All channels require the [independent phrase delivery gate](../../.agents/skills/ytv-resolve/references/timeline.md#independent-phrase-delivery-gate).
 
 ## Exact inputs and modes of one command
@@ -235,3 +236,69 @@ edit/move/restore, old-carrier removal on candidate, save/reopen/readback and na
 playback. Keep production blocked until these checks pass; do not enable plain ST1 as
 an unapproved temporary branded substitute. No Resolve call or new live fixture was
 performed for this routing guard; prior bounded evidence above remains historical.
+
+## Independent native Text+ phrase route (bounded implementation)
+
+For visible captions on **all channels**, use one real native Text+ Title per semantic
+phrase on a normal video track. Optional accessibility CC is separate. Channel branding
+is authoritative: this contract does not make Georgia, white, a font reduction or any
+particular phrase merge universal. A semantic display phrase is not necessarily one
+speech-only SRT cue. Keep exact approved whole-phrase intervals/holds, not fixed cadence.
+
+`titles_command.py` is the new offline/batched route. The original command's
+`--apply-native-captions` guard remains closed to prevent accidental old request routing.
+Use the explicit request contract below, not a legacy branded request:
+
+```sh
+python automation/resolve_subtitles/titles_command.py request.json --output Work/TitleCandidate
+# Only inside a granted exclusive native slot, one bounded batch per invocation:
+python automation/resolve_subtitles/titles_command.py request.json --output Work/TitleCandidate --batch-start 0 --batch-size 5 --exclusive-session
+```
+
+The request retains `target`, `native_snapshot`, exact narration `placements` from the
+existing inspect/voice validation contract. Add `native_titles`: `recipe_id`, exact
+`style`, `display_evidence: {kind: approved_display_intervals, source: ...}`,
+`replace_tracks` (explicit old-caption-only video track indices, never base V1),
+`insertion_timecode` (exact source end, integer-rate timecode), and `display_clips`.
+Each clip has absolute integer `start_frame`, exclusive `end_frame`, full `text`,
+`width_review: native_verified`, and approved `panel` geometry/color. The list covers
+the target continuously. See `test_phrase_plan.py` for a synthetic schema example,
+not alignment or visual evidence. Inspect each whole phrase's actual fit; do not shrink
+or split automatically, or claim a supplied review flag is independent evidence.
+
+Only the measured 608×1080 Georgia Bold white recipe is currently implemented:
+`georgia-white-608x1080-native-v1`. The distinct
+`svin-white-608x1080-owner-smaller-v1` records the owner's **episode-specific** smaller
+font revision. Its supported size is explicit, not a global multiplier/default.
+A user-approved merge of adjacent display phrases is supplied as a new full text/span
+and reviewed panel width; speech CC remains unchanged. Other profiles/raster/style
+requests fail closed until separately calibrated. There is no Georgia fallback.
+
+The adapter creates a protected duplicate and a dedicated video lane, inserts stock
+`Text+` at the verified empty timeline end, trims via the installed supported
+`SetRightOffset`, moves via `SetPosition`, imports and activates a sanitized native
+phrase graph. Each resulting item must have `MediaPoolItem=None`, one composition,
+exact start/end, independently editable `Template.StyledText`, expected graph
+connections/font/color/panel. Source video/audio, CC text/timing and original view
+remain preserved. No media carrier, render or upload is created. Batches contain at
+most five titles. Persisted pending/done markers and graph readback allow unchanged
+rechecks; an uncertain partial item refuses retry instead of duplicating work.
+
+After actual native review, add `native_review` with exact plan `token`, provenance
+`source` and completed `visual`, `playback`, `independent_edit_move_restore`, `style`
+checks, then use `--finalize --exclusive-session`. Only then does the adapter remove
+the explicitly declared old caption clips **from the candidate**, after rechecking
+native titles and source IDs. Source/rollback/media remain untouched. This evidence is
+owner/operator-supplied, not created by the CLI. It is not permission to render.
+
+### Evidence boundary
+
+The operational worker exercised the same native APIs on 2026-11-19: true title
+creation, exact right-offset duration, move, text edit/restore and visible frame;
+29 independent continuous phrase titles were authored with original speech CC separate.
+The subsequent specifically requested first-phrase merge/font change produced 28 titles
+without changing the 29 speech cues. Those operational fixtures are not a live execution
+of this refactored CLI. UI Inspector screenshot evidence was not captured; do not label
+that test PASS based on API readback. The reusable implementation requires its own
+isolated integration run, idempotence/restore checks and native visual/playback acceptance
+before broad rollout. Keep this PR drafted until that proof and required CI/review pass.
