@@ -1,6 +1,6 @@
 # Проверенная база и границы
 
-Skill revision: **2**, 2026-11-19. Это перенос проверенного опыта в общий будущий workflow, не заявление о проверке всех каналов/версий Resolve.
+Skill revision: **3**, 2026-11-19. Это перенос проверенного опыта в общий будущий workflow, не заявление о проверке всех каналов/версий Resolve.
 
 ## Локальные проверки производства
 
@@ -19,3 +19,7 @@ Skill revision: **2**, 2026-11-19. Это перенос проверенног�
 ## Дополнение export QA
 
 После жалобы владельца production worker подтвердил дефект в обоих соответствующих локальных native H.264 masters: однокадровые горизонтальные chroma-полосы при успешном decode (примеры Mind 27.267/35.467 s, Rewind 9.700/21.600 s). Причина ещё исследуется A/B-тестом; эта docs-задача не пересматривала media самостоятельно. В delivery reference добавлена проверка временно изолированных визуальных дефектов и сравнение timeline/local/YouTube. Это новая процедура диагностики, не выполненный detector, подтверждённое исправление или основание менять готовые загрузки.
+
+## Native captions и chapters
+
+Проверены официальные источники 2026-11-19: [Blackmagic Edit — Subtitles and Closed Captioning / Markers](https://www.blackmagicdesign.com/products/davinciresolve/edit) описывает native editable subtitle tracks и отдельный SRT export; [YouTube captions](https://support.google.com/youtube/answer/2734796) — отдельный timed-file upload; [YouTube chapters](https://support.google.com/youtube/answer/9884579) — description timestamps и минимальные условия. Skill требует эти операции и read-back для будущих применимых выпусков; это не доказательство выполнения их в текущем проекте и не новый успешный end-to-end Resolve upload. Конкретный scripting метод проверить по installed API; наличие GUI-функции не доказывает API support.
