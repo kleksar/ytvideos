@@ -20,3 +20,14 @@
 ## Главы длинного видео
 
 Для применимого Long поставить **timeline markers**, не clip markers, по окончательному монтажу. Выбрать и записать один chapter color, названия и позиции; QA/служебные markers других цветов в главы не включать. Пересчитать относительно начала экспортируемого диапазона, после trim/intro снова сверить. Сохранить рядом с проектом список timestamp + title и read-back marker type/color/position. Для Short chapter toggle остаётся выключенным. Публикация глав и selectable CC — по [delivery](delivery.md), а не по одному наличию track/markers в проекте.
+
+## Reusable native subtitle command
+
+For an exact saved timeline, use the [native subtitle command](../../../../automation/resolve_subtitles/README.md):
+offline conform/word evidence first, official MCP inspect, then an exclusive-session
+native CC candidate. It reuses the final-speech sync checker and refuses ambiguous or
+stale inputs. The first slice creates an editable optional timed-text track, **not**
+profile-branded Text+; screen-style and playback remain explicit acceptance gates.
+Native trim/speed application and complete per-channel migration are not yet claimed.
+Keep existing approved media and caption layers until the replacement has real native
+visual/playback proof. No FFmpeg caption assembly/render or upload is part of this command.
