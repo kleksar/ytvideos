@@ -77,6 +77,19 @@ class PhrasePlanTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'grouping'):
             phrase_layout(request)
 
+    def test_reviewed_imperative_vocative_pairs_not_name_heuristic(self):
+        request=fixture()
+        row=request['native_titles']['display_clips'][0]
+        row.update(text='Пойдём, Татьяна',end_frame=20)
+        request['native_titles']['display_clips'].append(dict(row,start_frame=20,end_frame=38,text='Пойдём, Дмитрий'))
+        request['native_titles']['locale']='ru'
+        bind_words(request)
+        request['keep_together']=[[0,1],[2,3]]
+        self.assertEqual(len(phrase_layout(request)),2)
+        request['native_titles']['groups']=[[0],[1],[2],[3]]
+        with self.assertRaisesRegex(ValueError,'protected'):
+            phrase_layout(request)
+
     def test_whole_phrase_not_word_split_and_sanitized_comp(self):
         request=fixture()
         rows=phrase_layout(request)
