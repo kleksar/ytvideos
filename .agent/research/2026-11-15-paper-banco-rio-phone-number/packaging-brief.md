@@ -7,3 +7,7 @@ Audience: EN general true-story/heist viewers, Paper Detour Long 16:9. First vis
 - **C — "They Escaped Through a Drain. A TV Call Exposed Their Trail."** Paper newsroom phone in foreground, bank vault and under-road passage behind; large paper lettering "ONE PHONE NUMBER". Early proof at S003 through explicit promise, precise later payoff S022–S026. Risk: must not imply call was the ONLY cause of arrests.
 
 Primary editorial choice A; can test packaging later only with approval of exact script and verified real production inputs. Intro thumbnail object appears within first 3 scenes. Paper plane cameo in S020 is separate from image used as thumbnail. No thumbnail generated in this task.
+
+## Variant-specific packaging guard (2026-11-19)
+
+Selection is **not** an approval. The candidate EN/RU texts on 02m, 05m, 10m share one fact base but differ in narrated specifics. A title/thumbnail promising detailed phone handset analysis is appropriate only if that exact payoff is present in the chosen script; 02m compresses it and 05m leaves it implicit. The 10m new arrest material must not be presented as filmed real footage; visual reconstruction only with independent rights/asset review. All new variant scene timings are invalid until a single exact version is selected and TTS measured. No ReleaseSpec, assets, imagegen or upload prepared.

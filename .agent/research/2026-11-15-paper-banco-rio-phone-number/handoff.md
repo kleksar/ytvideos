@@ -1,3 +1,11 @@
+# 2026-11-19 revision handoff — existing #108
+
+Baseline original PR head: `de7fdb05c8c82476e7219ed10b954358101f2811`; original `script.en.txt`, `script.ru.txt` and `storyboard.md` retained byte-for-byte. Three independent editorial scenarios of the **same** Banco Río event live at `variants/02m`, `variants/05m`, `variants/10m` (each full EN/RU). Exact SHA-256 and comparison in [story-review](story-review.md). Recommended **05m** pending voice timing and independent review, not owner approval. Both 02m and 10m require a new storyboard tied to selected exact hash; do not inherit the 33 root scenes. Current work does not choose a master or affect pins.
+
+No active local production/run/session can be verified from this GitHub-only environment; PR review/comments are empty at prewrite, owner acceptance not recorded on this PR. A live local run and independent session reviewer are unavailable here, so status remains **EDITORIAL_CANDIDATE_UNREGISTERED / UNVERIFIED**. For transfer, on canonical verified checkout use `uv run ytv start --channel paper_detour --format long --intent 'Review Banco Río selected variant from PR #108; no production'`, read actual pinned task packet and register exact chosen script and supporting variants via CLI, obtain true reviewer response and owner approval. Never import proposed PR scripts as runtime pins automatically.
+
+---
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 # Local handoff
