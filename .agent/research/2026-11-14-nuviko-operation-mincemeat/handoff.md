@@ -9,3 +9,7 @@
 5. Image generation, paid audio, MP4, external video providers, YouTube upload/publish and branch merge remain unauthorized. `UNVERIFIED`: current local runtime, independent reviewer availability, rights, TTS, actual timings, retention/CTR and host capabilities.
 
 Historical owner feedback (#90) is retained in the unmodified source documents and the historical section of story-review. Neither the previous review nor any old review applies automatically to newly hashed variants.
+
+## 2026-11-19 revised 05m input
+
+Exact target 05m EN UTF-8 LF SHA-256 `027e1b543c4e78b09ab1ad5771f8638bb85af469d305c807ed3cbb13da3db326`, RU `e208c5950f092aa05cbff5e6869cc329ea9fd858fdeacebdf1113f7bc6906382` (780/643 words). Original 02m, 10m and root master/storyboard preserved at prior blob hashes. New **independent** blind read and bilingual review must reference these hashes; no earlier receipt applies. New scene spans/storyboard need selected exact text and voice timing. Review the new fact ledger on urgent coded cables, sealed-envelope extraction and 14 May high-command response; source attribution does not prove a standalone causal outcome. No runtime, existing run reassignment, approval, production or upload performed. Status remains `EDITORIAL_CANDIDATE_UNREGISTERED`.

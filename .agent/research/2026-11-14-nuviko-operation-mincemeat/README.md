@@ -5,10 +5,10 @@
 | Target | Complete EN | Complete RU | EN words | Review status |
 |---|---|---|---:|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 311 | Written, author checked; independent UNVERIFIED |
-| **05m (recommended)** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **676** | Written, author checked; independent UNVERIFIED |
+| **05m (recommended)** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **780** | Written, author checked; independent UNVERIFIED |
 | 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1465 | Written, author checked; independent UNVERIFIED |
 
-**Why 05m:** shows the full chain of credibility → delivery → copied letters → decoded German response → Sicilian invasion. The 02m version necessarily compresses the German-access uncertainty; 10m adds planners, bureaucracy, and post-war identity but stalls after the central mechanism becomes clear. This choice is editorial, not measured retention or owner approval.
+**Why 05m:** adds a specific, sourced chain absent in the shorter story: urgent coded messages the Germans could read → extraction and copying despite sealed envelopes → paper evidence of access → a separate German high-command response on May 14 → real Sicily landings. The 02m cut necessarily compresses that verification; 10m adds background but loses pace. This is an editorial recommendation, not measured retention or owner approval.
 
 The previously strong [original English text](script.en.txt) and [Russian translation](script.ru.txt) (80 paragraphs each) remain intact as an alternate baseline. 10m retains almost all of that material, adjusting only the question-first Long opening to current canonical standards. [Original provisional storyboard](storyboard.md) belongs to those **original** source files, not automatically to any of the three variants.
 
