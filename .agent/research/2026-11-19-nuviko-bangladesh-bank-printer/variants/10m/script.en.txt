@@ -1,0 +1,107 @@
+What does a bank do when a court tells another bank to return eighty-one million stolen dollars, but the money has already travelled through casinos? How did the thieves get that far without breaking into a vault? And why did a printer become one of the first signs that anything was wrong?
+
+To find the answer, go back to February 2016.
+
+Bangladesh Bank is the country's central bank. It manages part of the nation's financial reserves. Some of its dollars were held in an account at the Federal Reserve Bank of New York, where other central banks also hold funds.
+
+A payment from that account didn't require someone to count out cash in Dhaka. An authorized instruction could move money to another institution. Banks around the world exchanged those instructions using the SWIFT messaging network.
+
+That arrangement depended on a distinction which would soon matter enormously. SWIFT could authenticate that a message came through a bank's proper connection. Authentication could not prove that the person controlling the bank's computer was honest.
+
+Months before the theft, accounts were opened at a branch of Rizal Commercial Banking Corporation, or RCBC, in the Philippines. Contemporary reporting found that four of those accounts then sat nearly unused, with small opening deposits.
+
+At some point, intruders also entered Bangladesh Bank's computers. An American criminal complaint later described spear-phishing emails and malware used to compromise the bank's network and reach terminals connected to its SWIFT operations.
+
+The public record doesn't establish every action of every participant. But the practical result was clear: an outsider could issue messages that appeared to carry the bank's own authority.
+
+By February fourth, the infrastructure for the robbery was in place.
+
+In Dhaka, the working day was ending. In New York, the Federal Reserve was still processing payments.
+
+One fraudulent instruction arrived. Then many more.
+
+Over a few hours, thirty-five payment orders demanded a combined nine hundred and fifty-one million dollars from Bangladesh Bank's account. For an institution that usually sent far fewer messages, this was a sudden burst of activity.
+
+Some instructions were unusual for other reasons, too. Reuters reported that the messages lacked normal correspondent-bank details and that many destinations were individuals rather than the institutions familiar to central bank business.
+
+Those details mattered because a payment system isn't just a series of computers pressing an automatic approval button. People and screening controls can stop something that doesn't fit.
+
+Thirty of the thirty-five transfers, roughly eight hundred and fifty million dollars, were held back.
+
+Five were processed. Their total was one hundred and one million dollars.
+
+So there were two answers to the question, did the defence work? Yes, in the sense that most of the attempted billion stayed put. No, in the sense that a sum larger than most physical robberies had already left the account.
+
+Now return to the office in Dhaka.
+
+The bank had a printer that generated paper records of SWIFT payment activity. In a normal working day, the printouts gave staff something to compare against the transfers they actually intended.
+
+On Friday, February fifth, the printer wasn't producing its reports. Workers tried to restore it. Later reporting described malware that had interfered with the software controlling those records, suppressing the very evidence the bank needed to understand what had happened.
+
+The printer did not open the route for stealing money. The compromised payment access did that. But the missing paper trail delayed a response just when time mattered most.
+
+The calendar made the problem worse.
+
+Friday and Saturday were weekend days in Bangladesh. In New York, Saturday and Sunday were the weekend. Investigators and bankers trying to ask questions or cancel transactions had to move between institutions operating on different schedules.
+
+That is not an excuse for every failed control. It is the difference between discovering a suspicious order while the destination can still be stopped, and discovering it after funds have passed through several hands.
+
+The five processed payments had taken two different routes.
+
+Twenty million dollars went toward a purported foundation in Sri Lanka. The recipient's name was misspelled in the transfer request. A bank in the chain questioned it. The payment was reversed.
+
+This detail became the most memorable part of the robbery. A typo helped save twenty million dollars.
+
+But it didn't rescue the other eighty-one million. Nor does the evidence say that a single spelling mistake automatically blocked all the other requests. Most orders had already been held for review because the transactions looked abnormal.
+
+The four remaining payments went to accounts at RCBC in the Philippines. Reuters documented separate transfers of six, thirty, twenty and twenty-five million dollars.
+
+Investigators later described money moving from those accounts through other accounts, currency conversions and casinos. At that point the task changed. There was no single mistaken line of text to cancel. Money had been dispersed inside a different country's financial system.
+
+For a viewer watching the bank statement, this is the second trap in the story. Money can be transferred in moments. Proving where it went, who handled it, and what can lawfully be returned can take years.
+
+The attack also exposed confusion about which system had actually been compromised.
+
+The New York Fed publicly said there was no evidence that anyone had penetrated its own systems. The SWIFT messages had passed the standard authentication process. There was no demonstrated break-in to the central SWIFT network either.
+
+The weak point was the trusted endpoint: a member bank's computers and the processes around its payment instructions. The attackers had taken over the place that was supposed to speak on the bank's behalf.
+
+The consequences appeared quickly. In March 2016, Bangladesh Bank's governor, Atiur Rahman, resigned amid questions about how the loss was handled and disclosed.
+
+In May, SWIFT announced a new Customer Security Programme. Its plan included stronger security expectations for customer-managed systems and better tools for spotting suspicious patterns. The response was aimed at the problem the robbery had made plain: banks needed to defend the computers that generated apparently valid instructions.
+
+On the Philippine side, banking regulators imposed a one-billion-peso fine on RCBC in August 2016 for failures connected with the heist. That was a regulatory penalty, not the return of the stolen eighty-one million dollars.
+
+A former RCBC branch manager, Maia Santos-Deguito, was convicted of money laundering in a Philippine court in 2019. She appealed. The Philippine Court of Appeals upheld the conviction in 2023.
+
+The case had consequences for people and institutions that handled the money. That still didn't identify and convict everyone who had operated the computers in Dhaka.
+
+American prosecutors added another layer in September 2018. They charged a North Korean programmer as part of an alleged state-backed hacking conspiracy, which they said was responsible for the Bangladesh Bank theft and other attacks.
+
+The attribution is important, but so is its status. Criminal charges describe what investigators allege. They aren't permission to invent a scene in which a named suspect presses a key at a precise minute.
+
+What about the missing money?
+
+Reports in 2026 still described around fifteen million dollars recovered from the eighty-one million that reached the Philippines. The larger balance remained contested.
+
+In September 2025, a court in Bangladesh issued an order directing the confiscation of eighty-one million dollars in connection with RCBC. Officials announced that the order had been sent to the bank and other relevant parties.
+
+But an order made in Bangladesh was not the same as cash arriving back in its central bank account. Officials did not confirm such a recovery. The legal dispute crossed borders, courts and banking systems, just as the original transfer had.
+
+And in September 2026, the submission of the investigation report in Dhaka was postponed for the ninety-eighth time. The latest reported deadline was another date, not a completed report.
+
+Ten years of investigations, fines, criminal rulings and demands for repayment had not turned the first weekend's transfers into a simple reversal.
+
+One often-told version says that a misspelled word saved a billion dollars. That gets the structure of the event wrong.
+
+Thirty suspicious requests were stopped before payment. One further request was reversed because of scrutiny triggered by a spelling error. Four other requests succeeded and carried eighty-one million dollars away.
+
+Another version says hackers cracked the Federal Reserve or the whole SWIFT network. The evidence points instead to compromised bank computers sending authenticated instructions.
+
+Both simplifications miss the most important part of the story.
+
+The robbers needed access that the payment system trusted, destinations ready to receive the money, and enough time to move it onward. The missing printer reports and mismatched weekends helped give them that time.
+
+The guards around the transaction were not all absent. Some worked, some failed, and the difference between the two was eighty-one million dollars.
+
+In the end, the first question was never really whether someone could open a vault. It was whether a bank could recognize its own voice after someone else had learned to use it.
