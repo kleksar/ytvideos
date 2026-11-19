@@ -47,3 +47,9 @@ Native subtitle track, burned text и selectable YouTube CC — разные р�
 После upload получить настоящий video ID/URL и проверить тот же канал, privacy, обработку/ограничения, metadata и фактическое отображение. Довести порученный release через Studio там, где Resolve не позволяет установить или проверить playlist, язык, audience, CC/SRT, tags, rights/restrictions, end screen либо Related video. Не объявлять эти поля готовыми по наличию общего YouTube preset.
 
 Для Short Related video нужен доступ к advanced features, а цель должна быть доступным public/unlisted видео **этого канала**. Для long подготовить релевантный end screen в разрешённом scope и проверить его сохранение. Настоящий clickable end screen/Related video не заменяется рисунком или титром в MP4. Custom thumbnail также зависит от account eligibility; Resolve не обходит проверку YouTube. При блокировке сохранить точную причину/остаток работы, не заливать дубль и не изменять account. Статус «uploaded», «configured», «public» различать по фактическому read-back.
+
+## Delegated channel access is not native/API proof
+
+YouTube channel-permissions Manager access supports creating/uploading/publishing content in Studio, but invited channel-permission users do not gain YouTube API access through that delegation. Verify the current [official channel-permissions help](https://support.google.com/youtube/answer/9481328) and actual account/role. Do not conflate this with a different Brand Account role or generalize it to all owners.
+
+A working Studio account switch or successful Studio upload does not establish which channel Resolve's connected YouTube account will use. Before native upload, verify the exact channel ID and visibility through that route; if unavailable, report the blocker without guessing, silently changing account permissions or redirecting upload. A role label does not authorize a new account connection or broaden the user's release scope.

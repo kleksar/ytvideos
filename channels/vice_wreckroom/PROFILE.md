@@ -12,6 +12,12 @@ The description is a verbatim identity snapshot, not permission to bypass the sp
 
 Контент: короткие самостоятельные смешные эпизоды из реальных GTA VI стримов. Показать понятную завязку, действие и завершённую реакцию/развязку. Не выдавать trailer reaction, меню, чужой пересказ или синтез за реальный gameplay. Имя стримера/подпись должны соответствовать источнику. Не заполнять квоту слабыми эпизодами.
 
+## Candidate handoff before production
+
+The owner chooses the story/moment from the discovery shortlist. Send each nomination with the exact VOD link, a review start BEFORE the peak, the peak timestamp, proposed end/duration, and the observed chat signal with its limits (window, message/user counts where known, laughter vs general activity, baseline/coverage and missing evidence). Label these as candidates, not approved funny Shorts. Do not invent metrics, anonymous author IDs, a verified laugh or a finished payoff.
+
+Do not hold this initial shortlist until Dot completes a full audiovisual/editorial review of every candidate. Wait for the owner's choice and instructions before creating the editable Resolve project or production edits, then iterate on the selected moment. This changes the candidate handoff order, not source rights or final quality gates. The manual STOP/STAY/PAYOFF, complete audiovisual boundaries and release checks below apply to selected production material before it is called ready; unknown observations stay explicit in the initial handoff. No automatic quota filling, assembly or upload from a scout score.
+
 ## Отбор и монтаж
 
 - Канальные входы: exact VOD/creator, доступный законный исходник, source offset, проверенные условия использования и короткий edit plan. Оригинальный NoCodeHack — [gta6-clipper](https://github.com/nocodehack/gta6-clipper); локальный исходный clone `Work/gta6-clipper` не заменять аддоном `Work/gta6-clipper-discovery-v2`. Эти относительные локаторы не гарантируют наличие файлов в другом checkout.
