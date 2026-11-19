@@ -15,3 +15,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 - No storyboard, AI reference images, TTS, video, FFmpeg, provider purchases, uploads or schedule mutations. No production was permitted merely by editorial score/CI.
 
 Continue from this exact source and channel-specific profile; do not merge this PR without separate instruction.
+
+## 2026-11-19 10m revised editorial handoff
+
+Exact new [EN 10m](variants/10m/script.en.txt) SHA-256 `832cf744846b00f89a795d119b174a15f411c3f0b976871617f62f1075fdf040`, [RU](variants/10m/script.ru.txt) SHA-256 `3bf29f3c898c1717a5b9982f99900d2015f90deb50bf8bfa679d19c80c8e1547`; 1,118 EN words, 926 RU words, 32/32 meaning-aligned author-checked paragraphs. Previous 10m hashes/review are stale. Original 02m/05m unchanged; **05m remains the recommended exact master** (SHA-256 `ae9f50e33ca5aa3332ee602ae62c4f9f3fb8dc3ca5c3de3f9e70cec9156ab446`). Full fact evidence and revised author assessment: [research](research.md), [story-review](story-review.md). For selecting 10m instead, obtain genuine independent review on **new** hashes; register via canonical runtime, never inherit old timing/approval. No video work authorized or performed.
