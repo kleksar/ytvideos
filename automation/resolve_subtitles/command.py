@@ -33,8 +33,10 @@ def unpack(response):
     return value
 
 
-def script_call(client, expression):
+def script_call(client, expression, branded=False):
     source = Path(__file__).with_name('native.py').read_text()
+    if branded:
+        source += '\n'+Path(__file__).with_name('branded_native.py').read_text()
     return unpack(client.run(source+'\nresult = '+expression+'\n'))
 
 
@@ -93,17 +95,18 @@ def main(argv=None):
     group = parser.add_mutually_exclusive_group()
     group.add_argument('--inspect', action='store_true', help='Read exact current native target; no edits')
     group.add_argument('--apply-native-cc', action='store_true', help='Create isolated editable CC candidate; does not install branded screen captions')
+    group.add_argument('--apply-branded', action='store_true', help='Create an isolated editable branded+CC candidate for a calibrated recipe')
     parser.add_argument('--exclusive-session', action='store_true', help='Coordinator has granted sole access to this Resolve instance')
     args = parser.parse_args(argv)
     request = json.loads(args.request.read_text())
     args.output.mkdir(parents=True, exist_ok=True)
-    if (args.inspect or args.apply_native_cc) and not args.exclusive_session:
+    if (args.inspect or args.apply_native_cc or args.apply_branded) and not args.exclusive_session:
         parser.error('Native operations require an explicitly granted exclusive session')
     plan = None if args.inspect else plan_subtitles(request)
     if plan:
         (args.output/'plan.json').write_text(json.dumps(plan, indent=2, ensure_ascii=False)+'\n')
         (args.output/'captions.srt').write_text(plan['srt'])
-    if not (args.inspect or args.apply_native_cc):
+    if not (args.inspect or args.apply_native_cc or args.apply_branded):
         print('PLAN ONLY: native authoring/playback/style are UNVERIFIED')
         return 0
     target = target_native(request['target'] if args.inspect else plan['target'])
@@ -117,15 +120,28 @@ def main(argv=None):
             return 0
         (args.output/'position-api.json').write_text(json.dumps(client.position_api(), indent=2))
         hashes = validate_voice(request, before)
-        token = candidate_token(plan, before)
+        layout=None
+        if args.apply_branded:
+            from layout import native_layout
+            branded=request.get('branded',{})
+            if 'existing_screen_caption_tracks' not in branded:
+                raise ValueError('Explicit editable screen-caption replacement tracks required; no baked-caption fallback')
+            layout=native_layout(plan, branded['shots'], branded['recipe_id'])
+            (args.output/'native-layout.json').write_text(json.dumps(layout,indent=2))
+        token = candidate_token({'plan':plan,'layout':layout,'replace_tracks':branded['existing_screen_caption_tracks']}, before) if layout else candidate_token(plan,before)
         name = 'Native CC candidate '+token[-16:]
         expected = [(c['spoken_start_frame'], c['spoken_end_frame'], c['text']) for c in plan['cues']]
         srt = str((args.output/'captions.srt').resolve())
         expression = 'install(resolve, '+', '.join(repr(v) for v in (target,before,expected,srt,name,token))+')'
+        if layout:
+            name='Native branded candidate '+token[-16:]
+            comps=args.output/('native-comps-'+token[-16:]);comps.mkdir(exist_ok=True)
+            paths=[str((comps/f'section-{i:04d}.comp').resolve()) for i in range(len(layout['shots']))]
+            expression='install_branded(resolve, '+', '.join(repr(v) for v in (target,before,layout,expected,srt,paths,name,token,branded['existing_screen_caption_tracks']))+')'
         receipt_path = args.output/'native-receipt.json'
         receipt_path.write_text(json.dumps({'status':'IN_PROGRESS', 'candidate_name':name, 'token':token}))
         try:
-            receipt = script_call(client, expression)
+            receipt = script_call(client, expression, branded=bool(layout))
         except Exception as exc:
             receipt_path.write_text(json.dumps({'status':'UNKNOWN', 'candidate_name':name, 'token':token,
                 'error':str(exc), 'next':'Inspect native candidate and source before retrying; do not duplicate imports.'}, indent=2))
@@ -137,7 +153,7 @@ def main(argv=None):
             raise RuntimeError('Narration source changed during authoring; candidate requires review')
         receipt.update(source_hashes=hashes, conform_sha256=plan['conform_sha256'],
                        render=False, published=False, visual='UNVERIFIED', playback='UNVERIFIED',
-                       branded_style='NOT_APPLIED', source_timeline_preserved=True)
+                       branded_style='NATIVE_AUTHORED' if layout else 'NOT_APPLIED', source_timeline_preserved=True)
         (args.output/'native-receipt.json').write_text(json.dumps(receipt, indent=2)+'\n')
         print(json.dumps(receipt, ensure_ascii=False))
     finally:
