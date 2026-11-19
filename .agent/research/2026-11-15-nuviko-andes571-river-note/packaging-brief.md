@@ -22,3 +22,6 @@ No actual thumbnails, A/B, CTR, metadata publication or asset hashes. Exact acce
 ## Duration variants (editorial hypotheses; no packaging outputs)
 
 This brief originally refers to the **legacy 27-paragraph text and 46-scene storyboard only**. The 2m/5m/10m completed texts are in `variants/` and [story-review.md](story-review.md); recommend 05m after exact-source first-listener check. For that version, the central thumbnail promise is **two walkers across a river / 14 left at the aircraft**, the proof is the written note and the payoff is Catalán informing authorities, followed by Parrado guiding helicopters. Adapt shot beats/title and packaging only after the owner selects a single exact script; do not copy legacy frame references/timings to all variants. Metrics, thumbnail tests, image rights and AV remain UNVERIFIED.
+
+## 2026-11-19 packaging dependency
+The current six versions establish the directional physical exchange: Catalán sends paper/pencil to the hikers, Parrado sends the written reply back with a stone. Catalán then rides to police; Parrado helps locate the wreck. Do not reverse the direction in new scene or thumbnail prompts, invent legible text, or apply the legacy S020–S024 scene timings to new hashes. Source ledger [F10–F12](research.md).

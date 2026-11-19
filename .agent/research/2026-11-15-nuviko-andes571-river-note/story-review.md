@@ -1,28 +1,28 @@
 # Editorial duration comparison — Flight 571 / the river note
 
-**Status:** EDITORIAL_CANDIDATE_UNREGISTERED; no runtime, owner approval, independent reviewer or media. Авторская оценка, не измеренные просмотры. Новый запрос владельца применён по proposed #124 `7d6bdf7702a2a241a33a21677fce29f26ada9b72` (Draft, не main). Current main at reading: `b1be73fbcd2a87dafe34ad65c479d337a26ebd80`. Baseline PR head `1c3e9b786764851a29bbcc764dd59b2ab3e6e7e2`.
+**Status:** EDITORIAL_CANDIDATE_UNREGISTERED; no runtime, owner approval, independent reviewer or media. Авторская оценка, не измеренные просмотры. Исторически запрос владельца применён по proposed #124 `7d6bdf7702a2a241a33a21677fce29f26ada9b72` (позднее merged; теперь canonical main). Historical main at reading: `b1be73fbcd2a87dafe34ad65c479d337a26ebd80`. Baseline PR head `1c3e9b786764851a29bbcc764dd59b2ab3e6e7e2`.
 
 **Baseline:** `script.en.txt` SHA-256 `d41c5b39ecef0ad2d6cb5163d9a16d0870e74c4b78e0429a765c713d3c9ab0a0`, `script.ru.txt` SHA-256 `63eda5b97b19fa83b096ef4e63a35ec41d308a5edca7cbe44eb8dff6bc2d673d`. Оба исходных файла и исторический `storyboard.md` **не изменены**, storyboard привязан только к этим исходным bytes; никакой вариант не наследует его сцены, timings, review или approval. Исходная версия сильна сценой с запиской, но для Long не содержит вступительных вопросов и перегружает повторным payoff; варианты написаны с новым композиционным обещанием.
 
 | Версия | Точный текст EN / RU | EN words | Конструкция / хронометраж (не TTS) | Статус |
 |---|---|---:|---|---|
-| 2m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | 302 | 145–165 wpm + паузы, ~1:50–2:20; **Long 16:9** | полный текст, авторская проверка |
-| **5m** | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | 654 | 130–150 wpm + паузы, ~4:25–5:20; **Long 16:9** | **рекомендован автором**, без approval |
-| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | 1441 | 140–155 wpm + паузы, ~9:20–10:55; **Long 16:9** | полный текст, авторская проверка |
+| 2m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | 320 | 145–165 wpm + паузы, ~1:50–2:20; **Long 16:9** | полный текст, авторская проверка |
+| **5m** | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | 709 | 130–150 wpm + паузы, ~4:25–5:20; **Long 16:9** | **рекомендован автором**, без approval |
+| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | 1512 | 140–155 wpm + паузы, ~9:20–10:55; **Long 16:9** | полный текст, авторская проверка |
 
 **Exact SHA-256 UTF-8 LF (не заменять хэшем git commit):**
 
 | Версия | EN SHA-256 | RU SHA-256 |
 |---|---|---|
-| 02m | `d57321bbe811cd46227e85c51b973373b2b4fb5084c97b24cff4e81a28f691b5` | `fba9d18de4bdc1a0b894982ba95dfe774e72c44b45b9aa2619eb0c8a44e359bd` |
-| 05m | `35e0e4e96bccf60e05cfbeb1e4d10d109e6d0e0212fca0e11f8d28d35f45ab0e` | `e49267bc508dd1f57608b70485298d5cfa55b1232b2b723a796eea51ce849ea4` |
-| 10m | `4f31145e4c6d157b9ecd8661dca30a78f8af65eb4055a544e8085401cd46f6b0` | `0f50d653e4f641bd4c74b650a79685dd8c80ae9b4e157a920a5fef6251f31e74` |
+| 02m | `267a4a99d8ab9601638381cee811c1582e122c3ba568b84f8052a3942deb8754` | `3420179b0c05c07ddc11c52ef4cb04234ec5cdf73db347b920f5ad4bb3966b95` |
+| 05m | `ffe0e60b446a9488e4185a67c91de538466d66192c9682fe2bc523cac75f22ee` | `b0e17903f3b5768221732b791caa71025f7c2f7e7b0fe3f8ad4c93a3d3e5495a` |
+| 10m | `23ea655103483634a22e25a017ef533c02780b682eba5bf1649ba72030121dd6` | `ff9fd17b30821bc95a8ebf2ebe88de2048b663f686c64f916ab17304eba69783` |
 
 ## Story maps — самостоятельное повествование
 
-- **02m:** вопросы о связи с внешним миром → катастрофа/отмена поиска → голод и лавина → пеший выход втроём/возврат Висинтина → новые горы → река/письмо → Каталан/вертолёты/16 спасены. Человеческая линия — четырнадцать ожидающих и двое посланцев; минимум биографического контекста.
-- **05m:** три вопроса о прекращённых поисках, переходе и реке → ошибка пилотов/импровизированное укрытие → радио/прекращение поисков → тяжёлое решение и лавина → совместная подготовка спального мешка → трое в путь, возврат Висинтина → двое спускаются и передают записку → Каталан доставляет известие → Паррадо направляет вертолёты → 16 спасены и 29 погибли. Содержательная добавка: аварийное решение о маршруте, практическая подготовка, навигация вертолётов.
-- **10m:** вопросы → условия рейса/ошибка навигации → студенты-медики и импровизация укрытия → семья Паррадо, потери и первые попытки выживания → самолёты не замечают группу/радио прекращает надежду → дебаты о пище → лавина и дни под снегом → разведка и снаряжение → недооценённый подъём, развилка Висинтина → хребет разрушает ожидания → длительный спуск/следы человеческой жизни → записка/пастух/его путь за помощью → поиск с воздуха/ночь ожидания/спасение → ограниченная перспектива воспоминаний и итог действий. Добавка: как каждый выбор влиял на следующую возможность, а не лекция о героизме.
+- **02m:** вопросы о связи с внешним миром → катастрофа/отмена поиска → голод и лавина → пеший выход втроём/возврат Висинтина → новые горы → пастух передаёт бумагу/карандаш → ответ с камнем → дальний путь Каталана к полиции → вертолёты/16 спасены. Человеческая линия — четырнадцать ожидающих и двое посланцев; минимум биографического контекста.
+- **05m:** три вопроса о прекращённых поисках, переходе и реке → ошибка пилотов/импровизированное укрытие → радио/прекращение поисков → тяжёлое решение и лавина → совместная подготовка спального мешка → трое в путь, возврат Висинтина → двое спускаются → Каталан передаёт письменные принадлежности → ответ → Каталан везёт сведения полиции → Паррадо направляет вертолёты → 16 спасены и 29 погибли. Содержательная добавка: аварийное решение о маршруте, практическая подготовка, навигация вертолётов.
+- **10m:** вопросы → условия рейса/ошибка навигации → студенты-медики и импровизация укрытия → семья Паррадо, потери и первые попытки выживания → самолёты не замечают группу/радио прекращает надежду → дебаты о пище → лавина и дни под снегом → разведка и снаряжение → недооценённый подъём, развилка Висинтина → хребет разрушает ожидания → длительный спуск/следы человеческой жизни → обмен бумагой/карандашом и письменным ответом → путь Каталана к полиции → поиск с воздуха/ночь ожидания/спасение → ограниченная перспектива воспоминаний и итог действий. Добавка: как каждый выбор влиял на следующую возможность, а не лекция о героизме.
 
 ## Авторские оценки — 8 критериев отдельно, 1–10, основания и ограничения
 
@@ -42,7 +42,7 @@
 ## Жёсткие проверки / конкретные риски
 
 - **Fact-check:** ключевая хронология/числа привязаны к [F1]–[F3] и дополнениям [F8]–[F9] в `research.md`; 10m требует большего доверия к *личному рассказу* Паррадо о первых днях, не к независимому архиву. Ни одна версия не воспроизводит дословную записку или внутренние мысли без источника.
-- **EN/RU equivalence:** вручную пройдены все 9/15/28 соответствующих параграфов и причинные тезисы; числовые утверждения, неизвестность маршрута, два дня эвакуации и различие 14 у обломков vs 16 всего сохранены. Перевод смысловой, не буквальный.
+- **EN/RU equivalence:** вручную пройдены все 9/15/29 соответствующих параграфов и причинные тезисы; числовые утверждения, неизвестность маршрута, два дня эвакуации и различие 14 у обломков vs 16 всего сохранены. Перевод смысловой, не буквальный.
 - **Long opening:** во всех трёх вопрос(ы) → условия катастрофы и поиска → основное событие/опасность, без повторения вопросов после каждого абзаца.
 - **Format:** Nuviko History поддерживает `long 16:9` по `channels/nuviko_history/channel.json`; 2m выбран как compact Long, не Short. Поэтому loop **N_A**; AV seam и видеомонтаж **UNVERIFIED**.
 - **Independent reviewer:** UNVERIFIED — реальная `sessions.independent` и `ytv-script-review-v1` недоступны в GitHub-only исполнении. Передать чистый exact EN без этого авторского review, получить подлинные замечания и только потом показывать источники.
@@ -68,6 +68,28 @@
 - **Exact head:** baseline `1c3e9b786764851a29bbcc764dd59b2ab3e6e7e2`; resulting head записать после read-back коммита в комментарии PR, не подставлять предполагаемый SHA.
 
 ---
+
+
+## Revision 2026-11-19 — missing causal bridge restored
+
+**Before → after.** Ранее все три версии переходили от встречи с пастухом к уже готовой записке, не показывая, как именно возникла возможность писать и почему подтверждение дошло до полиции. Теперь Каталан перебрасывает письменные принадлежности, Паррадо возвращает текст на камне, Каталан добирается до полиции, а Паррадо помогает вертолётам найти оставшихся. В 10m уточнён недоказанный эпитет «раненые» применительно к обоим ходокам и заменён отвлечённый финальный комментарий на подтверждённую связь выживших с Каталаном. Original root scripts and 46-scene storyboard unchanged.
+
+**Current exact SHA-256 (EN / RU):** 02m 267a4a99d8ab9601638381cee811c1582e122c3ba568b84f8052a3942deb8754 / 3420179b0c05c07ddc11c52ef4cb04234ec5cdf73db347b920f5ad4bb3966b95; 05m ffe0e60b446a9488e4185a67c91de538466d66192c9682fe2bc523cac75f22ee / b0e17903f3b5768221732b791caa71025f7c2f7e7b0fe3f8ad4c93a3d3e5495a; 10m 23ea655103483634a22e25a017ef533c02780b682eba5bf1649ba72030121dd6 / ff9fd17b30821bc95a8ebf2ebe88de2048b663f686c64f916ab17304eba69783. EN words 320/709/1512; aligned EN/RU paragraphs 9/15/29. All durations estimate only; no measured TTS.
+
+**Updated story maps.** 02m: search canceled → survival/avalanche → three walkers → two reach river → Catalán supplies paper → Parrado replies → police → helicopters → 16 safe. 05m: flight error → search canceled → hard survival choice → avalanche → sewn sleeping bag → ridge surprise → two-way note → police skepticism → helicopter navigation → all rescued. 10m: same causal spine with family losses, medical response, improvised survival, long climb and descent; added human aftermath tied to Catalán instead of general moralizing.
+
+| Editorial criterion / 10 | 02m | 05m | 10m |
+|---|---|---|---|
+| Значимость / интерес | 8: 14 stranded; familiar event | 8: roles of all rescuers; familiar event | 8: losses and decades-long bond; familiar event |
+| Вступление | 8: river and abandoned search; thin context | 8: three questions tied to answers | 7: many promises and slower start |
+| Развитие / досмотр | 7: compressed climb but clear exchange | 8: four successive obstacles | 8: extra police obstacle; early middle still long |
+| Payoff | 8: note and helicopters both shown | 9: written relay makes rescue possible | 9: rescue and bond, some overlong final |
+| Свежесть угла | 6: specific two-way relay | 6: Catalán's actual work | 6: known story with deeper supporting actions |
+| Визуальность | 8: stone/paper/river/helicopter, unrendered | 8: mountain vs police journey, unrendered | 8: rescuer and survivor contrasts, unrendered |
+| Речь | 8: concrete action but dense ending | 8: clear causes, natural pauses | 7: many actors and names, needs listener |
+| Зрительский спрос | UNVERIFIED: no comparable baseline | UNVERIFIED: no retention/CTR | UNVERIFIED: no retention/CTR |
+
+**Hard checks:** [F1/F2/F10/F11] author-level factual attribution; no invented dialogue or verified exact time of the note; 02m and 05m have intentionally short treatment of long journey, 10m risks losing attention before the expedition. Author checked all corresponding paragraphs for EN/RU meaning and numeric agreement; bilingual independent review UNVERIFIED. All Long 16:9 allowed by ChannelSpec, narrative loop N_A; same storyboard cannot cover these hashes. Independent first-listener/reviewer receipt, owner approval, runtime registration, timings, audience metrics and all AV/media remain UNVERIFIED. **Recommended: 05m** for concrete human actions and a balanced approach to the river; 02m compresses major loss, 10m still spends too long on early exposure. This editorial recommendation is not approval.
 
 ## Preserved author baseline review (historical; applies to legacy script only)
 
