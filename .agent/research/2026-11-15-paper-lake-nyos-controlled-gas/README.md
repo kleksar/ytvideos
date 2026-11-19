@@ -7,8 +7,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED — не официальный ytv script gate
 | Цель | Полный английский | Полный русский | Состояние |
 |---|---|---|---|
 | 2 минуты, 269 EN слов | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | Полный Long; author-reviewed |
-| 5 минут, 676 EN слов | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | Полный Long; **рекомендован автором** |
-| 10 минут, 1328 EN слов | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | Полный Long; более высокая нагрузка фактами |
+| 5 минут, 728 EN слов | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | Полный Long; **рекомендован**, добавлена человеческая линия |
+| 10 минут, 1403 EN слов | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | Полный Long; судьба выжившего и научное расширение |
 
 **Выбор автора: пять минут.** Две минуты дают полный ответ, но мало показывают сомнения исследователей и ограниченность первой трубы. Пять минут добавляют реальные препятствия — вновь поступающий газ, проверку слоёв и недостаточную пропускную способность одной трубы. Десять минут дают подлинные дополнительные измерения, историю исследований и сравнение с Моноуном, но в середине рискуют превратиться в отчёт о научных публикациях. Это предположение, не измеренное удержание.
 
@@ -18,4 +18,6 @@ EDITORIAL_CANDIDATE_UNREGISTERED — не официальный ytv script gate
 
 [research.md](research.md) — общие факты и новые источники; [story-review.md](story-review.md) — SHA-256 каждой пары, 8 отдельных критериев, карты историй, сравнение и blockers; [handoff.md](handoff.md) — разрешённый перенос в runtime.
 
-Progress: 3 версии подготовлены → author fact/pair review → 05m рекомендована → independent review UNVERIFIED. Ни один вариант не approved, не связан с run и не запущен в производство. Предложенные правила [PR #124](https://github.com/kleksar/ytvideos/pull/124) exact 7d6bdf7702a2a241a33a21677fce29f26ada9b72 на момент применения Draft, не main.
+Progress 19.11.2026: 02m сохранена как законченная короткая версия; 05m/10m переработаны по документированному survivor account, новые EN/RU hashes и оценки в story-review → 05m рекомендована → independent review UNVERIFIED. Ни один вариант не approved, не связан с run и не запущен в производство. Предложенные правила [PR #124](https://github.com/kleksar/ytvideos/pull/124) exact 7d6bdf7702a2a241a33a21677fce29f26ada9b72 на момент применения Draft, не main.
+
+**Редактура 19.11.2026:** в 05m и 10m раскрыта человеческая линия Сулеймана Абуобакара и переселённых жителей; добавочная 10m судьба учителя и образовательная помощь. Это пересказ интервью через CNA, не доказательство первого толчка; избыточную служебную ремарку 10m удалили. 02m root/master и исторический storyboard сохранены без изменения. Полные ссылки в таблице, новые hashes — в [story-review](story-review.md). Independent review, storyboard этих вариантов и runtime — UNVERIFIED.
