@@ -1,0 +1,31 @@
+I'm standing at a bus stop with two ways to get across town. One bus leaves first but needs a transfer. The other leaves later and goes all the way. The first one looks faster. The direct one looks safer. I want to know which actually gets me to the destination sooner.
+
+I'm not filming a real city or guessing how reliable its drivers are. I've drawn a small timetable with exact departures and a fixed two-minute walk at the interchange. Both routes start at the same stop at eight in the morning and finish at the same destination. My score is arrival time, not how long I sit on a bus.
+
+I label the direct route A. It leaves at eight ten and reaches the destination at eight thirty-five. Since I begin at eight, that's thirty-five minutes, including ten minutes of waiting.
+
+B is the transfer. Its first bus arrives at my stop in time to leave at eight oh two. It reaches the interchange at eight twelve. I get off and spend two minutes walking to the connecting stop. I'm ready at eight fourteen. The second bus leaves at eight eighteen, four minutes later, and arrives at my destination at eight thirty.
+
+I can already see the result. A takes thirty-five minutes. B takes thirty. B saves five minutes despite needing another bus. The transfer doesn't magically make the vehicles faster. I spent less time waiting at the beginning, and the connection was well timed.
+
+But I've also noticed something odd. B wins by five minutes, yet the entire win depends on a tiny gap at the middle of the trip. I reach the connecting stop at eight fourteen. The next departure is at eight eighteen. Four minutes of breathing room.
+
+I try B again. This time, the first bus loses three minutes on the road. Instead of reaching the interchange at eight twelve, it arrives at eight fifteen. My walk still takes two minutes. I reach the second stop at eight seventeen. I can still board the eight eighteen connection if boarding is open. The second bus still reaches the destination at eight thirty.
+
+So three minutes of lateness didn't even change my final arrival in this simplified schedule. The wait at the interchange absorbed it.
+
+Now I let the first bus lose five minutes. It reaches the interchange at eight seventeen. I finish walking at eight nineteen. The connection left one minute ago. I cannot teleport to a bus that has already departed.
+
+The next connecting bus doesn't leave until eight twenty-eight. Its ride takes twelve minutes, just like the first one would have. I now arrive at eight forty. B, the option that looked faster, gets me there five minutes after A.
+
+Nothing about the direct bus changed. I varied only B's first-leg delay. That matters: this isn't proof that direct services are always dependable, or that a real transfer will run like this. It's a controlled test of how one missed connection changes the answer.
+
+There's an even more useful way to see the boundary. The first bus normally reaches the interchange at eight twelve. Add the two-minute walk and I'm ready at eight fourteen. The connecting departure is at eight eighteen. I have four minutes before it leaves, but arriving at exactly eight eighteen leaves no guaranteed time to board. A realistic plan needs some margin. A three-minute delay leaves a one-minute gap; a five-minute delay misses the bus in the model.
+
+Now I add an arrival deadline of eight thirty-six. On the published timetable, both routes meet it. With the five-minute delay on B alone, only A meets it. That's different from asking which schedule is fastest. A five-minute possible saving may not be worth the risk of arriving four minutes after the deadline.
+
+I also ask what the schedule cannot tell me. Can I actually make the two-minute transfer walk? Is the connecting stop accessible? Does a real bus still have space? Are these departures live, or merely printed? If those inputs change, my numbers must change too. I haven't measured any of them on the street.
+
+My answer is conditional and complete. With these departures running on time, I take B and arrive at eight thirty. With the specific five-minute first-leg delay and the direct bus unaffected, I take A and arrive at eight thirty-five instead of eight forty. To make the same choice for a real trip, I would check the whole journey, especially the connection buffer and the next departure after a miss.
+
+And when I look back up at my departure board, the question is still sitting there: the bus that leaves first might get me home last.
