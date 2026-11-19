@@ -177,7 +177,11 @@ frames after a phrase starts, branded requests may explicitly declare:
 Place this inside `branded`. The cue ID comes from `plan.json`; the absolute integer
 frame must equal that shot's declared start. Native apply additionally requires the
 source carrier clip itself to start there: splitting a title section inside an
-unchanged picture does not create a qualifying cut. This first bounded adapter accepts
+unchanged picture does not create a qualifying cut. That clip boundary is **not proof
+of a visible composite cut**: an upper track can cover it. The declared cue-to-shot
+association must come from the authoritative editorial plan; inspect the actual native
+composite before/on/after the cut and listen to the phrase before production use or
+handoff. This first bounded adapter accepts
 an anchor only during the phrase's **first spoken word**, before its exclusive end.
 Earlier anticipation and a delay hiding an entire word are rejected, not guessed.
 
