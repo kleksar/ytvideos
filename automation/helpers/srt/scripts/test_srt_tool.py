@@ -12,6 +12,52 @@ spec.loader.exec_module(srt)
 
 
 class SrtTests(unittest.TestCase):
+    def test_resolve_sync_anchor_smoke_check(self):
+        for deltas, result in [
+            ((-1, 1, 0), 'WITHIN_ONE_FRAME'),
+            ((8, 7, 8), 'OFFSET_CANDIDATE'),
+            ((-5, -5, -6), 'OFFSET_CANDIDATE'),
+            ((0, 3, 8), 'NON_UNIFORM'),
+            ((0, 0, -7, -7), 'NON_UNIFORM'),
+        ]:
+            with self.subTest(deltas=deltas):
+                anchors = [{'label': str(i), 'voice_frame': i * 100 + 10,
+                            'caption_frame': i * 100 + 10 + delta}
+                           for i, delta in enumerate(deltas)]
+                with tempfile.TemporaryDirectory() as temp, contextlib.redirect_stdout(io.StringIO()) as stdout:
+                    source = Path(temp) / 'anchors.json'
+                    source.write_text(json.dumps(anchors))
+                    self.assertEqual(srt.main(['check-sync', '--anchors', str(source)]),
+                                     int(result != 'WITHIN_ONE_FRAME'))
+                report = json.loads(stdout.getvalue())
+                self.assertEqual(report['result'], result)
+                self.assertEqual(report['playback'], 'UNVERIFIED')
+                self.assertEqual(report['coverage'], 'SUPPLIED_ANCHORS_ONLY')
+                self.assertEqual([anchor['delta_frames'] for anchor in report['anchors']], list(deltas))
+
+    def test_resolve_sync_rejects_missing_distinct_unordered_and_noninteger_frames(self):
+        good = {'label': 'word onset', 'voice_frame': 10, 'caption_frame': 10}
+        for anchors in [
+            [good, good],
+            [good, good, dict(good, voice_frame=20)],
+            [good, dict(good, voice_frame=30), dict(good, voice_frame=20)],
+            [good, dict(good, voice_frame=20.0), dict(good, voice_frame=30)],
+        ]:
+            with self.subTest(anchors=anchors), self.assertRaises(srt.SrtError):
+                srt.compare_sync_anchors(anchors)
+
+    def test_resolve_sync_keeps_adjacent_srt_end_and_onset_at_same_voice_frame(self):
+        anchors = [
+            {'label': label, 'voice_frame': voice, 'caption_frame': caption}
+            for label, voice, caption in [
+                ('start', 10, 10), ('cue 2 end', 50, 50),
+                ('cue 3 onset', 50, 52), ('end', 90, 90),
+            ]
+        ]
+        report = srt.compare_sync_anchors(anchors)
+        self.assertEqual(report['result'], 'NON_UNIFORM')
+        self.assertEqual([a['delta_frames'] for a in report['anchors']], [0, 0, 2, 0])
+
     def test_unicode_punctuation_and_round_trip(self):
         cues = [{'start_seconds': '59.9995', 'end_seconds': 62, 'text': 'Café —\nreally?'}]
         content, report = srt.check(cues, 'Cafe\u0301 — really?\n', 63)
