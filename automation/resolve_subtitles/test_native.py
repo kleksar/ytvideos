@@ -111,7 +111,11 @@ class Timeline:
         self.track_enable.setdefault(kind, {})[index] = state
         return True
 
-    def GetIsTrackEnabled(self, kind, index): return self.track_enable.get(kind, {}).get(index, True)
+    def GetIsTrackEnabled(self, kind, index):
+        # Actual Resolve 21.2 getter is current-timeline-context dependent.
+        if self.app.current is not self:
+            return False
+        return self.track_enable.get(kind, {}).get(index, True)
 
     def AddMarker(self, frame, color, name, note, duration, custom_data):
         self.marker[custom_data] = {"name": name, "frame": frame}
@@ -209,6 +213,13 @@ class NativeTests(unittest.TestCase):
                 self.assertEqual(native.cue_readback(self.app.base), rows)
                 self.assertTrue(all(not clip.moves for clip in self.app.base.tracks["subtitle"][0]))
 
+    def test_only_unused_ai_defaults_are_comparison_equivalent(self):
+        self.assertEqual(native.comparison_properties({'AudioVolume':0, 'AudioVoiceIsolationEnabled':False,
+            'AudioVoiceIsolationAmount':0}), {'AudioVolume':0})
+        for values in ({'AudioVoiceIsolationEnabled':True,'AudioVoiceIsolationAmount':0},
+                       {'AudioVoiceIsolationEnabled':False,'AudioVoiceIsolationAmount':12}):
+            self.assertEqual(native.comparison_properties(values),values)
+
     def test_duplicate_isolated_track_and_idempotent_reuse(self):
         source_subtitle = native.cue_readback(self.app.base)
         result = self.install()
@@ -226,6 +237,8 @@ class NativeTests(unittest.TestCase):
         self.assertEqual(native.cue_readback(candidate), self.expected)
         self.assertEqual(self.install()["status"], "UNCHANGED")
         self.assertEqual((self.app.duplicate_count,self.app.import_calls,self.app.append_calls), (1,1,1))
+        self.assertTrue(candidate.track_enable['audio'][1])
+        self.assertTrue(candidate.track_enable['video'][1])
 
     def test_reject_modified_owned_candidate_and_unowned_name_collision(self):
         self.app.timelines.append(Timeline(self.app,self.name,"someone-else"))

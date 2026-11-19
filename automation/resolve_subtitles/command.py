@@ -129,7 +129,8 @@ def main(argv=None):
                 'error':str(exc), 'next':'Inspect native candidate and source before retrying; do not duplicate imports.'}, indent=2))
             raise
         if receipt.get('status') not in ('CREATED','UNCHANGED') or receipt.get('native_cues') != len(expected):
-            raise RuntimeError('Native installation did not return verified cue readback')
+            receipt_path.write_text(json.dumps({'status':'UNKNOWN','native_response':receipt,'candidate_name':name},indent=2))
+            raise RuntimeError('Native installation did not return verified cue readback: '+json.dumps(receipt))
         if any(sha(path) != digest for path,digest in hashes.items()):
             raise RuntimeError('Narration source changed during authoring; candidate requires review')
         receipt.update(source_hashes=hashes, conform_sha256=plan['conform_sha256'],

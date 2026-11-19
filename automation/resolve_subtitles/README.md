@@ -96,9 +96,20 @@ Synthetic tests cover mapping, pauses/local drift, protected groups, source repl
 uniform import only, collision/idempotence and restoration failures. They are not a live
 Resolve authoring proof. On 2026-11-19 the command's official MCP transport, `run_script`
 identity/snapshot and installed positioning API discovery were exercised **read-only**
-on Resolve Studio 21.2; insertion by this reusable command remains unverified until a
-coordinated disposable-target test. Prior episode-specific SRT placement and editable
-Text+ proof do not upgrade this command's status.
+on Resolve Studio 21.2. A subsequent disposable three-second PCM-pulse fixture exercised
+this exact command: three native cues at frames 6–12, 36–42 and 66–72, a proven uniform
++90-frame import-origin correction, then CREATED → UNCHANGED with the same candidate
+identity and no second import. Source snapshot/file hash stayed unchanged and the prior
+production view was restored. This proves native insertion/readback/idempotence, **not**
+real-speech alignment quality, branded text, caption appearance or listening QA.
+
+Two native 21.2 differences are regression-covered: inactive timeline track-enable
+getters returned false, so source flags are captured while active and candidate flags
+are checked only while it is active; a duplicate omitted entirely unused disabled AI
+audio defaults. Comparison normalizes only Voice Isolation/Dialogue Leveler families
+whose values are all false/zero, never enabled or nonzero latent settings. The exact
+source snapshot itself is not normalized. Prior episode-specific Text+ proof does not
+upgrade this command's branded-caption status.
 
 Before acceptance: inspect exact cue starts/ends/text, preserved VO and picture, visible
 safe area and no double captions; play early/middle/late, pause/resume and shot joins in

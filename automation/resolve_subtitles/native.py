@@ -46,7 +46,7 @@ def snapshot(resolve, target):
                           enabled=item.GetClipEnabled(), properties=item.GetProperty(),
                           track_enabled=track_state[str(tracks[item.GetUniqueId()])], speed=item.GetSpeed(),
                           path=media.GetClipProperty('File Path') if media else None))
-    return dict(target=target, voice=voice, audio_track_state=track_state, audio=signature(timeline, 'audio'),
+    return dict(target=target, voice=voice, audio_track_state=track_state, video_track_state={str(i):bool(timeline.GetIsTrackEnabled('video',i)) for i in range(1,timeline.GetTrackCount('video')+1)}, audio=signature(timeline, 'audio'),
                 picture=signature(timeline, 'video'), timecode=timeline.GetCurrentTimecode(),
                 page=resolve.GetCurrentPage())
 
@@ -60,11 +60,27 @@ def cue_readback(timeline):
     return result
 
 
+def comparison_properties(properties):
+    # Resolve 21.2 DuplicateTimeline omits these entirely unused AI defaults
+    # on an audio item. Do not erase enabled effects or configured latent values.
+    result = dict(properties)
+    for prefix in ('AudioVoiceIsolation', 'AudioDialogueLeveler'):
+        keys = [key for key in result if key.startswith(prefix)]
+        if not result.get(prefix+'Enabled') and all(result[key] in (False, 0) for key in keys):
+            for key in keys:
+                del result[key]
+    return result
+
+
 def content_signature(timeline, kind):
-    return [[row[1:] for row in track] for track in signature(timeline, kind)]
+    result = [[list(row[1:]) for row in track] for track in signature(timeline, kind)]
+    for track in result:
+        for row in track:
+            row[5] = comparison_properties(row[5])
+    return result
 
 
-def verify_candidate(candidate, base, expected, token):
+def verify_candidate(candidate, base, expected, token, before):
     require(candidate.GetMarkerByCustomData(token), 'Candidate name belongs to unowned work')
     require(candidate.GetTrackCount('subtitle') == 1 and not candidate.GetIsTrackEnabled('subtitle', 1), 'Owned candidate subtitle lane changed')
     require(cue_readback(candidate) == expected, 'Owned candidate modified; refusing overwrite')
@@ -73,8 +89,8 @@ def verify_candidate(candidate, base, expected, token):
         require(candidate.GetSetting(key) == base.GetSetting(key), 'Candidate settings changed')
     for kind in ('audio', 'video'):
         require(content_signature(base, kind) == content_signature(candidate, kind), 'Candidate '+kind+' changed')
-        require([base.GetIsTrackEnabled(kind,i) for i in range(1,base.GetTrackCount(kind)+1)] ==
-                [candidate.GetIsTrackEnabled(kind,i) for i in range(1,candidate.GetTrackCount(kind)+1)], 'Candidate track enable changed')
+        require([before[kind+'_track_state'][str(i)] for i in range(1,base.GetTrackCount(kind)+1)] ==
+                [bool(candidate.GetIsTrackEnabled(kind,i)) for i in range(1,candidate.GetTrackCount(kind)+1)], 'Candidate track enable changed')
 
 
 def normalize_import(timeline, expected):
@@ -101,15 +117,25 @@ def install(resolve, target, before, expected, srt_path, candidate_name, token):
     existing = [project.GetTimelineByIndex(i) for i in range(1, project.GetTimelineCount()+1)
                 if project.GetTimelineByIndex(i).GetName() == candidate_name]
     require(len(existing) <= 1, 'Ambiguous candidate name')
-    if existing:
-        candidate = existing[0]
-        verify_candidate(candidate, base, expected, token)
-        return dict(status='UNCHANGED', candidate_id=candidate.GetUniqueId(), name=candidate_name,
-                    native_cues=len(expected), branded_style='NOT_APPLIED', playback='UNVERIFIED')
     candidate = None
+    created = False
     try:
+        if existing:
+            candidate = existing[0]
+            require(candidate.GetMarkerByCustomData(token), 'Candidate name belongs to unowned work')
+            require(project.SetCurrentTimeline(candidate), 'Cannot inspect owned candidate')
+            verify_candidate(candidate, base, expected, token, before)
+            return dict(status='UNCHANGED', candidate_id=candidate.GetUniqueId(), name=candidate_name,
+                        native_cues=len(expected), branded_style='NOT_APPLIED', playback='UNVERIFIED')
         candidate = base.DuplicateTimeline(candidate_name)
+        created = bool(candidate)
         require(candidate and project.SetCurrentTimeline(candidate), 'Cannot make isolated candidate')
+        # In 21.2 GetIsTrackEnabled on an INACTIVE timeline returns false.
+        # Capture source flags before switching, and inspect candidate only active.
+        for kind in ('audio', 'video'):
+            require(candidate.GetTrackCount(kind) == base.GetTrackCount(kind), 'Duplicate track count differs')
+            for track in range(1, base.GetTrackCount(kind)+1):
+                require(candidate.SetTrackEnable(kind, track, before[kind+'_track_state'][str(track)]), 'Cannot preserve track enable')
         # Existing subtitle tracks are untouched in the source, and removed only
         # from this new owned copy. Import has one unambiguous destination.
         for track in range(candidate.GetTrackCount('subtitle'), 0, -1):
@@ -126,17 +152,17 @@ def install(resolve, target, before, expected, srt_path, candidate_name, token):
         require(candidate.GetStartFrame() == base.GetStartFrame() and candidate.GetEndFrame() == base.GetEndFrame(), 'Candidate duration changed')
         # Duplicated TimelineItem IDs may differ; compare content, not IDs.
         for kind in ('audio', 'video'):
-            original = [[row[1:] for row in track] for track in signature(base, kind)]
-            duplicate = [[row[1:] for row in track] for track in signature(candidate, kind)]
+            original = content_signature(base, kind)
+            duplicate = content_signature(candidate, kind)
             require(original == duplicate, 'Candidate '+kind+' changed')
         require(candidate.AddMarker(0, 'Blue', 'Native subtitle recipe', '', 1, token), 'Cannot record ownership')
-        verify_candidate(candidate, base, expected, token)
+        verify_candidate(candidate, base, expected, token, before)
         require(manager.SaveProject(), 'Cannot save native candidate')
         return dict(status='CREATED', candidate_id=candidate.GetUniqueId(), name=candidate_name,
                     native_cues=len(expected), import_offset_corrected=shift,
                     branded_style='NOT_APPLIED', playback='UNVERIFIED')
     except Exception:
-        if candidate:
+        if candidate and created:
             # No destructive cleanup: preserve uncertain app state for diagnosis.
             candidate.SetTrackEnable('subtitle', 1, False)
         raise
