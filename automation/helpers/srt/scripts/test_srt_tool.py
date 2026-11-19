@@ -35,15 +35,28 @@ class SrtTests(unittest.TestCase):
                 self.assertEqual(report['coverage'], 'SUPPLIED_ANCHORS_ONLY')
                 self.assertEqual([anchor['delta_frames'] for anchor in report['anchors']], list(deltas))
 
-    def test_resolve_sync_rejects_missing_duplicate_and_noninteger_anchor_frames(self):
+    def test_resolve_sync_rejects_missing_distinct_unordered_and_noninteger_frames(self):
         good = {'label': 'word onset', 'voice_frame': 10, 'caption_frame': 10}
         for anchors in [
             [good, good],
             [good, good, dict(good, voice_frame=20)],
+            [good, dict(good, voice_frame=30), dict(good, voice_frame=20)],
             [good, dict(good, voice_frame=20.0), dict(good, voice_frame=30)],
         ]:
             with self.subTest(anchors=anchors), self.assertRaises(srt.SrtError):
                 srt.compare_sync_anchors(anchors)
+
+    def test_resolve_sync_keeps_adjacent_srt_end_and_onset_at_same_voice_frame(self):
+        anchors = [
+            {'label': label, 'voice_frame': voice, 'caption_frame': caption}
+            for label, voice, caption in [
+                ('start', 10, 10), ('cue 2 end', 50, 50),
+                ('cue 3 onset', 50, 52), ('end', 90, 90),
+            ]
+        ]
+        report = srt.compare_sync_anchors(anchors)
+        self.assertEqual(report['result'], 'NON_UNIFORM')
+        self.assertEqual([a['delta_frames'] for a in report['anchors']], [0, 0, 2, 0])
 
     def test_unicode_punctuation_and_round_trip(self):
         cues = [{'start_seconds': '59.9995', 'end_seconds': 62, 'text': 'Café —\nreally?'}]

@@ -148,10 +148,12 @@ def compare_sync_anchors(anchors):
                 or type(voice) is not int or type(caption) is not int
                 or min(voice, caption) < 0):
             raise SrtError('Each anchor needs a label and nonnegative integer record frames')
-        if measured and voice <= measured[-1]['voice_frame']:
-            raise SrtError('Voice anchors must be in strictly increasing frame order')
+        if measured and voice < measured[-1]['voice_frame']:
+            raise SrtError('Voice anchors must be in nondecreasing frame order')
         measured.append({'label': label, 'voice_frame': voice, 'caption_frame': caption,
                          'delta_frames': caption - voice})
+    if len({entry['voice_frame'] for entry in measured}) < 3:
+        raise SrtError('Provide anchors at three distinct speech frames')
     deltas = [entry['delta_frames'] for entry in measured]
     tolerance = 1
     if max(map(abs, deltas)) <= tolerance:
