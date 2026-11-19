@@ -92,7 +92,49 @@ def _cue_records(cues, first, last):
     return result
 
 
-def partition_cues(cues, shots):
+def _anchor_display(planned, shots, anchors):
+    """Opt-in late cut starts; speech/CC data is never modified."""
+    if not isinstance(anchors,list):
+        raise ValueError('display_cut_anchors must be a list')
+    by_cue={cue['cue_id']:i for i,cue in enumerate(planned)}
+    by_shot={shot['id']:shot for shot in shots}
+    seen=set();moves={}
+    for anchor in anchors:
+        if not isinstance(anchor,dict) or set(anchor)!={'cue_id','shot_id','start_frame'}:
+            raise ValueError('cut anchor requires exact cue_id, shot_id and start_frame')
+        cue_id,shot_id=anchor['cue_id'],anchor['shot_id'];frame=anchor['start_frame']
+        if cue_id not in by_cue or shot_id not in by_shot or cue_id in seen:
+            raise ValueError('Unknown or duplicate display cut anchor')
+        if type(frame) is not int or frame!=by_shot[shot_id]['start_frame']:
+            raise ValueError('Display anchor must equal the declared picture cut')
+        cue=planned[by_cue[cue_id]];first=cue['words'][0]
+        if not first['start_frame']<=frame<first['end_frame']:
+            raise ValueError('Cut anchor must be during first spoken word; cannot hide it entirely or anticipate speech')
+        moves[by_cue[cue_id]]=frame;seen.add(cue_id)
+        by_shot[shot_id]['picture_cut_anchor']=True
+    # Simultaneous edits use original boundaries, not iteration order.
+    original=[(c['start_frame'],c['end_frame']) for c in planned]
+    for i,frame in moves.items():
+        planned[i]['start_frame']=frame
+        if i and original[i-1][1]==original[i][0]:
+            planned[i-1]['end_frame']=frame
+    previous_end=shots[0]['start_frame']
+    for cue in planned:
+        a,b=cue['start_frame'],cue['end_frame']
+        if not previous_end<=a<b:
+            raise ValueError('Conflicting anchored display intervals')
+        # Word starts/ends remain immutable; only visible intersections change.
+        states=[];cursor=a
+        for word in cue['words']:
+            left,right=max(a,word['start_frame']),min(b,word['end_frame'])
+            if left>=right:continue
+            if cursor<left:states.append(dict(start_frame=cursor,end_frame=left,word_index=None))
+            states.append(dict(start_frame=left,end_frame=right,word_index=word['index']));cursor=right
+        if cursor<b:states.append(dict(start_frame=cursor,end_frame=b,word_index=None))
+        cue['states']=states;previous_end=b
+
+
+def partition_cues(cues, shots, display_cut_anchors=None):
     """Return shot records with clipped display sections and exact word states.
 
     Shot spans must be contiguous and cover every planned cue. Display gaps
@@ -101,6 +143,8 @@ def partition_cues(cues, shots):
     """
     result = _shot_records(shots)
     planned = _cue_records(cues, result[0]["start_frame"], result[-1]["end_frame"])
+    if display_cut_anchors is not None:
+        _anchor_display(planned,result,display_cut_anchors)
     i = 0
     for shot in result:
         left, right = shot["start_frame"], shot["end_frame"]

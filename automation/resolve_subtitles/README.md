@@ -163,3 +163,40 @@ accepted. Both the returned imported graph and explicitly activated graph are ch
 transparent background/raster, exact Text+/Merge topology through MediaOut, optional
 panel mask/color/geometry, word expressions and phrase intervals. Mock corruption tests
 include disconnected output, wrong foreground/background, opacity and raster changes.
+
+### Optional phrase start on a declared picture cut
+
+This is **not** a global caption quantization rule. Default speech/hold timing stays
+unchanged for every channel. For a deliberately associated shot whose cut is a few
+frames after a phrase starts, branded requests may explicitly declare:
+
+```json
+{"display_cut_anchors": [{"cue_id": "C0002", "shot_id": "shot-02", "start_frame": 1038}]}
+```
+
+Place this inside `branded`. The cue ID comes from `plan.json`; the absolute integer
+frame must equal that shot's declared start. Native apply additionally requires the
+source carrier clip itself to start there: splitting a title section inside an
+unchanged picture does not create a qualifying cut. That clip boundary is **not proof
+of a visible composite cut**: an upper track can cover it. The declared cue-to-shot
+association must come from the authoritative editorial plan; inspect the actual native
+composite before/on/after the cut and listen to the phrase before production use or
+handoff. This first bounded adapter accepts
+an anchor only during the phrase's **first spoken word**, before its exclusive end.
+Earlier anticipation and a delay hiding an entire word are rejected, not guessed.
+
+Precedence is explicit display anchor, then unchanged channel display policy. Only the
+new phrase's visible start changes. If the previous cue originally held continuously
+up to that boundary, its neutral tail extends to the declared cut; an intentional
+existing display gap remains a gap. The former phrase cannot keep highlighting a word
+past its actual speech end. A phrase without an anchor continues normally across cuts.
+Word intervals, transcript, spoken cue boundaries, VO and accessibility SRT are immutable;
+the new phrase's first word highlights only its remaining audible intersection. This
+means the hidden prefix is an explicit editorial tradeoff, not repaired alignment.
+
+Unknown/duplicate cue IDs, non-cut/fractional frames and conflicting intervals fail.
+The anchors and resulting layout enter candidate identity. Review the preceding/on-cut/
+following native frames and the audible phrase before acceptance. Offline regressions
+cover late cuts, pause holds, cross-cut speech and immutable CC. The optional anchored
+path has **not yet received a live native fixture**; this does not upgrade its playback
+or visual status, and it never authorizes changes to a production timeline.

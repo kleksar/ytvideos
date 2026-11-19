@@ -126,7 +126,7 @@ def main(argv=None):
             branded=request.get('branded',{})
             if 'existing_screen_caption_tracks' not in branded:
                 raise ValueError('Explicit editable screen-caption replacement tracks required; no baked-caption fallback')
-            layout=native_layout(plan, branded['shots'], branded['recipe_id'])
+            layout=native_layout(plan, branded['shots'], branded['recipe_id'], display_cut_anchors=branded.get('display_cut_anchors'))
             (args.output/'native-layout.json').write_text(json.dumps(layout,indent=2))
         token = candidate_token({'plan':plan,'layout':layout,'replace_tracks':branded['existing_screen_caption_tracks']}, before) if layout else candidate_token(plan,before)
         name = 'Native CC candidate '+token[-16:]
