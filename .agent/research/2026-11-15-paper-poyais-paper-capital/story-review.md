@@ -117,3 +117,46 @@ Read original endorsed B speech examples exactly: PR #20 `78b375bf0004fdeb45722e
 - Editorial progress: **не переработан → шесть текстов подготовлены → авторская факт/структура проверка → 05m рекомендована к независимому чтению**. Independent check/production not completed.
 
 **Точная корректировка 10m opening (2026-11-16):** на исходном редакционном коммите 75c7b7b5a0bee43e27974ecc8e90622a0d9df822 вопрос «how could he escape conviction» обещал неподтверждённый механизм судебного оправдания. Он заменён на проверяемый вопрос о результате суда и продолжении продаж; вопрос о судах уточнён до фактически подтверждённого прибытия к брошенному лагерю. EN/RU скорректированы синхронно, source hashes и reviewer evidence не перенесены. Это авторская корректировка hard promise/payoff, не independent review.
+
+
+---
+
+## 2026-11-19 — new substantial 05m revision, exact script evidence
+
+**PR #104, baseline:** HEAD `e4b73eaf44bd123bf6f41b8f595db7489a7a1c48`. Prior 05m EN Git blob `aedde251e7367a2f9563529e005d5268770f3db8` and RU `3debcf45d0292bc7ccda129f86af590f0baea0d5` are superseded only as candidates; the original root master + 39-scene storyboard remain unchanged. Do not reuse previous scores, timings or review on the revised 05m hash.
+
+| Duration | EN full script / SHA-256 exact UTF-8 / Git blob | RU full script / SHA-256 exact UTF-8 / Git blob | EN words | Status |
+|---|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) / `ed60c7b84f1960b5e5f36b149136570342339b9b85fee141986b5a3c80e8497d` / `fc17053aa93989b4837d903b39872baa1af928e7` | [RU](variants/02m/script.ru.txt) / `de0997b89cdaf65976ae1f71e4bde3bd171530d60db92f994a8ba394d4a2c9eb` / `cdbdc0418df7304de6ba3079f17e5bc8f8ee56e4` | 243 | Unchanged, complete Long |
+| **05m** | [EN](variants/05m/script.en.txt) / `81b953763fcb26b44db44f15e16a922d6d055b9c630f09274806468d3898291cc` / `75b08e419d4f9e74ce3c6bf36bbf4590532c8088` | [RU](variants/05m/script.ru.txt) / `25fa3b8f2dd7c777afb037ec99bd7133287bfea46298acb8159f109c8ab26fb0c` / `9e8f2e78d238cff574330890b38cd53726389ac9` | **650** | **Substantively revised; author recommends, not approved** |
+| 10m | [EN](variants/10m/script.en.txt) / `070b9d622f4f8f42854323631abec4dc31ff6c3acf96b892468e6994d1f43046` / `eb5f65c0436ad9ca008f20a5fd9f858cce3a79ad` | [RU](variants/10m/script.ru.txt) / `37276be679fb570cba2eacfb7f0e23dbaff1c68550f5dba02dac747fcec33a59` / `e9fc690bc78b3b5e5baa96784a6fbaf5cbdd7145` | 1360 | Unchanged, complete Long |
+
+### 05m — story map grounded in exact new paragraphs
+
+1. P1: **questions and promise** — where was the capital, why papers convinced families, why promoter could continue; answer deferred until the narrative has material context.
+2. P2–P4: **meaningful immersion** — real veteran, actual Miskito grant, printed map/currency, but no established government; audience understands why the documents looked credible without treating the coast as fictional.
+3. P5–P6: **human commitment** — buyer families, Ann Bagster's husband paid £8 for forty acres, she and six children sailed. Press-reported testimony is named, not invented.
+4. P7–P8: **main hook earned by the set-up** — ships arrive; capital and prepared settlement are absent. The family must improvise shelter.
+5. P9–P10: **new evidence and consequence** — Ann's reported March arrival, initial Indigenous help, illness, rescue to Belize and continued deaths.
+6. P11–P12: **human climax** — Ann's husband and two children died after the rescue; she testified while still ill; at least 180 of roughly 250 died. Later vessel's passengers kept separate.
+7. P13–P15: **accountability** — grant repudiation, some survivors defending MacGregor, French arrest/trial/acquittal and later promotion. Reported 1824 British libel witness testimony is NOT the 1826 criminal trial.
+8. P16: **payoff** — distinction between real inhabited coast and promised functioning state returns to Ann's family, not another abstract summary.
+
+### Eight independent editorial criteria — author only, **not an external reviewer**
+
+| Criterion | 05m author score | Exact evidence / limitation | Confidence |
+|---|---:|---|---|
+| Significance | 8/10 | P6/P11: named family loses husband and children; makes human cost concrete rather than anonymous death count. Interest is editorial inference, not observed audience behaviour. | medium |
+| Opening promise | 8/10 | P1 asks about missing city, credible papers, acquittal; P2–P4 answers why the papers mattered before P8 reveal. Three questions risk competing for focus. | medium |
+| Development / reason to stay | 8/10 | P4→P6→P8→P9–P11→P14–P15 each adds an action, obstacle or new consequence. Potential dip in dates/figures during P12–P15. | medium |
+| Payoff | 8/10 | P15 verdict, P16 puts it beside Ann's loss and real coast. Legal outcome cannot repair loss; last image is concrete. | medium |
+| Freshness | 6/10 | 1824 contemporary testimony and Indigenous assistance give a new angle within a popular fraud topic; competitive English documentaries already exist. | medium |
+| Visual meaning | 8/10 | Map versus actual coast, land deed/ship, Ann's **non-portrait-labelled** family and hearing are distinct paper-diorama beats; no archival image clearance or visual QA. | medium-low |
+| Spoken EN/RU | 8/10 | 16 aligned semantic paragraphs, no repeated first-arrival reveal; complete matching EN and natural RU. Numbers and proper names may still be dense in TTS; no audio. | medium-low |
+| Confirmed viewer demand | UNVERIFIED | Indexed Patrick Boyle/ColdFusion metadata from original ledger, no own age-matched baseline or retention/CTR. | low |
+
+**Hard checks by variant:** 02m factual basis / EN-RU author parity PASS, length estimated, 2m Long under Paper ChannelSpec PASS, narrative loop N_A; 05m documented new human evidence / author EN-RU paragraph parity PASS (16/16), reported testimony correctly attributed, no invented motives, Long supported, loop N_A; 10m known financial and third-vessel evidence / EN-RU author parity PASS, Long supported, loop N_A. Independent first-listener, independent bilingual review, TTS measured duration, rights/visuals and actual viewer interest: UNVERIFIED for all. Edited 05m old storyboard/timings/review are STALE. Actual selected production master UNDECIDED; original 39-scene storyboard only covers unchanged root EN/RU, not any variant.
+
+**Comparison by actual scripts:** 02→05 adds named Bagster family and 1824 contemporaneous reported testimony, realistic Indigenous assistance, emotional cost after the Belize rescue, a coherent path toward legal outcome. 05→10 adds bond market/£200,000 offering, Kennesley/Skene details, historical market decline and the king's financial response; it is more complete but risks losing interest at the financial discussion before departure and in multiple abstract ending recaps. 02 likely moves too quickly from disaster to French trial. 05m is the strongest current **author** recommendation; the 650-word English narration is a **target** of approximately 4–5 minutes depending on pauses and 1.10× voice speed, not measured five minutes. Recommendation is not owner approval or permission for three productions.
+
+**Transfer / independent work:** No canonical run/plan/context/pins accessible in this Git-only host; do not call editorial candidates an official `awaiting_script_approval`. Independent reviewer session capability `sessions.independent` not exposed in current tool registry; no review receipt forged. Before any production, register a new run in authorised repo workspace, check pinned requirements, attach exact selected text + supporting variants and research, request an independent reading against these exact hashes, obtain owner script approval and rebuild storyboard for the selected text. Status: `EDITORIAL_CANDIDATE_UNREGISTERED`.

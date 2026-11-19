@@ -9,3 +9,8 @@ Native assets and reference bytes UNVERIFIED. Exact master thumbnail, small QA a
 ---
 ## Recheck after three length variants, not a media approval
 The original S001–S039 references in concepts 1–3 are tied ONLY to source master at `1e4fe7d9435c8693d53d88e49e6570ed15a77797`. For recommended 05m, opening questions before context now promise the absent capital, the documents' credibility and resumed selling; any chosen art must reflect those exact words, not copy stale S001–S004 spans. For 02m the cover must not promise a forensic bond-market history absent from the text; 10m supports that explanation but risks burying the emigrants. No artwork, rights-clearance or A/B CTR verified. Re-storyboard and package only the owner-selected exact version.
+
+
+## 2026-11-19 — 05m exact new narrative constraint
+
+The recommended 05m opening asks why a printed capital/official-looking money convinced emigrants, then **earns** the absent-city main hook at the first arrival (P7–P8); Ann Bagster's documented family's loss after Belize is now the human payoff. Concepts should show the contradiction between printed map and real **inhabited** coast, not a magically empty island or invented authentic portrait of Ann. The 1824 newspaper is evidence, not an approved rights-cleared thumbnail image. Any old shot IDs and scene spans apply **only** to untouched root master; all variant art/packaging remains a later task for the owner-selected exact text, no media authorised.
