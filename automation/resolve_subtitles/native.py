@@ -37,13 +37,16 @@ def identity(resolve, target):
 def snapshot(resolve, target):
     manager, project, timeline = identity(resolve, target)
     voice = []
+    track_state = {str(i):bool(timeline.GetIsTrackEnabled('audio', i)) for i in range(1,timeline.GetTrackCount('audio')+1)}
+    tracks = {item.GetUniqueId():i for i in range(1,timeline.GetTrackCount('audio')+1) for item in (timeline.GetItemListInTrack('audio',i) or [])}
     for item in items(timeline, 'audio'):
         media = item.GetMediaPoolItem()
         voice.append(dict(id=item.GetUniqueId(), start=item.GetStart(), end=item.GetEnd(),
                           left=item.GetLeftOffset(), right=item.GetRightOffset(),
                           enabled=item.GetClipEnabled(), properties=item.GetProperty(),
+                          track_enabled=track_state[str(tracks[item.GetUniqueId()])], speed=item.GetSpeed(),
                           path=media.GetClipProperty('File Path') if media else None))
-    return dict(target=target, voice=voice, audio=signature(timeline, 'audio'),
+    return dict(target=target, voice=voice, audio_track_state=track_state, audio=signature(timeline, 'audio'),
                 picture=signature(timeline, 'video'), timecode=timeline.GetCurrentTimecode(),
                 page=resolve.GetCurrentPage())
 
@@ -149,3 +152,4 @@ def install(resolve, target, before, expected, srt_path, candidate_name, token):
             except Exception:
                 restored.append(label)
         require(not restored, 'Could not restore source view: '+', '.join(restored))
+        require(snapshot(resolve, target) == before, 'Source timeline changed during authoring; candidate is not accepted')

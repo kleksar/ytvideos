@@ -61,8 +61,10 @@ def validate_voice(request, snapshot):
     hashes = {}
     for placement in request['placements']:
         item = seen.get(placement['id'])
-        if not item or not item['enabled']:
+        if not item or not item['enabled'] or not item.get('track_enabled'):
             raise ValueError('Narration placement missing or disabled')
+        if item.get('speed', {}).get('Percentage') != 100:
+            raise ValueError('Native GetSpeed does not verify unity rate')
         if Fraction(str(placement['speed'])) != 1 or Fraction(str(placement['source_in'])) != 0 or item['left'] != 0:
             raise ValueError('Native trim/speed verification not supported yet; planner output alone is insufficient')
         if (item['start'],item['end']) != (placement['timeline_start'],placement['timeline_end']):
@@ -74,6 +76,12 @@ def validate_voice(request, snapshot):
             raise ValueError('Final narration source hash differs from alignment')
         hashes[item['path']] = digest
     return hashes
+
+
+def candidate_token(plan, snapshot):
+    stable = {key:value for key,value in snapshot.items() if key not in ('timecode', 'page')}
+    payload = json.dumps({'plan':plan, 'native_snapshot':stable}, sort_keys=True, ensure_ascii=False)
+    return 'ytv-native-cc-v1:'+hashlib.sha256(payload.encode()).hexdigest()
 
 
 def main(argv=None):
@@ -107,8 +115,7 @@ def main(argv=None):
             return 0
         (args.output/'position-api.json').write_text(json.dumps(client.position_api(), indent=2))
         hashes = validate_voice(request, before)
-        payload = json.dumps({'plan':plan,'native_snapshot':before}, sort_keys=True, ensure_ascii=False)
-        token = 'ytv-native-cc-v1:'+hashlib.sha256(payload.encode()).hexdigest()
+        token = candidate_token(plan, before)
         name = 'Native CC candidate '+token[-16:]
         expected = [(c['spoken_start_frame'], c['spoken_end_frame'], c['text']) for c in plan['cues']]
         srt = str((args.output/'captions.en.srt').resolve())

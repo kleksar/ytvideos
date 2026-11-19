@@ -36,6 +36,7 @@ class Item:
     def GetRightOffset(self): return 0
     def GetClipEnabled(self): return self.enabled
     def GetProperty(self): return dict(self.properties)
+    def GetSpeed(self): return {'Percentage':100}
     def GetMediaPoolItem(self): return self.media
 
     def SetPosition(self, settings, ripple):
