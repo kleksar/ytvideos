@@ -19,6 +19,12 @@ YouTube channel ID: `UCcZWXzkL_K1mD5dr8MZBYrQ` ([канал](https://www.youtube
 
 Монтажный default — [Resolve](../../.agents/skills/ytv-resolve/SKILL.md): редактируемые исходные clips/audio/captions, а не единый запечённый MP4 вместо проекта. JSON cut list/CMX3600 video-only EDL аддона не доказывает готовый native проект, conform звука или проверенный импорт. Сверять актуальное evidence приложения. Целевой Short — 1080×1920 / 30 fps, H.264/AAC; увеличение 720p-источника не восстанавливает детали. Сохранить исходную речь/реакцию, слышимость и синхронность; не применять новую нормализацию к принятому mix без соответствующего scope и проверки.
 
+## Native editability: explicit channel requirement
+
+The owner requires ALL creative editing for Vice Wreckroom to remain native in Resolve: separately editable gameplay/facecam crops and transforms; still/meme graphics; text/captions; original speech, music and SFX on their appropriate individual clips/tracks/nodes. Clipper detects candidate windows and exports source clips, exact timing and an editable handoff only. FFmpeg is allowed for technical preparation/conform/validation, not baking framing, captions or the creative finish before import. Importing one finished MP4 does not satisfy this requirement.
+
+Existing project #7 contains some baked carriers: this is a known migration gap, NOT proof of fully native reconstruction. For a newly authorized affected edit, recover separate elements from verified sources, preserve the previous project until verification, and check editability of each role and the exact export. Migration is not claimed complete; this rule does not silently rewrite other completed projects or other channels.
+
 ## Права и источник
 
 Для каждого эпизода сохранить creator/VOD URL, конкретное разрешение или условия кампании, дату проверки, разрешённые платформы/монетизацию/монтаж, обязательные credit/hashtags, запреты и доступность исходника. Reach/Content Rewards campaign, доступный VOD и разрешение стримера — разные факты; не выводить одно из другого. Проверить также права на игру, музыку, вставки и иных правообладателей; не утверждать, что согласие стримера отменяет их. Использовать обычный публичный или авторизованный доступ, без обхода ограничений.
