@@ -1,0 +1,45 @@
+I'm about to order pizza, and the app is giving me a choice I should be able to make in two seconds. Two twelve-inch pizzas cost nineteen dollars. One eighteen-inch pizza costs twenty. Two boxes, and a lower price. I reach for B.
+
+Then I notice the sizes. One pizza can be much bigger than it sounds. So I stop before paying and ask a narrower question: which option gives me more pizza surface for each dollar? That's the competition. I'm not measuring flavour, weight, calories, or the quality of a real restaurant's dough.
+
+I set the conditions before seeing who wins. Option A is one perfectly round eighteen-inch pizza for twenty dollars. Option B is two perfectly round twelve-inch pizzas for nineteen dollars in total. Same dough thickness, same toppings, no discounts hidden in delivery fees. These are invented menu prices used for a repeatable calculation. I haven't ordered both meals, timed anything, or weighed an actual pizza.
+
+Looking at the screen, B still seems generous. There are two pizzas, two boxes, and probably more separate slices if I cut them the usual way. I can give one pie to one side of the table and the other to the other side. There's an understandable reason I nearly picked them. But the thing I agreed to measure isn't the number of boxes or cuts. It's the total circular surface I receive for each dollar.
+
+I sketch the twelve-inch pizza first. Twelve inches is the distance from one edge through the centre to the other edge. To find the surface, I need the radius, which is half that: six inches. A circle with a radius of six covers six times six times pi square inches. That works out to a little over 113.
+
+Two twelve-inch pizzas double that surface: about 226 square inches. At this point my drawing shows two reasonably large circles. Now I measure the other pie. Its radius is nine inches. Nine times nine times pi is about 254 square inches.
+
+So the single eighteen-inch pizza contains about twenty-eight more square inches of surface than both twelve-inch pizzas combined. That's twelve and a half percent more than B. I've gone from expecting the two boxes to win to seeing one large circle cover more of the table.
+
+My first mistaken idea was adding diameters. Twelve plus twelve equals twenty-four, which sounds much larger than eighteen. But I can't add two widths and call the result the area of the food. Width is one dimension. A pizza spreads out in two dimensions. When its diameter gets fifty percent larger, its area grows by a factor of two and a quarter. That is why one eighteen-inch pie is bigger in area than two twelve-inch pies.
+
+But A costs more. My friends aren't paying in square inches; we're paying dollars. If I buy A for twenty, I get about 12.7 square inches per dollar. If I buy B for nineteen, I get only about 11.9. Even though A costs a dollar more, the extra area more than compensates. For the question I set at the start, A wins.
+
+I was ready to make that choice when the menu offered a different deal. The pair is now seventeen dollars instead of nineteen. Nothing else changes. B still gives me 226 square inches. A is still 254 for twenty dollars. The only new information is the pair's price.
+
+I do the division again. The seventeen-dollar pair gives me roughly 13.3 square inches per dollar, compared with A's 12.7. B now wins. The pizza in the boxes is identical to the previous round; the cheaper price changed the decision. That's a useful reversal, because it tells me the lesson cannot simply be 'always buy the biggest pizza.'
+
+I want to know how close the two deals really are. B has exactly eight ninths of A's surface area in this comparison. If the pair costs eight ninths as much as the large, both deliver the same area for each dollar. Eight ninths of twenty dollars is seventeen dollars and about seventy-eight cents. At a pair price of nineteen, A wins. At seventeen, B wins. At the boundary, by this metric, neither wins.
+
+I could leave it there and order. But before I do, I look at the bit of the pizza that doesn't have cheese on it. Both pizzas have a rim of crust. People can prefer that rim or prefer the topping-covered middle. And two small circles have more edge, relative to their area, than one big circle.
+
+For a second calculation, I assume every pizza has a one-inch-wide bare rim. That width is another invented input; I'm not claiming a chain's crust is always an inch. I measure the topping-covered centre as the circle left after removing one inch all around the edge.
+
+The eighteen-inch pizza now has an inner radius of eight inches. That produces about 201 square inches of topping-covered centre. Each twelve-inch pizza has an inner radius of five, which is about seventy-eight and a half square inches. Two together give roughly 157.
+
+Under that assumption the large pizza doesn't merely have twelve and a half percent more total surface. Its topping-covered centre is about twenty-eight percent larger than the two smaller centres combined. If cheese coverage is what I care about, A's original lead becomes stronger. I would still need real kitchen data to claim anything about the amount of cheese or pepperoni.
+
+But the opposite preference exists too. Suppose I genuinely love the plain crust. Subtract those centres from the full circles. A has about fifty-three square inches of rim. B has about sixty-nine combined. Under the same one-inch rule, B gives me more bare crust area. The mathematics hasn't contradicted itself. I changed the part of the pizza I said I wanted.
+
+Then I realise the labels can fool me even before I compare prices. 'Large' isn't a measurement. If my single large were sixteen inches, it would cover only about 201 square inches. Two twelve-inch pies would still give 226, and now the pair would win on total area before price even enters. The size at which one pizza exactly matches the area of two twelve-inch pizzas is just under seventeen inches in diameter. So an eighteen-inch pie beats the pair, while a sixteen-inch pie does not.
+
+I test one more version of the original decision. Suppose I'm ordering for people who will eat only about 200 square inches of pizza together, and I can store no leftovers. Both original options cover that requirement in this simplified story. Suddenly nineteen dollars for B may be the lower total bill, even though twenty dollars for A buys more area for each dollar. Spending less and getting better value per unit are different goals. I shouldn't switch between them without saying so.
+
+Real pizzas introduce even more limits. An advertised diameter doesn't tell me how thin the dough is stretched. Equal area doesn't guarantee equal mass. Two smaller pies may give me two toppings combinations, which can matter more than my surface calculation. A promotion, taxes, a delivery fee or a different style can change a real checkout total. My model doesn't claim to predict those things.
+
+The practical shortcut, if I want surface for the money, is to square each diameter and divide by its price. For two identical smaller pizzas I double the squared diameter before dividing by their combined price. Pi and the same factor of one quarter appear on both sides, so they cancel when I compare. I don't need to recite the full area formula while the delivery driver waits. I just need the actual diameters and the final prices.
+
+Back on my first screen, I have one eighteen-inch pizza for twenty dollars, and two twelve-inch pizzas for nineteen. With the same style, thickness and toppings, A gives me more area for each dollar. So I order A. If the pair drops to seventeen, I'd order B instead.
+
+That's the answer to this order, not a universal rule for every restaurant. I clear the cart and reopen the same menu. This time, before I choose by the number of boxes, I look at the two offers again.
