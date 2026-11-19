@@ -31,3 +31,26 @@ profile-branded Text+; screen-style and playback remain explicit acceptance gate
 Native trim/speed application and complete per-channel migration are not yet claimed.
 Keep existing approved media and caption layers until the replacement has real native
 visual/playback proof. No FFmpeg caption assembly/render or upload is part of this command.
+
+
+## Очистка перед передачей проекта
+
+Перед review handoff выполните [требование чистого таймлайна](../../../../docs/standards/resolve-review.md#5-чистый-таймлайн-для-проверки-владельцем):
+
+1. Прочитайте актуальные project/timeline IDs и inventory всех дорожек/клипов,
+   включая disabled. Сохраните текущие интервалы/параметры активного изображения,
+   звука, титров и намеренных CC. Не подменяйте живые правки владельца старой картой.
+2. Проверьте отдельную rollback timeline или архив проекта и доступность исходников.
+   Явно перечислите по ID только подтверждённо устаревшие/временные элементы;
+   намеренные deliverables, включая скрытую speech ST1, исключите из списка.
+3. После приёмки замены удалите перечисленные timeline clips штатным native
+   `DeleteClips(items, False)` без ripple. Удаляйте только ставшие пустыми временные
+   дорожки, сверяя изменившиеся индексы. Не удаляйте media items/исходные файлы и не
+   выполняйте массовую очистку по признаку disabled. Backup не храните слоями
+   внутри review timeline. При неясном результате сначала read-back, без слепого повтора.
+4. Сравните с актуальным снимком до очистки: оставшиеся роли/клипы, start/end,
+   fps/длительность, звук/микс, титры и CC. Проверьте фактические кадры около удалённых
+   overlays/стыков и слышимый микс по применимому review; неподтверждённое оставьте
+   UNVERIFIED. Сохраните проект, повторите read-back и запишите IDs удалённого,
+   rollback location и результат в существующий QA receipt. Передавайте один явно
+   названный чистый review timeline без тестового рендера.
