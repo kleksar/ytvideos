@@ -1,5 +1,7 @@
 import io
 import json
+import queue
+from types import SimpleNamespace
 import unittest
 from mcp import ResolveMCP, BINARY
 
@@ -30,6 +32,13 @@ class MCPTests(unittest.TestCase):
         with self.assertRaises(ValueError):client.image(-1)
         client.tools={}
         with self.assertRaises(RuntimeError):client.image(1)
+
+    def test_response_deadline_without_hanging(self):
+        client=ResolveMCP.__new__(ResolveMCP)
+        client.timeout=.001;client.serial=0;client.messages=queue.Queue()
+        client.process=SimpleNamespace(stdin=Stream())
+        with self.assertRaises(TimeoutError):client.rpc('tools/list',{})
+        self.assertEqual(client.process.stdin.lines[0]['id'],1)
 
     def test_timeout_constructor_rejects_before_process(self):
         with self.assertRaises(ValueError):ResolveMCP(timeout=0,process_factory=lambda *a,**k:self.fail('must not start'))

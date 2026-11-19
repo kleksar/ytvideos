@@ -172,7 +172,7 @@ def _style(request, target, fps, root):
     if mode not in {"word_highlight", "when_speech"}:
         raise ValueError("this format has no supported ordinary speech subtitle recipe")
     result = dict(mode=mode, channel=channel, format=form, profile_sha256=_hash(data),
-                  font_face=cfg.get("font"), text_plus_supported=mode == "word_highlight")
+                  font_face=cfg.get("font"), text_plus_recipe_available=mode == "word_highlight")
     if mode == "word_highlight":
         visual = profile.get("visual_profile")
         if (not isinstance(cfg.get("font"), dict) or not all(cfg["font"].get(k) for k in ("family", "style"))
@@ -280,13 +280,21 @@ def plan_subtitles(request, *, root=None):
 
     cues, srt_cues = [], []
     for i, group in enumerate(groups):
-        start, spoken_end = group[0]["start_frame"], group[-1]["end_frame"]
-        end = groups[i+1][0]["start_frame"] if hold and i+1 < len(groups) else spoken_end
+        spoken_start, spoken_end = group[0]["start_frame"], group[-1]["end_frame"]
+        # History Long's rendered overlay spans the conform's complete target
+        # interval: neutral outside speech, with no invented word highlights.
+        full_span = hold and default_hold
+        start = origin if full_span and i == 0 else spoken_start
+        end = spoken_end
+        if hold and i+1 < len(groups):
+            end = groups[i+1][0]["start_frame"]
+        elif full_span:
+            end = target["end_frame"]
         value = " ".join(word["text"] for word in group)
         cues.append(dict(id=f"C{i+1:04d}", text=value, start_frame=start, end_frame=end,
-                         spoken_start_frame=start, spoken_end_frame=spoken_end, words=group))
+                         spoken_start_frame=spoken_start, spoken_end_frame=spoken_end, words=group))
         # The accessibility track follows real speech, not the visual phrase hold.
-        sa, sb = (_round(Fraction(frame - origin) * 1000 / fps) for frame in (start, spoken_end))
+        sa, sb = (_round(Fraction(frame - origin) * 1000 / fps) for frame in (spoken_start, spoken_end))
         srt_cues.append(f"{i+1}\n{tool.stamp(sa)} --> {tool.stamp(sb)}\n{value}")
     srt = "\n\n".join(srt_cues) + "\n"
     duration = Decimal(_round(Fraction(target["end_frame"] - origin) * 1000 / fps)) / 1000

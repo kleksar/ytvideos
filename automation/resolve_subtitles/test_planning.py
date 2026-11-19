@@ -51,8 +51,10 @@ class PlannerTests(unittest.TestCase):
         self.assertEqual(result["playback"], "UNVERIFIED")
         cues = result["cues"]
         self.assertEqual([(cue["start_frame"], cue["end_frame"]) for cue in cues],
-                         [(86415, 86430), (86430, 86454), (86454, 86469), (86469, 86475)])
+                         [(86400, 86430), (86430, 86454), (86454, 86469), (86469, 86490)])
+        self.assertEqual(cues[0]["spoken_start_frame"], 86415)
         self.assertEqual(cues[0]["spoken_end_frame"], 86421)
+        self.assertEqual(cues[-1]["spoken_end_frame"], 86475)
         self.assertEqual(cues[0]["words"][0]["start_frame"], 86415)
         self.assertIn("00:00:00,500 --> 00:00:00,700\nNew York", result["srt"])
         self.assertIn("00:00:01,800 --> 00:00:02,100\n20 million", result["srt"])

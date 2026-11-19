@@ -49,7 +49,7 @@ def target_native(target):
 def validate_voice(request, snapshot):
     """Bind alignments to exact enabled TimelineItems and immutable source files.
 
-    First native adapter intentionally accepts untrimmed unity-rate narration.
+    First native adapter intentionally accepts zero-source-in unity-rate narration.
     Planner supports retimes, but that is not proof of native speed readback.
     """
     seen = {item['id']:item for item in snapshot['voice']}
@@ -120,7 +120,14 @@ def main(argv=None):
         expected = [(c['spoken_start_frame'], c['spoken_end_frame'], c['text']) for c in plan['cues']]
         srt = str((args.output/'captions.en.srt').resolve())
         expression = 'install(resolve, '+', '.join(repr(v) for v in (target,before,expected,srt,name,token))+')'
-        receipt = script_call(client, expression)
+        receipt_path = args.output/'native-receipt.json'
+        receipt_path.write_text(json.dumps({'status':'IN_PROGRESS', 'candidate_name':name, 'token':token}))
+        try:
+            receipt = script_call(client, expression)
+        except Exception as exc:
+            receipt_path.write_text(json.dumps({'status':'UNKNOWN', 'candidate_name':name, 'token':token,
+                'error':str(exc), 'next':'Inspect native candidate and source before retrying; do not duplicate imports.'}, indent=2))
+            raise
         if receipt.get('status') not in ('CREATED','UNCHANGED') or receipt.get('native_cues') != len(expected):
             raise RuntimeError('Native installation did not return verified cue readback')
         if any(sha(path) != digest for path,digest in hashes.items()):

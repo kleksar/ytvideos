@@ -47,7 +47,7 @@ not guessed.
   audio/video property, geometry or target rejects apply. Do not copy observations
   from a different audio file or move them to manufacture a PASS.
 
-The **first native adapter supports untrimmed unity-rate narration only**. Trim/speed
+The **first native adapter supports zero-source-in unity-rate narration only**. Trim/speed
 math is tested in the planner but native retime readback is not yet proven, so apply
 refuses it instead of advertising universal speed support. Confidence/anchors cover
 only the supplied evidence. They do not prove every word, pronunciation or playback.
