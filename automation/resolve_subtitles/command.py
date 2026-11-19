@@ -141,7 +141,8 @@ def main(argv=None):
         expression = 'install(resolve, '+', '.join(repr(v) for v in (target,before,expected,srt,name,token))+')'
         if layout:
             name='Native branded candidate '+token[-16:]
-            comps=args.output/('native-comps-'+token[-16:]);comps.mkdir(exist_ok=True)
+            comps=args.output/('native-comps-'+token[-16:])
+            comps.mkdir(exist_ok=True)
             paths=[str((comps/f'section-{i:04d}.comp').resolve()) for i in range(len(layout['shots']))]
             expression='install_branded(resolve, '+', '.join(repr(v) for v in (target,before,layout,expected,srt,paths,name,token,branded['existing_screen_caption_tracks']))+')'
         receipt_path = args.output/'native-receipt.json'

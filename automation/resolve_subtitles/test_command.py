@@ -1,6 +1,4 @@
 import copy
-import importlib.util
-import json
 from pathlib import Path
 import sys
 import tempfile
@@ -34,7 +32,8 @@ class CommandTests(unittest.TestCase):
 
     def test_final_audio_hash_snapshot_and_unsupported_trim(self):
         with tempfile.TemporaryDirectory() as temp:
-            path=Path(temp)/'voice.wav'; path.write_bytes(b'exact final source')
+            path=Path(temp)/'voice.wav'
+            path.write_bytes(b'exact final source')
             snap={'voice':[dict(id='v1',enabled=True,track_enabled=True,speed={'Percentage':100},left=0,start=10,end=40,path=str(path))]}
             request={'native_snapshot':copy.deepcopy(snap),'placements':[dict(id='v1',speed=1,source_in=0,
                 timeline_start=10,timeline_end=40,source_sha256=command.sha(path))]}
@@ -65,4 +64,5 @@ class CommandTests(unittest.TestCase):
         self.assertEqual(command.target_native({'fps':'30000/1001'})['native_fps_values'], ['30000/1001'])
         self.assertEqual(command.target_native({'fps':'30'})['native_fps_values'], ['30','30.0'])
 
-if __name__=='__main__': unittest.main()
+if __name__=='__main__':
+    unittest.main()
