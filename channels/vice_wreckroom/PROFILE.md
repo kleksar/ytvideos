@@ -4,7 +4,11 @@
 
 YouTube channel ID: `UCcZWXzkL_K1mD5dr8MZBYrQ` ([канал](https://www.youtube.com/channel/UCcZWXzkL_K1mD5dr8MZBYrQ)). Имя **Vice Wreckroom**, прежнее имя **OddlyDrawn**. Последний наблюдавшийся handle — `@OddlyDrawnBtw`; новое имя не доказывает смену handle. Не переименовывать аккаунт и не переносить эту identity на Scenes on Repeat / You But Weird.
 
-Это документированный ручной маршрут, **не подключённый ChannelSpec**, не новый исполняемый recipe и не автоматическая публикация. Официальное описание канала пока **UNVERIFIED**: перед изменением/копированием прочитать точное сохранённое поле Studio, не подставлять рекламный текст из этого профиля. Датированные наблюдения — [evidence](../../docs/references/vice-wreckroom-discovery.md).
+This is a documented manual workflow, NOT an activated ChannelSpec, executable recipe or automatic publication. Saved Studio description was independently read back on 2026-11-19, with Publish disabled and no edits:
+
+> The funniest GTA VI stream moments, cut so the joke still lands if you missed the stream. Bad plans, weird glitches, and reactions worth replaying. Original streams are credited in each description. Story spoilers are marked up front.
+
+The description is a verbatim identity snapshot, not permission to bypass the spoiler/source-rights gates below. Dated observations: [evidence](../../docs/references/vice-wreckroom-discovery.md).
 
 Контент: короткие самостоятельные смешные эпизоды из реальных GTA VI стримов. Показать понятную завязку, действие и завершённую реакцию/развязку. Не выдавать trailer reaction, меню, чужой пересказ или синтез за реальный gameplay. Имя стримера/подпись должны соответствовать источнику. Не заполнять квоту слабыми эпизодами.
 

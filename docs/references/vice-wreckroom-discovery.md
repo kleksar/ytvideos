@@ -4,7 +4,11 @@
 
 ## Канал и Studio
 
-По read-only Studio read-back, переданному работающим агентом 2026-11-19: channel `UCcZWXzkL_K1mD5dr8MZBYrQ` называется Vice Wreckroom; account switch ранее показывал legacy `@OddlyDrawnBtw`. Три playlist ID/полных названия/Unlisted status в профиле сверены, число видео было 0. Точное поле channel description не было прочитано: **UNVERIFIED**, не заменено предположением.
+Independent Studio read-back on 2026-11-19: channel `UCcZWXzkL_K1mD5dr8MZBYrQ`, Vice Wreckroom, handle `@OddlyDrawnBtw`; Publish was disabled, no edits. Exact saved description:
+
+> The funniest GTA VI stream moments, cut so the joke still lands if you missed the stream. Bad plans, weird glitches, and reactions worth replaying. Original streams are credited in each description. Story spoilers are marked up front.
+
+The three full playlist names/IDs/Unlisted status in the profile were verified (0 videos at that snapshot). Later read-back confirmed legacy cleanup complete under its separate owner authorization; one public GTA Short and the three GTA playlists remain. This is observed state, not a deletion instruction.
 
 Публичный Short `mfT2wnPdLeQ` («KreekCraft Was Just Standing There… | GTA 6») загружен владельцем вручную. Это не доказательство agent/native Resolve upload. Текущий документ не меняет channel settings и не разрешает удалять legacy Body Myths.
 
