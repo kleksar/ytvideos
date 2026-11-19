@@ -1,5 +1,12 @@
 # Экспорт и YouTube delivery
 
+## Preferred native YouTube route (owner clarification, 2026-11-19)
+
+For future videos across channels, prefer Deliver's built-in YouTube preset and Upload directly when the exact destination channel, visibility and required metadata can be verified. A preset is a starting point: retain the approved geometry/fps/audio contract and do not silently renormalize the mix. This preference is not upload authorization or evidence of successful native upload. The global initial Private visibility remains unchanged unless the owner explicitly authorizes another visibility for the named scope; [Vice Wreckroom](../../../../channels/vice_wreckroom/PROFILE.md) has its own narrow Unlisted requirement.
+
+If the native route cannot verify destination, visibility, mandatory fields or completion, stop that upload, preserve job state and report the concrete blocker. Do not silently redirect to another account/tool or duplicate an UNKNOWN upload. Preserve all existing exact-file approval, rights, review and Studio read-back requirements below. Existing baked projects require scoped migration rather than a false claim of native reconstruction.
+
+
 ## Локальный экспорт
 
 Использовать native Deliver queue в существующем проекте только при порученном рендере. Сверить exact timeline/job, range, video/audio codec, geometry/fps, bitrate/channel/sample rate с [delivery](../../../../docs/standards/delivery.md) и профилем. Проверенная комбинация H.264/AAC не отменяет канальные параметры. Не рендерить другой открытый проект; дождаться job completion, не считать enqueue успехом.
