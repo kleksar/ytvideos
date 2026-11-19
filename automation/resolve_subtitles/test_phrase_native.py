@@ -53,6 +53,46 @@ class PhraseTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, 'does not match'):
             native['_phrase_inputs'](tool, {'TopLeftAlpha': 0.8})
 
+    def test_visibility_and_full_span_required_for_readback(self):
+        from unittest.mock import patch
+        class Tool:
+            def __init__(self, **inputs):
+                self.inputs = inputs
+                self.expressions = {}
+            def GetInput(self, key, frame):
+                return self.inputs.get(key)
+            def __getattr__(self, key):
+                class Input:
+                    def GetExpression(_self):
+                        return self.expressions.get(key)
+                return Input()
+        class Comp:
+            attrs = dict(COMPN_GlobalStart=0, COMPN_GlobalEnd=37,
+                         COMPN_RenderStart=0, COMPN_RenderEnd=37)
+            def GetAttrs(self):
+                return self.attrs
+        row = dict(start_frame=924, end_frame=962)
+        comp = Comp()
+        word, panel = Tool(GlobalIn=0, GlobalOut=37), Tool(GlobalIn=0, GlobalOut=37)
+        merge = Tool(Blend=1)
+        guard = native['_phrase_visibility_span']
+        guard(comp, word, panel, merge, row)
+        # The same guard is run on every item readback before UNCHANGED is returned.
+        for tool, key, bad in ((merge, 'Blend', 0), (word, 'GlobalOut', 20),
+                               (panel, 'GlobalOut', 20), (word, 'GlobalIn', 1)):
+            old = tool.inputs[key]
+            tool.inputs[key] = bad
+            with self.subTest(key=key), self.assertRaises(RuntimeError):
+                guard(comp, word, panel, merge, row)
+            tool.inputs[key] = old
+        merge.expressions['Blend'] = 'time < 20'
+        with self.assertRaisesRegex(RuntimeError, 'expression'):
+            guard(comp, word, panel, merge, row)
+        merge.expressions.clear()
+        for key in comp.attrs:
+            with patch.dict(comp.attrs, {key: None}), self.assertRaisesRegex(RuntimeError, 'span'):
+                guard(comp, word, panel, merge, row)
+
     def test_native_media_reference_rejected_before_graph_read(self):
         class Item:
             def GetMediaPoolItem(self):

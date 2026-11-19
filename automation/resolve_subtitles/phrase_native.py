@@ -25,6 +25,19 @@ def _phrase_center(tool, center):
     require(not tool.Center.GetExpression(), 'Unexpected title center expression')
 
 
+def _phrase_visibility_span(comp, word, panel, merge, row):
+    end = row['end_frame'] - row['start_frame'] - 1
+    require(end >= 0, 'Invalid title duration')
+    _phrase_inputs(merge, {'Blend': 1})
+    for tool in (word, panel):
+        _phrase_inputs(tool, {'GlobalIn': 0, 'GlobalOut': end})
+    attrs = comp.GetAttrs() or {}
+    for key, value in {'COMPN_GlobalStart': 0, 'COMPN_GlobalEnd': end,
+                       'COMPN_RenderStart': 0, 'COMPN_RenderEnd': end}.items():
+        require(_phrase_equal(attrs.get(key), value),
+                'Native title composition span differs: ' + key)
+
+
 def verify_phrase_graph(comp, row):
     style = row['style']
     panel_style = style['panel']
@@ -34,6 +47,7 @@ def verify_phrase_graph(comp, row):
     merge = named_tool(comp, 'Merge1', 'Merge')
     out = named_tool(comp, 'MediaOut1', 'MediaOut')
     require(len(comp.GetToolList(False)) == 5, 'Unexpected tools in native phrase title')
+    _phrase_visibility_span(comp, word, panel, merge, row)
     raster = dict(zip(('Width', 'Height'), style['raster']))
     _phrase_inputs(word, dict(raster, StyledText=row['text'], Font=style['font'],
                              Style=style['face'], Size=style['size'],

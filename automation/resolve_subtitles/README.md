@@ -288,7 +288,11 @@ The adapter creates a protected duplicate and a dedicated video lane, inserts st
 `SetRightOffset`, moves via `SetPosition`, imports and activates a sanitized native
 phrase graph. Each resulting item must have `MediaPoolItem=None`, one composition,
 exact start/end, independently editable `Template.StyledText`, expected graph
-connections/font/color/panel. Source video/audio, CC text/timing and original view
+connections/font/color/panel. Readback also requires constant `Merge1.Blend=1`,
+full `Template`/`Panel` GlobalIn/GlobalOut and exact composition global/render ranges;
+missing or shortened range metadata fails closed rather than returning UNCHANGED.
+These guards have offline regressions, but the new range-attribute readback still
+requires disposable native integration proof. Source video/audio, CC text/timing and original view
 remain preserved. No media carrier, render or upload is created. Batches contain at
 most five titles. Resize only in verified empty staging space, **before** moving to
 the crowded destination lane: extending in place can trim the next native title.
@@ -314,3 +318,9 @@ of this refactored CLI. UI Inspector screenshot evidence was not captured; do no
 that test PASS based on API readback. The reusable implementation requires its own
 isolated integration run, idempotence/restore checks and native visual/playback acceptance
 before broad rollout. Keep this PR drafted until that proof and required CI/review pass.
+
+A reported Svin viewer error “No frame available for MediaOut1” occurred inside a
+title interval. Its cause is not established by these checks: static graph/range
+readback is not compositor or playback evidence. Inspect actual first/interior/last
+frames and transitions and listen in the isolated candidate before delivery. Do not
+label the operational screenshot issue resolved by an offline regression.
