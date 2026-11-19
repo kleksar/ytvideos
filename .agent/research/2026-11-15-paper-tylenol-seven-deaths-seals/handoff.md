@@ -12,6 +12,10 @@ Target repo kleksar/ytvideos, `main` baseline `5d3222c8888c775d2195c8b2949949f2d
 
 ## Handoff трёх самостоятельных редакций 2026-11-16
 
-В PR #106 сохранены новый `variants/02m`, `variants/05m`, `variants/10m` с шестью целыми EN/RU narration texts и точными SHA-256 в story-review. Baseline HEAD `072736b139cd600d267526ebd210fd7b9c0b0002`; исходный script + 41-scene storyboard без изменений. Рекомендована 05m, но **не принята владельцем**. PR #124 `7d6bdf7702a2a241a33a21677fce29f26ada9b72` — proposed rules, не утверждённый main.
+В PR #106 сохранены новый `variants/02m`, `variants/05m`, `variants/10m` с шестью целыми EN/RU narration texts и точными SHA-256 в story-review. Baseline HEAD `072736b139cd600d267526ebd210fd7b9c0b0002`; исходный script + 41-scene storyboard без изменений. Рекомендована 05m, но **не принята владельцем**. #124 merged в canonical main; исторический proposed revision 7d6bdf7702a2a241a33a21677fce29f26ada9b72.
 
 В local checkout перед transfer сверить текущий PR HEAD и актуальные pins/run. Если уже существует run, использовать status/resume; если нет — регистрировать новый editorial candidate по каноническому workflow, не выдавать `--source-script` за approval. Независимому reviewer послать один точный текст без авторских баллов и объяснения, после первого чтения — источники и оригинал; сохранить его собственный подлинный `ytv-script-review-v1`. Владелец выбирает один exact master; только после этого строить новую раскадровку/packaging под его текст, не реиспользуя старые 41 spans, и проходить соответствующий gate. Никаких production действий разрешено не было. Необходимы local ytv runtime, pinned task packet, fresh independent session, TTS/MP4 для последующих измерений — всё UNVERIFIED.
+
+## 10m revision 2026-11-19
+
+Baseline PR head 300feed5fa63676fbed61c8861f0ab1d11ea0e85. New 10m EN SHA256 0c5eb62cba600034a528139f2b52b4e70f8497aec46003b820eacc229e816ab7, RU 39a78e7a3012ecb52bcc9e2c180c33647736783fe1ca06693814cd9a80fa7e55. Full new texts in variants/10m; other versions and old storyboard unchanged. Recheck remote HEAD and pins at local handoff; independent first listener/reviewer, runtime registration, TTS duration remain UNVERIFIED. 05m recommended, not approved.

@@ -86,3 +86,12 @@
 - Возможная связь с Айдахо в **сентябре 2026**: [Associated Press](https://apnews.com/article/3c314f287670e4b3200d061ac3ad7884). Chicago police не заявляли, что новый человек виновен; его присутствие в Чикаго в момент преступления не установлено, найденный цианид описывался как иное соединение.
 
 **Claim boundaries:** место подмены не установлено, не инсценировать конкретного отравителя в магазине как доказанное событие. Воспоминания медсестры не заменяют уголовного verdict. Упаковка не гарантирует безопасность. Раскадровку строить только после выбранной версии, без заимствования старых spans. Внешние метрики и independent listener UNVERIFIED.
+
+## 2026-11-19: документальная человеческая линия 10m
+
+- WTTW Chicago Stories, Kasia Janus interview: https://www.wttw.com/chicago-stories/inside-the-tylenol-murders/she-lost-her-father-aunt-and-uncle-in-the-tylenol-murders . Прочитано 2026-11-19: четырёхлетняя дочь сопровождала Адама в Jewel, он купил цветы и Tylenol; поздние собственные воспоминания Касии о потерях, проверках упаковки, поддержке семьи/друзей и психотерапии. Их нельзя выдавать за свидетельство детских мыслей 1982 года.
+- WTTW PBS full transcript: https://www.pbs.org/video/inside-the-tylenol-murders-9osm7y/ . Подтверждает поход с отцом и семейную линию.
+- CBS Chicago 2022: https://www.cbsnews.com/chicago/news/tylenol-murders-chicago-1982-40-years-later/ ; victims names/ages Mary Reiner, Mary McFarland, Paula Prince and circumstances; WTTW documentary corroborates.
+- Guardian 2022-10-02: https://www.theguardian.com/us-news/2022/oct/02/tylenol-murders-chicago-illinois-unsolved-1982 . Вторичный пересказ воспоминаний Касии о том, что она проверяет упаковки. Не цитируется дословно.
+
+Было: после технического payoff гипотетический новый подозреваемый Айдахо-2026 и отвлечённый вывод. Стало: семья Янус от магазина до взрослой Касии и наблюдаемая проверка пломбы. Другие версии сохраняют прежние факты; отказа от доказанного события Айдахо не утверждается. Независимого review нет.

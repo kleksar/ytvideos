@@ -41,7 +41,7 @@ Baseline PR #106 `072736b139cd600d267526ebd210fd7b9c0b0002`; первонача�
 |---|---|---|---:|---|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 250 | `9b849d8cd58754f6f43180014b0a832fe3407f4d720b2e510b6ac918ddeac050` | `b351b4149d8874477347d8c787427463b90177939440787a8ed1d9606e2f729e` |
 | 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 653 | `09aa51e83d5cccc9863f9f761d4698fa3bb85b4bdcf3013c23bc1faacfd4b429` | `4b4ead1fb6f1fbc96bea5d4a8ebe61199f0d0e85536c7a74144ac323532948cc` |
-| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1438 | `9af24c41fe1c4c5af784b6a77e8a6e71d74c1819085d89a7ecb6a12993691a13` | `b8a4cefbac4132d7877272967ed73864cac3643ea73cfc03781da40d0064cf55` |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1450 | `0c5eb62cba600034a528139f2b52b4e70f8497aec46003b820eacc229e816ab7` | `39a78e7a3012ecb52bcc9e2c180c33647736783fe1ca06693814cd9a80fa7e55` |
 
 ### Сюжетная карта, история изменений и сравнение
 
@@ -70,4 +70,16 @@ Baseline PR #106 `072736b139cd600d267526ebd210fd7b9c0b0002`; первонача�
 | Естественность речи EN/RU | 8 | 8 | 7 | Действия, обычная грамматика, темп; 10m длиннее объяснения, нет слуховой проверки; low |
 | Данные зрительского интереса | 6 | 6 | 6 | Предыдущий WTTW около baseline (не breakout); собственные CTR/retention отсутствуют; low |
 
-**Hard checks:** вопросы до основного documentary hook AUTHOR PASS; человеческая линия и payoff AUTHOR PASS с различной глубиной; фактологическая уверенность ограничена источниками в research; RU сохраняет смысл EN AUTHOR PASS; loop N_A (это Long 16:9, ChannelSpec подтверждён); storyboard/scene spans для **новых** редакций UNVERIFIED/NOT PREPARED — прежние 41 сцена относятся к старому hash. Новые текста не наследуют старые timings/reviews/approvals. Ни одной независимой оценки или receipt нет. Для 02/05/10 длительность **оценочная**, EN words 02m:250, 05m:653, 10m:1438; ориентир 135–155 wpm + паузы, не TTS. Реальный голос/длительность/MP4/AV seam и спрос UNVERIFIED. Git-only не означает `awaiting_script_approval`.
+**Hard checks:** вопросы до основного documentary hook AUTHOR PASS; человеческая линия и payoff AUTHOR PASS с различной глубиной; фактологическая уверенность ограничена источниками в research; RU сохраняет смысл EN AUTHOR PASS; loop N_A (это Long 16:9, ChannelSpec подтверждён); storyboard/scene spans для **новых** редакций UNVERIFIED/NOT PREPARED — прежние 41 сцена относятся к старому hash. Новые текста не наследуют старые timings/reviews/approvals. Ни одной независимой оценки или receipt нет. Для 02/05/10 длительность **оценочная**, EN words 02m:250, 05m:653, 10m:1450; ориентир 135–155 wpm + паузы, не TTS. Реальный голос/длительность/MP4/AV seam и спрос UNVERIFIED. Git-only не означает `awaiting_script_approval`.
+
+### 2026-11-19 substantive 10m revision on exact hashes
+
+Baseline HEAD 300feed5fa63676fbed61c8861f0ab1d11ea0e85. New EN SHA-256 0c5eb62cba600034a528139f2b52b4e70f8497aec46003b820eacc229e816ab7; RU SHA-256 39a78e7a3012ecb52bcc9e2c180c33647736783fe1ca06693814cd9a80fa7e55; EN 1450 words, RU 1215 words, 21 meaning paragraphs per language. 02m, 05m and root unchanged.
+
+Story map 10m: three opening questions → Kasia with father in store → Janus losses and named other victims → Jensen bottle and cyanide → uncertain danger/recall → FDA and three physical barriers → Kasia's adult consequences → still unsolved criminal question and practical tamper warning.
+
+10m eight author scores (not independent): interest 8/10 medium (seven victims, but no perpetrator revealed); opening 8/10 medium (questions sincere but numerous); development 9/10 medium (family to evidence to practical solution, but regulations slow middle); payoff 9/10 medium (daughter examines packaging, killer unresolved); novelty 6/10 medium (many Tylenol documentaries); visuals 8/10 medium (store/flowers/three layers, reconstruction not archival); spoken naturalness 8/10 low (concrete action; TTS unheard); audience evidence 6/10 low (WTTW non-breakout benchmark, no own CTR/retention).
+
+Hard checks: factual link and EN/RU meaning AUTHOR CHECKED against research; Long questions before main hook AUTHOR CHECKED; loop N_A; independent first-listener, bilingual independent review, TTS, AV and real timing UNVERIFIED. Original storyboard 41 scenes applies only to unchanged root EN SHA-256 8468a81a4379051b388671b2774a2119d8124b41e5e8911f3b187ac8e7e62ea1. Rewritten 10m invalidates previous author review/hash, old spans not carried over.
+
+Comparison exact scripts: 2→5 adds Jensen's contested discovery, public recall, letter and how barriers work. 5→10 now adds the family shopping trip, other victims and Kasia's adult consequences; loses pace during 1989 regulatory detail after package payoff. 02m is compressed, 05m is balanced but letter→FDA needs pace, 10m has more human value yet more regulatory tail. Recommend 05m Long, not owner approval. EDITORIAL_CANDIDATE_UNREGISTERED.
