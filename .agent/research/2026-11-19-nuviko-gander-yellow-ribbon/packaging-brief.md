@@ -1,0 +1,17 @@
+# Packaging brief — Nuviko History / Gander
+
+All ideas are truthful **proposals**, no generated thumbnails, no ReleaseSpec/approved packaging, no measured click rate. Profile: 2D Nuviko traveler *only if verified reference images later available* inside photorealistic historical reconstruction; presenter may be omitted. 16:9 Long. Do not depict historical passengers/hosts as fictional speaking characters, avoid US catastrophe spectacle; focus on the Canadian problem.
+
+| Concept | Exact EN title | Visual prompt idea (not generated media) | Promise / first proof / payoff / misread guard |
+|---|---|---|---|
+| A — scale | **38 Planes Landed in a Town of 10,000. Then What?** | Aerial photoreal Gander airfield 2001, multiple airliners parked, distant modest town; authentic aircraft scale, no fake newspaper/headline. If presenter used, composited approved 2D at foreground only | First proof 38 diversion figure in opening; payoff community opens schools/phones/food. Guard: not implying every plane in Canada landed in Gander |
+| B — human need | **The Airport Could Land 38 Planes. The Town Had to Save the Passengers.** | Concrete interior civic hall temporarily prepared as rows of emergency beds, aircraft just visible through windows only if geography supports; truthful emergency shelter | First proof landing versus housing problem; payoff volunteer system and private welcome. Guard: “save” means shelter/aid, not that every passenger faced imminent death on the ground |
+| C — trust | **Would You Open Your Home to 6,600 Strangers?** | Home door opening from inside, street with suitcase-carrying travelers, calm caution not panic; no fake faces of named participants | Early mayor caution vs volunteers, payoff continuing friendship. Guard: not all 6,600 entered private homes |
+
+**Recommended A** for clear central object and immediate reason to click, not prediction of CTR. Nuviko illustrative style must derive from actual refs when production begins, not this text. Full references found in `channels/nuviko_history/brand/VISUAL_PROFILE.md` and checked locally only during visual work.
+
+**Exact 05m first words:** “How did a town of about ten thousand people look after more than six thousand unexpected visitors?” Additional questions concern inability to leave and what remained. **Main hook:** “The airport could take the planes; the town would have to take the people.” **Payoff:** local volunteers solve sleep, medicine and communication and relationships survive departure. **Timing:** only estimated, first words immediate; no fake exact second.
+
+**Story-linked endscreen:** per current editorial, complete this film before a bridge toward a real related Nuviko History video. A suitable thematic possibility is the prior accepted **Gimli Glider** or another aviation emergency where a runway was only the first step; choose **only after verifying actual published URL, correct channel identity and an accessible real intro clip**. Until then endscreen target/intro/input rights/timing = BLOCKER, not a fabricated 10s card. Keep 10s native screen zone available; no fabricated clickable buttons. 2m/5m/10m scripts currently end on own payoff and have no falsely inserted next-video speech.
+
+No assets, providers, upload or publication.
