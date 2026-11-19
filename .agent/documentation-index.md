@@ -6,7 +6,7 @@
 | Обязательное чтение, preflight, выполнение, blocker и продолжение каждого task | [task-execution skill reference](../.agents/skills/ytv-start/references/task-execution.md) |
 | Тема, факты, драматургия, версии хронометража и их сравнение, переработка очереди, первый слушатель | [editorial](../docs/standards/editorial.md) |
 | Естественная дикторская речь, устная редактура и EN/RU-подача | [narration](../docs/standards/narration.md) |
-| Постановка, actual references, кадры, цельное движение | [visual](../docs/standards/visual.md) |
+| Исполнитель раскадровки (Astra), постановка, actual references, кадры, цельное движение | [visual](../docs/standards/visual.md) |
 | Речь/voice/speed, mix, музыка, word map/SRT/caption semantics | [audio](../docs/standards/audio.md) |
 | Рендер/геометрия/время/codec/QA exact MP4 | [delivery](../docs/standards/delivery.md) |
 | Общая процедура Resolve-монтажа, native export и ограниченного YouTube handoff | [ytv-resolve](../.agents/skills/ytv-resolve/SKILL.md) |

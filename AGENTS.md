@@ -8,7 +8,7 @@ uv run ytv start --channel CHANNEL_ID --format short --intent 'точный за
 
 Укажи канал (default `paper_detour`) и формат. Готовый production script сохрани точно в UTF-8 и передай через `--source-script`. **«Бери в работу PR» с полным текстом — производство выбранной версии, не новая редактура:** до исполнения research зарегистрируй исходное поручение по [маршруту принятого источника](docs/workflow.md#принятый-источник-без-повторной-редакции). Сам файл и `start` не дают approval. Для нового замысла читай `read_next`, показывай `plan_summary` и выполняй `next_action`. Markdown без run недостаточно. Existing run: `status` → `resume`/`next` → `plan`, без дубликата.
 
-Основная production-модель — GPT-6 Luna. Lifecycle — [workflow](docs/workflow.md), художественные отличия — профиль канала.
+Production: Luna; [раскадровка: Astra](docs/standards/visual.md#исполнитель-раскадровки). Lifecycle: [workflow](docs/workflow.md); стиль: профиль канала.
 
 ## Выбрать вход
 
