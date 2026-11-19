@@ -17,3 +17,14 @@ Each title honestly commits to the first image and final answer. The title shoul
 - PD-TRANSFORM-01: physical paper timeline from carnival admission ticket to tombstone, central title **65 YEARS**. Show the afterlife path, not false contemporary time compression; first proof S005 and S011; payoff S016.
 
 English target, same material voice as Paper brand, 9:16 central 2:3 crop must be checked on **actual** generated master. All text typography, paper material, right to reproduce any archival reference, and no gore require later independent visual QA. No actual thumbnail, scores, A/B test, optimized title or YouTube upload here.
+
+
+## 2026-11-19 — scope по трём версиям (без новых изображений)
+
+02m Short 9:16: исходная титульная находка («broken mannequin»), 17 старых scene spans принадлежат только этому EN/RU hash; реальный AV seam UNVERIFIED. Сохранить оригинальную текстовую петлю до owner review.
+
+05m Long 16:9 (предварительно recommended): title candidate **The Dead Outlaw Who Became a Funhouse Dummy**. Вопросы требуют показать реальные музейные билеты как след, ложных братьев 1916 и сопоставление черепа. Visual intent: цельная handmade paper диорама — костяная находка / монета и билет / похоронное бюро / Паттерсоны / музей / криминалистика / похороны. Нет реальной архивной фотокопии и никто не выдаёт реконструкцию за документ. Нужно отдельное 10-секундное native Long end-screen по профилю после выбранного master.
+
+10m Long 16:9: title candidate **The Body Displayed for 65 Years — Who Was He?**. Новые проверенные events: неудачи грабежей 1911, музей/1928 footrace, ложная реклама фильма `Narcotic`, 1967 `She Freak`. Показывать ложный «drug addict» исключительно как рекламный вымысел, не исторический факт; никакого invented show dialogue.
+
+All titles/thumbs only candidates. Existing storyboard cannot be applied to Long variants; after owner approval and actual source/rights/refs verification create exact visual spans and image prompts. No TTS, imagegen, render, provider credits or YouTube actions authorized.

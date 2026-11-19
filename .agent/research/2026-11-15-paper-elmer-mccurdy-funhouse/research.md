@@ -76,3 +76,19 @@ Use no copyrighted video/audio/photo bytes; no made-up historical dialogue, name
 Promise/payoff: **a body was exposed under a supposed dummy, forensics revealed McCurdy, false brothers explain the chain of displays, and a burial ended it**. Each bridge changes the question: “fake or real?” → “who?” → “why still hanging?” → “what happened afterward?” The scene of the coin delivers a specific answer instead of a geography montage. Screened against active Paper #116 and #114; main title/tree searches returned no Elmer/McCurdy title/path. The user rejected Carrington PR #13 and London Bridge #88 **angles**; unrelated to this choice, not restored.
 
 Remaining weakness: a few lines of ownership history are summarized rather than dramatized; no responsible way to invent the private decisions of each proprietor. It could be too morbid and already known to mature YouTube true-crime viewers. Demand remains UNVERIFIED. This is a **self-selected STRONG_CANDIDATE**, not a validated official script gate.
+
+
+## 2026-11-19 — additional source ledger for standalone 05m/10m
+
+The above 2026-11-15 research and demand counter-signals remain unchanged for the 02m original. These added details rely on **secondary histories**, not coroner files or actual licensed stills:
+
+| Added claim | Public evidence and exact scope | Limit |
+|---|---|---|
+| 1911 safe blast damaged silver; later bank heist yielded much less; final robbery stopped the wrong train with little money and whiskey | [HISTORY, 2025-06-30](https://www.history.com/articles/elmer-mccurdy-mummy-dead-outlaw), *Early Life of Secrets and Setbacks* and *Last Stand*; [R.C. Staab](https://www.rcstaab.com/elmermccurdy) | No invented interior thought or precise dialogue |
+| Body remained unclaimed at Pawhuska, embalmed with arsenic and displayed for a nickel; 1916 James and Charles Patterson posed as brothers | [HISTORY 2025](https://www.history.com/articles/elmer-mccurdy-mummy-dead-outlaw), *From Outlaw to Attraction*; [R.C. Staab](https://www.rcstaab.com/elmermccurdy) | **Date of nickel display not established as 1911** — fixed wording in both 10m languages; only location and mechanism claimed |
+| Louis Sonney's Museum of Crime in 1922 and use in 1928 transcontinental footrace | [R.C. Staab](https://www.rcstaab.com/elmermccurdy); [Meander Maine](https://meandermaine.com/tale/elmer-mccurdy-the-embalmed-bandit/) | Retellings not independent contracts; no fictitious spectator reactions |
+| 1933 `Narcotic` theatrical marketing falsely assigned addiction to McCurdy | [Ripley's 2019](https://www.ripleys.com/stories/elmer-mccurdy); [Meander Maine](https://meandermaine.com/tale/elmer-mccurdy-the-embalmed-bandit/) | Drug-death story identified as **false promotional narrative**, not McCurdy's historical cause of death |
+| 1949 Louis Sonney death/storage and `She Freak` (1967) connection | [Meander Maine](https://meandermaine.com/tale/elmer-mccurdy-the-embalmed-bandit/); [Ripley's](https://www.ripleys.com/stories/elmer-mccurdy) | Intermediate ownership/storage not completely established; script explicitly marks uncertain handoffs |
+| Penny minted 1924, Museum of Crime tickets, Dan Sonney identification, Clyde Snow photo/X-ray check; 1977 Guthrie burial | [HISTORY](https://www.history.com/articles/elmer-mccurdy-mummy-dead-outlaw); [R.C. Staab](https://www.rcstaab.com/elmermccurdy) | Museum tickets are **leads**, forensic comparison confirms name; exact discovery day differs in secondary reports, so narration says 1976 only |
+
+**Common demand boundary:** older high-view English Long retellings do not establish English Short 2026 demand, retention or CTR; own analytics unavailable. Original 17-scene storyboard still binds *only* unedited 02m scripts. No factual description above authorizes a new image/production run.

@@ -1,11 +1,19 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
+EDITORIAL_CANDIDATE_UNREGISTERED — Paper Detour / Elmer McCurdy. Сюжетные редакционные кандидаты, НЕ official script gate, НЕ owner approval, НЕ производство.
 
-# Paper Detour — A funhouse dummy was a real man (1911–1977)
+# Сломанный манекен оказался телом человека
 
-**English illustrated Short / active channel, text-only editor candidate**, not a production run. [Full script in Russian](script.ru.txt) · [full English narration master](script.en.txt). The owner of this work has not approved production or publication.
+**Логлайн:** съёмочная группа в 1976-м обнаруживает под краской настоящую кость; музейный билет, ложное родство и судебно-медицинская экспертиза возвращают имя человеку, чьё тело десятилетиями продавали как зрелище.
 
-A 1976 TV crew breaks a “dummy” arm and finds a human bone. A coin and tickets connect investigators to an outlaw who died in 1911; two fake brothers explain how he entered show business. In 1977, sixty-five years after his death, he is finally buried.
+| Целевая длина | Полные тексты | EN words | Оценка |
+|---|---|---:|---|
+| 02m, Short 9:16 | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 253 | Сильный исходный Short сохранён |
+| **05m, Long 16:9** | **[EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt)** | 604 | **Предварительно рекомендована** |
+| 10m, Long 16:9 | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1369 | Документальная альтернатива с медленным периодом 1928–1967 |
 
-Evidence and honest demand counter-signals: [research](research.md). Author-only eight-part [scorecard](story-review.md), exact 17-span [preliminary storyboard](storyboard.md), [packaging brief](packaging-brief.md) and [local host handoff](handoff.md). Scene visuals are merely *prompts*, no assets. EN Git blob `670e0891c8c07647353dc793b81fd20fd6c40e4f`; RU blob `1eea171088c6c96cb712357475ca339793667852`. **UNVERIFIED:** independent review, English Short demand, pinned runtime, actual refs/rights, voice duration and AV loop.
+**Было → стало:** root `script.en.txt` (Git blob `670e0891c8c07647353dc793b81fd20fd6c40e4f`) и root `script.ru.txt` (blob `1eea171088c6c96cb712357475ca339793667852`) сохранены без правок и скопированы в 02m. Новые самостоятельные EN/RU 05m и 10m развивают ту же историю, а не другую тему. В [story-review.md](story-review.md) — точные SHA-256 шести текстов, три story maps, оценки 8 критериев каждой редакции, недостатки, проверка обязательных правил и сравнение 2→5→10; общий [research](research.md) с новой фактурой.
 
-**Production prohibition:** no merge, video, TTS, imagegen, render, upload or publication authorized by this PR.
+**Почему 05m:** показывает решение гробовщика, обман «братьев», музейные следы и сопоставление черепа, сохраняя прямую связь с похоронами. 10m добавляет подтверждённые события 1911/1928/1933/1967, но после периода кино афиш резко возрастает хронология экспонатов. 02m сохраняет короткий закончившийся сюжет и текстовую петлю. Длительности до реального TTS/монтажа приблизительные; 05m может оказаться короче цели. Рекомендация не production approval.
+
+[Handoff](handoff.md) · [packaging](packaging-brief.md) · [original 17-beat storyboard](storyboard.md): последний **применим только к byte-identical 02m EN/RU**, не к Long, и не подтверждает timing/AV seam. Точные таймкоды, scènes и image prompts для выбранного Long должны быть подготовлены после выбора exact master.
+
+**UNVERIFIED:** независимый reviewer/first-listener, двуязычный reader, canonical pinned runtime и поддерживаемая регистрация, исторические первоисточники, actual visual references/rights, TTS/MP4 и CTR/retention. Ни одно из этих действий этим PR не запускалось.
