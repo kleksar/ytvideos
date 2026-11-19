@@ -7,7 +7,7 @@ Status: **EDITORIAL_CANDIDATE_UNREGISTERED**. Date of revision: 2026-11-17. Auth
 | Version | EN script | EN SHA-256 | RU script | RU SHA-256 | EN words | Estimated narration time (not measured) |
 |---|---|---|---|---|---:|---|
 | 02m | [Full EN](variants/02m/script.en.txt) | `b13bd78664370f0592f1b7b5508753f16584f4b098d45ab8a108abe5a1b3811d` | [Full RU](variants/02m/script.ru.txt) | `bbf9cd7e89dc0d868cb3cb047dad401580d2f043c3f16ee2e4cb692ec967805b` | 244 | ~1.6–2.2 min |
-| 05m | [Full EN](variants/05m/script.en.txt) | `15de58915f42cc391dda170cd04e9e27a68d45d4750781d5361bb42b35684acb` | [Full RU](variants/05m/script.ru.txt) | `2ce93efa86ff450e0fe06f92649dca7c7253050985de804e582142d02c0b4aa7` | 635 | ~4.2–5.5 min |
+| 05m | [Full EN](variants/05m/script.en.txt) | `c2f746ad3e1db2f7e93b23933f0930b40cdaf6bc573b093628260004fb5fc311` | [Full RU](variants/05m/script.ru.txt) | `93530a8cd2196a33c2b990346837ae62842995640376922347a2ce722c30ddc6` | 717 | ~4.6–6.0 min plus pauses (estimated) |
 | 10m | [Full EN](variants/10m/script.en.txt) | `04fa648735c3ad7a7c151ee39582140c532e87d0aa53470946b433d25fe794e4` | [Full RU](variants/10m/script.ru.txt) | `8bd0ead794410799ee02811a1a6b4ad6bf02b9577205d9fdceb9b99cb1b238b9` | 1327 | ~8.8–11.4 min |
 
 Estimates assume roughly 120–155 spoken English words/minute plus short dramatic pauses; **not** an ElevenLabs measurement. The active channel profile sets voice speed to 1.10×, not changed by this PR. The 10-second Long end screen is a production requirement, not recorded narration; exact film timing remains UNVERIFIED.
@@ -34,18 +34,18 @@ Estimates assume roughly 120–155 spoken English words/minute plus short dramat
 ## Version 05m — full story map and decision
 
 **Question-first promise:** find a way out after falling; why aircraft searching overhead failed; what sound opened a path. All three have answers before the ending.
-**Immersion:** family science station and graduation/Christmas trip → main hook: near-landing breakup, fall in row of seats → shock and lost glasses/mother → choice between wandering and father's stream rule → one-shoe progress, rain and finite sweets → hidden rescue planes → discovery of other passengers (not Maria) → food ends as water widens → empty boat/presumed human activity → arrival of workers and Spanish exchange → safety, mother’s death, reunion with father → career and natural consequence of learned forest knowledge.
+**Immersion:** family science station and graduation/Christmas trip → main hook: near-landing breakup, fall in row of seats → shock and lost glasses/mother → choice between wandering and father's stream rule → one-shoe progress, rain and finite sweets → hidden rescue planes → discovery of other passengers (not Maria) → food ends as water widens → empty boat/shelter without people → arm infection and painful historical petrol episode → arrival of workers and Spanish exchange → safety, mother’s death, reunion with father → career and natural consequence of learned forest knowledge.
 **Payoff:** understanding *how she found people*, not an invented physical mechanism for surviving the fall. Extra value over 02m: mother/father's prior journey, real encounter with three victims, discovery of human use of the river, reunion with father. Maintains a single forward question instead of a technical essay on impossible aerodynamics.
 
 | Editorial criterion | Score / confidence | Evidence and weakness |
 |---|---|---|
 | Interest / significance | 8/10, medium | Competing rescue modes — aircraft versus her chosen river — clarify stakes; no tested audience |
 | Opening | 8/10, medium | Three answerable questions immediately define expected outcome; more explanatory than a Short cold open |
-| Development / reason to continue | 8/10, medium | Broken sight → water choice → blocked search → bodies → food ends → empty shelter; after bodies tempo may ease |
+| Development / reason to continue | 8/10, medium | Broken sight → water choice → blocked search → bodies → dwindling food → empty shelter → painful documented wound/larvae action before human rescue; river travel still risks dragging |
 | Payoff | 8/10, high for text | Spanish conversation and rescue answer the question; parental lesson closes human line; no rescue miracle invented |
 | Angle freshness | 7/10, medium | Foregrounds sound and ecology, rather than pseudo-explaining the high-altitude fall |
 | Visual expressiveness | 8/10, medium | Panguana, storm, obstructed search, foot, other seats, empty shelter are distinct visuals; no image read-back |
-| Natural voice / clarity | 8/10, medium | Everyday actions drive prose; “the row of seats had not delivered her to safety” is a literary line worth listener testing |
+| Natural voice / clarity | 8/10, medium | Actions now connect the empty shelter to arrival; distinguish father's kerosene from Juliane's petrol in spoken review; “the row of seats had not delivered her to safety” remains a literary line to test |
 | Verified audience demand | **UNVERIFIED**, not scored | Independent first-listener attention and real viewing signals absent |
 
 **Hard checks (authorial):** EN/RU actions, 1971, 3,000 metres, 92 people, 11 days, uncertainty and ending are aligned. Question → immersion → main hook → causal development → climax and consequence present. ChannelSpec `long` present on observed main; runtime/pinned checkout not independently available. Long loop **N_A**. No old scene/timing reused.
@@ -73,7 +73,7 @@ Estimates assume roughly 120–155 spoken English words/minute plus short dramat
 
 | Transition | Actual additional value | Precise place attention may drop |
 |---|---|---|
-| 02m → 05m | Missing mother and discovery of other victims gain breathing room; search planes unable to see → independent river solution; empty shelter before people makes rescue earned | After “The sweets dwindled” the river march could feel prolonged without strong new visuals |
+| 02m → 05m | Missing mother and other passengers gain breathing room; search planes cannot see her → river route; a deserted shelter still leaves an infected wound and a difficult action before rescuers arrive | After “The sweets dwindled” the river march remains a possible attention dip |
 | 05m → 10m | Family field station and education become clear causal preparation; failed standing and inaccessible food explain choices; later public attention and return to research give human consequence | After reunion and movement to Germany, the question “will she get out?” is already settled; final sections become a second, weaker epilogue |
 
 **Recommendation: 05m** for one selected Long. It delivers the clearest chain of actions and obstacles while keeping the mother/father/rescue line intact. A shorter 02m may outperform it for Shorts but the text seam remains unverified; a longer 10m needs a genuinely engaging scene plan or tighter aftermath. This is not a claim of expected view count or measured retention, and is **not** owner approval.
@@ -85,3 +85,8 @@ Estimates assume roughly 120–155 spoken English words/minute plus short dramat
 - Reviewer input, if capability becomes available: new session gets unannotated exact EN/RU scripts first (Short twice), no ratings/beat map/selection; asks for paraphrase, attention-drop lines, naturalness and Short seam. Only **after** first reaction supply sources and original 02m comparison. Persist reviewer’s original schema answer without editing it. Any script change invalidates its prior review by hash.
 - A Git-only PR is not `ytv start`, `awaiting_script_approval` or a production pin. On actual checkout, use canonical runtime profile/context and `script_variant` + `story_review` artifact mechanism with original evidence; approval only by owner for one exact hash. Live runtime/reviewer unavailable **here**; don't fabricate IDs.
 - TTS/MP4/image/AV seam, voice speed result, actual duration, CTR/retention, runtime receipts and true independent taste test all **UNVERIFIED**. No media tasks authorized.
+
+
+## 2026-11-19 — exact 05m substantive revision
+
+Baseline PR HEAD `63e3adcc3a2f7be659575c088574074c43eff066`. Previous EN SHA-256 `15de58915f42cc391dda170cd04e9e27a68d45d4750781d5361bb42b35684acb`, previous RU `2ce93efa86ff450e0fe06f92649dca7c7253050985de804e582142d02c0b4aa7` → revised EN `c2f746ad3e1db2f7e93b23933f0930b40cdaf6bc573b093628260004fb5fc311`, RU `93530a8cd2196a33c2b990346837ae62842995640376922347a2ce722c30ddc6` (717 EN words). **Was:** she found an unoccupied shelter, then local men simply appeared. **Now:** shelter → no immediate help → documented infected wound/larvae and painful action → local men; ABC 2022 source and medical limitation in shared research. No date precision, invented quotes, unverified cure or medical advice. Existing eight authorial criteria for each exact version remain in the review above (05m: interest 8, opening 8, development 8, payoff 8, novelty 7, visuals 8, natural speech 8; audience demand UNVERIFIED); new event improves the causal bridge but is not an independent listener outcome. Full EN/RU author-checked; Long loop N_A. 02m and 10m unchanged; original Short storyboard is not valid for this Long. **Recommendation stays 05m**, not an approval. Independent reviewer, registered task, factual bilingual reviewer, actual TTS timing, MP4, audience metrics UNVERIFIED.

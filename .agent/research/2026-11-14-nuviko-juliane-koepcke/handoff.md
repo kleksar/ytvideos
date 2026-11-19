@@ -17,3 +17,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED — not approved or registered as a runtime scr
 4. Only following true owner selection/approval may downstream task handlers prepare a fresh selected-version 16:9 storyboard, audio and media. No reuse of old scenes for Long. Preserve original production pins; migration only if documented and explicitly required.
 
 **Next queue segment:** technical #77/#78 require independent code/conflict review; next unprocessed narrative after #70 is #69 LEGO octopus. Do not treat a PR link as acceptance.
+
+
+## 2026-11-19 revised exact 05m candidate
+
+Head baseline `63e3adcc3a2f7be659575c088574074c43eff066`; [EN](variants/05m/script.en.txt) `c2f746ad3e1db2f7e93b23933f0930b40cdaf6bc573b093628260004fb5fc311` / [RU](variants/05m/script.ru.txt) `93530a8cd2196a33c2b990346837ae62842995640376922347a2ce722c30ddc6`; 717 EN words, estimated time only. New evidence-bound wound incident between unoccupied shelter and actual human arrival. Father used **kerosene on a dog's wound**; Juliane used **petrol from shelter** on her arm; narrative is not medical advice. The chosen full exact text now requires a **fresh independent review**, factual bilingual review and new 16:9 storyboard. No runtime or owner approval, no stale Short spans or pins transfer.

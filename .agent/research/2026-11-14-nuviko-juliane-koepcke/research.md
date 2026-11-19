@@ -75,3 +75,8 @@ The 05m and 10m texts expand *this* story, not three different plots. The follow
 **Audience-interest evidence:** topical public video index noted above, but actual comparable YouTube retention, CTR, normalized views and target audience remain **UNVERIFIED**. Editorial scores describe exact narration, not an independent demand measurement. External searches used only historical public names and events. No production, paid provider, audio or media source was accessed.
 
 **Chronology caution:** The 2024 Guardian account reports boat sighting on the eleventh day; the ABC memoir-based account places the hut earlier and locals the following day. Each variant avoids naming the day the boat appeared. “Eleven days” denotes the reported overall ordeal, not precision for every intermediate beat. Further forensic crash mechanics are not sourced in this editorial package.
+
+
+## 2026-11-19 — source-bound 05m shelter episode
+
+[ABC News, 2 October 2022, memoir-based report](https://www.abc.net.au/news/2022-10-02/the-girl-who-fell-3km-into-the-amazon-and-survived/101413154), rechecked on 2026-11-19: Juliane found a petrol container in the unoccupied shelter; larvae had infested an arm wound; remembering her father's kerosene use on a family dog's wound, she applied petrol to help remove them and experienced severe pain. This was previously evidenced in the common 10m claim ledger and is now restored as a distinct obstacle in 05m. No exact day for the boat or shelter is asserted because witness accounts differ. **Historical conduct, not medical advice**; not a claim that petrol safely treated infection, nor independent medical documentation. Source derives from survivor testimony, not a clinical record.
