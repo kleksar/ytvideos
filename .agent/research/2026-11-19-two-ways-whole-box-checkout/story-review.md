@@ -1,3 +1,55 @@
+# Current revision — 2026-11-19 / PR #272 / substantive 02m replacement
+
+**This dated section supersedes all baseline 02m evaluations, hashes, opening/closing quotations and draft review status appearing in the archived report below.** The unchanged 05m/10m texts and their historical exact-hash evaluations remain current. Baseline PR HEAD: `578a2dd8dd715b292a61ac9ee88c35d26d203b02`; previous 02m EN SHA-256 `eb9e921749925db5e9bc090a571eb15fd4f89923f1b28e0a69fde2fee0884a83`, RU `aa7cf85d828f2bb065562c97365aac61fa5c5d3268db2aa6d61bbde6b541b2b1`. The old full 02m can still be read at the immutable baseline commit; no accepted master existed.
+
+## Exact complete EN/RU versions (current proposal)
+
+| Target / format | Complete EN | Complete RU | EN words | EN SHA-256 | RU SHA-256 | Author status |
+|---|---|---|---:|---|---|---|
+| **02m / proposed Short** | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | **311** | `b0998df7c141b987e78c5c8f6343ce6f124ead793e8790c6f61495e8eda8b7f1` | `398d0f53c59458970a614aa381cedd670e719ebb42e6877e98338a4467e1c559` | **REVISED, provisionally recommended**, independent Short loop UNVERIFIED |
+| 05m / editorial Long | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 697 | `47a52d5657e98c0a0974b7ffced3e047ac51e00e7ff0eaa1a2dcc7c202b6ff87` | `dbd61293fe86bc1022265cc64ace4bce6b3d9eb836e42faa11c68731a5e0b4a1` | UNCHANGED, Long not configured |
+| 10m / editorial Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1429 | `be54f6d7044288515bf998a54c255165e8d00029ea10d49ad0dea064d5b6050b` | `45cd54fa72b9ce7b3307a168b0df02e0d006e6a98c2c6537ada54af7050b6676` | UNCHANGED, REWORK, Long not configured |
+
+**Before → after.** The prior 270-word 02m stopped at three pure-rule winners (A at 500g → B at 750g → A at 1000g) and used a trailing-colon syntactic restart after naming a recipe. The 311-word revision makes **the third, mixed basket at 1000g** the final fresh substantive payoff: one A plus one B costs **€6**, lower than pure A (€7.20) and pure B (€8.40). The two competing methods were explicit restrictions, not the claim of a globally cheapest basket. The new final action, `First, I check the recipe.` / `Сначала открываю рецепт.`, leads into the cold open `My recipe calls for five hundred grams of berries.` / `По рецепту мне нужно пятьсот граммов ягод.`. That is an **author-checked action→information seam**, not evidence that a fresh independent listener heard two full passes or that AV is continuous.
+
+**02m story map and visual intent (proposed, not an approved storyboard):** recipe quantity / question about the lower €/kg label → same fictional shelf, two fixed-price SKUs and cash metric → 500g pure A wins on checkout → changed requirement 750g pure B wins → 1000g pure A wins → **new mixed basket one small plus one large** beats both pure rules → limitations of leftovers and real prices → checking the recipe before the next comparison. Show whole package counts and basket totals, never simulated real receipts. This adds a *new conclusion* at the end rather than repeating the previous winner. No scene counts, current-frame spans or actual timestamps are established; later visual planning must bind to this exact hash. No independent measured audience response.
+
+**Estimated timing:** 311 EN whitespace words, at 130–145 words/min roughly 2:09–2:24 **before pauses**, not a measured 2:00, and notably longer than Two Ways Lab's ordinary 35–50s Short guideline. Production fit is a real blocker/decision, **not** permission to alter the channel spec or accelerate an approved voice. The 05m/10m targets also remain estimates only.
+
+## New 02m EN: eight exact-text editorial criteria — author only
+
+| Criterion | /10 | Specific text basis and limitation / confidence |
+|---|---:|---|
+| Interest/significance | 8 | A familiar grocery decision whose third basket overturns the apparent two-option contest; stakes deliberately small; MEDIUM |
+| Opening | 8 | `My recipe calls for five hundred grams...` then a direct choice before revealing any winner; avoids announcing the 500g result; MEDIUM |
+| Causal development / reason to continue | 8 | 500g A → 750g B → 1000g A → newly available A+B at €6; four distinct conditions, but counting several totals can overload a first-time listener; MEDIUM |
+| Payoff | 9 | `That's exactly a kilogram for €6.00, cheaper than either ... basket.` explicitly exposes the limitation of the two heuristics; MEDIUM |
+| Novelty of angle | 7 | Unit-price paradox is familiar, while the mixed-basket payoff distinguishes it from a one-number lesson; limited current audience comparables; MEDIUM |
+| Visual expressiveness | 8 | A/B stacks and a mixed third basket are concrete on-screen actions; no image/reference/frame verified; MEDIUM |
+| Natural spoken language/clarity | 8 | First-person shelf, recipe, invitations and basket actions replace old abstract 'first line ...:'; cold→closing seamlessness not independently heard; MEDIUM |
+| Independently confirmed audience demand | UNVERIFIED | Only public approximate educational-video metadata, not matched-format retention, CTR or repeat viewing; NONE |
+
+## New 02m RU: eight exact-text editorial criteria — author only
+
+| Criterion | /10 | Specific text basis and limitation / confidence |
+|---|---:|---|
+| Interest/significance | 8 | `Значит ли это, что её и надо брать?` concerns a repeatable checkout decision; no measured Russian-language demand; MEDIUM |
+| Opening | 8 | `По рецепту мне нужно пятьсот граммов ягод` precedes the option decision; outcome not spoiled; MEDIUM |
+| Causal development / reason to continue | 8 | Five hundred → 750 → one kilogram → one small plus one big; several prices remain cognitively demanding; MEDIUM |
+| Payoff | 9 | `Получится ровно килограмм за 6 евро` changes the winner beyond pure A/B; MEDIUM |
+| Novelty of angle | 7 | New mixed-basket decision, but everyday bulk-discount idea is not unique; MEDIUM |
+| Visual expressiveness | 8 | Three distinct physical baskets with traceable quantity states; actual footage UNVERIFIED; MEDIUM |
+| Natural spoken language/clarity | 8 | `Сначала открываю рецепт.` leads to the opening quantity without a dangling colon; untested spoken seam; MEDIUM |
+| Independently confirmed audience demand | UNVERIFIED | No like-for-like Russian watch-choice or retention data; NONE |
+
+**Hard checks by exact version:** 02m arithmetic **AUTHOR_RECOMPUTED** against one common research ledger: 500g A €3.60/B €4.20, 750g A €5.40/B €4.20, 1000g A €7.20/B €8.40, **mixed A+B €6**. EN/RU semantic correspondence **AUTHOR_CHECKED** including prices, conditions, exclusions and final reveal. Conditional/fictitious nature stated in both. Cold-open/payoff **AUTHOR_CHECKED**. Literal EN/RU end→start read twice by author only; independent first-listener, independent bilingual review, any genuine `ytv-script-review-v1` receipt, measured TTS and AV seam **UNVERIFIED**; new hash invalidates any earlier 02m review/timings. 05m and 10m are unchanged; Long loop N_A. Existing channel supports Short but not configured Long. Owner selection/approval **NOT_GRANTED**, runtime registration **EDITORIAL_CANDIDATE_UNREGISTERED**.
+
+**Duration comparison:** 02m now includes an actual mixed-size optimum for the 1000g example, rather than vaguely mentioning mixtures in a caveat. 05m retains further 1250/1500g cases, the same mixed-basket exception and expanded explanation of stepwise checkout; it risks losing attention after the 1000g flip. 10m adds rounded-up formulas, 1750g tie, budget/leftover effects but weakens momentum after the core reveal; a fuller lesson is not necessarily a better video. **Provisional editorial recommendation remains 02m** on payoff density, not on any measured retention; its 2m+ voice duration/Short fit needs explicit review. All three texts remain independently complete. Next action: genuine blind first-listener for exact 02m EN/RU (including *literal two full cycles*), then only user-selected hash can enter the formal script gate. No independent agent was impersonated.
+
+---
+
+## Archived baseline story-review (2026-11-19 before revision; 02m hashes and findings BELOW are historical only)
+
 # Story review — exact six scripts (author only)
 
 **Independent reviewer unavailable:** UNVERIFIED. The writer's evaluations below are editorial hypotheses, not independent feedback, not `ytv-script-review-v1`, not audience retention, not a production approval. We do not invent reviewer IDs, responses or receipts. All script SHA-256 are over full stored UTF-8 contents including terminal newline.

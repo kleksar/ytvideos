@@ -1,5 +1,17 @@
 # Research — two prices, three winners
 
+## 2026-11-19 — revised exact 02m, no new external facts
+
+Baseline PR HEAD `578a2dd8dd715b292a61ac9ee88c35d26d203b02`; old 02m EN/RU SHA-256 `eb9e921749925db5e9bc090a571eb15fd4f89923f1b28e0a69fde2fee0884a83` / `aa7cf85d828f2bb065562c97365aac61fa5c5d3268db2aa6d61bbde6b541b2b1` (unchanged baseline available by commit). Current new hashes `b0998df7c141b987e78c5c8f6343ce6f124ead793e8790c6f61495e8eda8b7f1` / `398d0f53c59458970a614aa381cedd670e719ebb42e6877e98338a4467e1c559`. This is **the same berry-box model and one story**, not a new plot or historical claim. No additional web, provider or retail claims were introduced. Main `e8f2b5488b266ebc89ea7ef48360df7584088e82`, #124 merged.
+
+New 02m causal map: need 500g → both pure-method price totals (A cheaper) → change only need to 750g (B cheaper) → change only need to 1000g (A cheaper again) → **drop the method restriction as a clearly labeled new calculation**: one 250g A (€1.80) + one 750g B (€4.20) = 1000g for **€6.00**, a better shopping basket than either previously compared pure rule → caveat that these are invented prices and leftover value is unmeasured → look up needed quantity again before the next choice. The 1000g mixed basket is a *new payoff*, not a claim that mixed packages competed with the two pure methods all along.
+
+Exact mathematical evidence is the pre-existing ledger below, including `A(1000)=€7.20`, `B(1000)=€8.40` and `A+B(1000)=€6.00`; no invented measured store/prices/retention. Short cold opening and spoken tail are no longer joined by punctuation/colon; they are linked by the action of consulting the next recipe. This verbal seam remains independent/AV UNVERIFIED; no storyboard spans or timings apply to the changed hash. New 02m English 311 words, estimated about 2:09–2:24 without pauses at a 130–145 wpm assumption; production Short target fit not verified.
+
+---
+
+
+
 Observation date: 2026-11-19 UTC. Channel: Two Ways Lab. Scope: one ORIGINAL illustrative calculation, not a real experiment, not a product-price quote, not historical reenactment. Language: full English master and Russian editor translations. Original starting point: two hypothetical fixed-price berry-box SKUs, same item/quality/shelf; no user/provider-supplied media.
 
 ## Remote and duplication preflight
