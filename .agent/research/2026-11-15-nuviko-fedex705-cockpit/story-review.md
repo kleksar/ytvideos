@@ -1,3 +1,44 @@
+# Latest content review · PR #99 · 2026-11-19
+
+**Baseline head:** `eb8d204435d290d58c1346d046ecdb0d3dc3ee2c`. **Current change:** full EN/RU 02m text substantially rewritten; both unchanged Long texts retained. Owner-proposed #124 is now **merged** and the 2/5/10 requirement is canonical main (preflight `b7121f44d39bc576df05e07db48a94c23f240e44`). This is a Git-only `EDITORIAL_CANDIDATE_UNREGISTERED`, not a registered run or approval.
+
+| Target | Full EN / SHA-256 | Full RU / SHA-256 | EN words | Editor decision |
+|---|---|---|---:|---|
+| 02m Short | [EN](variants/02m/script.en.txt) `9712f82cc28bfd0499c508c95072ff17daad4a1f6bd966bc091885bec694602a` | [RU](variants/02m/script.ru.txt) `3632036825f262fc78439a8b59a79a496bce5cab03c14247d9dcbfd55d2d93a1` | 331 | Rewritten; textual loop author-checked; actual timing unknown |
+| **05m Long** | [EN](variants/05m/script.en.txt) `a4f7e4c65439c9cc0f6a2bbe57d428cdfa4fee3a37732aa8ca56e306d9f77512` | [RU](variants/05m/script.ru.txt) `b282185e01b59c6ad44a1ff8a6acaa8fad03acb05059a0cb3b9d96ac0ab9f287` | 685 | **Recommended, untouched** |
+| 10m Long | [EN](variants/10m/script.en.txt) `06524a58f4195e3beb362f5d7fcf2b57fd27aad4a3b92770ab682967b18592e3` | [RU](variants/10m/script.ru.txt) `6b6afcc1fda137ea6e2e802c5639835b572e96268357228da40be406c9586af9` | 1445 | Complete, untouched; extended court tail |
+
+## Before → after, concrete story map
+
+**Before:** old 02m (`5b315c384645211ae4d73b13b211b1a1875ca2f8ae877bffa30ce78435f3eddb`, RU `bfe6cfcba80b2ca7beb73d4ea9ed181f7b8fa3aa938dae4ac25aa1edea76b59c`) ended with a colon and effectively restated its bank hook. The first act spent time on the company hearing before establishing roles.
+
+**After:** opening identifies deliberate bank *and human attacker inside* → trusted employee in jumpseat → documented hearing and hidden weapons → hammer disables all three → Peterson/Sanders grapple with spear gun while Tucker cannot leave controls → Tucker's Navy maneuver training and Sanders's *attributed estimate* of about 135° → balance disrupted, attack persists → Sanders takes flight controls / Tucker joins restraint → high, heavy approach forces longer-runway request → safe landing, three careers ended, accurately scoped 1997 life sentence → final spoken setup of Tucker's one remaining means of helping. Each of 11 EN paragraphs corresponds to one RU paragraph, with matching people, claims, causes and uncertainty. No invented conversation, motive or FDR reading.
+
+**Short loop, two authorial whole-text readings:** “There was only one way he could help them from his seat.” → “A wounded FedEx pilot deliberately banked a cargo jet beyond ninety degrees.” RU: “Помочь товарищам со своего места можно было только одним способом.” → “Раненый пилот FedEx намеренно накренил грузовой самолёт больше чем на девяносто градусов.” The answer and aftermath occur before return; first line makes sense cold. Textual seam = AUTHOR CHECK only. AV seam, actual TTS, independent double reading remain **UNVERIFIED**. 331 EN words may exceed two minutes depending on real voice/pauses: no duration PASS.
+
+## Eight separate editorial scores (1–10, exact artifacts above; subjective only)
+
+| Criterion | 02m revised: score, concrete reason/weakness/confidence | 05m unchanged | 10m unchanged |
+|---|---|---|---|
+| Interest/importance | **8**; real crew survival dilemma, but aviation queue crowded; medium | **8**; separate landing danger, established topic; medium | **8**; whole court story, niche afterword; medium |
+| Opening | **8**; bank and internal human threat clear cold, bank partly revealed already; medium | **8**; three relevant questions but slightly long; medium | **8**; questions answered, slow preflight; medium |
+| Development | **8**; attack→second weapon→bank→role switch→high approach; compressed; medium | **9**; continued fight drives second problem, three names; medium | **8**; richer context but legal pace falls after landing; medium |
+| Payoff/aftereffects | **8**; safe landing, lost careers and narrow life sentence; fast ending; medium | **9**; resolves both dangers and consequences, no footage; medium | **9**; full legal disposition but two endings; medium |
+| Freshness/queue | **6**; attacker not mechanical failure, frequently retold; high | **7**; injured crew's division of work; medium | **7**; legal evidence adds angle, distracts; medium |
+| Visual function | **8**; bank, transfer of seats, runway; no actual images; medium | **9**; clear cockpit and approach stages, reconstruction needs sources; medium | **8**; documents risk static frames; medium |
+| Oral EN/RU | **8**; physical verbs, no colon, natural two-text seam; timing at 331 words uncertain; medium | **8**; understandable action with name density; medium | **8**; thorough but dense court phrasing; medium |
+| Observed demand | **5**; existing mixed public Long examples, no Short baseline/CTR; low | **5**; mixed Long comparables, no 5m cohort; low | **5**; no 10m matched cohort, retention unverified; low |
+
+**Hard checks:** EN/RU AUTHOR CHECK; fact ledger AUTHOR CHECK with cited caveats; Short loop AUTHOR CHECK (full texts twice); independent blind first-listener **UNVERIFIED**; actual TTS duration **UNVERIFIED**; audiovisual seam **UNVERIFIED**; owner approval **NOT_GRANTED**; official runtime **UNREGISTERED**. Nuviko ChannelSpec supports Short and Long; no channel changes.
+
+**2→5→10 comparison:** five minutes adds space for Tucker's impaired control, continued struggle, Sanders's longer runway choice, and nuanced judicial outcome. Ten adds a crew-substitution backstory, insurance and warrant chain but slows *after the aircraft lands* into a second legal documentary. **Recommend 05m** for causal completeness and pacing, not a forecast of retention or permission to produce three videos.
+
+**Fact support:** [1997 Sixth Circuit opinion](https://caselaw.findlaw.com/court/us-6th-circuit/1058021.html) for roles, injuries, weapon, court scope; [Sanders's 2011 account](https://stateaviationjournal.com/index.php/news/life-changer-horrific-story-fedex-flight-705) for reported bank/runway; [Tucker interview](https://avweb.com/features/jim-tucker/) for Navy experience. The 135° is an *estimate*, hearing is not a proven dismissal; motives not invented. Audience research unchanged.
+
+**Storyboards:** source `script.en.txt` and `script.ru.txt` unchanged, so the original 16-scene storyboard remains source-master-specific (old EN SHA-256 `5b315c384645211ae4d73b13b211b1a1875ca2f8ae877bffa30ce78435f3eddb`). It is now **invalid for revised variant 02m**, just as it is invalid for both Long texts. Rebuild scene spans and visual intent only for a selected exact script.
+
+## Archived 2026-11-16 review (the older 02m statements and hashes below are superseded)
+
 # Story review — FedEx Flight 705: 2 / 5 / 10
 
 **Editor:** assistant (authorial assessment, 2026-11-16). **Owner decision:** not given. **Independent reviewer:** UNVERIFIED (no independent session/ytv-script-review-v1). **Canonical main:** `ddafebf5aec10ff4158b4ea8aabac4dd1d576b67`. **Owner-proposed policy:** Draft #124 `7d6bdf7702a2a241a33a21677fce29f26ada9b72` (NOT main). **Baseline PR #99:** `2c3f479ded348828fac3d51c7b1c59f8fe0e76a7`. All variants are Git-only `EDITORIAL_CANDIDATE_UNREGISTERED`.

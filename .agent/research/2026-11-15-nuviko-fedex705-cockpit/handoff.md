@@ -1,3 +1,15 @@
+## Latest handoff · 2026-11-19 · PR #99
+
+- Baseline remote head `eb8d204435d290d58c1346d046ecdb0d3dc3ee2c`; substantially revised 02m [EN](variants/02m/script.en.txt) (`9712f82cc28bfd0499c508c95072ff17daad4a1f6bd966bc091885bec694602a`) and [RU](variants/02m/script.ru.txt) (`3632036825f262fc78439a8b59a79a496bce5cab03c14247d9dcbfd55d2d93a1`). Was 286 EN words with colon-return; now 331 words, 11 matching EN/RU paragraphs, causal two-phase struggle and spoken ending. Actual two-minute length remains **UNVERIFIED**.
+- Unchanged [05m EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) and [10m EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt), with exact hashes and per-version eight-criteria authorial reviews in [story-review](story-review.md). **Recommend 05m**, not an approval.
+- Root master scripts and original storyboard untouched; the old storyboard is **NOT** valid for the new 02m, or for 05m/10m. After owner selects one exact hash, develop new scene spans and visuals for it.
+- Canonical three-version requirement is in merged #124; pins are not migrated. Local shared runtime, active sessions/reservations and genuine independent reviewer cannot be inspected here. Before registration inspect existing runs and conflicts, then import with pinned context; obtain genuine independent first-listener rather than authoring a receipt. Status `EDITORIAL_CANDIDATE_UNREGISTERED`; no owner approval or production.
+- Next story #98 Demon Core. Technical PR #77/#78 separately need code/conflict review.
+
+---
+
+### Archived prior handoff (historical, old 02m claims)
+
 EDITORIAL_CANDIDATE_UNREGISTERED. This is a Git-only editorial review and DOES NOT represent a registered run or approval.
 
 ## 2026-11-16 meaningful revision — PR #99

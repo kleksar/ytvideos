@@ -1,3 +1,19 @@
+## Current revision · 2026-11-19
+
+Same FedEx Flight 705 story, three complete variants. The **02m EN/RU was substantially rewritten**, with an explicit internal attacker, who was flying versus fighting, Tucker's deliberate maneuver, Sanders's runway choice and an organic spoken loop. Unchanged 05m/10m remain independently complete, with **05m still recommended**.
+
+| Target | Full EN | Full RU | EN words | Status |
+|---|---|---|---:|---|
+| 02m Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 331 | Revised, measured duration/AV seam UNVERIFIED |
+| **05m Long** | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 685 | **Recommended**, unchanged |
+| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1445 | Complete, unchanged; court section weakens ending |
+
+02m exact hashes: EN `9712f82cc28bfd0499c508c95072ff17daad4a1f6bd966bc091885bec694602a`, RU `3632036825f262fc78439a8b59a79a496bce5cab03c14247d9dcbfd55d2d93a1`. All six hashes, exact evidence, evaluation and 2→5→10 comparison are in [current story-review](story-review.md). Original root EN/RU and 16-scene storyboard are preserved, but original storyboard applies **only to root**, not to revised 02m. No registered runtime, independent reviewer, approved script, TTS, media or publication. `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+---
+
+### Archived README snapshot (old 02m content no longer current)
+
 EDITORIAL_CANDIDATE_UNREGISTERED · no production gate or owner approval.
 
 # FedEx Flight 705 — three revisions of the SAME story

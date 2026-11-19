@@ -1,3 +1,11 @@
+## Revision boundary · 2026-11-19
+
+Previous Short P1/P2/P3 and `S001`/`S009` claims below refer to the **unchanged root narration and old 16-scene storyboard**, NOT the rewritten [02m script](variants/02m/script.en.txt) (SHA-256 `9712f82cc28bfd0499c508c95072ff17daad4a1f6bd966bc091885bec694602a`). New Short promise: a wounded pilot uses the aircraft's bank to disrupt an onboard attacker; after the bank, another injured pilot still has to land. Design a new 9:16 scene map from this exact narration only after review and selection; do not reuse old spans or infer approved visuals. 05m/10m Long concepts need separate 16:9 maps. No media, TTS, thumbnails or publication created.
+
+---
+
+### Archived source-master packaging references
+
 # Packaging hypotheses — Nuviko History Short
 
 Unapproved concepts, no images actually created, all require an honest first shot and title/visual pairing. Not measured YouTube CTR. English production, Russian owner reading only.
