@@ -3,7 +3,7 @@
 | Variant | First promise | Payoff / actual status |
 |---|---|---|
 | 02m Short (unchanged original) | Boeing without thrust approaching drag strip | All 69 rescued and stopping before campsite; existing provisional S001–S018 and 3 title alternatives below scoped **only** to this original Short |
-| 05m Long (recommended) | Why two checks matched but were wrong; how a glide could reach partly repurposed runway | Units error, left/right engines, abandoned Winnipeg, sideslip/nose gear → all survive; requires independent selected-version thumbnail/storyboard |
+| 05m Long (recommended) | Why two checks matched but were wrong; how a glide could reach partly repurposed runway | Wrong units, two same-method checks, ATC distance calculations, late emergency gear, sideslip/nose friction, smoke/steep slides and overwing exit confusion → all survive; requires new 05m exact-hash storyboard/thumbnail |
 | 10m Long | Why did the safety/dispatch chain fail before takeoff? | Maintenance/operational chain and 69 survivors; longer technical aftermath; editorial REWORK; packaging for 02m cannot be copied blindly |
 
 No photo/TTS/audio/media proof, real audience signals UNVERIFIED. #137 is same underlying story: no implicit second episode.

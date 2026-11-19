@@ -1,4 +1,12 @@
-# Three-version rework of existing #86 — editorial handoff
+# CURRENT handoff update, 2026-11-19, PR #86
+
+Only the full 05m Long candidate has changed. Exact EN `ea1a189be00e0b392c820557ef46ddb349183ca12608a49b59246067543b8d07`, exact RU `b60bd3bb5ac4d742cde6de3ab49ba1c842ff7f9e976c629f8dad4b506e393cdc`, files `variants/05m/script.en.txt` and `variants/05m/script.ru.txt`. This 05m is **NOT identical to sibling PR #137** anymore; historical #137 provenance is preserved in old review below. Primary 1985 inquiry G7–G10 added in research. 02m original master/variant and its 18 Short scene spans remain unchanged; 10m sibling bytes unchanged.
+
+If owner chooses this 05m, official authorized runtime must register this exact text and pin current applicable context, obtain an independent reviewer result and owner script approval, then build NEW 05m-specific storyboard/spans. No transfer of old reviews, timings, approvals or production pins. No duplicate episode from #137. Status EDITORIAL_CANDIDATE_UNREGISTERED/UNVERIFIED.
+
+---
+
+# Historical handoff 2026-11-16 — prior three-version import
 
 Baseline `4932f666cd3d850b71e5756083f949ea170333b1`; new original Short copies in `variants/02m/` with identical Git blob IDs and SHA-256; existing `script.en.txt`/`script.ru.txt` and storyboard not replaced. Added 05m/10m **exact** sibling #137 `38425d26a3d3c44a45323b593cee9127b6568ef0` blobs, with independent provenance but no independent reviewer receipt. Read [README](README.md), [story-review](story-review.md), shared [research](research.md) before choosing one master. There are **two PRs for the same one story**; no automatic dual run/approval/merge, and #137 remains untouched.
 

@@ -72,3 +72,14 @@
 - Для 10m конкретные высоты/расстояния, пределы dispatch и эпилог об институциональных недостатках должны быть повторно проверены независимым fact reviewer по полному report перед production. Самоссылка на #137 не равна второму независимому первоисточнику.
 
 **Спрос:** public views в исследованиях #86/#137 — наблюдения об известных чужих роликах, не метрики спроса на наши 2/5/10, не CTR/retention. Независимый просмотр и свежие метрики **UNVERIFIED**. Прямой дубль сюжета **#86 ↔ #137**, различаются авторские редакции 02m, не считать два отдельных производственных заказа. #137 при этом не сливать/закрывать без решения владельца.
+
+
+## Revision evidence 2026-11-19 — 05m additional causal beats G7–G10
+
+**Same primary fact corpus:** George H. Lockwood, *Final Report of the Board of Inquiry* (Canada, April 1985), printed pp.100–102 and pp.28–29: https://asn.flightsafety.org/reports/1983/19830723_B762_C-GAUN.pdf . Text personally inspected on those pages; web screenshot of the PDF page timed out, so image-level verification UNVERIFIED. This is an additional reading of the primary source, not a second independent reviewer.
+
+- **G7, printed p.100:** no functioning FMC descent profile or standby vertical-speed indication; Maurice Quintal repeatedly queried Winnipeg ATC distances, compared them with altitude and improvised the descent profile. Avoid unsupported direct cockpit quotes.
+- **G8, printed pp.100–101:** lowering gear early would add drag and lose glide distance; normal landing-gear lever had no effect. Emergency handbook did contain alternate extension but was difficult to locate under pressure. Quintal then used gravity-drop: main wheels locked, nose did not. Never write that the procedure was completely absent.
+- **G9, printed pp.101–102:** after the nose-down stop the front section began filling with smoke; rear slides were steep and one fell short of the ground, causing passenger reluctance and congestion. Overwing ramps were not visible at the location crew expected from training, and some passengers were redirected. Evacuation completed quickly, without deaths or serious injuries. No fire/riot/invented child casualty.
+- **G10, printed p.101 and Part III:** manual/communications and cabin evacuation findings are distinct from arithmetic error. The revised 05m ends on actual human actions and outcome rather than a broad untestable lesson.
+- **Boundary:** accounts outside this report describe bicycling children or exact meters to spectators; selected scripts do not assert them. The report says a drag-racing section was used, not that a drag race was underway at touchdown. Viewer demand, CTR, TTS timing and actual scene evidence remain UNVERIFIED.

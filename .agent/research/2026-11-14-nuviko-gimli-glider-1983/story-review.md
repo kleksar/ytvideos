@@ -1,6 +1,56 @@
-# Story review — #86 one story / three full scripts (2026-11-16)
+# CURRENT review: PR #86 Gimli Glider — revised 05m, 2026-11-19
 
-**Status:** all 2/5/10 EN+RU complete, author fact/text review performed, recommended **05m Long**. No independent reviewer response; `EDITORIAL_CANDIDATE_UNREGISTERED`. This section is the CURRENT comparative editorial assessment; the older historical 02m Short review remains below unmodified. Not audience measurement or owner approval.
+**Status:** EDITORIAL_CANDIDATE_UNREGISTERED. Original 02m Short and 10m Long unchanged, along with original master and 02m storyboard. 05m Long is a new exact EN/RU revision of the historically copied #137 text. Historical 05m ratings, hashes and any scene timing MUST NOT transfer to this changed text.
+
+| Target | Complete EN | Полный RU | Exact UTF-8 SHA-256 | EN words | Decision |
+|---|---|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | EN `ed000119a7e67d456cd26f133f78e7405fb3dbd7fa22d39ff0b56f2859db2ed2`, RU `e03e197170f1af5667489263b23bb1fe624dfc59edbbaa9197c60f62ad3a7106` | 259 | Unchanged Short; independent loop UNVERIFIED |
+| **05m** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | EN `ea1a189be00e0b392c820557ef46ddb349183ca12608a49b59246067543b8d07`, RU `b60bd3bb5ac4d742cde6de3ab49ba1c842ff7f9e976c629f8dad4b506e393cdc` | **702** | **REVISED, provisionally recommended Long** |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | EN `32100cc9d0205de28e6a98806dd2f3b2e0b145901f725ac132c8e2571c335f57`, RU `b91d520bd00709aae78601690a10a0b0b33c02d8a925c7b1d3d6e3bda24304f7` | 1587 | Unchanged Long, weaker procedural aftermath |
+
+## Eight exact-text editorial criteria (author judgment, not independent review)
+
+I=interest, H=early questions/promise, D=causal development, P=payoff, A=angle novelty, V=visual specificity, N=oral narration, S=measured viewer demand. Scores 1–10 where justified; missing S is UNVERIFIED, not a manufactured number.
+
+| Exact text | I | H | D | P | A | V | N | S | Confidence |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| 05m EN `ea1a189be00e0b392c820557ef46ddb349183ca12608a49b59246067543b8d07` | 8 | 8 | 8 | 9 | 7 | 9 | 8 | UNVERIFIED | medium-low |
+| 05m RU `b60bd3bb5ac4d742cde6de3ab49ba1c842ff7f9e976c629f8dad4b506e393cdc` | 8 | 8 | 8 | 9 | 7 | 9 | 8 | UNVERIFIED | medium-low |
+
+**EN concrete grounds and weakness:** three early questions promise the failed fuel cross-check, loss of engines and an unexpected difficulty after landing. The cause-effect line now includes Quintal calculating a crude glide profile with ATC ranges, deliberately delayed gear deployment, and actual post-landing smoke/steep exit slides. Payoff is all 69 exiting alive. Weakness: conversion setup is still technical and the emergency-escape sequence may feel like a second climax; first-listener interest unmeasured.
+
+**RU concrete grounds and weakness:** same human agents, timing, two-city false check, lb/L versus kg/L, ATC distance calls, manual gravity gear, nose friction, high rear slides and redirected overwing exits. The translation gives actions rather than staged cockpit quotations. Weakness: `профиль снижения` and `скольжение` may require visual support; an independent RU reading has not occurred.
+
+## Revised story map / added value
+
+Questions → blank gauges and disputed dispatch → Montreal wrong pounds/kg coefficient → Ottawa repeats same mistake → low pressure and two engines out → Quintal rebuilds descent estimates using distances from ATC → Winnipeg too far, Gimli one chance → hold off gear to preserve glide → normal lever fails, emergency gravity-drop, nose unlocked → Pearson sideslips → nose scraping slows the Boeing before campers → smoke/high rear slides/overwing confusion → full evacuation → inquiry identifies multiple failed safeguards.
+
+**Before → after (05m):** older 616-word English version moved directly from safe landing to generic training/communications conclusions. Revised 702-word EN and paired RU add documented events with new cause/effect, especially a real evacuation challenge. New facts G7–G10 from the original 1985 inquiry, pp.100–102 in shared `research.md`, NOT invented race activity or injuries.
+
+**02m → 05m:** 05m allows role for Quintal's computations and exit crew and a full second obstacle; Short's textual loop has no Long equivalent. **05m → 10m:** 10m explains maintenance/dispatch and exact fuel arithmetic, but after the dry tanks and evacuation it rehashes a long procedural inquiry. Precise loss point in unchanged 10m: `Both tanks were found dry` / `Оба топливных бака оказались сухими`. Recommend revised 05m provisionally, not automatically 10m.
+
+## Hard checks (separate from editorial scores)
+
+| Gate | Actual evidence |
+|---|---|
+| Three durations / six complete texts | YES: exact files linked above; only 05m EN/RU changed |
+| Evidence for new factual assertions | AUTHOR-VERIFIED against April 1985 Canadian Board of Inquiry pp.28–29, 100–102; screenshot of PDF page timed out, independent fact review UNVERIFIED |
+| EN/RU meaning | AUTHOR-CHECKED for persons/places/units/gear/slides/69 survivors. Independent bilingual reviewer UNVERIFIED |
+| Documentary Long promise → immersion → main hook | AUTHOR TEXT CHECK: opening questions, fuel setup, then engine-out and glide. No repetitive service questions |
+| Short 02m seam | Unchanged original; previous text-only loop evidence retained. Two-pass independent and actual MP4 AV seam UNVERIFIED |
+| Time / format | 05m 702 English words, only estimated 5m; TTS duration UNVERIFIED. Nuviko ChannelSpec supports 16:9 Long |
+| Scene spans / storyboard | Original 18 scenes bind only to untouched original Short. New 05m has **no approved storyboard or measured timings** |
+| Independent reviewer / runtime / owner approval | All UNVERIFIED. No `ytv-script-review-v1` on new hash, no registered run. EDITORIAL_CANDIDATE_UNREGISTERED, no media or release authorization |
+
+The two PRs #86 and #137 cover the same Flight 143. #137 remains unchanged and must not silently produce a second episode. A recommendation is not a script approval.
+
+---
+
+## Historic review at 2026-11-16, preserved below (its former 05m SHA/score was for superseded text)
+
+# Historical story review — #86 one story / three full scripts (2026-11-16)
+
+**Status:** all 2/5/10 EN+RU complete, author fact/text review performed, recommended **05m Long**. No independent reviewer response; `EDITORIAL_CANDIDATE_UNREGISTERED`. This section is the HISTORICAL comparative editorial assessment; the older historical 02m Short review remains below unmodified. Not audience measurement or owner approval.
 
 **Baseline:** PR #86 HEAD `4932f666cd3d850b71e5756083f949ea170333b1`; original `script.en.txt` blob `6416e004be8c808bc96f7818dd3bb24be0ffc344`, `script.ru.txt` blob `449a6793b7af9171086bef819f794601266b58c9`, untouched. Imported 05m/10m exact bytes and source hashes from PR #137 HEAD `38425d26a3d3c44a45323b593cee9127b6568ef0`. Source #137 remains open, independent 02m alternative not overwritten. No unverified modified master/timing/pins inherited from other variants.
 
