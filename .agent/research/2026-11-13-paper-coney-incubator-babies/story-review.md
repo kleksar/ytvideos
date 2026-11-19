@@ -1,3 +1,48 @@
+# CURRENT EDITORIAL REVIEW · 2026-11-19 · PR #39 · revised 02m
+
+This section supersedes *only* the historic assessment of the 02m variant below. The root EN/RU and 14-scene storyboard are preserved unchanged and now apply **only to that root source**, NOT to revised 02m. The 05m and 10m narratives and their earlier exact-hash assessments are unchanged. All assessments here are the **author's own editorial judgments, not independent reviews, measured demand, owner approval or runtime receipts**.
+
+## Exact six complete EN/RU narrations (unchanged versions explicitly verified)
+
+| Target | Format | Full texts | EN words | Exact EN SHA-256 | Exact RU SHA-256 |
+|---|---|---|---:|---|---|
+| 02m | Short 9:16 | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | **257** | `6abbbcb70011c940a7a5ff57dd531c8dbc3d36c0cac76c079df254135155106a` | `98d6128118922eee2b2880831aeb1a43d037bfb46dc5e17e19f2efeb7b992e49` |
+| 05m | Long 16:9 | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 566 | `e667ce7a90d1ed94f243f5a799c8bb872b0970383fe4ef32d219273079c5ba4f` | `8de72fa296dafb421576474fd4bdc258cafbcca4f26c596cc82733b370b68be0` |
+| 10m | Long 16:9 | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1274 | `c6ce12496ff8c10d39db9a299f792e1e10fda8cfba7edb28b5f3323c90211f9f` | `c56cafe95331752ab99a956f998b608225c6701118f6f1df020fe73238517d20` |
+
+02m speech estimate at 130–160 EN words/minute: **1.61–1.98 minutes**, before pauses and the channel's prescribed voice speed; actual TTS and AV length **UNVERIFIED**. Five/ten-minute targets also remain estimates, not measured recordings. Stronger textual coverage does not guarantee exact 2:00.
+
+## Substantive before → after, story maps
+
+**02m source (193 words, preserved only at root):** unusual display → nursing funded by tickets → family's taxi → infant survives → adult returns and is shown to second father. Ends as a relative clause tied to the replay; 14 legacy storyboard spans follow this exact root. **02m revised (257 words):** paying visitors visibly fund *specific nursing and warmth* → hospital lacks care → twin loss forces family's practical choice → honeymoon visit makes taxi destination possible → prolonged nursing behind paid display → adult Lucille returns → Couney introduces her to a father still awaiting his own baby's outcome → no guarantee for second child → adult Lucille moves to the public side of the glass. This makes the causal chain more audible and gives the viewer a distinct new consequence after the basic financing premise; it is not just longer paraphrasing. The final relative clause joins the cold opening grammatically on repeat in both languages; it may still feel contrived **until independently heard**, so the complete-text second pass and real AV seam are **UNVERIFIED independently**.
+
+**05m unchanged:** opening questions → paid exhibition and nursing → hospital cannot help Lucille after twin's death (main hook) → remembered honeymoon visit and taxi → care, ethical concern and uncertain duration → adult Lucille shown to second father (payoff) → 1943 closure and her later life. Main risk: ethical financing block delays reunion; speech duration may be short.
+
+**10m unchanged:** question promise → funding and lack of neonatal wards → Lucille's crisis and taxi (main hook) → disputes about exhibition, qualifications and a separate Chicago reunion → Lucille survives and meets second father (payoff) → 1943 closure. Main risk: credentials/Chicago information delays the central human answer.
+
+## Eight editorial dimensions and shortcomings on exact texts
+
+| Criterion | 02m revised | 05m unchanged | 10m unchanged |
+|---|---|---|---|
+| Audience interest/significance | **8/10**, recognizable family dilemma and admissions-funded care; no validated demand (medium) | **8/10**, ticket mechanism matters to one family (medium) | **8/10**, medical/ethical history adds context (medium) |
+| Opening and promised answer | **8/10**, visitors + real babies creates an immediate question, with the family introduced early; still no explicit questions (medium) | **8/10**, three answered questions (medium) | **8/10**, three answered questions and setting (medium) |
+| Causal development / staying | **8/10**, nursing funding → hospital gap → remembered route → adult encounter; fast transitions leave little time on ethics (medium) | **8/10**, funding and remembered exhibit cause the rescue attempt (medium) | **7/10**, historical middle can feel like a detour (medium) |
+| Payoff and consequences | **8/10**, adult survivor shown to another father without promising his child's fate; short coda (medium) | **9/10**, full human payoff and later life (medium) | **8/10**, same payoff reached later (medium) |
+| Angle/freshness | **8/10**, care at an amusement park rather than generic disaster, but already covered publicly (low) | **8/10**, mechanism + human outcome (medium) | **8/10**, credentials nuance but less focused (medium) |
+| Visual readability | **8/10**, ticket window, towel/taxi, two sides of glass; new shot map needed (medium) | **8/10**, tangible props and people, storyboard needed (medium) | **8/10**, historical exhibits and Chicago but visual drift (low) |
+| Natural spoken language | **8/10**, distinct actions and readable transitions, but loop may sound written (medium) | **8/10**, specific verbs, some ethics exposition (medium) | **7/10**, credential block is dense (medium) |
+| Verified audience demand | **UNVERIFIED**; no comparable Paper CTR/retention (high confidence in missing measurement) | **UNVERIFIED** (same) | **UNVERIFIED** (same) |
+
+**Hard checks:** fact evidence for revised 02 is the existing common [research](research.md), in particular Lucille's *retrospective* [StoryCorps interview](https://storycorps.org/stories/lucille-horn-150710/) and historical [Smithsonian](https://www.smithsonianmag.com/history/man-who-pretended-be-doctor-ran-worlds-fair-attraction-saved-lives-thousands-premature-babies-180960200/). Dates, baby/twin/taxi/honeymoon/second-father sequence and uncertainty were checked textually by the author; no invented dialogue, clinical guarantee or measured survival rate. **EN/RU parity AUTHOR CHECK:** same 11 narrative paragraphs/actions/uncertainty; independent bilingual read UNVERIFIED. **Short loop AUTHOR TEXT CHECK:** full script reread in the author's context; payoff occurs before the repeat and both full texts are intelligible cold. Literal joins: EN «...amusement park where / Visitors paid to see...»; RU «...парке аттракционов, где / Посетители платили...». This is not a proven smooth spoken/visual seam. **Independent first-listener, review receipt, exact audio/AV, actual demand: UNVERIFIED.** No production capability, run, owner approval or script-gate state inferred from a Git-only edit. Current status: **EDITORIAL_CANDIDATE_UNREGISTERED**.
+
+**Added value and recommendation:** 02→05 gives time for the care economics, the ethical tension and adult-Lucille encounter without rushing it. 05→10 adds verified pediatric history and contested credentials, but loses focus during Chicago/credential explanations. **Recommend 05m for independent review**, not as approval; 02m improved as a truly standalone compact alternative, 10m remains preserved. Next step: genuinely independent blind exact-script reader with current hashes, select one text only with owner approval, register via proper pinned runtime, then rebuild storyboard for that exact master. Legacy scene mapping/root hashes remain valid **only for unchanged root**.
+
+**Progress:** baseline PR HEAD `931969849e755d241822302809f7a7b403c73bdf` → revised 02m new EN/RU plus review/handoff/research, older root and 05/10 left untouched → AUTHOR review and exact hashes → 05m recommendation pending blind review → no runtime/TTS/MP4. Technical #77/#78 and other unprocessed stories remain in the open PR backlog.
+
+---
+
+## HISTORICAL REVIEW (archived evidence; 02m comparisons and hashes below refer to former root-identical 193-word variant, not the revised file)
+
 # Editorial version comparison — 2026-11-17 · PR #39
 
 **Scope:** one existing story, Lucille Horn and Martin Couney's Coney Island incubator exhibit, developed as three independent complete EN/RU narratives. Original root scripts and historical storyboard preserved unchanged. This is **EDITORIAL_CANDIDATE_UNREGISTERED**, not a ytv script gate, receipt, approval, or a request for three productions. Canonical rules read on remote main `7370be2d1c3c22a3f4e860a43e674515bc9b63e5`; owner duration revision #124 is **merged**, not just proposed.
