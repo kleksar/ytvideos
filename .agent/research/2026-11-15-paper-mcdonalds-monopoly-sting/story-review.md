@@ -115,3 +115,39 @@ Target durations **UNMEASURED**: английских слов 293 / 901 / 1273.
 - Человеческие мысли, вымышленные диалоги/мотивы, конспирологическое участие McDonald's, реальный хронометраж: **не добавлены**. Создание сценария не подтверждает независимую фактологию.
 
 **Hard checks (author-only):** три EN + три RU полных текстовых файла: prepared; пары по событиям, именам/числам и неопределённости: author cross-read; документальная шкала (DOJ / Maysh / AP / Chandler) без точных диалогов: author check; вопросы→погружение→основной hook: present; payoff: present; narrative loop: N_A для Long; `paper_detour` Long 16:9: поддерживается `channel.json` на checked main; storyboard: исходный `storyboard.md` OBSOLETE, ни один новый span не объявлен проверенным; timestamps, independent first-listener, factual independent reviewer, EN/RU independent, TTS, MP4, AV quality, YouTube demand **UNVERIFIED**. Статус: `EDITORIAL_CANDIDATE_UNREGISTERED`, не `awaiting_script_approval`, не script receipt и не master selection. Не переписаны старые approval/pins. Возврат в runtime: проверить existing run, провести independent reviewer на точном выбранном EN/RU hash, зарегистрировать варианты через `attach-artifact --kind script_variant`, review через `--kind story_review`, затем отдельный script approval владельца. **Следующий ещё непроверенный Long:** #102 Pepsi 349, с новым read-back перед изменением.
+
+---
+## Актуальный editorial pass 19.11.2026: переписана версия 10m
+
+Canonical main уже включает merged #124; упоминания proposed Draft выше — исторические строки 16.11. База исходной Draft-ветки #100: b393fe7aa67ed0f64c9e5dfd803ac09f0b0ff2c4. На этот проход мастер/02m/05m **не переписаны**. Старые 10m EN/RU blobs: 44d10346d54de412a6e6108fe416b3826d8edfc8 / 885e24cf979c8137daf04d05479150379aaaf0c4.
+
+| Целевая длительность | Полный EN / RU | Статус |
+|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | Без изменения, самостоятельная редакция |
+| **05m** | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | **По-прежнему рекомендована; совпадает с root master** |
+| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | **Новая самостоятельная редакция: 1591 EN words, 37 EN/RU смысловых блоков** |
+
+**Новая 10m:** EN Git blob b312c036c53d459e4be208657b08c6f953cccf90, SHA-256 dba2b31b92c1e7147ebd1f392c821d724893824b7b69658fd9161e1320781d29; RU Git blob b124ca3971775cf822ca269c123e30a7a1eb9280, SHA-256 aab84d4fe6399625788d9e0ae9e1e541b6684ccd3fd1ba6253f208700a5c1015. Неизменённые 02m EN/RU blobs a9de02cb8c282fdc7562f058c9c6864b1307c60f / 6f435cc09a17b8d29c1759075c08cc5f84edf574; 05m EN/RU blobs 798a70d5b97c3fe5fbaec80942a6f01a6766a093 / bd505be8c2e0b2a2c2ac3782c20fc8d82f9bcaff. Их SHA-256 из предыдущей таблицы неизменны.
+
+**Было → стало:** в старой 10m после объяснения кражи повторялись тезисы про несправедливость и незнание получателей; в новой ход конкретен: Andrew Glomb→Hoover, Baker/Hughey→Davis, отдельная акция Who Wants to Be a Millionaire, предъявление чека и распределение денег → FBI tip и скрытое интервью → аресты → новый $10m розыгрыш и расторжение договора с Simon → спор в суде 2002 года → четыре отменённых приговора. Изменение не просто увеличивает текст: это новые проверенные события, две реальные линии последствия.
+
+**Story map новой 10m (37 paragraphs, не shot timings):** 1 вопросы; 2–3 Hoover/версия журнала/ФБР; 4–10 игра и доступ Simon/Jacobson; 11–16 рекрутеры, конкретные claimants, схема возврата денег; 17–23 анонимная наводка, разрешённая FBI акция 2001, скрытая запись как часть доказательств; 24–27 аресты, разные суммы, корпоративная реакция; 28–34 приговор Jacobson, спор о правилах частной игры и осведомлённости, решение апелляции; 35–37 значение камеры и возвращение к потерянному шансу клиента.
+
+### 8 критериев, новый точный 10m blob (02m/05m неизменённые оценки сохраняются выше)
+
+| Критерий | 02m | 05m | Новая 10m: авторский балл и ограничение |
+|---|---|---|---|
+| Интерес/значимость | 8 | 8 | **8/10**: миллионные победители и последствия для покупателей; известная экранизированная тема |
+| Вступительные вопросы/обещание | 8 | 8 | **8/10**: обещает камеру, механизм и судебный исход; третий вопрос может перегрузить старт |
+| Причинное развитие | 7 | 8 | **8/10**: конкретные выплаты и заявители → evidence → аресты → ответ компании; суд замедляет вторую половину |
+| Payoff/последствия | 8 | 8 | **8/10**: наказание организатора, отмена конкретных приговоров, объявленные меры McDonald's; не известна личная судьба каждого |
+| Свежесть | 6 | 7 | **7/10**: новые действия после арестов вместо повтора; основное расследование широко известно |
+| Визуальная выполнимость | 8 | 8 | **7/10**: фишки, чеки, поддельная съёмка, корпоративные документы; правовой спор тяжело показать в Paper |
+| Естественность/ясность | 8 | 8 | **7/10**: меньше семантических повторов, но много фамилий и два игровых формата; не было прослушивания |
+| Подтверждённый спрос/retention | UNVERIFIED | UNVERIFIED | **UNVERIFIED**: чужие индексированные просмотры не являются контрольной группой и не доказывают 10m retention |
+
+Confidence medium для редакторской оценки/сверки текстов; low для предположения об интересе. **Не независимый reviewer.**
+
+**Сравнение 02→05→10:** 02m заканчивает всю историю, но сокращает маршрут фишки. 05m добавляет сводного брата, нужду в разных получателях и судебную развязку. 10m теперь расширяет одну историю подтверждёнными действиями в другом промо-розыгрыше, денежной цепочкой, новым $10m розыгрышем, прекращением контрактных отношений, живым юридическим конфликтом. Главный **риск потери внимания** — после арестов и ответа McDonald's, при переходе к отдельному процессу о правилах частного конкурса; длинная версия не доказала превосходство. **Рекомендуется 05m, это не approval.**
+
+**Fact evidence:** [DOJ 2001](https://www.justice.gov/archive/opa/pr/2001/August/422ag.htm) — allegations/claimants and prizes, [McDonald's statement 2001](https://mcdonalds.mediaroom.com/2001-08-21-McDonalds-Applauds-FBI-Action-Announces-10-Million-Instant-Give-Away-for-Customers) — announced remedies, [United States v. Chandler 2004](https://law.justia.com/cases/federal/appellate-courts/F3/388/796/569839/) — specific four appeals. Дополнительные claims и пределы в [research](research.md). **Hard checks:** три EN + три RU — PRESENT; 37 EN / 37 RU paragraphs — author semantic alignment, independent bilingual UNVERIFIED; ранние вопросы → действия → основной hook → полный payoff — author PASS; Long loop N_A; TTS duration, real AV, independent first listener, independent factual review, demand/retention, runtime IDs, owner approval UNVERIFIED. Старый 38-scene storyboard OBSOLETE для всех новых вариантов; scene spans и visual intent перестраивать только под exact hash выбранной редакции. Статус EDITORIAL_CANDIDATE_UNREGISTERED. Ни один pin или accepted media не изменён.
