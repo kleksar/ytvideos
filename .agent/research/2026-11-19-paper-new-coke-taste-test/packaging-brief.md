@@ -1,0 +1,24 @@
+# Packaging brief — verified promise for New Coke (editorial only)
+**Variant binding:** recommended `variants/05m/script.en.txt`, exact SHA-256 `706d9c6b9000d5630cb09cbbe51c5469ba41ccc8da0d7dbcb1e662de333e2621` / Git blob `64a643cdc04e5dad7bc7a7f12602b08fc6849451`. Do not reapply to another text/hash without review. No actual images, media bytes, scene timings, YouTube thumbnail QA or approved voice have been generated.
+
+## Three genuinely different long title + paper cover hypotheses
+**A — puzzle / recommended:** `Why Did Coca-Cola Replace Its Bestselling Coke?` — image: one familiar red paper bottle cut out of a fully stocked miniature store shelf, a lonely new red bottle under lights; one empty space where the old flavor used to be. Cover words: `WHERE'S THE OLD COKE?` in tactile short paper lettering. **First event:** history of blind tastings made it seem a rational recipe choice; **payoff:** Classic is sold beside the supposed replacement. Risk: "bestselling" needs geographic/time context; better publish candidate title `Why Coca-Cola Took the Original Coke Away`.
+
+**B — 79-day reversal:** `Coca-Cola Took 79 Days to Undo Its New Recipe` — image: two physical paper cans side by side, one `NEW`, one `CLASSIC`, calendar pages from April to July. Cover words: `79 DAYS`. **First event:** flavor swap is a replacement, not a new choice. **Payoff:** July 11 announcement, then both formulas on shelves. Risk: numeric-only title may be less clear to non-brand audiences; timer is documented, not measured production time.
+
+**C — human protest:** `They Won the Taste Test. Customers Still Wanted Old Coke.` — image: paper customer clutching a stack of old bottles beside a long line of ringing desk telephones and a new Coke bottle left unopened; tactile miniature scene, no photographs passed off as 1985. Cover words: `BRING IT BACK`. **First event:** test result versus actual customer hoarding. **Payoff:** the company gives back an option, not proof every tester was wrong. Risk: "They won" is imprecise unless title specifies tests, not an award; candidate can be `New Coke Won the Test. Shoppers Wanted the Old One.`.
+
+Recommend conceptual pair C for instant human action and verified protest, with A as broad recognition candidate. These are **not accepted artwork**. Cover text is permitted by Paper profile; no outside decorative frame. Paper grain, folded edges, volumetric props, contact shadows. Paper plane cameo concept: a recognizable pale folded paper plane near the complaint phone station **only in the recommended 05m version**, a fictional recurring brand object, not alleged historical evidence. Actual approved plane reference SHA `36dedf45786bcdfa54fd28c00179b1ea9335ec769d94066beaa0b94c797e933d` described in profile but **bytes not available/verified**, so no scene prompt or claim of use yet.
+
+## Cover / first-30-sec / payoff chain for exact 05m EN
+- Promise to audience unfamiliar with 1985: how a flavor with nearly 190k tasters could cause people to stockpile old cola, and what happened when Coke was forced to respond.
+- First spoken line: "A company tested a new drink on almost two hundred thousand people. The new version won." Before a brand logo is shown, a paper cola bottle and testing cups establish beverage quickly; brand name appears in next sentences. This is **planning**, not timed AV verification.
+- First meaningful development: the new product **replaced** the original rather than being offered as another option. That converts a simple preference experiment into a loss-of-choice conflict.
+- Midpoint causal escalation: real grocery stockpiling and legal protest → long hotline tables → May 31 company defends a 55–45 tasting result as calls still grow.
+- Full textual payoff: "The returned drink needed a new name: Coca-Cola Classic. The reformulated version remained for sale alongside it." That contradiction is visible on shelves; don't spoil the dual-label punch on first frame.
+- End state: real choice restored; don't invent a company conspiracy or pretend all consumers disliked sweeter Coke.
+- End screen (Paper Long configured 10 seconds): actual related public Long and its authentic dynamic intro / available target must be verified later. No selected target or fake YouTube card; dependency **BLOCKED_NO_TARGET** until local production chooses one. Separate from narration and its length.
+- Video and thumbnail rights: use physical hand-made paper illustrative objects; actual contemporary photos, Coca-Cola official logos/labels, licensed commercial clips and actors require rights/provenance check. No bytes or permission claimed.
+
+## No performance claims
+All three concepts are editorial proposals; no artwork, crop QA, CTR, retention, outlier, owner selection, A/B test, or approved production files exist. AI thumbnail generation deferred by explicit no-media scope.
