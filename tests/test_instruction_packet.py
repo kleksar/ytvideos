@@ -9,7 +9,9 @@ import unittest
 from unittest.mock import patch
 
 from ytvideos.cli import main
-from ytvideos.context import STAGE_REFERENCES, TASK_EXECUTION_REFERENCE, instruction_packet, snapshot_references
+from ytvideos.context import (
+    STAGE_REFERENCES, TASK_EXECUTION_REFERENCE, instruction_packet, snapshot_references, validate_reference_routes,
+)
 from ytvideos.errors import WorkflowError
 from ytvideos.util import file_digest
 
@@ -73,6 +75,25 @@ class InstructionPacketTests(unittest.TestCase):
         self.assertEqual(packet['references'], snapshot['routes']['packaging'])
         self.assertEqual(packet['channel_configuration'], profile)
         self.assertEqual(packet['channel_status'], 'frozen')  # Reading rules is not production admission.
+
+    def test_thumbnail_route_matches_the_packet_and_stays_required_by_pinned_validation(self):
+        profile = {'id': 'manual_channel', 'context_references': [
+            {'path': 'cover.md', 'stages': ['scene_image'], 'purposes': ['thumbnail']},
+        ]}
+        config = {'schema_version': 1, 'status': 'frozen', 'name': 'Synthetic identity', 'language': 'en', **profile}
+        (self.root / 'channels/manual_channel/channel.json').write_text(json.dumps(config))
+        cover = self.root / 'cover.md'
+        cover.write_text('Exact cover recipe.')
+        snapshot = snapshot_references(self.root, config, 'short')
+        self.assertEqual(list(snapshot['routes']), [*STAGE_REFERENCES, 'thumbnail'])
+        self.assertEqual(self.packet(stage='thumbnail', format='short')['references'], snapshot['routes']['thumbnail'])
+        self.assertNotIn('cover.md', snapshot['routes']['scene_image'])
+
+        cover.unlink()  # Compatibility validates stored documents, not the current checkout.
+        validate_reference_routes(snapshot, config, 'short')
+        snapshot['routes']['thumbnail'].remove('cover.md')
+        with self.assertRaisesRegex(WorkflowError, r'route thumbnail.*migration must supply: cover\.md'):
+            validate_reference_routes(snapshot, config, 'short')
 
     def test_thumbnail_gets_its_own_stage_skill_and_no_experiment_operations(self):
         packet = self.packet(stage='thumbnail', format='short')
