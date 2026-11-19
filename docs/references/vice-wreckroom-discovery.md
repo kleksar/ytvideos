@@ -12,6 +12,8 @@
 
 Upstream: [nocodehack/gta6-clipper](https://github.com/nocodehack/gta6-clipper), локальный оригинальный clone `Work/gta6-clipper`. Аддитивная локальная работа: `Work/gta6-clipper-discovery-v2`, проверенный HEAD `c6d68a5` (предыдущие `26c25f4`, `1a02f20`). Это **локальные коммиты аддона**, не upstream PR, не commits ytvideos и не гарантия remote backup. Не коммитить raw media, credentials или персональные chat exports в ytvideos.
 
+Позднейшее подтверждение координатора 2026-11-19: интеграция в отдельном `Work/gta6-clipper-integrated`, commit `6097ca3`, локальный merge `3721b6e` в локальную ветку `kleksar/main`; 40 tests и stock self-test прошли. Remote fork не найден, push не выполнен, оригинальный clone не изменён. Локальная интеграция не является remote merge или новым доказательством качества. Дополнительные улучшения общего chat-spike scout ещё pending, не включены в это утверждение.
+
 Read-only inspected: `README.md`, `DEVELOPMENT_CHECK.md`, `comparison-hybrid-development.json`, `baseline-comparison.json`. Первоначальный README тезис «synthetic only» исторический: более поздний DEVELOPMENT_CHECK фиксирует ограниченные real-window проверки, не независимую валидацию. Для переноса нужны exact addon/input версии и hashes, а не только эти локаторы.
 
 ## Что реально измерено

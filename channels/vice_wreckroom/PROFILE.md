@@ -35,7 +35,7 @@ YouTube channel ID: `UCcZWXzkL_K1mD5dr8MZBYrQ` ([канал](https://www.youtube
 | GTA VI — Physics & Fails | `PLMjOhnNApdxc` |
 | GTA VI — Chat Made Me Do It | `PLHtdNiRjdumM` |
 
-Legacy playlist **Body Myths, Explained** не относится к новому пакету. Удаление/очистка старого контента — отдельное неподтверждённое действие, не следствие переименования или этого документа.
+Legacy playlist **Body Myths, Explained** не относится к новому пакету. Удаление/очистка старого контента — отдельная явно разрешённая владельцем операция, не часть этого документа и не следствие переименования. Её завершение здесь не утверждается.
 
 ## Канальный delivery contract
 
