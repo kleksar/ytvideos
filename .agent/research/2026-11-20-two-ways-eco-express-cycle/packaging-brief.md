@@ -1,0 +1,17 @@
+# Packaging brief — editorial only, no rendered images
+
+**Recommended EN text SHA-256:** `bc8e5e13a248be2e208459dde36a9867dd3bd4ceb7800140b148b839f5f60d08` (`variants/02m/script.en.txt`). All promises limited to one Bosch model and manufacturer's stated consumption. This is a first-event/thumbnail promise design, not a published video or usable artwork. No CTR result.
+
+| ID / honest title | Composition & first confirmation | Full payoff / what NOT to claim |
+|---|---|---|
+| A — **One Hour vs Three Hours: Which Dishwasher Uses More Power?** | Same two buttons on one illustrated 2D dishwasher; a cyan 1:00/Express option and amber 3:35/Eco option, as channel colors, energy meter icon only as illustration, not an invented reading. First narrated question explicitly about electricity | Eco uses 0.645 vs Express 1.300 kWh *for model SMS4EMI06G*. Do **not** imply every fast program doubles electricity |
+| B — **The Fast Dishwasher Cycle Isn't the Cheap One** | One identical conceptual dish load shown on both A/B sides, labeled as manufacturer figures, not two photographed physical experiments. Confirm first proof at manufacturer's table numbers | Time wins for an urgent deadline, while energy and water favor Eco in this model. No cleanliness verdict for the Bosch |
+| C — **Why a Four-Hour Dishwasher Program Can Cost More Than a Shorter One** | Eco and Silence contrasted *after* the main A/B payoff; do not misrepresent Silence as original Express competitor. For 05m/10m only if actual selected edit includes that scene | Four-hour Silence uses 1.050 kWh, vs 3:35 Eco 0.645 kWh on this model; proves duration alone insufficient |
+
+**Recommendation:** A for 02m, because title, first question, numeric reversal and choice payoff are the same observable promise. B is a valid alternative if it doesn't silently imply physical measurements. C risks substituting a third method into a Two Ways A/B and should not be the main thumbnail for recommended 02m; all three are **unrendered concepts**.
+
+**Visual constraints:** Two Ways Lab illustrated warm 2D, A cyan on left / B amber on right / result mint. No Paper diorama, no gaming HUD, no photoreal mock test; no fake wattmeter or fabricated filmed plates. In real production, visible text/digits must be AI-generated overlay images per channel profile, not programmatically typed artwork. No actual brand image/reference bytes were obtained or passed to a generator here. Full reference checks before eventual storyboard.
+
+**Short opening and ending:** 02m first line: “Does the one-hour dishwasher cycle really use less electricity than the three-hour one?” Full quantitative answer arrives before the last line, which leads back to the same question after a resolved conditional choice. This is a proposed *textual* loop, **not AV-verified**. No forced next-video teaser or fabricated Related-video URL: the current main story-linked ending standard needs an actual eligible next-video intro asset, which is not identified here. Once accessible, prefer native Related video without breaking the Short payoff/loop; don't fake an endscreen in MP4.
+
+**Sources for promise and labels:** [Bosch original table PDF](https://media3.bosch-home.com/Documents/9001913439_C.pdf) and [Which? 2026 comparison](https://www.which.co.uk/news/article/main-vs-quick-vs-eco-wash-which-dishwasher-program-is-the-best-akubJ2t3A6gi). Public-facing narration should not include research bibliography.
