@@ -13,7 +13,7 @@ PR #31 baseline HEAD `fcbabe0596d42f773cc296d94d040cb0f92e00c7`, immutable sourc
 | Цель | Полные версии | EN words | RU words | Решение |
 |---|---|---:|---:|---|
 | 02m | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | 243 | 213 | Новое независимое Short с текстовой петлёй |
-| 05m | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | 607 | 531 | **Рекомендуется для editorial selection; не approval** |
+| 05m | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | 666 | 581 | **Рекомендуется для editorial selection; не approval** |
 | 10m | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1368 | 1213 | Содержательная альтернатива; проигрывает темпом |
 
 Темп до озвучки **допущение 125–155 английских слов/мин** с паузами вне подсчёта. Результаты не measured: 02m 1.6–1.9 мин; 05m 3.9–4.9 мин; 10m 8.8–10.9 мин. Профиль задаёт final speech speed 1.10×, но нет measured voice output; оценка требует последующего уточнения.
@@ -22,8 +22,8 @@ PR #31 baseline HEAD `fcbabe0596d42f773cc296d94d040cb0f92e00c7`, immutable sourc
 |---|---|---:|
 | `variants/02m/script.en.txt` | `0e60e56b9486d8b6469fc13c2a749f3154a6626eaab7d0fc9775eede2c663a44` | 243 |
 | `variants/02m/script.ru.txt` | `9e581c4bba5e8c5cf80a7bbcb984bf3b123863de24ead99f864fa14e4a56fb07` | 213 |
-| `variants/05m/script.en.txt` | `dc64cec4088ca63df21942be05fd0a450011a7a0fefd86373bc67af15c682af4` | 607 |
-| `variants/05m/script.ru.txt` | `9eca52cfa1e8ac984c4692f08e592a44ab6ee74049318e88156c9a0c146fd888` | 531 |
+| `variants/05m/script.en.txt` | `9361947a5fa3ddaf242fd7d410622328697cfa3d4a4f19fdb907bd910783fab6` | 666 |
+| `variants/05m/script.ru.txt` | `3e06103157b021c35a38b2906fc1ea08fbd8719483bda3b836f529ee69d2e520` | 581 |
 | `variants/10m/script.en.txt` | `830c41deb7fcf1e7f52301ec7ddbc1da918617d7a1bbbabdf0e52cacd3d46d9a` | 1368 |
 | `variants/10m/script.ru.txt` | `11f1cd8dcc0444b719477904799e4c298e83f70e79fdf47563bd33cc4b252607` | 1213 |
 
@@ -37,8 +37,8 @@ PR #31 baseline HEAD `fcbabe0596d42f773cc296d94d040cb0f92e00c7`, immutable sourc
 
 ### 05m
 1. opening questions → literal 1846 channel geometry → inhabited disputed farmland
-2. Cutlar compensation/arrest → Harney sends Pickett → Douglas sends Tribune, then two ships
-3. reinforcements + training fire + shared social contact → Scott reduces escalation
+2. Cutlar compensation/arrest → Harney sends Pickett → Douglas demands removal → Hornby resists a landing and waits for Baynes
+3. Baynes cancels the landing plan → reinforcements and training fire without combat → Scott negotiates drawdown
 4. two camps in 1860 → Washington Treaty 1871 → 1872 Haro award → meaning of the pig
 
 ### 10m
@@ -72,7 +72,7 @@ PR #31 baseline HEAD `fcbabe0596d42f773cc296d94d040cb0f92e00c7`, immutable sourc
 |---|---:|---|---|
 | Интерес и значимость | 8/10 | Реальные последствия частного инцидента меняют смысл от комедии к пограничной дипломатии | moderate |
 | Начало | 8/10 | Три конкретных вопроса получают ответы в событиях; карта вводится без отвлечений | moderate |
-| Развитие/причина досмотреть | 9/10 | Cutlar → Harney/Pickett → Hornby → вооружение → Scott → совместное присутствие → арбитраж | moderate |
+| Развитие/причина досмотреть | 8/10 | Cutlar → Harney/Pickett → отказ Хорнби от высадки → отмена плана Бейнсом → подкрепления → Скотт → арбитраж; плотность имён сохраняется | moderate |
 | Payoff | 9/10 | Установлена конкретная линия Haro, указана дата и ограничение "1859 standoff" | high |
 | Свежесть угла | 7/10 | Двусмысленность одного юридического слова и опасный приказ Hornby; факт не нов | moderate |
 | Визуальная выразительность | 8/10 | Два морских пути, выгрузка, корабли, пушки, два лагеря, дипломатическое решение | moderate |
@@ -122,3 +122,25 @@ PR #31 baseline HEAD `fcbabe0596d42f773cc296d94d040cb0f92e00c7`, immutable sourc
 ## Required next steps
 
 Independent cold first-listener reviews of exact six scripts, **without** the author verdict and scores; sources after first read. Revalidate exact hash after any revision. At production handoff choose ONE exact master and register a normal ytv run and proper receipts with pinned context, then seek owner script approval. Existing S001–S017 references only the archived root script hashes and must not be repurposed. No provider calls permitted by this editorial update.
+
+## 2026-11-20 — exact 05m r2 (author only; previous hash invalid)
+
+**Was → now:** 05m EN `dc64cec4088ca63df21942be05fd0a450011a7a0fefd86373bc67af15c682af4` / RU `9eca52cfa1e8ac984c4692f08e592a44ab6ee74049318e88156c9a0c146fd888` (607/531 words) → EN `9361947a5fa3ddaf242fd7d410622328697cfa3d4a4f19fdb907bd910783fab6` / RU `3e06103157b021c35a38b2906fc1ea08fbd8719483bda3b836f529ee69d2e520` (666/581 words). Base original HEAD `fcbabe0596d42f773cc296d94d040cb0f92e00c7` and previous editorial branch HEAD `e3f37b49d2ed0ad8cec071ce0729e4c1718abe67` preserved as history. Root source EN/RU, 17-scene root storyboard and all four 02m/10m texts remain unchanged.
+
+**New causal map:** ambiguous treaty → farm and pig → competing arrest claim → Pickett lands → Douglas orders removal → Hornby waits rather than launch marines → Baynes cancels the landing order → reinforced standoff, drills and social contact, but no combat → Scott negotiates de-escalation → joint presence → 1871 arbitration referral → 1872 Haro ruling. Main factual addition is an actual officer decision and consequence, correcting the older implication that social civility explained the absence of battle. Research above records NPS/HistoryLink evidence, without inventing orders' precise quoted words or erasing Scott's separate role.
+
+**Eight new 05m author criteria (each out of ten, not independent results):**
+| Editorial criterion | Assessment / exact ground and weakness | Confidence |
+|---|---|---|
+| Interest | 8/10 — armed standoff from pig and ambiguous border; famous story, no measured demand | medium |
+| Opening | 8/10 — asks about ships, non-shooting and a German decision; map intro can delay the pig | medium |
+| Development | 8/10 — Hornby and Baynes both make actions preventing a landing; two naval names close together require clear visuals | medium |
+| Payoff | 8/10 — Haro decision and no human combat deaths answer opening; years of occupation less immediate | medium |
+| Freshness | 7/10 — command refusal as mechanism beyond quirky animal headline; incident widely covered | medium |
+| Visual potential | 8/10 — ships waiting offshore, an unexecuted landing order, opposing guns and later camps; no frames produced | medium |
+| Spoken clarity | 7/10 — actions distinguish captain/governor/admiral in EN and RU, but name-heavy center still vulnerable | medium |
+| Verified audience interest | UNVERIFIED — no matched Nuviko CTR, retention, audience tests or listener receipt | none |
+
+**Hard checks (r2 only):** EN/RU same order, officials, month and cancelled landing: **AUTHOR CHECKED**, independent bilingual UNVERIFIED. Facts map to NPS summaries and corroborating HistoryLink; original Admiralty dispatch UNVERIFIED. 05m Long begins question → 1846 channels and settlement → pig and main armed hook → refusal and consequences: **AUTHOR CHECKED**. Short loop N_A. Fresh independent first-listener/\`ytv-script-review-v1\`, TTS length, 16:9 scene spans, owner approval, runtime registration, public demand and viewer response all **UNVERIFIED**. 666 English words at hypothetical 125–155 words/min yields 4.3–5.3 minutes before pauses; profile 1.10× does not provide measured timing.
+
+**Marginal value:** 02→05 earns the extra length by supplying Hornby's and Baynes's two recorded decisions before Scott, not a list of friendly meetings. 05→10 includes farm scale, fuller buildup, camp life, military routine and post-verdict troop withdrawals, but audience attention may weaken after Scott's negotiated drawdown and especially in the camp chronology. **Author recommends 05m** as best causal Long; 02m and 10m unchanged and available. Independent reviewer may prefer old 05m, new 05m, 02m, 10m or none. Present exact texts blind before this author review, sources after first reading. No permission for production or three master runs.
