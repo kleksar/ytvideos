@@ -6,7 +6,7 @@ Status **EDITORIAL_CANDIDATE_UNREGISTERED / UNVERIFIED**. Author inspection only
 
 | Duration | Full EN | Full RU | SHA-256 EN | SHA-256 RU | EN words | Intended format |
 |---|---|---|---|---|---:|---|
-| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | `510071c68cb39df6a744bc45546ba3ce75acfc03602210c959fe2a7b02cc65bc` | `01fb5c13fff313f1ac41b7ea60c2b25775ca4535ff4d89a9584a121494c5ecf0` | 258 | Short 9:16 |
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | `510071c68cb39df6a744bc45546ba3ce75acfc03602210c959fe2a7b02cc65bc` | `01fb5c13fff313f1ac41b7ea60c2b25775ca4535ff4d89a9584a121494c5ecf0` | 252 | Short 9:16 |
 | 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | `49dd373aa127974928c33c4832fc528a030cd7be94db006c1656467948b05e10` | `7462ec14312b4d5d94941bb99add8993e09981de9cfa58c79a0aa4d7e9a1c8be` | 562 | Long 16:9 |
 | 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | `39c473c3d500e04a7661c7f527ebd8026d8daa2e963d1bdd2973f00210aa47a9` | `5f619a3588276d68ef6b105af7e4f90ba89d6a111cf77a35b1ab37bea09c023f` | 1379 | Long 16:9 |
 

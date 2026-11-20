@@ -8,7 +8,7 @@ After the fire destroyed his office, Amadeo Giannini had rescued usable assets, 
 
 | Target | Complete Russian | Complete English | Editorial status |
 |---|---|---|---|
-| 2 min — Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | Rewritten 2026-11-20 (258 EN words): full causal action and provisional author textual join; independent/AV UNVERIFIED |
+| 2 min — Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | Rewritten 2026-11-20 (252 EN words): full causal action and provisional author textual join; independent/AV UNVERIFIED |
 | **5 min — Long** | **[RU](variants/05m/script.ru.txt)** | **[EN](variants/05m/script.en.txt)** | **Recommended, not approved** |
 | 10 min — Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | Complete alternative; later exposition can weaken pace |
 
