@@ -1,3 +1,7 @@
+## 2026-11-20 — editorial update, PR #17 (unapproved)
+
+**05m EN/RU substantially revised** to follow a documented evidence-disposal and accountability thread after Iowa's emergency turn, instead of repeating the same answer and debunking the mass-arrest myth twice. [Full revised 05m RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt); SHA-256 EN `3f01976d97fae793b69c739859e8ee4ffc1a572cc090be74fa1748ade1c4a740`, RU `af930781db94ebd4b6d4165813593a263c741d9dee0880252153401784882f4e`. The unchanged 02m/10m remain independent complete alternatives; original root script and 12-scene storyboard remain unchanged and **do not cover this revision**. **05m Long recommended provisionally**; blind reviewer, measured duration, owner selection, runtime and 16:9 storyboard UNVERIFIED. Full comparison and eight criteria in [story-review.md](story-review.md).
+
 # Nuviko History — USS William D. Porter (1943)
 
 The US destroyer assigned to protect Roosevelt accidentally launched a live torpedo toward his battleship during a naval exercise. False signal-lamp messages and radio silence complicated the warning; Iowa turned and the torpedo missed.
