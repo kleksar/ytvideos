@@ -1,0 +1,59 @@
+I put three debt envelopes on a desk and asked myself two questions. Which repayment method costs less? And which one makes the first bill disappear sooner? I expected the answers to point in the same direction. In my model they don't.
+
+Imagine I owe seven thousand dollars across three made-up accounts. The first is a six-hundred-dollar balance charging five percent per year. The second is twenty-four hundred dollars at twenty-nine percent. The third is four thousand at sixteen percent. They're deliberately different in both size and rate. These are not my real debts, and the rates are simply inputs to an experiment.
+
+I have four hundred dollars available for debt payments every month. The accounts require minimum payments of thirty, seventy-five, and one hundred dollars. Those total two hundred and five, leaving a hundred and ninety-five dollars to direct wherever I choose. No new purchases, no missed minimums, and no change in my monthly budget.
+
+I try two rules. A is called the snowball: after paying the minimums, I direct everything extra toward the smallest remaining balance. When one debt is paid, I roll that payment into the next smallest. B is the avalanche: I do the same, except the highest interest rate receives the extra money first.
+
+Before moving a dollar, I name the main measure: interest paid until all debts reach zero. My second measure is the month of the first complete payoff. The distinction matters because a check mark is emotionally visible while interest is quietly added to a balance.
+
+The calculation is deliberately reproducible. Each simulated month starts by adding interest at the annual rate divided by twelve, rounded to a cent. Then I make all minimum payments and send the rest to my current target. If I pay off a target with money left in that month's four-hundred-dollar budget, that remainder moves to the next debt. I never pay more than is owed.
+
+In the snowball run I focus on the six-hundred-dollar balance. Its thirty-dollar minimum plus the hundred and ninety-five extra makes a two-hundred-and-twenty-five-dollar payment in month one. After two dollars and fifty cents of interest, that balance is already down to three hundred seventy-seven dollars and fifty cents.
+
+Meanwhile I only pay the minimum on the expensive twenty-nine-percent account. It earns fifty-eight dollars in interest in month one, so its seventy-five-dollar payment barely moves the balance. It ends the month at two thousand three hundred eighty-three dollars.
+
+By month three my small bill is gone. One envelope disappears from the desk. I can see a real achievement without a calculator, and the number of open debts falls from three to two.
+
+But the twenty-nine-percent balance under this plan still stands at about two thousand two hundred seventy-seven dollars in month three. That is the price of sending my flexible money somewhere else. I have made no late payments; I simply targeted the easiest debt instead of the most expensive one.
+
+Now I rewind the model to the exact same initial conditions and run avalanche. The five-percent debt gets only thirty dollars. The entire spare hundred and ninety-five goes on top of the seventy-five-dollar minimum for the twenty-nine-percent debt. Its first month's payment is two hundred and seventy dollars.
+
+The high-rate balance ends month one at two thousand one hundred eighty-eight dollars, almost two hundred dollars below the snowball result. The small envelope is still there, though. It barely moves compared with the snowball run. My desk still holds three bills.
+
+At month three avalanche has reduced the high-rate debt to around seventeen hundred forty-nine dollars. Snowball still owes about twenty-two hundred seventy-seven there. That's a difference of more than five hundred dollars on the account that charges the most interest.
+
+The trade-off becomes obvious only when I look at two different clocks. Snowball closed its first bill in month three. Avalanche must wait until month eleven before the twenty-nine-percent bill disappears. Eight months of waiting for its first full check mark. If I measured progress by envelopes removed, snowball would be ahead for a long time.
+
+But interest doesn't count envelopes. It depends on money left outstanding and the rate applied to that money. Avalanche is reducing the most expensive balance sooner, even while the little five-percent bill sits untouched beyond its minimum.
+
+I carry both rules forward without changing the budget. Snowball also clears the twenty-nine-percent bill in month twelve, and both strategies eliminate all three debts in month twenty-one. A visitor who sees only the final calendar might call it a tie.
+
+It isn't a tie under the metric I chose. Snowball has charged me one thousand two hundred fifty-six dollars and ninety-three cents in interest. Avalanche has charged one thousand one hundred thirty-eight dollars and ninety-six cents. Subtract them and I save one hundred seventeen dollars and ninety-seven cents by choosing B.
+
+Neither plan secretly paid extra. Both had exactly four hundred dollars a month available until the last payment. In that last month, I pay only the remainder. A smaller final payment is why the interest saving matters even when the finish month matches.
+
+I can also explain the result without a spreadsheet. If one extra dollar can remove debt at five percent or debt at twenty-nine percent, removing the latter prevents more interest from building next month and the months after. Under these specific rules, reducing high-rate principal earlier makes the whole plan cheaper. That explanation assumes no unusual penalties, introductory rates, or other contractual differences.
+
+Does the same advantage survive if I have less spare money? I keep the debts and rates unchanged but reduce the flexible part from a hundred and ninety-five dollars to a hundred. My total monthly payment is now three hundred and five dollars, still including every minimum.
+
+With that lower budget, both plans take twenty-nine months. Snowball interest grows to one thousand eight hundred one dollars and five cents. Avalanche interest becomes one thousand six hundred sixty-two dollars and fifty-one cents. B now saves about a hundred and thirty-nine dollars. The exact saving changed, but the cheaper method did not.
+
+I try the reverse. Instead of a hundred and ninety-five spare dollars, I give myself four hundred, making the total monthly payment six hundred and five dollars. Both plans finish in month thirteen. Snowball interest is seven hundred seventy-eight dollars and eight cents. Avalanche interest is six hundred ninety-six dollars and fifty-five cents. The saving is about eighty-two dollars.
+
+Notice what changed. The larger monthly payment reduced the payoff period from twenty-one months to thirteen for either strategy. Choosing the order still matters, but consistently paying more can matter even more than the order. I cannot promise those same savings for different debts or incomes.
+
+There's a boundary case that makes the comparison less dramatic. If I have no spare money at all, I can pay only the original two hundred and five dollars in minimums. At the start I have no choice about where to put extra money. Both strategies make the same payments. In this particular setup both end up taking fifty-two months and charging three thousand five hundred twelve dollars and ninety-five cents in interest. No free choice means no meaningful A/B difference at the beginning.
+
+Another useful test is to make all three interest rates identical. If they all charge sixteen percent, then every extra dollar removed from any one account prevents interest at the same rate. With my original four-hundred-dollar payment, both modeled strategies accumulate one thousand twenty-four dollars and twenty-five cents in interest. The accounts close in different orders, but total cost ties. That is how I check that the rate difference, not the word 'avalanche', caused my result.
+
+These extra scenarios are still mathematical models. I have not run experiments on real borrowers, and I have not observed three banks. They are sensitivity checks: what happens if I change one important assumption while keeping the others fixed?
+
+I also can't dismiss the psychological side. When the smallest debt disappeared after three months, I felt a stronger sense of visible progress in the story I was tracking. Research into debt-repayment behavior has examined how completing small tasks can support motivation in certain settings. But a behavioral finding is not a guarantee for an individual person. A spreadsheet can't tell me whether an early win would keep me committed to my own budget.
+
+That distinction produces two honest conclusions, not one magical winner. If I can consistently make the scheduled payments and the goal is to minimize interest under this model, B is the better strategy. If seeing an account close is essential to staying on track, A gives me that visible milestone earlier. Its benefit depends on behavior I haven't measured.
+
+Actual credit cards can calculate interest daily, adjust minimums, change rates, charge fees, and have promotional or penalty conditions. A required minimum must be paid whichever account I target. Anyone making a real repayment decision needs their own balances and terms; my imaginary seven thousand dollars is not a personalized recommendation.
+
+I return to the first two questions. The avalanche gets me out of the expensive interest earlier. The snowball gets me out of one small debt earlier. Both reach zero in month twenty-one, but one costs about a hundred and eighteen dollars more. The surprising part isn't a secret trick. It's that a first victory and a cheaper finish are different things. I have to choose which one I'm measuring before I begin.
