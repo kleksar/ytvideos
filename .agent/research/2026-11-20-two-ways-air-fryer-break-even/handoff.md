@@ -7,7 +7,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 **Six exact scripts:** `variants/{02m,05m,10m}/script.{en,ru}.txt`. All are UTF-8 trailing LF. Exact SHA-256:
 * 02m EN `ca0a211b987faddfe94fabf5f20576c369e11b00dcf7596eb8b0c440b3a4ffe0`; RU `91926b769bf6da68febfd3d0f8184a1b61535e4206b1c037fec43c27bbde12c0`
 * 05m EN `602fd777f9cca060311500b9aa36c67f7b817a70c106c83cfe5b1257526a340c`; RU `de16c9567fd7e5624a93d953aa8e3774539a652568d952f5bfd5a842699bfd5d`
-* 10m EN `fd3c8cbcdc0ebebab6d1f5135e8127729fff3ccb21bfc2de81d5c5cf737e7733`; RU `f25c4caa33de354c41f116330c54c639e69d5a3849e550feb20d1aa229c6803e`
+* 10m EN `4668078973021d4b4238b015870417295b6883b2fa4e9f4cb6dead88f8d52824`; RU `3170347fa16536cfbc345b0a3cf6131c19fe6f0d0879e6c2716f1909771f19ad`
 
 **Recommended editorial length:** 02m EN only for eventual master selection, **not production approved**. 05m strong alternative, 10m REWORK after author review. Evidence and eight scores in story-review.md. Shared source and viewer evidence in research.md. Packaging bound to 02m EN exact hash; no storyboard timing, asset ID or reference bytes fabricated.
 
