@@ -11,6 +11,7 @@ import importlib.util
 import json
 import math
 import os
+import subprocess
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -20,6 +21,7 @@ channel_config = importlib.util.module_from_spec(_config_spec)
 _config_spec.loader.exec_module(channel_config)
 SCHEMA = 'ytv-delivery-v1'
 RECEIPT_SCHEMA = 'ytv-delivery-v2'
+REUPLOAD_SCHEMA = 'ytv-owned-reupload-v1'
 REVIEW_CHECKS = ('semantic_grouping', 'visual_placement')
 
 
@@ -292,6 +294,8 @@ def validate_release(video, channel_id, receipt_path=None, *, private_staging=Fa
     if not path.is_file():
         raise ValueError('Missing delivery receipt for configured illustrated-channel upload')
     receipt = json.loads(path.read_text())
+    if receipt.get('schema') == REUPLOAD_SCHEMA:
+        return validate_owned_reupload(receipt, video, channel_id)
     if receipt.get('schema') == 'ytv-audio-replacement-v1':
         return validate_audio_replacement(receipt, video, channel_id, channel, private_staging)
     receipt = validate_render_receipt(video, channel_id, path)
@@ -321,6 +325,62 @@ def validate_release(video, channel_id, receipt_path=None, *, private_staging=Fa
         raise ValueError('User acceptance must bind this exact MP4')
     check_record(acceptance['evidence'])
     return receipt
+
+
+def validate_owned_reupload(receipt, video, channel_id):
+    """Validate a recovered published copy without inventing a production render."""
+    import re
+    if receipt.get('channel_id') != channel_id or receipt.get('media') != file_record(video):
+        raise ValueError('Reupload receipt does not match the video/channel')
+    source = receipt.get('source', {})
+    if not re.fullmatch(r'[A-Za-z0-9_-]{11}', source.get('video_id', '')):
+        raise ValueError('Reupload source video ID is invalid')
+    check_record(source['api_snapshot'])
+    check_record(source['download_evidence'])
+    snapshot = json.loads(Path(source['api_snapshot']['path']).read_text())
+    items = [v for v in snapshot.get('items', []) if v.get('id') == source['video_id']]
+    if (len(items) != 1 or items[0].get('snippet', {}).get('channelId') != channel_id
+            or items[0].get('status', {}).get('privacyStatus') != 'public'):
+        raise ValueError('Snapshot does not establish a public source on the expected channel')
+    technical = receipt.get('technical_review', {})
+    if (technical.get('full_decode') != 'PASS'
+            or technical.get('media_sha256') != receipt['media']['sha256']):
+        raise ValueError('Reupload requires full decode of the exact file')
+    check_record(technical['evidence'])
+    _verify_owned_reupload_media(video)
+    return receipt
+
+
+def _verify_owned_reupload_media(video):
+    """Independently probe and decode the recovered MP4, not a caller's PASS claim."""
+    path = Path(video).resolve(strict=True)
+    before = sha256(path)
+
+    def run(argv):
+        try:
+            result = subprocess.run(argv, stdin=subprocess.DEVNULL, capture_output=True,
+                                    text=True, check=False, timeout=600)
+        except (OSError, subprocess.TimeoutExpired) as exc:
+            raise ValueError('Recovered MP4 decode could not complete') from exc
+        if result.returncode:
+            raise ValueError('Recovered MP4 probe or full decode failed')
+        return result.stdout
+
+    probe = json.loads(run(['ffprobe', '-v', 'error', '-protocol_whitelist', 'file,pipe',
+                            '-format_whitelist', 'mov', '-show_format', '-show_streams',
+                            '-of', 'json', str(path)]))
+    if ('mp4' not in (probe.get('format', {}).get('format_name') or '').split(',')
+            or not any(stream.get('codec_type') == 'video'
+                       for stream in probe.get('streams', []))
+            or not any(stream.get('codec_type') == 'audio'
+                       for stream in probe.get('streams', []))):
+        raise ValueError('Recovered file must be an MP4 with video and audio streams')
+    run(['ffmpeg', '-nostdin', '-v', 'error', '-xerror', '-err_detect', 'explode',
+         '-threads', '2', '-protocol_whitelist', 'file,pipe', '-format_whitelist',
+         'mov', '-i', str(path), '-map', '0:v:0', '-map', '0:a:0', '-f', 'null', '-'])
+    if sha256(path) != before:
+        raise ValueError('Recovered MP4 changed during full decode')
+
 
 def validate_audio_replacement(receipt, video, channel_id, channel, private_staging):
     """Validate an audio-only replacement against a previously rendered picture."""
