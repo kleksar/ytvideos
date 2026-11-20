@@ -1,0 +1,25 @@
+I can finish four sandwiches faster and still make the first person wait more than a minute longer. That sounds backwards until I decide what "finished" means.
+
+Imagine I have four identical lunches to pack. One person is standing by the counter, hungry. Three more lunches need to go into bags. I have two sensible options. A: finish one sandwich, wrap it, then start the next. B: put out four breads, make four fillings, then wrap all four at the end. I'd like you to pick A or B before I show the result.
+
+I can't claim I tested real hands, real knives or a real kitchen. This is a scheduling model: one worker and three operations. Each sandwich takes ten seconds at the bread station, fifteen at the filling station, and five at the wrapping station. Any change from one station to another takes six seconds. For B only, arranging and labeling the batch trays adds twenty-five seconds at the start. Those are assumptions, not times I measured. Both methods must produce exactly four wrapped sandwiches with the same ingredients.
+
+I tell the model to time two things separately: when the first complete sandwich is ready, and when the fourth is ready. If I look at just one, I could give a misleading verdict.
+
+Start with A. I put down the bread, add filling and wrap. The work itself takes thirty seconds. Two changes of station add twelve. At forty-two seconds I have a sandwich I can hand to the person waiting. Then I have to return to bread. That return takes another six seconds, and the next complete sandwich takes forty-two more. So the second is ready at ninety seconds, the third at a hundred and thirty-eight, and the fourth at a hundred and eighty-six.
+
+What's eating the time isn't the filling or the bread. Those operations total a hundred and twenty seconds whether I use A or B. It's the repeated trip through the same three stations. Four sandwiches completed separately need eleven station changes. Eleven times six is sixty-six seconds. A finishes at one hundred and eighty-six.
+
+Now I reset the model, with the same four lunches. B starts with the twenty-five-second tray setup. I prepare all four breads in forty seconds, change stations once, apply four fillings in sixty seconds, change stations again, and spend twenty seconds wrapping. That is a hundred and twenty seconds of actual sandwich work, twelve seconds of switching and twenty-five of setup: one hundred and fifty-seven.
+
+So B is twenty-nine seconds quicker at the finish line. If four packed lunches must leave together, the choice seems simple.
+
+Except I pause the clock at the moment the first person asks, "Is mine ready?" A finished the first at forty-two seconds. B has done the tray preparation, all the bread, all the filling and two changes before the first wrapper closes. The first packed lunch under B appears at one hundred and forty-two seconds. The person waiting for one sandwich loses exactly one hundred seconds.
+
+There's another surprise. The batch method pays its twenty-five-second setup cost even when the order is tiny. With one sandwich, A takes forty-two seconds. B takes sixty-seven. With two, A takes ninety, while B takes ninety-seven. It's only when I reach three sandwiches that B overtakes A: one hundred and twenty-seven seconds instead of one hundred and thirty-eight. Four makes the gap bigger.
+
+That gives me a useful dividing line, but not a universal kitchen rule. The moment I make station changes almost effortless, the answer changes. Suppose each transition takes one second rather than six, and nothing else changes. For four lunches, A needs one hundred and thirty-one seconds. B needs one hundred and forty-seven. Now the individual method wins by sixteen, because the trays still cost twenty-five seconds while the repeated transitions barely cost anything.
+
+I can see why both methods are used. Doing one item at a time gets food into someone's hands early. Batching can be efficient when repeated setup or walking has a real cost and everyone needs their food together. But I cannot turn fictional six-second transitions into a claim about your countertop, your ingredients or food safety. The assumptions have to match the job.
+
+My rule after this comparison is simple. I decide the finish line before I choose the method. Four sandwiches ready together? In this model, I batch. One hungry person waiting at my counter? I start with A, even though it loses the race to finish all four. And next time I have four lunches to pack, that is the question I will ask before I touch the bread.
