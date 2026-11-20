@@ -1,3 +1,8 @@
+## 2026-11-20 — revised 10m documentary visual intent (not storyboard/media)
+
+The revised 10m EN/RU texts at SHA-256 `4ca7f0d4a130f3a03b801f2dde036d970c91b689ee14a076dbd9718a2421cbbf` / `7bb5f973632e2443dcd8ece91df34138a47c3518ff10babf326f310aaf82ab7c` add two split whispering addends (no human knows the sum), and the Stumpf/Pfungst simultaneous-examiner switch. If 10m is selected, its new paper-diorama visual plan must show exactly **two independent whisperers, not a shared answer card**, followed later by two competing human postures and Pfungst leaving. Treat counting cards as comparison only. Existing thirteen shots, the Short loop frame and all old timings apply exclusively to unchanged root narration. These are visual intentions without stage coverage or output; no fabricated scene counts, new imagery or media approval. The Short recommendation remains provisional.
+
+---
 ## 2026-11-18 02m variant note (not a new approved thumbnail)
 
 Existing S001–S013 and opening-frame promises in this document describe the **unchanged root 199-word Short only**. The revised 190-word `variants/02m/` begins with the questioner's subtle head movement and Hans stopping after eight taps, not a close-up of an isolated math problem; its last line directs attention back to that movement. Thumbnail concept A (horse + knowledgeable person) remains a candidate, but new visual intent, scene spans and actual paper-diorama storyboard must be authored for the exact revised 02m hash before any images. Do not copy root S-ID timings, invent matching pixels or claim the visual seam is verified. No changes to approved root, scene media or ChannelSpec.

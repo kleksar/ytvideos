@@ -119,3 +119,15 @@ The ten-story initial selection and shared primary research above remain intact.
 | All | Result depends on knowledge and visible involuntary cue even without conscious cheating | Stumpf/Pfungst conclusions | Not a denial of all animal intelligence |
 
 Public retellings, videos and the source's fame do not establish own-channel demand. CTR, average view duration, independent viewer choice and actual voice/AV durations all **UNVERIFIED**.
+
+## 2026-11-20 — corroborated factual additions for revised 10m only
+
+Primary account: [Oskar Pfungst, *Clever Hans* (1911 English translation of 1907 German study), Chapter II](https://www.gutenberg.org/cache/epub/33936/pg33936-images.html); exact Gutenberg document was indexed and quoted, but direct live fetch returned HTTP 503 this pass. Independent textual transcriptions of the original passage checked against [the quoted 1911 passage on split-summand testing](https://artwaste.land/strata/the-sum-nobody-knew/) and [specific Chapter II dual-questioner passage](https://www.gutenberg.org/cache/epub/33936/pg33936-images.html). Thus original quoted numbers are PRIMARY-TEXT-ATTESTED, full live primary reinspection UNVERIFIED due to HTTP 503; avoid claiming newly observed historical records.
+
+| Revised 10m assertion | Primary account / precise location | Bounds |
+|---|---|---|
+| Von Osten whispers one summand and Pfungst another; neither knows sum; 3 correct / 31, then with knowledge 29 / 31 | Pfungst, Chapter II, printed p. 37, quoted original experimental report | Separate pair of 31 trials each; not lifetime horse accuracy; no invented literal whisper |
+| Stumpf and Pfungst silently choose different numbers; in ten trials Hans follows Pfungst, including 5 vs 8 and 7 vs 4 | Pfungst, Chapter II, two simultaneous questioners paragraph (indexed exact text) | Two comparisons and the ten tests are from one source; not independent replication |
+| When Pfungst leaves, Stumpf can elicit 6 again; returning Pfungst changes that | Same Chapter II source, immediately following dual-questioner controls | Specific trial, not a universal permanent preference |
+
+**Narrative causal map for revised 10m:** testing reading cards → testing actual addition when neither person can know the sum → testing whether spoken question conveys anything → testing whether a person is visible → finding and manipulating posture → isolating the influential examiner → reproducing the signal with a human. Statistical numbers are exact per distinct control set and all uncertainties remain. The original word-card test has been *removed* from new 10m narration; it remains valid historical context in earlier source ledger, not a claim of new footage. Demand/retention UNVERIFIED.
