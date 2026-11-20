@@ -1,0 +1,81 @@
+I have two buttons to choose from on a cold morning. One keeps the house warm until I come back from work. The other lets it cool down, then heats it up again. Which one actually costs less? Why does the answer change with the heating system? And how can a noisy burst of heat at four o'clock be less expensive than a quiet heater working all day?
+
+I am not going to compare two different houses or guess from the size of the flame. I'm giving the two methods the same starting conditions and measuring the energy they use for the same task.
+
+At eight in the morning, the inside temperature is twenty degrees Celsius. It's five outside. I leave, and I want to return at four to a room that's once again twenty degrees. For eight hours, the place is empty. There is no reason to spend money on my comfort while nobody is using it, provided I can get the warmth back in time.
+
+Method A leaves the thermostat at twenty throughout those eight hours. Method B lowers the target to sixteen while I'm gone, then asks the heater to return the room to twenty before I arrive.
+
+Those are genuinely different schedules for one heating system. I will count heat delivered to the house, including every bit used in the late warm-up. I will not compare an already-cold room with a warm one or quietly change the weather halfway through.
+
+First, I can see why A seems sensible. A house holds some heat in its walls, floor, furniture and air. If I let it cool, I have to warm those things again. The return-home burst looks like proof that I should have kept the system running.
+
+But that argument leaves out something I cannot switch off: the house loses heat to the outside all day long.
+
+The warmer the room is compared with the outside, the faster that heat tends to escape. When A stays at twenty and the outdoor air is five, there is a fifteen-degree difference. B begins with the same difference, but after the thermostat goes down the room gradually cools. The gap shrinks. Every hour spent at a lower temperature means less heat escaping through the building than if I had held it at twenty.
+
+That doesn't mean I can turn the thermostat down and receive an instant discount. The temperature doesn't fall all at once. My model needs a building that stores heat and loses it at a defined rate.
+
+So here are the assumptions, not measurements. I use a heat-loss coefficient of 0.16 kilowatts for every degree of temperature difference, a heat capacity of 1.6 kilowatt-hours per degree, and a heater able to deliver up to eight kilowatts of heat. The outside stays at five. There are no open windows, sunshine, cooking gains or people inside. Those numbers describe my invented building, not a universal home.
+
+Now I run the same eight-hour day twice, one small time step at a time. In each step, I calculate heat leaking outdoors. If the room is below its target, I let the heater add heat, up to its specified limit. Then I update the indoor temperature. It's a deliberately simple thermostat: no claim that an actual boiler cycles at these exact instants.
+
+Watch A first. At eight, it's twenty degrees. With fifteen degrees between indoors and outside, this house loses 2.4 kilowatts of heat. Over an eight-hour period, maintaining twenty calls for 19.2 kilowatt-hours of delivered heat. There's no dramatic recovery at the end, because the heater has been replacing the losses all day.
+
+Now I reset the room to twenty for B.
+
+I lower the target to sixteen. The house doesn't jump to the new setting. After one hour it is still around eighteen and a half. After two, a little over seventeen. It approaches sixteen around the third hour. For that first stretch, the heater has delivered no heat at all; the building has been cooling by releasing its stored warmth.
+
+Once it reaches sixteen, the system only adds enough heat to stop it dropping further. That's the part of the day when the thermostat seems quiet and uninteresting. But it matters. The heat loss at sixteen, with the same five degrees outside, is about 1.76 kilowatts, rather than 2.4 at twenty.
+
+The clock reaches half past two. I raise the target to twenty. Now the heater really does work hard. The output during the return-home warm-up is much higher than it was while the house sat at sixteen. A viewer looking only at that last period might think B has failed.
+
+At four, both homes are back at twenty. I haven't stopped the model early to give the setback an unfair advantage. I add all heat delivered across the entire eight hours.
+
+A: 19.2 kilowatt-hours. B: 15.64. A difference of 3.56 kilowatt-hours of heat, about nineteen percent of A's eight-hour figure. The saved energy came from a smaller temperature difference during the hours B was cooler. Warming up at the end didn't erase it.
+
+Nineteen percent may sound like a bill estimate. It isn't. This is one eight-hour winter window in a hypothetical home. Heating the rest of the day, water heating, cooking, standing charges and other energy uses are outside the comparison. The exact saving changes if my walls, outdoor temperature, occupancy or heating controls change.
+
+Even the units can trip me up. A kilowatt is a rate of power. A kilowatt-hour is energy accumulated over time. A heater running at eight kilowatts for fifteen minutes delivers two kilowatt-hours. A smaller output running for many hours can deliver far more. That's why the loudest part of the afternoon is not automatically the most costly part of the day.
+
+Now I can compare this mathematical picture with a test that really did take place, without claiming the test proved my exact percentages.
+
+Researchers at the University of Salford used a full-sized Victorian-style house inside an environmental chamber. They held the surrounding temperature at five degrees and monitored gas, electricity, room temperature and the heating system. It had a gas condensing boiler and radiators, not my idealised eight-kilowatt heater. The trials were commissioned by the heating-controls industry association BEAMA, a relevant funding connection to keep in mind.
+
+Their baseline didn't keep the house at twenty all day. Instead, it heated during defined morning and afternoon-evening periods and turned off between them. That baseline used 69.10 kilowatt-hours of gas and electricity across the test day.
+
+Next they tried maintaining a sixteen-degree setback during the periods that had previously been off. The total rose to 71.12 kilowatt-hours. Under the historical prices used in that report, the cost was about three percent higher.
+
+That comparison answers a different question from mine: when a building is unoccupied, is it worth maintaining a sixteen-degree floor rather than letting the heating turn off? In that particular test, no. More heat went into the building during otherwise unheated hours. The result also warns me not to assume that holding a low temperature is free.
+
+The researchers ran a third schedule with shorter heating hours and different, lower comfort setpoints. Its total was 58.20 kilowatt-hours, around sixteen percent less cost than the original baseline. That is a useful sign that scheduling and the temperature requested matter, but it is not a clean one-variable A/B test of my first two options. Lower comfort requirements are part of the trade-off.
+
+These numbers came from a controlled test house, not from my home. The report described a specific building with solid walls, a particular boiler, a steady external temperature and no ordinary occupants walking around. It can test a principle; it cannot guarantee the same saving in every flat or every country.
+
+Now I have to confront the biggest problem with my first result. I measured heat delivered. My household actually pays for the fuel or electricity used to make that heat.
+
+For a conventional heater with a stable efficiency, less heat delivered usually means less fuel for that window. If I assume ninety-percent conversion efficiency for an illustrative boiler, A's 19.2 kilowatt-hours of useful heat require about 21.33 kilowatt-hours of fuel. B's 15.64 require about 17.38. The difference is about 3.96 kilowatt-hours of fuel.
+
+If I make up a fuel price of ten US cents per kilowatt-hour, that is roughly forty cents for this example day. Multiply it by a hundred identical days and I get roughly forty dollars. I cannot present that as a forecast for a real winter: the hundred identical days and the flat tariff are my assumptions, not the weather or anyone's utility contract.
+
+And now the surprise. The same mathematical heat saving may not translate to the same saving on a heat pump's electricity meter.
+
+A heat pump moves heat rather than producing every unit from an electric resistance element. In my second simplified model, when it's operating efficiently it supplies three kilowatt-hours of heat for each kilowatt-hour of electricity. Engineers call that ratio its coefficient of performance. It changes with outdoor conditions and how hard the system is asked to work; three is an illustrative value, not a specification for someone's machine.
+
+If it keeps that efficiency throughout, A needs 19.2 divided by three, or 6.4 kilowatt-hours of electricity. B needs 15.64 divided by three, a little over 5.2. B still wins.
+
+But some heat-pump systems have a resistance backup heater. When I demand a quick rise from sixteen to twenty, that backup may turn on, depending on the equipment, its controls and the weather. Resistance heating gives roughly one unit of heat per unit of electricity, not three.
+
+Suppose just two kilowatt-hours of B's warm-up heat come from that one-to-one backup. The other 13.64 units still come from the heat pump at three-to-one efficiency. That adds up to about 6.55 kilowatt-hours of electricity for B. A, still at 6.4, now uses less.
+
+The room starts and ends at the same temperatures in both heat-pump calculations. The schedule hasn't magically become good or bad; I changed the assumed equipment behaviour during recovery and therefore changed which method wins on purchased electricity. This is a hypothetical example, not a claim that all heat pumps call for backup after a setback.
+
+The manufacturer Grant, for example, recommends modest setback control for its air-source heat pumps rather than simply switching them off, and explains why long, steady, lower-temperature operation can be better for those systems. That is a manufacturer recommendation for a type of equipment, not an instruction to ignore the controls on every other heater.
+
+There is one more distinction between energy and money. Some people pay different prices at different times of day. A heating schedule that uses fewer kilowatt-hours could still cost more if it pushes much of the electricity into a more expensive tariff window. That would be a different cost comparison, requiring the actual tariff and metered energy by hour. I haven't invented either for my house.
+
+Finally, the house is a place where people live, not just a heat-loss equation. If someone stays home, sixteen degrees may not meet their needs. Some properties need additional precautions against cold, moisture or freezing. A timer that fails to bring the room back to a comfortable temperature before arrival hasn't completed the same task. There is no honest victory if I silently discard comfort to win the arithmetic.
+
+So here's how I use the result. For the modeled conventional heater and an empty house that returns to twenty on time, I prefer B: turn the target down and start recovery early enough. I know where the saving came from and I counted the recovery. For an actual heat pump, I consult its setback and backup-heating settings before making that choice.
+
+When I get home and hear the heater working, I no longer treat that sound as the answer. I need to compare the energy used over the whole day, at the temperatures I actually required. The machine that sounds busiest at four might still have spent less energy since eight.
