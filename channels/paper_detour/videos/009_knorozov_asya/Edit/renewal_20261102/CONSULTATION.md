@@ -1,3 +1,0 @@
-# Scene pacing consultation, 2026-11-02
-
-ChatGPT.com in Chrome project YT Видео, visible mode Extra High; https://chatgpt.com/g/g-p-6ae147d3975481919b5bfda6935777d0-yt-video/c/6ae832dc-98ac-83eb-8b16-53a451b402c9. Prompt: 34-second Knorozov/Asya nine-scene edit, fixed existing voice, 4–6 s scenes, chronological separation of 1952 decipherment and later cat; ask for pacing principles without invented image content or voice timings. Complete answer: reduce to approximately eight shots, combine only same historical episode, preserve chronology, show coauthor anecdote as student's recollection, use direct cuts and varied viewpoints. Checked against the alignment and scene evidence; the result is not a visual inspection or fixed timing plan.

@@ -1,3 +1,0 @@
-# Paper accent PNGs, 2 November 2026
-
-Three transparent assets created with built-in image_gen using the radio episode's actual `Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png` as positive lettering/material reference. Prompts: cream paper faces, orange-red edge, one line, transparent background, exact phrases ALMOST EIGHT YEARS; OLD MESSAGES; NOT HER. NOT HER first candidate rejected due coloured alpha fringe; v02 inspected, contains a terminal period not explicitly requested, accepted as punctuation pending scene composite. All files remain candidates until scene/cue preflight and final MP4 QA. No source files overwritten.

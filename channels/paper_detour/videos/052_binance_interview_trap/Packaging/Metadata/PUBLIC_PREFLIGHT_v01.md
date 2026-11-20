@@ -1,5 +1,0 @@
-# Public release preflight 2026-11-05
-
-User explicitly ordered immediate Public and approved the videos and new images. Accepted exact file: Deliverables/VIDEO_no_frame.mp4, SHA-256 98bce825392bb0757c6c90506e6848aa0c58f660cff5d5b2245af5c005720d3d; 141 seconds. Full ffmpeg decode `ffmpeg -v error -i VIDEO_no_frame.mp4 -f null -` exit 0, no errors. This is technical decode, not complete AV QA. API channels.list(mine=true) HTTP 200 identifies Paper Detour UCMVfdfaNxV3ZkI3_J3Eejzw. SRT structure and full transcript coverage pass in SRT_validation_public_v01.json; timing_mapping and playback remain unverified.
-
-BLOCKED: exact no-frame export has no delivery receipt, and original VIDEO.mp4 receipt binds the prior frame-bearing media, plan, command and contract. No compatible renderer receipt or documented derived-export route found. The no-frame FFmpeg command is separately preserved in Edit/Export/NO_FRAME_RENDER_v01.json. Do not relabel old receipt or claim equivalent render provenance. Caption timing check/manual-track upload remains open; public release requires it. YouTube upload not attempted, no video ID. A/B, playlist, end screen and cleanup not performed.

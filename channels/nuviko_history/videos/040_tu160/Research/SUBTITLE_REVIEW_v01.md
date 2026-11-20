@@ -1,6 +1,0 @@
-# English subtitle review v01
-
-- Source transcript: `Source/Voice/voice_en_text_v01.txt`; timed map: `Source/Audio/word_map_mix_v01.json`; voice track: `Source/Audio/mix_en_v01.wav`. These are bound by SHA-256 in the generated word map and SRT check report.
-- Source-time SRT: `Work/production-20261105-v01/subtitles/source_time_en_v01.srt`; machine report: `Work/production-20261105-v01/subtitles/srt_check_v01.json`. Structure and exact text coverage: PASS. Timing mapping, audible synchronization, playback and readability: UNVERIFIED. The SRT has 496 cues.
-- The montage subtitle renderer requires explicit one-line phrases after preparation. The automatic grouping review flagged 53 weak/ambiguous syntax boundaries. The first sentence has no syntax-safe partition within the Nuviko long-video width at 84 px Georgia Bold. The available forced partition breaks after “more than”; this leaves a weak comparative boundary. A 15-second probe has been rendered with three real candidate stills and the exact user-approved subtitle boundary. The probe has not been visually inspected; no full montage has been rendered.
-- Exact decision is pending from the user: keep the forced split after “more than” at current channel style, or reduce subtitle font for the whole track. Do not mark the subtitle stage ready before resolving this item and rerunning preparation.

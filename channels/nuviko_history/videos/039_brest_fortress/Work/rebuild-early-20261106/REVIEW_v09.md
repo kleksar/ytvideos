@@ -1,5 +1,0 @@
-# V09 targeted repetition revision
-
-`previews/full_review_v09.mp4` SHA-256 `cd9f1f062c53dc983b90120c2e5a259425a6e3a201359235ec041dffedba70bd`; 622.366667 s, 2560×1440, 30 fps, 18671 frames. Scenes 61 (05:17.5), 73 (06:20.7), 84 (07:21.5) replaced with `new55_draft.png`, newly generated `revision09_isolated.png` SHA-256 `7069fe21c052db3b6232b23f1d24ec459ef0f92b3c642e295eceb67e92afc266` (conceptual generic objects), and `revision05_gavrilov.png`, respectively. Sampled exact V09 frames at 319, 382, 443 s inspected; subtitle and heading legible. Existing ruins recur in scene 67 and Gavrilov exhibit recurs in scenes 34 and 66; the previous nearby repeated soldier images were reduced, not all reuse eliminated. Plan and exact assembly command in `replace_empty_render_v09/`. Six sampled 3s audio windows correlate with the prepared WAV above 0.999. Audible mix, complete subtitle timing and independent review remain unverified. No YouTube mutation.
-
-Full FFmpeg `-xerror` video/audio decode completed successfully.

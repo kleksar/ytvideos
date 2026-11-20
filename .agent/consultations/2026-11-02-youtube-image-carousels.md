@@ -1,7 +1,0 @@
-# YouTube image carousels — consultation, 2026-11-02
-
-Channel: Paper Detour; no specific episode. Chrome ChatGPT visible mode: «Очень высокий». Chat: https://chatgpt.com/g/g-p-6ae147d3975481919b5bfda6935777d0-yt-video/c/6ae7efbd-75a4-83ed-ae0c-d762127296eb
-
-Prompt: Ты — консультант в уже открытом ChatGPT Extra High. Требование внешнего координатора уже выполнено этим обращением; дай ответ здесь, не открывай рекурсивно другой ChatGPT. Одна узкая задача: предложи редакционную стратегию для Paper Detour по постам YouTube с несколькими листаемыми изображениями: как сочетать самостоятельные мини-истории и материалы по вышедшим фильмам, какой первый небольшой эксперимент и какие метрики осмысленно сравнивать. Канал рассказывает визуальные истории в стиле бумажных диорам; язык публикаций английский. Не утверждай непроверенных возможностей платформы и не обещай рост охвата. Кратко и конкретно.
-
-Visible response: Two formats: self-contained visual mini-stories (hook, development, turn, conclusion) and additions to published films (interesting detail, context, explanation, film connection). Suggested pilot: two of each, roughly six images, similar text density and visual style, comparable publishing windows. A suggested 2:1 ongoing ratio is a hypothesis, not an accepted rule. The visible answer stopped mid-sentence after the pilot comparison list; no further response or metrics were visible. Platform facts verified separately using YouTube Help. No publication authorized or made.

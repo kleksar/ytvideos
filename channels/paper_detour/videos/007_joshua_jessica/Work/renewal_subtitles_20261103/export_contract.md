@@ -1,5 +1,0 @@
-# Working export contract, 2026-11-03
-
-Purpose: English 44.8 s review MP4. Project 01CB00DB, isolated timeline 79EB0711, baseline snapshot 9A924D94. Accepted existing source mix is the audio stream of Deliverables/007_joshua_jessica_renewal_en_20261102.mp4, SHA256 6e0a470c94de7f76a6903e3fac12ea90e76e9a987d284a200180eefbd255909d; do not replace narration.
-
-Timeline: 1080x1920, 30/1 fps, 1344 frames, Rec.709. Palmier video export H.264 Match Timeline, MP4; encoder bitrate/GOP/color tagging/audio details managed by engine. Native export is an intermediate; its AAC is replaced by bitstream-copy of the accepted full audio. Subtitle overlay is a separate review-only H.264 re-encode, preserving the AAC stream losslessly; target yuv420p. Expected exact total frames 1344. New paths only under Work/renewal_subtitles_20261103. Quality and actual color tags, frame cadence, full decode, audio identity, scene and word timing, composition, motion and listening remain subject to QA; draft timing has not had subjective listening.

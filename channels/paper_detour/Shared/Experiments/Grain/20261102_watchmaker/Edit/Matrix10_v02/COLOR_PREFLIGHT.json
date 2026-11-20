@@ -1,6 +1,0 @@
-{
-  "local_ffmpeg_default_RGB_to_YUV_matches_BT601": true,
-  "differs_from_BT709": true,
-  "source": "Canonical DepthFlow renderer log shows RGB24 input and scale RGB-to-YUV420 with no output matrix override; helper subsequent trim does not change matrix",
-  "conversion": "Interpret rendered code values as BT601 matrix/sRGB transfer/BT709 primaries, then convert to BT709 transfer/matrix/limited before grain"
-}

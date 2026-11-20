@@ -1,3 +1,0 @@
-# Cover A draft v01 — not accepted
-
-Prompt used imagegen with Nuviko scene 003 and accepted full-body traveler references; consultation record consult_a_cover_result.md. Literal text is correctly rendered as LAUNCH FROM HERE? in large contrasting letters. The character and ocean-distance idea read clearly. The rear-engine geometry is not credible for a Tu-160: two prominent exhaust openings are visible where four engines in two pairs are required. This makes the image unsuitable as a final cover until corrected and reviewed. The rock vantage is a composite editorial device, not a claim that the traveler accompanies the flight. Native output 1672×941; no actual YouTube card or mobile-device review yet.

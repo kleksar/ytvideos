@@ -1,5 +1,0 @@
-# Separate SRT quotation reconciliation
-
-The draft exported from word groups omitted the transcript's curly quotation marks around “Ship O!” and “Lunch O!”, causing the source-time SRT helper to report text coverage FAIL. `srt_cues_provider_draft_v02.json` restores all four marks exactly; `srt_provider_draft_v02.srt` passes structure and literal transcript coverage. Its source timing remains a machine estimate, last word end is mechanically bounded, and mapping/playback are UNVERIFIED. It is not a final or upload-ready sidecar.
-
-The shared in-picture renderer `delivery.validate_words` explicitly strips quotation marks from transcript tokens as a display-formatting choice. Attempt to include them directly in word tokens was rejected; `mix_subtitle_preflight_only_v03.json` and `word_map_mix_draft_v02.json` are invalid experimental drafts, not montage inputs. The current candidate renderer plan remains `mix_subtitle_preflight_only_v02.json` with words and grouped text as previously prepared. In-scene S110 itself retains the exact quoted wording. This distinction does not establish audio alignment or final-video QA.

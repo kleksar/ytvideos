@@ -1,8 +1,0 @@
-{
-  "source": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Voice/v01/voice_en.mp3",
-  "source_sha256": "c4d0974e5c9990386c4336d412fa86394ba015f532146f24669a935298126594",
-  "operation": "ffmpeg -filter:a atempo=1.1 -ar 44100 -ac 1 -c:a pcm_s16le",
-  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Voice/v02/voice_en_atempo110_v02.wav",
-  "output_sha256": "cee8d766f041e4a46b5782861139055a0bd8bb943bdf026ffc9b74e619fd4368",
-  "applied_once": true
-}

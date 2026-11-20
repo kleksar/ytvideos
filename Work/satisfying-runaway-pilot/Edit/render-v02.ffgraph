@@ -1,7 +1,0 @@
-[0:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=24:end_frame=147,setpts=PTS-STARTPTS[water];
-[1:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=18:end_frame=145,setpts=PTS-STARTPTS[falls];
-[2:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=36:end_frame=224,setpts=PTS-STARTPTS[lake];
-[water][falls][lake]concat=n=3:v=1:a=0,settb=1/30,setpts=N[sequence];
-color=c=white:s=1080x1920:r=30:d=14.6,format=yuv420p[white];
-[sequence][white]blend=all_expr='A+(B-A)*0.68*(1+cos(PI*min(3,abs(round(T*30)-250))/3))/2':enable='between(n,247,253)'[video];
-[3:a]asetpts=N/SR/TB,atrim=start_sample=792639:end_sample=1436499,asetpts=PTS-STARTPTS,volume=0.8dB,afade=t=in:st=0:d=0.025,afade=t=out:st=14.44:d=0.16[audio]

@@ -1,5 +1,0 @@
-Статус: ролик не создан. В изолированной копии создан run 5e2a9027-25d9-4320-b966-478aa1dc1ef5 для Paper Detour / Short, полный переданный текст сохранён как source_script SHA-256 e6c32fc34e449a36600e21660171d0e0135bfd0554a7a504d350293643ac2602. Профиль готов: 1440×2560, 30 fps, английский, Lawrence 1.10×, музыка обязательна.
-
-Фактический blocker: runtime поставил первой задачу research (ytv-write-script), но она недоступна без наблюдённой capability web.search. doctor подтвердил локальные state/artifact storage, ffmpeg и ffprobe; approval.bridge и approval.verifier отсутствуют. Production capabilities (audio/image/subtitles/render/vision) не были подтверждены. Нет MP4 или других media artifacts; платные генерации и публикации не выполнялись.
-
-Run остается working, без approvals и записанных blockers; next показывает research как недиспетчеризуемую из-за web.search. Следующий необходимый шаг — обеспечить/зафиксировать web.search в runtime и повторно запросить next; далее production потребует проверенных нужных capabilities и доступного trusted approval bridge для принятого текста.

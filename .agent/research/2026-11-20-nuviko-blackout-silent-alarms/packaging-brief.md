@@ -1,0 +1,16 @@
+# Packaging brief — 2003 Blackout / silent alarms
+
+**Story:** Nuviko History, 2003 North American blackout; original documentary narration, not a reconstruction of an existing film's dialogue or narration. **Recommended 05m Long**, author opinion, NOT exact approved master.
+
+Potential EN title A: **50 Million Lost Power. The Alarms Had Already Failed.**
+Alternate EN title B: **The Blackout That Spread While The Alarms Were Silent.**
+Full RU meaning: **Пятьдесят миллионов без света. Сигнализация уже молчала.**
+
+- Promise: why did local trouble in northern Ohio stop subway trains in New York and lights in Toronto? Avoid “one tree alone switched off everything”, “cyberattack”, “operators saw nothing” or other misleading claims.
+- First 05m words: “How did an electrical problem near Cleveland stop subway trains in New York and cut power in Toronto?” First image concept: **2003-era stopped subway** in a dark tunnel, clearly **illustrative original reconstruction** and not a borrowed real photograph. Follow quickly with northern Ohio generating plant and regional control room in a credible professional workspace. No unverified on-screen actual alarm wording.
+- Mechanism/reveal: 1:31 generator, two independently degraded information systems, 3:05/3:32 tree/line failures, overload and cascade shortly after 4:10, then real human emergency.
+- Payoff: 413 stranded subway trains' passengers evacuated, documented elevator rescues and **four separate categories** in Canada-US investigation; the program/alarm alone was not sole cause. Title and cover must pay off in explanation and consequences, not the first fact alone.
+- Cover draft: a large, credible dark metro carriage seen from inside, contrasted with an Ohio control-room monitor whose alert indicator is **visually quiet without fabricated precise text**; if using external 2D Nuviko narrator, verify accepted turnaround and emotions PNG bytes and QA first. The rest of the world photographic. No fake historical/archive stamps, no editorial text overlays beyond permitted subtitles. This is **only a brief, no generated media**.
+- 02m: one chain of faults and documented human outcome, complete, but pace/estimated 2.2m EN must be remeasured; proposed **Long**, so Short seam **N_A**. 05m: structured documentary questions, ordinary summer immersion, clear main hook after context, cascade, rescue, explanation and emotionally specific final line. 10m: add separate verified PATH/train procedures, 52nd and 32nd floor elevator rescues, backup dispatch and restoration, but requires further pace edit before production.
+- Storyboard/scene prompts: **NOT PRODUCED**. Independent review of exact recommended text remains UNVERIFIED. Only after review, bind one recommended variant and SHA-256 `7030badcbee9ad90112ab9ddc1288f459e6b9f17de94db381b75481c3d19f504` and consult current visual/production pins. Never reuse spans/timings from other lengths or old runs.
+- External comparison: Practical Engineering 2022 long 21m had ~5.5m lifetime views, different genre/channel; same-author 2022 nearby baseline ~3.7m, not matched age/duration. Public 2023 news recaps 20,980 and 2,437 views; fresh 30–90-day comparable Nuviko demand, CTR and retention **UNVERIFIED**. No third-party media or music licensed or downloaded.

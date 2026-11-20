@@ -1,5 +1,0 @@
-# Черновой микс: paper_washington
-
-Источник речи: voice_en.mp3, SHA-256 `e40ab7ce3f0739a9a0d20a3dee81416e632b7bddb0ebde7776ce9243a6fa445b`. Один раз применено `ffmpeg atempo=1.1`, результат voice_en_110_draft.wav, SHA-256 `103ba662cdf8a75278eb2babd865b3d71835b57360c5b3c748223a4d832d787b`. Музыкальный кандидат: Limit 70.mp3, SHA-256 `b3d2463a32cd6e87a2e0bdb9056113f3702883acbe617a6b029cc14c85561f33`, из локальных Downloads; карточка автора и CC BY 4.0 проверены в Chrome. Фрагмент с 20 с, уровень 0.13, выходной фейд 0.25 с. Сведение: `[0:a]apad,atrim=duration=28.666666666666668[v];[1:a]atrim=start=20:duration=28.666666666666668,asetpts=PTS-STARTPTS,volume=0.13,afade=t=out:st=28.416666666666668:d=0.25[m];[v][m]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95:latency=1[out]`. Итог mix_110_draft.wav, SHA-256 `bf7f65b5550f3f1a7d840d5847182d386e30a8ebbbe3e17284e8d7b7ac94a7b8`.
-
-Это технический черновик, не принятый микс: нужны прослушивание голоса и музыки, проверка баланса, границ речи, версии трека и соответствующей атрибуции. Тайминги слов — автоматическая оценка; возможна погрешность после преобразования темпа.

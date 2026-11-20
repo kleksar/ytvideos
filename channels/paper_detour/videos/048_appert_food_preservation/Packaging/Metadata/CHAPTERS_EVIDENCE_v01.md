@@ -1,3 +1,0 @@
-# Chapters v01 — exact v05 MP4
-
-Video SHA-256: 8df52ada637e81e5537fbe48f0f4cddeebc2021884e0459ffdf4d529488f1bd4, 173.2 s. The source is the v02 forced-aligned map tied to the same retained mix, applied unchanged in v05. Word-level machine-aligned starts: 00:34.1 (at the time), 00:59.3 (his method), 01:30.1 (in March 1809), 01:57.5 (proposal to publish), 02:24.3 (Appert described). Boundaries rounded to preceding whole second. Structural validator passed 2026-11-05 against exact MP4. No boundary audio playback performed: map is REVIEW_REQUIRED, and timing remains machine-checked, not playback-checked. User's positive response applies to film; it does not prove chapter boundary listening.

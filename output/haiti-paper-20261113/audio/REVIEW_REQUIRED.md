@@ -1,7 +1,0 @@
-# Audio candidates — review required
-
-- `narration_110.wav` was derived from the recorded Lawrence source by FFmpeg atempo=1.1 exactly once (duration 43.419637s).
-- `mix_candidate.wav` contains the 1.1x narration and a candidate music bed, Constance by Kevin MacLeod, catalogued CC BY 4.0, requiring attribution on release. Music suitability and balance have not been heard. Original Whisper small transcript matches the exact script's normalized words, 130/130.
-- `narration_tight_candidate.wav` removes the centre of 16 detected -35dB silence spans longer than 250ms, retaining 200ms of each, duration 38.928594s. `pause_conform_candidate.json` contains the exact mapping. Detection does not establish those spans contain no meaningful speech. Cuts require listening, and the storyboard must be conformed to the new duration.
-- `mix_tight_candidate.wav` is the shorter narration with the same candidate music, SHA256 85481e961362f7e2b3052ebae2e1ea6e8d3faf1299eedebaf48c9927cf2e8e36. Its word-map is `words_tight_candidate.json` and its draft SRT is `captions_tight_candidate.srt`. SRT parser and exact text coverage pass; timestamps are scaled provider estimates conformed to removed gaps and have not been heard or visually reviewed.
-- Sound quality, pronunciation, word transitions, choice of music, relative levels, stereo fold-down and loop remain UNVERIFIED. Audio task was not completed and no listening PASS was recorded. Whisper transcript is automated data, not proof of listening.

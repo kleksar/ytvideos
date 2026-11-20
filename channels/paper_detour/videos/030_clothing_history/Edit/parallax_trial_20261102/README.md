@@ -1,3 +1,0 @@
-# Parallax trial 030
-
-User asked to stop with current result. Project B1BA2D18, timeline 58E4A048, snapshot D8722410. All 39 scenes have parallax plus original camera keyframes. Wider framing was applied to scenes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 18. Remaining scenes use tighter framing; heads/garments are visibly cropped in some. All scenes retain their frame ranges and camera keys. 34 accents, grain and Mix tracks were preserved as timeline data. Full-rate playback and final export were not reviewed. The original v06 timeline A7C273C5 remains. Imported video files in this directory must remain in place.

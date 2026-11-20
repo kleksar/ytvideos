@@ -1,1 +1,0 @@
-User explicitly requested public release of the presented uploaded video: “открывай в открытый” on 2026-11-07. Under project release policy this accepts the exact MP4 and shown packaging A. MP4 SHA-256 660587120d7588961c4c8eea2130795b5a5632cf920b205211b7ac1443dd1fca; YouTube aS3TxDoPjjU. This records authorization, not independent playback.

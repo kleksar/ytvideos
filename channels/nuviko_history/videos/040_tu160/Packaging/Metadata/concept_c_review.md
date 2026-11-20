@@ -1,5 +1,0 @@
-# Cover C — incomplete
-
-v01: text ONE COULD TURN BACK correctly spelled, but closed silo is unreadable as such at 180 px. v02 changed the scene to an aircraft approaching the runway; local 180×101 preview shows the plane too small, making the returning action rely mostly on text. v03 enlarged it, but introduced incorrect Tu-160 engine and landing-gear geometry, so is rejected. All three files are drafts; C does not yet pass phone-size and aircraft-identity acceptance. Continue refining C with an accurate Tu-160 reference before calling the A/B package ready. Do not claim the film depicts a specific crisis.
-
-v04: edited rejected v03 against a real Tu-160 landing reference, removing the false circular intakes and extra landing bogie. Master shows two rectangular nacelles and a tricycle landing gear, with plane larger and descending toward an illuminated runway. Exact text ONE COULD TURN BACK is legible at 180×101 in the local preview. The image depicts a generalized return, not a particular event. This is a candidate, not user acceptance or a verified real YouTube mobile card. Native image 1672×941; preview manifest in preview_c_v04.

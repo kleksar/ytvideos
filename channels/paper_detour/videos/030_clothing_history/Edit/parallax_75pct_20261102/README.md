@@ -1,9 +1,0 @@
-# Paper Detour 030 — 15-scene gentle parallax test
-
-User requested a quicker 15-scene test and matching lateral direction between visible parallax motion and picture motion. Project B1BA2D18, test timeline **57A71C61**, `Clothing History — 15 scenes gentle aligned parallax`; final snapshot **BEF18027**. Contains the first 15 scenes, 2146 frames / 71.533 s, 13 existing accents, grain and the existing mix trimmed at the same cut. This is a test excerpt, not the full film; the audio may end mid-thought.
-
-Each scene is freshly rendered at 1920×1080, 30 fps, with the previous DepthFlow height .26 and per-scene framing, and offset amplitude reduced from .22 to .165 (75%). Offset direction alternates. Scale and positional travel were reduced around the original center to approximately 75%; Palmier reports keys rounded to three decimals. Visible image movement from the rendered frames goes left on odd scenes and right on even scenes. Horizontal center movement in scenes 2, 5, 10, 12 and 15 was reversed to match it; vertical and zoom direction were retained. Video files under this directory are referenced in place by Palmier and must remain available.
-
-Final structure, per-scene durations, media and keys were checked via Palmier API. The author inspected three composite frame samples per scene; these samples have Palmier's diagnostic grid. Matching foreground direction was assessed on raw rendered frames, and horizontal position keys were checked numerically. No complete real-time playback, final export, listening or independent review has been performed.
-
-The accepted earlier strong-effect trial **58E4A048** and v06 **A7C273C5** are unchanged. Intermediate **B75DA155** is an incomplete 39-scene working copy (18 scenes processed before user shortened the scope); it is not the finished test. No .palmier file was edited manually. API receipts, source and target timeline snapshots, and measurement logs are retained here.

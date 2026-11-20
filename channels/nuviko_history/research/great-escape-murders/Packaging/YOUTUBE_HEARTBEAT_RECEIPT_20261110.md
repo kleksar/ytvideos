@@ -1,9 +1,0 @@
-# YouTube release check — 2026-11-10, 08:15 UTC
-
-- User authorized immediate Public release on 2026-11-09, with thumbnail A, playlist, metadata completion and A/B; under root §7 this accepts the exact current MP4 and selected packaging for release. This is not evidence of a witnessed user playback.
-- Target: Nuviko History, channel `UCbyLx6Rf3iWww4bPZJ2oo2A`; existing video `nG30GMYJ7Ho`. Source `Deliverables/GREAT_ESCAPE_EN_review_v04.mp4`, recorded SHA-256 `1c05548022bde3fc236e3db4eae5e60ea336832ce8f66b80fa7bc3e235628699`. No duplicate upload.
-- API reads succeeded: quota is available; authenticated channel and video ownership match. Video processing succeeded; privacy remains `private`. Existing title and description A, chapter text, music credit and hashtags are present.
-- `thumbnails.set` applied `Packaging/thumbnail_A_v01_upload.jpg`: API accepted; subsequent readback matched response URLs. Actual destination pixels/crop have not been independently inspected.
-- Existing public playlist `History Documentaries` (`PLCtiNAU_98r0`) fits this documentary; its 13 existing items do not include this video. No playlist write: current token has only `youtube.upload` and `youtube.readonly`, not playlist management scope.
-- `captions.list` returned HTTP 403 `ACCESS_TOKEN_SCOPE_INSUFFICIENT`; no claim can be made about existing caption tracks. The release requires a verified manual English track before leaving Private. Playlist and privacy changes also require a management scope. The earlier broad-scope authorization attempt was rejected by automatic approval review; no Studio workaround was attempted.
-- Public, playlist insertion, captions, native end screen, and A/B were not completed. A/B must not be reported as started; do not delete local media. Restore authorization with the management permissions actually needed, reconcile current external state, complete required checks and then follow the requested Public flow.

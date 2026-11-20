@@ -1,5 +1,0 @@
-# Accent PNG generation log v01
-
-2026-11-02, built-in imagegen, transparent background, with positive Paper Detour accent references `A_MESSAGE.png` and `MATCH.png` from episode001. Four exact phrase assets: `HOSTILE SURFACE`, `SEVEN BROKEN RIBS`, `REFUGE → TRAP`, `A SECRET IN STONE`. Alpha channel verified non-opaque at corners; phrase spelling and overall paper style opened visually. Shared cream face masks manually bounded in the manifest because the automatic band finder split small pixels in C02/C04. Candidate lettering, not accepted as a project typography family.
-
-Static composites rendered by `render_paper_captions.py` using the explicit manifest at 1080×1920, common 80 px visible face height, primary center [0.5,0.12], alt center [0.5,0.85]. Tool report: 4 cues, 4 pairs. Static full and phone previews reviewed individually. The chosen caption overlays fit; all phone previews opened. Alternate anchors exist in the renderer output but were not selected. Visual style acceptance, safe-area UI, motion path, sync and playback remain unverified.

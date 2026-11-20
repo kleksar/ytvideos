@@ -1,3 +1,0 @@
-# Trial audio speed evidence
-
-Unaccepted trial for visual and audio preview only. Source voice `Source/Voice/voice_en_v03_end_silence.wav` SHA-256 97e04a40368b7686ed28f16b97abb1d1b818aa97a187ff00cb4a4cb9c4f006db had speed 1.1 applied previously; no additional speed, trim, or delay was applied to the voice for this mix. Music is delayed 105 seconds, fades 4 in / 6 out, and ends at 215 seconds. Stereo mix SHA-256 fe83beea1065bfe9f24aa025f08225b1367a160c35165f507303bbb577e6a629. Subjective listening, musical suitability and speech/music balance remain UNVERIFIED. Original word times were copied unchanged: mixing introduced no shift in voice placement.

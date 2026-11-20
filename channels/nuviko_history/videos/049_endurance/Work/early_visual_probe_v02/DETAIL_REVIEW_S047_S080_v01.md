@@ -1,8 +1,0 @@
-# Detail review S047 and S080 — partial
-
-- S047_candidate_v01.png (`190e5ecec00ccae0a87623070d35e3c9224e46cd4b1e70824db2413da537d483`): five heads/bodies are distinguishable: two foreground and three crowded near the bow. A sixth cannot be confirmed or ruled out behind the crowd or covered load. The image does not independently establish the full crew count. Whether six must be visibly countable in this specific beat still requires comparison with the shot assignment.
-- S080_candidate_v02.png (`0b876eb04024dee677287ea2bd987421931ab0c1f5eb22fc8be4d6074d7b57a6`): the foreground climber uses a short adze on steps, with rope round his waist; a rope runs toward the two figures above, but the joining section is hidden by his body. The picture does not demonstrate uninterrupted physical connection; no visible severed segment was confirmed. Motion and subtitle fit are not verified by this image.
-
-Full image viewed at original resolution. This is not full acceptance of either scene.
-
-The S047 storyboard asks to emphasize the last pair with others partially visible and protect a total of six; it does not require six separately visible faces. Five are distinct in this angle, and the covered/crowded area leaves the remainder indeterminate. The picture does not explicitly contradict six, but cannot be used as evidence that six are visible. S080 assignment requires the other two to stabilize the rope and use of an adze; all three figures, the hand-held adze and rope toward the upper figures are visible, while the attachment is occluded. These observations alone do not establish anatomy/continuity or acceptance.

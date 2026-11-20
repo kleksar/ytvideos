@@ -1,9 +1,0 @@
-# MP4 review receipt — The Great Emu War
-
-- File: `Deliverables/review_v02.mp4`; SHA-256 `660587120d7588961c4c8eea2130795b5a5632cf920b205211b7ac1443dd1fca`; 768365981 bytes.
-- Purpose: user review; no final acceptance or permission to publish. New production from accepted narration, not a replacement of the published episode.
-- FFprobe: 300.2 s, 9006 video frames, 2560×1440, 30 fps, H.264 High, yuv420p, Rec.709 limited; AAC-LC stereo 48 kHz. Full audio/video FFmpeg decode completed without errors. `EXPORT_REVIEW_v02.json` and `render_review_v02/settings_check.json` record the rendering contract.
-- Visual inspection of 189 sampled frames: start/middle/end of each of 63 scenes, contact sheets `qa_review_v02/contact_01.jpg`–`contact_09.jpg`. Previously clipped labels S002, S010, S017, S028, S034, S046, S054 are legible in samples; subtitle overlap on S061 removed. This is sampled review, not continuous playback or independent review.
-- Narration and mix: `voice/mix_draft_v01.wav`, exact mix hash `4f8a555e3524429172b844f3b0c54aa64ce8f47bd767ffa2a7e722837f14b888`. Forced alignment coverage 893/893, ordered and delay-adjusted 5 ms, but audible sync, speech, musical transitions, mix balance and suitability have not been listened to. Subtitle timing and remaining linguistic warnings are not independently accepted. Do not claim audio QA PASS.
-- Music credit and license: `music/CREDIT.md`.
-- Lifecycle: superseded owned `Deliverables/review_draft_v01.mp4`, SHA-256 `737ff7e1c54187705230d7f159bc91ede20c7c0cebb40808d10ec80bf9da7a69`, 768514192 bytes, moved reversibly by `trash` to `/Users/diplomat/.Trash/review_draft_v01.mp4` after v02 completed and decode/sample checks; no open descriptor observed. Before free space 26620580 KiB; after 26587368 KiB. No space reclamation attributed to move; other work was active. No permanent deletion. Remaining QA and render dependencies retained; storage cleanup PARTIAL pending safe lifecycle assessment.

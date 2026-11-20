@@ -1,3 +1,0 @@
-# User exception — 2026-11-04
-
-The user reviewed the full MP4 and approved upload. After being informed that subtitles partially overlap story tokens at 1:09–1:13 and 5:10–5:14, the user answered: «Да, загружай как есть». This is an explicit instruction to upload this exact accepted file despite those two disclosed visual findings; it does not make visual placement a PASS. Media SHA-256: `08148e7ed48c7928cf5a913919a8f7dfa51e5972c0aa83dedfc5ade2cf301bc4`. Target is Paper Detour, private. All other receipt checks remain required. The default project release validator does not encode a user-accepted FAIL and therefore rejects this exception; use an episode-scoped exception-aware check preserving the failed review and verifying all remaining inputs.

@@ -1,5 +1,0 @@
-# V10 boundary and source SRT review
-
-Target MP4 SHA-256 `ea59837f7c2a4ae705450c8e2be48fc23827d4da0bc147b83e7b720a4f17e4ef`. Ten `boundary_sheets/bound_*.jpg` present start and last frames of all 118 scenes (236 samples) in timeline order; reviewed as contact sheets at reduced size on 2026-11-07. No obvious black insertion or mixed opposing uniforms at this reduction; not a full-resolution inspection or continuous playback, and not a speech-sync pass.
-
-The source-time English SRT draft `Work/rebuild-early-20261106/scratch/source_en_wrapped_draft_v03.srt`, SHA-256 `2071c7daa59815e871a7721e8833a7e4967464ff3f8bfb9d8802e302cac1589c`, preserves all 192 cue texts and timings from source_en_draft_v02; only whitespace line wraps changed. `srt-wrapped-check.json` confirms structure and strict text coverage PASS, 0 warnings for >2 lines or >42 chars/line; 22 cues exceed the chosen 20 cps warning threshold. This threshold is a diagnostic, not a claim of failure against a channel rule. Timing mapping, actual speech playback and semantic breaks remain UNVERIFIED. This is a source-time draft, not a final approved or uploaded SRT. No external changes.

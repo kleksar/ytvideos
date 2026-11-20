@@ -1,1 +1,0 @@
-Diagnostic excerpt only. Source voice SHA-256 b972311d983172c43d6a48b568824c3ef94650b8e6bfe4868997da7258893ce3; provider speed 1.1x applied once to source. Extracted at 506.26666666666665 s for 4.4 s using FFmpeg; no time scaling. Excerpt SHA-256 8d523c81ffe8e84ef686d358854c0f8e4dc19f85a54737f4ff41ee3fb0d8e5f1. Not a final mix or audible alignment review.

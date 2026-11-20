@@ -1,5 +1,0 @@
-# Candidate camera endpoints — static contact review
-
-All 122 start/end candidate camera positions from `Work/mix_subtitle_preflight_only_v01.json` are represented on `endpoints_01.jpg`–`endpoints_11.jpg` (scene labels and storyboard order). Derived with proportional center fit and normalized camera bounds using PIL, 320×180 per position: these are approximations, not frames decoded from FFmpeg. Reviewed the eleven sheets visually. At this size the main subjects persist across both endpoints; the headings on S008, S023, S062, S081, S093–S095, S101, S110, S115 and S121–S122 remain within the endpoint images. S110 heading is close to the upper edge: verify against actual rendered movement. S030 food and S116 map remain within the visible image, but subtitle interaction was checked separately only at one midpoint. S047 passenger count and S080 rope remain unresolved from earlier individual checks.
-
-Coverage excludes intermediate frames, actual interpolation, subtitle states and sound; it is not video playback, asset acceptance, phone readability or proof of full motion envelope. Sequence and semantic timing have separate open checks.

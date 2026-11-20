@@ -1,5 +1,0 @@
-# Image reference and rights log
-
-- `monument_merida_reference_CC-BY-SA-4.0.jpg` — Yodigo, “Yuri Knorosov monument in Mérida, Yucatán (cropped).jpg,” Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Yuri_Knorosov_monument_in_M%C3%A9rida,_Yucat%C3%A1n_(cropped).jpg . Downloaded 2026-11-01. Attribution required; adaptations should retain CC BY-SA 4.0. Used as factual geometry reference, not included directly in an export.
-- `dresden_codex_page13_public_domain.jpg` — “Glifos mayas - Códice Dresde - 13.2.jpg,” Wikimedia Commons, public-domain reproduction of a two-dimensional public-domain work; page 13, section 2 of Dresden Codex. https://commons.wikimedia.org/wiki/File:Glifos_mayas_-_C%C3%B3dice_Dresde_-_13.2.jpg . Used only as factual visual guide; do not draw invented decipherments on it.
-- For the paper world and the Knorozov illustration, see the in-repository references recorded in `PRODUCTION_DRAFT.md`. The generated character is illustrative, not a photograph or confirmed exact likeness.

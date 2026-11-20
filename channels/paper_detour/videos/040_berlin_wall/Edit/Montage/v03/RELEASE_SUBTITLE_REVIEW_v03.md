@@ -1,9 +1,0 @@
-# Paper 040 v03 — subtitle review and limitations
-
-User reported full viewing and listening of v02 for spoken-word highlighting and subtitle obstruction, 2026-11-03; see ../v02/user_subtitle_review_20261103.json. v03 retains the same picture, voice source and word start map; only grouping of nine sentences was changed to keep nine split names and places together. The user explicitly allowed the existing German/English pairing “Unverzüglich. Immediately.” The 378 v03 groups were reviewed for semantic continuity and targeted name corrections; full word order and timing map were validated mechanically.
-
-25 affected v03 groups were inspected at entry, middle and end (75 extracted frames; see Work/render-v04/qa_changed_v03/samples.json and contact_1–3.jpg). Text was legible and critical faces/action in these samples were not blocked. This is a sample, not full playback or independent review. User assessment of unchanged portions remains v02 assessment; v03 was separately accepted with “да, пушка”.
-
-Full v03 streams decoded successfully. The v03 audio decoded to 21,800,960 PCM samples; the conformed input has 21,799,892 samples. Zero-lag signal correlation over input length 0.999956 and relative RMS error 0.009455 support preserved audio timing with AAC loss and end padding. Audible sync evidence is the user's full v02 listening together with the unchanged alignment and confirmed signal correspondence; direct listening to the v03 export is not claimed.
-
-Known limitation: the final word “him.” in the retained map starts at 494.290909 s and its mapped end was clamped to 494.328617 s; the provider timing/end mismatch was not independently resolved. The user had confirmed listening to the full prior file including sync and expressly accepted the revised file. Frame sampling cannot establish timing of uninspected transitions.

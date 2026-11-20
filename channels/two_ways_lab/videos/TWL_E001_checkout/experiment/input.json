@@ -1,9 +1,0 @@
-{
-  "episode_id": "TWL_E001",
-  "time_unit": "model_seconds",
-  "metric": "time_until_viewer_turn",
-  "items_per_customer": {"A": [14, 11], "B": [2, 3, 4, 2, 3]},
-  "scan_seconds_per_item": 2,
-  "payment_seconds_per_customer": [4, 12],
-  "assumptions": ["single sequential server per lane", "no arrivals or delays", "viewer is behind both test lines and excluded from service"]
-}

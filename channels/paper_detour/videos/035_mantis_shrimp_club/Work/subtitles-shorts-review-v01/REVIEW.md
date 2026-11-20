@@ -1,5 +1,0 @@
-# Short 035 subtitle review v04
-
-Full narration is presented as 43 semantic groups, 117 timed words; the complete aligned transcript matches the source text. Cream text with warm yellow active word and dark outline. Screenshot-informed region x=70..920, y=580..770 on 1080x1920. The screenshot documents one device and UI, not a universal safe area. Seven frames visually sampled (30, 210, 420, 540, 810, 1000, 1200); all have legible text in this sample, without sampled overlap with the large title cards or main animals. No real-device interface overlay, full-frame review, subjective listening, or independent review. Automatic alignment and 25 fps concat timing quantization mean audible word sync remains UNVERIFIED.
-
-Preview is derived from the accepted final MP4, using FFmpeg overlays; no Palmier timeline edit. Preview SHA256 `5ca5c61baa545ca5407d28ff29584f973bdf19cc1257c2fe2d8029b5cd66c747`. Complete decode passed. Source AAC packet hash `fa62402cefdf8c325d58b3f4dd50d2a3ca5df97248b624255e5b453916246d1c` matches preview. Previous v01/v02/v03 are intermediate review variants, preserved.

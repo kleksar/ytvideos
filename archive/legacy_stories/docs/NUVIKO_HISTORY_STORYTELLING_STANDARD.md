@@ -1,1 +1,0 @@
-../../../channels/nuviko_history/docs/STORYTELLING_STANDARD.md

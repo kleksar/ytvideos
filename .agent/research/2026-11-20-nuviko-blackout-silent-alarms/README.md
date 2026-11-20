@@ -1,0 +1,17 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Nuviko History — 50 Million Lost Power. The Alarms Had Already Failed.
+
+**RU логлайн:** 14 августа 2003 года около пятидесяти миллионов человек в США и Канаде остались без электричества. Сбой в Огайо распространился через взаимосвязанную сеть, пока неисправная сигнализация и отдельная неполадка регионального мониторинга мешали диспетчерам заметить опасность. В Нью-Йорке людей выводили из метро и освобождали из застрявших лифтов. Расследование нашло четыре группы причин, а не одну сломанную программу.
+
+| Редакция / формат | Full English narration | Полный смысловой русский | Редакционная оценка |
+|---|---|---|---|
+| 02m / Long | [Full EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/nuviko-2003-blackout-alarms-20261120/.agent/research/2026-11-20-nuviko-blackout-silent-alarms/variants/02m/script.en.txt) | [Полный RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/nuviko-2003-blackout-alarms-20261120/.agent/research/2026-11-20-nuviko-blackout-silent-alarms/variants/02m/script.ru.txt) | STRONG_CANDIDATE |
+| 05m / Long | [Full EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/nuviko-2003-blackout-alarms-20261120/.agent/research/2026-11-20-nuviko-blackout-silent-alarms/variants/05m/script.en.txt) | [Полный RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/nuviko-2003-blackout-alarms-20261120/.agent/research/2026-11-20-nuviko-blackout-silent-alarms/variants/05m/script.ru.txt) | **STRONG_CANDIDATE — recommended** |
+| 10m / Long | [Full EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/nuviko-2003-blackout-alarms-20261120/.agent/research/2026-11-20-nuviko-blackout-silent-alarms/variants/10m/script.en.txt) | [Полный RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/nuviko-2003-blackout-alarms-20261120/.agent/research/2026-11-20-nuviko-blackout-silent-alarms/variants/10m/script.ru.txt) | REWORK |
+
+**Рекомендация: 05m Long.** 02m завершена и содержит финал, но быстро проходит от технической цепочки к спасению. 05m раскрывает два отдельных сбоя наблюдения, перераспределение нагрузки, 413 эвакуированных составов метро, помощь людям и выводы расследования. 10m тоже полностью написана, но после кульминации техническое объяснение и обширные последствия замедляют повествование; её оценка — REWORK, а не автоматические 9–10.
+
+[Общее исследование](https://github.com/kleksar/ytvideos/blob/work/story-drafts/nuviko-2003-blackout-alarms-20261120/.agent/research/2026-11-20-nuviko-blackout-silent-alarms/research.md) · [Восемь критериев для каждой версии, SHA-256 всех текстов](https://github.com/kleksar/ytvideos/blob/work/story-drafts/nuviko-2003-blackout-alarms-20261120/.agent/research/2026-11-20-nuviko-blackout-silent-alarms/story-review.md) · [Packaging brief](https://github.com/kleksar/ytvideos/blob/work/story-drafts/nuviko-2003-blackout-alarms-20261120/.agent/research/2026-11-20-nuviko-blackout-silent-alarms/packaging-brief.md) · [Handoff / blockers](https://github.com/kleksar/ytvideos/blob/work/story-drafts/nuviko-2003-blackout-alarms-20261120/.agent/research/2026-11-20-nuviko-blackout-silent-alarms/handoff.md).
+
+**Не производство:** `uv run ytv start` не доступен (исполняемый `ytv` отсутствует в данном host), независимый reviewer UNVERIFIED, official script gate/approval не пройдены. Все тексты — редакционная Git-only очередь, а не TTS или MP4. Объективный сопоставимый спрос, CTR, удержание UNVERIFIED. Не разрешено media, upload, публикация, merge или изменение расписаний.

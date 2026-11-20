@@ -1,3 +1,0 @@
-# Neptune Short subtitle preflight
-Read all 38 groups against the exact 102-word narration; timings were carried from the provider character map by the single 1.10x conform, and renderer events were compared with ceil(start × 30). Three-word cap forces fragments including “By the next / night / it had shifted”; sequence still reads in order, without changing text. No arbitrary timeline shift.
-Inspected all 21 actual-source composites (first, middle, last frame of each of seven shots), including the colored word highlight and subtitle margin. Some cream captions cross pale paper in S006/S007; the dark outline keeps them legible, and neither the changed position nor the NEPTUNE tab is obscured. The exact encoded composite with the animated frame is a separate check.

@@ -1,9 +1,0 @@
-# TWL_E001 v18 — original supermarket rebuild
-
-MP4 SHA-256 `963970a46ef3b1c2ff96dd2b463e5349859496d11ec4bd733a42862c8cac3d59`. User acceptance pending.
-
-- User confirmed the reference: the original cartoon supermarket, red-plaid protagonist, two checkouts and colored lanes. All states use the exact same generated background; generated transparent character and cart assets are scaled/positioned as static layers. Individual sources and composite states were visually inspected. The scene count and ordering reflect two carts, five baskets, four, three and finally one ahead of protagonist; customer positions advance at cuts. Both lanes remain fixed because every state is composed from the same background.
-- Phone-scale final-file samples at frames 30, 150, 230, 360, 480, 630, 720 and 780 are in `v18_sheet.jpg`. These samples do not prove the quality of every frame, subjective playback, or the absence of all artifacts. The front customer is shown holding a payment card in the payment scene; his hand is not shown touching the terminal.
-- Pre-render settings check and full FFmpeg decode passed; streams in `ffprobe_v18.json`. Narration and subtitle cue sources are unchanged from v17; independently generated lettering was retained with originals and hashes in `../image_manifest_v18.json`. No new scripted screen text other than narration subtitles.
-- Actual full-video listening, loop playback, physical phone review and independent review remain unverified. User authorization does not include YouTube upload.
-- At user request old local generated sources, scratch media and obsolete imagegen originals were removed using identity-checked receipts `CLEANUP_v18.json`, `CLEANUP_v18_work.json` and `CLEANUP_v18_generated.json`; current source assets, active audio and channel brand were retained. The macOS Trash was not emptied.

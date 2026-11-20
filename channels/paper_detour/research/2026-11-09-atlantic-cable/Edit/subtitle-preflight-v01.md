@@ -1,3 +1,0 @@
-# Atlantic Cable EN v01 preflight
-Read all 215 groups in order against the 896 exact narrated words. The narrator's names, 1866 expedition, operating principle and closure remain intact. Seventeen heuristic warnings are style breaks where the next phrase completes the sense. Exact source words and first display frames were checked mechanically against the one-time audio conform.
-Inspected all 56 actual-source composites after five replacements, including August 1858, Newfoundland/Ireland, light spot and the final end screen. The date is now outside the caption area, the receiver is period-appropriate, and the light beam and its spot are distinct. Final 300-frame end screen is reserved for cards, with no speech overlay.

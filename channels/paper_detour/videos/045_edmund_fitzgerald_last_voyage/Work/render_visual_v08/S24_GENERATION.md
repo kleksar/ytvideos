@@ -1,7 +1,0 @@
-# S24 targeted visual repair
-
-Built-in image_gen edited the accepted S24 scene to move the existing LOSS REPORTED sign above the subtitle area, preserving the story, ship/radio/station, storm and paper style. Prompt: “Use case: precise-object-edit. Edit target: the supplied Paper Detour film scene. Preserve the entire existing paper diorama, storm, ship, radio, lighting, viewpoint and all other details. Move the existing paper headline reading exactly “LOSS REPORTED” higher into the composition, clearly above the bottom quarter, without covering the ship or radio. Fill its previous location naturally with the existing paper scenery. Reserve the bottom fifth free of any lettering and important objects for a subtitle line; do not add subtitles or borders. Preserve the exact English headline spelling and paper lettering style. Maintain landscape 16:9 composition and high resolution suitable for 1920x1080 film.”
-
-Reference: /Users/diplomat/ytvideos/channels/paper_detour/videos/045_edmund_fitzgerald_last_voyage/Source/Images/paper_v05/S24.png SHA256 eecb73b4b1cbadd5945d0ab4620549db2e6a995077bc68228a6b4d44aa346f72
-Output: /Users/diplomat/ytvideos/channels/paper_detour/videos/045_edmund_fitzgerald_last_voyage/Source/Images/paper_v07/S24.png SHA256 ac7fed3c0e0fad5afd900e1949d0a26f76d070e0d32ffb1af1a6618b4694a199
-Tool controls: reference path and opaque background; no other generation controls exposed. Model and seed unknown. Image observed: radio, ship, shore and readable LOSS REPORTED label; no people; no subtitle overlap in source.

@@ -1,9 +1,0 @@
-# Проверка трёх Shorts — 2026-11-06
-
-Три разрешённых пользователем запроса vidIQ Keyword Research по 5 кредитов. Метрики ниже относятся к поисковым фразам, а не к точным хэштегам. Прежние хэштеги сохранены в прежнем порядке. Примеры употребления ниже проверены через YouTube Data API; это не измерение популярности метки.
-
-- Bfgcq4rxQT8: `mantis shrimp evolution` — менее 750 предполагаемых поисков в месяц; среди связанных запросов `mantis shrimp punch` — 62 188, `spearer mantis shrimp` — 4 114. Содержательно подходят #MarineAnimals и #MantisShrimpPunch; употребление наблюдалось у https://www.youtube.com/watch?v=LEFwN5nMCWM и https://www.youtube.com/watch?v=jkfxLF2EEms. Специфичные виды и #SpearerMantisShrimp без наблюдения не добавлены.
-- zA0kogtqoUs: `Harrison Okene rescue` — 4 768 предполагаемых поисков в месяц; связанные `harrison okene` — 64 698 и `underwater survival` — 4 629. Подходят #DivingRescue и #UnderwaterSurvival; употребление наблюдалось у https://www.youtube.com/watch?v=v7wF_wLwXd4 и https://www.youtube.com/watch?v=c6RAjbQ54Go. Запросы интервью и полного видео спасения исключены: ролик не содержит этих материалов. Длинное название оставлено по ранее зарегистрированному решению пользователя.
-- g95tLmrQ2VM: `Yuri Knorozov cat` — менее 750 предполагаемых поисков в месяц; связанные `yuri knorozov` — 6 266 и `siamese cat` — 35 124. Подходят #MayaDecipherment и #SiameseCat; употребление наблюдалось у https://www.youtube.com/watch?v=TUggzF7cPTE и https://www.youtube.com/watch?v=c-3fIVBRbLc. Запросы, не относящиеся к сюжету (сон, сторонние бренды), исключены.
-
-Основания, полные ранее предложенные тексты и сохранённая исходная карточка: BATCH_4_DRAFT.md и batch4-live.json. Основные названия и тексты описаний сохранить. Платные вызовы сверх трёх согласованных не запускались.

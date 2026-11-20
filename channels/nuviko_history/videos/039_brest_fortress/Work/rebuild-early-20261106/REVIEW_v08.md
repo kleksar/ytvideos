@@ -1,5 +1,0 @@
-# V08 targeted revision
-
-`previews/full_review_v08.mp4` SHA-256 `423eb9b993ef93360ed89f4e49f8f0e0de28b173e884e8941d582bbc043b6be2`, 622.366667 s, 2560×1440, 30 fps, 18671 frames. Scene 64 at 05:35–05:40.2 uses generated symbolic memorial `revision08_zubachev.png` SHA-256 `5ff33043d8e1a0ef97ad105ccb4ba45012c2b6f5e7d88f7e38de228a174330ef`; cap is generic, not claimed authentic artifact. V08 05:37 frame visually inspected: assigned wording legible and unobstructed by subtitles. Scene timing and prepared mix preserved; six sampled audio windows correlate with prepared WAV above 0.999. Plan and assembly command `replace_empty_render_v08/`. Full subjective listening, complete cue timing and independent review unverified. Previous V07 QA with midpoint sequence sheets `Edit/QA/qa-rebuild-v07-20261107/`; this does not establish V08 full QA. Repeated images at V07 scene indices 59/61 and 73/76/84 require creative review. No YouTube action.
-
-Full FFmpeg `-xerror` video/audio decode completed successfully.

@@ -1,5 +1,0 @@
-# Paper accent drafts — 31 October 2026
-
-Built-in image-generation tool, separate transparent-alpha requests using the existing Paper Detour `001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png` as a style reference. Each prompt requested one line of the exact text, rounded ivory hand-cut paper faces, orange paper backing, depth/shadow, no additional text, transparent background.
-
-Generated, spelling visually inspected as individual images: `SECOND_TIME_draft.png`, `55_PERCENT_draft.png`, `WAITING_FOR_YOU_draft.png`, `NEARLY_8_YEARS_draft.png`, `JESSICA_draft.png`, `AI_CHATBOT_draft.png`, `ANSWERED_draft.png`, `ALL_NIGHT_draft.png`, `NOT_REALLY_HER_draft.png`, `LESS_OFTEN_draft.png`. These approximate the channel reference; identical letterforms are not established. No layout, edge, phone-scale readability, hidden entry/occlusion, timing with voice or movement has been verified. All remain drafts, not imported into Palmier. Additional accents may be required after the final audio and timing.

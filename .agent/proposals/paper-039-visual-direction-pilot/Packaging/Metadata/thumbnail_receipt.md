@@ -1,7 +1,0 @@
-# Thumbnail receipt
-
-Film: review_v02.mp4 SHA-256 660587120d7588961c4c8eea2130795b5a5632cf920b205211b7ac1443dd1fca. Three built-in imagegen creations, 1672×941 native PNG; JPG derivatives at native dimensions, 703286/714573/702868 bytes. Actual reduced composite `../Thumbnails/mobile_comparison.jpg` (320×180 per variant) visually inspected. Local simulation only, no live YouTube/device check. No predicted CTR claimed.
-
-Style reference: channels/paper_detour/brand/References/bold_visual_hooks_20261105_v01/01.png. Image prompts: handmade paper/card diorama, authentic Western Australian countryside, large rounded dimensional lettering, documentary conflict. A: soldiers and emus by a dam, exact text THE EMU WAR. B: 1930s truck on rough ground and emus scattering, exact text THEY SCATTERED; first vidIQ job failed, a later image edit was rejected, so a new nonviolent truck-and-flock scene was made. C: farmer holding wheat, damaged fence and approaching birds, exact text CROPS AT RISK. A includes stylized expressive close-up of an emu; B is an illustrative composite and its truck is a farm truck rather than a literal military reconstruction. A/B/C are different hooks, not user-approved nor uploaded. Images disclose no literal harm-free outcome. Each title and description is available in this directory.
-
-A is recommended because the event, participants and curiosity are immediately legible. Hypothesis to test: unusual historical deployment versus mechanics of scattering versus farmers' stakes. No experiment has been launched.

@@ -1,5 +1,0 @@
-# Черновой микс: history_sarajevo
-
-Источник речи: voice_en.mp3, SHA-256 `b89ca916ca7a44b5a10cb4f9606b6d5c2e0ab03456a110a05b5b124bd7aeb993`. Один раз применено `ffmpeg atempo=1.1`, результат voice_en_110_draft.wav, SHA-256 `1c8f53a67ea1584c00a171fbb6555f18407cfb05bebf02b26e23b30c77f78061`. Музыкальный кандидат: Night Vigil.mp3, SHA-256 `315009fda5154a093570b9f49c1d98202ab5ba4906078713380d130710ada442`, из локальных Downloads; карточка автора и CC BY 4.0 проверены в Chrome. Фрагмент с 20 с, уровень 0.13, выходной фейд 0.25 с. Сведение: `[0:a]apad,atrim=duration=36.86666666666667[v];[1:a]atrim=start=20:duration=36.86666666666667,asetpts=PTS-STARTPTS,volume=0.13,afade=t=out:st=36.61666666666667:d=0.25[m];[v][m]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95:latency=1[out]`. Итог mix_110_draft.wav, SHA-256 `b1fa63788e654eacb8ce8a417574742d5730d9317cbcd169e8381004495c86f6`.
-
-Это технический черновик, не принятый микс: нужны прослушивание голоса и музыки, проверка баланса, границ речи, версии трека и соответствующей атрибуции. Тайминги слов — автоматическая оценка; возможна погрешность после преобразования темпа.

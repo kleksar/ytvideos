@@ -1,7 +1,0 @@
-{
-  "method": "FFmpeg decode each complete1280-frame video to rawvideo SHA256 through hash muxer; no raw stream retained",
-  "before_mux_decoded_sha256": "6256ddee96c476832375b27acf4e92feadf6a7cb471dc09f64504f3112d4c890",
-  "after_mux_decoded_sha256": "6256ddee96c476832375b27acf4e92feadf6a7cb471dc09f64504f3112d4c890",
-  "result": "PASS exact decoded pixel identity",
-  "correction": "Metadata/container-only SAR and zero-PTS correction"
-}

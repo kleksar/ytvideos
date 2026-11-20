@@ -1,5 +1,0 @@
-# Candidate v03 exact-file review
-
-MP4 SHA-256 `6ee1347d4282b7d984ce82dd62b27cf5bc9a711c452e3632fcc7341363d78139`. Technical inspector: full decode and metadata PASS (`report.json`). The inspector plan has the original shot boundaries; the actual v03 edit adjusts two boundaries near 160–164 s, so its scene-indexed coverage is not evidence of those exact cuts.
-
-Coordinator personally inspected actual encoded frames at 1, 12, 25, 120, 153, 162, 165, 170, 181, 185, 196, 201, 207, 212, 221, 226, 230, 240, 246 seconds. In these samples the visible integrated lettering was readable and did not overlap narration captions; the 162/165-second frames reflect the northern/southern transition. The end screen is present at 246 s. This is sampled still coverage only; continuity of motion, all subtitle cues, subjective full-film listening and audible sync remain UNVERIFIED. User previously confirmed sync in three separate technical samples, not this complete MP4. No independent reviewer or user acceptance.

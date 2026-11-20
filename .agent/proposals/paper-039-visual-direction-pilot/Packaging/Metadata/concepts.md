@@ -1,5 +1,0 @@
-# A/B/C concept cards
-A — Why did Australia deploy soldiers against birds? Film: opening dam ambush, then farmers' appeal. Title: Australia Sent Soldiers to Fight Emus. Cover: soldier and machine gun face a flock on farmland; text THE EMU WAR.
-B — Why did the guns fail to contain the birds? Film: flocks scatter, then rough ground defeats the truck. Title: The Birds the Machine Guns Couldn't Stop. Cover: emus scatter past a stranded 1930s truck with gun; text THEY SCATTERED.
-C — What was at stake for the farmers? Film: damaged wheat and fences, repeated requests for help. Title: Why Farmers Asked the Army to Fight Emus. Cover: distressed farmer holds damaged wheat while flock approaches distant fields; text CROPS AT RISK.
-Comparison: A foregrounds an improbable deployment; B the failed tactical mechanism; C the farmers' threatened livelihood. Composition, subject hierarchy, text and answer differ; all are depicted in the locked film. No claim birds were unharmed or military force never killed any.

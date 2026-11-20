@@ -1,3 +1,0 @@
-# Replacement Kasparov scene
-
-Generated 2026-11-02 from original s02 portrait and Paper style reference paper004_user_38.png. Prompt: complete 9:16 paper diorama of Garry Kasparov in a medium-wide three-quarter side view, subject on left facing right toward a chessboard, physical cardstock, lower quarter clean dark tabletop for the existing title, no text, generous margins. Output 941 × 1672, upscaled to timeline size by editor. SHA-256: 56d005fcb929fe049c889f8cdb90df11ba6353439faf5c8c3d0a1ce8d7825036. Source: ../../Source/Images/renewal_20261102/S02_kasparov_wide_v01.png. Retained original still and original project timelines.

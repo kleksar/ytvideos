@@ -1,7 +1,0 @@
-[0:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=24:end_frame=147,setpts=PTS-STARTPTS[water];
-[1:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=18:end_frame=145,setpts=PTS-STARTPTS[falls];
-[2:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=36:end_frame=224,setpts=PTS-STARTPTS[lake];
-[water][falls][lake]concat=n=3:v=1:a=0,settb=1/30,setpts=N[sequence];
-[sequence]lutyuv=y='st(0,clip((val-16)/219,0,1)-0.5);16+219*(0.5+1.5*ld(0)-2*pow(ld(0),3))',split[clear][soft_input];
-[soft_input]gblur=sigma=24:steps=2:enable='between(n,120,126)+between(n,247,253)',lutyuv=y='0.1*val+0.9*235':u='0.1*val+0.9*128':v='0.1*val+0.9*128'[glow];
-[clear][glow]blend=all_expr='st(0,round(T*30));st(1,abs(ld(0)-if(lt(ld(0),180),123,250))/(0.125*30));st(2,if(lt(ld(0),180),0.94,1));A+(B-A)*ld(2)*(1+cos(PI*min(1,ld(1))))/2':enable='between(n,120,126)+between(n,247,253)'[video]

@@ -1,5 +1,0 @@
-# User approval — compact viewing MP4
-
-On 2026-11-10 the user said «видео одобрено. го дальше» immediately after presentation of `Edit/Previews/world_discovery_PREVIEW_1080p_v01.mp4` as the most recent inline video. The approval is recorded against that exact copy, SHA-256 `6043a4049d6abfdda67e30e0ca32b2a3feb56302abe041f6fc0e93c6e7af621c`, 167,339,293 bytes. The separately linked 2K file is not assumed independently approved.
-
-The approval is a viewer decision on this copy, not evidence that its technical or subjective checks passed: the preview retains a two-frame timestamp gap at 05:47, limited map readability, incomplete caption/editorial checks and no actual audio listening. See `Work/compact_preview_v01/RECEIPT.md` and `Work/preview_v01/QA_RECEIPT.md`. Any corrected or re-encoded master is a different file, requiring its own identity and technical checks and the appropriate user decision. Approval of the video and the request to proceed do not constitute a direct instruction to upload or publish.

@@ -1,3 +1,0 @@
-# Chapters against redesign MP4 v02
-
-Exact file `Deliverables/review_redesign_en_v02.mp4` SHA-256 `2f2c74c675dd27437c5290ca9abb2b32122a884cf27363f4cd538ca3a8491b3b`, 252.8 s. Existing chapter anchors 00:00, 00:38, 01:09, 01:37, 02:16, 02:53 and 03:44 were checked against exact encoded frames in `Edit/QA/qa-redesign-v02/chapters/chapter_sheet.jpg` and preserved narration/word times. Chapters begin at or just before their respective story beats, span at least ten seconds, and start at 00:00. Precise audible playback remains UNVERIFIED; no listener check was available. Use `chapters_candidate_v01.txt` for the versioned text. Hash-bind to the MP4; a new edit or duration requires rechecking.

@@ -1,4 +1,0 @@
-# Neptune EN v01 · exact MP4 review
-File, exact hash, measured streams, duration and decoded frame IDs: technical.json. 971 continuous frames, 1440×2560, 30 fps, square pixels, H.264 Rec.709 SDR, stereo AAC-LC 48 kHz. Full picture and sound decode passed.
-Inspected 21 decoded frames: first/middle/last of all seven scenes, including all six hard cuts, scene motion endpoints, Paper Frame, subtitle placement and sampled cream/yellow word transitions. Expected/observed, Berlin and NEPTUNE are readable and not occluded. All 102 exact tokens and renderer frame boundaries were mechanically checked in preflight. No confirmed material picture or timing defect.
-AAC signal compared against the conformed PCM mix with FFmpeg apsnr; integrated −23.0 LUFS and true peak −4.7 dBFS. Subjective listening, pronunciation and heard caption synchronization UNVERIFIED. Continuous motion playback UNVERIFIED. Ready for user approval of the exact file; no upload authorized.

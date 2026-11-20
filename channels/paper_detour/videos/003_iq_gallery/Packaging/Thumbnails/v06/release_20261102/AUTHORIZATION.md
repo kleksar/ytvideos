@@ -1,1 +1,0 @@
-User approved v06 and explicitly requested applying this exact IQ cover on YouTube on 2026-11-02. Scope: thumbnail only, existing video xYS2XBeR_Jc. Fresh API confirms Paper Detour ownership; upload + readonly scopes available. No title/description/privacy/experiment mutation is requested.

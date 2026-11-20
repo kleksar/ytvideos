@@ -1,7 +1,0 @@
-# Semantic subtitle review — v02
-
-Reviewed all 375 text groups from `Work/render-v03/caption_groups.json`; status FAIL. The user confirmed watching and listening to all of v02 for word-highlight timing and obstruction on 2026-11-03; that is recorded separately in `user_subtitle_review_20261103.json` and does not establish semantic grouping.
-
-Defects: `East / German territory` (groups 27–28); `West / German embassy` (49–50); `East / Berlin` (59–60); `Riccardo / Ehrman` (117–118); `Peter / Brinkmann` (138–139); `Bornholmer / Straße` (316–317); `East / Germany` (278–279; 357–358). Sentence pairing also puts `Unverzüglich. Immediately.` together (147) rather than the German quotation and the English translation each as a meaningful phrase. Last word alignment exceeds source duration; final word timing was clamped/extended and the user reports full playback; provider mismatch remains documented.
-
-`keep_together` candidates for a new montage: East Berlin, West Berlin, East Germany, West Germany, East German, West German, Riccardo Ehrman, Peter Brinkmann, Harald Jäger, Bornholmer Straße. A trial regroup kept those expressions together but does not fix the German/English phrase pairing and has not been accepted or rendered. Rework grouping with natural phrase breaks, inspect the full sequence, then render and obtain acceptance of the new MP4. v02 remains the user-approved existing file; do not mislabel its semantic grouping PASS.

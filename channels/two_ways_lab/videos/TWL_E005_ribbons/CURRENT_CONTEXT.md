@@ -1,3 +1,0 @@
-# Two Ways Lab E005 — current context
-
-User accepted the story, requested the video with Mike, then approved the exact v01 MP4 and requested preservation. Upload and publication are pending. Current file: `Deliverables/TWL_E005_review_v01.mp4`, SHA-256 `d538efc6c2e534bab4b81e697eec5c24ca3d2f672b246b435d4a9261b76baab8`; exact QA, methods and limitations in `Edit/QA/REVIEW_v01.md`. Narration, model and storyboard: `EPISODE.md`; image provenance: `Edit/image_manifest_v01.json`; audio receipt: `Source/Audio/v01/request.json`; English sidecar: `Deliverables/TWL_E005_review_v01.en.srt`. Preserve all sources and final output. E001–E005 await publication; see channel queue. No verified YouTube status or upload.

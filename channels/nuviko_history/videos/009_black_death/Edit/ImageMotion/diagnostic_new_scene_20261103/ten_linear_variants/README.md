@@ -1,3 +1,0 @@
-# Ten one-direction parallax experiments
-
-All clips use the same source.png and precomputed depth.npy in parent folder, 1920x1080 30fps 180 frames, no additional camera movement, grain, subtitles, or audio. Renderer sets isometric=1.0, zoom=1.05, sticky true, steady 0, offset(t)=signed amplitude * normalized time. Thus motion proceeds in one direction, never reverses. Variants 01–08 use positive offset; 09–10 negative. They vary height and offset as listed in the JSONs; 05 repeats the accepted linear test parameters. Decoding/duration verified for all ten; only 5.8s endpoint contact sheet checked visually, no full playback or independent QA. No changes to production presets, edit, or existing test videos.

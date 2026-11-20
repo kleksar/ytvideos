@@ -1,9 +1,0 @@
-{
-  "description": "Continue only an explicitly bound unfinished video run, at most three times per user turn.",
-  "hooks": {
-    "UserPromptSubmit": [{"hooks": [{"type": "command", "command": "ytv_hook_root=$(git rev-parse --show-toplevel) && exec uv run --offline --no-sync --project \"$ytv_hook_root\" python \"$ytv_hook_root/.codex/hooks/entrypoint.py\"", "timeout": 10}]}],
-    "Stop": [{"hooks": [{"type": "command", "command": "ytv_hook_root=$(git rev-parse --show-toplevel) && exec uv run --offline --no-sync --project \"$ytv_hook_root\" python \"$ytv_hook_root/.codex/hooks/entrypoint.py\"", "timeout": 10}]}],
-    "SubagentStop": [{"hooks": [{"type": "command", "command": "ytv_hook_root=$(git rev-parse --show-toplevel) && exec uv run --offline --no-sync --project \"$ytv_hook_root\" python \"$ytv_hook_root/.codex/hooks/entrypoint.py\"", "timeout": 10}]}],
-    "Interrupt": [{"hooks": [{"type": "command", "command": "ytv_hook_root=$(git rev-parse --show-toplevel) && exec uv run --offline --no-sync --project \"$ytv_hook_root\" python \"$ytv_hook_root/.codex/hooks/entrypoint.py\"", "timeout": 3}]}]
-  }
-}
