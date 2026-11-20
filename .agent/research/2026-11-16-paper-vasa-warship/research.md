@@ -68,3 +68,16 @@ Thumbnail promise: «судно, не пережившее первого вых
 Для 05m вступительные вопросы обещают отдельно **почему затонул / почему предупреждение не остановило / как удалось поднять**. Первое подтверждённое действие: опасное aborted test в 1628-м. Основной hook после погружения: первый выход длился ~20 минут, затем два порыва, открытые порты. Payoff: физическая причина + технологический подъём и сохранённые вещи.
 
 Зрительский спрос на **точно такую бумажную подачу 5m** — UNVERIFIED; авторский интерес не подмена статистики.
+
+## Содержательная ревизия 10m — 20 ноября 2026 (проверка новых claims)
+
+Baseline original 10m: `c5a921426897c17c2c7b890db89736f1873b05c0`. 2m/5m не редактировались. Новые повороты с конкретными источниками музея Vasa:
+
+- [The Disaster](https://www.vasamuseet.se/en/explore/vasa-history/disaster): капитан Söfring Hansson едва спасся, Erik Jönsson пострадал из-за лестницы при проверке пушек, бывший капитан Hans Jonsson погиб; реплики не реконструированы.
+- [The Inquiry](https://www.vasamuseet.se/besok/audioguide/audioguide-english/textversion/8.-the-inquiry): виновного не установили, никого не наказали; фактическая мотивация выхода после теста точно неизвестна.
+- [Timeline](https://www.vasamuseet.se/en/explore/vasa-history/timeline) (1920): планировалось взрывать старые wrecks в районе ради дуба; отказ властей. **Нельзя утверждать, что Vasa была указанной целью заявки**.
+- [Search for Vasa](https://www.vasamuseet.se/en/explore/vasa-history/search-for-vasa): Франсен сперва искал на другом берегу канала, нашёл два дубовых образца после исправления поиска, Фельтинг нащупал два уровня gunports.
+- [The Excavation](https://www.vasamuseet.se/en/explore/vasa-history/excavation): десять дней откачки, оценка свыше тысячи тонн содержимого, батhtubs для мокрых находок, 30k+ предметов за первые месяцы, монеты в карманах, шесть сложенных парусов. Принадлежность неизвестных вещей конкретным людям не доказана.
+- [Preservation timeline](https://www.vasamuseet.se/en/explore/research/how-we-preserve-vasa/preservation-timeline) и [current preservation](https://www.vasamuseet.se/en/explore/research/how-we-preserve-vasa): PEG treatment 1962–1979, постепенная сушка, проект новых опор с 2024; план к 2028 — не завершение.
+
+Событие → новый факт → следствие: крушение → потеря людей → безнаказанное расследование → отказ 1920 от разрушительного salvage → поиск ошибочного берега → контролируемый подъём → масса грязи угрожает корпусу → предметы людей → 17-летняя консервация. Измерения спроса, собственная retention и independent source audit UNVERIFIED.

@@ -12,8 +12,8 @@ SHA-256 вычислен по точным bytes UTF-8 с конечным пе�
 | [02m RU](variants/02m/script.ru.txt) | 223 | `510719d64e9ebfeae7be88ca3b3b5eb41561495002ad62b323e0478285f7764c` |
 | [05m EN](variants/05m/script.en.txt) | 807 | `658e52016767816c05ed067f9ab1794b22d5773c2e5a7dad7af19d4697000969` |
 | [05m RU](variants/05m/script.ru.txt) | 655 | `2dbe49bdfcdc14a9b2c0dcdc251db580c32388b615862e0ffd45035fc33f7ef2` |
-| [10m EN](variants/10m/script.en.txt) | 1590 | `c5fbd3cac38850619807bd572efe64297c0ea4ad8698edb5f7066bf32430b00c` |
-| [10m RU](variants/10m/script.ru.txt) | 1319 | `36cc4e414a2f8ed474c52233c9d2c53e89bb87204b35b4d6c66b01abf1a8f9d3` |
+| [10m EN](variants/10m/script.en.txt) | 1675 | `2eaa4e6c2840bcebe4a5f7feebe4564e51f343cc0b0d3b84caba505fdde66124` |
+| [10m RU](variants/10m/script.ru.txt) | 1410 | `7f4bbad366149a6e26db3aa0ca21d1343537e1a53237098968f5e49c16d467e4` |
 
 ## 02m — STRONG_CANDIDATE, 9:16 Short considered
 
@@ -49,22 +49,28 @@ Story map: **questions** (sinking, warning, rediscovery) → Baltic war / ship c
 
 Main weakness: museum/salvage after the sinking may still lose viewers who only came for the accident; no real listener data. Reviewed and fixed earlier 05m contradictory clock wording to exact **9:03**; final English hash above is revised. Long loop: N_A; sound/visual/voice pacing UNVERIFIED.
 
-## 10m — REWORK, 16:9 Long editorial proposal
+## 10m — substantive new edition (2026-11-20), 16:9 Long
 
-Story map: questions → Baltic king/construction → tall and narrow hull → aborted test / overdue departure → two gusts and gunport flooding → 1628 investigation/failed salvage → 1956 Franzén, divers and institutional coalition → six tunnels → 1959 first lift & **18 stages** → sealing/1961 9:03 → excavation of 30,000 objects → conservation/museum.
+Exact EN SHA-256 `2eaa4e6c2840bcebe4a5f7feebe4564e51f343cc0b0d3b84caba505fdde66124`, 1675 words; RU `7f4bbad366149a6e26db3aa0ca21d1343537e1a53237098968f5e49c16d467e4`, 1410 words. Original 10m retained in Git history at `c5a921426897c17c2c7b890db89736f1873b05c0`. **All grades are author opinion, not independent review or audience measurements.**
 
-| Criterion | Author grade and exact grounding |
+Story map: opening questions → Baltic ambitions and danger-test → two gusts, flooding and named rescues → inquiry with no punishment → seventeenth-century cannon salvage / 1920 refused demolition → Franzén changes search shore, diver finds two decks → six tunnels, eighteen controlled stages → 1961 rise → dangerous mud weight, found belongings, long PEG treatment → continuing structural care.
+
+| Exact editorial criterion | Author grade, reason, limitation |
 |---|---|
-| Interest/significance | **9/10**: one vessel's 333-year full lifecycle, lives lost and recovered people’s belongings |
-| Opening | **9/10**: “Why did Sweden send a warship out when a test had already shown...” + salvage promise |
-| Development / reason to stay | **8/10**: additional 1959 underwater lift and repeated 18 stages are real changes, but explain-ocean-engineering stretch creates slowdown |
-| Payoff | **9/10**: final "unintended second voyage" returns to the recovered lives, with 1961 museum evidence |
-| Freshness | **7/10**: 2025 31m competitor treats same topic more fully |
-| Visual | **9/10**: underwater tactile search and salvage technique would support scenes, media rights remain unverified |
-| Natural/clarity | **8/10**: long paragraphs about lift and conservation may tax a new listener |
-| Verified audience | **UNVERIFIED**: existing 31m competitor cannot establish audience fit of our 10m |
+| Interest/significance | **9/10**, compelling human stakes and continuing preservation; own audience unverified |
+| Opening | **8/10**, promises a third actual danger after resurfacing, but long before first action |
+| Development/reason to stay | **9/10**, non-repeating decisions in 1628/1920/1956/1961; rescue still includes mechanics |
+| Payoff/consequence | **9/10**, personal belongings and continued supports give second voyage a real consequence |
+| Freshness | **7/10**, novel emphasis on preservation but heavily covered basic Vasa story |
+| Visual expression | **9/10**, deck rescue, inquest, denied blasting, probe, pontoon and excavation; scenes not generated |
+| Speech/naturalness | **8/10**, named choices and concrete objects, some exposition around PEG |
+| Verified audience interest | **UNVERIFIED**, public competitor views not comparable own CTR/retention |
 
-Main weakness: the 1957–1961 technique occupies a long exposition in which viewer's expectation changes less often than during 1628 disaster; 10m has enough independently documented matter, but may not outperform 5m and cannot be declared strong solely for length.
+Confidence high only for directly mapped museum facts, medium author narrative judgement, low for audience response.
+
+**Hard checks:** single story across 2/5/10 text PASS by author; Long questions → immersion → actual hook PASS; new facts checked against linked museum pages and 1920 uncertainty preserved; EN/RU author parallel review PASS (52 corresponding paragraphs), *not independent semantic review*. 02m and 05m unchanged, old independent receipts unavailable. Independent first-listener, TTS voice length, AV Short seam, licenses, new storyboard/timing for changed 10m, runtime registration and owner approval all **UNVERIFIED**.
+
+**Version comparison:** 02m 276 words = quick full disaster + resurrection, minimal human agency. 05m 807 words = warning/accident/rescue with tightest payoffs, **retains editorial recommendation**. 10m 1675 words = inquest, 1920 permit decision, search location reversal, excavation emergency, 17y PEG, but interest may fall after the 1961 surface when conservation begins. Hypothetical EN narration 9.9–12.4 min at 135–170 wpm without pauses; TTS length UNVERIFIED. Recommendation ≠ production approval.
 
 ## Direct completed-script comparison
 
@@ -72,7 +78,7 @@ Main weakness: the 1957–1961 technique occupies a long exposition in which vie
 |---|---|---|---|
 | 02m | Full reason for sinking, warning and recovery in one compact arc | After "What makes this more than a story..." decades pass rapidly | 276 EN words, about 1:38–2:03 at assumed 135–170 wpm plus pauses; Short up to 3m, actual limit/context must be verified |
 | **05m** | From 02m adds relationship of top-heavy design to flooding, the warned test and actual 1956–1961 engineering rescue | After "The next day, officials began investigating" | 807 EN words, about 4:45–5:59 at assumed 135–170 wpm plus pauses; Long and separate 10s end screen |
-| 10m | From 05m adds wartime pressure, named admiral, retrieval coalition, first lift in 1959, 18 iterative moves, archeological objects and conservation | Between six underwater tunnels and the 18th lift | 1590 EN words, about 9:21–11:47 at assumed 135–170 wpm plus pauses; Long and 10s end screen |
+| 10m | Added causal inquest, refused timber demolition, wrong-shore search and preservation danger | After 1961 rise when conservation begins; no retention evidence | 1675 EN words; estimate 9.9–12.4 min excluding pauses, not measured; Long + 10s end screen |
 
 Word-time estimates are **rough**, not official Lawrence 1.10x measured delivery; pause/overlay/end-screen may shift actual timing. Do NOT alter approved voice speed. More words in the 10m edition do not imply higher viewer value. Recommended exact master: **05m EN `658e5201...`**. No media storyboard until independent exact-text review allows it; only 05m would receive detailed prompts and hash binding.
 
@@ -89,4 +95,4 @@ Word-time estimates are **rough**, not official Lawrence 1.10x measured delivery
 | Independent first-listener/reviewer | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** |
 | Runtime script gate / owner approval | **UNVERIFIED / NOT_STARTED** | **UNVERIFIED / NOT_STARTED** | **UNVERIFIED / NOT_STARTED** |
 
-Confidence: factual details high only for directly cited museum/municipal sources, negative claims and future performance low. This grade sheet is the **author's verdict, not independent reviewer evidence**. One pass first draft, one targeted pass fixed 02m seam and 05m 9:03 phrase; no infinite revision loop. If another model changes text, its hash and review must be regenerated.
+Confidence: factual details high only for directly cited museum/municipal sources, negative claims and future performance low. This grade sheet is the **author's verdict, not independent reviewer evidence**. One pass first draft, one targeted pass fixed 02m seam and 05m 9:03 phrase; no infinite revision loop. 2026-11-20 10m new hash invalidates any older 10m evaluation/timings/shot spans. Independent reviewer must see exact full text blind, not these author scores. 02m/05m evidence preserved.
