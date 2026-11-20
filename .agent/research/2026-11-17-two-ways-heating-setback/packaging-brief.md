@@ -1,0 +1,16 @@
+# Packaging brief: “Keep the heating ON all day?”
+
+- Editorial status: **STRONG_CANDIDATE (05m EN+RU)**, **production unavailable** on current Two Ways Lab because the ChannelSpec only supports short illustrated runs and its current Short target is 35–50 seconds. No generic Long profile may be inferred.
+- Audience question: “Does switching off heating while I'm gone save energy, or will reheating wipe it out?”
+- Literal A/B promise: two identical modeled rooms, 20°C at departure AND 20°C at return, 5°C outside, 8h away, A remains at 20, B is unheated 6h then reheated 2h. Never claim actual home measurements.
+- Cover candidate: warm room with cyan **A: HOLD 20°C** on left, amber **B: COOL → REHEAT** on right, mint **RESULT: HEAT / ELECTRICITY CAN DISAGREE** after payoff; large simple thermometer and side-by-side temperature curves. Depicted values must match model and remain clearly marked “MODEL”. Visual profile prohibits script-generated text overlays; any actual lettering graphics must be newly image-generated and verified. **No image or fake source bytes exist yet.**
+- Title options (no universal promise): “Heat ON All Day? I Compared Two Ways”; “Turn Heating OFF or Keep It ON? The Reheat Trap”; “The Heater Used LESS Heat — but Could Cost MORE Electricity”. Main title should not promise a real bill test.
+- Opening action (recommend **05m exact hash `1e639666900453b0479f70e76ba4e7c7d45a7144a51f216bd44d73f3c71535a0`**): I pick up keys and look at thermostat, as listener chooses A/B. An immediate graphic shows 20°C→20°C over eight hours to prevent unfair comparisons.
+- Early confirmation: both options pictured with the same return deadline; split-screen for A continuous heat vs B heat off then recover.
+- Narrative progression: loss-rate explanation, B reaches ~16.8°C after six hours, enough heat power restores 20°C, **14.4 vs 12.8228 kWh delivered heat**, half-leakage countercase, then example heat pump COP3 vs COP2 flips **purchased electricity** winner. Full payoff before ending; real equipment warning immediately adjacent.
+- Final statement for **05m** is a complete thought about checking heating equipment; no fake cliffhanger or out-of-context “coming next”.
+- Two-minute Short author loop candidate: EN end “And that's the choice I face each time I reach the front door:” → opening “I'm leaving home for eight hours. Do I keep the heat at twenty degrees all day...”; RU similarly. Payoff appears before seam. **UNVERIFIED** independent two-pass read and actual audiovisual loop; colon is insufficient on its own. 02m exceeds active Short target, so no green light for this loop or production.
+- 10m has more detailed thermal model and tariff caveat but its middle cannot justify choice purely by time; class REWORK.
+- No fabricated actors, comments, experiments, audience numbers, external footage, thumbnails or sound cues. UI labels are hypothetical packaging text, **not** generated media.
+- After selection+independent review and a compatible production profile, create full storyboard/prompts for the chosen one exact variant and SHA only. No timings or scene spans migrated from unrelated scripts. Hero art requires actual stored image references, not a textual description.
+
