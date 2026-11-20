@@ -16,7 +16,7 @@ Mood: human-scale suspense → collective physical effort → airstrip technical
 
 | Variant | Audience promise / what shown | Important limit |
 |---|---|---|
-| 02m / Short | `The Airman Hidden Under a Bed — and the Runway That Saved Him`. The house conceals a man before rescue planes can appear | Narrative loop **author FAIL**; must revise exact script and rerun independent two-cycle reading. Until then no Short production |
+| 02m / Short | `The Airman Hidden Under a Bed — and the Runway That Saved Him`. The house conceals a man before rescue planes can appear | Substantively rewritten 2026-11-20: completed payoff → doorway decision → concealed witness sees boots. Author textual candidate only; independent two-cycle, actual AV seam and measured 2m duration **UNVERIFIED**. No Short production authorized |
 | 05m / Long | Build a secret airstrip while patrols search villages; a pilot aborts an approach, and others fly survivors out | Recommended editorially; approved master, actual voice and full media still absent |
 | 10m / Long | The airlift and what its disputed numbers and postwar memory reveal | Politically sensitive and slower than 05m; exact 417/512 original archival accounting not directly checked |
 
@@ -27,3 +27,5 @@ Complete the 05m story *before* proposing another video. Potential **thematic br
 ## Production / rights boundaries
 
 This file is editorial planning text, not visual storyboard or `ytv-preproduction-v1` with invented references; true production scene prompts follow exact owner-approved and independently checked 05m script. Channel brand specifies two actual traveller PNG references and SHA-256, **none opened or uploaded in this run**. Before production retrieve and validate reference bytes and rights; do not paste original archival photo or source-site image into TTS/MP4. Audience-demand metrics and physical soundtrack checks unverified. Short AV seam and long next-video intro require final read-back.
+
+**02m source/version note:** exact revised EN SHA-256 `5590bc81e87d689b2fba73da1639a7ba09267b154daf715a591ea0cf7ecead16`, RU `8c3eec52caddbee40f57beb91accc4ee1797743572959e1244221308c788e0bd` (baseline `55c3713566c6b406bab94eb3641679832a4bb27d`). Cold first visual would be Musgrove under a farmhouse bed looking at boots whose wearer is unidentified; the final idea is the host's decision to conceal him as someone knocks. This is a *future* visual-intent note, **not** a storyboard, generated image or measured seam. Do not reuse 05m prompts/timing or invent a confirmed German uniform.
