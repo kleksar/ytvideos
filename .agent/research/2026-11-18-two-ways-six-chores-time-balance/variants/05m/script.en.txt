@@ -1,0 +1,27 @@
+How can I give two people exactly three chores each and still leave one of them waiting around for six minutes? Would it be fairer to give them different numbers of jobs? And when could the apparently slower plan actually win?
+
+I built a small model to answer those questions. This is not footage of me cleaning a house, and the times are assumptions, not stopwatch results. I wanted something I could replay with the same starting list and two different rules.
+
+There are six jobs. The kitchen has dishes, eight minutes; wiping the counters, three; and sorting one shelf, six. The living room has shoes to put away, two minutes; vacuuming, five; and blankets to fold, four. Twenty-eight minutes of work in total. Two helpers with identical speed. All jobs are independent. Both begin at the same time, and each person handles one task at a time.
+
+My score is the time when the *last* person finishes. That's important. If I only count how quickly the first person gets free, I might reward a plan that leaves somebody else with most of the work.
+
+Here are my two rules. A keeps each person in one room. B distributes the estimated minutes more evenly, even if a person has to change rooms. I choose A or B before looking at the results.
+
+First, A. I give myself the three kitchen jobs. Eight plus three plus six. Seventeen minutes. My helper takes the living room. Two plus five plus four. Eleven minutes. At eleven, half the people are free. But only one room is finished. The whole job ends at seventeen.
+
+I could call that a fair split because we both received three items on a list. Yet the items are not equal. The three short living-room chores are not equivalent to three kitchen chores simply because each list has three lines.
+
+Now I erase the assignments, not the tasks or their durations, and try B. I take dishes for eight, shoes for two, blankets for four: fourteen. My helper takes counters for three, shelf for six, vacuuming for five: fourteen. No chore disappears. Nobody suddenly works faster. The total remains twenty-eight minutes. We both finish at fourteen.
+
+At this point B saves three minutes. It even reaches a useful theoretical limit: if two equally fast people must perform twenty-eight minutes of independent work, neither plan can finish in less than fourteen unless it changes what counts as work. B reaches that lower bound in this simplified situation.
+
+But there's an objection I cannot ignore. Option A needs no mid-session room change. In B, each person begins in the kitchen and later crosses to the living room. In this model the initial walk from our shared starting point doesn't count for either plan, but a mid-session change may require carrying supplies, putting one tool away, and setting up another.
+
+Let that additional switch cost be *s* minutes per person. B now finishes at fourteen plus *s*. A remains at seventeen. With a one-minute switch, B finishes at fifteen. With two minutes, B finishes at sixteen. At three, the plans tie. At four, B finishes at eighteen and A wins by one.
+
+Notice that I haven't claimed moving between real rooms takes four minutes. I deliberately changed an assumption, and the answer changed with it. This model says where the decision flips. It doesn't measure the cost in your home.
+
+It also tells me how to apply the idea. Before I split a shared chore list, I need two estimates: the work itself and the cost of switching. I shouldn't pretend a detailed checklist is a measure of fairness. And I shouldn't assume balancing individual tasks is always faster when moving tools or changing rooms is expensive.
+
+So my result isn't "always choose B." With no switching cost, B wins fourteen to seventeen. At four minutes per switch, A wins seventeen to eighteen. I get a faster finish by comparing *time*, not merely counting chores—but only after counting all the time that the rule creates.

@@ -1,0 +1,47 @@
+Why can an equal split of chores leave one person doing all the waiting? Could a better split make us finish sooner, even though nobody works faster? And what happens when the supposedly efficient plan makes us carry supplies back and forth?
+
+I put six imaginary chores on a planning board. This is a calculation, not a filmed household experiment. Every duration is an input I chose, so the result belongs to these assumptions and not to every home.
+
+There are two people. We begin at the same time. We work at the same speed. No job requires both of us, and nobody does two jobs simultaneously. Each job must be completed by one person after they start it. I'm measuring the minute when the last job is finished, not the moment when the first person has a break.
+
+On one side of the board is the kitchen. Washing dishes takes eight minutes. Wiping the counters takes three. Sorting a shelf takes six. Seventeen minutes of kitchen work. The living room has three different jobs: putting away shoes takes two minutes, vacuuming takes five, folding blankets takes four. Eleven minutes more. Six jobs and twenty-eight minutes of total effort.
+
+Here's the choice. Method A divides the house by room. One person finishes the kitchen, the other finishes the living room. Method B ignores the room boundary and assigns jobs so each person gets approximately the same total minutes. Which would I choose before seeing the finish time?
+
+I start with A. I put myself in the kitchen. Dishes: minutes zero through eight. Counters: eight through eleven. Shelf: eleven through seventeen. My helper handles the living-room jobs. Shoes take the first two minutes, vacuuming brings the clock to seven, blankets bring it to eleven.
+
+At minute eleven my helper is completely done. That's the first result, and it looks quite nice on one clock. But on the other clock I'm starting the six-minute shelf. Nobody has finished the whole house until minute seventeen.
+
+Both of us got exactly three jobs. If my fairness metric were "number of checkboxes," A would score perfectly. If my useful metric is "when can we both leave," A scores seventeen.
+
+I reset the board and try B. The six durations stay the same. My first bundle is dishes, shoes and blankets: eight plus two plus four equals fourteen. The other bundle is counters, shelf and vacuuming: three plus six plus five also equals fourteen. We still finish every job exactly once. We just distribute them differently.
+
+At minute fourteen, both people are finished. No magic, no faster worker, no chore mysteriously completed by the other person. Both worked for fourteen minutes because that's what I assigned. B wins by three minutes in this first model.
+
+There is a useful limit here. Twenty-eight minutes of independent work divided between two equally fast workers means an absolute best possible finishing time of fourteen minutes, if nothing else delays them. I can prove that without watching a simulation: in thirteen minutes, two people can only supply twenty-six person-minutes. That isn't enough to do twenty-eight. B reaches the limit exactly. No clever rearrangement can get us to thirteen under these rules.
+
+That might sound like the end. But A has one benefit the balance calculation ignored. In A I stay in the kitchen and my helper stays in the living room. In B each of us has both a kitchen task and a living-room task. Someone has to move and reset their tools.
+
+I need to be precise about that, because vague friction can be used to manipulate a result. We both begin at a neutral starting point. The initial move to a work area is treated equally and isn't counted in either score. A has no room change *during* its assigned work. B has one change per person, after each has completed the kitchen portion. My model gives both workers the same switch penalty, called s. It represents not just walking a few steps, but putting supplies down, moving them and setting up again.
+
+So the equations are short. A finishes in seventeen minutes. B finishes in fourteen plus s. With a one-minute change, B takes fifteen. With two, sixteen. With three, seventeen: a tie. With four, B takes eighteen and loses to A by a minute.
+
+I didn't discover that switching rooms takes four minutes in real life. I deliberately tested a possible input to find the boundary. If I claimed those were measured times, this comparison would be dishonest. The only proved result is conditional: given my six durations and these assignments, B wins below three minutes of switching cost, ties at three, and A wins above three.
+
+But there is another hidden assumption: I know the length of every chore beforehand. In practice, a five-minute vacuuming job could take longer. Suppose it turns out to require nine minutes, not five. I keep the already chosen assignments fixed for this test, because the change happens after I make the plan.
+
+Now A's living room takes fifteen minutes instead of eleven, while its kitchen still takes seventeen. A still finishes at seventeen. B's worker with counters, shelf and vacuuming now needs three plus six plus nine: eighteen minutes. The other B worker stays at fourteen. Even with zero switch penalty, that unchanged B assignment now loses eighteen to seventeen.
+
+Again, this isn't a claim about a real vacuum cleaner. It's a sensitivity test: a single underestimated job can remove the advantage of a precisely balanced plan. Equal estimates are not guaranteed equal results.
+
+Could I rescue B by reassigning jobs once I know the vacuuming will take nine minutes? Yes, but then I must change the plan openly, and the new comparison has a different input. With the updated durations, the full list takes thirty-two person-minutes. I can give one person dishes eight, shelf six and shoes two: sixteen. The other gets counters three, vacuuming nine and blankets four: also sixteen. If room changes are free, this updated B plan finishes in sixteen, which beats A's seventeen. That result does not erase the earlier eighteen-minute outcome of a plan that couldn't predict the delay.
+
+I also have to decide what happens when someone finishes early. My original A rule says each person owns a room and stays with those assignments. What if I let the living-room helper walk over at minute eleven and take an unfinished kitchen task? If I choose the kitchen order differently—dishes first, shelf second, counters last—the shelf would run from minute eight to fourteen. At minute eleven, counters haven't started. My helper can take the three-minute counters, while I finish the shelf at fourteen. We both finish at fourteen.
+
+That's a valuable possibility, but it isn't the original method A any longer. It's a flexible third rule that allows a handoff, and I would need to include the move and any shared-tool conflict before declaring it better. I can't score a fixed assignment, then secretly let the losing side borrow the winning side's flexibility. Both methods deserve the same freedom or the same restrictions.
+
+Notice how much the choice depends on the question I ask. If I want the first person free as early as possible, A's eleven-minute finish might matter. If I want both people free together, B's fourteen-minute finish is better in the zero-switch case. If I care about the total effort spent by everyone, changing rooms adds actual person-minutes rather than creating free time. And if I care about the feeling of fairness, equal minutes aren't automatically equal difficulty or equal responsibility.
+
+For my original scoreboard, I refuse to switch metrics halfway through. The score is the last finishing time. Same tasks, same workers, same starting point. With no switching cost, the result is A seventeen, B fourteen. At four minutes per mid-session room change, it becomes A seventeen, B eighteen. With an unforeseen longer vacuuming task and the assignments frozen, the outcome changes again. Those are separate runs with declared conditions, not footage of a single experiment.
+
+The practical takeaway I can actually use is smaller than a universal life hack. I need to estimate work, estimate the time lost between kinds of work, and agree on what finishing means. Then I can try a division and adjust if reality disagrees with my estimates. Three checkboxes each can look beautifully equal while hiding a six-minute gap. Counting tasks tells me what I assigned. Counting time tells me when we can both stop.
