@@ -1,3 +1,7 @@
+## 05m substantive transfer-scene revision (2026-11-20)
+
+Existing Draft PR #37 only: baseline `60cdbbdf7331a2c6c2d63c3b18a2df06febd3714` → revision prepared for same branch. Original 02m and 10m EN/RU untouched. The 05m replaces two consecutive explanations of the same reporters/interception problem with police choice to test the Jaguar boot, timed departure at 05:17 and 05:20, observed journalists following the limousine and rendezvous at Newcastle. Source: Glasgow Police Museum police-transfer account in common research. Exact 05m SHA-256 EN `65006ccadbf9b31b430eb77cecec45a8069725c8561302cdc96fb4530e305f28` / RU `63ffa34c4de5207f914ed5143450884cd3c86c70bc59bb878fb03a40e5d00fa8`. Old 05m checks/estimate are superseded; fresh independent review, TTS, scene coverage and run registration remain UNVERIFIED. No approvals or pins changed.
+
 ## Revision: three narration lengths (2026-11-17)
 
 **Status remains EDITORIAL_CANDIDATE_UNREGISTERED**: neither 05m nor 10m is an approved source. Baseline `904407730fdb82d703d0b19a16e81542a465b411`. Original Short and its old storyboard have not been altered. Complete text options: [02m EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt), [05m EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt), [10m EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt). Exact SHA-256 and review coverage: [story-review](story-review.md).

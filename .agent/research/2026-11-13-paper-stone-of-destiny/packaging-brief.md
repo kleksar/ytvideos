@@ -1,3 +1,5 @@
+> **05m editorial update 2026-11-20:** The selected Long promise is strengthened by the physical test that the 152kg stone fits inside a Jaguar's boot; 05:17/05:20 departures and the reporter choice now pay off the opening question. This is a scene concept only, not a generated thumbnail or proof of a Long storyboard. Exact new script hashes live in [story-review](story-review.md).
+
 > **Revision 2026-11-17:** All titles and the S001/S005 thumbnail promise below were authored for preserved original 02m Short only. The **05m Long** is an editorial recommendation with a different promise: *How four students removed a royal stone, and why police later tricked reporters with the wrong car*. No verified Long thumbnail, 320×180 crop or A/B test exists. Do not reuse the old Short's montage/cover as approval or claim planned artwork is produced. Selected hash, new storyboard and visuals require their own later review.
 
 # Packaging hypotheses — not assets or measured performance
