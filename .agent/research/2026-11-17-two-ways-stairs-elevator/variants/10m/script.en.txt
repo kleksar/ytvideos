@@ -1,0 +1,73 @@
+A faster machine can lose a race without moving. But is that enough reason for me to take the stairs?
+
+I imagine arriving in a building where I need to reach the fourth floor. A staircase and an elevator begin in the same lobby. I could climb immediately or press a button and wait. The machine is unquestionably faster once it starts travelling. Yet that doesn't tell me which route gets me to the landing first.
+
+I could choose based on habit. Instead, I want two clearly defined methods, the same destination, and a clock that begins at the same instant for both. This is a model drawn on a board, not footage of me racing a lift. The inputs are illustrative, not measurements of this particular building.
+
+Before I do the math, I have to settle a deceptively important question: when does my journey begin? If I start timing an elevator only after the doors close, I've already given it an advantage. If I time the stairs from the lobby entrance, I must also time the elevator from that entrance. Both routes finish at the same fourth-floor landing, after I have left the car or completed the last flight.
+
+I call the stairs A and the lift B. My one declared metric is total seconds from the entrance to that landing. No points for comfort, energy or exercise. Those may matter in real life, but they aren't what this particular comparison measures.
+
+Let's give A a steady walking time of sixteen seconds per floor. Four floors: sixty-four seconds. There is no imaginary sprint and no rest stop. Anyone can substitute their own pace and recompute the answer.
+
+B has four parts. First, I wait for the car. Then the doors operate. Next the car moves. Finally, I step out. For the first case, I set these at forty-eight seconds waiting, seven for the doors, fourteen for the ride, and four to exit.
+
+The total is seventy-three seconds. A took sixty-four.
+
+So the stairs arrive nine seconds earlier. I haven't found a way to walk faster than an elevator. I've found the time that the elevator spends being somewhere else. All fourteen seconds of travel speed are useless to me while I am staring at closed doors for forty-eight.
+
+Now I have a real choice to examine: is that result specific to the wait I assumed, or is the staircase always better?
+
+I remove the wait from B's clock without changing anything else. Doors, ride and exit take twenty-five seconds together. The staircase takes sixty-four. That leaves thirty-nine seconds for waiting.
+
+Exactly thirty-nine means a tie. Forty means the stairs win by one. Thirty-eight means the elevator wins by one. The result changes on either side of a single number. It's an equality in my model, not a universal rule written on an elevator wall.
+
+I now reset the model to the same start and destination. B's waiting time is just twelve seconds. Nothing else changes. Its total becomes thirty-seven seconds. The elevator beats my sixty-four-second staircase by twenty-seven seconds.
+
+That is the first reversal. The lift hasn't become a newer machine. The stairway hasn't grown longer. I changed only the time before the car arrived. A comparison that claims one method always wins would hide that difference.
+
+What could make a lift lose again despite arriving quickly? I add a stop on the way up. Suppose the door cycle and exchange of passengers at a middle floor add eighteen seconds to the trip. The number is another stated assumption, not an observation.
+
+With twelve seconds of initial waiting, the lift now takes fifty-five. It's still nine seconds ahead of the stairs. But with the original forty-eight-second wait, it takes ninety-one, leaving the stairs twenty-seven seconds ahead.
+
+For this four-floor model, that stop reduces the amount of waiting the lift can afford. Its fixed time is no longer twenty-five but forty-three seconds. Sixty-four minus forty-three equals twenty-one. An elevator that stops along the way must arrive within twenty-one seconds to tie the stair route. Under the original no-stop condition, it had thirty-nine.
+
+There's a second kind of mistake hidden in this kind of race. People often treat the elevator ride as one fixed fourteen-second number whether they travel one floor or ten. That isn't a fair model. Travel grows with height; so does climbing time.
+
+For a simple extension, I set the lift's travel at three and a half seconds per floor, keep seven seconds for doors and four to exit, and retain the assumed wait. This rule gives fourteen seconds of travel for four floors, matching the original case. Stairs still take sixteen seconds per floor.
+
+With forty-eight seconds of elevator waiting, one floor takes sixteen seconds on A. B takes sixty-two and a half seconds. Waiting dominates. On the fourth floor the numbers are sixty-four and seventy-three, the same nine-second loss for the elevator.
+
+But look at the fifth floor. A becomes eighty seconds. B is forty-eight waiting, eleven for doors and exit, and seventeen and a half for travel: seventy-six and a half. The elevator now wins by three and a half seconds.
+
+At eight floors, A takes one hundred twenty-eight seconds. B takes forty-eight plus eleven plus twenty-eight: eighty-seven. B wins by forty-one seconds. The same long wait that ruined it on four floors no longer does, because its faster motion finally has enough distance to recover that delay.
+
+That's the second reversal. In this simplified building, the break-even point with a forty-eight-second wait lies between four and five floors. In another building, with a different staircase, lift speed, door time or layout, the boundary moves. There is no magical universal floor number.
+
+Now I make the decision harder, without changing the finish line. Suppose I don't know the elevator wait when I arrive. For the purpose of another toy calculation, I imagine exactly two possible waits: twelve seconds or forty-eight seconds, each with an equal chance. These probabilities are invented for demonstration, not learned from any building.
+
+If I choose B before seeing the wait, the two possible times are thirty-seven or seventy-three seconds. Their average is fifty-five. A takes a constant sixty-four in this model. On average, B is nine seconds faster.
+
+So should I always choose B? Not necessarily. If I'm choosing by average time alone, yes, under those invented probabilities. If my only goal is to guarantee arrival within sixty-five seconds under exactly these two outcomes, A succeeds and B sometimes misses the deadline. The preferred method depends on how I define success, not just on which average looks smaller.
+
+I must not quietly change the metric halfway through. The original contest was about a single trip's actual arrival time. This second question is a separate decision under uncertainty. The possible waits and their probabilities are assumptions. Real waiting times are not limited to two neat values.
+
+There is real-world evidence that waiting matters, although it doesn't supply probabilities for my model. In a published study at a Canadian hospital, four staff members completed fourteen trips ranging from one to six floors using stairs and two banks of elevators. These were actual trips, not my simulated clock.
+
+Summed across the fourteen routes, stairs took about 10.3 minutes. The elevator banks took about 19.6 and 24.6 minutes. Researchers found that much of the difference came from waiting for lifts, and that the elapsed elevator time varied with time of day and weekday.
+
+That makes the result more interesting, but also more limited. Four participants in one hospital are not a representative sample of every apartment building or office. Some trips included going down; my drawing was about going up. A person carrying a heavy object, using a mobility aid or unable to climb stairs does not face the same usable options as my simplified walker.
+
+I also cannot use those average hospital numbers as if they were the exact time for a four-floor trip in a fictional lobby. The observation supports the mechanism; it does not validate my chosen forty-eight- or twelve-second waits.
+
+There's a practical trap in interpreting the first result too. Imagine I press the elevator button, wait thirty seconds, then decide to take the stairs. The thirty seconds have already passed. My new journey is no longer a fair race starting simultaneously at the entrance. It might still be sensible to switch, but I'd need to compare the *remaining* wait with the *remaining* stair travel, starting at that later moment.
+
+This is why a good side-by-side model resets the clock and the starting conditions for every comparison. If I let one method collect extra time, passengers or information from an earlier run, I am no longer comparing the two choices I announced.
+
+What can I carry from the model into daily life? Three things, each with a boundary. First, count the wait as part of the elevator trip. Second, the number of floors affects the answer because climbing and riding accumulate at different rates. Third, an intermediate stop can change the threshold even if the doors open promptly.
+
+What I cannot carry over is a promise that stairs are faster in every building. I haven't measured a real car, and my single metric ignores accessibility, fatigue, crowding and other needs. The published hospital experiment supports the importance of waiting, not a universal decision.
+
+For the original four-floor trip, the finished answer is exact inside the assumed model. When B waits forty-eight seconds, I take A and arrive nine seconds sooner. When B waits twelve, I take B and arrive twenty-seven seconds sooner. At thirty-nine seconds of waiting they tie, provided there are no extra stops.
+
+So I no longer look at the elevator as simply “the fast way.” I look at the whole journey. And the next time the staircase and the closed doors meet me in a lobby, I can finally ask the question that actually decides the race: would I reach the fourth floor faster by taking the stairs?
