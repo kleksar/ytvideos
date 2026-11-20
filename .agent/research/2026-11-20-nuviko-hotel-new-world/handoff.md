@@ -18,4 +18,8 @@ Source remote `main` at new-branch creation: `ea314fc36a798ded8d8ec684085e5a4c3a
 
 **Integrity:** all six texts were fetched by path from remote for SHA-256 review; see `story-review.md` for per-language fingerprints. Check current PR branch head/diff and CI exact HEAD before handing off. Queued/in_progress checks are UNVERIFIED, not PASS.
 
-**Open content issues:** current comparable English demand and 30–90-day momentum UNVERIFIED; 10m's second half suffers a meaningful pacing problem (REWORK); exact native voice timings and independent script reviews UNVERIFIED; historic photos/voice and identity references NOT licensed/loaded. No fictional eyewitness dialogue and no false assertion that the subway construction caused the collapse.
+**Open content issues:** current comparable English demand and 30–90-day momentum UNVERIFIED; 10m now includes additional verified rescue hazards and specific ignored warnings, but its inquiry still slows after the final rescue; exact native voice timings and independent script reviews UNVERIFIED; historic photos/voice and identity references NOT licensed/loaded. No fictional eyewitness dialogue and no false assertion that the subway construction caused the collapse.
+
+## 2026-11-20 follow-up — 10m only
+
+Baseline `29d6c74c717e959171895202305e2fd21e889c6e` → substantive 10m commit `b54d4612a0c1c2e5562c26caac5fdc6199e486d2`. Updated 10m exact SHA-256 EN `3579f7e8122805ae1505d3ce9d9ed1c47b00db0a19d37a106ad0544538d8cc10`, RU `f1ecee9970a5dd1f2b8fcdc3ba81e1f260c578e1f12a49a3b6924cf620d4eeb2`. Existing 02m/05m evidence untouched. New warnings come from retrospective 1987 inquiry coverage, not historical footage, and UPI rescue details are contemporaneous provisional reports. No TTS, 10m storyboard, independent reviewer, runtime registration, owner approval or media were produced. Re-read exact PR head and CI after this dependent metadata commit.

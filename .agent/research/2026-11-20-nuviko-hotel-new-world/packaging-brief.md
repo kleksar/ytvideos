@@ -22,3 +22,5 @@
 **Long end-screen handoff:** do not invent actual related published Nuviko video, next target or clickable element. Once a verified target exists, link its genuine next question after the story's complete resolution. End screen 10 sec in Long recipe; absent from narration and not currently rendered.
 
 Timing of first scene, thumbnail truth on final pixels, audio/caption alignment and native YouTube A/B are unverified. Packaging is not upload permission.
+
+**10m editorial alternative only:** The extended version now pays the ignored-warnings question through 1987 inquiry material (a jammed door, cracked mirror, timber supporting a damaged column) while the preferred 05m's title, images and script have not changed. This does not grant reuse rights for newspaper art or live video. Old scene spans are not transferable.
