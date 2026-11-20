@@ -41,3 +41,8 @@
 **Для рекомендованного 5m:** предлагаемый вопросный титул `How Did an Entire Lake Drain Into a Mine — and Come Back?`. Первая визуальная проверка обещания — наклоняющаяся буровая и действие шахтёров; второй payoff — реальный канал, текущий в обратную сторону. Обложка: мелкий край озера и накренённая буровая над упрощённым разрезом соляной шахты; разрез — маркированная реконструкция, не документированная точка пробоя.
 
 **Для 10m:** предлагаемый титул `The Lake That Vanished — and the Cause Investigators Couldn't Prove`. Обложка может обещать следственную загадку только с оговоркой: доказанные события и **неустановленный** первичный триггер. Не рисовать доказанную ошибку координат бурения. Все концепты не прошли independent review/CTR.
+
+
+## 10m revised third act — 2026-11-20 (editorial, not a release)
+
+10m still promises the lake's physics and the **undetermined original cause**; the new late beat adds a factual follow-up of conflicting lawsuits, geophones and displaced workers. A potential long title is `The Lake Returned. The Mine Didn't — and Nobody Proved Why`. This is only a distinct editorial hypothesis: no revised native thumbnail brief, no approval, no measured CTR. Do not present lawsuit allegations as a court verdict, the reported gas fire as an explosion, or a planned camera inspection as completed. The existing 02m Short packaging and old 15 storyboard scenes are untouched.

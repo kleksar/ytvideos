@@ -109,3 +109,17 @@ These are nine different events, not presentation variations. Nonfinalists were 
 **Источниковая оговорка:** web PDF page image визуально проверена для страницы со спасением (печатная стр.20); повторный запрос другой PDF страницы вернул 502. Следственный вывод о невозможности установить точный триггер поддержан извлечённым текстом и исходной проверенной evidence matrix; визуальное подтверждение всех PDF страниц **UNVERIFIED**. Публичные просмотры сторонних роликов, упомянутые выше в старом исследовании, не являются измеренным viewer demand, CTR или удержанием этого канала.
 
 **Дополнительная ценность:** версия 5m добавляет наблюдаемые действия людей и конкретные последствия, версия 10m — проверенный механический и следственный контекст, а не новую драму с выдуманным виновным. Дата источника вторичных просмотров не равна дате исторического события 20.11.1980.
+
+
+## Evidence addendum — 2026-11-20, 10m post-disaster conflict (not 2m/5m)
+
+The rewritten final act of 10m adds **documented actions after the canal reversal**, not a new theory of the breach. All material below comes from dated contemporaneous coverage; they are witnesses/reported statements, not the completed investigation.
+
+| 10m event | Concrete contemporaneous source | Limit of claim |
+|---|---|---|
+| **21 Nov 1980:** Diamond Crystal sued alleging drilling responsibility; Texaco disputed the company's account and said it had raised no prior objection to the proposed well | [UPI 1980-11-21](https://www.upi.com/Archives/1980/11/21/Salt-company-sues-over-drained-lake-ruined-saltmine/2980343630800/) | Competing allegations, **not** a judicial or MSHA finding; no result of the lawsuit is asserted |
+| **24 Nov 1980:** Natural-gas fire subsiding at flooded mine; federal inspectors installed geophones and reported preliminary absence of ground movement; camera examination of shaft planned | [UPI 1980-11-24](https://www.upi.com/Archives/1980/11/24/Salt-mine-fire-subsides-workers-seek-jobs/1411343890000/) | Preliminary geophone observations only, camera **planned**, not proven completed; fire not characterized as an explosion or injury |
+| **24 Nov 1980:** State and salt-company officials sought employment for hundreds affected | [UPI 1980-11-24](https://www.upi.com/Archives/1980/11/24/Salt-mine-fire-subsides-workers-seek-jobs/1411343890000/) | Reported job-search activity, not verified eventual employment outcome or exact final workforce count |
+| **1981:** Initial cause still undetermined | Existing [MSHA 1981 report](https://usminedisasters.miningquiz.com/saxsewell/1980_jefferson_island.pdf), conclusion printed pp.43–44 | Lawsuit did not resolve what MSHA could not establish; no fabricated cause, date of judicial judgment, or completed camera inspection |
+
+**Editorial mechanism:** the first rescue and reversed canal remain the film's principal climax, then a new event follows (lawsuit / gas fire / geophones / displaced workers), and the inquiry's unresolved answer provides a factual final consequence. This replaces a redundant full chronological recap in old 10m. No claims of measured audience response.
