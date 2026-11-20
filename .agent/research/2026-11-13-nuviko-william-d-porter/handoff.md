@@ -1,3 +1,9 @@
+
+
+## 2026-11-20 — substantive 05m rework at baseline `7cce8a3f019e06d28f22e875a5229fcd0bef745b`
+
+The revised [05m EN](variants/05m/script.en.txt) (`3f01976d97fae793b69c739859e8ee4ffc1a572cc090be74fa1748ade1c4a740`) / [05m RU](variants/05m/script.ru.txt) (`af930781db94ebd4b6d4165813593a263c741d9dee0880252153401784882f4e`) replaces repetitive post-rescue explanations with a supported second conflict: an omitted primer, evidence discarded after the launch (Navy historical account), a Bermuda inquiry, Dawson's demotion, qualified sentence/commutation, and Walter staying in command. This is an **unapproved Git-only editorial candidate**, not new owner approval or a runtime status. 02m/10m and root master/storyboard remain unchanged. TTS length, bilingual independent review, exact Long storyboard, owner decision and live demand UNVERIFIED. 
+
 # Handoff — Porter variants 2 / 5 / 10 minutes
 
 **Status: EDITORIAL_CANDIDATE_UNREGISTERED. Recommended but unapproved: 05m Long.**
