@@ -1,0 +1,47 @@
+I put three deadlines on my desk and made a choice that looks wrong before I even start. I ignored the earliest deadline. More of my work arrived on time. But I also made the most important-looking job later than ever. So did I actually choose the better order?
+
+I want to settle that question with two ways of handling exactly the same tasks. There's no filmed race here. I'm drawing a small scheduling model, with made-up tasks and declared rules. The interesting thing isn't how fast I can type. It's whether a perfectly reasonable rule can lead me to a worse outcome.
+
+It's nine in the morning. One slide presentation needs forty uninterrupted minutes and is due at nine forty. An email needs twenty minutes and is due at nine fifty. A form needs another twenty minutes, also due at nine fifty. I start with everything ready, and only one of me is working. I can't do two jobs simultaneously. I can't pause the slides halfway through and call them finished. Every completed job earns exactly one point if its deadline hasn't passed. My declared goal is the highest number of jobs on time.
+
+That goal matters. If I measured only the time when my entire desk becomes empty, there would be no competition: forty plus twenty plus twenty is eighty minutes. Both methods finish at ten twenty. The only way to see the difference is to check what gets finished along the way.
+
+A is the shortest-job-first rule. B is the earliest-deadline-first rule. I don't get to move a deadline or shorten a task while comparing them. If you saw the presentation due first and the two small jobs due ten minutes later, which order would you trust?
+
+I choose A and begin with the email. At nine twenty, it's submitted. One point. I take the form next, spend twenty minutes, and submit it at nine forty. Another point. I have done forty minutes of work, and two tasks have reached their destinations before nine fifty. It looks as if I have cheated time.
+
+Then I open the slides. They still need forty minutes. At ten twenty, they're finally ready, forty minutes after nine forty. My earliest deadline failed spectacularly, but the final score is two on time and one late.
+
+I reset the clock. Same exact cards, same lengths, no hidden advantage. This time I choose B and take the closest deadline seriously. Presentation first. Forty minutes later, it reaches the deadline exactly: nine forty. One point. I tackle the email and send it at ten. It's ten minutes late. The form is complete at ten twenty, thirty minutes late. B earns one point, despite protecting the job that looked urgent.
+
+The difference isn't that the first strategy somehow created more minutes. It bought two completions before their joint cutoff. The second strategy used the entire first forty-minute block on one job. Once that happened, there were only ten minutes left before the two short deadlines. Neither twenty-minute job could fit.
+
+Now I want to know whether I deliberately constructed an unfair comparison. Why not find a third order that saves everything? There are only six possible orders for three distinct jobs. I don't even need to enumerate all six to see the obstacle.
+
+The presentation takes forty minutes and has to be finished forty minutes after I begin. If I want that presentation on time, it has to be the first job. No gap and no other task before it. Once it finishes at nine forty, I have just ten minutes until both remaining deadlines, but those tasks need forty minutes together. I can finish neither by nine fifty. So no order can get all three on time with these numbers. Two is the best possible score. A doesn't just beat B in this toy case; it reaches that maximum.
+
+There's a catch in the word 'best'. Imagine the presentation is a contract that loses its value if it arrives late, while the email and form are administrative. My scoring rule gave all three equal importance. A protects the two small items and sacrifices the contract. B protects the contract and misses the others. If I assign three points to the presentation and one each to the short jobs, A earns two weighted points, but B earns three. I have not discovered that B secretly won the original test. I have changed the objective, and I must say so before choosing the order.
+
+I can also measure how bad the worst miss is. With A, the presentation is forty minutes late. With B, the email is ten late and the form thirty late. If my aim is to keep the maximum delay as small as possible, B looks better: thirty minutes rather than forty. Those are two different questions about the exact same outcome table. 'How many deadlines did I meet?' is not the same question as 'How late was my worst deadline?' A single word like 'efficient' can hide that difference.
+
+Next I keep the objective fixed and change the situation in a controlled way. The jobs still start at nine and still take forty, twenty, and twenty minutes. I move just the email and form deadlines to ten o'clock. Under A, the email finishes at nine twenty and the form at nine forty, while the presentation still ends at ten twenty: two points. Under B, the presentation finishes at nine forty and the email exactly at ten. The form finishes at ten twenty, too late. That's two points as well. The winner has become a tie.
+
+Now I move only those two deadlines farther, to ten twenty. Under A, the same earliest presentation remains late: still two. Under B, the presentation arrives at nine forty, the email at ten, and the form at ten twenty. All three land on time. B wins three to two.
+
+Notice what I haven't done. I haven't made anyone faster, slipped an extra worker into the room, or redefined 'on time' after seeing the winner. The extra room in the deadline is enough to reverse which ordering fits my chosen objective. That tells me exactly what information an app with an automatic 'sort by urgency' button would need to understand before pretending to know the right order.
+
+I try a completely new morning as another counterexample, clearly separate from the first comparison. A presentation now takes thirty minutes and is due at nine thirty. The email takes five minutes, and the form ten; those two are due at ten. Total work is forty-five minutes.
+
+A, shortest first, sends the email at nine oh five and the form at nine fifteen. The presentation then finishes at nine forty-five, fifteen minutes late. Two on time. B starts with the thirty-minute presentation and submits it right at nine thirty. Five minutes later the email is ready; ten more and the form is done at nine forty-five. Three on time. Same competing rules, but B is now the one that protects every deadline.
+
+What changed between the mornings? Not the moral character of a method. The deadlines and lengths changed the available gaps. In the first morning, two short jobs could squeeze inside an early window only if I did them first. In the second, the first deadline belonged to a job that fitted perfectly before both smaller deadlines. A method that ignores that relationship will make mistakes.
+
+One more test makes the tradeoff visible without changing the jobs at all. Suppose I care about when I receive the first completed thing, not how many are on time. With A, I have an email by nine twenty. With B, I get nothing finished until nine forty. Someone waiting on my email might appreciate A. Someone waiting on the presentation would prefer B. Again, that is not a hidden flaw in either arithmetic table. It's a different person asking a different question.
+
+I could make the puzzle more complex by allowing interruptions, part-finished submissions, different people working in parallel, uncertain durations, or penalties that change with each minute late. But I haven't modeled any of those things here. In a real workday, an email might take five minutes or forty, and stopping one task to answer another has a cost. Claiming my toy result is a tested productivity strategy would be misleading.
+
+So what would I actually do with this idea? I would write the work length next to each due time, and decide what a missed deadline costs. If my aim really is to maximize the count, I would test a few feasible orders, not assume that the earliest date must go first. With three jobs, I can inspect every option. With a huge list and uncertain estimates, my neat example isn't enough to prescribe a perfect schedule.
+
+The first morning still has a clean answer. For equal-value jobs, one worker, no interruptions, and the deadline-count metric announced before the race, A gives two on-time completions. B gives one. The forty-minute slides remain the cost of that result. With later deadlines, B can reverse the score; with different importance, my choice could reverse even earlier.
+
+And that's the honest ending of this paper test. I don't have a magic productivity rule. I have a reason to stop calling one order 'the best' until I've decided what 'best' means. My original morning has two honest answers: A saves two deadlines, while B saves the early presentation. I can only choose between them after deciding which loss matters more.
