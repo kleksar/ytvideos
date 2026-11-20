@@ -1,0 +1,51 @@
+I have two buses to choose from, and the one leaving first might actually get me home last. The first route makes a transfer. The second leaves later but stays on one bus all the way. I can pick the option that looks quicker, or I can find out where its time advantage comes from and how easily it disappears.
+
+This is a drawn model with invented departure times. I'm not comparing real bus companies or claiming to have tested a commute on the street. Both choices begin with me at the same stop at eight in the morning. Both end at the same destination. I'm measuring the time I actually arrive there, not just the speed of a vehicle.
+
+I call the direct bus A. I wait until eight ten, get on, and ride straight through to eight thirty-five. That's ten minutes at the stop and twenty-five on the bus: thirty-five minutes from my starting clock.
+
+Option B comes earlier. I board at eight oh two. Ten minutes later, at eight twelve, I get off at an interchange. I need two minutes to walk to another stop. When I reach it at eight fourteen, the connecting bus is due at eight eighteen. I wait four minutes, ride for another twelve, and arrive at eight thirty.
+
+That means B takes thirty minutes total. I waited two minutes before the first bus, rode ten, walked two, waited four, and rode twelve. Those pieces add up. A takes thirty-five. Under these scheduled conditions, B wins by five minutes.
+
+It's tempting to explain the win by saying transfers are faster. But I haven't shown that. I chose a timetable in which B spends less time waiting at the first stop and its connection happens to fit. The later direct bus is not inherently slow. The difference comes from the whole trip, not the label on the route.
+
+Then I notice the number that bothers me most. Four minutes. That's the gap between completing the walk and the connecting departure. I can lose a little time on the first bus and still make the second. Lose too much, and the next ride is suddenly a completely different departure.
+
+I replay B with a three-minute delay. The first bus now reaches the interchange at eight fifteen instead of eight twelve. The two-minute walk gets me to the next stop at eight seventeen. Assuming boarding is still open, I catch the eight eighteen service. I reach home at eight thirty just as before. The delay used up three minutes of waiting but didn't cost me any time at the final destination.
+
+So a late first bus and a late arrival are not the same thing. Part of a delay can disappear inside waiting I was going to do anyway.
+
+Now I replay B with five minutes of delay. The first bus arrives at eight seventeen. I walk for two minutes. At eight nineteen I reach the connecting stop. The eight eighteen bus has already gone. I can't make it stop by wishing the first bus had hurried.
+
+The next scheduled connection leaves at eight twenty-eight. It also takes twelve minutes to reach my destination. I arrive at eight forty. I started two minutes after eight, just as in the first run, but this time B took forty minutes overall. The direct bus A still arrives at eight thirty-five. The winner has flipped.
+
+That ten-minute jump is more important than the five-minute delay itself. The first bus lost five minutes; missing a departure pushed my arrival ten minutes past the original plan. In a timetable, time can change in steps. It doesn't always slide forward one minute for every minute of trouble.
+
+I need to be precise about the edge. The scheduled first arrival at the interchange was eight twelve. Add a two-minute walk and I'm ready at eight fourteen. The next departure is eight eighteen. A delay of three minutes puts me there at eight seventeen, with one minute left. A delay of four puts me there at exactly eight eighteen, which is not a guaranteed boarding opportunity. A delay of five puts me there after departure. The exact safe margin depends on how boarding works; my model assumes I must be at the second stop before departure.
+
+I can use that observation to make a much more useful decision. Before I commit to B, I need to know when the connection leaves, how long the transfer really takes, and when the following service runs. A travel app that only displays the fastest advertised arrival has answered one question, but not every question I care about.
+
+To test that, I make the second service more frequent. Everything else stays the same, including the five-minute delay. But now another connecting bus leaves at eight twenty-three, five minutes after the missed eight eighteen departure, instead of at eight twenty-eight. With the same twelve-minute ride, I arrive at eight thirty-five.
+
+B has gone from a five-minute loss to a tie with A. I haven't changed the direct bus, the first bus, or the length of the transfer. I changed just the gap until the following connection. That makes the recovery service part of the choice, not a detail I should ignore.
+
+I try the opposite change. The connection still only runs at eight eighteen and eight twenty-eight, but I need five minutes to reach its stop instead of two. Now even if B's first bus is on time at eight twelve, I reach the next stop at eight seventeen. There is just one minute to board. A small additional delay could destroy the original advantage. If the passage involves stairs, a confusing platform, or accessibility constraints, the two-minute assumption may be impossible for me. In this model, walking time is an input I have to check, not something to wish away.
+
+The choice also depends on what I'm trying to achieve. Suppose I only care about the earliest scheduled arrival. B wins: eight thirty versus eight thirty-five. But suppose I need to be there by eight thirty-six. Under our punctual direct-bus assumption, A reaches that deadline. B meets it when the transfer succeeds but fails it in the five-minute-delay case. The difference between fastest and more reliable is suddenly visible.
+
+Can I compare those options without pretending to know real delay rates? I can invent a probability example and label it clearly. Let's say, only for this exercise, that B's first bus is on time in seventy out of a hundred runs, three minutes late in twenty, and five minutes late in ten. Those numbers are hypothetical, not statistics from a transport operator.
+
+In the first ninety runs, B still catches the eight eighteen connection and arrives at eight thirty. In the last ten, it misses and arrives at eight forty. Its average arrival time works out to eight thirty-one. A, held fixed at eight thirty-five for this test, has an average of eight thirty-five.
+
+So if I'm optimizing the average time of arrival under those invented probabilities, B still wins by four minutes. But for the eight thirty-six deadline, B succeeds in ninety runs out of a hundred while A succeeds in all hundred under the assumption that A never delays. If missing the deadline is expensive, I might prefer A even though its average arrival is later.
+
+I can't take that one-hundred-percent figure into the real world. Real direct buses also run late. Real transfers can be held or cancelled. Delays may affect both routes at the same time. The example isolates one risk and deliberately holds other variables fixed so I can see the mechanism.
+
+For another sensitivity check, I let the direct bus be six minutes late while keeping B's five-minute first-leg delay and its ten-minute missed-connection penalty. A would then arrive at eight forty-one, assuming the delay carries through to arrival. B would still arrive at eight forty. Now the transfer wins by one minute even after I miss it. That doesn't undo the earlier result. It shows why saying one route is always safer would be a claim I haven't earned.
+
+Other information could overturn my decision completely. The direct bus might stop closer to my actual door. The transfer could require a fare I haven't included. A slower walk, a crowded vehicle, a step-free route, or whether the last connection is still running could all matter. I would need real inputs for a real trip. A simple simulation cannot turn its chosen assumptions into measured service reliability.
+
+But it can give me a method I can actually use. I compare arrivals at the final destination, not just departures from the first stop. I include every wait and walk. I check how many minutes remain after the transfer, and when the next bus comes if I miss it. And I decide whether I value the fastest advertised arrival or protection against a deadline.
+
+In the original timetable, I take B and reach the destination at eight thirty, five minutes ahead. With the specified five-minute delay to B's first bus and A still on time, I take A and arrive at eight thirty-five instead of eight forty. Both answers are correct for their own conditions. The question on the departure board hasn't changed. The bus leaving first might get me home last.
