@@ -7,10 +7,10 @@ Author: GPT-6 (editorial author and **self-review** only); moderate confidence a
 | Variant | English exact text + SHA-256 | Russian exact text + SHA-256 | EN words / rough voice at 145–165 wpm, plus pauses | Editorial status / format |
 |---|---|---|---|---|
 | 02m | [EN](variants/02m/script.en.txt) `e75999ba7474fb8c3994a4e5d53b2a8d280b47e970621f3d87cc57494aa90f1c` | [RU](variants/02m/script.ru.txt) `3028197559d534687d1dfa1dc6bf6a2d5c1ce6b54b7376c8a91a9165bf3fbe17` | 312 words, ~1.9–2.2m before pauses | **STRONG_CANDIDATE** (recommended), proposed Short; duration above 35–50s target |
-| 05m | [EN](variants/05m/script.en.txt) `079d153fb1643a66f1857864ee301d99feecfbe4ce764d367b674cddea9f6827` | [RU](variants/05m/script.ru.txt) `0aa4c96552309365c5a4aa5b740691697e69dbcd4a0b0c0ff5460e85a6d62fb4` | 811 words, ~4.9–5.6m before pauses | **STRONG_CANDIDATE** editorial Long; no Long recipe |
-| 10m | [EN](variants/10m/script.en.txt) `a079cc9cf5c429e959f1540725d658f088f97647174b0048cf72ffccc2764721` | [RU](variants/10m/script.ru.txt) `d49aec00be2eb5cda3e90a931000bd5b10683dd5404216b3eae7639e701557b4` | 1958 words, ~11.9–13.5m before pauses | **REWORK** editorial Long; no Long recipe |
+| 05m | [EN](variants/05m/script.en.txt) `e4543651caf34dbae818fd8f6a19a39ecb7510bd950bc1ce3b1812b22396edc8` | [RU](variants/05m/script.ru.txt) `49ea924f4977ceb917abf1d8d788ae7491594fbd86e152002bcbe8dedb9964fb` | 741 words, ~4.5–5.1m before pauses | **STRONG_CANDIDATE** editorial Long; no Long recipe |
+| 10m | [EN](variants/10m/script.en.txt) `47ff15cd30b829c7f37ad207373aeb934c0092221a16196342901a7e345377b1` | [RU](variants/10m/script.ru.txt) `520b233dd2c00c0aba52b036e172f4e2c801e7606d5171b9bd765068541db9a3` | 1573 words, ~9.5–10.8m before pauses | **REWORK** editorial Long; no Long recipe |
 
-Time estimates are *not* measured narration, even where the counts happen to match target, and do not account for chosen voice cadence, graphic pauses or exact audio/visual seam. EN master, RU editorial semantic counterpart; RU word counts 02/05/10: 243/649/1511.
+Time estimates are *not* measured narration, even where the counts happen to match target, and do not account for chosen voice cadence, graphic pauses or exact audio/visual seam. EN master, RU editorial semantic counterpart; RU word counts 02/05/10: 243/598/1213.
 
 ## Eight rubric dimensions, author evidence on each exact variant
 
@@ -27,7 +27,7 @@ Time estimates are *not* measured narration, even where the counts happen to mat
 
 All eight rows are author judgements; interest/development/payoff individually >=8 for both STRONG_CANDIDATE variants. No averaging away the 10m development deficit. Viewer demand not assigned a number. Scores reflect exact SHA-listed texts, not predicted performance.
 
-**Defects:** 02m has ~312 English words, substantially longer than normal channel 35–50s Shorts; three measured figures and a 24× ratio tax listening clarity, and the return to opening is author-provisional. 05m has a slower explanatory middle; it earns extra context but may be too technical for Two Ways. 10m explains fridge, wet-paper, protocol and alternate metrics *after* the decisive result; first likely attention drop at “I could also try moving the can gently...” rather than another escalating action. Redesign necessary before recommending 10m; not to be padded or marked strong because complete.
+**Defects:** 02m has ~312 English words, substantially longer than normal channel 35–50s Shorts; three measured figures and a 24× ratio tax listening clarity, and the return to opening is author-provisional. 05m has a slower explanatory middle; it earns extra context but may be too technical for Two Ways. 10m explains fridge, wet-paper, protocol and alternate metrics *after* the decisive result; first likely attention drop at “Imagine I want to repeat the comparison at home” rather than another escalating action. Redesign necessary before recommending 10m; not to be padded or marked strong because complete.
 
 ## Story maps and checks
 
@@ -35,7 +35,7 @@ All eight rows are author judgements; interest/development/payoff individually >
 
 **05m:** question-driven Long intro of freezer vs bowl → measured test and identical can → 10 vs 60 plain-ice reversal → 2.5 salt result → liquid contact and salt mechanism → different bottle size and missing salt measurement → time vs convenience; final conditionally chooses method. Long requires no Short loop.
 
-**10m:** question-driven Long opening → fuller setup and two methods → plain/salt reversals and 24× → mechanisms and independent ANU experiment → what the 1.5L result cannot prove → alternate finish temperature and fridge counterexample → wet-paper negative test and repeatability protocol → metric limits → conditional choice. Full standalone close. Longer does not automatically make it more engaging.
+**10m:** question-driven Long opening → fuller setup and two methods → plain/salt reversals and 24× → mechanisms and independent ANU experiment → what the 1.5L result cannot prove → alternate finish temperature and independent repeatability protocol → metric limits → conditional choice. Full standalone close. Longer does not automatically make it more engaging.
 
 | Check (scope) | 02m | 05m | 10m | Why |
 |---|---|---|---|---|
@@ -52,8 +52,10 @@ All eight rows are author judgements; interest/development/payoff individually >
 
 ## Completed-text comparison and decision
 
-**2→5:** added observation that unsalted ice already beats freezer, precise 5L+1.25kg experimental bath, better explanation of why -16°C liquid wins over -20°C air, plus size and finish temperature limits. Valuable for explaining the mechanism but not strictly needed for the main two-step surprise.
+**2→5:** added observation that unsalted ice already beats freezer, precise 5L+1.25kg experimental bath, better explanation of why -16°C liquid wins over -20°C air, plus size and setup limits. Valuable for explaining the mechanism but not strictly needed for the main two-step surprise.
 
-**5→10:** larger study of heat transfer, cross-source comparison, fridge and wet paper, repeatability protocol, caveats about soda and energy metrics. Verified detail, but each extra segment after 24× weakens forward pressure for a casual A/B video. **10m REWORK**, not recommended.
+**5→10:** larger study of heat transfer, cross-source comparison, repeatability protocol, caveats about soda and energy metrics. Verified detail, but each extra segment after 24× weakens forward pressure for a casual A/B video. **10m REWORK**, not recommended.
 
 **Recommended: 02m** because its result is immediate and applicable; 05m is a credible editorial alternative for a supported future Long channel recipe, not an automatic production order. 02m requires Short timing/format decision and literal loop independent validation before exact approval. The answer is an evidence-bound *published measurement*, not measured view performance or our own physical experiment.
+
+**Second author editing pass (2026-11-20):** 05m EN 811→741 words; 10m EN 1958→1573 words. The corresponding RU explanations were trimmed in parallel (649→598 and 1511→1213 words). Removed an already-resolved secondary nine-degree section from 05m, and repetitive temperature/protocol commentary from 10m. Previous script bytes remain auditable at commit `347e7699d1dd8aea4c98c4b4217ed06dfc1130c2`; newly calculated SHA-256 above apply only to this revision. No independent reviewer or approval may be inherited.
