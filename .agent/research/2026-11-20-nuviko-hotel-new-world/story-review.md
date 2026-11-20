@@ -10,10 +10,10 @@
 | [02m/ru](variants/02m/script.ru.txt) | 226 | `8405763440ac930b83ac6686af851955674f86fff40cfb840ece09a30a15770d` | `7d7c913558062d5ddc4ee27701b2349539f27ed6` |
 | [05m/en](variants/05m/script.en.txt) | 714 | `d44c8d8bdeaf71fa67c4e697ff3fa47dcb7d76269521bc2b869db69c21699094` | `8b1c766d65d8c59a6a2c539668c2f51305a1064e` |
 | [05m/ru](variants/05m/script.ru.txt) | 583 | `c28c9ab4f957ddd57bc46a859e08a4a9ad59ec7652f2fc9e93b042c4b9a43bf1` | `a8d4f4eb1a0f2d7738ae6f75dfaf191addc52f56` |
-| [10m/en](variants/10m/script.en.txt) | 1333 | `b2d7595aa8f8df8f1ea8efa3cfcaaf552f2ee63474f7aa5f79dae3442e159def` | `b309e8bcdc207673e5cb4cf3cb50d55f8f6e5d11` |
-| [10m/ru](variants/10m/script.ru.txt) | 1099 | `c4edb818a8db1b633acee729e7bb4cf5e25db96c1a8c3e80b768c09a6f11e0ad` | `94bd1df73271ff4e7ad845fa0e083fd0c4ee22d0` |
+| [10m/en](variants/10m/script.en.txt) | 1410 | `3579f7e8122805ae1505d3ce9d9ed1c47b00db0a19d37a106ad0544538d8cc10` | `7819ca8ff069d78710e2c8278a9db98df93cd7f3` |
+| [10m/ru](variants/10m/script.ru.txt) | 1147 | `f1ecee9970a5dd1f2b8fcdc3ba81e1f260c578e1f12a49a3b6924cf620d4eeb2` | `c58ad417951321e480c98548572f341ffe79b28a` |
 
-EN clock-time **estimates only** assuming ~130–155 net words/min and 4–30s of pauses; recorded Nuviko 1.10× voice duration cannot be inferred from text: **02m 287 words → ~1:55–2:24; 05m 714 words → ~4:44–5:48; 10m 1333 words → ~8:48–10:45**. EN/RU text lengths differ due natural translation; RU is not a secretly timed alternative TTS master. Until measured audio, runtime/caption timing UNVERIFIED. Two-minute format is an editorial Short proposal, not license to force voice speed.
+EN clock-time **estimates only** assuming ~130–155 net words/min and 4–30s of pauses; recorded Nuviko 1.10× voice duration cannot be inferred from text: **02m 287 words → ~1:55–2:24; 05m 714 words → ~4:44–5:48; 10m 1410 words → pre-TTS estimate only; measured length UNVERIFIED**. EN/RU text lengths differ due natural translation; RU is not a secretly timed alternative TTS master. Until measured audio, runtime/caption timing UNVERIFIED. Two-minute format is an editorial Short proposal, not license to force voice speed.
 
 ## Scores: eight distinct editorial criteria for each exact language file
 
@@ -25,8 +25,8 @@ Scale: **1–10** subjective editor judgement, or **UNVERIFIED** if audience dat
 | 02m RU `8405763440ac` | 9 | 8 | 8 | 8 | 8 | 8 | 8 | UNVERIFIED | STRONG_CANDIDATE, text-loop author checked |
 | **05m EN `d44c8d8bdeaf`** | **9** | **9** | **9** | **9** | **8** | **9** | **9** | **UNVERIFIED** | **STRONG_CANDIDATE — recommend** |
 | 05m RU `c28c9ab4f957` | 9 | 9 | 9 | 9 | 8 | 9 | 9 | UNVERIFIED | STRONG_CANDIDATE |
-| 10m EN `b2d7595aa8f8` | 9 | 8 | 7 | 8 | 8 | 8 | 8 | UNVERIFIED | REWORK — slower inquiry section |
-| 10m RU `c4edb818a8db` | 9 | 8 | 7 | 8 | 8 | 8 | 8 | UNVERIFIED | REWORK — slower inquiry section |
+| 10m EN `3579f7e81228` | 9 | 8 | 8 | 8 | 8 | 8 | 8 | UNVERIFIED | REVISED; new rescue risks and concrete warnings; 05m preferred |
+| 10m RU `f1ecee9970a5` | 9 | 8 | 8 | 8 | 8 | 8 | 8 | UNVERIFIED | REVISED; new rescue risks and concrete warnings; 05m preferred |
 
 **Why scores differ / line-by-line evidence.** Every language has a separately read text and specific sentence/scene anchors. Author confidence: **medium** for script-based interest/development/payoff and EN/RU semantic integrity; **low** for prediction of entertainment impact without independent listener; **none** for measured public demand.
 
@@ -70,25 +70,25 @@ Scale: **1–10** subjective editor judgement, or **UNVERIFIED** if audience dat
 - **N 9:** natural action phrasing "поползти по очереди" / "потихоньку раскалывали" avoids false heroic dialogue; minor expositional sentence on supports remains.
 - **S UNVERIFIED:** no measured RU watch-choice/retention; editor translation is not a market result. **Main weakness:** final two-part verdict reads more like a conclusion than a new event, though each thread has its actual payoff earlier.
 
-### 10m EN — author assessment; medium/low confidence
-- **I 9:** distinct human rescues and safety inquiry sustain meaningful stakes beyond engineering minutiae.
-- **H 8:** opening's three related questions place collapse, rescue and early cracks; slightly heavier cognitive load than the 05m start.
-- **D 7:** genuinely adds March 17 UPI rescue details, load-transfer mechanism, permanent vs changing loads, and 1989 service change, but "The inquiry..." begins a long second half after survivors' fate is known; possible slow passage.
-- **P 8:** Helen's basin, Chua's extraction, toll, inquiry and cracks finally converge; full payoff is reached before the closing paragraph.
-- **F 8:** rescue-versus-subway-hypothesis irony is a real angle; 47:52 CNA and other videos already cover building failure in depth.
-- **V 8:** interior access, bank workers, cracked supports and progressive transfers can be depicted, though technical midsection risks abstract visuals without authentic archival source.
-- **N 8:** revised awkward meta-conclusion out; "A building does not only support the people who enter it" is clear explanation, but it is slower than the human passages.
-- **S UNVERIFIED:** global 10m English audience interest cannot be derived from a Japanese 34:39 video. **Main weakness:** comparatively weak extra payoff per minute in the inquiry half; no 10-minute preference over 05m.
+### 10m EN — revised author assessment, SHA-256 3579f7e8122805ae1505d3ce9d9ed1c47b00db0a19d37a106ad0544538d8cc10
+- **I 9:** people saved and killed by a real structural failure; audience interest not measured.
+- **H 8:** three supported opening questions, but slower than 05m.
+- **D 8:** failed lifting → tunnel decision → basin → safe-door, rain and narrow second rescue → Chua → inquiry → concrete warnings. Loses pace after last rescue.
+- **P 8:** both rescue and structural cause conclude; timber prop makes the missed-warning payoff concrete.
+- **F 8:** subway staff helped rescues while investigators excluded subway construction as cause; existing documentaries reduce novelty.
+- **V 8:** piano shop, bank door, narrow tunnel, cracked mirror and propped column lend real images; image rights unverified.
+- **N 8:** removes repeated philosophical closure, retains some slower engineering exposition.
+- **S UNVERIFIED:** no verified current audience or retention data; confidence medium on source facts, low on predicted attention.
 
-### 10m RU — author assessment; medium/low confidence
-- **I 9:** presents a specific rescue method and the sustained real-world consequence of defective construction.
-- **H 8:** "Как мог отель ... рухнуть меньше чем за минуту" is interesting but the opening asks several things before reaching people.
-- **D 7:** after detailed tunnel rescue, long engineering section on "собственный вес конструкции", safety factor and redistributing column loads risks slowing attention.
-- **P 8:** the final paragraph distinguishes inquiry explanation from live rescues; Chua's rescue and death toll are not concealed until return.
-- **F 8:** contrast between the metro workers and the rejected metro-causation theory is distinctive, while source material is not novel.
-- **V 8:** vivid sink/hands/dust vs later technical supports; visual weight uneven.
-- **N 8:** revised meta phrases removed; explanation of two types of loading is conversational, but still term-heavy after midpoint.
-- **S UNVERIFIED:** no RU video analytics nor target-audience test. **Main weakness:** 05m covers the major narrative answers already; 10m is a valid full draft but not presently the strongest viewing proposition.
+### 10m RU — revised author assessment, SHA-256 f1ecee9970a5dd1f2b8fcdc3ba81e1f260c578e1f12a49a3b6924cf620d4eeb2
+- **I 9:** реальные спасённые и погибшие, без выдуманной ставки.
+- **H 8:** три вопроса обещают причины и спасение, но пятиминутная версия быстрее переходит к людям.
+- **D 8:** неудачный подъём → тоннель → раковина → дверь сейфа и дождь → последняя спасённая → 117 свидетелей и конкретные предупреждения; следствие после спасения замедляет темп.
+- **P 8:** финальные деревянные подпорки показывают упущенную возможность предотвратить беду, не скрывая цену спасения.
+- **F 8:** проект метро отделён от причин трагедии; сюжет известен по другим фильмам.
+- **V 8:** штаб в магазине пианино, узкий проход, зеркала, двери и колонны дают достоверные планы.
+- **N 8:** причинные действия вместо повторного итога; инженерные термины требуют проверки на слух.
+- **S UNVERIFIED:** нет данных об удержании или интересе аудитории. Уверенность в фактических связях средняя, в редакционном прогнозе низкая.
 
 ## English/Russian semantic cross-check (exact six texts)
 
@@ -123,3 +123,9 @@ Scale: **1–10** subjective editor judgement, or **UNVERIFIED** if audience dat
 **05 → 10:** another ~619 EN words add named firefighters and more complete first-person reports, 17 March contemporaneous counts, roof and construction details, permanent-vs-live loads, progressive column failure, 1989 rescue-services reorganisation. These are real additions, not repetitions, but after the survivor resolution the explanatory focus demands a second sustained interest from an audience that may have clicked for the rescue. Expected weakest passage is the inquiry's long explanation of loads and column transfer. Editorial D=7 prevents classifying 10m as strong through its high interest score.
 
 **Recommend 05m EN** `d44c8d8bdeaf71fa67c4e697ff3fa47dcb7d76269521bc2b869db69c21699094` for independent review and *future* owner selection: best balance of tangible rescue actions and credible root-cause explanation with full emotional and intellectual payoff. No production authorization, no guarantee about audience interest or native reading time. A viewer-focused independent rejection or factual defect must override this author recommendation. Two author revisions only on literal first/last 02m lines and 10m formulaic prose; **no further automatic rewrite to manufacture 9–10s**. No alternative scripts pre-accepted for production.
+
+## 20 Nov 2026 substantive 10m re-review
+
+Before: generic cracks and a repeated rescue-versus-inquiry conclusion. After: failed cut-and-lift, improvised rescue command, second bank and microphone passage, threatened rain, inquiry testimony, doors/mirror/column warning sequence, and concrete safety recommendations. 02m and 05m EN/RU remained byte-for-byte unchanged. The revised 10m EN hash is `3579f7e8122805ae1505d3ce9d9ed1c47b00db0a19d37a106ad0544538d8cc10` (1410 whitespace words); RU `f1ecee9970a5dd1f2b8fcdc3ba81e1f260c578e1f12a49a3b6924cf620d4eeb2` (1147 words). The old 10m assessments and timing are invalidated; the original storyboard is not bound to either new hash.
+
+**Additional source ledger:** see appended `research.md`. Author textual EN/RU fact correspondence checked (17-inch/семнадцать дюймов, 117 witnesses/117 свидетелей, fifty tonnes/пятьдесят тонн, 17 rescued/33 dead). These source checks are not independent first-listener review, final fact attestation or audience measurement. **05m remains recommended** for speed of human payoff. Independent reviewer, TTS/AV, rights, runtime registration and owner approval UNVERIFIED. Long Short-loop N_A. New 10m storyboard/spans not prepared.
