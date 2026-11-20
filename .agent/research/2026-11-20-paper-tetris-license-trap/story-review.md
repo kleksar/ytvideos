@@ -1,14 +1,14 @@
 # Exact-text author review — 2026-11-20
 
-Author: automation editorial writer; confidence MEDIUM in script and source fit, LOW in audience prediction. No independent reviewer session or receipt; scores are author judgment, NOT measured retention. Two author passes: narrowed plot to license trap; removed invented official dialogue and screenplay car chase. Text hashes include final newline.
+Author: automation editorial writer; confidence MEDIUM in script and source fit, LOW in audience prediction. No independent reviewer session or receipt; scores are author judgment, NOT measured retention. Two meaningful author passes: narrowed plot to license trap; removed invented official dialogue. Later mechanical tightening of 10m redundancies (not a new plot revision) to fit proposed spoken duration; no added facts. Text hashes include final newline.
 
 | Variant | EN SHA256 | RU SHA256 | EN words | RU words | Author status |
 |---|---|---|---:|---:|---|
 | 02m | 2f1ba85b003e7aa97c3d8c4b84337858d9232859cf55fc438a6324fa5b88b487 | 496bac1155b4974b675df167b138b866894ffdad9bd02999473b80d21eacb4d5 | 341 | 304 | STRONG_CANDIDATE |
 | 05m | ca9a95ea3302121c745af1089dc4acd5fd43af2a087185a3d98575e443762b6a | 7db5c841a67d69d2c6b0835d8fdd5fae5892e1e34f9f5d68d8beafbb85526433 | 734 | 675 | STRONG_CANDIDATE |
-| 10m | ecd73ba0bb1bbe7d507a1ef2148bc3f6a043951e85ff97c3995c72f8c5f854ae | 1eb2b37ca8966d9a4cb049d64aab25da5a48d956691e8244ad69c7bd4f717857 | 1746 | 1486 | REWORK |
+| 10m | 9c086cd1bd406ca482952228f03b700fdb4b6fd593fe51c840f9c1e1f9f0f9da | 09bc14e34b658d487845272301eca0cfd4e35b22331d810b23b21238d942cb0a | 1564 | 1328 | REWORK |
 
-Estimated by words around 125–155 English wpm plus pauses and potential 10s Long endscreen; fixed Lawrence voice speed 1.10 not changed. Actual TTS and MP4 duration UNVERIFIED. 02m is deliberately Long, not a narrative Short; no loop required. All three are complete different renditions, not master trims.
+Before TTS, rough spoken word range at 150–180 English wpm gives approximately 8.7–10.4 minutes for 10m English, excluding pauses and possible 10s Long endscreen. All durations and actual approved Lawrence 1.10 speed are unmeasured; voice speed not changed. Actual TTS and MP4 duration UNVERIFIED. 02m is deliberately Long, not a narrative Short; no loop required. All three are complete different renditions, not master trims.
 
 
 ## 02M EN — complete specific review
