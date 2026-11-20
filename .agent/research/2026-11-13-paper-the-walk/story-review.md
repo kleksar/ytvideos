@@ -1,5 +1,54 @@
 # Story review — The Walk / Philippe Petit (editorial-only)
-Date: 2026-11-17. Writer: Git-only queue revision. Status: **EDITORIAL_CANDIDATE_UNREGISTERED; independent first-listener review UNVERIFIED; owner approval NOT_GIVEN**.
+Date: 2026-11-17, revised 2026-11-20. Writer: Git-only queue revision. Status: **EDITORIAL_CANDIDATE_UNREGISTERED; independent first-listener review UNVERIFIED; owner approval NOT_GIVEN**.
+
+
+## CURRENT 2026-11-20 revision — exact texts (supersedes older 05m/10m hashes and scores below)
+
+**Baseline for this pass:** PR #49 at `ce714af7b7372b995109acd6cbd1ba6dbc02c1e5`, which had six texts and recommended 05m. Root original master and storyboard absence remain unchanged. The 02m Short is preserved byte-for-byte. The older 2026-11-17 tables below are **historical and STALE for changed 05m/10m**; do not transfer their hashes, editorial assessments, timings or review to the new bytes.
+
+| Target | Complete EN | Complete RU | EN words | Current EN SHA-256 | Current RU SHA-256 |
+|---|---|---|---:|---|---|
+| 02m Short, unchanged | [EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-the-walk-1974-20261113/.agent/research/2026-11-13-paper-the-walk/variants/02m/script.en.txt) | [RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-the-walk-1974-20261113/.agent/research/2026-11-13-paper-the-walk/variants/02m/script.ru.txt) | 247 | `857766112b81439ba5590694de50bb4ce3c8afcffcffbe21ff5cc106b7af54ea` | `cde3013058e227091d56f3aa1d191cad51c872d31906f76d11441e98eef70879` |
+| 05m Long, **revised/recommended** | [EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-the-walk-1974-20261113/.agent/research/2026-11-13-paper-the-walk/variants/05m/script.en.txt) | [RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-the-walk-1974-20261113/.agent/research/2026-11-13-paper-the-walk/variants/05m/script.ru.txt) | 658 | `746bff59093c562a0bfbb55d873d9a99ec8f8351154c8cd5dff81414e94a38d7` | `d1347371d67576be3adcc48eecf64e755feb48937137adaf8a66a8888541c5e5` |
+| 10m Long, **revised** | [EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-the-walk-1974-20261113/.agent/research/2026-11-13-paper-the-walk/variants/10m/script.en.txt) | [RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-the-walk-1974-20261113/.agent/research/2026-11-13-paper-the-walk/variants/10m/script.ru.txt) | 1384 | `125710fc0c099ced0a9bf98bd7133b968313f258175a9f4d99a4f3808681a6e1` | `924c2708781dde83886b8b173e389b27f42d37934749235decf076e9de3dffc6` |
+
+**Was → now:** 05m previously ended with legal settlement then an unrelated disputed “eight crossings” note and a second summary of the first walk. It now shows the *actual second performance* and identifies the conflict about its officially requested scale. 10m previously called the lakeside act openly arranged/city-sponsored and ended with three paragraphs reiterating the towers story. It now distinguishes court conditions from Petit's later claim and adds the specific, attributed Central Park guy-line incident and recovery. Source ledger F10–F11 supports the new additions and distinguishes contemporaneous event from later first-person memory.
+
+**Story maps:**
+- **02m unchanged:** officers wait → overnight cable rigging → first crossing/return → arrest → free children's show condition → question-to-first-sentence Short loop. All existing Short textual checks remain author-only; AV seam UNVERIFIED.
+- **05m revised:** opening questions → background/security → bow/thin line/heavy cable (main setup hook) → first crossing/return → police on roof and prolonged wire show → arrest → photo/public response → prosecutor's condition → **three-weeks-later Belvedere Lake performance** → retrospective distinction between small juggling request and larger wire act → police waiting has a real-world legal consequence.
+- **10m revised:** opening questions → partly occupied towers and scouting → disguise/guards → arrow and successive heavier lines (main hook) → first walk and further crossings → Daniels and police waiting → arrest/public reaction → prosecutor's settlement → **larger lake show than Petit says was requested** → **a child tugs a guy-line in Petit's account, cable jolts, he catches himself and completes** → limited myth corrections → original police puzzle resolved without unsupported exact crossing count.
+- **Visual intent only:** 05m needs clearly distinct park lake composition after tower arrest; 10m additionally needs a guy-line/upper cable relationship and attributed park near-fall if selected. No inherited storyboard or scene count; all variant shots/timings pending exact master selection.
+
+### Eight editorial criteria — new 05m (658 EN words)
+
+| Criterion | Score / grounded rationale / weakness / confidence |
+|---|---|
+| Interest and significance | **8/10**, medium: a public law-enforcement standoff and actual legal aftermath; market demand remains UNVERIFIED |
+| Opening | **8/10**, medium: three questions promise cable engineering, police response and park outcome; length of questions may slow a cold viewer |
+| Development / reason to stay | **8/10**, medium: security → bow → cable → crossing → officers → prosecutor → actual show adds a separate factual consequence; rigging still consumes time |
+| Payoff | **8/10**, medium: large documented park act fulfills narrative promise, while Petit's narrower-deal recollection changes what settlement meant; the claim is retrospective |
+| Angle freshness | **7/10**, low: police/settlement perspective plus contested scale, but famous historical footage |
+| Visual expression | **8/10**, medium: two-roof rig, officer response and contrasted lake performance; static paper movement/scale untested |
+| Natural spoken clarity | **8/10**, medium: no source-meta interruption about crossing count after the main reveal; final paragraph still partly summarizes the paradox |
+| Confirmed viewer demand | **UNVERIFIED**: indexed clip views are not matched retention/CTR or a test of a 5-minute paper film |
+
+### Eight editorial criteria — new 10m (1384 EN words)
+
+| Criterion | Score / grounded rationale / weakness / confidence |
+|---|---|
+| Interest and significance | **8/10**, medium: an actual tower confrontation followed by a contrasting dangerous park performance; second event rests partly on personal recollection |
+| Opening | **8/10**, medium: questions specify action, response, legal outcome; setup still takes time before first step |
+| Development / reason to stay | **8/10**, medium: roof setup and police confrontation cause the legal condition, which creates a new setting and reported physical obstacle; the second incident is not the main reason to watch |
+| Payoff | **8/10**, medium: actual lake show, recovery and narrower-deal conflict strengthen consequences; a second climax after tower resolution may still feel appended |
+| Angle freshness | **7/10**, low: separates the legendary authorized punishment from participant's 2024 account and 1987 park recollection; not independently measured novelty |
+| Visual expression | **8/10**, medium: nighttime park, shore and guy-line permit new full-frame dioramas; unclear in static imagery unless precisely staged |
+| Natural spoken clarity | **7/10**, medium: concrete actions replace repeated moral, but late retrospective attribution and multiple outcomes are complex for one listen |
+| Confirmed viewer demand | **UNVERIFIED**: no reliable 10m illustrated comparison, own retention or live experiment |
+
+**Incremental value / point of interest loss:** 02→05 earns additional guarded-entry/cable engineering and a real follow-up show. 05→10 earns insider/scouting, show-scale dispute and an attributed line-jolt/recovery scene; however the large pre-walk setup and a second physical climax after the main tower arrest may stretch attention. **Recommended: 05m editorial only**; 02m remains a valid short choice and 10m a richer but riskier Long. No approval, no permission to start three productions. The 05m target may be optimistic at 658 EN words; 10m at 1384 words is also estimated only. No TTS measured. English/Russian paragraph boundaries in the changed pairs match; independent bilingual semantic review **UNVERIFIED**, not a pass.
+
+**Hard checks:** 02m cold entry/textual seam unchanged, second full read and actual AV seam not performed here; Long loop N_A. Source support for arrest/court terms F5/F7; 2024 claims F10 explicitly attributed; park events and near-fall F11 partly participant recollection. No fabricated certainty/quotes. Existing old 05m/10m author assessments and any old timings are invalid for new SHA-256; no old storyboard applies. No genuine independent reader/receipt, canonical ytv run, owner selection or approval. Status **EDITORIAL_CANDIDATE_UNREGISTERED**. Actual source review here is author verification, not independent first-listener evidence.
 
 ## Baseline and preservation
 
