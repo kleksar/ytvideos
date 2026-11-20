@@ -1,0 +1,19 @@
+Which boarding line gets me into my airplane seat sooner: filling the back rows first, or letting window passengers board first?
+
+I made a small model to find out. Eight passengers, four rows, one window and one aisle seat per row. Same people, same bags, same seats. This is a model, not an airport stopwatch.
+
+Method A fills the back row, then moves forward. Within each row, people follow a fixed arrival order. In two rows, the aisle passenger sits before the window passenger.
+
+Now watch what happens. The window passenger arrives. The person by the aisle stands up again. That happens twice.
+
+Method B sends all four window passengers first, then the four aisle passengers. Nobody has to get out of a seat for someone else.
+
+For this deliberately simple model, I allow fourteen seconds per passenger to reach their row, handle one bag, and sit. Every seat interruption adds nine seconds. A takes a hundred and thirty seconds. B takes a hundred and twelve.
+
+So window-first wins by eighteen seconds. But I have counted only what happens after the line is ready.
+
+Suppose making two boarding groups adds twenty seconds at the gate. Nothing else changes. B now takes a hundred and thirty-two seconds, while A still takes a hundred and thirty. The winner flips.
+
+Real planes let people do several things at once. Families, priority boarding, large bags, and two doors can change the result. My numbers don't predict an airline's time.
+
+What I can say is this: arranging seats efficiently helps, but organizing the queue has a cost too. Before I pick which line is faster, I have to ask the question again:

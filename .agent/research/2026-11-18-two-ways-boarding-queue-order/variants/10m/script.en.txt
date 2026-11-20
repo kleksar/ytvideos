@@ -1,0 +1,53 @@
+At the airport, boarding from the back sounds obvious. Fill the farthest seats first, move toward the door, and nobody needs to pass someone already sitting. So why can it feel as if the entire line stops every few seconds?
+
+I am going to compare that method with a different idea: put the window passengers on first. The question isn't which instruction sounds tidier. I want to know whether sorting people by row, or by seat, makes a difference once I count the whole process.
+
+This is an original illustrated model, not a filmed airline experiment. I will use the same eight travelers, the same tickets, the same luggage, and the same little four-row cabin in both versions. Every row has one seat by the window and one by the aisle. That small layout can't tell me exactly how a full-size airplane behaves, but it lets me expose a problem without hiding it behind a hundred moving people.
+
+First I define what winning means. I start the clock when the boarding instruction is given. I stop it when the last passenger sits down. I don't stop when the last person walks through the aircraft door, because standing in the aisle with a suitcase is not the same thing as being seated.
+
+Here are my deliberately simplified rules. The aisle admits one person at a time. Moving to the assigned row, putting away a single bag, and sitting costs fourteen seconds for every passenger. If a window passenger arrives after the person in the aisle seat has sat, that person needs to stand and let the neighbor through. I assign that interruption nine extra seconds. Nothing is random. Anyone can reproduce the result from the queue order and these numbers.
+
+Now I arrange method A: board from the back to the front. The order is row four, then three, two, and one. Inside a row, I preserve an arrival order fixed before the test. Row four has window followed by aisle. Row three has aisle followed by window. Row two has aisle followed by window. Row one has window followed by aisle.
+
+That exact within-row order is important. A boarding group labeled "back rows first" doesn't automatically decide who in each row steps aboard first. I am not giving method A every possible ordering. I am testing one declared ordering, so I can see how it works.
+
+The first two passengers reach row four. The window seat fills, then the aisle seat. No one has to move again. At row three, I run into the first problem. The aisle passenger sits. The window passenger approaches and cannot get past without the seated passenger standing. I count one interruption. Row two repeats it. Row one goes smoothly.
+
+If the only thing I watched were the row numbers, the process would seem perfect. Four, three, two, one. Yet two people stand up a second time, and each move holds up the one narrow aisle.
+
+The base cost is eight people multiplied by fourteen seconds: one hundred and twelve seconds. Two interruptions at nine seconds each add eighteen. Method A completes in one hundred and thirty seconds.
+
+Now I reset everything. Same empty airplane, same eight passengers, same seat assignments, same single bag per person. I change only the boarding rule. In method B, the four window passengers go first: rows four, three, two, one. After that, the aisle passengers board in the same row order.
+
+No window passenger must squeeze past somebody seated at the aisle. Under my one-person-at-a-time rule, the entire run takes the base one hundred and twelve seconds. B has removed exactly two interruptions, so it wins the cabin phase by eighteen seconds.
+
+At this point I could make a flashy video saying: the obvious boarding method is wrong. But that would overstate what I actually tested. There are two separate questions here. Can a seat order avoid asking people to stand up? And can the gate staff organize that seat order without slowing the trip?
+
+My first run started with the passengers magically arranged. Someone had already done that work. Imagine instead that the back-to-front row queue is ready as soon as the announcement plays, while the window-first rule needs another twenty seconds to sort the eight passengers into two groups. Twenty is not a measured airline value; I choose it only to test a condition.
+
+The boarding inside the cabin remains identical. Method A still needs one hundred and thirty seconds. Method B needs one hundred and twelve inside plus twenty at the gate: one hundred and thirty-two. The result has flipped. The queue that was faster inside the plane is two seconds slower from the first instruction to the last seated passenger.
+
+That gives me a useful boundary. In this little scenario, B can spend less than eighteen additional seconds organizing passengers and still win. At exactly eighteen seconds of extra setup, the methods tie. Above eighteen, B loses. The important number is not an airport recommendation. It's the price at which one advantage is canceled by another.
+
+There is a second thing I should test before trusting my own diagram. What if the arrival order in the back-to-front group changes? Keep rows four to one, but put the window passenger ahead of the aisle passenger within every row. There are no seat interruptions anymore. The base hundred and twelve seconds is now all method A needs too. Window-first still works, but its special advantage disappears under this narrow metric.
+
+So the fair conclusion isn't "back-to-front always loses." My particular queue lost because it allowed two aisle seats to fill before their window neighbors. A different order inside the same row groups would have tied the window-first method, under the stated serial assumption.
+
+Why does the actual airport problem attract so much attention? Because the aisle causes a second type of interference. Even if nobody has to stand up for a neighbor, someone lifting a carry-on into the overhead bin can stop the entire line behind them. Spreading people among rows might allow more luggage loading in parallel. Concentrating them around a few neighboring rows can do the opposite.
+
+My small model deliberately forbids parallel movement. That makes the arithmetic transparent, but it also means I cannot use its eighteen-second difference to predict how much time a real airline would save. In a larger model I'd have to state walking speed, overhead-bin time, bag counts, aisle spacing, and whether two passengers can load bags without blocking one another.
+
+There are consequences outside that calculation too. I might be traveling with someone whose seat is by the aisle while mine is by the window. A strict windows-first instruction separates our boarding turns. I might be helping a child, or need an accessible boarding process. And some people board early for reasons that are not about maximizing the total speed. A sensible airline policy has to account for them.
+
+This isn't only theoretical. Researchers have compared back-to-front, random, and window-middle-aisle boarding using simulations and experiments. The results depend on the assumptions and the aircraft. In October 2023, United Airlines announced that it would let many economy window passengers board before middle and aisle passengers. United said trials suggested it could save up to two minutes. Families on the same reservation could still board together, and priority groups were handled separately. Those are practical exceptions, not signs that mathematics was ignored.
+
+Notice the difference between the evidence and my toy test. United's statement refers to tests on its operation. My two numbers, one hundred and thirty and one hundred and twelve, are calculated from assumptions I invented and published with the model. I don't combine them into a claim that every flight will finish eighteen seconds faster.
+
+I also haven't tested passenger happiness, how long people stand at the gate, whether overhead bins fill near their seats, or whether a late-arriving traveler misses their group. A faster completed boarding time and a better experience for every passenger are not identical goals. If I changed the score to family separation or the maximum personal waiting time, I'd have to run a different comparison.
+
+I started this experiment assuming the important decision was front rows versus back rows. The diagram showed me something more interesting. A row number isn't a complete boarding method. The order of seats within a row matters, and the work required to form a queue belongs on the clock as much as the work inside the plane.
+
+For this fixed model, with no setup delay, B wins. Add twenty seconds to prepare B's groups, and A wins. Arrange windows first inside A's rows, and the seating advantage becomes a tie. Three outcomes, all produced by stated rules rather than pretending I watched a real airport.
+
+So when I see people waiting at the gate, I don't want to ask which line looks most organized. I want to ask where the time is being spent, and whether solving one bottleneck creates another. That brings me right back to my opening choice:
