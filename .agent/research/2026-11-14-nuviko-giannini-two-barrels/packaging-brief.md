@@ -10,7 +10,7 @@ Preferred first conceptual pair: #1. Title names two barrels without falsely cla
 
 ## Variant-specific promise — added 2026-11-16
 
-**02m Short original:** starts on barrel counter; first-frame image reveals visual quickly. Forced final return-to-opening question currently fails natural-loop assessment. Old 9:16 crop notes are only for the root Short, not Long.
+**02m Short revised 2026-11-20:** begins with a real wharf plank counter; actual next beats are savings access, rebuilding loans and financing timber ships. Closing line says rescued cash still needed a place where customers could put it to work; the opening shows that place. Author textual join CANDIDATE, independent first-listener/AV seam UNVERIFIED. Old 9:16 crop and scene spans refer only to original unchanged root Short, not the new 02m or either Long.
 
 **05m Long recommended:** thumbnail/copy promises how a banker operates without an office. Questions begin first, then real immigrant-customer context, then flames threaten available cash as main hook; timber advances and ongoing deposits are payoff. The promise is not a claim that Giannini alone rebuilt the city.
 

@@ -8,10 +8,10 @@ After the fire destroyed his office, Amadeo Giannini had rescued usable assets, 
 
 | Target | Complete Russian | Complete English | Editorial status |
 |---|---|---|---|
-| 2 min — Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | Original strong narration preserved byte-for-byte; forced natural loop FAIL |
+| 2 min — Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | Rewritten 2026-11-20 (258 EN words): full causal action and provisional author textual join; independent/AV UNVERIFIED |
 | **5 min — Long** | **[RU](variants/05m/script.ru.txt)** | **[EN](variants/05m/script.en.txt)** | **Recommended, not approved** |
 | 10 min — Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | Complete alternative; later exposition can weaken pace |
 
 All text hashes, counts, eight criteria per version and precise weaknesses: [story-review.md](story-review.md). Verified common evidence and added-source limits: [research.md](research.md). Production transfer and missing capabilities: [handoff.md](handoff.md). Conceptual thumbnail promises: [packaging-brief.md](packaging-brief.md).
 
-Original root [script.en.txt](script.en.txt) and [script.ru.txt](script.ru.txt) are unchanged. The existing 20-scene [storyboard.json](storyboard.json) applies ONLY to that unchanged root Short / byte-identical 02m; it does not describe either Long. New 16:9 storyboard, timestamps, AV work and owner acceptance are not present. No media, TTS, imagegen, upload or publication authorized.
+Original root [script.en.txt](script.en.txt) and [script.ru.txt](script.ru.txt) remain byte-identical to their original baseline. Revised 02m now has separate hashes, so the original 20-scene [storyboard.json](storyboard.json) applies ONLY to the untouched root Short; it does NOT describe 02m, 05m or 10m. New version-bound spans/visual intent, measured timing, AV checks and owner acceptance are absent. No media, TTS, imagegen, upload or publication authorized.
