@@ -1,3 +1,32 @@
+## 2026-11-20 — substantive 10m revision at baseline `f3be2c61fb2e75d02507fb0fb36d9b31c3590439` (current editorial candidate)
+
+**Before → after:** the previous 10m told the crucial Ivanoff near-miss and Togo's return, then compressed the last-stage delivery into one paragraph and repeated the credit/statue point through several afterwords. The revised **same-story** 10m EN/RU retains the questions → epidemic/transport background → changed plan → first near-miss → exposed ice crossing, and adds independently source-mapped events **T11–T13** already in the shared [research](research.md): Welch's storm-pause message reached Rohn but not Kaasen, Olson's frostbite and handoff, Kaasen's overturned sled and recovered serum cylinder, Rohn asleep at the expected last handoff, Kaasen's decision to continue, and frozen but unbroken vials. The closing now contrasts the two failures to communicate and the intact medicine; no imagined quote, motive or 1925 primary record. Those sources are retrospective accounts, so the sequence has **medium** factual confidence, not original-record confirmation.
+
+**Exact artifacts:** [10m EN](variants/10m/script.en.txt) 1570 words, SHA-256 `f46c17773c6f50ad884653718ffe4628dcbf7b3515e43e2e25f73552926849ba`; [10m RU](variants/10m/script.ru.txt), SHA-256 `04941500059d73e20616d858a8e20a25cd3c292b8f52f30361332f125d3859ed`. **Baseline 10m** Git blobs EN `a709c1c793bc48b48e00fcc5ec51048dff5f7473` / RU `9d1d7e5117408e8b941bc57c11c055373b38af86` preserved in old branch history. Original root master, 02m, newly reworked 05m, storyboard and their hashes remain untouched. New 10m text has **31 aligned EN/RU paragraph pairs** by authorial manual comparison, not independent translation review.
+
+**10m story map:** opening questions explicitly promise both missed communications → Welch's supply and the transport problem → Seppala/Togo's outward empty sled and dangerous Norton Sound shortcut → altered relay route unknown to Seppala → nearly missing Ivanoff / first major hook → return crossing and delivery to Golovin → Olson's storm-hit journey → Welch's stop order not reaching Kaasen → lost medicine cylinder / second climax → unbroken vials and delivery → credit to Balto, Togo and the full relay / payoff. Both main questions resolved. No narrative loop required for Long.
+
+**Eight authorial criteria for this exact new 10m script (1–10; not audience measurements):**
+
+| Criterion | 10m rating with evidence/limit | Confidence |
+|---|---|---|
+| Interest/significance | **8** — children need antitoxin and the chain nearly fails twice; the episode is already well known through Balto | medium |
+| Opening/clear promise | **8** — questions cover the opposite journey and both failures; multiple clauses may demand a quick visual map | medium |
+| Development/causal momentum | **9** — relay redesign almost loses the handoff, then an unheard pause order changes the final driver; slowest point remains Togo puppy backstory before first collision of routes | medium |
+| Payoff/consequences | **9** — recovered medicine and unbroken glass pay off physical stakes; aftereffects preserve incomplete fatality counts and collective credit | medium |
+| Distinct angle | **7** — two communication failures rather than a false Togo-versus-Balto contest; still a familiar centenary story | medium |
+| Visual specificity | **9** — empty sled, ice shortcut, two handoffs, overturned sled, canister in snow, closed roadhouse, sealed vials; no storyboard for this hash | medium |
+| Natural speech/clarity | **8** — observable action replaces old moralizing coda; many names/locations require pacing | medium |
+| Measured viewer interest | **UNVERIFIED** — no matched cohort, retention, CTR or independent first-listener result | none |
+
+**Hard checks:** Full standalone narrative AUTHORIAL PASS; factual alignment to shared research T1–T13 AUTHORIAL PASS WITH RETROSPECTIVE-SOURCE CAVEAT; EN/RU meaning/paragraph alignment AUTHORIAL PASS (not independent); Long questions→immersion→main hook AUTHORIAL PASS; Short loop N_A; exact waveform/voice duration UNVERIFIED (word count implies approximately 9.8–12.1 minutes before pauses); independent reviewer UNVERIFIED; visual scene spans and long 16:9 storyboard for new hash UNVERIFIED; actual demand UNVERIFIED; run/receipt/approval NOT REGISTERED. `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+**Length comparison:** 02m remains the efficient cold-start Short, with an intentionally compressed relay; 05m adds the two message failures, lost container and choice at Port Safety with minimal background; 10m now *earns* more runtime by expanding the ice/route logistics, doctor's problem, Seppala's background and overlooked contributors, but does **not** introduce a third independent crisis. 10m's late section previously lost interest at the undramatised Kaasen summary and repeated memorial commentary; that has been replaced. The first possible current drop is puppy history before the Ivanoff near-miss. **Recommendation still 05m Long** (871 English words: spoken length itself needs measurement), because it delivers the same decisive two reversals sooner. Strong 02m may still beat both in real review. Neither recommendation nor author self-check is approval.
+
+**Next uncovered work:** get unbiased exact-hash independent bilingual reviewer/first listener for all versions; after a real owner selection, register/reuse actual canonical `ytv` runtime/pins, get measured TTS and exact chosen-hash 16:9 shot spans, then request owner script decision. No media, scripts promoted, or production run initiated.
+
+---
+
 # CURRENT EDITORIAL REVIEW 2026-11-20 — Togo / PR #26
 
 ## 2026-11-20 — substantive 05m revision in existing PR #26

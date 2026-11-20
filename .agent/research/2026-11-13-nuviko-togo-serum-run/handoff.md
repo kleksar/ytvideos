@@ -1,3 +1,9 @@
+## 2026-11-20 — 10m full-text correction (after earlier 05m correction)
+
+The new 10m EN/RU texts include late-stage storm-pause, frostbite, lost-and-recovered cylinder, sleeping Rohn, Kaasen continuation and intact vials (shared research T11–T13). Before: first rescue turn followed by delivery summary/legacy repeats. After: two operational failures, two concrete dangers and payoff. 10m hashes EN `f46c17773c6f50ad884653718ffe4628dcbf7b3515e43e2e25f73552926849ba`, RU `04941500059d73e20616d858a8e20a25cd3c292b8f52f30361332f125d3859ed`; 1570 EN words. Compare in [story-review.md](story-review.md). Original root master/storyboard and 02m/05m unchanged. Recommended editorially: **05m Long**, NOT approved. Candidate `EDITORIAL_CANDIDATE_UNREGISTERED`, independent reviewer/real timing/runtime/owner approval `UNVERIFIED`. For later local adoption inspect canonical context/pins first; never treat PR text as run receipt. 
+
+---
+
 ## 2026-11-20 — substantive 05m revision in existing PR #26
 
 **Before → after:** earlier 05m solved the changed-relay near-miss then summarized the last delivery. Revised **[05m EN](variants/05m/script.en.txt) (871 words, SHA-256 `2479df179c7994ec1bfde6ec555de8dae3223aaec1643803ff85735a2708ccb7`) / [05m RU](variants/05m/script.ru.txt) (SHA-256 `4f9a0d4244ae6e3934601cb87f1ee37a32d0b2079366324dbf7a0643ff9c1ecc`)** develops a second documented missed message: Welch's severe-storm pause reached Rohn at Port Safety but not Kaasen at Bluff. It follows Charlie Olson's frostbitten handoff, Kaasen's overturned sled, a lost-and-recovered antitoxin cylinder, Rohn asleep at the planned final stop, and Kaasen's decision to finish with Balto's team. The vials reached Nome intact. This is a new consequence and climax, not an extra statement that Togo was underrated. Keep their **separate contributions**, no invented thoughts or claim that Balto stole credit.

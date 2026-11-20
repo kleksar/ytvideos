@@ -1,3 +1,9 @@
+## 2026-11-20 — 10m revision, unapproved variant
+
+The 10m Long now promises **two undelivered instructions and a medicine cylinder nearly lost in snow**. Concrete 16:9 candidate image: Kaasen trying to recover a canister beside an overturned sled, NOT an invented archival photo; title hypothesis: “Two Missed Messages in the Race to Save Nome”. Unlike the unchanged root 9:16 Short visual plan, neither a 10m storyboard nor any finished thumbnail exists. Exact EN SHA-256 `f46c17773c6f50ad884653718ffe4628dcbf7b3515e43e2e25f73552926849ba`, RU `04941500059d73e20616d858a8e20a25cd3c292b8f52f30361332f125d3859ed`. No CTR, AV, TTS, image, approval or audience proof.
+
+---
+
 ## 2026-11-20 — unapproved packaging hypothesis, 05m Long only
 
 Two communication failures, not a fabricated Balto/Togo rivalry: potential title **The Medicine Almost Missed Its Own Rescue**. First illustration of an empty sled and the changed meeting; new middle/ending emphasis on a cylinder lost in snow and Kaasen finding sleeping Rohn. This has NOT been tested with thumbnail, CTR, audience, 16:9 storyboard, or actual delivery; inherited Short package stays for original source only. Current EN/RU hashes: `2479df179c7994ec1bfde6ec555de8dae3223aaec1643803ff85735a2708ccb7` / `4f9a0d4244ae6e3934601cb87f1ee37a32d0b2079366324dbf7a0643ff9c1ecc`.
