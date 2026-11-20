@@ -1,0 +1,41 @@
+Why can one checkout line be faster than two, even when it looks twice as long? And why might I personally regret joining the better system?
+
+I'm at a supermarket with six shoppers and two open registers. I'm not claiming this happened in a real store. I've put the people and their checkout times into a simple model so I can run exactly the same work through two different layouts.
+
+Before I show either result, here are my two measurements. The main one is the time when the last of us finishes. The second is my own finish time, because I'm the sixth shopper and I would naturally notice my own wait first.
+
+Five shoppers have small baskets that take one minute each. Shopper one has a cart that takes five minutes. The cashiers have identical speeds and begin at minute zero. Nobody arrives late; nobody changes their basket. Walking between the line and a register takes no time in this first model. The only thing I change is who is allowed to take the next free register.
+
+Method A has one common line. The first shopper goes to the left register. The second goes to the right. Every time either register becomes free, the next person in the common line moves forward.
+
+Method B has two independent lines. I put shoppers one, three and five on the left; two, four and six on the right. Nobody switches. These are not the smartest possible choices with perfect information. They're the fixed choices I want to test.
+
+Which one would you pick?
+
+I start with A. The large cart occupies the left cashier from zero to five. It looks bad. One of our two registers is tied up for almost the entire run.
+
+But the right cashier keeps moving. Shopper two finishes at one. Shopper three at two. Shopper four at three. Shopper five at four. Then it's my turn, and I finish at five. At that same moment the big cart finishes on the left.
+
+Six people. All checked out in five minutes.
+
+I reset the picture. Same baskets. Same cashiers. Same starting moment. Now B has three shoppers standing at each register.
+
+The right side is beautiful from where I'm standing. Shopper two leaves at minute one. Shopper four leaves at two. I leave at three. If I judged this experiment only by my own clock, method B would win by two full minutes.
+
+On the other side, the first customer is still paying until minute five. The third shopper finally goes through at minute six. The fifth finishes at minute seven.
+
+One cashier has been idle since minute three, but there are still people waiting beside the other cashier. They can't move across because that would break method B's fixed rule. That is the detail the two short lines hide.
+
+So there are two true results. A gets the entire group out at five minutes instead of seven. B gets me out at three instead of five. A is better for the last person to finish. B is better for this particular sixth person.
+
+I can check the time spent actually waiting, too. In A, the six shoppers wait a total of ten customer-minutes before service starts. In B they wait fourteen. Divide by six and the model's average queue wait is one minute forty seconds for A, versus two minutes twenty seconds for B. Those are not measured supermarket averages. They're sums from these six invented customers.
+
+Now I shorten the big cart's checkout to three minutes and leave everything else unchanged. The common line finishes everyone at minute four. The separate lines finish at minute five. That one-minute advantage is smaller, but it doesn't vanish.
+
+Make every checkout just one minute, and both layouts finish all six at minute three. Neither has a slow job for someone else to get stuck behind. The dramatic difference depended on a particular uneven workload, not magic in the shape of the line.
+
+And real stores add conditions this drawing deliberately leaves out. People need time to reach an available register. Some may not notice it. Cashiers may work differently when each has a dedicated line. New shoppers keep arriving. Those changes can weaken, erase or reverse a simple layout's advantage. I can't use this six-person example to promise the same result in every store.
+
+What I can use is the distinction. If I want to reduce the time until everyone is served under these fixed rules, pooling the line keeps an open cashier available to the next waiting person. If I only want to know when I personally leave, my lucky place in a separate line may still beat it.
+
+Two short lines looked like the simpler choice. The surprising part was that both systems could win, depending on which clock I had agreed to watch.
