@@ -1,0 +1,37 @@
+The item nearest to me isn't always the one I should pick next. I learned that by sending an imaginary shopping cart halfway across a store, then all the way back.
+
+I'm not claiming to have filmed or timed a real supermarket. I've drawn a deliberately simple floor map: a grid ten squares wide and six deep. The entrance is the top-left corner; checkout is top-right. I can move horizontally or vertically along the drawn grid, one square at a time. Every square costs one walking unit. No diagonal shortcuts, crowds, searching, or checkout delays.
+
+I have five products to collect: bread, coffee, pasta, oil, and eggs. All five are visible on the same map before I choose a method. I want the shortest *complete* walking route, including the walk to checkout. It's not enough to finish picking things up. I still have to pay.
+
+Method A sounds like common sense. At each stop I look at the things I haven't bought, find the nearest one, and walk straight there. Then I calculate again from that shelf. Method B is less clever. I collect every listed item from the left side of the map toward the right, without jumping back to an earlier section. I don't get to change B halfway through because I see a better route.
+
+You can choose now. Would you take the closest next item, or follow the map from left to right?
+
+On the first run, bread is three squares from the entrance. Both methods take it. But immediately afterward they disagree. Coffee is tucked deeper in a section near the left side. From bread it's five squares away. Oil is only four. So A goes to oil.
+
+From there, pasta is the nearest stop. Then the eggs near the checkout. The cart has traveled smoothly toward the right side of the store. I would be tempted to congratulate myself.
+
+Then I look at the list. Coffee. The one thing I haven't collected is back near where I started.
+
+The path from the eggs back to coffee costs twelve squares. From coffee, checkout costs fourteen more. Those last two legs alone are twenty-six squares. The entire nearest-next route is forty.
+
+Now I reset the same map and use B. Bread first. Then coffee, while I'm still near that side. Oil next, pasta after that, and eggs by checkout. I never need to return across the whole floor. The complete route is twenty-two squares.
+
+That's an eighteen-square difference, for the same five products, on the same grid. I didn't make B's feet faster or give it better information. A knew where everything was too. The only difference was what each rule optimized: A cared about the next step; B cared about staying on a course toward checkout.
+
+At this point I could announce that sweeping the aisles always wins. That would make a neat ending, but it would be false.
+
+I move just one product. The oil shifts two columns to the right. The other four shelves, entrance, checkout, movement rules, and score all stay exactly the same. Before recalculating, here's the new choice: does A still get trapped?
+
+It doesn't. After bread, coffee is now the nearest remaining item. A collects it early. The rest of the route heads mostly right, toward the exit. This time A takes twenty-four squares.
+
+B still refuses to jump backward. Its left-to-right order remains bread, coffee, pasta, oil, eggs. That route now takes twenty-eight. A wins by four.
+
+One item moved. The method that lost by eighteen on the first map wins by four on the second. That's not a contradiction. It's what happens when the arrangement changes but the rules don't.
+
+And there's a limit to both results. These squares aren't seconds. Real stores have shelves that block paths, different walking speeds, queues, unfamiliar products, and frozen food I might deliberately buy last. A person who knows the layout might plan better than either toy rule. I haven't measured those effects here.
+
+What I can say from these two reproducible maps is narrower and more useful. I can't pick a winner without looking at the whole route and its finish line. A quick local decision can be expensive; an inflexible sweep can be expensive too.
+
+The next time I stare at a shopping list, I won't just ask, “What's nearest?” I'll ask where I need to end up. And then, with one shelf still left on my list, I may face the same tempting question: what's nearest?
