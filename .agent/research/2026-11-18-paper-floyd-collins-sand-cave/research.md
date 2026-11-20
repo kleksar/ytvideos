@@ -1,0 +1,63 @@
+# Shared research — Floyd Collins, Sand Cave (1925)
+
+Observed 2026-11-18. Research is editorial evidence, not a production run. Canonical source main `f2dccfdcf6c5156408d53a5f5c555b4783e06b4b`; PR #124 was merged 2026-11-16, so the **current** `editorial.md`/writer skill apply, not the old proposed branch. Owner has not approved this exact story or script.
+
+## Audience, promise, and selection
+
+Paper Detour has an English-speaking general audience; assume no prior knowledge of cave tourism or the names. The reason to stop is physically intelligible: **a 27 lb / ~12 kg stone immobilizes a man for weeks**, not because of its weight but because there is no room to lift it. The reason to remain is successive rescue attempts, the collapse that cuts off direct access, and a replacement shaft racing the clock. The payoff is difficult and complete: workers reach the precise passage and discover they are too late. It must not be sold as a happy rescue.
+
+Selection screening from actual remote PR names/titles and publicly accessible primary evidence; 11 distinct story situations were considered. This list is a screening record, *not* eleven thoroughly investigated YouTube baselines.
+
+| Candidate | Source/known evidence and obstacle to selection |
+|---|---|
+| **Floyd Collins / Sand Cave, 1925** | NPS day-by-day record supports unusual immobility, failed first method, completely new engineering task, documented fatal outcome; no matching PR/Issue/code hit under Floyd Collins or Sand Cave at screening |
+| **Quecreek nine miners, 2002** | U.S. Department of Labor 2022 and 2002 reporting: flooded mine, drilling, all nine saved after ~77 h; closest compelling rescue competitor; recent Paper #218 already uses a parallel-shaft rescue |
+| **TACA Flight 110, 1988** | FAA official report: both engines out in a storm, 737 on Louisiana grass levee, 45 survived uninjured; excellent positive payoff but aviation overlap with Paper #212 Aloha 243 |
+| Air Transat 236 | Emergency transatlantic engine-out glide; striking aviation solution, less differentiated against multiple existing aviation PRs without deeper source check |
+| Thai cave rescue | A major rescue with many sequential decisions, but vast multi-person scope and deep-source budget too large for this run |
+| Air Florida 90 | Water rescue after crash, human stakes; specific dramatic angle needs additional source checking |
+| British Airways Flight 5390 | Strong opening with captain outside windscreen, but **duplicate**: existing PR #34 includes a 2026-11-18 2/5/10 revision |
+| Gimli Glider | Landing a jet without thrust; **duplicate** PRs #86 and #137 |
+| Baby Jessica | Two-shaft rescue, **duplicate** Paper #218 |
+| Aron Ralston | Cave/wilderness self-rescue, **duplicate** Paper #215 |
+| Chilean miners | Extended underground rescue, **duplicate** Nuviko #170 |
+
+### Three finalist pitches at equal editorial readiness
+
+**1. Floyd Collins — selected, Paper.** Opening: “Why did thousands of people gather around a cave to watch one man being rescued? How could a twelve-kilogram rock hold him there?” First action: Collins turns around after his lantern flickers, dislodges a stone and cannot lift it in the passage. After the hook: neighbors bring supplies, attempts with a harness and jacks fail, entry collapses, rescuers start digging from the surface; the shaft progresses slowly during rain, cold, and a media circus. Payoff: February 16 breakthrough reveals Collins died days before arrival. Main objection: fatal, claustrophobic rescue story is closely adjacent to Paper #218's Baby Jessica and a crowded cave-disaster niche; the ten-minute version risks repeating a known deadline. NPS record gives sufficient causality but does **not** establish Paper-format audience demand.
+
+**2. Quecreek 9 — strongest alternative.** Hook: “Nine miners heard water coming through the wall; the map said the flooded mine was far away.” Escalation: old map, water blocks escape, drill communicates life and then must make a passage large enough for a capsule; the water and time constraints continue. Payoff: all nine reach daylight after ~77 hours, the subsequent mapping failure is investigated. Objection: many characters and technical rescue logistics in a short narrative, and overlap with parallel-shaft Paper #218; still a **strong** alternative, not a rejected topic. Official [DOL recap](https://beta.dol.gov/news-events/blog/20-years-later-look-back-quecreek-mine-rescue) (2022-07-22) and [CBS timeline](https://www.cbsnews.com/pittsburgh/news/20-years-later-timeline-quecreek-mine-rescue/) (2022-07).
+
+**3. TACA 110.** Hook: “Both engines stopped on a passenger jet; the crew landed it on grass without a runway.” Development: weather encounter, engine restart fails, gliding options narrow, an alternative to ditching emerges. Payoff: 38 passengers and seven crew unharmed, FAA later explains hail/water-related engine flameouts. Objection: excellent physical action but duplicates **genre** of recent aviation story Paper #212 and may need licensed aircraft imagery; stronger action visuals, less novelty now. [FAA accident lesson](https://www.faa.gov/lessons_learned/transport_airplane/accidents/N75356) (N75356, May 24 1988).
+
+**Decision:** Floyd narrowly beats Quecreek for this particular pitch due to the counterintuitive 27 lb rock and sharp reversal from access → no access → shaft reaches too late. Quecreek has a more satisfying rescue and may outperform. The margin is subjective and conditional; no evidence that Floyd's Paper edition will win. New direction for subsequent screening should avoid another trapped-person shaft-rescue immediately.
+
+## Primary factual foundation: what each claim can safely say
+
+- [U.S. National Park Service, *Tragedy at Sand Cave*](https://www.nps.gov/articles/000/tragedy-at-sand-cave.htm), historical overview plus **day-by-day rescue timeline**, accessed 2026-11-18: Jan 30 trapped by **27 lb** rock about **60 ft** below; cave lantern flickered as he turned back; Jan 31 Jewell Estes first to communicate, brothers Homer and Marshall brought food/water; Feb 1 harness pull painful/unproductive; Feb 2/3 reporter William “Skeets” Miller; attempted jacks slipped or lacked room; Feb 4 passage collapse and unsafe re-entry; Feb 5 governor orders new shaft by engineer Henry Carmichael with **picks/shovels** (drills/explosives feared to destabilize cave), original **30 h** projection; Feb 6 shaft **17 ft**, Feb 12 **48 ft**, Feb 13 **52 ft**, Feb 14 **55 ft** and water/slippage, Feb 15 side tunnel within feet, Feb 16 at **1:30 pm** breach and discovery of body with ankle still trapped. NPS says his cause of death included exposure/exhaustion/starvation. Specific intermediate dates belong to the extended narration, not marketing proof of “exact measured minute” or eyewitness thoughts.
+- [NPS, *Floyd Collins*](https://www.nps.gov/people/floyd-collins.htm), accessed 2026-11-18: family Crystal Cave too far from main road; explorer used Sand Cave closer to traffic; death date marked **circa February 13, 1925**; present burial near Mammoth Cave. Avoid the stronger false claim that a precise time of death is medically established. “He was dead by the time rescuers broke through on Feb 16” confirmed.
+- NPS chronology also documents tourist crowds and **estimated 10,000** on February 8; newspaper rumors of hoax, National Guard controls, testimony/inquiry. **No conclusion** that crowd presence or reporter publicity caused death is established. Avoid attributing invented thoughts, quotes or intent. Named action is a historical reconstruction in official secondary account, not new eyewitness footage.
+- [Kentucky National Guard photo record](https://ky.ng.mil/News/Photos/igphoto/2002736339/) and [DVIDS 1925 archive](https://www.dvidshub.net/image/6502343/kentucky-national-guard-and-william-floyd-collins-tragedy-sand-cave), dated 1925-02-10, inspected via page/preview; useful for era/scene reference only. **Do not claim those photo bytes were downloaded/cleared for production; copyright metadata must be checked for actual use.**
+- Primary source boundaries: NPS overview calls him trapped **17 days**, sometimes “eighteenth day” in its prose due inclusive date counts; scripts use “more than two weeks” and exact entry/reach dates instead of inconsistent duration. NPS bio lists approximate death around Feb 13 rather than claiming medical certainty. NPS pages disagree on birth county, irrelevant and omitted.
+
+## YouTube audience evidence and counter-signals
+
+Public index checked 2026-11-18. These are *pages and metadata only*: **videos/transcripts/comments were not watched/read unless stated**. Views below have source and collection dates, not measured growth, CTR or retention.
+
+| Concrete comparable | Date, language/format, length/views as observed | Baseline and uncertainty |
+|---|---|---|
+| [FatalBreakdown — *Trapped in a narrow tunnel: The Floyd Collins Cave Tragedy*](https://www.youtube.com/watch?v=SRYwDFT7chE) | Published 2024-11-10, EN cave-accident animation/documentary long; YouTube indexed result previously ~1.72M; [vidIQ public page](https://vidiq.com/youtube-stats/channel/%40fatal_breakdown/) updated **2026-11-18** lists **2.03M** (two snapshots, not a trajectory) | Same author’s *The Redman Cave Tragedy* (published 2026-11-10) listed **37.03K after 7 days 7 h**, rank **4/5** of author's recent videos; old Floyd scored **5.87×** within vidIQ’s own channel comparison, but these are different release ages and topics; most popular cave videos are obvious outliers |
+| [Internet Historian — *Man in Cave (Reupload)*](https://www.youtube.com/watch?v=bNm-LIAKADw) | Published 2023-05-05, EN long illustrated narration; third-party index lists length ~74 min and **4.05M** views as of 2026-11-18 | Much bigger creator/longer format; extraordinary audience cannot transfer to Paper. Controversy about unattributed wording means no phrases or unique composition are copied; only NPS event facts used |
+| [Leticia Cline — *The Death of Floyd Collins*](https://www.youtube.com/watch?v=EBjAcHu0kSA) | Published 2025-02-06, EN documentary; YouTube result showed **3,461** views in crawl around 2026-09, duration UNVERIFIED | Small channel, strong **counter-signal**: same topic can remain modest; no sufficient same-channel baseline |
+| [Jaydone History — *The Most Tragic Cave Deaths Explained*](https://www.youtube.com/watch?v=q9rmBQiTMEU) | Published 2025-08-18, EN compilation with Floyd segment at 00:00; ~**20,624** indexed views, length of full video UNVERIFIED | Not a single-story comparable; mixed-topic and relative age differ |
+| [The Dollop #340 — Floyd Collins](https://www.youtube.com/watch?v=2VkbBBa0tg8) | 2018-08-15, EN comedy conversation, ~**49,018** indexed views | Different genre/length and host audience; supports existence of interest, not watch-likelihood for Paper |
+
+Recent **30–90 day** independent matched single-topic evidence: **UNVERIFIED**. FatalBreakdown's new Nov 10, 2026 cave video indicates current niche publishing, not fresh demand specifically for Floyd. No real same-creator Paper baseline, same-age views, normal Paper median, comments or first-party CTR/retention accessed. No private channel analytics/vidIQ credits or purchased research. All thumbnail demand assumptions are editorial hypotheses.
+
+Public Reddit question/comment evidence from [r/Weird discussion](https://www.reddit.com/r/Weird/comments/16tju1q) raised the distinction between **taking a photograph and actually freeing the victim**; treat only as a question reported in an accessible discussion, not as verified claim about a physical photograph or this film. Unobserved viewer comments of the above videos are **UNVERIFIED**.
+
+## Film causality, visual promises, production scope
+
+Audience question → physical constraint (not weight) → first rescue methods fail → route collapses (new setback) → new shaft attempted (long race) → rescue breaks through but death preceded it. The reason to keep watching is not speculation about whether he survived: the questions ask **why a rescue method failed despite eventually reaching the right location**. Paper miniature can stage a **section view of two shafts and trapped foot** rather than sensationalize death. Distinguish vertical shaft, horizontal connector and original crawlway.
+
+No real film, audio, TTS, images, transcripts, or independent first-listener result created. User has allowed Git-only editorial queue, not production. Exact script hashes are in `story-review.md`. If script changes later, all timings/prompts/review dependent on its hash become stale.
