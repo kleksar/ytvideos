@@ -1,0 +1,19 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Paper Detour — Baby Jessica: They Reached Her. She Was Still Trapped.
+
+**RU логлайн:** в 1987 году полуторагодовалая Джессика Макклюр застряла примерно в семи метрах под землёй в слишком узком для спасателя колодце. Нефтяники пробурили соседнюю шахту сквозь твёрдую породу. Но даже пробившись к ребёнку, ещё много часов не могли безопасно её освободить. После примерно 58 часов Джессику подняли живой.
+
+| One story, standalone variant | Полный русский | Full English narration | Author classification | Proposed production format |
+|---|---|---|---|---|
+| 2 минуты | [RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-jessica-second-shaft-20261118/.agent/research/2026-11-18-paper-jessica-second-shaft/variants/02m/script.ru.txt) | [EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-jessica-second-shaft-20261118/.agent/research/2026-11-18-paper-jessica-second-shaft/variants/02m/script.en.txt) | STRONG_CANDIDATE — compressed but complete | Long |
+| **5 минут — рекомендована** | **[RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-jessica-second-shaft-20261118/.agent/research/2026-11-18-paper-jessica-second-shaft/variants/05m/script.ru.txt)** | **[EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-jessica-second-shaft-20261118/.agent/research/2026-11-18-paper-jessica-second-shaft/variants/05m/script.en.txt)** | **STRONG_CANDIDATE — recommended, author-only** | Long |
+| 10 минут | [RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-jessica-second-shaft-20261118/.agent/research/2026-11-18-paper-jessica-second-shaft/variants/10m/script.ru.txt) | [EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-jessica-second-shaft-20261118/.agent/research/2026-11-18-paper-jessica-second-shaft/variants/10m/script.en.txt) | REWORK — television context slows final third | Long |
+
+**Why five minutes:** a real sequence of changing problems: no space to enter the well; parallel shaft must approach from below; caliche breaks drill bits; the shafts finally connect, yet Jessica's leg prevents extraction; workers widen the opening and rescuers lift her through the second shaft. Two minutes offers full outcome without details. Ten minutes adds medical and television-history aftermath, but repeats the inch-by-inch obstacle and loses narrative urgency.
+
+**Verified sources and selection:** [shared research](research.md), including contemporary 1987 reporting, three finalist briefs, and actual indexed YouTube results from different authors with explicit limitations. [Exact script SHA-256 and separate eight-criterion author review](story-review.md); [packaging](packaging-brief.md); [handoff](handoff.md).
+
+**Important:** this is an expressly allowed **Git-only editorial queue entry**, not the official runtime or script gate. No local repository checkout/workspace for `uv run ytv start`, so no plan_summary, read_next, task_guide, pinned reference documents or lease are available from the real runtime. No accessible fresh independent script reviewer result, actual TTS timing, voice listening, video frames, actual Paper reference PNG bytes or confirmed end-screen intro. Those remain `UNVERIFIED` / scoped production blockers. To continue, use real local checkout, select one exact script, execute `uv run ytv start --channel paper_detour --format long` with the actual intent and inputs, follow run packets and obtain the true independent review and owner's approval. Do not migrate prior pins implicitly.
+
+**Scope:** new eleven-file editorial-only story folder, from the observed remote `main` `7c94f825056b98cb65d8de94dd3eec709cc78188`. PR #124 has already been merged; canonical `main` policies used, not the old proposed revision. No docs/skills/status changes, no media generation, TTS, MP4, merge, upload, publication or schedule changes.
