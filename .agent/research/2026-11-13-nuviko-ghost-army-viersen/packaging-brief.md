@@ -16,3 +16,7 @@
 ## r2 provenance (2026-11-17)
 
 The S001–S018 references above belong to the unchanged original root r1 only. They must not be used as exact 02m/05m/10m scene references. For recommended 05m Long, a future title/promise should emphasize **two missing divisions + German map mismatch**, not a single rubber tank's allegedly proven casualty reduction. Target 16:9 Long format supported in current ChannelSpec, but artwork, title/thumbnail acceptance and scene mapping are all UNVERIFIED and require new work after selection. No source video or external media generated.
+
+## r3 provenance (2026-11-20)
+
+The proposed 05m Long script now includes impersonated traffic police, restricted-area signs and residents moved away from the props. A storyboard for a future approved exact 05m hash must include this action and preserve the recovered-map payoff, without treating the archival S001–S018 or their timings as valid. No art, title or thumbnail has been approved.
