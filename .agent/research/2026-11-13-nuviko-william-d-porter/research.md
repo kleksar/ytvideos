@@ -109,3 +109,16 @@ Original 2026-11-13 description of the Nuviko History channel as frozen is *hist
 **Access status:** indexed source snippets and prior research were read, but original 1943 scanned logs were not directly inspected. High stakes and outcome are supported by official Navy history and USNI's identified transcription. No live view metrics or independent review was collected. The archival primary-record comparison remains UNVERIFIED.
 
 **Causal restrictions:** do not claim intentional assassination, torpedo hit, everyone arrested, guns fired from Iowa at Porter, the rumored harbor collision or a depth charge as fact, invented quotes, measured timing, or a causal link from the 1943 incident to the 1945 sinking.
+
+
+---
+
+## 2026-11-20 — source-checked 05m rewrite: concealment and accountability
+
+This is a **substantive revision of the existing 05m narrative**, not another story or a change to the root master. The previous 05m spent its closing stretch restating the three opening answers and reiterating why mass-arrest legends were false. The new 05m instead follows the consequence after Iowa escapes: an investigation into the primer and a documented attempt to discard evidence, disciplinary action, and the commander's continued service. These are **not** claims about what anyone said or felt during the launch.
+
+- **Navy Naval History and Heritage Command**, [H-049-1](https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-049/h-049-1.html), paragraphs “The facts of the accidental torpedo firing...” and “After breaking from her escort duties...”: primer charge in torpedo #3 of mount #2; Navy account says chief torpedoman threw evidence overboard after launch; inquiry at Bermuda; Navy account describes hard labor and Roosevelt's subsequent commutation; Walter remained in command. This retrospective does **not** establish what precisely was thrown, nor permit inventing a disposal scene or dialogue.
+- **U.S. Naval Institute**, [J. M. Caiella, Fact or Fiction?, June 2021](https://www.usni.org/magazines/naval-history-magazine/2021/june/fact-or-fiction): Porter's 14:36 log, Iowa's 14:38 warning, 15:03 resumed target practice; erroneous lamp signals; Bermuda inquiry; **Lawton C. Dawson was reduced by one grade**. The author explicitly says proof of a widely repeated **14-year hard-labor term** was not readily available. Thus the 05m text does **not** assert a 14-year term; it attributes a hard-labor sentence to the Navy's historical account rather than claiming independently inspected court-martial minutes.
+- **Verified against both publications 2026-11-20**: no evidence of entire-crew arrest or Walter's relief; misdirected lamp signals and radio warning remain distinct; no exact torpedo distance/turn direction or imagined presidential words. The original 1943 logs themselves have **not** been inspected here; the transcribed times are attributed to the identified historical study, not represented as archival read-back.
+
+The new ending asks the viewer to distinguish the immediate successful warning from the subsequent accountability of a real named crewman. Source confidence: moderate-to-high for the official retrospective and USNI analysis; unverified for first-hand 1943 documents and measured viewer demand.
