@@ -1,3 +1,16 @@
+## 2026-11-20 — 05m substantive witness-encounter revision
+
+**EDITORIAL_CANDIDATE_UNREGISTERED.** The 05m EN/RU scripts now follow Claire's real beach-work meeting with farmer René Morvan (reported while removing stranded dolphins), replacing the loose press → arrival shortcut. This changes the causal spine from a generic lead to a witnessed human action, ties diver-search failure to the previously unseen cave, and retains the partial payoff: 23 complete handsets but an already depleted container.
+
+| Duration | Full EN / complete RU | EN / RU words | Exact SHA-256 |
+|---|---|---:|---|
+| 02m Short, unchanged | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 243 / 205 | EN `03619fac6e367a984fa63ed41c95389fbe4fd46a5f21b7e62144989dc232e504` · RU `4ef991280facce9041e2954d8bf04a12b6ba80f20b30b2c60bcc9e35c0e05296` |
+| **05m Long, revised** | **[EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt)** | **665 / 560** | EN `d8de23c626173a4b62f2f2decdb02a4d27ecae0049c2ecb62ae3d855b0b8d9c9` · RU `58ea1097ab7886e4ea0adb48dbeb52b15b9f63200fa7e8f37d0141baf8018d9b` |
+| 10m Long, unchanged | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1417 / 1166 | EN `d63490b478db0dd7669fc7e45e3c5ee252e94ddcb41ac9efc12c230553b01e0c` · RU `f7e38a25e845cc4c431725f36079434a516dde451345d2ccdb575cbbf1faaebc` |
+
+**Recommendation remains 05m** because its meeting → cave access → physical find → empty-container reversal has more causal value than the compressed 02m, while 10m slows after the reveal. Historical original master and its 14-scene storyboard remain untouched. Source/fact claim evidence in [research](research.md); new exact-text 8-criteria ratings, hard-check limits and 2→5→10 comparison in [story-review](story-review.md). Independent reviewer, production timing, storyboard on this hash, owner approval/selected master and registration are **UNVERIFIED**.
+
+---
 # Garfield phones — three completed editorial scripts
 **EDITORIAL_CANDIDATE_UNREGISTERED · Paper Detour · 2026-11-18**
 

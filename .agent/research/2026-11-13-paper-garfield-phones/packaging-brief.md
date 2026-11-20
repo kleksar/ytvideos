@@ -1,3 +1,8 @@
+## 2026-11-20 — 05m packaging script binding
+
+The provisional 05m title and Garfield-on-beach/cave thumbnail concept still refer to the same verified story. New proposed Long EN SHA-256 `d8de23c626173a4b62f2f2decdb02a4d27ecae0049c2ecb62ae3d855b0b8d9c9` (RU `58ea1097ab7886e4ea0adb48dbeb52b15b9f63200fa7e8f37d0141baf8018d9b`). Visual intent must include the concrete coastal cleanup encounter with René, the undersea-search assumption versus cave lead, weather/tide access, 23 complete handsets and the nearly empty container; old S001–S014 storyboard remains **root-only**. No thumbnail, storyboard or CTR claim produced.
+
+---
 ## 2026-11-18 version-specific packaging status
 
 All previous S001–S014 references were authored for **archival root** EN SHA-256 `05796f25575fd8eb12c2311826a30eb4363090aa4bab0de4d45f5e30e4bb2cb6` only. For proposed 05m Long, possible title **Why the Garfield Phones Kept Coming Back**, physical paper diorama of a recognisable corded phone beside a difficult cave entrance; don't imply whole cargo was recovered. After exact text selection, remake shot list/visual intent rather than repurpose old timestamps. No thumbnail pixels, rights license, or CTR evidence.

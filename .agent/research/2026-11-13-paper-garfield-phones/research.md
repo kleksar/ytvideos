@@ -1,3 +1,12 @@
+
+## 2026-11-20 — 05m witness-to-cave causal revision
+
+- **R05-10:** [Atlas Obscura, Emma Jacobs, 2019-03-28](https://www.atlasobscura.com/articles/garfield-phone-beach), interview with Claire Simonin-Le Meur: she encountered René Morvan **while helping remove dolphins stranded on the coast**, after FranceInfo coverage. He described a cliff cave rather than an ordinary underwater dive site. **Confidence:** medium-high to the interview report; do not treat the journalist's sequence as proof that publicity was the *sole cause* of their meeting. This concrete encounter now appears in the 05m EN/RU.
+- **R05-11:** [Washington Post, 2019-03-29](https://www.washingtonpost.com/nation/2019/03/29/decades-garfield-telephones-kept-washing-ashore-france-now-mystery-has-been-solved/): Claire asked divers about an assumed submerged container; Morvan's account arose when they met during coastal work. This corroborates the prior search and meeting, but the exact dolphin-related activity comes from Atlas Obscura.
+- **R05-12:** [AFP via Euronews, 2019-03-29](https://www.euronews.com/2019/03/29/locals-solve-mystery-of-garfield-phones-washing-up-on-french-beach-for-30-years): 23 complete **handsets** beneath boulders, not a documented initial number of whole telephones; ship and multiple-container question unresolved. New 05m preserves both limits.
+
+No claim of plastic still washing ashore in 2026, no inferred number of cargo units or imaginary dialogue. Research for 02m/10m unchanged.
+
 # Paper Detour: Garfield telephones from the sea — research
 Дата проверки: 2026-11-13. Только редакционный кандидат, без зарегистрированного run/production approval. GitHub remote main `96c8fa1573c02e8e7987e272a569bf34f037691e`.
 

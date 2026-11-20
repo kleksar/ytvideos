@@ -1,3 +1,10 @@
+## 2026-11-20 — revised 05m exact handoff
+
+Status `EDITORIAL_CANDIDATE_UNREGISTERED`, not `awaiting_script_approval`; **do not** use old 05m evidence/review for this new text. Full EN [05m](variants/05m/script.en.txt) `d8de23c626173a4b62f2f2decdb02a4d27ecae0049c2ecb62ae3d855b0b8d9c9`, full RU [05m](variants/05m/script.ru.txt) `58ea1097ab7886e4ea0adb48dbeb52b15b9f63200fa7e8f37d0141baf8018d9b`; EN/RU words 665/560. [02m](variants/02m/script.en.txt) and [10m](variants/10m/script.en.txt) are unchanged; their 2026-11-18 hashes remain valid. Editorial recommendation: 05m. New event: Claire encountered René during coastal dolphin work, a confirmed firsthand interview detail; still no claimed ship/date/complete cargo size.
+
+For any later official run, select one exact EN hash first; obtain real canonical pinned context and original independent first-listener on exact bytes (without author score), bilingual review and owner approval. Rebuild storyboard for exact chosen hash. No runtime/migration/claim/receipt/AV production was performed during Git-only editing.
+
+---
 ## 2026-11-18 updated handoff: three variants
 **EDITORIAL_CANDIDATE_UNREGISTERED**; no local ytv checkout, no actual run, no independent session/receipt, no exact owner approval. The previous handoff is kept below as historical evidence.
 

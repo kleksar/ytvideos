@@ -1,3 +1,38 @@
+
+## 2026-11-20 — substantive 05m revision, verified Git-only candidate
+
+This entry supersedes **only** the 2026-11-18 assessment of `05m`; earlier `02m` and `10m`, their files/hashes, and the root master remain unchanged. No owner approval or media work.
+
+| Version | Full English narration | Full Russian adaptation | Words EN / RU | SHA-256 exact UTF-8 |
+|---|---|---|---:|---|
+| 02m Short unchanged | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 243 / 205 | EN `03619fac6e367a984fa63ed41c95389fbe4fd46a5f21b7e62144989dc232e504` · RU `4ef991280facce9041e2954d8bf04a12b6ba80f20b30b2c60bcc9e35c0e05296` |
+| **05m Long revised** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **665 / 560** | **EN `d8de23c626173a4b62f2f2decdb02a4d27ecae0049c2ecb62ae3d855b0b8d9c9` · RU `58ea1097ab7886e4ea0adb48dbeb52b15b9f63200fa7e8f37d0141baf8018d9b`** |
+| 10m Long unchanged | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1417 / 1166 | EN `d63490b478db0dd7669fc7e45e3c5ee252e94ddcb41ac9efc12c230553b01e0c` · RU `f7e38a25e845cc4c431725f36079434a516dde451345d2ccdb575cbbf1faaebc` |
+
+**Was → became / factual basis:** the earlier 05m narrates a farmer approaching after publicity and moves quickly from diving speculation to his 1980s recollection. The new 05m restores Claire's concrete beach-work encounter **while dealing with stranded dolphins**, a detail from her 2019 first-person interview in Atlas Obscura (research G10-3), and distinguishes publicity's timing from the meeting itself. It also makes the search's practical motivation explicit: volunteers hoped to find and remove a remaining cargo source, not merely identify an odd object. Morvan's testimony is labelled recollection, the low-tide access and delayed visit are an obstacle, and the discovered 23 complete *handsets* prove a shipment in the cave, not the original inventory or the exact carrier. The late twist — empty container, continued 2019 cleanup and no confirmed second container — is retained. No thoughts or dialogue invented.
+
+**05m story map / promise:** opening questions = origin and whether locating it stops arrivals → concrete phone fragments and Claire's 2018 collection (viewers can identify the object) → suspected container, divers unable to supply a location (search obstacle) → **main hook** Claire meets Morvan during a separate coastal cleanup and learns of the cliff cave (new witness/changed search area) → Morvan and his brother's past find (uncertain testimony) → tide, wet rock and weather delay (action constraint) → March 22 physical evidence and 23 complete handsets (answer) → mostly empty container (reversal) → unknown ship/possible second container and continued 2019 beach collection (consequence). Final sentence closes Claire/Morvan and cleanup; it does not imply the source was fully recovered or that current 2026 findings were observed.
+
+### Eight criteria, exact revised 05m (authorial scores; first seven medium confidence)
+
+| Criterion | Revised 05m / 10 | Specific evidence and downside |
+|---|---:|---|
+| Interest / significance | 8 | Recurring recognizable product plus tangible beach-cleaning problem; no new measured audience interest |
+| Opening / promise | 9 | Two natural questions, answered in cave and aftermath; the phone itself needs early visual clarity |
+| Development / reason to finish | 9 | 2018 fragments → search without coordinates → Morvan beach encounter → low-tide obstacle → 23 handsets; evidence still fits a fairly familiar lost-cargo explanation |
+| Payoff | 9 | Empty container defeats practical hope of stopping supply; no claims about ending pollution |
+| Freshness of angle | 8 | Center is failed pollution cleanup despite a solved mystery, but the source story was widely reported in 2019 |
+| Visual clarity | 9 | Garbage bag, iconic corded handset, dolphin cleanup context, farmer, cave, rusted metal and recovered 23 handsets; visual assets not produced |
+| Natural speech / language parity | 8 | Specific human actions without fake dialogue, EN/RU same 17 semantic paragraphs; a few proper names and tidal details require a real listener |
+| Verified audience demand | UNVERIFIED | Contemporary reporting and historical Reddit responses cannot establish CTR/retention or medium-length interest |
+
+**Hard checks (authorial, not independent):** EN/RU 17 corresponding paragraphs, the same March 22 date, 2018 >200 fragments, Morvan's remembered brother/storm, 23 handsets, unknown ship/second container, continued cleanup reported in 2019. Primary reporting after a first-person interview: [Atlas Obscura 2019-03-28](https://www.atlasobscura.com/articles/garfield-phone-beach); [AFP/Euronews 2019-03-29](https://www.euronews.com/2019/03/29/locals-solve-mystery-of-garfield-phones-washing-up-on-french-beach-for-30-years); [Washington Post 2019-03-29](https://www.washingtonpost.com/nation/2019/03/29/decades-garfield-telephones-kept-washing-ashore-france-now-mystery-has-been-solved/). No direct quotations borrowed. Long loop N_A. Paper Long supported by current channel specification but only as editorial candidate. No TTS measurement; estimated `665` words at 130–155 wpm = 4.3–5.1 minutes before pauses. Independent first listener, independent EN/RU check, runtime review receipt, AV and owner approval all **UNVERIFIED**. New text hashes invalidate old 05m review/timing assumptions, not unchanged 02m/10m.
+
+**Comparison of full scripts:** 02m supplies complete origin/empty-container answer with the shortest witness-to-cave jump. The revised 05m adds the previously missing causal meeting during Claire's real work, long-unlocated container and weather/tide constraints, making the discovery earned. The 10m adds separate context about volunteers, publicity and possible alternative shipments, but after the cave repeatedly explains pollution and loses momentum. The likely weak point of 02m is the conditional seam; for 05m it is the relatively detailed location search before the farmer; for 10m it is the post-cave explanation. **05m remains provisionally recommended**, not an approval or proof of retention.
+
+**Status:** three complete EN/RU variants → author-checked against common research → 05m provisionally recommended → `EDITORIAL_CANDIDATE_UNREGISTERED`. Independent blind review/bilingual review, exact owner selection, official runtime transfer and a newly generated storyboard bound to selected hash remain unverified. Existing root 14-scene plan still belongs only to archival root text.
+
+---
 # 2026-11-18 — duration variants editorial assessment
 
 **Owner's 2/5/10 directive:** canonical `docs/standards/editorial.md` (merged PR #124). Status `EDITORIAL_CANDIDATE_UNREGISTERED`. All scoring and hard checks below are AUTHOR review on these exact files, **not** a first-listener/independent receipt, audio review or owner approval.
