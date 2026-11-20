@@ -1,3 +1,7 @@
+## 2026-11-20 — 05m revised (unapproved)
+
+One truthful visual promise for the revised narrative: **The Torpedo Missed Roosevelt. The Inquiry Found More.** The first two opening questions concern the actual launch and failed lamp messages; the third is paid off by the missing primer and Navy-attributed disposal of evidence. For a possible 16:9 concept, distinguish the real torpedo track and two different mistaken signals from the later investigation. Do **not** visualize a made-up specific object being thrown overboard or fabricate a court-martial scene. No thumbnail tests or owner approval. Exact 05m EN/RU SHA-256 `3f01976d97fae793b69c739859e8ee4ffc1a572cc090be74fa1748ade1c4a740` / `af930781db94ebd4b6d4165813593a263c741d9dee0880252153401784882f4e`. Root Short concepts remain bound to the root script only.
+
 # Packaging concepts — NOT publication metadata
 
 Current Nuviko History profile is ACTIVE, including illustrated Short and Long. No claims about a verified audience response, finished thumbnail or native YouTube UI.
