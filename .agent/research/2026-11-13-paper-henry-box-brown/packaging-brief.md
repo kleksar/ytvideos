@@ -1,9 +1,9 @@
-**2026-11-18 scope note:** all S001–S018 and these title/thumbnail concepts are based on archived root script, byte-identical to variants/02m only. 05m and 10m need new exact-text packaging/storyboard after owner selection. None of these draft concepts has measurable CTR or approved art.
+**2026-11-18 scope note:** all S001–S018 and these title/thumbnail concepts are based on archived root script, **not** byte-identical to revised variants/02m as of 2026-11-20. 02m, 05m and 10m now all need new exact-text packaging/storyboard after owner selection. None of these draft concepts has measurable CTR or approved art.
 
 ---
 # Packaging brief — hypotheses, not approved assets
 
-**Format:** Paper Detour, 9:16 Short, English language. All scene/master and thumbnail images would be AI-generated in a separately approved production run; no images produced here. Paper full-frame tactile materials; thumbnail must contain one short prominent physical cut-paper inscription. Early confirmation S001 warning, S002 actual man inside, S003 inverted crate; full result S015, secondary coda S016–S017.
+**Format:** archived root Paper Detour, 9:16 Short (NOT current 02m variant), English language. All scene/master and thumbnail images would be AI-generated in a separately approved production run; no images produced here. Paper full-frame tactile materials; thumbnail must contain one short prominent physical cut-paper inscription. Early confirmation S001 warning, S002 actual man inside, S003 inverted crate; full result S015, secondary coda S016–S017.
 
 | Concept | Exact English title idea | Thumbnail concept / short paper text | Promise and objection |
 |---|---|---|---|

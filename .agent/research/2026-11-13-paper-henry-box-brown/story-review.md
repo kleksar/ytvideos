@@ -1,12 +1,12 @@
 # Exact editorial review — Henry Box Brown, PR #32 (2026-11-18)
 
-**Authority:** author's fact/language/text audit ONLY; independent reader and ytv runtime unavailable. Baseline 021a9c8b651950030b29268404e71938dc3b2e70; original root EN blob 5affb000b2c2371075726e38b4448489d63b07f9; original RU blob 81c734a47c363d07e512041e4ee354621d14a9ea. Root files remain unchanged, copied byte-for-byte to 02m. Previous original-script author review is preserved below.
+**Authority:** author's fact/language/text audit ONLY; independent reader and ytv runtime unavailable. Baseline 021a9c8b651950030b29268404e71938dc3b2e70; original root EN blob 5affb000b2c2371075726e38b4448489d63b07f9; original RU blob 81c734a47c363d07e512041e4ee354621d14a9ea. Root files remain unchanged. Prior 02m was byte-identical to root; on 2026-11-20 its EN/RU were substantively revised as separate candidates. Previous review and original source remain archived below.
 
 ## Exact artifacts — SHA-256 of UTF-8 bytes
 
 | Variant | Full English | SHA-256 EN | Full Russian | SHA-256 RU | Words EN | Rough EN spoken time |
 |---|---|---|---|---|---:|---|
-| 02m | [EN](variants/02m/script.en.txt) | 2b6963e6d8b69209e3ae8262ce8aef5dcaf11a9edac7ceb7e5f71ecbf40b3015 | [RU](variants/02m/script.ru.txt) | 8dc6a4267356ffc3c09ff611e45602e93936cba6ce58eee569f5ef351f26be3b | 211 | 1.4–1.6m + pauses |
+| 02m | [EN](variants/02m/script.en.txt) | 36a4329b77c5b3ba409790b99839383a257355ebae956a5e9768f64ee2fd05ba | [RU](variants/02m/script.ru.txt) | 2953095e31a1f1e9a376c46dbf320127ca3342aa0b4f911cfb9d2dd2f7e1850b | 324 | ~2.0–2.5m + pauses, unmeasured |
 | 05m | [EN](variants/05m/script.en.txt) | bb7f1c41d0e9ddc7421403b1167a934e3599f0e12cf864a17736a88e33041792 | [RU](variants/05m/script.ru.txt) | 9b3fedd672aa1940d7dd828ffa402a9845b6313fb96160d3b3a3314a0fd1ebd1 | 653 | 4.2–5.0m + pauses |
 | 10m | [EN](variants/10m/script.en.txt) | ad197ccc73033a5e685271ab756b29e44b3d818ddc777eebe74fc0135358be85 | [RU](variants/10m/script.ru.txt) | 4147adbf05130f7241b0cb82325f95650fadd6d5c3f4b8ce8b147b024497761b | 1265 | 8.2–9.7m + pauses |
 
@@ -14,7 +14,7 @@ Time labels are editorial targets, not measured voice or MP4 duration; estimated
 
 ## Three story maps
 
-**02m:** warning on crate → man hidden inside → loss of family → package plan and three airholes → upside-down transfers → head pressure → strangers sit and right the box → opened in Philadelphia → stage reenactment → ignored-warning callback. Strong short route, but family and aftermath are rushed.
+**02m (revised 2026-11-20):** first label/inverted crate → 1848 loss of Nancy and children → freight route and Philadelphia receiver arranged → three holes/water → inversion at express office, train, steamboat → Brown's self-reported pressure and silence → two men accidentally relieve him → Philadelphia freedom but no documented family reunion → disclosure complicates repeats and Samuel's later arrest → Fugitive Slave Act leads to Britain → Brown chooses his own stage exit. Textual seam: regained agency → warning he once depended on.
 
 **05m:** three concrete opening questions → Richmond, Nancy and children sold → James and Samuel prepare express shipment → tiny nailed box and warning → inverted before leaving → righted by train but inverted on steamboat → men's accidental rescue → later reported potential train delay → opened in Philadelphia → no unsupported reunion → Samuel imprisoned after further attempts → fugitive law and Britain → a second box entered freely on stage. Every addition changes mechanism or stakes; last coda shifts away from immediate peril.
 
@@ -26,35 +26,35 @@ Scores 1–10 are subjective **author** assessments with moderate confidence for
 
 | Criterion | 02m | 05m | 10m |
 |---|---|---|---|
-| Interest/importance | **8/10:** sale of wife and children + man as cargo; family quickly passed | **8/10:** family plus helpers and legal consequences; serious stakes | **8/10:** broader personal agency, though biography risks taking over |
-| Opening | **8/10:** warning followed by man revealed; first line alone is ambiguous | **7/10:** specific survival/opening questions, less visually immediate than label | **7/10:** linked escape/transport/afterlife questions, slower visual reveal |
-| Development/reason to stay | **7/10:** transfers increase danger, but condensed too hard | **8/10:** first inversion, steamboat, seated strangers, next-train threat make causal turns; late coda slower | **7/10:** Washington incident adds risk, but further background after escape lengthens resolution |
-| Payoff | **8/10:** Philadelphia freedom + later stage choice; coda brief | **8/10:** crate opened and Brown later chooses to exit it publicly; Samuel detour may compete | **8/10:** dramatic public reenactment, but rescue-to-stage gap long |
-| Angle freshness | **7/10:** ignored freight warning and agency turn; familiar event | **7/10:** shipping anonymity becomes obstacle, not just an escape trick | **7/10:** separates 1849 and 1851 memories but risks documentary exposition |
-| Visual expressiveness | **8/10:** warning/box/steamer/stage; actual pixels absent | **8/10:** factory, collaborators, physical orientation and two distinct boxes; no tested frames | **8/10:** painted panorama, Washington and Britain, risk of visually repeated box shots |
-| Spoken naturalness/clarity | **8/10:** concrete actions; final callback slightly explanatory | **8/10:** specific agents and physical mechanisms; caveats lengthen midsection | **7/10:** clear chronology but qualifiers about evidence interrupt suspense |
+| Interest/importance | **8/10:** family loss now returns after freedom rather than functioning as a passing pretext; audience demand still unknown | **8/10:** family plus helpers and legal consequences; serious stakes | **8/10:** broader personal agency, though biography risks taking over |
+| Opening | **8/10:** warning → ignored handling → living man is revealed by fourth sentence; no fake dialogue | **7/10:** specific survival/opening questions, less visually immediate than label | **7/10:** linked escape/transport/afterlife questions, slower visual reveal |
+| Development/reason to stay | **8/10:** prearranged receiving end, two inversions, strangers turning crate and later publicity build distinct risks; the afterlife is compressed | **8/10:** first inversion, steamboat, seated strangers, next-train threat make causal turns; late coda slower | **7/10:** Washington incident adds risk, but further background after escape lengthens resolution |
+| Payoff | **8/10:** freedom is explicitly incomplete as family loss persists; stage decision repays the agency question | **8/10:** crate opened and Brown later chooses to exit it publicly; Samuel detour may compete | **8/10:** dramatic public reenactment, but rescue-to-stage gap long |
+| Angle freshness | **7/10:** transport warning and hidden human stakes joined to loss of family and unequal control; event remains recognizable | **7/10:** shipping anonymity becomes obstacle, not just an escape trick | **7/10:** separates 1849 and 1851 memories but risks documentary exposition |
+| Visual expressiveness | **8/10:** freight handler orientation, steamboat, Philadelphia, family absence and stage; existing storyboard now obsolete | **8/10:** factory, collaborators, physical orientation and two distinct boxes; no tested frames | **8/10:** painted panorama, Washington and Britain, risk of visually repeated box shots |
+| Spoken naturalness/clarity | **7/10:** clearer causal action and non-reunion caveat, but ~324 words could overrun a nominal two minutes; text seam provisional | **8/10:** specific agents and physical mechanisms; caveats lengthen midsection | **7/10:** clear chronology but qualifiers about evidence interrupt suspense |
 | Verified viewer interest | **UNVERIFIED:** no baseline Short performance | **UNVERIFIED:** no comparable Long performance | **UNVERIFIED:** no retention/CTR evidence for 10m |
 
-**Incremental value / attention:** 02→05 earns more time with the assistants and the risk of indefinite express delay; it makes the family loss and later show meaningful. 05→10 adds self-reported Washington fall, risk to future escape attempts, panorama and resettlement — source-supported, but after the Philadelphia opening the additional documentary chapter starting with other people's attempts slows the core story. Predicted drop-offs are author hypotheses, NOT measured retention.
+**Incremental value / attention:** 02→05 now earns more space for both assistants' identities, next-train delay, precise distribution of risk, and the fuller post-escape response; new 02m already contains a concise family aftermath and staging. 05→10 adds self-reported Washington fall, risk to future escape attempts, panorama and resettlement — source-supported, but after the Philadelphia opening the additional documentary chapter starting with other people's attempts slows the core story. Predicted drop-offs are author hypotheses, NOT measured retention.
 
-**Recommendation:** **05m**, pending independent reader and user selection; retain 02m and 10m as candidates. Not approval or three productions.
+**Recommendation:** **05m** remains provisional: revised 02m resolves the family consequence and stage choice but may exceed two minutes, whereas 05m gives the handler/transport stages room to breathe. 10m slows after rescue. Pending independent reader and user choice; retain every candidate. Not approval or three productions.
 
 ## Hard checks / blockers
 
 | Check | 02m | 05m | 10m |
 |---|---|---|---|
-| Full EN + RU semantic sequence | Author PASS: identical root bytes | Author PASS: helpers, inversion, threat, freedom, family caveat, later law/stage match in both languages | Author PASS: 1851 recollection, imprisonment, panorama and last-act agency match |
-| Material claim evidence | Author PASS: 1849 narrative/NPS/NEH | Author PASS: LVA, NPS, first-person accounts | Author PASS: 1849 and later 1851 separated; no exact March day given |
+| Full EN + RU semantic sequence | AUTHOR CHECK: 2026-11-20 fresh 02m EN/RU 10 matched semantic paragraphs; separate from archived root; independent UNVERIFIED | Author PASS: helpers, inversion, threat, freedom, family caveat, later law/stage match in both languages | Author PASS: 1851 recollection, imprisonment, panorama and last-act agency match |
+| Material claim evidence | AUTHOR CHECK: 1849 account/NPS and LVA/Encyclopedia Virginia for helpers, loss, subsequent imprisonment/Fugitive Slave Act and staging; uncertainty explicit | Author PASS: LVA, NPS, first-person accounts | Author PASS: 1849 and later 1851 separated; no exact March day given |
 | Documentary Long questions before immersion/main hook | N_A (Short) | Author PASS: questions → Richmond family → freight reveal → inversion | Author PASS: questions → family → plan as package → hazardous handling |
-| Short loop twice and cold entry | Textual author PASS per old review, not independent; AV UNVERIFIED | N_A (Long) | N_A (Long) |
+| Short loop twice and cold entry | AUTHOR TEXT CANDIDATE: answer before repeat, regained agency → original warning; two full silent prose reads only, independent/AV UNVERIFIED | N_A (Long) | N_A (Long) |
 | Independent first listener / exact receipt | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** |
 | Actual TTS duration / MP4 / audience metrics | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** |
 | Master approval / runtime registration | **UNREGISTERED** | **UNREGISTERED** | **UNREGISTERED** |
-| Storyboard/scene spans aligned to variant | Old 18-scene plan only for unchanged root / 02m | No new storyboard; must follow selected script | No new storyboard; must follow selected script |
+| Storyboard/scene spans aligned to variant | Old 18-scene plan applies ONLY to unchanged root original; revised 02m requires exact new spans | No new storyboard; must follow selected script | No new storyboard; must follow selected script |
 
-**Short literal seam:** EN last: “That first box, though, carried a warning its handlers repeatedly ignored.” → first: “THIS SIDE UP WITH CARE.” That was the warning on a wooden crate in Virginia in 1849. RU last: «Но на том, первом ящике, была инструкция, которую перевозчики не раз нарушили.» → first: «ЭТОЙ СТОРОНОЙ ВВЕРХ. ОБРАЩАТЬСЯ ОСТОРОЖНО». Такое предупреждение было на деревянном ящике в Виргинии в 1849 году. It links the exact reason for the warning; repeat of words alone does not prove AV seam. No file for independent double-reading was submitted; cannot claim independent PASS.
+**Revised 02m textual seam — author only:** EN ends “He no longer had to trust his life to the warning painted on the wood.” → starts “THIS SIDE UP WITH CARE.” RU ends «Теперь его жизнь не зависела от того, прочитают ли грузчики предупреждение на дереве.» → starts «ЭТОЙ СТОРОНОЙ ВВЕРХ. ОБРАЩАТЬСЯ ОСТОРОЖНО». Full EN/RU silent double-read suggests a retrospective callback after the completed answer, NOT a verified seamless AV repeat or independent PASS. The old root version's seam remains in archived review below.
 
-**First listener protocol:** supply exact six scripts **without this author's scores or recommendation** for first impressions. Permit reviewer to prefer original, revised, or none. Only after first reading reveal research and 1849/1851 source distinctions. Original fresh reviewer response must be saved in existing schema, not fabricated here. A new hash invalidates any previous receipt.
+**First listener protocol:** supply exact six scripts **without this author's scores or recommendation** for first impressions. Permit reviewer to prefer original, revised, or none. Only after first reading reveal research and 1849/1851 source distinctions. Original fresh reviewer response must be saved in existing schema, not fabricated here. A new hash invalidates any previous receipt. No actual new reviewer session is available in this host tool registry; local runtime reviewer remains required.
 
 **Production transfer:** no local canonical runtime or fresh independent reviewer callable here. Editorial candidates remain EDITORIAL_CANDIDATE_UNREGISTERED; real ytv start + pinned context, attach-artifact IDs, one exact master, independent review and explicit owner approval are necessary. Existing runtime pins cannot be replaced by a PR checkout. CI/unit tests are not viewer interest.
 
@@ -109,3 +109,14 @@ Inside was Henry Brown, an enslaved man trying to escape.
 ## Meaning equivalence checklist
 
 EN↔RU 18 ordered segments: family wife + three children, Virginia 1849, three air holes, water, wagon/train/steamboat, twice inverted, estimated two hours, mail guess, twenty-seven hours, Philadelphia and freedom, subsequent reenactment, ignored label; no new deaths, exact theatrical mechanics or reunions appear in RU. **Author-only PASS**, independent **UNVERIFIED**.
+
+
+## 2026-11-20 — substantive 02m correction at pre-edit HEAD 18b1f0ef7317de8f688d333cb6256883d8d7310a
+
+**Was → now:** 211-word source-identical 02m EN `2b6963e6d8b69209e3ae8262ce8aef5dcaf11a9edac7ceb7e5f71ecbf40b3015` / RU `8dc6a4267356ffc3c09ff611e45602e93936cba6ce58eee569f5ef351f26be3b` → EN `36a4329b77c5b3ba409790b99839383a257355ebae956a5e9768f64ee2fd05ba` / RU `2953095e31a1f1e9a376c46dbf320127ca3342aa0b4f911cfb9d2dd2f7e1850b`. Root master and root storyboard were **not modified**. The exact complete 02m links are [EN](variants/02m/script.en.txt) and [RU](variants/02m/script.ru.txt).
+
+This is a causal rewrite rather than cosmetic editing: departure now requires confirmed Philadelphia receivers; the earlier family sale becomes an unresolved human consequence after the successful escape; the publicity has a measurable secondary cost for a helper (later attempted escape, imprisonment); the 1850 law explains why the next chapter happens in Britain. Sequence still contains Brown's remembered two-hour inverted position, the men unknowingly relieving him, arrival and the freely chosen stage reenactment. No invented dialogue, encounter with family, or exact disputed March date.
+
+**EN/RU audit:** matching 10 full paragraphs, same uncertainty around self-reported duration/family reunion and later imprisonment; author textual double-read of entire EN and RU, including final→first. No independent reader, measured TTS, actual AV seam or owner approval. **Estimated** `324` EN whitespace words = 2.02–2.49 minutes at 160–130 wpm **before pauses**; actual voice at configured 1.1× not measured. 02m may overrun and is not automatically accepted as a short.
+
+**Hard-format status:** 02m short loop author candidate only; 05m & 10m remain Long question → immersion → main hook. Existing S001–S018, approved shots, old durations, visual/packaging plan and source hash belong only to original root. Need fresh scene spans and visual intent for revised 02m if selected. Independent first reader sees exact scripts without this author's verdict; sources provided only after reaction. All three remain EDITORIAL_CANDIDATE_UNREGISTERED. Audience evidence remains UNVERIFIED; no CI or software test substitutes.
