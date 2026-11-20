@@ -12,7 +12,7 @@ New candidates are **EDITORIAL_CANDIDATE_UNREGISTERED** (Git-only, not a ytv scr
 |---|---:|---|---|---|
 | 02m | 228 | [02m EN](variants/02m/script.en.txt) — `419db0415c4ad3097f09322ab0d2c4d257ca4779a6dc13a7645cc860ceed8559` | [02m RU](variants/02m/script.ru.txt) — `4c589dc00d90e6fe2bf598bcd5a77fb55474032016dbc5a654b92e59076113c8` | Short 9:16 |
 | 05m | 630 | [05m EN](variants/05m/script.en.txt) — `bb0e36f5560d0447211014b83346fb40f2bd1f30ae12013640f2c470331f615b` | [05m RU](variants/05m/script.ru.txt) — `73c1f602aa9d8b382aaf942a824458efae6657ff808fb6c3f3d6a7cb98ac8e6e` | Long 16:9 |
-| 10m | 1450 | [10m EN](variants/10m/script.en.txt) — `eb59aa42c897147341f9caa5ad7bf8088431d24bb2f49d6f04999f5084350bc0` | [10m RU](variants/10m/script.ru.txt) — `9c8e69930d43a2c41525e6abf19593007ac686b4f1c45be8728c81d5d2acf0f6` | Long 16:9 |
+| 10m | 1450 | [10m EN](variants/10m/script.en.txt) — `6d7d11283e7902e6deeec0eb537b896505bb4db4945b13cde260260101537edc` | [10m RU](variants/10m/script.ru.txt) — `5f0ccea690468282c5805a0914bae440cc131c86597737aa577ef19d1bdfe201` | Long 16:9 |
 
 Hashes are for exact UTF-8 bytes including terminal newline, not normalized text. Calculated with a SHA-256 implementation checked against the standard `abc` vector and from actual staged Git blob contents. Recheck after any editorial change; all hashes and downstream checks then become stale.
 
@@ -95,7 +95,7 @@ Scene narration is synchronized in both languages; S014 reuses S001, while all o
 
 ## 2026-11-20 exact 10m editorial revision — current script only
 
-Baseline PR head `086e683dad25506742b51f9ad940efa6d9011b0b`; original ten-minute EN SHA-256 `0297ffcc7a735d05f8002edb1e6e7f2d4321e4d6273e9b5d0d0be6656ab6c3b6` and RU `eaa27a030c98cdef3852e7583ceba07edafeb4cde1b82280d662be029e88110d` are preserved in Git history. New 10m EN `eb59aa42c897147341f9caa5ad7bf8088431d24bb2f49d6f04999f5084350bc0` (1450 whitespace-separated words), RU `9c8e69930d43a2c41525e6abf19593007ac686b4f1c45be8728c81d5d2acf0f6`. Other four variants and root master remain byte-for-byte unchanged. Status **EDITORIAL_CANDIDATE_UNREGISTERED**, no owner approval or runtime.
+Baseline PR head `086e683dad25506742b51f9ad940efa6d9011b0b`; original ten-minute EN SHA-256 `0297ffcc7a735d05f8002edb1e6e7f2d4321e4d6273e9b5d0d0be6656ab6c3b6` and RU `eaa27a030c98cdef3852e7583ceba07edafeb4cde1b82280d662be029e88110d` are preserved in Git history. New 10m EN `6d7d11283e7902e6deeec0eb537b896505bb4db4945b13cde260260101537edc` (1450 whitespace-separated words), RU `5f0ccea690468282c5805a0914bae440cc131c86597737aa577ef19d1bdfe201`. Other four variants and root master remain byte-for-byte unchanged. Status **EDITORIAL_CANDIDATE_UNREGISTERED**, no owner approval or runtime.
 
 **Before → after:** the earlier 10m began with an unqualified German approach for prisoner rescue and repeated the tank/flag explanation after relief. The new opening follows the 23rd Tank Battalion's contemporaneous sequence: Gangl and Lee begin surrender talks; Lee orders removal of charges from two bridges; a French civilian reports Itter detainees; Lee inspects the castle; the returning bluff and narrowing column follow. During the siege a deserter leaves while eight newly surrendered German soldiers join, before three 88-mm guns knock out the Sherman with six hits. End is the infantry handoff, not repeated moral exposition. AAR and secondary accounts vary on the origin of the mission, so the narration explicitly attributes the sequence to the AAR; it must not silently rewrite the unchanged 05m source interpretation.
 
