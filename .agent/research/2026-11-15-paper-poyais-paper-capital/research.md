@@ -1,0 +1,95 @@
+# Audience-first research — Poyais, 2026-11-15
+Selected format: Paper Detour, English Long 16:9. Verified main HEAD `5d3222c8888c775d2195c8b2949949f2d992e98d`; channel.json active/EN/illustrated. Audience: ordinary English-speaking viewer attracted to high-stakes deception, families crossing an ocean, tangible documents versus reality, and moral/judicial twist — not limited to historical-finance fans. Own audience reports/retention/traffic and Studio queries: UNVERIFIED, no authorized access. This is editorial research, not official ytv runtime output.
+
+## Wide discovery before selection
+Actually considered 9 distinct stories: (1) Poyais country brochures/failed settlement; (2) Maine North Pond Hermit, 27 years and stolen cabin supplies; (3) staged Enron trading floor shown to visitors; (4) Victor Lustig's Eiffel Tower sale; (5) Balloon Boy hoax; (6) Max Headroom TV intrusion; (7) BBC spaghetti-tree prank; (8) Dreadnought prank; (9) Boston Molasses Flood. Deprioritised 4/5 as saturated/disputed angle, 6 unresolved responsible person and payoff, 7/8 headline consumes main payoff, 9 disaster whose unique physical stakes differ but competition with queued disaster plots is substantial. Observed search coverage: title, topic and publicly indexed videos/historical sources; no claims that all 9 received 2–4 videos each.
+
+## Three finalist story briefs and BEFORE-script selection
+**Poyais:** Exact hook "In 1823, a ship reached the Caribbean coast. Its passengers carried deeds to land in Poyais." Value: real families were promised a functioning country; their shore had no city, and some died after rescue. Main viewer question: how could documents move 250 people to an absent town, and why did the seller carry on? Genuine development: Miskito land grant is real → printed capital, money and bonds → ships sail → no infrastructure → illness and evacuation, continuing deaths → survivors partly defend him → court acquits → further paper sales. Specific payoff: real land versus unbuilt capital and no conviction. Objection: fraud themes already present in #100/#102, plus Patrick Boyle/ColdFusion have covered Poyais. Preliminary author ratings 1 interest 9/10, 2 hook 9/10, 3 development 8/10, 4 payoff 8/10, 5 difference 6/10, 6 visual meaning 8/10, 7 speech UNVERIFIED before script, 8 demand UNVERIFIED; medium confidence except demand.
+**North Pond Hermit:** Hook "For 27 years a man hid in Maine's woods without a fire at his camp." Value: isolation, survival and violation of neighbours' homes. Audience question: how survived freezing winters, and who caught him? Changes: hidden woodland camp and repeat cabin theft → surveillance alarm → apprehension → nuance of victims' fear. Payoff: arrest plus reality behind hermit mythology. Objection: key survival method "stole from cabins" revealed early, remainder risks repetitive break-ins rather than rising payoff. Preliminary 1=8, 2=9, 3=7, 4=7, 5=7, 6=8, 7/8 UNVERIFIED.
+**Enron fake trading floor:** Hook "Visitors toured a busy Enron trading room staged for their arrival." Value: apparent market credibility manufactured. Question: how did investors mistake fake workplace for actual business? After hook: props and tour, later Enron collapse. Payoff: staged performance was misleading. Objection: answer almost fully contained in hook, later collapse is separate/general; not a strong 8+ development. Preliminary 1=7, 2=8, 3=5, 4=6, 5=5, 6=7, 7/8 UNVERIFIED.
+
+**Why Poyais rather than North Pond:** the later turns shift the audience's interpretation: territory existed and was granted; rescue failed to prevent deaths; some survivors defended the promoter; courts acquitted him and the securities story continued. By contrast North Pond's answer (years of theft) is fairly quickly exhausted. Neither's potential views are inferred from these scores. Poyais distinct physical outcome from queue fraud #100 McDonald's Monopoly, #102 Pepsi 349, but **novelty reduced**, explicitly scored 6, not 9. Existing PR #13 and #88 rejected angles are excluded, not cosmetically revived.
+
+## YouTube observation ledger (2026-11-15; metadata/index only, NEVER video or comment viewing)
+Public numbers below come from dated indexed snippets, NOT exact today's live YouTube counts; some snapshots from prior months. No views-to-subscribers demand inference, no guessed engagement velocity, CTR/retention or causal attribution.
+| Video / independent author | Original URL | Published | Language/format/length | Public views/source | Same-author baseline or counter-signal |
+|---|---|---|---|---|---|
+| "History's Greatest Conman!" — Patrick Boyle | https://www.youtube.com/watch?v=oWIqI11wtZ8 | 2024-07-06 | EN Long, 30:37 per https://rosetta.to/person/gregor-macgregor | 403,011 indexed YouTube result crawled around September 2026; 385K indexed Rosetta catalog crawled later with different cache | One 2024-07-15 Patrick Boyle video *Will Trump Pump the Stock Market?* https://rosetta.to/u/pboyle/will-trump-pump-the-stock-market around 247K but different topic; n=1 weak, not robust age-/format-matched baseline |
+| "The Scammer Who Sold A Fake Country" — ColdFusion | Original YouTube ID **UNVERIFIED**, creator indexed at https://rosetta.to/person/gregor-macgregor | 2024-09-30 (index) | EN Long 14:49 | 233K views in Rosetta index; no live video read | No same-author same-age baseline; *podcast rediscovery* dated 2026-11-04 at https://podscan.fm/podcasts/coldfusion-1/episodes/the-scammer-who-sold-a-fake-country is NOT a new 2026 video |
+| "Part Two: The Con Artist Who Invented A Country" — Behind the Bastards | https://www.youtube.com/watch?v=u_1CBICMUf4 | 2026-02-27 | EN podcast style, Long; duration UNVERIFIED | Indexed result around 14 views, very limited signal | COUNTER-SIGNAL: topic not uniformly successful, but podcast upload/channel format not comparable |
+| "The Fraudster that Sold an Imaginary Kingdom" — external curated link | https://www.youtube.com/watch?v=iW2tkZEm9No | Page mention 2024-08-17 https://historyreviewed.best/index.php/video-bizarre-history-story-the-fraudster-that-sold-an-imaginary-kingdom-gregor-macgregor/ ; actual upload UNVERIFIED | Title EN, Short/Long/duration UNVERIFIED | Views UNVERIFIED | No author baseline; counted only as surfaced mention |
+| "The Man Who Sold a Country That Did Not Exist" | https://www.youtube.com/watch?v=cQJ2kcTnaZk | Upload date UNVERIFIED; 2026-11-10 social share https://nitter.gq/binxdonald/status/2120284919892967737 | Title EN, duration/format UNVERIFIED | Views UNVERIFIED | One social share does NOT establish a current trend |
+
+**Cross-topic North Pond comparison** for strongest rival: Fascinating Horror 2025-04-22 https://www.youtube.com/watch?v=rftItsbN2mo 658,247 indexed views, EN Long (chapter times show >8:43); Armchair Investigator 2026-02-01 https://www.youtube.com/watch?v=EHKNRftyahw 7,961 indexed views, EN Long (duration unverified). Independent creators differ in audience, format, age, packaging. Neither shows our expected result or actual retention. Own-channel analytics not observed. Direct YouTube plays/transcripts and comments inaccessible in this host (metadata/description only), no claim of viewing. Audience demand is experimental and score #8 remains UNVERIFIED.
+
+## Source ledger (retrieved 2026-11-15, document facts NOT imported into narration as citations)
+1. Academic primary historiographical analysis: Damian Clavel, Cambridge University Press, https://www.cambridge.org/core/journals/enterprise-and-society/article/whats-in-a-fraud-the-many-worlds-of-gregor-macgregor-18171824/18C69E0C9D7E0878A96E17E2B0B9E12F : 1820 Miskito monarch land concession, settlement/credit project real even if civic country promises misleading. **Uncertainty:** MacGregor's intentions/historical scholarly "fraud" classification, political Indigenous sovereignty; never say geographical land nonexistent.
+2. Historical overview Sky HISTORY https://www.history.co.uk/articles/gregor-macgregors-poyais-scam-how-a-scottish-soldier-faked-an-entire-country : 1822/23 ships and roughly 250–270 original settlers, at least 180 deaths, missing infrastructure, legal acquittal, later Venezuelan pension. **Uncertainty** count varies; narration uses conservative approx 250 and at least 180, deaths continued through Belize.
+3. Contemporary map evidence Atlas Obscura Oct 31, 2024 https://www.atlasobscura.com/articles/gregor-macgregor-map-of-poyais : printed maps, imaginary capital St Joseph, currency/claims; printed maps do not prove actual built town.
+4. **Actual period bond description** Daniel Crouch Rare Books https://crouchrarebooks.com/browse/poyais-bond-certificate/ : 1823-10-06 £100 bond, establishes paper security existed. NOT exact 1822 travel certificate nor rights-cleared reproduction.
+5. Survival affidavit, French 1825 arrest 1826 acquittal and renewed British bonds: sourced synthesis https://en.wikipedia.org/wiki/Gregor_MacGregor#Poyais_scheme_in_France with notes and contextual summary https://moneyweek.com/511310/great-frauds-in-history-gregor-macgregor . Six survivors' defence documented; motives NOT inferred. Official court acquittal doesn't validate Poyais promises.
+6. Source limitations: no archive original letters, legal trial transcript, claimant's direct emotional testimony, image rights or full scan license obtained. Neither thumbnail nor scene prompt may invent historical quote/face. Media reference catalog paths not bytes.
+
+Promise→early proof: S001–S004 empty shore vs bought maps; first answer follows without unrelated biography. Full payoff S031–S039 court acquittal and real coast/missing capital. Why time worth spending rather than just odd fact: real money and migration, deaths, survivor paradox, legal failure. Author narrative pass then voice edit completed in one full draft; independent listener still UNVERIFIED. Hard limitations and exact hashes in story-review and handoff.
+
+
+---
+
+## Дополнительная документальная проверка трёх длительностей — 2026-11-16
+
+Baseline `1e4fe7d9435c8693d53d88e49e6570ed15a77797`. Expanded versions keep the same chosen story, not three unrelated topics. New specifics:
+- **1820 grant vs independent state:** Damian Clavel (Cambridge) documents a concession by George Frederic Augustus, contested claims and later repudiation; no narration claim that coast was uninhabited or land entirely fictional. https://www.cambridge.org/core/journals/enterprise-and-society/article/whats-in-a-fraud-the-many-worlds-of-gregor-macgregor-18171824/18C69E0C9D7E0878A96E17E2B0B9E12F
+- **Financial market and £200,000 1822 offering:** 1822 Poyais securities sold amid emerging Latin-American government debt markets; face value is an OFFERING, not documented personal profit or all proceeds received. Clavel above plus actual 1823 bond artifact https://crouchrarebooks.com/browse/poyais-bond-certificate/ ; financial specifics used only for 10m.
+- **Ships:** Honduras Packet left London Sep 1822 and reached coast Nov; Kennersley Castle reached in early 1823; later Skene redirected to Belize on finding abandoned site. Distinguish first TWO ships' roughly 250 settlers and >=180 dead from later ship passengers. Ship history and contemporary registrations: https://en.wikipedia.org/wiki/Honduras_Packet_%281800_ship%29 and https://en.wikipedia.org/wiki/Skene_%281816_ship%29 ; for peer-reviewed context, Clavel above. Ship-by-ship departure counts are reported inconsistently; avoid exact passenger counts for single voyages in narration.
+- **Early May evacuation, public reports, cancellation and bond losses:** Clavel documents evacuation by ship from British Honduras, 1823 press reports, Miskito ruler's published grant revocation and falls in securities prices. 10m separates these actions; does not imply the court settled Indigenous sovereignty.
+- **Human losses and outcome:** British historical overview gives estimates roughly 250 emigrants, >=180 dead, 1825 arrest/1826 acquittal, later pension. https://www.history.co.uk/articles/gregor-macgregors-poyais-scam-how-a-scottish-soldier-faked-an-entire-country
+- **Survivor defence and court:** public statements attributed to some survivors, motives unknown; French acquittal is not a ruling that every claim was true. Prior source ledger includes https://en.wikipedia.org/wiki/Gregor_MacGregor#Poyais_scheme_in_France ; original trial transcript not inspected. Historical dispute over MacGregor's private intentions stays UNVERIFIED, never psychologize.
+
+### Expansion/omission audit and changed expectations
+| Version | Newly emphasized supported causality | Removed/limited for pacing | Exact weakness |
+|---|---|---|---|
+| 02m | Land concession vs absent city; deaths even AFTER rescue; resumed investment offers | Currency/bond market and later ship only mentioned briefly or omitted | Rapid leap from illness to French trial |
+| 05m | Separate colonial concession from sovereignty; third vessel turns away from abandoned camp | Keeps original documentation arc, avoids long bond accounting | Printed-documents middle risks list |
+| 10m | Latin-American loan demand → £200k offering → investment vs migration; two arrivals; rescue; third vessel; press, revoked grant and falling securities → France and no conviction | Does NOT claim unsupported price of each certificate, precise total money made, feelings, dialogue or survivors' motivations | Too much market and grant detail before principal voyage |
+
+All three share one research note; separate English narration does not introduce an invented character or unverified quote. Sources are research-only, not read aloud. Actual manuscript/letters, trial proceedings, family testimony, archival reproduction rights, third-party YouTube comment sampling, exact TTS duration and videos remain UNVERIFIED. Historic maps found online may be reconstructed or rights-restricted; do not use them as verified originals without provenance.
+
+### 02m: одна цена ошибки
+1. Вступительные вопросы: куда исчез город; почему продавец продолжил → подтверждено отсутствием столицы и итогом суда.
+2. Макгрегор показывает документы, используя **реальное** пожалование мискито → покупатели верят.
+3. Паспорта истории: карты/облигации/валюта → люди отправляются через океан.
+4. На берегу нет заявленной инфраструктуры → болезни/голод/эвакуация → >=180 смертей.
+5. Выжившие/французский процесс → оправдание и новые предложения; концовка противопоставляет реальную землю несбывшемуся государству.
+
+### 05m: усиление исходной человеческой линии
+1. Три вопроса ДО погружения: город, способ убеждения, позднейшие продажи.
+2. Биография и титул + **подлинное пожалование** → почему покупатели могли принять всё за правду.
+3. Документы, guide, валюта, облигации → реальные семьи на двух кораблях.
+4. Основной hook: пассажиры ищут обещанный город и никого не находят → лагерь.
+5. Болезни, вывоз в Белиз и смерти даже после спасения; третий корабль уходит от пустого лагеря.
+6. Публичная защита Макгрегора некоторыми выжившими → арест/оправдание → новые продажи и пенсия; возвращение к реальной земле и ненастоящей инфраструктуре.
+
+### 10m: три причинно связанные линии
+1. Вопросы: как продают отсутствующий город; почему ещё один корабль прибыл к пустому лагерю; был ли приговор.
+2. Финансовый рынок новых государств → аудитория для займа; военная репутация Макгрегора.
+3. Реальная концессия мискито НЕ равна суверенному государству → печатные guide, карты, ценные бумаги с обещанием дохода.
+4. Два типа покупателей: финансовые инвесторы и семьи, собравшиеся переехать → два параллельных риска.
+5. Первый корабль/поиск города → лагерь; второй прибывает → условия ухудшаются.
+6. Эвакуация в Белиз → продолжающиеся смерти; третий корабль видит брошенный лагерь и уходит в Белиз.
+7. Газеты/отмена концессии/падение стоимости ценных бумаг → публичное разоблачение.
+8. Некоторые выжившие защищают Макгрегора → процесс во Франции и оправдание, возобновление рекламы.
+9. Последствия для семей, различие реальной территории и обещанного действующего государства → полный payoff без приписывания мотивов.
+
+
+---
+
+## 2026-11-19 — contemporary witness evidence and consequential revision of 05m
+
+**New primary-period newspaper, not invented dialogue:** *The Examiner*, 11 January 1824, no. 832, report of Gregor MacGregor's libel action against the *Morning Herald*, witness **Ann Bagster** (OCR lines 581–586): https://upload.wikimedia.org/wikipedia/commons/4/4b/The_Examiner_1824-01-11-_Iss_832_%28IA_sim_examiner-a-weekly-paper-on-politics-literature-music_1824-01-11_832%29.pdf. The press report says that Ann travelled in January 1823 with her husband and six children, reached the coast in March, and had no promised town or shelter. Her husband, a mason, bought **40 acres for £8**; the report says that **her husband and two children died of fever after their arrival in Belize**, and she herself was still suffering from fever when she testified. Treat these as **reported courtroom testimony**, not personal memories invented by the narrator and not the later **French fraud case of 1826**. Her court statement establishes a named family's experience, not the motives of other settlers or the exact death toll.
+
+**Indigenous people were not absent:** Damian Clavel, *The Rise and Fall of George Frederic Augustus II* (Cambridge University Press, DOI 10.1017/S0007680522000575), describes Carib and Paya people initially supplying food and helping build huts; this help did not amount to the promised capital or civic infrastructure: https://doi.org/10.1017/S0007680522000575. Avoid portraying the real Miskito/Carib/Paya coast as uninhabited, assigning blame for aid ending without the historical context, or presenting a native participant's private motives as fact.
+
+**Additional confirmation and nuance:** Clavel, *What's in a Fraud?*, https://www.cambridge.org/core/journals/enterprise-and-society/article/whats-in-a-fraud-the-many-worlds-of-gregor-macgregor-18171824/18C69E0C9D7E0878A96E17E2B0B9E12F, confirms the real 1820 land grant, the Black River settlement crisis, and the Miskito king's repudiation publicised in September 1823. The King's political agency and actual land concession are not evidence that MacGregor possessed the advertised independent state. The 1824 libel litigation and 1826 French acquittal must not be conflated. These are checked **narration facts**, not a claim to have visually authenticated the entire scanned document: automated PDF screenshot request returned an HTTP 400 file-size error. The searchable text remains period-source evidence; manual scan QA still UNVERIFIED.
+
+**Concrete editorial defect fixed:** former 05m showed the ships arriving and the missing city in paragraphs 4 and 17–20, then jumped *back* to MacGregor claiming his title, repeating the same absent-city reveal and offering a generic unnamed family. New 05m places questions first, follows one continuous Britain→ships→coast→rescue→testimony→court path, and adds the documented Bagster family. All revised assertions are above, and the 02m/10m versions remain unchanged. No invented quotes, motives or reenacted domestic dialogue.
