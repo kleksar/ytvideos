@@ -47,6 +47,18 @@ Research проверяет факты именно присланной ист�
 
 Фактическое превышение бюджета фиксируется без занижения стоимости и запрещает новые платные reservations. Независимые задачи с известной нулевой стоимостью остаются доступны; metered operation без положительной reservation по-прежнему запрещена.
 
+### Изменение бюджета существующего run
+
+Только доверенный локальный координатор записывает реальное явное решение владельца с показанной версией состояния:
+
+```bash
+uv run ytv amend-budget --run RUN_ID --max-units 6000 --expected-version VERSION --source DECISION_REFERENCE --message 'Точное решение владельца и его область'
+```
+
+Команда атомарно сохраняет прежний и новый лимиты, реальное сообщение/источник и версию в событии `budget.amended`. Она не создаёт claim, reservation, approval или внешний вызов. Лимит нельзя опустить ниже суммы `spent`, `reserved`, `unknown_reserved`. Повтор с тем же источником и теми же полями возвращает исходное событие без новой версии; использование источника для другого решения отклоняется. При stale version получить свежий status; повторное согласие не выдумывать. На signed-only host локальное изменение недоступно: signed ingress для этого действия пока не реализован.
+
+Лимит относится ко всему run и сам по себе не ограничивает provider, задачу или число попыток. Координатор обязан соблюдать более узкую область фактического решения владельца. Изменение code pin существующего run требует штатной runtime migration; изменение бюджета не выполняет её и не меняет pins.
+
 Новый run не наследует каталог tools сессии автоматически. `capability_checks` в `next` и provider checks в `doctor` различают `unobserved` / `available: null`, подтверждённые `available: true` и `unavailable: false`. При `unobserved` выполнить `next_action: inspect_runtime_tools`: проверить фактически доступные tools, включая deferred discovery текущего host, прочитать task context, записать наблюдение и повторить `next`. Это не blocker среды. При подтверждённой недоступности исправлять её по evidence и продолжать независимые задачи. Ссылка на реально полученный search result или наблюдение доступного text runtime — evidence, которое worker вправе сохранить без отдельного user approval. Не копировать пример evidence как факт и не заявлять доступ к чужому аккаунту по наличию имени connector.
 
 ```bash
@@ -482,6 +494,8 @@ uv run ytv approve --run RUN_ID --kind script --revision SHOWN_REVISION --sha256
 ## Media, изображения, release
 
 `execute-media --run RUN_ID --task TASK_ID --token TOKEN --request request.json` вызывает guarded adapter. Для TTS request `{"kind":"tts"}`: exact narration text и pinned voice выводятся из run; provider получает raw `generation_speed: 1.0`. Канальная конечная скорость применяется один раз при подготовке audio output — см. [audio](../standards/audio.md). При typed edit-script `source`/`none` TTS отвергается; audio task требует `audio.mix`; прослушивание учитывается по [production before listening](#audio-production-before-listening), checks определяются его context. Для srt/montage/inspect нужны argv, output paths внутри owned attempt и prepared_inputs по контракту `MediaExecutor`. Subprocess receipt не заменяет content QA или task complete.
+
+Для TTS с явно выбранным `eleven_flash_v2_5` request имеет ровно `{"kind":"tts","model":"eleven_flash_v2_5","account_slot":N,"account_sha256":"FINGERPRINT"}` с необязательным `timeout`. Fingerprint — SHA-256 ключа именно выбранного локально настроенного account slot; ключ не передаётся и не сохраняется в receipt. Модель, слот, fingerprint и положительная reservation в кредитах связываются с operation. Helper до одной попытки проверяет фактический fingerprint, `fine_tuned` выбранного голоса, модель, актуальную ставку, квоту и отключённый перерасход; неоднозначность останавливает запрос. Если ответ содержит `request-id`, `character-cost` или `x-trace-id`, helper сохраняет полученные заголовки в request receipt до чтения тела ответа. Failover на другой аккаунт и автоматический повтор не выполняются. После UNKNOWN сначала reconcile; этот вариант не меняет голос, не подтверждает расходы до наблюдения provider и не заменяет прослушивание.
 
 Для `source`/`none` request `mix` содержит `args: [ABSOLUTE_MANIFEST, "--output", OWNED_ATTEMPT_WAV]`, `outputs: [OWNED_ATTEMPT_WAV]`, `prepared_inputs: [ABSOLUTE_MANIFEST]`. Manifest содержит `schema: ytv-source-audio-v1`, `segments: [{id,path,sha256,start_seconds,end_seconds,gain}]` и необязательный `fade_out_seconds`, других полей нет. IDs/порядок совпадают с принятым edit-script, source bytes предварительно зарегистрированы через `attach-artifact`, интервалы находятся внутри фактического audio stream, gain в диапазоне 0–4. Adapter извлекает/соединяет звук FFmpeg в WAV без изменения скорости, применяет только явно выбранный terminal fade и проверяет фактическую длительность результата против суммы интервалов. Длительность video/container не заменяет audio duration; если демультиплексор не сообщает её, проверка длины полученного WAV остаётся обязательной. Сохраняются inputs/execution; это подготовка source audio, не генерация речи и не подтверждение listening. Путь WAV должен находиться в `workspace/runs/RUN_ID/attempts/TOKEN/`; existing output сохраняется для reconcile, не перезаписывается.
 

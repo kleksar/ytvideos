@@ -1077,6 +1077,44 @@ class Production:
             image_ids.append(task_id)
         run["tasks"]["render"]["dependencies"] = ["storyboard", "audio", "subtitles"] + image_ids
 
+    def amend_budget(self, run_id, *, max_units, expected_version, source, message):
+        """Atomically record one local owner budget decision without spending it."""
+        if self.approvals.public_key:
+            raise WorkflowError("signed-only host has no signed budget amendment ingress")
+        if type(max_units) is not int or max_units < 0:
+            raise WorkflowError("budget must be a nonnegative integer")
+        if type(expected_version) is not int or expected_version < 0:
+            raise WorkflowError("budget amendment requires a nonnegative expected version")
+        require_text(source, "source reference to the actual user decision")
+        require_text(message, "actual user budget decision")
+        event_id = "budget-amendment:" + digest(source)
+        with self.store.transaction() as tx:
+            run = tx.get_run(run_id)
+            self._runtime(run)
+            request = {"run_id": run_id, "max_units": max_units, "expected_version": expected_version,
+                       "source": source, "message": message}
+            prior = tx.execute("SELECT run_id,kind,payload FROM events WHERE id=?", (event_id,)).fetchone()
+            if prior:
+                payload = json.loads(prior[2])
+                if prior[0] != run_id or prior[1] != "budget.amended" or payload.get("request") != request:
+                    raise Conflict("budget decision source was already used with different content")
+                return payload
+            if run["version"] != expected_version:
+                raise Conflict("stale state version; reload status")
+            budget = run["budget"]
+            committed = sum(budget[key] for key in ("spent", "reserved", "unknown_reserved"))
+            if max_units < committed:
+                raise Conflict("budget cannot be below spent and reserved units")
+            if max_units == budget["max_paid_units"]:
+                raise WorkflowError("budget is unchanged")
+            result = {"request": request, "previous_max_units": budget["max_paid_units"],
+                      "committed_units": committed, "version": run["version"] + 1,
+                      "authority": "local_session"}
+            tx.event(event_id, run_id, "budget.amended", result)
+            budget["max_paid_units"] = max_units
+            tx.save(run)
+            return result
+
     def approve(self, envelope):
         """Optional signed ingress; invalid envelopes never fall back to local trust."""
         event = self.approvals.verify(envelope)
@@ -1384,7 +1422,7 @@ class Production:
         self._runtime(run)
         return self._operation_payload(run, self._task(run, task_id), action)
 
-    def _operation_payload(self, run, task, action):
+    def _operation_payload(self, run, task, action, *, tts_selection=None):
         """Derive provider inputs from pinned artifacts, never from a caller's argv."""
         allowed = {"audio": {"tts"}, "scene_image": {"image"}, "upload": {"upload"},
                    "configure_release": {"metadata", "thumbnail", "captions", "playlist", "end_screen", "related_video"},
@@ -1403,6 +1441,18 @@ class Production:
                 raise WorkflowError("accepted source/no-speech edits must not dispatch TTS")
             result = {"channel": run["channel"], "script_sha256": self._artifact(run, "script")["sha256"],
                       "voice": run["profile"]["voice"], "generation_speed": 1.0}
+            if tts_selection is not None:
+                if (type(tts_selection) is not dict
+                        or set(tts_selection) != {"model", "account_slot", "account_sha256"}
+                        or tts_selection["model"] != "eleven_flash_v2_5"
+                        or type(tts_selection["account_slot"]) is not int or tts_selection["account_slot"] < 1
+                        or not isinstance(tts_selection["account_sha256"], str)
+                        or not re.fullmatch(r"[0-9a-f]{64}", tts_selection["account_sha256"])):
+                    raise WorkflowError("invalid explicit TTS model or fixed account selection")
+                claim = task.get("claim") or {}
+                if type(claim.get("estimated_units")) is not int or claim["estimated_units"] <= 0:
+                    raise WorkflowError("explicit TTS selection requires a positive credit reservation")
+                result["tts_selection"] = {**tts_selection, "max_credits": claim["estimated_units"]}
         elif action == "image":
             source_task = "packaging" if task.get("payload", {}).get("purpose") == "thumbnail" else "storyboard"
             result = {"brief_sha256": self._artifact(run, source_task)["sha256"], "scene": task["payload"],
@@ -1429,17 +1479,25 @@ class Production:
                 result[field] = data[field]
         return json.loads(canonical(result))
 
-    def _begin_operation_tx(self, tx, run, task_id, token, action, payload):
+    def _begin_operation_tx(self, tx, run, task_id, token, action, payload, *, tts_selection=None):
         run_id = run["id"]
         self._runtime(run)
         task = self._task(run, task_id)
         claim = self._current_claim(run, task, token)
         if claim.get("reconciled_existing_result"):
             raise Conflict("reconciliation may attach the existing result, never dispatch new work")
-        expected = self._operation_payload(run, task, action)
+        if tts_selection is not None and action != "tts":
+            raise WorkflowError("TTS selection is only valid for a TTS operation")
+        expected = self._operation_payload(run, task, action, tts_selection=tts_selection)
         if type(payload) is not dict or canonical(payload) != canonical(expected):
             raise WorkflowError("provider payload differs from the pinned task or bound release specification")
         payload = expected
+        if action == "tts":
+            previous = tx.execute("SELECT doc FROM operations WHERE run_id=?", (run_id,)).fetchall()
+            if any((op := json.loads(row[0])).get("task_id") == task_id and op.get("kind") == "tts"
+                   and (tts_selection is not None or "tts_selection" in op.get("payload", {}))
+                   for row in previous):
+                raise Conflict("single-attempt TTS already has a provider operation; reconcile, never retry")
         associated = self._task_operations(tx, run, task, claim)
         retry_configuration = task["stage"] == "configure_release"
         if any((op["kind"] == action and not (retry_configuration and op["status"] == "not_performed"))

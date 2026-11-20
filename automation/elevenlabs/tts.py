@@ -5,6 +5,7 @@ import argparse
 import base64
 import binascii
 import contextlib
+from decimal import Decimal, InvalidOperation, ROUND_CEILING
 import fcntl
 import importlib.util
 import json
@@ -84,6 +85,9 @@ def arguments(argv=None):
     parser.add_argument("--channel", required=True, choices=channel_config.configured_channels())
     parser.add_argument("--voice-id", help="необязательная проверка ID; должен совпадать с реестром")
     parser.add_argument("--model", default=MODEL_ID)
+    parser.add_argument("--account-slot", type=int, help="fixed account slot for one guarded request")
+    parser.add_argument("--account-sha256", help="expected SHA-256 fingerprint of that account's key")
+    parser.add_argument("--max-credits", type=int, help="reserved credit ceiling for that request")
     parser.add_argument("--stability", type=unit_interval, default=1.0)
     parser.add_argument("--similarity", type=unit_interval, default=0.0)
     parser.add_argument("--speed", type=voice_speed, default=None,
@@ -122,7 +126,7 @@ def prepare(args):
 
 
 def synthesize(text, destination, *, api_key, voice_id, model=MODEL_ID,
-               stability=1.0, similarity=0.0, speed=None):
+               stability=1.0, similarity=0.0, speed=None, response_observer=None):
     """One request, no automatic retries. Never overwrites an existing asset."""
     query = urllib.parse.urlencode({"output_format": OUTPUT_FORMAT})
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}/with-timestamps?{query}"
@@ -138,6 +142,10 @@ def synthesize(text, destination, *, api_key, voice_id, model=MODEL_ID,
             content_type = response.headers.get_content_type()
             if content_type != "application/json":
                 raise TTSError(f"неожиданный тип ответа API: {content_type}")
+            provider_headers = {name: value for name in ("request-id", "character-cost", "x-trace-id")
+                                if (value := response.headers.get(name)) is not None}
+            if response_observer:
+                response_observer(provider_headers)
             response_data = response.read()
     except urllib.error.HTTPError as exc:
         # Do not print the response: it may contain user text or other sensitive data.
@@ -167,6 +175,7 @@ def synthesize(text, destination, *, api_key, voice_id, model=MODEL_ID,
     save_new(destination.with_suffix(".alignment.json"), (json.dumps(alignment, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
     if alignment["alignment"] is None:
         print(f"Внимание: API не вернул alignment для {destination}; потребуется отдельная синхронизация.", file=sys.stderr)
+    return provider_headers
 
 
 def save_new(destination, data):
@@ -297,6 +306,46 @@ def account_id(key):
     return hashlib.sha256(key.encode()).hexdigest()
 
 
+def fixed_account_preflight(key, voice_id, model, text_length, max_credits):
+    """Read live provider data; never send synthesis if account or cost is uncertain."""
+    def get(path):
+        request = urllib.request.Request("https://api.elevenlabs.io" + path, headers={"xi-api-key": key})
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return json.load(response)
+        except (urllib.error.URLError, TimeoutError, OSError, ValueError):
+            raise TTSError("не удалось проверить аккаунт, голос или стоимость; запрос остановлен") from None
+
+    voice = get("/v1/voices/" + voice_id)
+    models = get("/v1/models")
+    subscription = get("/v1/user/subscription")
+    try:
+        selected = next(item for item in models if item.get("model_id") == model)
+        rate = Decimal(str(selected["model_rates"]["character_cost_multiplier"]))
+        discount = Decimal(str(selected["model_rates"]["cost_discount_multiplier"]))
+        voice_rate = Decimal(str(voice["sharing"]["rate"]))
+        if (rate != Decimal("0.5") or discount != Decimal("1.0") or voice_rate != Decimal("1.0")
+                or type(subscription["character_limit"]) is not int
+                or type(subscription["character_count"]) is not int
+                or type(subscription["max_credit_limit_extension"]) is not int):
+            raise TTSError("неподтверждённый тариф или учёт кредитов; запрос остановлен")
+        estimate = int((Decimal(text_length) * rate * discount * voice_rate).to_integral_value(rounding=ROUND_CEILING))
+        available = subscription["character_limit"] - subscription["character_count"]
+        if (voice["voice_id"] != voice_id or voice["fine_tuning"]["state"][model] != "fine_tuned"
+                or selected["can_do_text_to_speech"] is not True
+                or selected["requires_alpha_access"] is not False
+                or text_length > selected["maximum_text_length_per_request"]
+                or voice["sharing"].get("financial_rewards_enabled") is not False
+                or subscription["status"] != "active" or subscription["tier"] not in
+                {"starter", "creator", "pro", "scale", "business", "enterprise"}
+                or subscription["max_credit_limit_extension"] != 0
+                or estimate <= 0 or estimate > max_credits or available < estimate):
+            raise TTSError("голос, тариф или лимит не подтверждены для одной генерации")
+    except (StopIteration, KeyError, TypeError, AttributeError, InvalidOperation, ValueError, OverflowError):
+        raise TTSError("неполные данные аккаунта или тарифа; запрос остановлен") from None
+    return estimate
+
+
 def preflight(key, voice_id, text_length, model=MODEL_ID):
     # Lock spans the read-only voice check: only one process performs it per account/voice/TTL.
     with locked_cache() as state:
@@ -372,6 +421,49 @@ def main(argv=None):
         print(f"Голос: {args.voice_id}; модель: {args.model}; формат: {OUTPUT_FORMAT}; stability: {args.stability}; similarity: {args.similarity}; speed: {args.speed if args.speed is not None else 'не задана'}")
         if not args.generate:
             print("Проверка завершена без сети и без расхода кредитов. Для генерации добавьте --generate.")
+            return 0
+        fixed = (args.account_slot, args.account_sha256, args.max_credits)
+        if any(value is not None for value in fixed):
+            if (any(value is None for value in fixed) or args.account_slot < 1 or args.max_credits < 1
+                    or not re.fullmatch(r"[0-9a-f]{64}", args.account_sha256)
+                    or args.model != "eleven_flash_v2_5" or len(jobs) != 1):
+                raise TTSError("фиксированный аккаунт требует одну задачу, модель, fingerprint и кредитный лимит")
+            key = get_api_key(slot=args.account_slot)
+            if not key or account_id(key) != args.account_sha256:
+                raise TTSError("фиксированный аккаунт отсутствует или изменился")
+            language, content, destination = jobs[0]
+            estimate = fixed_account_preflight(key, args.voice_id, args.model, len(content), args.max_credits)
+            receipt = destination.with_suffix(".request.json")
+            record = {"channel": args.channel, "voice_id": args.voice_id, "model": args.model,
+                      "account_slot": args.account_slot, "account_sha256": args.account_sha256,
+                      "estimated_credits": estimate, "max_credits": args.max_credits,
+                      "format": OUTPUT_FORMAT, "stability": args.stability, "similarity": args.similarity,
+                      "speed": args.speed, "text_sha256": hashlib.sha256(content.encode("utf-8")).hexdigest(),
+                      "status": "request_started"}
+            save_new(receipt, (json.dumps(record, ensure_ascii=False, indent=2) + "\n").encode())
+            def update_receipt():
+                temporary = None
+                try:
+                    with tempfile.NamedTemporaryFile(mode="w", dir=receipt.parent, prefix=".receipt-",
+                                                     encoding="utf-8", delete=False) as stream:
+                        temporary = stream.name
+                        stream.write(json.dumps(record, ensure_ascii=False, indent=2) + "\n")
+                        stream.flush()
+                        os.fsync(stream.fileno())
+                    os.replace(temporary, receipt)
+                finally:
+                    if temporary and os.path.exists(temporary):
+                        os.unlink(temporary)
+            def observe_headers(headers):
+                record["provider_headers"] = headers
+                update_receipt()
+            provider_headers = synthesize(content, destination, api_key=key, voice_id=args.voice_id, model=args.model,
+                                          stability=args.stability, similarity=args.similarity, speed=args.speed,
+                                          response_observer=observe_headers)
+            record.update(status="success", audio_sha256=hashlib.sha256(destination.read_bytes()).hexdigest(),
+                          provider_headers=provider_headers)
+            update_receipt()
+            print(f"Готово: {language} → {destination}")
             return 0
         keys = configured_keys()
         if not keys:
