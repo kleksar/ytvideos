@@ -8,9 +8,9 @@ A German major sought American help for imprisoned French political figures. A s
 |---|---|---|---:|---|
 | 2 minutes | Short 9:16 | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | 228 | Complete new alternative; author text-loop check; independent review UNVERIFIED |
 | **5 minutes** | **Long 16:9** | **[RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt)** | **630** | **Recommended editorial candidate; no approval** |
-| 10 minutes | Long 16:9 | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1281 | Complete but weaker after rescue; unmeasured duration |
+| 10 minutes | Long 16:9 | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1450 | **Revised 2026-11-20:** verified surrender-talks → prisoner-intel turn, eight Germans join defense, no repeated post-rescue recap; still less compact than 05m |
 
-**Recommendation: 5-minute Long.** The route/bridge bottleneck, Lee's documented bluff, the guard leaving the walls, the failed Sherman, Borotra's relief mission, and Gangl's death all change what the defenders can do. The 2-minute version has a complete rescue but compresses these decisions. The 10-minute text adds useful context but slows its final third after the decisive battle.
+**Recommendation: 5-minute Long.** The route/bridge bottleneck, Lee's documented bluff, the guard leaving the walls, the failed Sherman, Borotra's relief mission, and Gangl's death all change what the defenders can do. The 2-minute version has a complete rescue but compresses these decisions. The 10-minute revision now adds a historically sourced change of mission and opposing guard decisions, rather than an extended post-battle recap; it still takes longer to reach the main assault.
 
 [Claim-by-claim research](research.md) · [exact hashes, maps, evaluation and blockers](story-review.md) · [preproduction handoff](handoff.md).
 

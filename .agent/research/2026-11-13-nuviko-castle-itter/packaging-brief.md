@@ -11,3 +11,8 @@ Proposed **05m Long** promise: **Why Did a German Major Ask American Tanks to Fi
 3. **One Tank Against the SS — Castle Itter #Shorts** — one Sherman blocking gate; `ONE TANK`.
 
 These are creative hypotheses, not actual video metrics. Real channel references and 16:9 compositions must be obtained for an authorized production selection.
+
+
+### Revised 10m promise (2026-11-20, proposal only)
+
+Alternate title **How Surrender Talks Turned Into the Rescue at Castle Itter**. The AAR describes talks with German officers, a French civilian's report of prisoners, a collapsing armored rescue force and a guard who deserts while eight surrendering Germans defend the same gate. Verify which opening/visual promise the eventual exact master delivers; these are not thumbnail approvals or measured CTR.
