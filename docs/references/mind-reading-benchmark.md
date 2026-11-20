@@ -71,3 +71,7 @@ Music: **Miami Viceroy** и **Constance**, Kevin MacLeod (incompetech.com), CC B
 У Mind `storyboard.json` также содержит 110 записей. В начале раздельно поставлены `The first morning.` (1.400 с), `A coffee shop.` (1.100 с), улыбка бариста (1.700 с), её реплика (1.167 с). У Everyone `You're thirty.` (1.167 с), день рождения в баре (1.867 с) и `Alone.` (0.900 с) — отдельные планы. Это подтверждает постановку отдельных коротких смыслов, а не одну иллюстрацию на абзац. Число записей не доказывает уникальность каждого PNG: документированный возврат Everyone 111 → 018 остаётся сюжетным повтором.
 
 Полный Three Wishes draft с 25 изображениями на 117 фраз был отклонён владельцем из-за редкой смены кадров. Он не становится новым эталоном и не разрешает упрощённый монтаж под названием «черновик». Действующий критерий и границы повторов закреплены в [visual standard](../standards/visual.md#плотность-отдельных-смыслов); временная бесплатная озвучка не отменяет его. Числа выше описывают конкретные архивы, а не универсальную норму длительности любого плана.
+
+## Everyone — continuity-verified benchmark
+
+The owner separately approved the exact 7317-frame Everyone master as one benchmark. See [accepted master, patch provenance and honest QA boundaries](everyone-continuity-verified/README.md). Historical versions above remain identifiable; this does not retroactively approve intermediate renders.
