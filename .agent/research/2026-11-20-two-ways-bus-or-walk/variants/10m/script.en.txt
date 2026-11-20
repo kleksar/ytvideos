@@ -1,0 +1,57 @@
+I'm standing at a bus stop, looking at a destination that I could reach on foot. The bus will move faster than I do. That sounds like the end of the argument. But the bus isn't here.
+
+If I need to get through the door as soon as possible, should I wait for it, or start walking?
+
+I want to answer that without inventing a race I never ran. So this is an illustrated model. One starting stop, one finishing door, two choices. A means I wait for the next bus and ride it. B means I walk the whole distance without boarding. My score is the time from making the choice to reaching the door. I won't give walking a head start or stop the bus clock at the bus stop instead of the destination.
+
+Let's give the map its first two numbers. Walking from here to the door takes twenty minutes. Once I board, the bus takes ten minutes to reach that same door. For now I set transfers, boarding delays, final walks and traffic changes to zero. These are assumptions, not observations from any particular city.
+
+A or B? Pick before I show the clocks.
+
+The next bus is five minutes away. If I choose A, the first five minutes are spent standing at the stop. Then I travel for ten. I arrive after fifteen minutes. If I choose B, I never wait, but I spend the full twenty minutes walking. The bus wins, by five.
+
+There is an appealing little lesson there: take the vehicle that moves faster. But watch what happens when I reset the clock and change exactly one number.
+
+The bus is now fifteen minutes away. It still takes ten minutes once aboard. A gets me to the door in twenty-five minutes. B still gets me there in twenty. Walking wins, also by five.
+
+I didn't have to make the bus slower or the sidewalk shorter. All I did was make the wait longer.
+
+Imagine a ten-minute allowance sitting next to the bus on the map. That's how much time the moving bus saves compared with my feet. A five-minute wait uses half the allowance. A fifteen-minute wait uses all of it and another five minutes. This is the real decision in this simplified race: is the wait smaller than the travel time the bus can save?
+
+I can even find the exact crossing point. The bus's total is its wait plus ten. The walking total stays twenty. Set them equal, and the wait is ten minutes. At nine, A finishes in nineteen and beats B by one. At eleven, A finishes in twenty-one and loses by one. Neither method has a permanent crown.
+
+That answers the first question when the board is right. But what if the board says ten minutes? Both clocks point to twenty. I have learned which is faster, and suddenly neither is.
+
+For someone whose only concern is arriving earliest, a tie is a tie. But a human choosing a journey may care about something else: sitting down, walking in the rain, carrying bags, moving rather than standing, paying a fare. Those factors weren't in my first score. They can't be silently added afterward to declare the method I wanted the winner.
+
+This is more than a hypothetical quibble. One published online questionnaire presented 391 people with a very similar choice: a twenty-minute walk versus a ten-minute bus ride, with different waits. When the bus was five minutes away, around 78 percent chose the bus. When it was fifteen minutes away, about 86 percent chose the walk. And when both complete journeys took twenty minutes, roughly 63 percent chose to walk.
+
+The study measured stated preferences. It did not put those 391 people on a street with stopwatches, and it doesn't tell me the reason each person chose walking. But it challenges a careless claim that equal journey times must produce equal choices. I need to decide whether I am testing speed or personal convenience. I cannot pretend those are the same result.
+
+Now a bigger problem arrives. A real arrival display is an estimate, not a promise. Suppose it says five minutes, but I don't actually know when the bus will show up. I can't score a journey using a future arrival I haven't seen.
+
+To see what uncertainty does, I'll make a second clearly labeled model, again from the same stop to the same door. My walking time is still twenty minutes. A bus ride still lasts ten. But this time the next bus could turn up at any moment between now and twenty minutes from now, with all arrival moments equally likely. This uniform range is an invented assumption for the calculation; it is not a measured reliability record.
+
+If I commit to A and stay put until the bus appears, the average wait in that model is ten minutes. Add the ten-minute ride, and the average arrival time is twenty. B takes twenty every time. On average, they tie. That does not mean every passenger has the same result. If the bus arrives immediately, A takes ten. If it turns up at minute twenty, A takes thirty. Walking produces the same twenty-minute total in every repetition of this particular model.
+
+Change the assumed uncertainty and the answer changes again. If the bus is equally likely to arrive at any time in the next ten minutes, its average wait is five. A averages fifteen, so A is faster on the metric I chose. If the possible arrival window stretches to thirty minutes, its average wait becomes fifteen. A averages twenty-five, and B's twenty wins. The boundary for this particular uniform-arrival model is a twenty-minute arrival window.
+
+Notice how different that sounds from the earlier rule. In the first version, I knew the wait, and the break-even was a ten-minute wait. In this version, I don't know the wait, so I compare average outcomes over a stated range. The numbers aren't contradictory. They answer different questions with different information.
+
+There's a trap hidden in the word average. I could care not just about the average arrival, but about being late for something important. In the twenty-minute arrival-window model, B arrives at minute twenty. A can get there as early as minute ten or as late as minute thirty. Without an agreed penalty for arriving late, I can't use the average to tell everyone to take the same risk. The objective would have to change, and I'd have to announce it before comparing again.
+
+What about the tempting compromise: wait a little, then walk if the bus hasn't appeared? That is not A or B anymore, so I won't quietly give it a prize in this two-method contest. It can be a sensible plan under some arrival patterns and a waste of time under others. If I wait five minutes and then walk the full twenty, I reach the door at minute twenty-five when the bus doesn't come. I have not somehow gained five minutes by being patient. Any claim that a mixed strategy is best needs its own rules and distribution.
+
+There's another reason to keep the boundaries clear. In some cities I might walk to the next stop and catch the bus there. That is not the uninterrupted twenty-minute walking route in B. A route with multiple stops creates additional options, which is exactly why mathematical studies of this decision distinguish the simple wait-or-walk choice from intermediate-stop strategies. I would need the distances, stop positions and rules for catching a passing bus. I don't have those inputs in this illustration.
+
+Before I take the neat twenty-minute answer out into the street, I also need to check whether I counted the entire journey fairly. If the bus stops two blocks before my door, those extra walking minutes belong to A. If there's a boarding queue, it belongs to A. If my twenty-minute pedestrian route has a crossing that actually takes longer, it belongs to B. And if the displayed countdown is wrong, the original estimate isn't a measured outcome. The same starting point and finishing door are non-negotiable.
+
+Real people have indeed raced city buses on foot in public videos. One published New York race ended with the bus ahead by only seconds. Another reported pedestrians beating a slow crosstown bus. Those are individual conditions on individual days. They are not results from my illustrated model and do not establish a normal citywide speed for either method.
+
+So what have I actually learned from looking at this stop?
+
+With a known five-minute wait, I take A and arrive in fifteen instead of twenty. With a known fifteen-minute wait, I take B and arrive in twenty instead of twenty-five. A ten-minute wait makes the clock a tie. If I don't know the wait, the range of possible arrivals and my tolerance for being late matter. The winner is conditional, and that is the useful part.
+
+I won't claim to have measured a city I haven't visited or to know when a particular bus will come. I can check the estimated arrival, compare the whole route, and decide whether the available information is trustworthy enough for my goal. The bus's higher speed by itself never told me which door I'd reach first.
+
+Next time I face the choice, I can decide with the whole journey in view, not just a moving bus.
