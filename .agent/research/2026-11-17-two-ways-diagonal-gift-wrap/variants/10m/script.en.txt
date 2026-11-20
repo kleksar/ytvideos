@@ -1,0 +1,57 @@
+Can I make a too-small sheet of wrapping paper cover a gift simply by turning the box? And if that works, does it mean diagonal wrapping is always cheaper?
+
+I have one last piece of paper on the table and more than one gift waiting. I could cut a patch, buy another roll, or change how the paper meets the box. I'm comparing two ways to wrap the same object. A keeps the box parallel to the edges of the paper. B turns it diagonally before the folds begin.
+
+I want a usable answer, not just a satisfying trick shot. The first metric is strict: with the same sheet and the same box, can I cover all six sides without adding a second piece? Later I'll ask a different question—how much paper each layout requires—and I will announce that change before comparing the numbers.
+
+This is a narrated, illustrated reconstruction using published demonstrations and mathematical examples. I haven't physically wrapped these boxes or timed anyone's hands. The pictures can explain the geometry, but they must not be presented as footage of a new experiment.
+
+For the first comparison, imagine a very flat, book-shaped gift. A published account describes a four-by-five-inch mock book and a sheet of paper seven by nine inches. Those are the conditions that account used. Its thickness was only described as flat, so I'm not going to silently invent a precise third measurement.
+
+I place the gift straight in the middle in layout A. The long folds come across the book, but a section stays exposed. A patch from another scrap would hide the gap. That would also break my rule that the two layouts get the same amount of paper.
+
+So I keep the seven-by-nine sheet and change only the orientation. In layout B the box is rotated. The paper's corners are now approaching the box from different directions. One corner folds over, a side flap tucks in, another corner crosses the lid. The reported demonstration succeeds in covering the mock book this way.
+
+The first answer is yes: for that particular flat gift, the diagonal layout can use the very sheet that the straightforward layout could not use. The result is documented by someone else's demonstration, not measured by this episode.
+
+But I want to know what the rotation accomplished. It did not increase the paper's area. The rectangular sheet is still sixty-three square inches. It did not make any side of the book shorter. All it changed was which parts of the sheet must travel across the top and around the edges.
+
+On the straight layout, I can have paper left over in a place where it doesn't help, while another spot remains uncovered. The diagonal layout redistributes where the corners and folds reach. That is why it can rescue an awkward scrap without generating a single extra square inch.
+
+Now comes the claim I see in many gift-wrapping tips: if B rescued my sheet once, B must always save a lot of paper. That conclusion doesn't follow from the first result. It needs another comparison.
+
+This time I use a different, clearly declared example from a classroom geometry activity. The box measures eight inches by six inches by three inches. I am no longer choosing between two layouts on an existing seven-by-nine sheet. I am calculating the cut sheet that each specified method would need for this thicker box, including the allowances stated in that exercise.
+
+For the usual straight wrap, the exercise uses an eleven-and-a-half-inch width and an eighteen-and-a-half-inch length. Multiply them and I need two hundred twelve point seven five square inches of paper.
+
+For the diagonal arrangement, the exercise uses a fourteen-and-a-half-inch square. Its area is two hundred ten point two five square inches.
+
+B is smaller, yes. But only by two and a half square inches. Divide by the area of A and the saving is about one point two percent.
+
+I would have missed that by looking only at a neatly wrapped box on a phone screen. The visual payoff of a paper rescue is enormous. The calculated area saving for this second box is tiny. Those are different outcomes, so I shouldn't advertise them as the same result.
+
+There is a third question hidden behind the word “smaller.” When I take paper from a roll, it has a fixed width. A layout can use less area and still require a sheet I cannot cut.
+
+The straight method in this example needs paper eleven and a half inches wide. The diagonal square needs fourteen and a half. Suppose I have a twelve-inch-wide roll. A can be cut from it in one piece. B cannot. I would have to join sheets, find a wider roll, or change the method. Under the metric “works with the roll I already own,” A wins that version of the problem.
+
+Notice what has and hasn't changed. The eight-by-six-by-three box is identical, and the geometric allowances haven't changed. The limitation I've added is roll width, not a secret advantage assigned to my favourite method. When I change the condition, I say it before declaring the winner.
+
+I also need to be careful about the word “waste.” A perfectly efficient sheet would use only enough material to cover the surfaces of the box. Real wrapping requires folds and overlaps. Even some mathematically optimal arrangements use more paper than the total area of those six faces.
+
+There's a helpful pure-math example: a cube wrapped with a square sheet, without cutting it. In a Cambridge NRICH solution, the smallest square has side length two times the cube edge times the square root of two. If the cube's edge is one unit, the sheet side is about two point eight three units. Square that length, and the sheet area is eight square units. The cube has six square units of surface area.
+
+Even in that idealized, precisely arranged case, two square units are above the surface area. The extra paper becomes the necessary folds. So “minimum sheet” doesn't mean “zero waste,” and the formula for an ideal square sheet is not a guarantee that a rushed real-world fold will work without overlap.
+
+Why mention a cube when I'm wrapping a book? Because it gives me a way to see the limit of the magic-angle story. Changing the angle is a geometric tool. Its usefulness depends on shape, sheet dimensions, and the folding rules. It is not a law that forty-five degrees beats every other arrangement for every package.
+
+There are also costs that these area calculations do not measure. A beautifully placed diagonal sheet might be harder for me to crease accurately. A brittle or patterned paper may leave awkward seams. I may need tape in a different position, or a margin that the ideal mathematical model doesn't provide. I cannot assign a winning time, neatness score, or number of failed attempts from a formula about area. To compare those, I'd have to actually wrap identical gifts with identical paper, practice both techniques fairly, and record the results.
+
+I can still make this useful before any real-world trial. When I have one small leftover sheet and a flat gift, I can try the diagonal position first without cutting anything. I can bring the corners up loosely and check whether they meet before I make permanent creases. If they fall short, I know rotating the box didn't solve the problem; I should choose a bigger sheet or a different packaging method instead of hiding the gap with a claim about geometry.
+
+When I am cutting several sheets from a roll, I should measure the gift and consider both the shape of the cut and the width of the roll. I might save area with B but use up an awkward square that prevents me wrapping the next gift. The amount left on the roll matters as much as the area of the piece I cut. This isn't a new experimental result; it's a practical limitation of the resource I'm starting with.
+
+And if I'm filming a comparison, the honest split screen would show the same box, the same sheet and the same start for A and B. I would label the first comparison a reconstruction of someone else's demonstration. On the second, I would show the actual dimensions and the arithmetic from the classroom example. I would never cut a larger sheet for one side, quietly shift the tape allowance, or call a smooth animation a measured result.
+
+So I have three answers rather than one universal winner. For the reported flat-book case, B makes the last sheet work. For the thicker classroom box, B saves only about one percent of calculated area. If my only paper comes from a narrow roll, A may be the only cut I can make from it.
+
+That is more useful than a promise that every gift should be wrapped diagonally. My choice depends on the box in front of me, the paper I already have, and what I mean by better. Another present is still waiting on the table, and before I cut another sheet, there's one thing I need to know.
