@@ -13,7 +13,7 @@ All imagery must follow current Paper style and AI-source rules, including actua
 ## Three-duration consistency (unapproved)
 
 - **02m:** audit barrel / water substitution / legal cost. Current original Short thumbnail art belongs to original root narration, not new 02m bytes. New exact image/storyboarding QA required.
-- **05m (editorial preference):** cold open asks why a whole reserve was deceived; first dramatic reveal remains the swaying barrel, second reveal is water, final promise is the theft's financial consequence. Proposed title `The Barrel That Exposed an $18 Million Heist`. Thumbnail lettering `ONE EMPTY BARREL` is a proposal only; no actual CTR/retention claim.
+- **05m (editorial preference; EN/RU revised 2026-11-20):** opening promises both the missing stock and the decade-later legal argument. The swaying barrel and water-filled container are separate observed reversals; delivery through intermediaries leads to value-versus-profit legal stakes. Suggested title `The Barrel That Exposed an $18 Million Heist`; `ONE EMPTY BARREL` lettering is only a hypothesis. No authentic thumbnail, CTR/retention, generated frames or chosen master.
 - **10m:** the reserve-market dispute and decade-later fine are the additions; a packaging promise about a vast theft cannot promise unsupported mastermind dialogue, motive or comprehensive recovery.
 
 All three are alternative **text** treatments of one history, with one owner-selected master possible. Existing images/prompts/timings cannot be inherited by a changed script hash. The current single-story `research.md` contains provenance.

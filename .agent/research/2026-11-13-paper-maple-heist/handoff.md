@@ -10,3 +10,7 @@ Channel: `paper_detour`, English narration voice Lawrence. One story, six new ex
 6. **Scope:** do not generate images, TTS, video, upload, schedule or merge from this editorial PR. Retain original research, root scripts, eleven old visual prompts, provenance and accepted unrelated episodes.
 
 No historical media, approval or public YouTube action is implied by this packet.
+
+## 2026-11-20 focused 05m revision
+
+Changed only the proposed 05m EN/RU and dependent editorial metadata. Its exact hashes are EN `3f0284b32775b0851e92302c8672c436941fb440a8d86058ffb015a538e409d0`, RU `2687ca4a8eb1ac6ad0ebbcc54011cbcbfd92490e760a8e31d6df1710efa3b735` (594/504 words). Previous timing/review of 05m is invalid for these hashes; source research is shared with unchanged 02m and 10m. No registered run, independent reviewer, owner approval or scene spans. The old 11-scene storyboard is still bound to untouched root Short. If chosen, use the exact 05m bytes in an authorized **long** runtime and create fresh storyboard after the script gate; do not promote the Git-only candidate or re-pin current checkout.
