@@ -83,3 +83,40 @@ For both Longs, Paper Detour current ChannelSpec contains long, but actual runti
 **Comparison:** 2→5 gains meaningful action: physical bus/curb geometry, two simultaneously prepared sign systems, staged vehicle movement. 5→10 gains how politicians funded/organized the switch and why detailed driving instructions waited until late August. The 10m version risks losing interest specifically between vehicle-tax explanation and radio/TV programming, before the 04:50 event. **Recommended 5m**, not owner approval; even 2m is preferable if a fresh first listener finds the Long overexplains its single central event.
 
 **Next gate:** fresh independent reviewer must see complete exact text first without these author ratings, then sources; save authentic response bound to SHA-256 in the project's existing review schema. No session or receipt was created. Git-only candidates have no official ytv start or awaiting_script_approval; local worker must register a selected exact candidate in official runtime with canonical pinned context and apply ordinary checks. 05m/10m need distinct storyboard and visual intent only after version choice. No media or publishing authorized.
+
+---
+## 2026-11-20 — 05m replacement, superseding previous 05m only (author review)
+
+**Was → now:** 2026-11-17 05m EN 539 words, SHA-256 `9e24198decc97d149813a5e9ab6471f1f014402d0c88d2eb5a10360fc8bfc086`, blob `dc73031316cb26e0aedbd0618a5f23de809b7d35`; RU `10399eabd43e4c63fca1e48ae849e66c4f992d277a51b26cc0d2bd888ea09253`, blob `bc58bada85fee026936f8b1bad356c546f09f38b`. Old 05m explained process without an identified person's action or sustained safety response. **Now:** a new 622-word EN / 547-word RU 05m includes Anders Odéen's documented first-crossing attempt and missed first place, plus the contemporaneous post-switch speed/headlight precautions. The earlier abstract wrap-up becomes a personal payoff. No imaginary quotes, thoughts, exact crossing time or crash statistics.
+
+| Variant | Exact path | Words | SHA-256 (UTF-8) | Git blob |
+|---|---|---:|---|---|
+| 02m EN | [EN](variants/02m/script.en.txt) | 278 | `2bafab1f4476d18b63ee884d0dac574f24bab976d8ab7b2476ba54020053d680` | `6db3750fdbb1a8df6db15899fc735ac6506330bb` |
+| 02m RU | [RU](variants/02m/script.ru.txt) | 244 | `a06f6e812fcaf2a14d1e81b3a5e5cf7ba00ff9e7ca4fac9547b56c46faa32246` | `257a15b0b77e4da16c3a7f169904855fc99e99ed` |
+| **05m EN** | **[EN](variants/05m/script.en.txt)** | **622** | **`8211ae9723074af1bd579f051cd99e00db4be59ff6f56b95d44149dbbcfc2bee`** | **`778b034894ce19a629a2847a5246bcdc440b156f`** |
+| **05m RU** | **[RU](variants/05m/script.ru.txt)** | **547** | **`b3ecdeaf53d1e53ec813fd29d8216e5a20258224bb7e21bca0ea324ebcadf44e`** | **`17e27d63882affb205036c77b3d2290635a5e3e2`** |
+| 10m EN | [EN](variants/10m/script.en.txt) | 1207 | `7a8a20894108d071461921e6c98fd4b7b7c097e8aeb6b16d54eed24a38f9e0a0` | `49acdc95acd1a6b2dae64aa4f3871be4bb737b87` |
+| 10m RU | [RU](variants/10m/script.ru.txt) | 1019 | `7c7a65e359f9a3c832ca65d916975395170f712d2bf64040aa28a1b4c6068031` | `f02e72afb72b5a4062c37bad3a260af3041117b4` |
+
+**05m new complete story map:** question-led promise (safe switch despite vote) → border mismatch → 1955 advisory rejection → **1963 deadline main hook** → bus-doors on wrong side → new covered signage alongside old live rules → public reflex training → Anders stays awake and sets goal to be first across Lidingö bridge → overnight road preparation and traffic ban → 04:50/05:00/06:00 controlled switch → Anders arrives second, observes cautious drivers → Kungsgatan jam from onlookers → police clearing, speed/headlight precautions → successful national switch + Anders's concrete human payoff.
+
+### Eight separate 05m editorial criteria — author judgment on exact new texts, confidence moderate-low
+
+| Criterion (1–10 unless unavailable) | 05m | Specific supporting action/line | Weakness/confidence |
+|---|---:|---|---|
+| Interest/significance | 8 | Rejected 1955 vote reverses into 1963 deadline despite physical national change | Historical interest plausible, not measured |
+| Opening/promise | 8 | Two concrete how/why questions, time constraint and four-year contrast | Early premise gives away the successful transition |
+| Development/reason to stay | 8 | Curb/doors → competing sign instructions → drivers' reflex → Anders's first-crossing attempt → local jam | Campaign explanation before the night could still slow pace |
+| Payoff/consequences | 8 | Anders reaches bridge second; police clear actual jam; national switch works, with safety aftercare | The anecdote rests on a retrospective memory |
+| Freshness of angle | 8 | Specific lived morning, not merely vote percentages and signs | Public topic, no validated novelty for all viewers |
+| Visual expressiveness | 8 | Curb-facing bus doors, covered signs, milk carton, Beetle/bridge and crowded Kungsgatan | 05m needs new storyboard and rights/source distinction for exact images |
+| Natural oral narration/clarity | 8 | A real person's simple goal and concrete obstruction replaces generalized ending | 622 EN words may be shorter than nominal 5m; not listened to |
+| Verified audience demand | **UNVERIFIED** | No matched audience or measured view-through for these three scripts | No numerical score justified |
+
+**Full text hard checks (author only):** EN/RU both have twelve corresponding narrative paragraphs and same dates (1955, May 1963, 1967), quantities (~83%, ~8,000 buses, ~360,000 signs), three operational clock steps, named driver/bridge/second crossing, local Kungsgatan jam, guarded speed/headlight advice and final consequence. Read all paragraphs, not just extremes. Exact source evidence D15–D19 is in shared research. **No independent bilingual reviewer has checked the text; no `ytv-script-review-v1` receipt.** This is a Long, **no narrative-loop gate**. Original 02m Short still requires independent text seam and real AV seam. 10m remains untouched, with its own old author notes.
+
+**Length:** 622 EN words at an assumed 130–155 unsped words/min is approximately 4.0–4.8 minutes **before pauses/end screen**. No TTS measured, and no speed change authorized to hit target. Actual 5m target remains provisional. Compared to old 539 words, added 83 words are a real witness goal/result plus safety consequence, not repetition. **Potential interest loss:** in 2m, after the sign/bus list; in 05m, while explaining instruction timing before Anders enters; in 10m, tax/media subchapter before dawn.
+
+**Comparison and recommendation:** 02m still has the cleanest fast physical reveal but compresses the people responsible. 02→05 now adds real operational obstacles *and* an actual driver with a goal, disappointment and remembered street behavior; 05→10 adds commission/tax/communications detail but risks delaying the main 04:50 event. **Recommend 05m editorial candidate provisionally**, pending first-listener and actual timing; if measured pacing runs short or attention drops in preparation, 02m remains a strong alternative. No approval, master switch or production authorization.
+
+**Status/gates:** `EDITORIAL_CANDIDATE_UNREGISTERED`; author factual + semantic self-review only. Independent blind read, independent EN/RU semantics, exact timing, selected-version storyboard, audience evidence, genuine runtime context/receipts and owner approval = **UNVERIFIED**. The original source EN/RU and S001–S014 storyboard remain bound only to unchanged 02m; no old approval/review/timing is inherited by revised 05m. No MP4/TTS/image providers invoked. Next unreviewed branch work remains separate from this one-history scope.

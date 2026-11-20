@@ -1,6 +1,11 @@
 EDITORIAL_CANDIDATE_UNREGISTERED — not an official script gate or approval.
 # Dagen H (1967): three complete lengths of the same story
 
+## Current update — 20 November 2026
+
+**05m Long was substantially revised**, not merely repackaged. It now follows a named 19-year-old driver, Anders Odéen: he and friends stayed awake to make the first right-hand crossing of the Lidingö bridge; they were beaten to it and crossed second. The account is **his 2017 recollection**, alongside contemporaneous 1967 street congestion and post-switch safety precautions. Full [05m RU](variants/05m/script.ru.txt) / [EN](variants/05m/script.en.txt) are 547 RU / 622 EN words; complete 02m and 10m are unchanged. See [new D15–D19 source evidence](research.md#2026-11-20--05m-revision-named-eyewitness-sustained-safety-measures) and [exact hash/8-criteria review](story-review.md#2026-11-20--05m-replacement-superseding-previous-05m-only-author-review). Recommendation remains **05m editorial candidate**, **not** a production-ready 5:00 timing or approval. Full 2/5/10 EN/RU script links and earlier baseline follow. Independent reviewer/TTS/storyboard/runtime = UNVERIFIED.
+
+
 **Logline:** How did Sweden switch from left- to right-hand traffic in ten minutes despite a rejected referendum and four years of infrastructure work?
 
 | Length | Full RU | Full EN | Editorial status |

@@ -11,3 +11,7 @@ No produced image, production QA, title/thumbnail pair viewing, audience A/B or 
 ## Updated editorial candidates (2026-11-17)
 
 Short title/crops above refer only to unchanged 02m. For recommended 05m Long, title/thumbnail question: “How Did Sweden Change Driving Sides in Ten Minutes?” Early facts: border mismatch and 1955 NO; main hook: parliament's 1963 deadline; full payoff: phased traffic switch plus real Kungsgatan jam. The 10m text adds costs and deliberate timing of public teaching; no approved packaging or CTR claim. Storyboard timings and original Short S001–S014 are not inherited by either Long.
+
+## 2026-11-20 — revised 05m Long promise alignment
+
+Provisional narrative packaging still asks **how Sweden switched in ten minutes despite voters rejecting it**; the revised 05m now has a **secondary human payoff** from Anders Odéen's Lidingö bridge attempt and his second-place finish. Do not make the car race a competitive national spectacle, invent his first-crossing footage, imply it happened before the traffic ban ended, or claim he personally encountered the Kungsgatan jam. An honest possible secondary visual is one period VW Beetle on a bridge in a handmade paper scene, labelled **reconstruction**, grounded in a 2017 interview. Rights for real photos and actual generated art are not obtained. Independent packaging/A-B metrics remain UNVERIFIED; original Short packaging hypotheses still refer only to unchanged 02m.
