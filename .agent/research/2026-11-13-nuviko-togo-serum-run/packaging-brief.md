@@ -1,3 +1,9 @@
+## 2026-11-20 — unapproved packaging hypothesis, 05m Long only
+
+Two communication failures, not a fabricated Balto/Togo rivalry: potential title **The Medicine Almost Missed Its Own Rescue**. First illustration of an empty sled and the changed meeting; new middle/ending emphasis on a cylinder lost in snow and Kaasen finding sleeping Rohn. This has NOT been tested with thumbnail, CTR, audience, 16:9 storyboard, or actual delivery; inherited Short package stays for original source only. Current EN/RU hashes: `2479df179c7994ec1bfde6ec555de8dae3223aaec1643803ff85735a2708ccb7` / `4f9a0d4244ae6e3934601cb87f1ee37a32d0b2079366324dbf7a0643ff9c1ecc`.
+
+---
+
 # Variant-aware packaging note — not approval
 
 The historical 9:16 Short thumbnail concepts below were written for [unchanged root script.en.txt](script.en.txt) and 15-scene provisional storyboard. They are **not validated titles/thumbnails for the six new variants**.

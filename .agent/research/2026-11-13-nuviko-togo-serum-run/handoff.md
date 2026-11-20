@@ -1,3 +1,16 @@
+## 2026-11-20 — substantive 05m revision in existing PR #26
+
+**Before → after:** earlier 05m solved the changed-relay near-miss then summarized the last delivery. Revised **[05m EN](variants/05m/script.en.txt) (871 words, SHA-256 `2479df179c7994ec1bfde6ec555de8dae3223aaec1643803ff85735a2708ccb7`) / [05m RU](variants/05m/script.ru.txt) (SHA-256 `4f9a0d4244ae6e3934601cb87f1ee37a32d0b2079366324dbf7a0643ff9c1ecc`)** develops a second documented missed message: Welch's severe-storm pause reached Rohn at Port Safety but not Kaasen at Bluff. It follows Charlie Olson's frostbitten handoff, Kaasen's overturned sled, a lost-and-recovered antitoxin cylinder, Rohn asleep at the planned final stop, and Kaasen's decision to finish with Balto's team. The vials reached Nome intact. This is a new consequence and climax, not an extra statement that Togo was underrated. Keep their **separate contributions**, no invented thoughts or claim that Balto stole credit.
+
+**Status:** `EDITORIAL_CANDIDATE_UNREGISTERED` / independent blind bilingual reviewer UNVERIFIED / owner approval UNVERIFIED. Source roots EN `61de1647328dfa1d192dc2d67aea78049a401dc6` and RU `0210419bce3bf6629dd4b5dbdf8e6e4141c3abfb`, unchanged 02m/10m, and original 15-scene storyboard are protected. Baseline 05m EN `54ad799532753cd2cf8da31c6e6960b52ec96fbdf9a48a8c7ed64b7f89145e02` / RU `67c1ed8e15560d9dc7ed19c64c692a4a86ad5b06e333890baa4942ab6cb5cbaa` are archival only. 
+
+**Recommendation:** 05m Long as authorial candidate, **conditional on measured runtime**: 871 EN words can run longer than 5:00 with pauses, so do not claim measured 05m. The 02m Short is a legitimate strong alternative; 10m more historical background, slower after delivery. Next: independent exact-hash EN/RU review, pacing/timing, 16:9 storyboard for chosen version, canonical ytv runtime/pins and owner decision. No media tasks, approval or production.
+
+
+**Exact handoff:** new 05m EN `2479df179c7994ec1bfde6ec555de8dae3223aaec1643803ff85735a2708ccb7` / RU `4f9a0d4244ae6e3934601cb87f1ee37a32d0b2079366324dbf7a0643ff9c1ecc`, plus unchanged 02m and 10m from [story-review.md](story-review.md). Next coordinator must select a single exact master and check any existing canonical run/pins; if absent, use documented runtime registration and independent blind first-listener, then owner approval. PR progress and unchanged storyboard are not official task receipts. No TTS/images/render/uploads.
+
+---
+
 # Current editorial handoff — Togo, PR #26 (18 November 2026)
 
 **Scope:** existing unapproved PR #26; `EDITORIAL_CANDIDATE_UNREGISTERED`. Baseline branch HEAD `b18f680dc0ae93e566a112d6ea723ac2bec6392f`, source EN Git blob `61de1647328dfa1d192dc2d67aea78049a401dc6`, source RU Git blob `0210419bce3bf6629dd4b5dbdf8e6e4141c3abfb`. Current main documents read at `7c94f825056b98cb65d8de94dd3eec709cc78188`. Production/owner approval/independent review not inferred.

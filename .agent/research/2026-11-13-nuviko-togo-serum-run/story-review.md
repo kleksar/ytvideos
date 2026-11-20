@@ -1,3 +1,54 @@
+# CURRENT EDITORIAL REVIEW 2026-11-20 — Togo / PR #26
+
+## 2026-11-20 — substantive 05m revision in existing PR #26
+
+**Before → after:** earlier 05m solved the changed-relay near-miss then summarized the last delivery. Revised **[05m EN](variants/05m/script.en.txt) (871 words, SHA-256 `2479df179c7994ec1bfde6ec555de8dae3223aaec1643803ff85735a2708ccb7`) / [05m RU](variants/05m/script.ru.txt) (SHA-256 `4f9a0d4244ae6e3934601cb87f1ee37a32d0b2079366324dbf7a0643ff9c1ecc`)** develops a second documented missed message: Welch's severe-storm pause reached Rohn at Port Safety but not Kaasen at Bluff. It follows Charlie Olson's frostbitten handoff, Kaasen's overturned sled, a lost-and-recovered antitoxin cylinder, Rohn asleep at the planned final stop, and Kaasen's decision to finish with Balto's team. The vials reached Nome intact. This is a new consequence and climax, not an extra statement that Togo was underrated. Keep their **separate contributions**, no invented thoughts or claim that Balto stole credit.
+
+**Status:** `EDITORIAL_CANDIDATE_UNREGISTERED` / independent blind bilingual reviewer UNVERIFIED / owner approval UNVERIFIED. Source roots EN `61de1647328dfa1d192dc2d67aea78049a401dc6` and RU `0210419bce3bf6629dd4b5dbdf8e6e4141c3abfb`, unchanged 02m/10m, and original 15-scene storyboard are protected. Baseline 05m EN `54ad799532753cd2cf8da31c6e6960b52ec96fbdf9a48a8c7ed64b7f89145e02` / RU `67c1ed8e15560d9dc7ed19c64c692a4a86ad5b06e333890baa4942ab6cb5cbaa` are archival only. 
+
+**Recommendation:** 05m Long as authorial candidate, **conditional on measured runtime**: 871 EN words can run longer than 5:00 with pauses, so do not claim measured 05m. The 02m Short is a legitimate strong alternative; 10m more historical background, slower after delivery. Next: independent exact-hash EN/RU review, pacing/timing, 16:9 storyboard for chosen version, canonical ytv runtime/pins and owner decision. No media tasks, approval or production.
+
+
+| Target | Full EN and SHA-256 | Full RU and SHA-256 | Format / status |
+|---|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) `18db621fd5e8f247f2558a7cb753d567bdfe1d97fa127ab221a815dcbe9efc91` | [RU](variants/02m/script.ru.txt) `224c8cc8aea7e504608d9a3b0fc0db80ea08de4f2e9401a2c63263f3a287452a` | Short; unchanged, text-loop author only, AV UNVERIFIED |
+| **05m** | **[EN](variants/05m/script.en.txt) `2479df179c7994ec1bfde6ec555de8dae3223aaec1643803ff85735a2708ccb7`** | **[RU](variants/05m/script.ru.txt) `4f9a0d4244ae6e3934601cb87f1ee37a32d0b2079366324dbf7a0643ff9c1ecc`** | **Long; reworked, recommended pending independent review** |
+| 10m | [EN](variants/10m/script.en.txt) `ca21a0ff93642c095d1247f16beb563212c7f8cb371c8964e351da393b9d4f21` | [RU](variants/10m/script.ru.txt) `4f1b84522e6df4cdf31ac239fd45aa66def0db211c87236f8917a9bf62342f57` | Long; unchanged |
+
+## New 05m story map, separate critique
+
+Questions → outbreak/travel constraint → Seppala drives **east with an empty sled** → relays added beyond his knowledge → near-misses Ivanoff and takes medicine **main documentary hook** → crosses the ice back carrying serum → hands off at Golovin → Welch pauses deliveries but Kaasen is not informed → Olson transfers during blizzard → serum cylinder is lost and recovered (second physical climax) → intended final driver Rohn sleeps → Kaasen completes delivery → serum intact and team contributions separated. Old 05m ended too soon after the Ivanoff crossing; new version has an outcome-determining last act and can stand alone.
+
+**Eight ten-point editorial criteria for new 05m (author judgement, not independent; confidence MEDIUM on observable textual causality, LOW on viewer interest):**
+
+| Criterion | 05m score and concrete reason / shortcoming |
+|---|---|
+| Interest / significance | 8/10: two real communication breakdowns threaten delivery, not merely publicity; topic already told elsewhere |
+| Opening | 8/10: questions about empty sled, rearranged relay and why Balto finished have explicit answers; three questions still cost opening time |
+| Development / reason to stay | 8/10: Ivanoff near miss → hazardous return → Olson handoff → unreceived pause → cylinder loss → sleeping Rohn; risk of too many names |
+| Payoff | 8/10: intact vials answer medicine stakes and Rohn decision explains Balto's finish; closing relay reflection brief |
+| Freshness of angle | 7/10: dual missed messages offer a specific mechanism beyond dog rivalry, but event itself is famous |
+| Visual expressiveness | 8/10: empty sled, snow, dropped cylinder, dark relief roadhouse; no real images or video checked |
+| Natural speech / clarity | 7/10: concrete verbs and decisions, but five proper names/locations may confuse cold audience; 871 words perhaps too long |
+| Confirmed audience interest | UNVERIFIED: no own baseline, measured retention/CTR or independent viewer response |
+
+## Hard gates for all three and comparison
+
+- **EN/RU 05m:** 21 matching semantic paragraphs, matched actions, amounts, uncertainties and dates, author text read only. Independent bilingual reviewer UNVERIFIED; do not call this a blind PASS.
+- **Factual chain:** T11–T13 documented in shared research; sources are retrospective historical reports, original telegram unread. No falsely attributed dialogue or motive.
+- **Long format:** questions → substantive immersion → first main hook at changed relay/Ivanoff; additional consequence and payoff on final leg. No Long loop obligation. ChannelSpec for Nuviko History supports Long 16:9.
+- **02m Short:** unchanged EN/RU, previous text-only seam check; independent two-pass listener and actual AV seam UNVERIFIED.
+- **Words/timings:** new 05m has 871 EN words, **5.44–6.70 minutes at 160–130 WPM before pauses**, voice 1.10× may shorten, no waveform/TTS. So 05m target is uncertain and may need a later evidence-based pacing revision, not arbitrary sped-up narration. 02m/10m prior timings remain merely estimates.
+- **Selected-version storyboard / old timings:** 15 old scenes describe only original root EN/RU. None of three new versions inherit their approval/spans. New 05m is not covered.
+- **Runtime/independent review/owner approval/CTR/retention/AV:** UNVERIFIED; `EDITORIAL_CANDIDATE_UNREGISTERED`, not official script gate.
+- **02 → 05:** second communication failure explains unexpectedly final Balto team, loss and recovery of actual medicine adds a concrete danger; original 02m is still good for an efficient Short.
+- **05 → 10:** longer unchanged draft adds pup history, social context/Indigenous mushers and memorials, but delays first meeting and extends aftermath; no automatically better score.
+- **Recommendation:** 05m, **conditional** on timing/first-listener; independent reviewer can favor original, 02m, 10m or reject all. One selected master only, no three production tasks.
+
+---
+
+# HISTORICAL REVIEW (pre 2026-11-20, preserved; old 05m hashes/ratings are superseded)
+
 # Togo / Nome serum relay — comparative editorial review (18 November 2026)
 
 **Scope:** existing unapproved PR #26; `EDITORIAL_CANDIDATE_UNREGISTERED`. Baseline branch HEAD `b18f680dc0ae93e566a112d6ea723ac2bec6392f`, source EN Git blob `61de1647328dfa1d192dc2d67aea78049a401dc6`, source RU Git blob `0210419bce3bf6629dd4b5dbdf8e6e4141c3abfb`. Current main documents read at `7c94f825056b98cb65d8de94dd3eec709cc78188`. Production/owner approval/independent review not inferred.
