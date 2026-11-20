@@ -14,4 +14,6 @@
 
 [Vice Wreckroom](vice_wreckroom/PROFILE.md) — проверенная YouTube identity для ручного GTA VI Shorts workflow; не шестой активированный ChannelSpec. Канальный Resolve/Unlisted scope, playlists и ограничения discovery — в профиле.
 
+[Easy English Routine](easy_english_routine/README.md) — исследовательский проект без YouTube identity, ChannelSpec и production runtime.
+
 Общие brand assets и provenance — [BRAND_ASSETS](BRAND_ASSETS.md). Канальный профиль не подтверждает наличие всех media в checkout.
