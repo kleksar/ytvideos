@@ -70,8 +70,15 @@ These are **card/description observations**, not actual watched videos, reviewed
 
 ## Version-specific story maps and evidence
 
-- **02m:** impact → pressure alarm → cables → sacrifice power → spin → partial later repair → permanently isolated module. Full explanation but Short last→first is not a proven natural loop; review as REWORK.
+- **02m:** impact → pressure alarm → cables → sacrifice power → spin → partial later repair → permanently isolated module. Full explanation with revised causal/grammatical EN/RU last→first transition; authorial textual check only, independent listening and AV UNVERIFIED.
 - **05m:** question promise → station/solar wiring context → remote-camera approach main hook → strike → hatch sacrifice → compounded power/spin problem → Foale stars → spacesuited circuit repair → Spektr remains isolated. Strongest causal progression for general viewers.
-- **10m:** adds actual crew roles, cloud interference, the held hatch cover, Soyuz alternative, quantitative power context (without unnecessary numeric claims), model/flashlight, condensate, research loss, August internal repair and recovered photo, September external inspection and October return, and 2001 consequence. Not invented events. Final third may become a chronology of repairs after core payoff; needs independent attention test.
+- **10m:** adds actual crew roles, cloud interference, the held hatch cover, Soyuz alternative, quantitative power context (without unnecessary numeric claims), model/flashlight, condensate, research loss, August internal repair and recovered photo, September external inspection and October return; October 20 second internal repair with two of three control cables connected, and 2001 consequence. Not invented events. Final third may become a chronology of repairs after core payoff; needs independent attention test.
 
 Rights: historical sources and public videos are **research only**, not clearance to reuse clips or photographs. No media or reference bytes fetched into the repo.
+
+
+### Additional verified claim on 2026-11-21 editorial revision
+
+13. **NASA Mir-24/NASA-5 status report, October 24, 1997**, https://www.nasa.gov/history/SP-4225/documentation/mir-summaries/mir24/mr.htm — confirms Solovyev/Vinogradov's October 20 **6h38** internal Spektr work, routing control cables toward a functioning Kristall avionics unit so surviving solar panels could follow the Sun. Exactly **two of three** cables connected to the modified hatch; third not connected owing to reach/access constraints. The revised 10m ending states no full repair and no restored atmosphere. Source is NASA's contemporary mission status report, not an inferred outcome from subsequent 2001 operations.
+
+**Baselines of changed scripts:** 02m EN Git blob `a649ea6d1973003aead433b214278a881dc27f8d`, RU `4df565d92c02704545832622aec7223d769c58e4`; 10m baseline exact SHA-256 EN `07d11bae84926a7697f7418aaf4cdb0f9565b70449640c1350a2ae4a5cf54c12`, RU `a24c1d349c4fcd1499856ebcc009ca83a25ee1b81112fb09cf17daae07b42fef`. The revised scripts are in their original PR branch; no accepted master, storyboard or production pin replaced.

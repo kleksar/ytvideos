@@ -8,11 +8,11 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Variant | Full English narration | Полный перевод RU | Editorial decision |
 |---|---|---|---|
-| 02m / proposed Short | [script.en.txt](variants/02m/script.en.txt) | [script.ru.txt](variants/02m/script.ru.txt) | **REWORK:** thematic loop is not sufficiently causal |
+| 02m / proposed Short | [script.en.txt](variants/02m/script.en.txt) | [script.ru.txt](variants/02m/script.ru.txt) | **REVISED:** authorial causal speech seam; independent/AV UNVERIFIED |
 | **05m / proposed Long** | **[script.en.txt](variants/05m/script.en.txt)** | **[script.ru.txt](variants/05m/script.ru.txt)** | **STRONG_CANDIDATE, recommended** |
 | 10m / proposed Long | [script.en.txt](variants/10m/script.en.txt) | [script.ru.txt](variants/10m/script.ru.txt) | **REWORK:** verified detail, but late investigation slows payoff |
 
-**Why 05m:** the central decision, power crisis and orbital recovery form three escalating phases. A two-minute version has the complete result but weaker loop. The ten-minute text adds real September and August repair work, human detail and mission aftermath; its last third risks feeling like an appendix. None is an approved production master.
+**Why 05m:** the central decision, power crisis and orbital recovery form three escalating phases. The two-minute revision closes its story before a new causal spoken seam; independent listening and AV replay remain UNVERIFIED. The ten-minute text adds August repair, September inspection and an October 20 two-of-three control-cable outcome, replacing a repetitive closing moral. Its technical midsection remains denser than the five-minute version. None is an approved production master.
 
 **Supporting documents:** [Research and public YouTube evidence](research.md) · [Individual review, scoring, SHA-256 and estimated runtimes](story-review.md) · [Packaging brief](packaging-brief.md) · [Runtime handoff and blockers](handoff.md).
 

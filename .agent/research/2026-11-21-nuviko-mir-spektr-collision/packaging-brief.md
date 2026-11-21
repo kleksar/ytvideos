@@ -18,7 +18,7 @@
 
 ## Format and channel constraints
 
-02m: proposed narrative Short 9:16, theoretical time only; current text has a weak thematic circular ending, **narrative loop is REWORK**; do not produce as approved. 05m and 10m: illustrated documentary Long 16:9, with questions first, illustrated visual references and real ten-second end screen once produced. All estimated durations need real voice measurement; no TTS run.
+02m: proposed narrative Short 9:16, theoretical time only; revised full text now has a grammatical cause-to-impact ending in both languages; **authorial text seam only**, independent full rereading and actual AV seam UNVERIFIED; do not produce as approved. 05m and 10m: illustrated documentary Long 16:9, with questions first, illustrated visual references and real ten-second end screen once produced. All estimated durations need real voice measurement; no TTS run.
 
 ## Story-linked next-video transition
 
