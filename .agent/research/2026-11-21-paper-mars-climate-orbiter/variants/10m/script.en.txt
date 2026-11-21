@@ -1,0 +1,75 @@
+Why did a spacecraft reach Mars and then fail to enter orbit? What were the warning signs during the journey? And how did two teams, working from a written specification, miss a difference that could have been checked with a calculator?
+
+On September 23, 1999, flight controllers waited for Mars Climate Orbiter to come out from behind the planet. The silence was expected at first. The spacecraft would disappear from Earth's view while its main engine slowed it into orbit. After roughly twenty minutes, its radio signal should have returned.
+
+It didn't.
+
+To see how an ordinary silence became the end of a mission, go back nine months. NASA launched the orbiter on December 11, 1998, as part of a new series of Mars missions. The spacecraft was meant to study the atmosphere and weather from orbit. It was also supposed to help relay messages from Mars Polar Lander, another mission approaching the planet later that year.
+
+Before it could do either job, it had to arrive at the right height and speed. A successful engine burn would put it on a long, oval path. Over following weeks, careful dips into the thin upper atmosphere were supposed to help reshape that orbit. Mars was not just a destination on a map. It was a moving target with a narrow safe path around it.
+
+The orbiter was controlled partly by reaction wheels: spinning wheels inside the spacecraft that changed its orientation without constantly firing engines. But those wheels could not store unwanted turning motion forever. Every so often, small thrusters fired to unload them.
+
+Why were they needed so often? The spacecraft carried one large solar array to one side of its body. Sunlight exerts a tiny pressure, and that uneven surface gave the probe a slow tendency to turn. Compared with the earlier Mars Global Surveyor, whose solar arrays were symmetrical, the new craft needed far more of these wheel-unloading bursts.
+
+The investigation later counted them at roughly ten to fourteen times the frequency anticipated by the navigation team.
+
+None of those bursts was a dramatic course correction. Their immediate purpose was to keep the spacecraft pointing properly. Yet every burst also gave the entire vehicle a small push. If you want to know precisely where a probe will be months from now, even these small pushes have to enter your navigation model.
+
+Engineers handling spacecraft operations in Denver recorded information about the bursts. That information travelled to navigators working at NASA's Jet Propulsion Laboratory in California. Between those groups was an ordinary-looking software interface: a file used by the ground navigation system to calculate the effects of small forces.
+
+The specification for that file was unambiguous. The impulse values were supposed to be written in newton-seconds, metric units. But the program that produced them used pound-force seconds instead.
+
+The problem was not that a person looked at a display reading ten pounds and mistook it for ten kilograms. It was buried in ground software. A number reached the next program with the wrong implied unit, and the receiving program trusted the specification.
+
+A pound-force is about 4.45 newtons. So those two numbers cannot be swapped harmlessly. The navigation model underestimated what the thruster firings were doing to the actual path of the spacecraft.
+
+Once you know this, the failure can sound inevitable. It wasn't. There were several moments when the team might have caught the growing disagreement before the spacecraft reached Mars.
+
+During the spring and summer of 1999, the people following its trajectory saw differences between calculated motion and what the tracking data suggested. The Doppler radio signal, which helps reveal motion toward or away from Earth, did not always agree with the predictions. Some concerns were passed along informally. The report says they were not properly resolved.
+
+There was a second hint as Mars approached. Navigators compared different ways of estimating the route. Calculations using Doppler information alone consistently pointed toward a path closer to Mars than the combined solutions did. Both numbers could not be equally right. But the mismatch remained on the table while the date of arrival drew closer.
+
+At this point the story is no longer simply about converting units. People were seeing evidence that a model and a real spacecraft were not lining up. Yet the system for escalating, investigating and closing those concerns did not turn them into a fix.
+
+On September 8, the team calculated the last planned interplanetary course correction. It was performed on September 15. The intended first low point of the post-arrival orbit was about 226 kilometres above Mars, with later atmospheric passes used to bring the spacecraft into its working orbit.
+
+After that correction, the navigation estimates became less reassuring. During the following week the predicted low point dropped into the range of roughly 150 to 170 kilometres.
+
+A few days later, the margin looked smaller still. During the final twenty-four hours, the probe was close enough for Mars' gravity to affect the tracking calculations strongly. Processing more accurate data about an hour before arrival suggested the first low point might be as low as 110 kilometres.
+
+That was close to the danger line. Mission engineers regarded about 80 kilometres as the minimum altitude the spacecraft could survive. The estimates were not yet the reconstructed truth, but they no longer described a comfortable approach.
+
+Was there another way to move the spacecraft higher? A fifth trajectory correction, called TCM-5, existed as a contingency. A request to perform it was discussed shortly before the arrival procedure began.
+
+But the team was not ready to carry it out. The necessary analysis, testing and flight procedures had not been completed. The onboard timetable for entering orbit had priority, and there was not enough prepared time to upload a late change, execute it and verify the result. Investigators later listed the failure to perform TCM-5 as a contributing cause. That is not the same as saying somebody knowingly rejected a proven rescue manoeuvre just to save fuel.
+
+Then came the moment the flight had been preparing for.
+
+At 09:00:46 UTC on September 23, the spacecraft began its Mars orbit insertion engine burn. Its telemetry appeared normal. Four minutes later the radio signal disappeared as Mars moved between it and Earth.
+
+The disappearance came 49 seconds earlier than predicted.
+
+That difference mattered, but the radio loss itself was still part of the flight plan. Controllers expected to recover the signal after the spacecraft emerged from behind the planet, roughly twenty-one minutes later. That moment passed. No signal came.
+
+Attempts to contact the orbiter continued through September 25. Nothing answered.
+
+In the hours after the loss, engineers reviewed what the tracking records had actually shown. The first public estimates suggested a path around 60 kilometres above Mars, much lower than the team believed it had targeted. The full cause had not yet been identified.
+
+On September 27, navigators discussed the unresolved model differences with spacecraft engineers. Two days later they found the wrong units in the small-forces data. The numbers had crossed from one part of the mission to another in a form the recipient had not been prepared to question.
+
+With those forces properly accounted for, investigators reconstructed an initial closest approach of about 57 kilometres. The planned value had been around 226 kilometres. The missing distance was not just another navigational inconvenience: 57 kilometres was below the spacecraft's estimated survival limit.
+
+No camera recorded the probe's destruction. The official investigation said it was either destroyed in the atmosphere or left Mars again into an orbit around the Sun. What is certain is that it never entered the intended Mars orbit and never returned to contact.
+
+The report did not stop after finding a unit conversion. It named several other weaknesses. The navigation team had insufficient knowledge of this spacecraft's unusual attitude-control behaviour. Staffing and training were inadequate. Information was not being communicated effectively between organizations. Ground software had not received the verification it needed. The transition from building the spacecraft to operating it had left important gaps.
+
+These details matter because the file format itself was not missing a rule. The rule was there. The people and software on either side failed to ensure it was being obeyed.
+
+The investigation immediately recommended better checks of software interfaces and consistent units for the approaching Mars Polar Lander. It also called for stronger communication, navigation training, independent reviews and a better-prepared plan for a last course correction.
+
+None of that brought Mars Climate Orbiter back. Its scientific observations never began, and another vehicle had to take over the planned relay role where possible.
+
+The easy version of the story says NASA lost a spacecraft because someone used pounds instead of newtons. That is true, but incomplete. The repeated small firings, the accumulating difference in the navigation estimates, the unresolved warnings and the unavailable contingency all belong in the same chain.
+
+A spacecraft reached another planet. Its engine worked. The radio went silent at almost exactly the moment everyone expected. The failure had already happened much earlier, inside a file that two teams believed they understood.
