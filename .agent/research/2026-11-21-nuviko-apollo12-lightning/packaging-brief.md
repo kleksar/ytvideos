@@ -1,0 +1,20 @@
+# Packaging brief — Nuviko History / Apollo 12 lightning
+
+Editorial basis: recommended **05m EN SHA-256 `f3af47119fd71d2180306d16c13cb2bcd4880863ca3efe799619e39ca82b95fe`**; RU `ee6b5e0d750801e14f466bd61acc838b80ff584ab6403c51c011c2cddd8c032f`. These are *preapproval proposal* bytes; no actual video artwork/metadata, assets or timed opening verified.
+
+**Viewer promise:** a rocket bound for the Moon was struck by lightning twice yet kept flying; a little-known switch restored something important, but not what the popular version implies. **Full payoff:** Saturn V guidance continued independently; SCE AUX brought readable data back and the crew separately restored the disconnected fuel cells. NASA later determined the rocket triggered the lightning and changed weather restrictions. The landing near Surveyor 3 closes the human mission.
+
+**Main initial choice concept L1:** Title `Lightning Hit Apollo 12 Twice. The Rocket Kept Flying.`; thumbnail composition: photorealistic clouded Saturn V and verified lightning along ascent, **not** a false image of two simultaneously visible bolts, with a small truthful cockpit inset if legible; 2D traveler only when useful per actual Nuviko references. Dominant meaning = moving rocket versus danger. Title earns click by opposing catastrophe and continuation. First confirming text scene: "On November 14, 1969, Apollo 12 was lifting off from Florida under low gray clouds" and the strike immediately afterward; payoff = explicit explanation of separation of launcher guidance and command module data.
+
+**Alternate L2 (clear human action):** Title `The Apollo 12 Switch That Brought the Data Back`; thumbnail: human finger at historically verified Apollo SCE panel plus confused readings, not fabricated screen layout. Stronger technical curiosity, weaker general appeal without context. Confirmation: "He asked for SCE to AUX"; payoff: cell reset happens *after* switch. Avoid claim "switch restarted rocket."
+
+**Alternate L3 (mission ambition):** Title `Struck by Lightning on the Way to the Moon`; thumbnail: ascent under storm with a small lunar Surveyor site in visual distance; mood determined, not apocalyptic. Confirmation: launch and two lightning events; payoff: landing near the surveyor and safe return.
+
+Applied composition principles: one dominant object/relationship and legible hierarchy as in `docs/standards/thumbnails.md#обещание-и-концепты`; juxtapose verified object with consequence, do not promise on-screen media that doesn't exist. Actual reference assets and accepted Nuviko host turnaround are needed before generating a true design. These are **research-stage briefs only**, not a finished thumbnail_plan, not actual generated images, and not authoritative official timeline frames.
+
+**Packaging risks:** "saved the rocket" falsely implies the booster stalled or the switch supplied its power. Two bolts visible in one exposure would likely be a manufactured archival image. Unlicensed real NASA footage, the copyrighted annotated Apollo Flight Journal editorial, and other creators' video require separate provenance/rights checks even if some US government source media may be public domain. Don't mistake archival NASA images shown through other publishers for blanket permission.
+
+**Next-video bridge:** Owner intent is complete payoff → relevant follow-on → authentic next-video intro and native clickable connection. A possible thematic follow-on is accepted-work Apollo 13 #46 (another crew relying on ground troubleshooting), but its actual production state, intro media bytes and readiness were not verified, so **NO verified bridge asset**; do not write a fake quote, scene or click. For the Long leave the 10-second endscreen availability described in the ChannelSpec; actual native placement is deferred to MP4/Studio approval.
+
+**Storyboard boundary:** detailed shot prompts are intentionally **not** generated before independent exact 05m review. If reviewed and selected, anchor them to its exact EN hash above and Nuviko's actual approved traveler reference PNG; no invented reference bytes. Optional music and scene cuts follow approved run pins, not this note.
+
