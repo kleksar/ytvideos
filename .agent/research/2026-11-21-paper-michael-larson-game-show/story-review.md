@@ -10,7 +10,7 @@ Scope: exact candidate files under `.agent/research/2026-11-21-paper-michael-lar
 | 05m | 695 | 542 | `dfa28be7f315bcd8700a1e1ec4b210e9221b5a53a2bbb3a6294c787a72c14c22` | `485ef52baef4359c3c33eab581899a4df72fa5f8f14cc25dfae153a231bde6dd` | Long (profile permits) |
 | 10m | 1650 | 1344 | `9fad35a63fe3b047772dcdec83ce0d155212706906c919329453871f9894592b` | `0bab9763643a5e663bf3f2b2e373b1bf0fc65d8114913991721a8a5b72d0dca7` | Long (profile permits) |
 
-The durations are **targets, not measured timings**: estimated English delivery around 130–160 words/minute including pauses; 02m may overshoot, 05m may require moderate natural pacing, 10m is close to ten minutes at the lower end. Channel voice remains Lawrence at the profile speed; do not change speed to manufacture a runtime. RU text is a complete editorial translation, not TTS master.
+The durations are **targets, not measured timings**: English length is an editorial approximation, not recorded speech. At 140–175 words/minute before pauses, 02m is about 1.6–2.0 minutes, 05m about 4.0–5.0 minutes, 10m about 9.4–11.8 minutes; natural pauses add time. The 10m version may run longer than its target at slower delivery. Channel voice remains Lawrence at the profile speed; do not change speed to manufacture a runtime. RU text is a complete editorial translation, not TTS master.
 
 ## 02m — REWORK, complete text (no independent or AV loop)
 
