@@ -41,7 +41,11 @@ Result: exit code **2**; `error: Failed to spawn: ytv; Caused by: No such file o
 
 - `ytv` executable/working local checkout absent; official run and pinned task packet missing.
 - Independent reader sessions not exposed in this host; no legitimate `ytv-script-review-v1` result.
-- 02m narrative Short loop author test FAIL; AV seam and listener test UNVERIFIED.
+- 02m script changed after initial author FAIL: conceptual text transition AUTHOR CHECKED, independent repeated cycle and AV seam UNVERIFIED.
 - 05m/10m durations estimated only; correct voice speed 1.10 must be measured later, never altered to hit length.
 - Owned Studio audience statistics, matched YouTube baselines and recent viewer demand UNVERIFIED.
 - Original archival media/license, exact traveler PNG/reference bytes, actual next-video intro, and native end-screen implementation not available; do not pretend they were.
+
+## 2026-11-21 — exact 02m r2 handoff (initial fail superseded)
+
+Existing PR #331 baseline HEAD `5b8981ffc8c1fe5a7b394e1b003a944f1a8d561a`; old EN/RU 02m SHA-256 `416fa42bd426bbc49d1dd1ecd0f2f2b9c00b5ea8ea20bba5578e4f4678596d59` / `dc44cac53f12099f1a997f984c870b9ed2a34541638127e1e4832c3520217dd3`. New EN `89557319f52b40ff91601946e7d95ac16721c08a8fdf05a0a43a0149e089d89b` (276 words), RU `127a2e6b32a5a9b6e3cb3595b372fe203d3d02144e8cbbf3de17c514d198a6d2` (246 words). Current end 31 Oct new orders → start 26 Oct first recall is an author-checked *candidate*, NOT an independent or AV loop PASS. Select only one exact master in a genuine pinned runtime after fresh independent review and owner's approval; unchanged 05m EN `a964d1dba62fa58ca6158f3c279c7a2ffb29d37b98a294fad36736bbcf5a1e3f` remains a preliminary editorial recommendation. All media, script receipts, scene spans and actual timing for changed 02m require fresh evidence. No current host independent-session capability or executable project runtime was confirmed.
