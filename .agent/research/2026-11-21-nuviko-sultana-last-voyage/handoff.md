@@ -1,0 +1,18 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Transfer to production, not official script approval
+
+**Source remote main**: 131ef24068d75967b1e43aa88e5f1370f6775054; proposal PR #124 was already merged in main 2026-11-16; previous proposed policy revision 7d6bdf7702a2a241a33a21677fce29f26ada9b72 is historical, **not a live separate source**. This branch starts strictly from source main. No changes to shared docs, skills, channel status, or profile.
+
+Channel: nuviko_history / illustrated EN; 02m Short candidate, 05m + 10m Long candidates. Six complete exact texts live in variants/ directories. Recommend **05m** script.en.txt SHA-256 be8626a49a5a6ce306fe9625d5f37eb373f0501a9e67c2b6c13e0d7c1801128d / script.ru.txt 4c8cdc35727e3fdb121b85ead443db1b6cc90c48e9057062475deb975cbaeff9; see story-review and research for all exact hashes and uncertainties.
+
+**Capability test actually performed:** `cd /mnt/data && uv run ytv start --channel nuviko_history --format long --intent 'Сюжетная редакционная заготовка для Nuviko History, три версии 2/5/10 EN+RU'` => `Failed to spawn: ytv (No such file or directory)`; no mounted source checkout or installed runtime. The GitHub connector can write Git but cannot issue ytv state transitions. Runtime, plan_summary, read_next, task_guide, pinned reference_documents, task lease, script receipt, reviewer response and owner approval **DO NOT EXIST for this editorial packet**. Do not fabricate them.
+
+Local continuation path:
+1. Clone/fetch *actual repository current main* in legitimate ytv host; confirm exact scene-profile and any migration of old pinned runs. Use this immutable editorial PR commit and exact relative script paths, not a floating branch copy.
+2. Invoke documented `uv run ytv start --channel nuviko_history --format long --intent 'редакционная версия Sultana с 2/5/10 вариантами, рекомендована 05m'` for a genuinely new run, and read its **actual** plan_summary/read_next/task_guide/pinned reference documents. If there is an existing run for this specific story, follow status/resume/next rather than creating a duplicate.
+3. Register variant/source artifacts with real absolute paths and real receipts using current task-contract. Present fresh independent reviewer with exact scripts **without author scores/beat map**; then supply sources; preserve original reviewer schema. Re-evaluate if any byte changes.
+4. Only after legitimate exact master selection and script gate, run authorized storyboard/audio/media checks and owner decisions. Any chosen variant other than recommended 05m requires separate hash-bound review. The preliminary storyboard is tied only to 05m exact EN hash and is not native media, timing or actual reference bytes.
+5. Resolve source rights for 1865 photo and engravings; do not infer rights from a webpage preview. Get actual profile reference PNGs for on-screen host only when required. Verify voice duration at authorized TTS stage and check 10-second endscreen in native YouTube tools if release scope is later granted.
+
+**Remaining blockers:** unregistered local ytv runtime; independent first listener; 02m seam; actual media rights and reference bytes; observed TTS/scene timing; owner exact master script approval; missing own-channel audience demand evidence. No TTS, imagegen, image/video provider, MP4, upload, or scheduling occurred.
