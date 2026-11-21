@@ -6,26 +6,28 @@ Author: automation editorial agent; all numerical ratings below are **author jud
 
 | Variant | Master EN | Full RU | EN words | Target / estimated speech-only duration (130–150 EN wpm) | Proposed format | Author classification |
 |---|---|---|---:|---|---|---|
-| 02m | [EN](variants/02m/script.en.txt) SHA256 `4273339bb43a74e7909a1eb428257c2ad9d3b1d17631765e75cf944080f8d582` | [RU](variants/02m/script.ru.txt) SHA256 `720220f2278e3273c777b2ca79dd6ac618ef487f3a0080f19c93c96d27bbf181` | 282 | 1:53–2:10 + pauses; target only | short, conditional on actual 3-minute max/format | REWORK |
+| 02m | [EN](variants/02m/script.en.txt) SHA256 `46fe0499d1673afb7deb06eafae855265c73e4c76eeebf275fcec26908421bac` | [RU](variants/02m/script.ru.txt) SHA256 `35992ebabeb14a99bf7222b05bd2008d5925c63a4655839640d0c14838442321` | 276 | 1:50–2:08 + pauses (130–150 EN wpm); target only | short; compatible with configured Paper Short, audio duration UNVERIFIED | REVISED EDITORIAL_CANDIDATE |
 | **05m** | **[EN](variants/05m/script.en.txt)** SHA256 `11d89c9d56315e8b814fd52b7d0dde3624dd63d17b493ab13ccba0c848790eb3` | **[RU](variants/05m/script.ru.txt)** SHA256 `e8246860ca72a1da0dc05fc77e850a0a8aaf9bef376bd7850b475ee6fbe50563` | 606 | 4:02–4:40 + pauses; target ~5m | long | **STRONG_CANDIDATE** |
 | 10m | [EN](variants/10m/script.en.txt) SHA256 `15561cb37905cbef61c18f2334e9cb4d59c8a10b6dda165683bc496a3cd194fa` | [RU](variants/10m/script.ru.txt) SHA256 `b831ed3140709907068f5411a739b635ecf42860a06a7dd30b3cd675f6f60867` | 1441 | 9:36–11:05 + pauses; target ~10m | long | REWORK |
 
 Actual adopted Paper voice speed 1.10x may reduce playback length; none is measured. No fabricated scene timings. All three independent narratives have setup, causal change, payoff and ending. EN/RU pair conveys the same core history. Full Russian is not back-translated word for word.
 
-## 02m — 282-word Short; end→first semantic test only
+## 02m — 276-word Short; substantive revision 2026-11-22
 
-Story map: filing appears as hook → Dawson/ Woodward combine skull and jaw → doubts → 1949/1953 tests → 2016 cross-site attribution with caution → interpret early critics → loop back to filing.
+**Baseline → revised:** `888e8d630fca5bae6b6acd43fec7d1f534876618` `variants/02m/script.en.txt` SHA-256 `4273339bb43a74e7909a1eb428257c2ad9d3b1d17631765e75cf944080f8d582` / RU `720220f2278e3273c777b2ca79dd6ac618ef487f3a0080f19c93c96d27bbf181` → EN `46fe0499d1673afb7deb06eafae855265c73e4c76eeebf275fcec26908421bac` / RU `35992ebabeb14a99bf7222b05bd2008d5925c63a4655839640d0c14838442321`. Both scripts complete and newly compared; 05m and 10m are preserved, not silently rewritten. At this stage remote HEAD still refers to the baseline; see the associated progress comment for the new commit after publication.
 
-- **Interest / significance: 8/10.** Precise memorable contradiction “Someone filed an ape's teeth until they looked human,” connected to a four-decade public error. Medium confidence, audience response UNVERIFIED.
-- **Opening: 8/10.** Immediate action and consequence, but the main trick is revealed at the start, risking less suspense. Medium.
-- **Development: 7/10.** 1912 → 1949 → 1953 → 2016 is causal but moves fast across decades; one more explicit false confirmation would improve it. Medium.
-- **Payoff: 8/10.** Source-backed “same orangutan” from two sites changes meaning; credible caution on suspect. Medium.
-- **Freshness of angle: 7/10.** Micro-scratches and two sites are useful, but famous hoax covered by SciShow and Plainly Difficult. Medium.
-- **Visual expression: 8/10.** Paper-model skull/jaw, magnified tooth, two dig sites and genetic join each give distinct physical scenes. This is a proposed visual plan, not media. Medium.
-- **Natural speech: 8/10.** Clear spoken verbs and modest sentence lengths; rapid 2016 exposition could feel denser in voice. Medium.
-- **Verified audience interest: UNVERIFIED.** Public videos not matched to channel baseline; actual viewers' comments, retention and CTR absent.
-- **Main defect:** little room to make the cross-site confirmation feel earned; the direct end-to-start seam (“...one small act:” → “Someone filed an ape's teeth...”) is grammatical but risks an obvious explanatory reset. Author semantic loop: tentative PASS; independent read and AV seam **UNVERIFIED**.
-- **Status: REWORK**, not automatically rejected; long variants do not invalidate its distinct complete payoff.
+**Story map:** a second find seems to answer objections → Dawson and Woodward combine the human-looking skull and ape-like jaw → anatomists protest → Dawson's second site seems to corroborate → 1916 stoppage and 1949 fluorine doubt → 1953 file marks identify composite remains → why a second site? → 2016 DNA and scan connection between both sites → qualified Dawson inference → finish in 1912, just before the apparent confirmation becomes persuasive.
+
+- **Interest / significance: 8/10.** A supposed independent confirmation later becomes evidence against the hoax; the second site changes the interpretation, not merely the number of fossils. Author judgment, medium confidence; audience UNVERIFIED.
+- **Opening: 8/10.** “A second Piltdown fossil was meant to settle the argument” states an object, conflict and promised reversal immediately; the precise 2016 method is withheld until earned. Medium confidence.
+- **Development / reason to continue: 8/10.** The second site now arrives before forensic tests; “But why had a second site produced such similar evidence?” makes 2016 a genuine new question after the 1953 reveal. Its 1949→1953 transition remains compressed. Medium confidence.
+- **Payoff: 8/10.** Teeth from two sites likely came from one orangutan; similar packed material points to a shared preparation method, with explicit limits on Dawson's role. Medium confidence.
+- **Freshness of angle: 7/10.** Forensic reversal is distinct from a general “museum fooled” hook, but established 2023 documentaries already cover Piltdown; new audience interest UNVERIFIED. Medium confidence.
+- **Visual expression: 8/10.** Separate paper diorama of the original jaw and skull, second tooth/site, microscopic file marks, then physical 2016 side-by-side specimens. Proposed, not verified images. Medium confidence.
+- **Natural speech / clarity: 8/10.** Concrete actions, simple nouns and early dissent replace the old abstract final moral; 2016 DNA/gravel/putty still requires spoken pacing. Medium confidence.
+- **Verified audience interest: UNVERIFIED.** No same-channel comparable retention/CTR, verified comments or fresh 30–90-day demand.
+- **Main limitation:** 276 English words plus breath/scene holds may exceed a literal two-minute target; it is not measured voice timing. The return to the original argument closes the narrative but whether a second full replay feels seamless remains a first-listener and MP4 **UNVERIFIED** check.
+- **Hard checks:** source-backed historical claims author-checked (NHM 2016 and institutional collection); EN/RU semantic pair author-checked including 1912/1916/1949/1953/2016, suspicion and uncertainty. End→start EN: “there was a simpler reply to the sceptics.” → “A second Piltdown fossil was meant to settle the argument”; RU: “существовал более простой ответ скептикам” → “Вторая пилтдаунская находка должна была закрыть научный спор”. Author read twice, tentative semantic continuity, not independent PASS. Audio, measured timing, actual AV seam, image rights and independent reviewer all UNVERIFIED. Official production/approval NOT STARTED.
 
 ## 05m — 606-word documentary Long; RECOMMENDATION
 
@@ -64,17 +66,17 @@ Story map: evolution dispute (which trait first) → 1912 skull/jaw reconstructa
 | Complete EN and semantic RU; author comparison | PASS self-check | PASS self-check | PASS self-check |
 | Claims in common plot verified against NHM and peer-reviewed 2016 study | PASS self-check (limits flagged) | PASS self-check (limits flagged) | UNVERIFIED for extra Taung causal framing; otherwise author checked |
 | Channel editorial format | Short proposed; exact runtime/voice UNVERIFIED | Long proposed, capability/profile to check in local host | Long proposed, production pending |
-| Short spoken semantic loop | Tentative author PASS, needs external listener | N_A | N_A |
+| Short spoken semantic loop | Author semantic continuity tentative only; full independent two-cycle and AV test UNVERIFIED | N_A | N_A |
 | Actual voice duration, audio quality, AV seam, final image quality | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 | Rights for images, logos, source media; actual reference bytes | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 | Independent reviewer on **exact SHA256** | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 | Official runtime script gate/approval | NOT STARTED | NOT STARTED | NOT STARTED |
 
-Two author-level editorial passes at most; here initial drafting and a self-read, no claims of two independent passes. A new hash must receive a new review.
+This revision includes two author-level complete-reading passes of EN and RU; no claim of independent reviewer, measured timing or MP4. A new hash must receive a new review.
 
 ## Incremental value and decision
 
-**2→5:** new necessary consequences: why pieces seemed compatible, why criticism failed to displace them, significance of second site, 1949 intermediate result, 1953 physical proof, and 2016 matching evidence. More than padding. **5→10:** detailed comparative-dating method, early evolution debate, additional objects and CT repairs. Adds background, but also repetition and an extra sourcing weakness; not enough viewer value to prefer 10.
+**2→5:** the revised 02m already shows that the second site appeared to answer critics and later exposed repeated preparation. The 05m still earns its extra time by explaining why the bone colours/traits seemed compatible, how the claim gained authority, what the 1949 chemistry could and could not decide, and how 1953/2016 tests changed the verdict. Not padding. **5→10:** detailed comparative-dating method, early evolution debate, additional objects and CT repairs. Adds background, but also repetition and an extra sourcing weakness; not enough viewer value to prefer 10.
 
 **Recommend 05m EN** (SHA256 `11d89c9d56315e8b814fd52b7d0dde3624dd63d17b493ab13ccba0c848790eb3`) with full RU counterpart `e824...`, for subsequent **independent reading, registration and script approval**, not direct production. This is an editorial preference, not owner approval. Actual duration may differ.
 

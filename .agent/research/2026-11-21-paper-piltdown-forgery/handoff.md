@@ -14,7 +14,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Variant | English SHA256 | Русский SHA256 |
 |---|---|---|
-| 02m | `4273339bb43a74e7909a1eb428257c2ad9d3b1d17631765e75cf944080f8d582` | `720220f2278e3273c777b2ca79dd6ac618ef487f3a0080f19c93c96d27bbf181` |
+| 02m | `46fe0499d1673afb7deb06eafae855265c73e4c76eeebf275fcec26908421bac` | `35992ebabeb14a99bf7222b05bd2008d5925c63a4655839640d0c14838442321` |
 | 05m | `11d89c9d56315e8b814fd52b7d0dde3624dd63d17b493ab13ccba0c848790eb3` | `e8246860ca72a1da0dc05fc77e850a0a8aaf9bef376bd7850b475ee6fbe50563` |
 | 10m | `15561cb37905cbef61c18f2334e9cb4d59c8a10b6dda165683bc496a3cd194fa` | `b831ed3140709907068f5411a739b635ecf42860a06a7dd30b3cd675f6f60867` |
 
@@ -28,3 +28,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 6. Actual TTS/playback, AV loop (if 02m chosen), next-video end-screen link, archive rights, and exact CI status each remain independent checks. No TTS, imagegen, video provider, MP4, upload or schedule change made.
 
 **Research and ratings:** [research](research.md), [story review](story-review.md), [packaging](packaging-brief.md). Official script gate **NOT STARTED**; production **NOT AUTHORIZED**.
+
+
+## Revision log — 2026-11-22 (PR #348)
+
+**Before → after:** old 02m EN `4273339bb43a74e7909a1eb428257c2ad9d3b1d17631765e75cf944080f8d582`/RU `720220f2278e3273c777b2ca79dd6ac618ef487f3a0080f19c93c96d27bbf181` at baseline `888e8d630fca5bae6b6acd43fec7d1f534876618` → new EN `46fe0499d1673afb7deb06eafae855265c73e4c76eeebf275fcec26908421bac`/RU `35992ebabeb14a99bf7222b05bd2008d5925c63a4655839640d0c14838442321`. The prior 282-word short concluded with a generic moral and a colon-return to the filing reveal; the 276-word script now centres the apparent independent second find and its reversal in 2016, preserving caveats about Dawson. Exact new remote HEAD and check status are recorded in the PR progress comment, not invented here. The unchanged 05m (recommended) and 10m remain separate full English/Russian stories. All old reviewer/AV/scene evidence for changed 02m would be invalid; no independent reviewer or media exists for this new hash. Next: independent blind first reading, source-check exact claims, EN/RU two-cycle/AV validation if selected, measured duration, register a real run with canonical pins on supported host, then owner approval. No production, merge or policy change.
