@@ -333,6 +333,37 @@ class WorkflowContract(unittest.TestCase):
             self.service.claim(self.run_id, "packaging", "b", estimated_units=4)
         self.assertEqual(self.store.get(self.run_id)["budget"]["reserved"], 7)
 
+    def test_audio_allowance_is_audited_idempotent_and_task_scoped(self):
+        self.production_ready()
+        run = self.store.get(self.run_id)
+        source = "conversation:user-audio-budget"
+        result = self.service.set_audio_allowance(self.run_id, 2000, expected_version=run["version"],
+                                                  source=source, message="Allow 2000 credits for audio")
+        self.assertFalse(result["duplicate"])
+        repeat = self.service.set_audio_allowance(self.run_id, 2000, expected_version=run["version"],
+                                                  source=source, message="Allow 2000 credits for audio")
+        self.assertTrue(repeat["duplicate"])
+        with self.assertRaises(Conflict):
+            self.service.set_audio_allowance(self.run_id, 3000, expected_version=result["version"],
+                                             source=source, message="Allow 3000 credits for audio")
+        with self.assertRaisesRegex(WorkflowError, "budget"):
+            self.service.claim(self.run_id, "packaging", "other", estimated_units=11)
+        with self.assertRaisesRegex(WorkflowError, "budget"):
+            self.service.claim(self.run_id, "audio", "over", estimated_units=2011)
+        self.service.claim(self.run_id, "audio", "voice", estimated_units=2000)
+        self.assertEqual(self.store.get(self.run_id)["budget"]["reserved"], 2000)
+        self.assertEqual(sum(event["kind"] == "budget.audio_allowance" for event in self.store.events(self.run_id)), 1)
+
+    def test_audio_allowance_rejects_stale_or_running_state(self):
+        self.production_ready()
+        version = self.store.get(self.run_id)["version"]
+        with self.assertRaises(Conflict):
+            self.service.set_audio_allowance(self.run_id, 5, expected_version=version - 1, source="stale", message="yes")
+        self.service.claim(self.run_id, "audio", "voice", estimated_units=5)
+        with self.assertRaisesRegex(Conflict, "lease"):
+            self.service.set_audio_allowance(self.run_id, 5, expected_version=self.store.get(self.run_id)["version"],
+                                             source="running", message="yes")
+
     def test_expired_external_lease_is_unknown_not_retried(self):
         self.production_ready()
         claim = self.service.claim(self.run_id, "audio", "worker", lease_seconds=30, estimated_units=2)
