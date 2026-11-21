@@ -19,3 +19,7 @@ Packaging check: first line confirms store location/date, following beats pay of
 - **10m:** same story, with a fuller trace of construction changes, rooftop movement and documented rescue phases; do not imply archival footage or a verified precise structural animation. [EN](variants/10m/script.en.txt), [RU](variants/10m/script.ru.txt).
 
 No thumbnail/image generation. Existing titles and the old 37-scene storyboard are baseline concepts, not approved variant-specific assets. Final packaging and timed promises depend on one exact chosen master and actual audiovisual checks.
+
+## 2026-11-21 duration-specific update
+
+10m r2 presents *two distinct rescue mechanisms*: a pipe reaches a group in the basement, then an excavator operator spots Choi and rescuers cut concrete and bars to reach him, followed by Park's final rescue and date question. The 05m story is still editorially recommended because it reaches that payoff with fewer structural explanations. All packaging remains a proposal; do not inherit the source storyboard or announce a second production.
