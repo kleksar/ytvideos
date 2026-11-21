@@ -1,3 +1,11 @@
+# Current 2026-11-21 transfer note for 10m (PR #82)
+
+Baseline `260dbc4f8a829da0695e65afa948869093025767` → exact proposed current 10m EN `71105f99b5b76b9be9eb5e4c0a9f0d99c54eb4a25ba90f9a0918118cf47d7261`, RU `27b64682fbfb57d12f12b734830435cb2e6b870c87873a8c77e92ceedc7d60da`; full files at `variants/10m/script.en.txt` and `variants/10m/script.ru.txt`. The new 10m replaces abstract liquidity repeats with a second sourced action chain in 1907; old 10m evidence and storyboard associations are STALE. 02m/05m/root manuscript and root storyboard protected. Recommendation remains 05m Long, not approval. **EDITORIAL_CANDIDATE_UNREGISTERED / UNVERIFIED**.
+
+Only the owner-selected exact script may be registered into official existing run/pinned context; use status/resume first and explicit migration if relevant, independent unprimed first-listener plus bilingual review and original receipt, then owner approval and new version/hash-bound storyboard. No media/TTS/render/YouTube work is authorized.
+
+---
+
 EDITORIAL_CANDIDATE_UNREGISTERED; original Git-only PR branch retained.
 
 # Transfer — Giannini 1906: exact three variants
