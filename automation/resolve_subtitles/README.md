@@ -153,7 +153,12 @@ word of a production episode. No production project content was modified or expo
 
 Before acceptance: inspect exact cue starts/ends/text, preserved VO and picture, visible
 safe area and no double captions; play early/middle/late, pause/resume and shot joins in
-Resolve. Save/reopen and repeat relevant readback. For separate selectable captions,
+Resolve. Read back the actual editable Text+ composition and inspect the native
+compositor at the title's first, middle and last frames and just before/on/after
+cue boundaries. If a per-word highlight overlay duplicates or misaligns glyphs,
+reject it: use one inline character style in the editable text, or the approved
+unhighlighted base only. Do not stack duplicate titles to simulate a highlight.
+Save/reopen and repeat relevant readback. For separate selectable captions,
 round-trip a timed SRT and follow the shared delivery workflow; MP4 upload is not CC
 transport. Use native Resolve review/delivery only, and never publish for a caption test.
 
