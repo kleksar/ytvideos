@@ -1,3 +1,38 @@
+## 2026-11-21 — revised 10m exact-text evaluation, existing PR #30
+
+**Current baseline:** `f2aab6387589f0e766d34d4a8078d505e898ca93`; **changed** `variants/10m/script.en.txt` and `variants/10m/script.ru.txt` only as narration, with supporting research/review/handoff/packaging. The original root scripts and root 14-scene storyboard remain archived untouched. 02m and 05m still have the same hashes. New 10m has no independent reviewer/receipt and **no owner approval**. Git-only status **EDITORIAL_CANDIDATE_UNREGISTERED**.
+
+| Length | Full EN | Full RU | EN/RU words | Exact SHA-256 EN / RU | Decision |
+|---|---|---|---:|---|---|
+| 02m Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 243 / 205 | `03619fac6e367a984fa63ed41c95389fbe4fd46a5f21b7e62144989dc232e504` / `4ef991280facce9041e2954d8bf04a12b6ba80f20b30b2c60bcc9e35c0e05296` | Strong compact story; textual loop not independently tested |
+| **05m Long** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | 665 / 560 | `d8de23c626173a4b62f2f2decdb02a4d27ecae0049c2ecb62ae3d855b0b8d9c9` / `58ea1097ab7886e4ea0adb48dbeb52b15b9f63200fa7e8f37d0141baf8018d9b` | **Provisionally recommended; unchanged** |
+| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1406 / 1154 | `6d4467782be4a0556edc323ae1adaab1796e66ca3e990b43cc5508b6062d6527` / `64cedf33227b59e970bd70e7344710630f9005ad83a5861af472d2f3e0bf5719` | **Rewritten**, editorial author check only |
+
+**Before → after:** previous 10m, EN `d63490b478db0dd7669fc7e45e3c5ee252e94ddcb41ac9efc12c230553b01e0c`, RU `f7e38a25e845cc4c431725f36079434a516dde451345d2ccdb575cbbf1faaebc`, repeated educational messaging and the same cleanups-after-cave explanation. The revised story adds a verifiable first cave clue *above the group*, physical handsets found beneath boulders, and director Boileau's on-site report about uncertainty. The final cleanups are correctly dated to 2019 rather than assuming ongoing sightings through 2026. No fabricated dialogue, emotions or exact ship details. Source-specific ledger: [research](research.md).
+
+**Full 10m story map:** three explicit opening questions → identifiable phone and 18 years of volunteer labor / 2018 campaign → container hypothesis without search coordinates → **main hook** Claire encounters farmer René with a surprising cave location → weather and falling tide → first visible evidence at cave roof → 23 handsets and rusting container → **reversal** essentially no remaining cargo to remove → Boileau cannot identify vessel or establish container count → continued cleaning in 2019. Last line returns to the volunteers' work, not a repeated abstract lecture.
+
+### Eight exact-10m author editorial scores (no observed retention)
+
+| Criterion | /10 | Specific support / weakness / confidence |
+|---|---:|---|
+| Interest / significance | 8 | 18 years of cleanup and 2018 count create recognisable stakes; 2019 story already public; medium |
+| First questions / opening | 8 | Where/why/stop questions answered in cave and aftermath; three questions risk longer introduction; medium |
+| Causal development / reason to stay | 8 | Failed diver lead → witness → tidal access → ceiling clue → handsets → empty container; middle still dense with names/locations; medium |
+| Payoff | 8 | Physical discovery answers where, empty container explains practical failure; final uncertainty well bounded; medium |
+| Freshness of angle | 7 | Cave-roof clue and official uncertainty sharpen familiar 2019 news; not an exclusive revelation; medium |
+| Visual expressiveness | 9 | Orange phone, disassembled parts, cave entrance roof, boulders, corroded metal and litter bags have distinct scenes; no images produced; medium |
+| Natural spoken EN/RU clarity | 8 | Direct actions replace repeated moral, but substantial official caveats near end may feel slower; text-only, medium |
+| Independently confirmed audience demand | **UNVERIFIED** | 2019 articles and social engagement do not establish comparative viewer demand, CTR or retention |
+
+**Hard checks**: both complete scripts; **27 corresponding paragraphs EN and RU** (structure checked by author, not semantic bilingual independent review); 2018 count >200, 2019-03-22 expedition, 23 handsets, old shipping vessel and possible second container explicitly unknown; 2019 cleanup only. 10m Long supported by current Paper ChannelSpec; loop N_A. Estimate: 1406 EN words at assumed 130–155 wpm ≈9.1–10.8 min before pauses, not measured TTS. Changed 10m invalidates previous 10m reviewer/timing/scene applicability; original root storyboard remains root-only. No approval inherited.
+
+**Compare full 2 → 5 → 10:** 02m gives full source and near-empty container, but compressed witness-to-cave transition. 05m adds real Claire/René encounter, delayed low tide and a strong reversal. 10m adds 2018 public campaign and official uncertainty, plus an observable first cave proof, but **after the empty-container reversal** its official caveats remain the main probable interest drop. Recommend **05m**, subject to genuinely blind listener/bilingual checks; 02m could win if short pacing is preferred. Not approval or permission to make three videos.
+
+**Missing / UNVERIFIED:** independent first listener and bilingual reviewer on exact hashes (no accessible independent session/receipt), measured VO, genuine 02m AV seam, new storyboard and spans bound to selected master/hash, exact runtime pins/import, owner choice/approval, audience results. Do not invent reviewer outputs, runtime IDs or provider evidence. Next story backlog remains open. No merge or production.
+
+---
+
 
 ## 2026-11-20 — substantive 05m revision, verified Git-only candidate
 

@@ -1,3 +1,18 @@
+## 2026-11-21 — extra fact evidence for revised 10m EN/RU (#30)
+
+New event-level checks replacing explanatory repetitions in the 10m variant. All three variants still share this one research ledger. These are contemporary 2019 firsthand-interview reports, **not** newly discovered source footage, a shipping manifest or a present-day 2026 beach survey.
+
+| Claim | Source (publication date) | Confidence and boundary |
+|---|---|---|
+| Ar Viltansoù used Garfield in a **2018 campaign** against marine litter, while continuing regular cleanups; >200 fragments counted in 2018 | [ITV News, 2019-03-29](https://www.itv.com/news/2019-03-29/washed-up-garfield-phones-mystery-solved-in-france-by-farmer-after-35-years); [Atlas Obscura, 2019-03-28, Claire interview](https://www.atlasobscura.com/articles/garfield-phone-beach) | High on reported 2018 campaign and count; not an independently measured 2026 trend |
+| The first **physical cue at the cave entrance** was a Garfield phone lodged in rock above the team; farther in were damaged metal/container remains and 23 complete handsets among boulders | [Guardian, 2019-03-29, participant account](https://www.theguardian.com/world/2019/mar/29/garfield-phone-mystery-solved-in-brittany-35-years-later); [AFP/CBS News, 2019-03-29](https://www.cbsnews.com/news/garfield-phones-mystery-devices-washing-up-on-beaches-france/) | Medium-high; action reconstructed from direct participant reporting, not exact independently measured locations of every part |
+| Marine-park director **Fabien Boileau visited the cave**, said ship and whether one or multiple lost containers remained unknown | [Guardian, 2019-03-29](https://www.theguardian.com/world/2019/mar/29/garfield-phone-mystery-solved-in-brittany-35-years-later); [AFP/Euronews, 2019-03-29](https://www.euronews.com/2019/03/29/locals-solve-mystery-of-garfield-phones-washing-up-on-french-beach-for-30-years) | High on attributed uncertainty; a second container remains hypothetical |
+| Claire described still finding pieces on cleanup **after the March 2019 discovery** | [Washington Post interview syndicated by Independent, 2019-03-30](https://www.independent.co.uk/news/world/europe/garfield-phones-mystery-beach-france-plastic-pollution-a8846786.html) | High on immediate 2019 aftermath only; unverified later frequency and current demand |
+
+The old 10m post-cave overview repeated the consequence of dispersed plastic. Revised narration follows action → evidence → new question: 2018 campaign/collection → failed location search → René's remembered cave → low-tide entry → orange object in roof → 23 physical handsets → mostly emptied shipment → marine-park assessment → still-cleaned beaches in 2019. Preserve uncertainties: no exact ship, date, original inventory, unique source, human thoughts or dialogue. This revision is editorial only; no visual/audio claims.
+
+---
+
 
 ## 2026-11-20 — 05m witness-to-cave causal revision
 

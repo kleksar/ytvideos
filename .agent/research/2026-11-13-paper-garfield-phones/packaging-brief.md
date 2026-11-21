@@ -1,3 +1,11 @@
+## 2026-11-21 — new 10m visual intent / exact script binding
+
+Full 10m EN SHA-256 `6d4467782be4a0556edc323ae1adaab1796e66ca3e990b43cc5508b6062d6527`; RU `64cedf33227b59e970bd70e7344710630f9005ad83a5861af472d2f3e0bf5719`. This is a written future staging note only, not a new storyboard or render. Distinct visual actions for a later Astra storyboard: (1) recognisable wired orange phone plus cleanup fragments, 2018 campaign; (2) unanswered undersea-container search; (3) René remembers a sea cave; (4) restricted low tide/rocks; (5) a phone in cave entrance **roof** as first physical cue; (6) rusted cargo remains and 23 handsets wedged among boulders; (7) mostly emptied contents, marine-park director's qualified uncertainty, real 2019 continuing cleanup. DO NOT imply one confirmed ship, one confirmed container for every fragment, present-day continued sightings, or full cargo recovery. No old S001–S014 spans/visual claims transfer; scenes follow selected exact text.
+
+**Preferred 05m** unchanged, thumbnail concept still a hypothesis, no rights/asset/CTR claims.
+
+---
+
 ## 2026-11-20 — 05m packaging script binding
 
 The provisional 05m title and Garfield-on-beach/cave thumbnail concept still refer to the same verified story. New proposed Long EN SHA-256 `d8de23c626173a4b62f2f2decdb02a4d27ecae0049c2ecb62ae3d855b0b8d9c9` (RU `58ea1097ab7886e4ea0adb48dbeb52b15b9f63200fa7e8f37d0141baf8018d9b`). Visual intent must include the concrete coastal cleanup encounter with René, the undersea-search assumption versus cave lead, weather/tide access, 23 complete handsets and the nearly empty container; old S001–S014 storyboard remains **root-only**. No thumbnail, storyboard or CTR claim produced.

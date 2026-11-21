@@ -1,3 +1,19 @@
+## 2026-11-21 — substantive revision to 10m EN/RU (PR #30)
+
+**Git-only editorial candidate:** `EDITORIAL_CANDIDATE_UNREGISTERED`. One Garfield-phone story, three complete separate durations, original root scripts and 14-scene storyboard preserved. Main canonical editorial applies; no independent reviewer, runtime gate, owner approval or media.
+
+| Duration | Complete texts | EN words | Editorial decision |
+|---|---|---:|---|
+| 02m Short | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | 243 | Unchanged; text loop author-only, AV UNVERIFIED |
+| **05m Long** | **[RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt)** | **665** | **Unchanged, provisionally recommended** |
+| 10m Long | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | **1406** | **Substantively rewritten, no independent receipt** |
+
+**Change:** 10m lost repetitive post-discovery lecture. Physical cause chain now includes 2018 cleanup campaign, the diver-search failure, first Garfield phone lodged in the cave roof, 23 handsets by the boulders, depleted container, marine-park director's confirmation of remaining uncertainty and 2019-only continued cleanup. The latter does not assert 2026 arrivals. [Research](research.md) records sourced detail; [story-review](story-review.md) records story maps, eight per-version criteria, compare and hashes.
+
+**Baseline HEAD:** `f2aab6387589f0e766d34d4a8078d505e898ca93`; current exact 10m EN SHA-256 `6d4467782be4a0556edc323ae1adaab1796e66ca3e990b43cc5508b6062d6527`, RU SHA-256 `64cedf33227b59e970bd70e7344710630f9005ad83a5861af472d2f3e0bf5719`. New 10m visual plan/timings and any independent review must bind to the new hash, not the original storyboard. 05m remains preferable because it reaches the cave and decisive empty-container reversal sooner. Reviewer, TTS, AV and audience demand UNVERIFIED. No merge, script approval or production.
+
+---
+
 ## 2026-11-20 — 05m substantive witness-encounter revision
 
 **EDITORIAL_CANDIDATE_UNREGISTERED.** The 05m EN/RU scripts now follow Claire's real beach-work meeting with farmer René Morvan (reported while removing stranded dolphins), replacing the loose press → arrival shortcut. This changes the causal spine from a generic lead to a witnessed human action, ties diver-search failure to the previously unseen cave, and retains the partial payoff: 23 complete handsets but an already depleted container.

@@ -1,3 +1,11 @@
+## 2026-11-21 — revised 10m text, transfer only
+
+**EDITORIAL_CANDIDATE_UNREGISTERED**, not `awaiting_script_approval`. 10m full [EN](variants/10m/script.en.txt) SHA-256 `6d4467782be4a0556edc323ae1adaab1796e66ca3e990b43cc5508b6062d6527` (1406 words), full [RU](variants/10m/script.ru.txt) `64cedf33227b59e970bd70e7344710630f9005ad83a5861af472d2f3e0bf5719` (1154 words), revised from `f2aab6387589f0e766d34d4a8078d505e898ca93`. Shared research evidence adds 2018 campaign, the cave-roof first clue, 23 complete handsets, park director's on-site qualification and 2019 cleanup after discovery. Full 02m and 05m are preserved. **05m provisionally recommended**, not selected/approved by owner.
+
+Existing root 14-shot storyboard still covers only archival root narration; all new 10m spans, visual intent, VO timing and review require fresh hash-bound work if selected. No asset or runtime migration. Before any official transfer, inspect real saved run and pinned context in local runtime; choose *one* exact text, attach genuine evidence, obtain independent blind first-listener/bilingual review and explicit owner approval. Current Git-only editor cannot verify actual live runtime, reviewer session or production. Do not silently change pinned outputs.
+
+---
+
 ## 2026-11-20 — revised 05m exact handoff
 
 Status `EDITORIAL_CANDIDATE_UNREGISTERED`, not `awaiting_script_approval`; **do not** use old 05m evidence/review for this new text. Full EN [05m](variants/05m/script.en.txt) `d8de23c626173a4b62f2f2decdb02a4d27ecae0049c2ecb62ae3d855b0b8d9c9`, full RU [05m](variants/05m/script.ru.txt) `58ea1097ab7886e4ea0adb48dbeb52b15b9f63200fa7e8f37d0141baf8018d9b`; EN/RU words 665/560. [02m](variants/02m/script.en.txt) and [10m](variants/10m/script.en.txt) are unchanged; their 2026-11-18 hashes remain valid. Editorial recommendation: 05m. New event: Claire encountered René during coastal dolphin work, a confirmed firsthand interview detail; still no claimed ship/date/complete cargo size.
