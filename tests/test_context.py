@@ -68,6 +68,31 @@ class ConfiguredRecipeTests(unittest.TestCase):
                         self.assertNotIn(path, snapshot["routes"][stage])
                     self.assertEqual(snapshot["documents"][path]["text"], (root / path).read_text())
 
+    def test_illustrated_storyboard_and_thumbnail_brief_requirements_are_pinned(self):
+        from ytvideos.context import validate_reference_routes
+        root = Path(__file__).resolve().parents[1]
+        profile = json.loads((root / "channels/nuviko_history/channel.json").read_text())
+        storyboard = ".agents/skills/ytv-produce-video/references/storyboard.md"
+        evidence = ("docs/research/thumbnail-evidence.md", "docs/research/thumbnail-practitioner-notes.md")
+        for form in ("short", "long"):
+            snapshot = snapshot_references(root, profile, form)
+            for route in ("storyboard", "scene_image"):
+                self.assertIn(storyboard, snapshot["routes"][route])
+            for route in ("packaging", "thumbnail"):
+                for path in evidence:
+                    self.assertIn(path, snapshot["routes"][route])
+                    self.assertEqual(snapshot["documents"][path]["text"], (root / path).read_text())
+            self.assertNotIn(storyboard, snapshot["routes"]["thumbnail"])
+            for path in (storyboard, *evidence):
+                self.assertEqual(snapshot["documents"][path]["text"], (root / path).read_text())
+            for route, missing in (("storyboard", storyboard), ("scene_image", storyboard),
+                                   ("packaging", evidence[0]), ("thumbnail", evidence[1])):
+                altered = json.loads(json.dumps(snapshot))
+                altered["routes"][route].remove(missing)
+                with self.subTest(format=form, route=route), self.assertRaisesRegex(
+                        WorkflowError, "explicit migration must supply"):
+                    validate_reference_routes(altered, profile, form)
+
     def test_history_packets_include_the_visual_identity_and_caption_rules(self):
         root = Path(__file__).resolve().parents[1]
         profile = json.loads((root / "channels/nuviko_history/channel.json").read_text())
