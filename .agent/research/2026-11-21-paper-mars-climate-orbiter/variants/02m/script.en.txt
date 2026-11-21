@@ -1,19 +1,13 @@
-A NASA spacecraft went behind Mars exactly as planned. Twenty minutes later, it still hadn't come back.
+The radio signal from NASA's Mars Climate Orbiter vanished 49 seconds earlier than predicted. Mars was supposed to block the signal during arrival. But the spacecraft never called back.
 
-In September 1999, Mars Climate Orbiter was reaching the end of a nine-month trip. Its job was to watch Martian weather and help relay messages from a lander.
+Nine months earlier, the probe left Earth to study Mars's weather. Now it had reached the planet, and its main engine appeared to be working. So why didn't it enter orbit?
 
-To enter orbit, it fired its engine and passed behind the planet. Losing the radio signal was normal. Failing to get it back wasn't.
+One solar panel stuck out to the side. Sunlight slowly twisted the probe, and small thrusters fired to keep it pointed correctly. They fired far more often than navigators expected. Every firing also nudged its path.
 
-The spacecraft had been making tiny steering adjustments throughout the trip. One solar panel stuck out to the side, so sunlight slowly disturbed its orientation. Small thruster firings corrected that movement.
+Engineers in Colorado logged those tiny pushes. Navigators in California used the numbers to calculate the route. But one ground program wrote them in pound-force seconds, while the next expected newton-seconds. The difference was a factor of about 4.45. The model treated every push as weaker than it really was.
 
-Engineers in Colorado sent information about those firings to navigators in California. The navigators expected the figures in newton-seconds, a metric measure of a push. Instead, the ground software supplied pound-force seconds. A pound-force is about 4.45 newtons.
+There had been warnings. Tracking observations and predicted positions disagreed during the journey. Near Mars, different navigation calculations pointed to different approach heights. The differences remained unresolved. A final course correction was discussed, but the preparations were not ready.
 
-The numbers looked like numbers. But without the right unit, the navigation calculations underestimated those tiny pushes. Over months, the predicted route drifted away from the real one.
+After contact was lost, investigators corrected the force data. They reconstructed a closest pass of roughly 57 kilometres, against a planned 226. They couldn't see whether the probe burned up or escaped into space. They only knew it was gone.
 
-There had been differences between the navigation estimates. They were noticed, but not resolved before arrival.
-
-The signal disappeared behind Mars earlier than expected. It never returned. Afterward, investigators reconstructed a closest approach of roughly 57 kilometres, far below the intended safe path. The spacecraft was lost; nobody watched its exact final moments.
-
-NASA's finding wasn't just that someone had mixed up units. The interface specified the correct units. The checks and communication that should have caught the mismatch failed too.
-
-The final radio silence looked ordinary at first. That was the cruel part of the mistake: the last thing operators saw was the spacecraft doing exactly what it had been told to do — disappearing behind Mars.
+The wrong unit was the root error. Failed checks and unresolved warnings let it reach Mars. And the final clue arrived during what was supposed to be an ordinary radio blackout.
