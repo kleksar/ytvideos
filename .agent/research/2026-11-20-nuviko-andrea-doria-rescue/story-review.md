@@ -10,8 +10,8 @@
 | [02m/ru](variants/02m/script.ru.txt) | 246 | `97bc67f458435f17530070c2f2e9cf7dfc9b106543bafa6d46e1a9dc19987466` | `6563f383c6465bb656cbac73d56d6a9222860dfd` |
 | [05m/en](variants/05m/script.en.txt) | 747 | `a433d39e339d921277754ec4439557aab5704f4e8ff0db821a1e5f94b4502ce1` | `23e16f0d689f851a8e9eedbd02e8d5273181a2b6` |
 | [05m/ru](variants/05m/script.ru.txt) | 625 | `9339642d4d9d0ea1d0f07721f502c9abfd3fc92981eda7c5d32186e9c17d9911` | `7ee77aa1dad083c18d60247e3d22922f81986f8e` |
-| [10m/en](variants/10m/script.en.txt) | 1677 | `a69c9fffb4c489107c3109539c021ee34f0b8031017b77f3640771089d231496` | `GIT_BLOB_EN_PLACEHOLDER` |
-| [10m/ru](variants/10m/script.ru.txt) | 1419 | `cb3fbac05f0f3b1059409b1e20c58f7a37db5ed94727a6b2cbfbd98c1bbfea5d` | `GIT_BLOB_RU_PLACEHOLDER` |
+| [10m/en](variants/10m/script.en.txt) | 1677 | `a69c9fffb4c489107c3109539c021ee34f0b8031017b77f3640771089d231496` | `274c43b8cc5bdf6bb173d186a270ab05158b29ab` |
+| [10m/ru](variants/10m/script.ru.txt) | 1421 | `cb3fbac05f0f3b1059409b1e20c58f7a37db5ed94727a6b2cbfbd98c1bbfea5d` | `40d3bde1d724418c1baa5146fd5e482a99c1c96e` |
 
 Duration is only an **estimate**. Assumption EN voice ≈140–170 audible words/min at configured speed, plus ≈3–25s pauses, no TTS or audio verification. **02m** 295 EN words ≈1:47–2:22; **05m** 747 EN words ≈4:27–5:46; **10m** 1677 EN words ≈10:00–12:25 (illustrative rates only; no TTS). Format: 02m proposed Short 9:16 (loop mandatory); 05m/10m Nuviko Long 16:9 and 10s endscreen after editorial story. Actual TTS length, script timing and AV scene seam **UNVERIFIED**. Do not alter voice 1.10× to force a target. RU full meaningful review translations not a second TTS master.
 
