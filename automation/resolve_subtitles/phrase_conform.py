@@ -113,13 +113,19 @@ def plan(request, base, *, timing_only=False):
             "need a review-required word map bound to this final WAV and exact transcript")
     aligned = alignment.get("words")
     require(isinstance(aligned, list) and len(aligned) == len(tokens), "word count mismatch")
-    intervals, previous = [], Fraction(0)
+    intervals, timing_flags, previous = [], [], Fraction(0)
     for index, (row, token) in enumerate(zip(aligned, tokens), 1):
         display = token.translate(_QUOTES)
         require(display and isinstance(row, dict) and row.get("text") == display,
                 f"exact alignment token mismatch at word {index}")
         start, stop = (exact_number(row.get(key)) for key in ("start", "end"))
         require(previous <= start < stop <= duration, f"invalid source timing at word {index}")
+        score = None if row.get("score") is None else exact_number(row["score"])
+        require(score is None or 0 <= score <= 1, f"invalid confidence at word {index}")
+        if score is None or score < Fraction(4, 5):
+            reason = "missing confidence" if score is None else "confidence below 0.80"
+            require(timing_only, f"{reason} at word {index}; review alignment")
+            timing_flags.append(dict(word_index=index, reason=reason))
         intervals.append((start, stop))
         previous = stop
     rows = request["phrases"]
@@ -150,6 +156,11 @@ def plan(request, base, *, timing_only=False):
                     f"title {title_id} does not match the next exact phrase span")
             words = [dict(text=tokens[k], start=begin + round_frame(intervals[k][0], fps),
                           end=begin + round_frame(intervals[k][1], fps)) for k in range(at, through)]
+            for source_index, word in enumerate(words, at + 1):
+                if word["start"] == word["end"]:
+                    reason = "word collapses at target frame rate"
+                    require(timing_only, f"{reason} at word {source_index}; review alignment")
+                    timing_flags.append(dict(word_index=source_index, reason=reason))
             a, b = words[0]["start"], words[-1]["end"]
             require(origin <= a < b <= end, f"title {title_id} collapsed or exceeded record")
             require(not titles or titles[-1]["end"] <= a, "quantized titles overlap")
@@ -175,7 +186,7 @@ def plan(request, base, *, timing_only=False):
                 fps=str(fps), origin_frame=origin, end_frame=end,
                 audio=dict(path=str(audio_path), sha256=audio["sha256"], start=begin),
                 transcript_sha256=transcript_sha, alignment_sha256=hashlib.sha256(alignment_bytes).hexdigest(),
-                missing_art=missing, shots=shots, titles=titles,
+                missing_art=missing, timing_flags=timing_flags, shots=shots, titles=titles,
                 initial_picture_lead_frames=titles[0]["start"] - origin)
 
 

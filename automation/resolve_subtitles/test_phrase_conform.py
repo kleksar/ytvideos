@@ -22,7 +22,7 @@ class PhraseConformTest(unittest.TestCase):
         self.audio_sha = sha256(self.base / "conformed.wav")
         self.alignment = dict(status="REVIEW_REQUIRED", audio_sha256=self.audio_sha,
                               transcript_sha256=hashlib.sha256(self.text.encode()).hexdigest(),
-                              words=[dict(text=t, start=a, end=b) for t, a, b in [
+                              words=[dict(text=t, start=a, end=b, score="0.9") for t, a, b in [
                                   ("Keep", "0.15", "0.27"), ("clear.", "0.27", "0.5"),
                                   ("All", "0.95", "1.05"), ("good.", "1.05", "1.6")]])
         self.write_alignment()
@@ -56,6 +56,21 @@ class PhraseConformTest(unittest.TestCase):
         self.assertEqual(out["status"], "TIMING_ONLY")
         self.assertEqual(out["missing_art"], ["S1"])
         self.assertNotIn("asset_path", out["shots"][0])
+
+    def test_confidence_fails_closed_except_diagnostic_timing_only(self):
+        self.alignment["words"][0]["score"] = "0.79"
+        self.alignment["words"][1].pop("score")
+        self.write_alignment()
+        with self.assertRaisesRegex(ValueError, "confidence below 0.80 at word 1"):
+            plan(self.req, self.base)
+        out = plan(self.req, self.base, timing_only=True)
+        self.assertEqual(out["timing_flags"], [
+            {"word_index": 1, "reason": "confidence below 0.80"},
+            {"word_index": 2, "reason": "missing confidence"}])
+        self.alignment["words"][1]["score"] = "1.1"
+        self.write_alignment()
+        with self.assertRaisesRegex(ValueError, "invalid confidence at word 2"):
+            plan(self.req, self.base, timing_only=True)
 
     def test_stale_audio_even_if_altered_wav_is_present(self):
         self.alignment["audio_sha256"] = "0" * 64
@@ -107,6 +122,16 @@ class PhraseConformTest(unittest.TestCase):
         self.req["fps"] = "29.97"
         with self.assertRaisesRegex(ValueError, "fps requires"):
             plan(self.req, self.base)
+
+    def test_subframe_word_is_only_available_for_diagnosis(self):
+        self.alignment["words"][0]["start"] = "0.001"
+        self.alignment["words"][0]["end"] = "0.010"
+        self.write_alignment()
+        with self.assertRaisesRegex(ValueError, "word collapses at target frame rate"):
+            plan(self.req, self.base)
+        out = plan(self.req, self.base, timing_only=True)
+        self.assertEqual(out["timing_flags"], [
+            {"word_index": 1, "reason": "word collapses at target frame rate"}])
 
     def test_cli_preserves_existing_output(self):
         request = self.base / "request.json"

@@ -209,7 +209,7 @@ For a new cut from already approved narration, phrase breaks and stills, align t
 equivalent exact-transcript word evidence in the same format. Align after any
 pitch-preserving retime and pause edits; do not scale timestamps from the raw TTS
 or use ASR text as a replacement script. The alignment format is
-`{status:"REVIEW_REQUIRED",audio_sha256,transcript_sha256,words:[{text,start,end}]}`.
+`{status:"REVIEW_REQUIRED",audio_sha256,transcript_sha256,words:[{text,start,end,score}]}`.
 Its transcript hash is of the UTF-8 text after outer whitespace is stripped;
 quoted word forms follow the existing helper. Use your existing local model
 cache; the planner never loads a model or connects to a service.
@@ -235,10 +235,12 @@ preroll; the final picture holds to the declared end; the titles use measured
 spoken bounds and never stretch the audio or close its pauses. This describes
 individual titles for native assembly later, not a Resolve import format.
 A word whose endpoints fall on one frame cannot carry an independently
-visible highlight; review this with the chosen channel caption recipe.
+visible highlight. Normal planning refuses it; diagnostic mode flags it.
 
 Use `--timing-only` if approved stills are not yet present: missing asset
-fields are permitted and named in `missing_art`. This output is explicitly
+fields are permitted and named in `missing_art`. Missing or low (<0.80) word
+confidence is reported in `timing_flags` in that mode; normal planning refuses
+these words until alignment is reviewed. Values outside [0,1] always fail. This output is explicitly
 `TIMING_ONLY`, not for native install. Complete hash-covered output is still
 `OFFLINE_REVIEW_REQUIRED`: listen at representative word/cut onsets, check
 any local alignment drift, line breaks and style, then follow the native
