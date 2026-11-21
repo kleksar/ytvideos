@@ -12,6 +12,9 @@ from .util import digest
 
 TASK_EXECUTION_REFERENCE = ".agents/skills/ytv-start/references/task-execution.md"
 VIDEO_CLIPS_REFERENCE = ".agents/skills/ytv-produce-video/references/video-clips.md"
+STORYBOARD_REFERENCE = ".agents/skills/ytv-produce-video/references/storyboard.md"
+THUMBNAIL_RESEARCH = ["docs/research/thumbnail-evidence.md",
+                      "docs/research/thumbnail-practitioner-notes.md"]
 PREPRODUCTION_REFERENCE = "docs/operations/preproduction-contract.md"
 PREPRODUCTION_PROCEDURE = ".agents/skills/ytv-produce-video/references/preproduction.md"
 
@@ -21,9 +24,9 @@ STAGE_REFERENCES = {
                  ".agents/skills/ytv-write-script/references/hook-patterns.md"],
     "script": ["docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md",
                ".agents/skills/ytv-write-script/references/hook-patterns.md", PREPRODUCTION_REFERENCE, PREPRODUCTION_PROCEDURE],
-    "storyboard": ["docs/standards/visual.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
+    "storyboard": ["docs/standards/visual.md", STORYBOARD_REFERENCE, ".agents/skills/ytv-produce-video/references/video-clips.md",
                    ".agents/skills/ytv-produce-video/references/production-examples.md", PREPRODUCTION_REFERENCE, PREPRODUCTION_PROCEDURE],
-    "scene_image": ["docs/standards/visual.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
+    "scene_image": ["docs/standards/visual.md", STORYBOARD_REFERENCE, ".agents/skills/ytv-produce-video/references/video-clips.md",
                     ".agents/skills/ytv-produce-video/references/production-examples.md"],
     "audio": ["docs/standards/audio.md",
               ".agents/skills/ytv-produce-video/references/production-examples.md", PREPRODUCTION_REFERENCE, PREPRODUCTION_PROCEDURE],
@@ -33,7 +36,7 @@ STAGE_REFERENCES = {
     "review": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
                "docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md"],
     "packaging": ["docs/standards/release.md", "docs/standards/thumbnails.md", "docs/standards/visual.md",
-                  "docs/operations/thumbnail-contract.md", PREPRODUCTION_REFERENCE, PREPRODUCTION_PROCEDURE],
+                  "docs/operations/thumbnail-contract.md", *THUMBNAIL_RESEARCH, PREPRODUCTION_REFERENCE, PREPRODUCTION_PROCEDURE],
     "upload": ["docs/standards/release.md", "docs/standards/thumbnails.md"],
     "configure_release": ["docs/standards/release.md", "docs/standards/thumbnails.md",
                           "docs/operations/thumbnail-experiments.md"],
@@ -96,7 +99,8 @@ def task_references(task, *, profile=None, format=None, project_root=None):
     purpose = task.get("payload", {}).get("purpose", "scene") if stage == "scene_image" else None
     if stage == "scene_image" and purpose == "thumbnail":
         paths.remove(VIDEO_CLIPS_REFERENCE)
-        paths.extend(["docs/standards/thumbnails.md", "docs/operations/thumbnail-contract.md"])
+        paths.remove(STORYBOARD_REFERENCE)
+        paths.extend(["docs/standards/thumbnails.md", "docs/operations/thumbnail-contract.md", *THUMBNAIL_RESEARCH])
     # The production skill requires the accepted Shorts loop at these stages.
     if format == "short" and stage in {"storyboard", "audio", "render"}:
         paths.append("docs/standards/editorial.md")
