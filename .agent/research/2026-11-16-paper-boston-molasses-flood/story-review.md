@@ -8,7 +8,7 @@
 |---|---|---|---:|---|
 | [02m EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | `83dcc55098219d1440268f51b34d1a8e4235e087ae9fa3614cb29193ffd93dd7` | `c4b41cc55246674f55c730677f80095dce5af50459739f90d6b6b3864524cee9` | 287 / 233 | 1:46–2:11, Short 9:16 |
 | [05m EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | `b2c2ba741d0c076c4a3b134cbe3671391e5eca99fa95df932f0a78cfe8c2b1c1` | `2a9cf7285e4e89028d2e2153f7a878bc071afe7c96a39245e823b478a868f8c1` | 731 / 591 | ~4:23–5:15, Long 16:9 |
-| [10m EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | `d1180315f7198d7232d5c39d7fcf6ea6ed75681a86c916f36ff489aa51c00e9d` | `788dcc500ef195f264fa30e975d044b8b9d874e78f993ca347857ec28374cb13` | 1571 / 1251 | ~9:19–11:02, Long 16:9 |
+| [10m EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | `9c896a0b04eab3548fe845e2b2148cd2d7711b5b83d791eab73e97a707195189` | `1e31628197307e25a4d77120bb2a7b627a955dcde1a86c89e841e57049646480` | 1424 / 1130 | ~8.4–9.8 min before pauses, Long 16:9 |
 
 Estimated ranges assume 145–170 English words/minute **plus** 5–12s for pauses in 02m and modest pauses in Long; Lawrence actual 1.10× speed is channel setting, not adjusted or measured. 05m may need pauses to fill nominal 5m, **do not pad narration**. A real voice file and exact end screen are required to measure. Short 02m requires validated YouTube Short eligibility and voice timing. Long has 10s separately after conclusion, not included in narration estimate.
 
@@ -50,30 +50,38 @@ Estimated ranges assume 145–170 English words/minute **plus** 5–12s for paus
 
 **Main weakness:** two explanatory paragraphs on physics and late legal process may feel classroom-like. Final factual payoff is not just a moral: “The walls were found to be too thin...” + court negligence; final ties concrete paint and seams. Questions answered in separate steps. No Long loop required.
 
-## 10m — REWORK, complete text but weaker
+## 10m — REVISED_CANDIDATE, full new EN/RU (21 Nov 2026)
 
-| Criterion | Author score / precise support |
+**Exact content:** EN SHA-256 `9c896a0b04eab3548fe845e2b2148cd2d7711b5b83d791eab73e97a707195189` (1424 words); RU SHA-256 `1e31628197307e25a4d77120bb2a7b627a955dcde1a86c89e841e57049646480` (1130 words). Previous 10m text/hash/review are STALE; unrelated 02m/05m and root master/storyboard are byte-preserved. Review by same drafting agent only, not independent; scores are subjective estimates with moderate/low confidence, not audience measurements.
+
+| Criterion (10-point editorial estimate) | Score / evidence / deficiency |
 |---|---|
-| Interest / significance | **8** — 21 deaths, engineering failure and inequality; subject genuinely significant |
-| Opening | **8** — question on slow/fast, ignored leaks, six years of lawsuits; three substantive promises |
-| Development / continued watch | **7** — momentum through impact/cooling, but a run of reflective sentences “Industrial storage is easy to think of as...” may stall after court result |
-| Payoff | **8** — 1925 negligence, unequal burden, earlier signs; fulfilled but at risk of repeating its conclusion |
-| Angle freshness | **7** — added contextual reflections not sufficiently different from known disaster documentaries |
-| Visual expressiveness | **8** — convincing paper harbor/wave/rescue, less concrete new action in last third |
-| Naturalness/clarity | **7** — long explanatory passages about different theories; spoken cadence needs tighter editor |
-| Verified viewer interest | **UNVERIFIED** — no same-author near-age Long baseline for this exact format, no 30–90d signal |
+| Interest/significance | **8/10** — 21 dead, 150 injured, destroyed firehouse and four-month delay recovering a victim; broad historical interest is not proven audience demand |
+| Opening/promise | **8/10** — three linked questions on fluid force, years of leaks and court responsibility; technical premise may still feel formal |
+| Human line | **8/10** — Engine 31 rescue by cutting through collapsed floor, two named children, George Layhe, Cesare Nicolo; no invented testimony; survivors' inner experiences unknown |
+| Causal development | **8/10** — moving wave → cold trap → sawing through station → cleanup/last recovery → sabotage accusation → legal/steel evidence; final court section remains less kinetic |
+| Payoff/consequences | **8/10** — actual 1925 negligence finding and compensation are answers to promise; old leaking seams become evidence rather than an end-of-film moral |
+| Angle freshness | **7/10** — new factual rescue-to-court chain compared with generic syrup-wave retellings, but event is well covered elsewhere |
+| Visual expressiveness | **8/10** — tangible paper tank/firehouse/harbor fireboat/records; courtroom segment needs distinct scene design, no storyboard for new hash |
+| Oral clarity and rhythm | **8/10** — fewer abstract reflective paragraphs, more physical action and named people; actual voice listening is UNVERIFIED |
 
-**Main weakness / specific point of likely lost interest:** after “By 1925, a court-appointed auditor...” the next explanatory civic paragraphs add fewer distinct events. They are not fabricated, and the text does reach a conclusion; however 10m is not stronger simply for length. Need additional *verified* personal/legal particulars or cut to 05m — don't add dramatic inventions.
+**Separate demand evidence:** UNVERIFIED; the old public YouTube comparables cannot establish CTR/retention or forecast the channel's performance.
+
+**Story map:** question-led Long promise → 1915 warnings → 1919 rupture (main hook) → gravity and cooling → Engine 31 rescue/children's deaths → seawater cleanup and delayed finding of Cesare Nicolo → 119 lawsuits/competing sabotage claim → steel deficiency/April 1925 negligence finding → visible seams and covered stains as historical evidence. The extra 10m time now contains human action, legal conflict and consequences, not repeat commentary about infrastructure.
+
+**Checks:** three full durations and all six text files present (author structural PASS); EN/RU changed sequence and numbers agree (author reading PASS); B1–B3 and new B6–B8 fact boundaries (author source checks PASS with secondary-source caveat); Long loop N_A; measured TTS duration UNVERIFIED; independent blind EN/RU reader and new-hash review UNVERIFIED; production storyboard/scene spans for this 10m hash UNVERIFIED, original root storyboard does not apply; audience demand and runtime/owner approval UNVERIFIED.
 
 ## Final comparison and decision
 
 | Transition | Exact added value | Cost and honest verdict |
 |---|---|---|
 | 02m → **05m** | Full origin of tank and warnings, named victims, extra obstacle when wave becomes sticky, cleanup, contested sabotage explanation, multi-year legal resolution. All contribute to the same viewer question. | Slightly slower start and explanation density; **worth additional time** if independent listener agrees |
-| 05m → 10m | Industrial alcohol supply chain; careful wave reconstruction; named children, local immigrant neighborhood, competing hypotheses and limited effect on future regulation | Some repetition of why leaks mattered and reduced action after negligence finding. **Not sufficient upgrade without review and more primary records** |
+| 05m → 10m | Fire station rescue with saws, months-long last-victim recovery, harbor fireboat cleanup, 119 lawsuits and witness-based inquiry | Source-bounded new consequences, but second half shifts from rescue to courtroom; **05m remains recommended pending blind independent 05m/10m comparison** |
 
 **Recommendation: 05m** for exact EN hash `b2c2ba741d0c076c4a3b134cbe3671391e5eca99fa95df932f0a78cfe8c2b1c1`, RU hash `2a9cf7285e4e89028d2e2153f7a878bc071afe7c96a39245e823b478a868f8c1`. 02m remains a valid shorter editorial option. Recommendation is not owner approval; if cold reviewer prefers 02m, preserve that evidence and compare, do not silently switch.
 
 **Separate checks:** six complete text files **PASS** (remote read back); factual anchors B1/B2/B3/B4/B5 **PASS as bounded documentary summary**, with ambiguity about train fate intentionally avoided and science labeled reconstruction; English/Russian meaning **PASS author-only**, independent translation **UNVERIFIED**; ChannelSpec Paper **PASS for declared short/long formats**; Short loop **PASS author-text / UNVERIFIED independent/AV**, Long loop **N_A**; rights/actual style references **UNVERIFIED**; first-listener **UNVERIFIED**; audience demand **UNVERIFIED**; `ytv start`, `task_guide`, `reference_documents`, `ytv-script-review-v1`, owner script gate and approval **NOT_RUN**.
+
+**Revision 2026-11-21:** previous exact 10m blobs EN `8bc9740725fb67c9a0cfd81078b52e1e2ee3e2a7`, RU `cfdb1eba7e7ce9af3accc96e4f06bc8978865eb7`, baseline `d7bf09fbe9abc1de942ae17e6b8e0352441c5234`. New 10m EN/RU above, shared research B6–B8, no independent reviewer/approval; previous 10m author review invalidated. The 05m recommendation remains provisional because its action is denser.
 
 **Authorship/revision:** completed versions were reviewed by the author against B1–B5; one substantive 05m author revision restored documented children Maria DiStasio/Pasquale Iantosca and firefighter George Layhe (source B1) to give the middle human consequence rather than only numbers; new EN/RU hashes above replace the prior 05m pair. No independent review, no TTS recording, no claimed audience tests. No two completed independent revision cycles. If a script is modified, SHA-256, bilingual comparison, loop/review and brief bindings must be recalculated.

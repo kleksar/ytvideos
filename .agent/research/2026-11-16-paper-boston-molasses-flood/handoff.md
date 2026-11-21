@@ -11,3 +11,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED — no live project coordinator/run, pinned ins
 - Actual TTS and audio duration, visuals, media rights, AV seam and YouTube metrics remain UNVERIFIED. No provider credits, no Flow, imagegen, audio, render, upload, schedule, PR merge or channel status edits.
 
 - 05m author revision: added named victims and their community consequence (B1) to both complete language versions; commit `15ed94d68406b11c04f88cf7b20f4e54f35e916f`. Previous 05m SHA-256 pair invalidated; current hashes in story-review, any earlier editorial review/estimated timing must be treated as superseded.
+
+## 2026-11-21 — substantive 10m follow-up
+
+Baseline head `d7bf09fbe9abc1de942ae17e6b8e0352441c5234`; full 10m EN `9c896a0b04eab3548fe845e2b2148cd2d7711b5b83d791eab73e97a707195189` (1424 words), full RU `1e31628197307e25a4d77120bb2a7b627a955dcde1a86c89e841e57049646480` (1130 words). Shared research B6–B8 verifies firehouse rescue, harbor clean-up, delayed recovery and court outcome; historical claims remain qualified. Original 02m/05m, approved? **NO**; only provisional author preference for 05m, no owner script acceptance. Original root storyboard/pins retained but apply solely to original root bytes, **not** new 10m. Do not reuse old timings or review. 2/5/10 full EN+RU available via variants directory. All six remain Git-only EDITORIAL_CANDIDATE_UNREGISTERED; runtime, independent blind comparison, audio/AV, reviewer receipts and approval UNVERIFIED. #124 merged in main, not proposed anymore.
