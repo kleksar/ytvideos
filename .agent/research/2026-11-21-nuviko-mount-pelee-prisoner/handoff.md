@@ -17,10 +17,10 @@ Attempted `uv run ytv start --channel nuviko_history --format long --intent 'ะกั
 
 ## Exact artifacts
 All files are new under `.agent/research/2026-11-21-nuviko-mount-pelee-prisoner/`. Scripts are **six complete independent EN/RU narrations**, not outline expansions or concatenated master:
-- 02m: `variants/02m/script.en.txt` / `script.ru.txt` (strong premise but Short seam REWORK).
+- 02m: `variants/02m/script.en.txt` / `script.ru.txt` (revised after initial PR at exact HEAD; new outcome-first opening and refugees-to-disaster spoken seam, author text PASS provisional; independent and AV seam UNVERIFIED). Old EN/RU blobs `d759f1e78075382d606bc3ab3a8a78d4d1b75147` / `16d660be136994dac2bf45e29d6a72f52fd9ed2b` remain at baseline `2823c7744ee5d9e5a76a8de1aeb1a16a1780da4e`.
 - 05m: `variants/05m/script.en.txt` / `script.ru.txt` (editorial recommendation: narrative density, documents all central turns).
 - 10m: `variants/10m/script.en.txt` / `script.ru.txt` (complete broader Long, Roddam witness and hazard-science context; weaker focus).
-- SHA256 and Git blob SHA per text: see story-review.md. Any future text update invalidates hash-bound review/timing.
+- SHA256 and Git blob SHA per exact text: see story-review.md. The new 02m hashes require fresh independent review before any script gate. Revised EN SHA256 `ad2072ba356f19ce8a905a181b42284ae97df23a83b900d000348ab6a4829f4d`, RU SHA256 `9bb9717717ee2aa2c5b2c1505b003adc37100591c2ff0b0c9e2ed16d22b3bd00`; 05m/10m unmodified. Any future text update invalidates hash-bound review/timing.
 
 Supporting docs: `research.md` sources/funnel/YouTube limitations, `story-review.md` ratings/blocks, `packaging-brief.md`, and `README.md`. No storyboard/prompts generated yet because recommended exact script still lacks independent review (editorial says detailed storyboard **after** review).
 

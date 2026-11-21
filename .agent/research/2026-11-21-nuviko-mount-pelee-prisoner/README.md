@@ -8,11 +8,11 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Version | Full English narration | Полный русский | Editorial result |
 |---|---|---|---|
-| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | REWORK — thematic but imperfect spoken loop; not Short-ready |
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | **REVISED** — full new EN/RU, provisional author textual loop; independent/AV unverified |
 | **05m** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **STRONG_CANDIDATE — editorial recommendation, Long** |
 | 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | STRONG_CANDIDATE, Long; wider history less focused |
 
-**Why five minutes:** the city becomes a refuge, a first mudflow kills workers, a different burning ground-level cloud kills the city, stone confinement protects the prisoner, rescue brings him out, and a second survivor disproves a famous myth. Ten minutes adds captain Freeman's damaged ship, relief, renewed eruptions and science; those verified details broaden context but divide attention. Two minutes tells the full outcome but needs a stronger last→first Short seam.
+**Why five minutes:** the city becomes a refuge, a first mudflow kills workers, a different burning ground-level cloud kills the city, stone confinement protects the prisoner, rescue brings him out, and a second survivor disproves a famous myth. Ten minutes adds captain Freeman's damaged ship, relief, renewed eruptions and science; those verified details broaden context but divide attention. Revised two minutes tell the full outcome and now end with the refugees' verified choice immediately before the opening catastrophe; textual seam is provisionally stronger, but independent/AV evidence is still absent.
 
 **Evidence:** [research.md](research.md) — 12 candidates considered, 3 verified finalists, USGS/NatGeo/1902 newspaper sources, indexed comparable YouTube titles and data limits. [story-review.md](story-review.md) — 8 separate criteria per exact variant, SHA-256 all six scripts, limitations and comparison. [packaging-brief.md](packaging-brief.md) — honest title/thumbnail/first events/payoff. [handoff.md](handoff.md) — remote main and task capability blockers/transfer.
 

@@ -12,7 +12,7 @@ One physical paradox, never a false sole-survivor assertion.
 
 **Payoff:** (EN exact 05m) “That locked stone room had kept him from leaving. It also kept most of the disaster from reaching him.” The title and image must earn this—not a promise the stone cell was generally safe.
 
-**Format:** Nuviko illustrated **Long 16:9** for 05m; Short 02m is editorial REWORK pending proper seam; 10m Long allowed but lower density. Suggested end-screen 10s only once actual target video exists; no fake target elements. Native subtitles/voice specs per channel.
+**Format:** Nuviko illustrated **Long 16:9** for 05m; Revised Short 02m has an author-checked textual last→first consequence seam, but independent double cycle and actual AV are UNVERIFIED; 10m Long allowed but lower density. Suggested end-screen 10s only once actual target video exists; no fake target elements. Native subtitles/voice specs per channel.
 
 **Rights:** 1902 newspaper public-domain mark on Oregon collection applies to that page; it does NOT license third-party National Geographic photos, modern YouTube videos, enhanced/colorized archives, or art. Build original reconstructions after source-rights audit. Do not reuse frames/phrases from GeologyHub/Vanished Worlds. Text-only writing is not media clearance.
 
