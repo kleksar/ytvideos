@@ -1,0 +1,73 @@
+Eight sealed packets are sitting on my workbench. They're supposed to contain identical screws, but one packet is missing exactly one screw. I can't open any of them. I only know that seven have the same weight and one is lighter.
+
+I have a two-pan balance. How many times do I actually need to use it to locate the short packet, with a result that's certain rather than lucky?
+
+My first instinct is to divide the packets in half. Four on the left, four on the right. That's method A. Method B looks stranger: three on the left, three on the right, and two packets untouched. Which would you choose before seeing the answer?
+
+This isn't a real test of hardware-shop packaging. It's a clean logic model. The packets are identical apart from the missing screw. The balance is sensitive enough to detect that single difference, and there is exactly one underweight packet. I'll count weighings first, not make up a stopwatch result.
+
+I label my packets one through eight so I can see what each choice tells me. In this example, packet seven is the light one. I know that as the person building the model, but the version of me making the choice has to discover it from the balance.
+
+A starts with packets one through four on the left, and five through eight on the right. The right pan rises, because packet seven is on that side. Now I've eliminated packets one through four, but I still have four suspects. That first result was useful. It simply wasn't as useful as it could have been.
+
+I remove the packets and compare five and six against seven and eight. The side holding seven and eight rises. Two suspects remain. I now put seven on one pan and eight on the other. Seven rises, so seven is the packet missing a screw.
+
+A took three weighings. It wasn't a bad guess or a mistaken observation. Divide a set of eight in half, then the remaining four in half, then the last two in half, and three comparisons give a guaranteed answer.
+
+But is it a good idea to make two equally sized groups just because my scale has two pans? I reset to the original eight packets, with packet seven still the light one. I'm not moving the mistake around to change the winner.
+
+With B, I put packets one, two, and three on the left. Four, five, and six on the right. Seven and eight remain on the table.
+
+For this exact batch, the scale balances. At first it looks as if I've learned nothing: neither pan moved. But if exactly one packet is lighter, and all six packets on the balance weigh the same in matching groups of three, the lighter packet cannot be in either group.
+
+I have just cleared six suspects without identifying a bad one on either pan. That's a real result. The only possible faulty packets are seven and eight. I compare them directly. Seven rises. I have my answer in two weighings.
+
+A used three. B used two. On this particular batch, B wins. But that isn't enough to call it a better method. Maybe it only worked because I happened to leave packet seven on the table.
+
+So I'll test the branches B didn't take.
+
+Imagine packet two were the lighter one. On the first comparison, the left group of three would rise. That rules out the three on the right and both packets on the table. The light one is in packets one, two, or three.
+
+With only one weighing remaining, I compare packet one with packet two and leave packet three aside. If packet one rises, it's one. If packet two rises, it's two. If they balance, packet three is the only remaining suspect. I can identify any of the three with this one measurement.
+
+Now suppose packet five were light. The right group of three rises. I compare two packets from that right group. A lighter pan identifies the faulty one, while equal pans identify the third. The method is perfectly symmetric.
+
+And what if packet eight, rather than seven, were the light one? The first comparison balances, just as it did in my original example. Then I compare seven with eight and pick eight.
+
+That's all the possible kinds of result: left lighter, right lighter, or equal. B needs two weighings in every branch, not merely on the path I've chosen to illustrate.
+
+To see why this works, I don't actually need to memorize which packet goes on which pan. I need to notice that a two-pan balance gives me three possible messages each time. The left pan may rise. The right pan may rise. Or neither may rise.
+
+With A, I make four-versus-four groups. Because exactly one packet is light, those groups can't balance. I've arranged the experiment so the third possible message is impossible. My first weighing can only tell me left half or right half.
+
+With B, I make three-versus-three groups and leave two aside. Now all three messages mean something distinct. If the left rises, one of its three packets is light. If the right rises, one of its three is light. If the balance stays level, one of the untouched two is light.
+
+Every outcome leaves at most three suspects. One more weighing is enough to settle up to three possibilities, because the second reading also has those same three outcomes.
+
+There is a simple limit hiding in that design. With one ideal balance weighing I can distinguish at most three answers. With two weighings, each of those first answers can branch into three more. Three times three is nine.
+
+That means two weighings could even find one known lighter packet among nine, provided the other eight were truly identical. I'd put three against three and leave three aside. The first result selects one trio; the second comparison of one against one, with the third aside, identifies the light packet.
+
+What if I started with ten packets? Two weighings can produce no more than nine distinct result paths. But there are ten possible positions for the missing screw. No clever arrangement can guarantee that every possibility has a unique two-result path under this model. For ten packets I need at least three weighings.
+
+That isn't an appeal to a mysterious mathematical rule. It's a count of how many different answers the scale can physically give, and how many different packets I need to distinguish.
+
+I can also compare how much material I handle. A puts eight packets on the pans for the first weighing, four for the second, and two for the third: fourteen packet placements if I count each packet every time it's put on a pan. B puts six on for the first comparison and two for the second: eight placements. That comparison doesn't include unloading, sorting piles, reaching across the workbench, or how long a real scale takes to settle. I cannot turn fourteen and eight into measured seconds.
+
+So far B wins on both modeled weighings and placements. But before I treat it as a practical inspection method, I have to check the assumption that made the balance readings meaningful.
+
+Suppose the weight of one empty packet wrapper varies enough to hide the weight of one screw. Then a group of three with a missing screw might balance another group of three with slightly heavier packaging. My neat branching diagram would be working with a false signal.
+
+Or suppose the balance is too insensitive to show the difference. Equal pans would no longer prove that all six packets on them are good. I might throw away the correct suspect and confidently point to the wrong packet.
+
+Or suppose two packets are missing screws. Then one light packet could be on each side, producing a balance even though neither untouched packet is faulty. The entire inference from the first result breaks.
+
+And the direction matters too. I've assumed the odd packet is known to be lighter. If I only knew that one packet had a different weight, but not whether it was heavier or lighter, the raised pan would no longer automatically tell me where to search. I'd need a different decision tree.
+
+Finally, if I use a digital kitchen scale, it doesn't give me the same simple three-way comparison of two equal-size groups. It displays a mass. With accurate reference weights, it may permit other strategies. I mustn't borrow a result proved for one instrument and claim it's universal.
+
+These limits don't make the puzzle useless. They tell me exactly what I learned. When every candidate has one known type of difference, and my measurement offers three distinct outcomes, splitting candidates into thirds can extract more information per test than reflexively splitting them into halves.
+
+My recommendation for this controlled eight-packet problem is B. It always identifies the short packet in two weighings, while the specific half-and-half method A needs three. Two is also the minimum possible: one weighing has only three outcomes and can't identify one out of eight.
+
+I've answered the question without opening anything, and without claiming a real-world speed record. The most surprising part is that two packets sitting untouched were part of the measurement all along. I didn't ignore them. I designed the first weighing so balance would point straight at them.
