@@ -37,6 +37,21 @@
 | Natural narration | **8/10** — full 02m restructured around consequences; join may sound deliberate | **8/10** — original sound cues self-reviewed only | **8/10** — abstract ethical recap removed; earlier method paragraphs still explanatory |
 | Verified contemporary audience demand | **UNVERIFIED** — no Short retention/CTR | **UNVERIFIED** — no channel retention/CTR | **UNVERIFIED** — no Long retention/CTR |
 
+### Confidence and counter-evidence per criterion (author estimates; not reviewer scores)
+
+| Criterion | Confidence | 02m limitation | 05m limitation (unchanged) | 10m limitation |
+|---|---|---|---|---|
+| Significance | medium-high | Famous historical paradox; no fresh short-format demand | Source-backed but TED-Ed already covers it | Additional historical nuance may not add audience value |
+| Opening | medium | Verdict revealed early; may reduce suspense on replay | First museum paragraphs precede central wartime stake | Three questions may overpromise speed before the main transaction |
+| Development | medium | Resin + expert checks compressed into one step | Detailed painting authenticity explanation may delay main hook | Early scholarship section remains dense before the Göring turn |
+| Payoff | medium | Verbal join is a constructed causal answer, not independent listening PASS | Closes case, but downstream museum state is only one sentence | Storage/attribution true now, cannot assume present-day visitors see picture hanging |
+| Angle freshness | medium-low | Widely known TED-Ed angle; no matched YouTube comparison | Physical proof is not unique to this film | Catalog dates and storage are precise but may feel administrative |
+| Visual clarity | medium | Need paper staging, not currently storyboarded | Visual objects plausible, unvalidated reference bytes | Paint diagnostics likely hard to animate without text-heavy overlays |
+| Natural speech | medium | Ending still asks one question, potential formula risk | Some art-history terms need narration audition | Technical middle may be too academic at slow delivery |
+| Audience demand | **UNVERIFIED** | No measured CTR/retention or watched Shorts sample | No measured 5m channel baseline | No measured 10m channel baseline |
+
+The above limits are not new independent results and do not upgrade an unchecked source claim. Writer self-edit confidence on structural facts is higher than confidence about attention and natural vocal performance.
+
 **Duration comparison:** 02→05 adds a meaningful museum context, skepticism of confession and laboratory distinction; 05→10 adds detailed mechanics, archival scope and a concrete after-verdict museum correction, but the art-historical introduction can delay the core Göring-related hook. **Recommend 05m (unchanged)**: more complete than 02m without 10m's early density. This editorial judgment is neither owner approval nor a prediction of views.
 
 **Hard checks:** fact anchors catalog/photo **author source check**; structural bilingual 8/8 (02m) and 32/32 (10m) paragraph counts; independent semantic EN/RU reader **UNVERIFIED**; short full two-cycle author-check **candidate, not PASS**; real AV seam, measured TTS durations, independent reviewer exact hash, runtime registration/leases/receipts, rights, owner approval **UNVERIFIED**. 05m original hashes retained. 02m approx length before TTS, 10m approx length before TTS; do not treat target headings as measured output.
