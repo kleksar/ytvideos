@@ -1,0 +1,124 @@
+# Отбор истории: торпеда эсминца USS William D. Porter (1943)
+
+**Дата исследования:** 2026-11-13. **Канал:** Nuviko History, EN Short 9:16, **только текстовая заготовка**. **Статус канала в прочитанном `main`: frozen** — не разморожен, production run запрещён. **Статус:** авторский кандидат до одобрения текста; независимый интерес UNVERIFIED.
+
+## Результат выбора и ограничение
+
+Выбрана не «ещё одна любопытная историческая деталь», а короткая история с непосредственной опасностью и четырьмя изменениями ожидания: реальная торпеда вместо тренировочной → запрет радио → неправильные световые сообщения → рискованный прямой вызов и уклонение. Содержательный финал: ошибочный пуск и сохранение жизни пассажиров USS Iowa. Вариант сильно отличается от отклонённого владельцем #13 (1859 telegraph), который **запрещён к повторному предложению и не является положительным примером**.
+
+## Реально рассмотренные истории: 11 отдельных событий
+
+Рабочий поиск по общеизвестным зрительским вопросам («как спаслись без двигателя», «почему официальный победитель не первый», «почти попали в собственный корабль»), историческим институтам, расследованиям, жанровым видео и публикациям современников. Это **реальное сравнение поисковых результатов**, а не 11 проверенных до архивного уровня расследований. Для отвергнутых на первом этапе ссылки — ориентиры, **не полная fact-checking**.
+
+| ID | Событие | Направление | Итог | Редакторская причина | Ссылка |
+|---|---|---|---|---|---|
+| P01 | USS William D. Porter fires at USS Iowa (1943) | WWII / near-miss | FINALIST_SELECTED | Одна ошибка запускает обратный отсчёт, радиомолчание и искажённые сигналы меняют ожидание. Конец — спасение и причина. | [Исходная опора](https://www.usni.org/magazines/naval-history-magazine/2021/june/fact-or-fiction) |
+| P02 | St. Louis Olympic marathon (1904) | sport / absurd history | FINALIST_RUNNER_UP | Первый финишировал с помощью автомобиля; официальный победитель получал стрихнин. Большое число сюрпризов, но два героя вместо одной развивающейся линии. | [Исходная опора](https://www.olympics.com/ioc/news/the-strange-case-of-the-st-louis-1904-marathon) |
+| P03 | TACA Flight 110 on a levee (1988) | aviation / survival | FINALIST | Два двигателя, неудачные перезапуски, вынужденная посадка на дамбу, затем вылет с бывшей полосы. Реальное развитие, но авиационный жанр насыщен реконструкциями. | [Исходная опора](https://www.faa.gov/lessons_learned/transport_airplane/accidents/N75356) |
+| P04 | Air Canada Flight 143, Gimli Glider (1983) | aviation / metric mistake | REJECTED_EARLY | Очень сильный зачин, но слишком близок к P03 по «пассажирский лайнер без тяги»; без расследования собственной дифференциации не второй финалист. | [Исходная опора](https://www.thisdayinaviation.com/23-july-1983/) |
+| P05 | Boston Molasses Flood (1919) | urban disaster | REJECTED_EARLY | Визуально неожиданный объект, но инженерная и судебная причинность требуют аккуратного хронометража; цена трагедии высока, лёгкий Short будет выглядеть неуместно. | [Исходная опора](https://www.history.com/articles/the-great-molasses-flood-of-1919) |
+| P06 | Tacoma Narrows Bridge collapse (1940) | engineering | REJECTED_EARLY | Сильная картинка уже существует как знаменитая кинохроника; короткая бумажная/рисованная реконструкция без отдельного объяснения — просто повтор ролика. | [Исходная опора](https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)) |
+| P07 | Operation Mincemeat (1943) | wartime deception | REJECTED_EARLY | Яркий абсурдный зачин, но вся доказуемая цепь «тело→документы→вражеские решения» лучше для Long; нельзя упрощать историческую причинность. | [Исходная опора](https://time.com/6174289/operation-mincemeat-netflix-true-story/) |
+| P08 | HMAS Armidale survivors (1942) | naval survival | REJECTED_EARLY | Сильные реальные ставки, но несколько групп спасшихся и судьбы людей; короткое изложение рискует превратиться в перечень мучений. | [Исходная опора](https://www.awm.gov.au/visit/exhibitions/cruelsea/background) |
+| P09 | Three US Navy airmen on a raft for 34 days (1942) | sea survival | REJECTED_EARLY | Фактическая выживаемость впечатляет, но пока нет подтверждённого неожиданного решающего действия внутри 50-секундного сюжета; не растягивать число дней. | [Исходная опора](https://www.history.navy.mil/content/history/museums/nnam/explore/exhibits/permanent-exhibits/mezzanine/the-raft.html) |
+| P10 | Montreal Museum skylight robbery (1972) | art heist | REJECTED_EARLY | Хороший вопрос «как вынесли картины», но исходное событие не даёт полноценной разгадки виновных; нужно больше доказательств для уверенного payoff. | [Исходная опора](https://en.wikipedia.org/wiki/1972_Montreal_Museum_of_Fine_Arts_robbery) |
+| P11 | British Airways Flight 9 ash-cloud engine failure (1982) | aviation / volcanic ash | REJECTED_EARLY | Потенциально сильное восстановление тяги, но в рамках этого прогона первичная accident documentation не была открыта; не притворяться проверенным финалистом. | [Исходная опора](https://en.wikipedia.org/wiki/British_Airways_Flight_009) |
+
+## Три самостоятельные короткие заявки
+
+### P01 — USS William D. Porter fires at USS Iowa (1943)
+
+- **Аудитория:** EN зритель 18+ с интересом к необычным реальным происшествиям и истории Второй мировой; не требуется знать устройство торпеды.
+- **Почему остановятся:** Боевой снаряд летит в президента — и это не вражеский корабль.
+- **Точный opener:** “A U.S. destroyer fired a live torpedo at the battleship carrying President Roosevelt.”
+- **Почему досмотрят (не повтор хука):** Учебный пуск стал боевым; радио запрещено; неправильная сигнализация; радиомолчание нарушено; Iowa экстренно отворачивает.
+- **Реальная отдача:** Президент не пострадал; выясняется, какой элемент оставили при учебном пуске. Нет выдуманного покушения.
+- **Главное возражение:** История уже встречается у исторических каналов; легенды преувеличивают выстрелы и аресты, а справочники расходятся по дистанции и направлению поворота.
+
+### P02 — St. Louis Olympic marathon (1904)
+
+- **Аудитория:** EN зритель спорта и нелепой истории; необязательно знать Олимпийские игры 1904 года.
+- **Почему остановятся:** Первый на финише доехал часть пути в машине.
+- **Точный opener:** “The first runner across the 1904 Olympic marathon finish line had ridden part of the course in a car.”
+- **Почему досмотрят (не повтор хука):** Лорц получает подвезти, после поломки автомобиля вбегает первым, его дисквалифицируют; реальный победитель с трудом финиширует после получения стимулирующего вещества.
+- **Реальная отдача:** Хикс — официальный победитель, несмотря на стрихнин, который тогда не был запрещён; позднее правила изменились.
+- **Главное возражение:** История может стать набором абсурдных фактов о двух бегунах вместо одной нарастающей причинной ситуации.
+
+### P03 — TACA Flight 110 on a levee (1988)
+
+- **Аудитория:** EN зритель катастроф/авиации и зритель, которому интересно, как пилоты выходят из невозможной ситуации.
+- **Почему остановятся:** Оба двигателя погасли, аэропорт недостижим, а самолёт ещё в воздухе.
+- **Точный opener:** “Both engines failed. The airport was out of reach. The plane was still in the air.”
+- **Почему досмотрят (не повтор хука):** Попытки перезапуска; отказ от посадки в аэропорту; подготовка к приводнению; внезапно видимая дамба.
+- **Реальная отдача:** Успешная посадка без тяги на дамбу, никто не ранен; после ремонта вылет с бывшей взлётной полосы.
+- **Главное возражение:** Жанр насыщен видео с реальной съёмкой/реконструкциями, а в коротком рисованном формате двойной финал может оказаться искусственным.
+
+
+## Сравнение победителя с сильнейшей альтернативой
+
+**P01 против P02 (олимпийский марафон):** P02 выигрывает немедленным абсурдом и широтой темы спорта; источник IOC доступен и прямой. Но в варианте для Short его середина часто распадается на «один поехал, другой получил стимулятор»: это серия шокирующих сведений, а не одна развивающаяся опасность. P01 требует одной карты пространственных отношений и одной причинной линии; после хука появляются реальные ограничения связи и промахи в предупреждении, а не одни пояснения. Сильный исход P01 — наглядное уклонение от торпеды; слабое место — известность сюжета и исторические преувеличения. Внешний зритель может предпочесть P02; **это не измерено**. Мы вправе были не выбрать ничего, но P01 прошёл авторскую проверку на развитие и завершённый ответ.
+
+**P01 против P03:** P03 более кинематографичен и подтверждён FAA, но поворот «вылетел с другой полосы через 13 дней» менее непрерывен в 50–60-секундной истории, а реальные авиационные ролики уже существуют. Этот вывод редакторский, не экспериментальный.
+
+## Спрос: наблюдения отдельно от гипотез
+
+- Сопоставимое по **теме**, но **несопоставимое по формату** видео The History Guy [«USS William D Porter, the Unluckiest Ship in the Navy»](https://thehistoryguy.com/videos/uss-william-d-porter-the-unluckiest-ship-in-the-navy/): исторический рассказ для любителей истории. Его точные публичные просмотры/динамика, baseline канала, страны и retention в этом прогоне **UNVERIFIED**.
+- [TACA Flight 110 — Nowhere To Land](https://www.youtube.com/watch?v=XX54q552Zac) на YouTube (опубликовано 2013-03-02): веб-результат сообщал **11,689,451** публичный просмотр на момент индексирования; это старый авиационный клип, **не Short и не прогноз нашей конверсии**. [Short Virtual Pilot Academy](https://www.youtube.com/watch?v=xbnVInFct1I) (2023-10-29) — найден с **28,083** публичными просмотрами, у другого автора и возраста. Сравнение по внутреннему baseline невозможно.
+- Публикация IOC о марафоне и Naval History Institute о неудачной торпеде свидетельствуют о доступности интересного материала, **не доказывают зрительского спроса**.
+- Нет измеренных CTR, shown-in-feed, удержания, первого прокрутчика, языка/географии аудитории по этим историям. Всё **UNVERIFIED**. Никакой «оценки вирусности» не выставляется.
+
+## Источники: конкретные утверждения и пределы уверенности
+
+Дата проверки ссылок: **2026-11-13**. Публикации/даты события отдельно:
+
+| Claim | Материал и точное место | Уверенность / ограничение |
+|---|---|---|
+| 14 ноября 1943 USS William D. Porter при учениях случайно запустил торпеду в сторону USS Iowa с F. D. Roosevelt | [U.S. Navy, Dictionary of American Naval Fighting Ships, William D. Porter](https://www.history.navy.mil/research/histories/ship-histories/danfs/w/william-d-porter.html), абзац «During battle drills on the afternoon of the 14th»; [U.S. Naval Institute, J. M. Caiella, **Fact or Fiction?**, June 2021](https://www.usni.org/magazines/naval-history-magazine/2021/june/fact-or-fiction), абзац с **Porter deck log 1436** | Согласовано между институтами. Прямое открытие Navy страницы дало timeout, USNI — HTTP 403; доступен развернутый индексированный фрагмент, первичный deck log цитирует USNI, **не просмотрен самостоятельно**. |
+| Подразумеваемая атака была учебным торпедным упражнением, а пуск произошёл из-за не удалённого primer | [USNI June 2021](https://www.usni.org/magazines/naval-history-magazine/2021/june/fact-or-fiction), абзацы «The Porter had first attempted…» и «because a primer had not been removed from one of the tubes» | Надёжное историческое изложение с цитатой deck log; конкретная конструкция primer/tube в мультимедийной реконструкции требует визуальной проверки |
+| Световые сообщения сначала оказались неверными, затем капитан нарушил радиомолчание | [USNI June 2021](https://www.usni.org/magazines/naval-history-magazine/2021/june/fact-or-fiction), абзац «The initial message wrongly said…» | Точное содержание неверного сигнала можно не воспроизводить в кадре. Navy DANFS утверждает, что сигнал подан заблаговременно; не делаем противоположного вывода о задержке |
+| Iowa отвернула, торпеда взорвалась в воде за кормой, президент не пострадал | [Navy DANFS](https://www.history.navy.mil/research/histories/ship-histories/danfs/w/william-d-porter.html) и [USNI June 2021](https://www.usni.org/magazines/naval-history-magazine/2021/june/fact-or-fiction), абзацы о wake/explosion | Сходятся по результату; **расходятся** о направлении поворота и расстоянии взрыва, потому в narration этих чисел/направлений **нет** |
+| Арест всей команды, наводка пушек Iowa на Porter, другие многочисленные курьёзы | [USNI June 2021](https://www.usni.org/magazines/naval-history-magazine/2021/june/fact-or-fiction), раздел о hyperbole and fiction | **Не включать**: соответствующие легенды противоречат/не подтверждаются логами, несмотря на перепечатки |
+| Марафон 1904: первый финишировавший ехал на автомобиле, настоящий победитель получал стрихнин, новое правило 1908 | [IOC, The strange case of the St Louis 1904 marathon](https://www.olympics.com/ioc/news/the-strange-case-of-the-st-louis-1904-marathon), абзацы о Lorz/Hicks/Rule 4; [пересказ с линками на газеты 1904](https://www.knowol.com/information/missouri/olympic-marathon-st-louis-1904/), §The first man home / §Strychnine | Открытые тексты прочитаны; источники спорят о точном расстоянии в машине, поэтому в заявке его нет |
+| TACA Flight 110: оба двигателя, безрезультатный разгон после попыток перезапуска, посадка на дамбу | [FAA Lessons Learned](https://www.faa.gov/lessons_learned/transport_airplane/accidents/N75356), §History of Flight, §Flight Crew Actions | Первичный технический источник прочитан; следующий вылет — [UPI contemporary report 1988-06-06](https://www.upi.com/Archives/1988/06/06/Emergency-shortened-flight-is-completed/6569581572800/). Разное число людей на борту в источниках — не утверждать число |
+
+## Отличие от существующей очереди и ограничения
+
+Проверены на 2026-11-13: активные PR #12–#16, старые закрытые PR, каталог эпизодов Nuviko History и Paper Detour в main, поиск GitHub по `William D. Porter`, `Roosevelt torpedo`, `Lorz`, `TACA`, `1904 marathon` (0 совпадений в индексируемых файлах). Это **не гарантия отсутствия всякого архива/неиндексируемого медиа**. В Nuviko History уже есть историческая морская история об Endurance, но нет такого сюжета о дружественном торпедном запуске. Текущая открытая версия #13 отвергнута владельцем; **#16 уже слит в main** (на момент создания этой ветки `50bb35ecd4ad2e832be5451fd2fa909794f047ed`) и закрепил audience-first отбор. Этот пакет следует действующему правилу, а не выдаёт непринятый PR за стандарт.
+
+**Запрет на драматизацию фактов:** не показывать убийство, попадание в линкор, выстрелы по Porter, массовые аресты, «покушение» как факт, выдуманные реплики, фантастический шторм или exact compass direction / explosion distance. Художественная реконструкция не архивная съёмка.
+
+
+---
+
+## 2026-11-18: supplemental sources for 2/5/10m Porter variants
+
+Original 2026-11-13 description of the Nuviko History channel as frozen is *historical*; current canonical main SHA 7c94f825056b98cb65d8de94dd3eec709cc78188 has an active channel, Short and Long configured. No old production run has been altered.
+
+| Claim added or made more specific | Source / location | Evidence limits |
+|---|---|---|
+| Named escorts Cogswell, Young and Porter; Roosevelt was on the first leg toward Tehran | U.S. Naval Institute, J. M. Caiella, Fact or Fiction?, June 2021, opening: https://www.usni.org/magazines/naval-history-magazine/2021/june/fact-or-fiction | Indexed detailed text; opening source page returned HTTP 403 on direct open 2026-11-18 |
+| AA balloon exercise, simulated destroyer torpedo attack using Iowa as target | U.S. Navy H-049-1, paragraph beginning “The facts of the accidental torpedo firing…”: https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-049/h-049-1.html | Official narrative; direct open returned HTTP 502; referenced via indexed passage |
+| Log timing 14:36 Porter firing; 14:38 Iowa warning; 15:03 Iowa resumed AA practice | USNI June 2021 quotes 1943 Porter and Iowa deck-log entries | Deck-log facsimiles not inspected in this run; identified secondary transcription |
+| Primer charge left in tube; later attempted destruction of evidence | Navy H-049-1, investigation paragraph | Do not assert a confession/dialogue during the torpedo run; official retrospective |
+| Bermuda inquiry, hard labor for chief torpedoman and Roosevelt's subsequent commutation; commander Walter not relieved | Navy H-049-1, aftermath section | No entire-crew arrest; do not imply an assassination motive |
+| Previous boiler malfunction verified; reported harbor collision and loose depth charge unsupported by relevant logs | Navy H-049-1, paragraphs on myth vs logs | 10m compares records and legend, never states these disputed events happened |
+| 1945 sinking near Okinawa after kamikaze-related underwater explosion; all 273 escaped | Navy H-049-1, opening/sinking section | Independent later incident, not caused by 1943 |
+| Roosevelt wheelchair moved to watch torpedo | USNI 2021 reconstructs this detail; Navy H-049-1 says “supposedly” | 10m attributes with uncertainty, no invented quote or personal feeling |
+| Torpedo missed and exploded behind Iowa; exact distance and turn side disputed | USNI 2021; Navy H-049-1; Navy H-029-4 https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-029/h-029-4.html | Keep direction and precise distance OUT of EN/RU; no naval gunfire invented |
+
+**Access status:** indexed source snippets and prior research were read, but original 1943 scanned logs were not directly inspected. High stakes and outcome are supported by official Navy history and USNI's identified transcription. No live view metrics or independent review was collected. The archival primary-record comparison remains UNVERIFIED.
+
+**Causal restrictions:** do not claim intentional assassination, torpedo hit, everyone arrested, guns fired from Iowa at Porter, the rumored harbor collision or a depth charge as fact, invented quotes, measured timing, or a causal link from the 1943 incident to the 1945 sinking.
+
+
+---
+
+## 2026-11-20 — source-checked 05m rewrite: concealment and accountability
+
+This is a **substantive revision of the existing 05m narrative**, not another story or a change to the root master. The previous 05m spent its closing stretch restating the three opening answers and reiterating why mass-arrest legends were false. The new 05m instead follows the consequence after Iowa escapes: an investigation into the primer and a documented attempt to discard evidence, disciplinary action, and the commander's continued service. These are **not** claims about what anyone said or felt during the launch.
+
+- **Navy Naval History and Heritage Command**, [H-049-1](https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-049/h-049-1.html), paragraphs “The facts of the accidental torpedo firing...” and “After breaking from her escort duties...”: primer charge in torpedo #3 of mount #2; Navy account says chief torpedoman threw evidence overboard after launch; inquiry at Bermuda; Navy account describes hard labor and Roosevelt's subsequent commutation; Walter remained in command. This retrospective does **not** establish what precisely was thrown, nor permit inventing a disposal scene or dialogue.
+- **U.S. Naval Institute**, [J. M. Caiella, Fact or Fiction?, June 2021](https://www.usni.org/magazines/naval-history-magazine/2021/june/fact-or-fiction): Porter's 14:36 log, Iowa's 14:38 warning, 15:03 resumed target practice; erroneous lamp signals; Bermuda inquiry; **Lawton C. Dawson was reduced by one grade**. The author explicitly says proof of a widely repeated **14-year hard-labor term** was not readily available. Thus the 05m text does **not** assert a 14-year term; it attributes a hard-labor sentence to the Navy's historical account rather than claiming independently inspected court-martial minutes.
+- **Verified against both publications 2026-11-20**: no evidence of entire-crew arrest or Walter's relief; misdirected lamp signals and radio warning remain distinct; no exact torpedo distance/turn direction or imagined presidential words. The original 1943 logs themselves have **not** been inspected here; the transcribed times are attributed to the identified historical study, not represented as archival read-back.
+
+The new ending asks the viewer to distinguish the immediate successful warning from the subsequent accountability of a real named crewman. Source confidence: moderate-to-high for the official retrospective and USNI analysis; unverified for first-hand 1943 documents and measured viewer demand.
