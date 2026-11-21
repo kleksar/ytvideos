@@ -1,0 +1,69 @@
+# One dirty patio: pressure washer rental or purchase
+Observed 2026-11-21. Two Ways Lab editorial selection, not actual cleaning or owned-channel retention analytics.
+
+## Audience / proposition
+An English-speaking homeowner knows the cost of a one-day rental but may not know how many cleaning jobs will occur in future years. The video asks: **When does a low one-day rental price become more expensive than keeping a comparable washer?** I (the narrator) compare two options under the *same modeled task*, announce cost in US dollars before the A/B reveal, and avoid claiming I physically tested either machine. The unexpected second reversal is from **repeat transport costs**, not an invented failure or competitor.
+
+Hook proposal: "I have one dirty patio and two ways to clean it: rent an electric pressure washer, or buy one." First visual: same visibly soiled patio, illustrated split A rent / B buy; price tags identify only the stated model inputs, not generic market prices.
+Development: one job → repeated jobs → first crossover at 7/8 → pickup-and-return added on both sides → new crossover by 6 → practical frequency/equipment caveat. Payoff: no universal winner; the choice depends on price, number of identical jobs, and repeated travel. Main objection: purchase and rental machines may not be equivalent, and future frequency is guessed.
+
+## Selection funnel: 11 distinct ideas, actual coverage
+1. **Rent a pressure washer vs own one** — contender selected: a real public daily rental quote enables a verifiable break-even computation; surprising transport flip; performance parity explicitly assumed.
+2. **Home espresso machine vs café latte** — finalist: very universal recurring decision, but the economic model depends on matching beverage quality, household frequency and total grinder/milk/cleaning costs; the coffee payback angle is already heavily served by finance explainers.
+3. **Filtered tap vs bottled drinking water** — finalist: broad daily relevance, but a pure cost comparison cannot honestly treat local drinking-water quality and a filter's *specific* contaminant certifications as interchangeable; stronger only with a verified local water input.
+4. **Sort 40 socks first vs find pairs on demand** — Channel BACKLOG #1. Simple model, low measured demand and small stakes; not a comparable high-value finalist this run.
+5. **Pack a suitcase by largest item vs heaviest item** — BACKLOG #11. Packing physics and constraints vary, needs honest exact item instance; less durable A/B answer.
+6. **Cut gift ribbon from first usable spool vs shortest fitting** — BACKLOG #19. Checkable, but niche household stakes and narrow outcome.
+7. **Return household items one at a time vs group in baskets** — BACKLOG #31. Good visual potential; task duration depends on geometry and sorting labor, difficult to promise surprising result without a real layout.
+8. **Shortest task vs earliest deadline** — BACKLOG #43. Potential rich reversal, but time-penalty metric needs explicit priorities; less relatable for one short without new rules.
+9. **Shop by store aisles vs nearest remaining item** — BACKLOG #64. Strong mathematical optimization, but store graph unknown and dry walk-distance payoff.
+10. **Shower vs bath water use** — existing story PR #275, screened out as duplicate, **not** a new proposal.
+11. **AC vs open windows fuel** — existing story PR #320, screened out as duplicate, **not** a new proposal.
+
+Also screened existing Two Ways drafts (not alternatives to recreate): PRs #329 cotton tote, #332 OLED, #303 dishwasher, #136 queues, #127 parking, #182 coffee milk, #246 laundry. Github PR search on 2026-11-21 found no existing pressure-washer rent-versus-buy story; repeat conflict check before write.
+
+## Fair finalists and strongest counterproposal
+
+**A: pressure washer — selected editorial hypothesis.** "I can rent for about $35, but buying finally wins when the same dirty patio returns enough times." Follow-through isn't only break-even mathematics: equal task, two price curves, *then* the repeated pickup trip brings the ownership crossover two cleanups forward. Explicitly disclose no real cleaning and no verified purchase listing. A is less universally relatable than coffee; buy-vs-rent is familiar, so the model's second reversal must carry the video. Public interest unverified.
+
+**B: coffee — strongest alternative on audience breadth.** Proposed opening: "I buy the same latte every weekday, so I compare it with a kitchen setup." Viewers watch for the actual number of drinks required to break even, quality and cleaning-time complications. Useful payoff for a high-frequency drinker versus occasional buyer. Evidence: published pricing/accounting assumptions (not universal measured bills) and YouTube search results. Objection: setup, recipe, milk, drink quality and time costs must be explicitly matched; repeating common 'coffee saves money' is not sufficiently fresh. Sources checked: https://northquire.com/food-kitchen/espresso-machine-worth-it/ (published Nov 10 2026, modeled use); https://www.youtube.com/watch?v=JvgPtK03UTc (coffee finance comparison, public metadata only); https://www.youtube.com/watch?v=jYBgPGFFTSY (similar topic, metadata only). **Comparison:** coffee has stronger universal everyday stakes than the pressure washer, but the chosen washer scenario has a more visually distinct step-change through a repeated *action* (collect/return) plus directly available rental price. A narrow claim of **better dramatic turn**, not proven bigger demand.
+
+**C: filter vs bottled water.** Opening: "I buy bottled water every week, then see the lower price of a jug filter. But do they give me the same water?" Development through recurring cartridge costs and a certification-limited treatment choice; payoff valid only after confirmed local source-water condition and filter certifications. This would be a broader consumer/environment choice than A. Primary standards: https://www.nsf.org/consumer-resources/articles/standards-water-treatment-systems ; https://www.nsf.org/consumer-resources/articles/contaminant-reduction-claims-guide ; https://www.nsf.org/about-nsf/faqs/water-filters-faqs . **Counterargument against A:** this finalist is more universally relevant, but lacking the required local water scenario makes a claimed equal-output A/B comparison less honest. It is an experimental idea, not a rejected owner topic.
+
+## Evidence ledger: public factual base vs model
+Accessed 2026-11-21:
+- **Supplier primary source** https://www.rugdoctor.com/rental-machines/pressure-washer/ — 'Rental Pricing' $34.99 / 24 hours and $44.99 / 48 hours, caveat *pricing and availability may vary by location*; 'Features' specifies BISSELL electric up to 1,800 PSI. This is public advertised pricing, **not a verified store reservation, sale or completed rental**. A model rounds the one-day quote from 34.99 to $35.
+- **Consumer Reports**, 'Should You Buy or Rent a Pressure Washer?', updated 2021-07-16: https://www.consumerreports.org/pressure-washers/buy-or-rent-a-pressure-washer-a5260290987/ — general buy/rent considerations, differing electric/gas purchase ranges, frequency/storage, varying physical performance and safety; does not validate this scenario's $210 price or $5 upkeep.
+- **Angi**, updated 2026-08-04: https://www.angi.com/articles/pressure-washers-why-hire-instead-rent.htm — additional context for widely variable rental/purchase price and storage; commercial advice, not an exact quote for this task.
+
+**Declared assumptions, not external facts:** B purchase $210, per-use ownership upkeep $5, same job/clean quality/time for A and B, same utility consumables (therefore excluded), taxes/detergent unmodeled; separate transportation scenario $8 per rental pickup/return and one $8 purchase collection; time cost not monetized. Four-year economic sensitivity adds *noncash* $15/year hypothetical storage preference, not a bill. No first-hand test; no environmental-impact comparison, performance ranking or universal claim. One particular rental's advertised 1,800 PSI is not evidence that the hypothetical purchased model is functionally identical.
+
+## Reproducible calculation (USD, exact to declared rounded inputs)
+
+For **N identical completed cleanups**:
+- No separate travel: rent A(N) = 35N; buy B(N) = 210 + 5N. At N=1: A $35 / B $215; N=5 $175 / $235; N=6 $210 / $240; N=7 $245 / $245 (tie); N=8 $280 / $250 (buy).
+- With one modeled $8 round trip for each rental and **one** $8 pickup for purchase: A(N) = 43N; B(N) = 218 + 5N. At N=5: $215 / $243 (rent); N=6 $258 / $248 (buy). Rental's repeated transport reverses winning side at 6, two uses earlier than first strict ownership win at N=8 without trips.
+- Four-year frequency: four cleanups → A 43×4=$172; B 218+5×4=$238; eight cleanups → A 43×8=$344; B 218+5×8=$258.
+- Optional **separate** modeled space-value $15/year over four years adds $60 to B: N=4 $298 vs rent $172; N=8 $318 vs rent $344.
+- Different supplier 48-hour quote $44.99 requires a **different** model, not double-counting or claiming duration covered by $35.
+
+CHECK: arithmetic recomputed independently by author from the displayed formulas, not a physical experiment. Sensitivities, equipment equivalence, rental-stock availability, future pricing, storage and repair bills UNVERIFIED. Equality of cleaning performance is a blocker for physical performance claims; this is deliberately **only** a conditional cost demonstration.
+
+## Public YouTube comparisons / interest observations
+
+The following are **public searchable metadata only** (search snippets containing title, author, publication date and views); videos, transcripts, actual frames, retention and comments **not reviewed**. Snapshot 2026-11-21, views approximate and may change. Duration and precise format are **UNVERIFIED** unless noted in linked listing; do not interpret snippet as watching.
+
+1. https://www.youtube.com/watch?v=VFo1bzsmbIA — KSAT 12, 'Pressure washer: Should you rent or buy?', EN, published 2019-10-23, ~1,062 views; channel ~497k public followers. The low views despite sizable broadcaster is a **counter-signal** against assuming universally high interest.
+2. https://www.youtube.com/watch?v=6egXDKykqOs — Channel 3000 / News 3 Now, 'Should you buy or rent a pressure washer?', EN, published 2019-10-27, ~283 views; broadcaster with different regular format. Another explicit counter-signal. Duration unverified.
+3. https://www.youtube.com/watch?v=btFuk17SZdU — The Home Depot, 'Mi-T-M Electric Pressure Washer Rental', EN, published 2019-04-15, ~70,580 views. Manufacturer/retailer demonstration, not the rent-vs-buy comparison; source has a commercial incentive. Description includes equipment operation and rental-return instructions; only the description/metadata, not video, were read.
+4. https://www.youtube.com/watch?v=d9vkG9O_fxk — Austin Davis, 'Full day of PRESSURE WASHING with a HOME DEPOT RENTAL', EN, published 2021-04-20, ~5,793 views; **professional business audience**, not the homeowner model; this is about the activity rather than an exact A/B.
+5. Same-creator **imperfect baseline** for #4: https://www.youtube.com/watch?v=xw7trqgXhrw — Austin Davis, 'My $6700 Week Pressure Washing', published 2021-09-25, ~44,433 views at observation, EN. It is business-income content, not comparable homeowner choice in scope/age/format. Hence do **not** claim an outlier ratio. A true homeowner Short same-author baseline is unavailable.
+6. Same retailer's product/rental video provides a high-count comparison, not a matched organic baseline. Precise published duration and ordinary results of KSAT, Channel 3000 and Home Depot uploads of the *same age, language and Short/Long format* were not verified, therefore no normalized baseline and no 'outperforming' claim.
+
+Views/subscribers, views/age and big unrelated satisfying-cleaning Shorts are **not** proof of CTR, retention, click choice or trend. In the last **30–90 days** no sufficiently comparable dated/verified rent-versus-buy upload is established from available free results: **UNVERIFIED fresh demand**. Evergreen topic metadata is weak and non-uniform. Exact creator-normal baseline with matched language/format/age and real viewer questions/comments: **UNVERIFIED**. Do not fabricate quotes. Own-channel YouTube Studio signals: UNVERIFIED, none connected/read. vidIQ balance checked 2026-11-21: 0; no paid vidIQ calls. Experimental content hypothesis only.
+
+## Beat causality and objections
+Shared event chain (no invented real-world events): imagined one dirty patio → quote $35 → one job favors rent → repeated modeled jobs add full booking fee, buy adds $5 → cost tie at 7 → buyer first wins at 8 → add trip repeated for every rental → owner first wins at 6 → future frequency, storage and unequal equipment can reverse an apparent recommendation. Narrator speaks in first-person hypothetical ("I compare", "suppose"), never "I tested the two machines." First-listener risk: numerous numbers distract from the human decision; preserve two turning points and avoid a table recitation. The 10m can become over-detailed; judge it independently, not assume longer is better.
+
+## Duplicate & authority decisions
+Remote GitHub search 2026-11-21, before new write: recently created narrative Draft PR #334 Nuviko, #333 Paper, #332 Two Ways. Therefore rotate to **Two Ways**. Owner's rejections of #13 telegraph and #88 bridge not recycled. Accepted voice exemplars #20 S-5 at revision 78b375bf0004fdeb45722e6106f2919f09e82fe1 and #25 Lawnchair Larry at 28862598989045cd02990e654b086afae28fea59 read for natural grammar only; not rewritten. #124 is **merged into remote main** at initial check; current main editorial and skill are canonical, no proposal applied as main incorrectly. Source main and final audit are in handoff.md.
