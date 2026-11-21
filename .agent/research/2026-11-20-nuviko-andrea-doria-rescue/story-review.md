@@ -10,8 +10,8 @@
 | [02m/ru](variants/02m/script.ru.txt) | 246 | `97bc67f458435f17530070c2f2e9cf7dfc9b106543bafa6d46e1a9dc19987466` | `6563f383c6465bb656cbac73d56d6a9222860dfd` |
 | [05m/en](variants/05m/script.en.txt) | 747 | `a433d39e339d921277754ec4439557aab5704f4e8ff0db821a1e5f94b4502ce1` | `23e16f0d689f851a8e9eedbd02e8d5273181a2b6` |
 | [05m/ru](variants/05m/script.ru.txt) | 625 | `9339642d4d9d0ea1d0f07721f502c9abfd3fc92981eda7c5d32186e9c17d9911` | `7ee77aa1dad083c18d60247e3d22922f81986f8e` |
-| [10m/en](variants/10m/script.en.txt) | 1677 | `25a60aa8bab63d629908289c47ca5a31d10342731d749bb18996561769fea64a` | `3277cd930c909995d9164be97696bb433758bec4` |
-| [10m/ru](variants/10m/script.ru.txt) | 1419 | `014775dbbebc58f1fc8cf9df8aabded4afc033c56d42176020194f30c3afa926` | `482bc27aad57e9ea06b0d676be7605ed3e78a0ff` |
+| [10m/en](variants/10m/script.en.txt) | 1677 | `a69c9fffb4c489107c3109539c021ee34f0b8031017b77f3640771089d231496` | `GIT_BLOB_EN_PLACEHOLDER` |
+| [10m/ru](variants/10m/script.ru.txt) | 1419 | `cb3fbac05f0f3b1059409b1e20c58f7a37db5ed94727a6b2cbfbd98c1bbfea5d` | `GIT_BLOB_RU_PLACEHOLDER` |
 
 Duration is only an **estimate**. Assumption EN voice ≈140–170 audible words/min at configured speed, plus ≈3–25s pauses, no TTS or audio verification. **02m** 295 EN words ≈1:47–2:22; **05m** 747 EN words ≈4:27–5:46; **10m** 1677 EN words ≈10:00–12:25 (illustrative rates only; no TTS). Format: 02m proposed Short 9:16 (loop mandatory); 05m/10m Nuviko Long 16:9 and 10s endscreen after editorial story. Actual TTS length, script timing and AV scene seam **UNVERIFIED**. Do not alter voice 1.10× to force a target. RU full meaningful review translations not a second TTS master.
 
@@ -25,8 +25,8 @@ Criteria **I**=interest/importance, **H**=hook, **D**=causal development, **P**=
 | 02m RU `97bc67f45843` | 9 | 8 | 8 | 8 | 7 | 8 | 8 | UNVERIFIED | STRONG_CANDIDATE, text seam author-only |
 | 05m EN `a433d39e339d` | 9 | 9 | 9 | 9 | 8 | 9 | 9 | UNVERIFIED | STRONG_CANDIDATE — recommended |
 | 05m RU `9339642d4d9d` | 9 | 9 | 9 | 9 | 8 | 9 | 9 | UNVERIFIED | STRONG_CANDIDATE — recommended |
-| 10m EN `25a60aa8bab6` | 9 | 8 | 9 | 8 | 7 | 9 | 8 | UNVERIFIED | EDITORIAL_CANDIDATE, independent UNVERIFIED |
-| 10m RU `014775dbbebc` | 9 | 8 | 9 | 8 | 7 | 9 | 8 | UNVERIFIED | EDITORIAL_CANDIDATE, independent UNVERIFIED |
+| 10m EN `a69c9fffb4c4` | 9 | 8 | 9 | 8 | 7 | 9 | 8 | UNVERIFIED | EDITORIAL_CANDIDATE, independent UNVERIFIED |
+| 10m RU `cb3fbac05f0f` | 9 | 8 | 9 | 8 | 7 | 9 | 8 | UNVERIFIED | EDITORIAL_CANDIDATE, independent UNVERIFIED |
 
 ## Evidence per exact EN and RU revision — eight criteria, strengths and weakness
 
@@ -82,54 +82,53 @@ Criteria **I**=interest/importance, **H**=hook, **D**=causal development, **P**=
 - **Main weakness:** Risk: rare ship names and number sequence could tax ears; no independent listener available.
 - **Assessment:** author/coordinator self-review, qualitative confidence medium on verified facts and actions, low on viewer interest, none on audience measurement. No independent reviewer result.
 
-### 10M EN — exact SHA `25a60aa8bab63d629908289c47ca5a31d10342731d749bb18996561769fea64a`
+### 10M EN — exact SHA `a69c9fffb4c489107c3109539c021ee34f0b8031017b77f3640771089d231496`
 
-- **интерес/значимость 9:** 1660/1706 survived and 46+5 deaths give high stakes, while unknown present-day interest is separate.
-- **начало 8:** Opening's literal quote: Why did a ship with lifeboat places...?.
-- **развитие/причина досмотреть 8:** Causal series/scene: Distinct extra evidence: radar encounter at 17nm, Cape Ann's 40 initial survivors and 2 doctors, drifting/repositioning, transport radio coordination, Calamai's departure.
-- **payoff 8:** Payoff and closing scene: Midpoint adds substantial verified constraints, but paragraphs after the sinking revisit radar and safety principles; 1656 words may exceed target timing.
-- **свежесть угла 7:** Ship-rescue viewpoint less common than collision-only treatment, but existing high-view documentaries and recent 4-view example limit novelty.
-- **визуальная выразительность 8:** Filmable, sourced physical relationships: leaning hull, inaccessible port-side davits, two small boats shuttling, the French liner turning; not false 1956 footage.
-- **устная ясность 7:** Spoken clarity: named agents and verbs across 1656 words; Risk: research/report texture, late explanatory tail and uncertain spoken duration; REWORK.
-- **confirmed viewer demand: UNVERIFIED** — historical public YouTube counts and contradictory recent weak example are not same-length Nuviko demand, CTR or retention; no score invented.
-- **Main weakness:** Risk: research/report texture, late explanatory tail and uncertain spoken duration; REWORK.
-- **Assessment:** author/coordinator self-review, qualitative confidence medium on verified facts and actions, low on viewer interest, none on audience measurement. No independent reviewer result.
+- **интерес/значимость 9/10:** The documented survival outcome and one family's separated evacuation have real human stakes; this does not establish today's audience interest.
+- **начало 8/10:** Three promised documentary questions begin the story. The amended third accurately describes the French liner sailing *away* from New York.
+- **развитие 9/10:** Parents search for children amid steam and a suddenly listing hull; other ships answer SOS; mother and children leave by ladder, father later down a cargo net, delayed by cables. No invented dialogue or internal motives.
+- **payoff 8/10:** Reunited family aboard Île de France and the French ship returning survivors to New York close both human and geographical questions; the final global numbers remain tragic and sourced.
+- **свежесть 7/10:** Rescue-operation plus firsthand family thread differentiates from collision-centred summaries, but the subject has major existing documentaries.
+- **визуальная выразительность 9/10:** Deck angle, inaccessible boats, a moving cargo boat, rope ladder/cargo net and distinct vessels support observable scenes; image references and rights are UNVERIFIED.
+- **естественная речь 8/10:** Concrete decisions replace repeated conclusion paragraphs. The many vessel and family names may overwhelm a cold viewer; actual TTS remains UNVERIFIED.
+- **подтверждённый зрительский спрос: UNVERIFIED**, not numeric or inferred from third-party historical views.
+- **Weakest location:** Between the French liner's arrival and the second Boggs evacuation, the vessel-count outcome could feel decided already. Independent first listener must check whether the father strand keeps tension.
+- **Confidence:** medium-high for MARAD route, medium for contemporaneous witness recall and exact sequence, low for audience interest. Author self-review; no independent reviewer.
 
-### 10M RU — exact SHA `014775dbbebc58f1fc8cf9df8aabded4afc033c56d42176020194f30c3afa926`
+### 10M RU — exact SHA `cb3fbac05f0f3b1059409b1e20c58f7a37db5ed94727a6b2cbfbd98c1bbfea5d`
 
-- **интерес/значимость 9:** 1660/1706 survived and 46+5 deaths give high stakes, while unknown present-day interest is separate.
-- **начало 8:** Opening's literal quote: Почему корабль, на котором хватало...?.
-- **развитие/причина досмотреть 8:** Causal series/scene: «Примерно без четверти одиннадцать» / «сорок человек» / «двое врачей» / радио военного транспорта are supported extra events.
-- **payoff 8:** Payoff and closing scene: Last two interpretative paragraphs are meaningful but duplicate the central lesson; 1400 Russian words are a full distinct narration, not a bullet plan.
-- **свежесть угла 7:** Ship-rescue viewpoint less common than collision-only treatment, but existing high-view documentaries and recent 4-view example limit novelty.
-- **визуальная выразительность 8:** Filmable, sourced physical relationships: leaning hull, inaccessible port-side davits, two small boats shuttling, the French liner turning; not false 1956 footage.
-- **устная ясность 7:** Spoken clarity: named agents and verbs across 1400 words; Risk: some technical explanation and repeated outcomes near closing, temporal accuracy fixed to «к концу утра»; REWORK.
-- **confirmed viewer demand: UNVERIFIED** — historical public YouTube counts and contradictory recent weak example are not same-length Nuviko demand, CTR or retention; no score invented.
-- **Main weakness:** Risk: some technical explanation and repeated outcomes near closing, temporal accuracy fixed to «к концу утра»; REWORK.
-- **Assessment:** author/coordinator self-review, qualitative confidence medium on verified facts and actions, low on viewer interest, none on audience measurement. No independent reviewer result.
-
+- **интерес/значимость 9/10:** Судьба семьи и документированный результат спасения важны сами по себе; текущий спрос не измерен.
+- **начало 8/10:** Три вопроса; третий теперь верно говорит о лайнере, уходящем из Нью-Йорка.
+- **развитие 9/10:** Поиск сына и дочери в дыму, наклонная палуба, отдельные посадки матери с детьми и отца, задержка лодки у корпуса, воссоединение — последовательные действия, а не справка.
+- **payoff 8/10:** Семья оказывается вместе на «Иль-де-Франс», который возвращается с людьми в Нью-Йорк и затем возобновляет путь в Европу. Потери не замалчиваются.
+- **свежесть 7/10:** Менее типичная линия реальных очевидцев, но история уже экранизирована многими.
+- **визуальная выразительность 9/10:** Палуба, лестница, сетка, разные лодки и их физическое положение можно визуализировать без ложной архивной атрибуции.
+- **устная речь 8/10:** Пересказ держится на действиях семьи и команд; риск — череда имён судов и потенциальная перегруженность середины.
+- **подтверждённый спрос: UNVERIFIED**, числовой оценки нет.
+- **Слабый участок:** После кульминации с тринадцатью шлюпками французского лайнера отец Боггс получает отдельную линию, которую холодный слушатель может воспринять как вторую развязку; проверить независимо.
+- **Уверенность:** средняя/высокая для направления по MARAD, средняя для показаний очевидцев; удержание, TTS, независимый билингвальный review UNVERIFIED.
 
 ## Story map, key proof and failure points
 
 - **2m:** paradox first → radar encounter in fog → collision → list blocks boats → ship requests outside boats → Cape Ann, Stockholm, French liner act → 1660 saved / 46+5 dead / next-morning sinking → loop back to the decisive *outsiders' transfer*. Weakest transition: many rescue ships and numbers in a compact Short. **Literal seam English:** “… something no safety plan aboard Andrea Doria could guarantee: Other ships sent lifeboats to an ocean liner that already had enough for everyone.” **RU:** “… то, чего не мог гарантировать ни один план спасения на «Андреа Дориа»: Другие корабли отправили свои шлюпки к океанскому лайнеру, на котором уже хватало шлюпок для всех.” Cold opening self-contained; full payoff before boundary; author dual-reading is a text-only check, not independent dual-read. The AV seam in an MP4 remains UNVERIFIED.
 - **5m:** three promised questions → Italy-to-NY liner context → conflicting radar expectations → main hook: collision and steep heel → crew cannot use much of lifeboat capacity → Cape Ann's difficult boat ferry/drift → damaged Stockholm takes survivors → Île de France reverses course, launches 13 → survivor count, deaths and explanation of capacity-versus-access. Weakest section: multiple vessel names in the middle; a first listener could lose geography. No mandatory Long loop.
-- **10m:** full documentary questions → early moving ocean-liner context → radar distance/mutual misinterpretation → main hook collision → list and boat loading mechanics → detailed Cape Ann rescue (first 40, doctors, repositioning) → Thomas people/radios → Swedish ship receives survivors → French liner as turning point → transfers and captain's departure → filmed sinking → consequence and radar/safety limitations. Weakest section: after the decisive rescue and sinking, interpretation about radar and safety overlaps earlier explanations; plausible overshoot at slower narration rates. **REWORK** rather than automatically promoting the longest.
+- **10m:** questions → Boggs family separated across ship → collision → family fights tilt/steam while lifeboats inaccessible → Cape Ann/Thomas/Stockholm assistance → eastbound French ship turns back → mother/children descend rope ladder → father descends cargo net, his boat struggles with cables → reunion aboard French liner → Calamai disembarks → sinking and casualties → survivors return to New York and French ship resumes eastbound crossing. Strong distinct storyline, but shifting vessel/family viewpoints and timing remain unverified; do not automatically recommend longest.
 
 ## Incremental-value and decision audit
 
 | Transition | Real new value | Editorial cost |
 |---|---|---|
 | 2 → 5m | Passenger / immigrant context, radar interpretation, first-ferry difficulty and medical treatment, different rescuers' roles, reasons the operation was hard beyond “boats were blocked” | More ship names and numbers |
-| 5 → 10m | Museum radar distance and course change, initial Cape Ann boatload of 40, aid by rescued physicians, cargo ship's drift, US transport's radio support, Captain Calamai's own exit, news filming | Additional technical/report language and explanatory tail after human payoff; estimated duration can exceed ten minutes |
+| 5 → 10m | Museum radar distance and course, initial Cape Ann boatload of 40, physicians and cargo drift, transport radio, Calamai's exit, plus sourced Boggs family separation and reunion and corrected France eastbound route | More names and cross-cutting family/vessel timelines; may exceed ten minutes despite removing repeated post-sinking conclusion |
 
-**Recommend 05m EN master**, conditional only: its specific cause→rescue chain and complete outcome are clear without the 10m's weaker extra tail. 02m is a promising standalone Short, not rejected solely for its short length. 10m is complete but needs an actual shorter/stronger late edit; do not claim it is final production quality. This recommendation **is not user selection, approval, measured retention or CI result**. Up to two substantive author revisions allowed; one factual correction pass of 10m ending was performed, not an independent review. Do not create more variants just to inflate ratings.
+**Recommend 05m EN master**, conditional only: its specific cause→rescue chain and complete outcome are clear without the 10m's weaker extra tail. 02m is a promising standalone Short, not rejected solely for its short length. 10m is now substantively stronger, with eyewitness action and personal payoff; until independent cold reading, natural TTS, and visual spans, 05m remains safer as the recommended version. This recommendation **is not user selection, approval, measured retention or CI result**. Up to two substantive author revisions allowed; one original end-time correction plus a fresh direction correction across six language texts and a substantive new 10m human-trajectory revision were performed, not an independent review. Do not create more variants just to inflate ratings.
 
 ## Separate checks (exact scripts)
 
 | Check | 02m | 05m | 10m |
 |---|---|---|---|
-| Source-level core facts / causality | PASS, author against museum/MARAD | PASS, author | PASS, author, timing correction |
-| EN↔RU essential event/number parity | PASS, author paired reading | PASS, author paired reading | PASS, author paired reading |
+| Source-level core facts / causality | PASS, author against museum/MARAD | PASS, author | PASS, author on MARAD route and contemporaneous Boggs witness, time still unmeasured |
+| EN↔RU essential event/number parity | PASS author pair read; MARAD correction | PASS author pair read; MARAD correction | PASS author pair read; Boggs event parity |
 | Channel format eligibility | PASS proposed Short, **duration unmeasured** | PASS Long specified | PASS Long specified, duration unmeasured |
 | Text narrative loop | **Author check only**; independent UNVERIFIED | N_A Long | N_A Long |
 | AV loop / subtitle and narration timing | UNVERIFIED | UNVERIFIED | UNVERIFIED |
