@@ -23,7 +23,7 @@ Result: exit code **2**; `error: Failed to spawn: ytv; Caused by: No such file o
 
 - Common fact research, 12-story selection, strongest alternative and public YouTube demand caveats: [research.md](research.md).
 - All six exact production EN and full semantic RU scripts: `variants/{02m,05m,10m}/script.{en,ru}.txt`; word counts/sha256, individual 8-criterion reviews and gate statuses in [story-review.md](story-review.md).
-- Recommended **`05m` EN** master, SHA-256 `a964d1dba62fa58ca6158f3c279c7a2ffb29d37b98a294fad36736bbcf5a1e3f`. Selected as *editorial* comparison only. `02m` Short has author-confirmed weak verbal seam (REWORK); `10m` is an alternative with pacing risk, not silently rejected.
+- Recommended **`05m` EN** master, SHA-256 `a964d1dba62fa58ca6158f3c279c7a2ffb29d37b98a294fad36736bbcf5a1e3f`. Selected as *editorial* comparison only. `02m` Short now has an author-checked 31 Oct → 26 Oct transition, independent/AV UNVERIFIED; `10m` is an alternative with pacing risk, not silently rejected.
 - Title/first visual/hook/payoff and honest click promise in [packaging-brief.md](packaging-brief.md).
 - No detailed storyboard, scene prompts, reference bytes, media or timings generated. The future storyboard belongs to exact selected text/hash after independent review; no old spans are transferable.
 

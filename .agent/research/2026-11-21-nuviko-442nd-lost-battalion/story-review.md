@@ -4,19 +4,22 @@
 
 ## Exact script identities
 
+**Current canonical script identity note (2026-11-21):** the table immediately below identifies r2 02m and unchanged 05m/10m. The historical initial 02m criterion assessment further down is explicitly superseded; authoritative current 02m criteria and checks are in the appended r2 section. This is a Git-only editorial candidate, not independent approval.
+
+
 | Variant | Full master | SHA-256 of exact UTF-8 | EN words | Full RU | SHA-256 of exact UTF-8 | RU words |
 |---|---|---|---:|---|---|---:|
-| 02m | [EN](variants/02m/script.en.txt) | `416fa42bd426bbc49d1dd1ecd0f2f2b9c00b5ea8ea20bba5578e4f4678596d59` | 311 | [RU](variants/02m/script.ru.txt) | `dc44cac53f12099f1a997f984c870b9ed2a34541638127e1e4832c3520217dd3` | 260 |
+| 02m | [EN](variants/02m/script.en.txt) | `89557319f52b40ff91601946e7d95ac16721c08a8fdf05a0a43a0149e089d89b` | 276 | [RU](variants/02m/script.ru.txt) | `127a2e6b32a5a9b6e3cb3595b372fe203d3d02144e8cbbf3de17c514d198a6d2` | 246 |
 | 05m | [EN](variants/05m/script.en.txt) | `a964d1dba62fa58ca6158f3c279c7a2ffb29d37b98a294fad36736bbcf5a1e3f` | 742 | [RU](variants/05m/script.ru.txt) | `b33bb547d9a5cb4a1e2e12bbc23e26db167284588af514cc4f10a96fbb8d579a` | 614 |
 | 10m | [EN](variants/10m/script.en.txt) | `4599bca84416ad3c9c156022ae94be3c92b1cfea702a643dffc3d7f4461638fb` | 1534 | [RU](variants/10m/script.ru.txt) | `1b4681c0da04f2b0c56b0369c4358d80f2a597fe66f4b2a6012e9c15c4191369` | 1300 |
 
-Word counts are whitespace-token estimates, **not** audio. At an assumed production **effective** rate 150–165 EN words/minute (not sampled TTS): 02m **1:53–2:04**, 05m **4:30–4:57**, 10m **9:18–10:14**, before pauses and any 10s Long end screen. Nuviko voice speed 1.10 is a profile setting applied only by approved production; the quoted WPM is an assumption for the final effective output, not an added speed change. Exact runtime and 5m/10m fit: UNVERIFIED pending accepted TTS.
+Word counts are whitespace-token estimates, **not** audio. At an assumed production **effective** rate 150–165 EN words/minute (not sampled TTS): 02m **1:40–1:51**, 05m **4:30–4:57**, 10m **9:18–10:14**, before pauses and any 10s Long end screen. Nuviko voice speed 1.10 is a profile setting applied only by approved production; the quoted WPM is an assumption for the final effective output, not an added speed change. Exact runtime and 5m/10m fit: UNVERIFIED pending accepted TTS.
 
 ## Evaluation protocol
 
 Scores below are the **author's** concrete judgments, confidence usually MEDIUM for narration/causality, LOW for audience transfer, based on exact script content; no independent scorer. `UNVERIFIED` for demand is neither zero nor an invented eight. Each row ties to a particular phrasing/action, not category-wide applause. A `STRONG_CANDIDATE` needs interest, causal development and payoff individually >=8; it does not mean approved.
 
-### 02m — complete Short narrative / REWORK
+### 02m initial proposal — HISTORICAL BASELINE ONLY (superseded by current r2 below)
 
 | Editorial criterion | Score | Evidence from this exact text | Main limitation |
 |---|---:|---|---|
@@ -29,7 +32,7 @@ Scores below are the **author's** concrete judgments, confidence usually MEDIUM 
 | 7. Spoken clarity | **8** | Unadorned sequence “On the following afternoon, a patrol ... Men ... from another direction” | Several identifiers within 300 words |
 | 8. Verified viewer interest | **UNVERIFIED** | A 2026-09-12 public YouTube item has 568 indexed views; no matched baseline/retention | No comparable current demand evidence |
 
-**Biggest defect:** the literal end `That is why, when we tell the story of the men who finally came out, we have to return to the men who were sent in.` → opening `The men sent to rescue an American battalion in 1944 had barely been given time to rest.` is a **thematic callback**, not proven continuous spoken sentence. Author's negative loop test = **FAIL**; the fresh independent two-cycle test = **UNVERIFIED**; AV seam = UNVERIFIED. This is a **complete 02m alternative, but not Short-ready**. Two-minute narration can be fully understandable without a passing loop; neither the word “return” nor structural circularity makes it pass. Avoid production until rewritten and re-reviewed.
+**Historical baseline defect, NOT current r2:** the literal end `That is why, when we tell the story of the men who finally came out, we have to return to the men who were sent in.` → opening `The men sent to rescue an American battalion in 1944 had barely been given time to rest.` is a **thematic callback**, not proven continuous spoken sentence. Author's negative loop test = **FAIL**; the fresh independent two-cycle test = **UNVERIFIED**; AV seam = UNVERIFIED. This is a **complete 02m alternative, but not Short-ready**. Two-minute narration can be fully understandable without a passing loop; neither the word “return” nor structural circularity makes it pass. Avoid production until rewritten and re-reviewed.
 
 ### 05m — illustrated Long / STRONG_CANDIDATE — RECOMMENDED
 
@@ -65,7 +68,7 @@ Scores below are the **author's** concrete judgments, confidence usually MEDIUM 
 
 | Variant | Opening promise | Turning point after hook | Climactic observed event | Full ending | Risk of audience exit |
 |---|---|---|---|---|---|
-| 02m | Exhausted rescuers | Other Americans fail, dropped supplies miss; 100th/442nd sent | Two fronts reach surrounded troops | 211 rescued, separated death/wound counts | Dense compressed unit context around fourth paragraph; weak seam |
+| 02m initial (superseded) | Exhausted rescuers | Other Americans fail, dropped supplies miss; 100th/442nd sent | Two fronts reach surrounded troops | 211 rescued, separated death/wound counts | Baseline's weak seam; see latest r2 map below |
 | 05m | Three answerable questions on the two forces, exhaustion and costs | German tank halted, then deceptive hollow and minefield | Senzaki patrol + B platoon reaches pocket | Lost Battalion survivors / toll / continued fighting / 1946 acknowledgment | Mid-attack military detail if visuals lack geographic continuity |
 | 10m | Road to a rescue already held by enemy, exhaustion and social contradiction | Multiple defensive positions and missing supplies; specifics of 27–29 Oct change options | Two contacts on Oct30 after a final mined roadblock | Survival count, real counting disagreement, next-day duties, Truman | Tactics around Oct28–29 and analytical aftermath may slow attention |
 
@@ -78,7 +81,7 @@ Scores below are the **author's** concrete judgments, confidence usually MEDIUM 
 | Factual support / source claims (author spot-check against unit history + NPS) | PASS (author check; not independent fact audit) | PASS (author check) | PASS (author check); totals' disagreement noted |
 | EN/RU action/number/limitation equivalence (author paired reading) | PASS (author check) | PASS (author check) | PASS (author check) |
 | Nuviko supported format | PASS: `short` configured, duration pending | PASS: `long` configured | PASS: `long` configured |
-| Spoken Short loop | **FAIL** author thematic-only seam | N_A for Long | N_A for Long |
+| Spoken Short loop | r2 author text transition checked; independent full double-cycle **UNVERIFIED**, AV seam **UNVERIFIED** (old baseline FAIL preserved below) | N_A for Long | N_A for Long |
 | Actual AV seam | UNVERIFIED | N_A | N_A |
 | Rights/license for sourced archival images/audio | UNVERIFIED; none fetched | UNVERIFIED; none fetched | UNVERIFIED; none fetched |
 | Independent first-reader/script review | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** |
@@ -86,7 +89,7 @@ Scores below are the **author's** concrete judgments, confidence usually MEDIUM 
 
 **Independent-reader request for local continuation:** give exact 05m script text FIRST, with no review scores, research map or pitch. Ask after the opening alone what answers are expected, then after entire script where attention weakened, what concrete action was memorable, and whether the ending genuinely fulfills questions. After first impression, supply research/source map for factual audit. If reviewer calls it dull, reject candidate regardless of scores. Reviewer must independently store true `ytv-script-review-v1` with exact current script hash in proper task contract; this document is not that result. If any script text changes, refresh its SHA, review and dependent storyboard.
 
-**Revision budget:** one self editorial structural/duration pass per 05m/10m; no independent pass. The 02m loop remains a substantial unresolved defect; do not relabel it PASS. No storyboard/prompts produced because selected exact narration has not cleared independent review.
+**Revision budget:** one self editorial structural/duration pass per 05m/10m; no independent pass. The original 02m loop had a confirmed author defect; current r2 replaced the text and is author checked only. Independent full repeated reading and AV seam remain UNVERIFIED; do not relabel them PASS. No storyboard/prompts produced because selected exact narration has not cleared independent review.
 
 ## 2026-11-21 — 02m r2: causal loop and additional observed action (supersedes earlier 02m assessment)
 
