@@ -55,6 +55,12 @@ def parser():
     context.add_argument("--run", required=True)
     context.add_argument("--task", required=True)
     context.add_argument("--output", type=Path, help="Optionally write the packet for an independent session")
+    allowance = sub.add_parser("set-audio-allowance", help="Record an owner-authorized task-scoped audio budget")
+    allowance.add_argument("--run", required=True)
+    allowance.add_argument("--units", type=int, required=True)
+    allowance.add_argument("--expected-version", type=int, required=True)
+    allowance.add_argument("--source", required=True)
+    allowance.add_argument("--message", required=True)
     migration = sub.add_parser("migrate-runtime", help="Plan or apply an exact local runtime-rules migration")
     migration_actions = migration.add_subparsers(dest="migration_action", required=True)
     for action in ("plan", "apply"):
@@ -178,6 +184,9 @@ def parser():
 
 def dispatch(service, args):
     command = args.command
+    if command == "set-audio-allowance":
+        return service.set_audio_allowance(args.run, args.units, expected_version=args.expected_version,
+                                           source=args.source, message=args.message)
     if command == "migrate-runtime":
         if args.migration_action == "plan":
             return service.plan_runtime_migration(args.run, args.source_root, expected_version=args.expected_version)
