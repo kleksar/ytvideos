@@ -1,0 +1,33 @@
+How could a spacecraft reach Mars with its engine working and still miss the orbit? Why had its navigators seen strange numbers for months? And why did the mistake survive until the last minutes of the flight?
+
+In December 1998, NASA launched Mars Climate Orbiter. It was supposed to study the planet's weather and later help another spacecraft communicate with Earth. The journey would take nine months. By September, the orbiter was nearly there.
+
+Its approach required precision. The probe would fire its main engine, go behind Mars as seen from Earth, and come back into radio contact on the other side. Then it could settle into its planned orbit.
+
+But during the journey, small forces kept nudging the spacecraft. Its single solar array extended to one side. Sunlight pressing on that uneven shape slowly changed its orientation. Internal spinning wheels helped hold it steady, but the wheels periodically needed resetting with brief firings of small thrusters.
+
+Those bursts mattered more than the navigation team expected. The resets happened roughly ten to fourteen times as often as predicted. Engineers kept records of each tiny push so navigators could account for its effect on the spacecraft's path.
+
+Here was the invisible problem. A ground program supplied the pushes in pound-force seconds. The navigation software expected newton-seconds. Both measure an impulse, but a pound-force is about 4.45 newtons. The specification called for metric units; the actual file did not follow it.
+
+So the navigator's model treated the pushes as weaker than they were. Each individual discrepancy was small. Over a nine-month journey, repeated corrections added up.
+
+This was not an error that nobody had any chance to notice. Through the spring and summer of 1999, members of the navigation team saw differences between predictions and the radio tracking data. Some of the differences were reported informally. As the spacecraft approached Mars, one method of calculating its orbit kept pointing closer to the planet than another. The disagreement remained unresolved.
+
+On September 15, a planned course correction was carried out. The intended first close pass after the arrival burn was about 226 kilometres above Mars. Over the next week, estimates began dropping toward 150 to 170 kilometres.
+
+One more correction was possible in principle. The team discussed a contingency manoeuvre shortly before arrival. But the necessary testing, procedures and time to execute it safely were not in place. It was not performed.
+
+On September 23, the main engine fired. The spacecraft went behind Mars, and its radio signal vanished as expected — except it disappeared 49 seconds too early.
+
+The controllers waited for the signal to return. It never did. Search attempts continued, but there was no response.
+
+Only after the loss did investigators put the pieces together. With the force data corrected, they reconstructed a closest approach of about 57 kilometres — lower than the altitude the probe was expected to survive. They could not observe its exact final fate. It had either been destroyed in the atmosphere or had passed out into space without being recovered.
+
+On September 29, the unit mismatch was identified. The mission had not been lost because its main engine simply failed. The fatal path had been developing while the spacecraft was still travelling toward Mars.
+
+The investigation listed other failures around the original error: poor communication, inadequate training and staffing, insufficient software checks, and an unprepared final correction. NASA then urged the next Mars project to verify units and audit the software interfaces between its teams.
+
+The obvious fix sounds like a conversion. The harder fix was making sure the people and programs on either side of a file actually agreed on what its numbers meant.
+
+That is why Mars Climate Orbiter vanished so quietly. By the time the radio fell silent, the wrong numbers had already done their work.
