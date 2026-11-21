@@ -1,0 +1,105 @@
+If I switch my phone to dark mode, will the battery really last longer? Why can the saving be almost invisible indoors but striking on a bright day? And why might two people using dark mode report completely different results?
+
+I want a choice I can use, not a promise that every black screen is a battery miracle.
+
+So I start with a simple comparison. I picture myself reading the same article on the same OLED phone. Option A is a white page with dark letters. Option B is the same article with a dark background and light letters. I don't change the brightness, the app, or how long I read. I measure one thing: the electrical power used by the whole phone.
+
+At first glance B seems certain to win. The display is black over most of its area. Surely that must mean an enormous reduction.
+
+Here is why that guess is both right and wrong.
+
+On an OLED display, a pixel produces its own light. A dark pixel generally needs less electrical power than a bright one. An LCD display works differently: a backlight illuminates the panel, and dark pixels largely block that light rather than turning it off. For an OLED, making a large background dark can save screen energy. For an LCD, I shouldn't expect the same benefit.
+
+But the display is not the phone.
+
+When I read my article, the processor still runs. The phone still manages memory, network connections and the application. Those components don't stop because I prefer a dark background. If I reduce the display's power use, I only reduce one portion of the total.
+
+That distinction turns the first comparison on its head.
+
+In 2021, researchers at Purdue University investigated dark and light themes on four OLED Android phones. Their devices included the Pixel 2, Pixel 4, Pixel 5 and Moto Z3. They examined sixty seconds of activity in six widely used apps, including Maps, News, Calendar, YouTube, Phone and Calculator.
+
+These are measurements and power-model estimates from their study, not a battery-drain experiment I have performed myself.
+
+At the thirty-to-fifty-percent screen brightness typical of indoor use, switching to dark mode saved an average of about three to nine percent of total phone power in their tests.
+
+So B wins, but it doesn't win by anything like the size of the black rectangle on the screen.
+
+I can understand why that result disappoints someone who imagined leaving the charger at home just by choosing a dark wallpaper. If the entire phone's power consumption falls by a few percent for a particular task, that is not automatically a few percent more battery life over a whole day. My day includes changing brightness, different apps, calls, times when the screen is off and activities the study did not reproduce.
+
+The mistake is treating the result for one tested moment as a promise for all the moments that follow.
+
+Now I move the comparison to a second scene.
+
+I am outside. The sun is bright enough that a dim screen becomes difficult to read. I raise the screen brightness to its maximum. I still have two versions of the same interface: white A and dark B.
+
+And now the published result changes dramatically.
+
+At full brightness, Purdue reported average phone-power savings of thirty-nine to forty-seven percent when switching from light mode to dark mode in the tested situations.
+
+That sounds like a completely different verdict, but the winner has not actually changed. In both cases dark mode uses less power. What changes is how much less.
+
+At low brightness, the display consumes relatively little power to light its pixels. There isn't a large screen-power bill left to cut. At maximum brightness, the white pixels cost much more to illuminate. Darkening them can remove a much larger expense.
+
+Purdue's later explanation of the work gives a striking illustration: in their OLED measurements, dropping brightness from one hundred percent to fifty percent reduced display power draw by roughly a factor of ten. That statement concerns the display under their conditions, not a universal tenfold drop in the whole phone's power use.
+
+It's a reminder to keep the unit of measurement in the sentence. Screen power and total phone power are not the same thing. Neither is a percentage drop in power identical to the same percentage increase in battery life.
+
+I could stop there with a rule: dark mode helps most when my OLED screen is very bright. But something else complicates the picture. What am I actually looking at?
+
+Suppose the app has a white page containing paragraphs of text. Switching the theme turns most of that white background dark. A large number of pixels change. But if I watch a full-screen video, the video itself stays the same, no matter which colour I choose for the player controls.
+
+The theme changes the edges of the app. It doesn't recolour an entire movie.
+
+An earlier investigation from Mobile Enerlytics makes that difference concrete. It tested activities on a Nexus 6 with an OLED screen at a fixed thirty-eight-percent brightness. The team repeated activities five times in each theme and reported the total phone energy saved for those particular tasks.
+
+For a news-reading activity, the saving was twenty-three point five percent. For a YouTube full-screen playback activity, it was just one point eight percent.
+
+Think about those two pictures. The article can replace a broad white surface with a dark one. The full-screen video already fills the display with its own changing images. The amount of screen that the theme can change is radically different.
+
+The report also found intermediate outcomes for other activities, like browsing YouTube rather than playing a full-screen video. This isn't a clean contest in which one app is always efficient and another is always wasteful. The activity within the app matters.
+
+And I cannot simply average Mobile Enerlytics' figures with Purdue's three-to-nine-percent result. Different phones, different tasks and different measurement methods answer different questions. Mixing them would create a new number that neither study measured.
+
+That brings me to an easy trap in an A/B comparison: changing two variables and crediting the winner to only one.
+
+I see a phone in light mode at full brightness, and another in dark mode with the brightness lowered. The second draws less power. But how much came from the theme, and how much came from dimming the screen?
+
+I don't know. I have changed both the colour and the brightness.
+
+For the question I started with, I need A and B to use the same device, the same application, the same content, the same activity and the same brightness. Only then can I reasonably attribute the difference to the theme in that particular test.
+
+Purdue published another example that shows why this control matters. In Google News on a Pixel 5, light mode at twenty-percent brightness used roughly the same power as dark mode at fifty-percent brightness.
+
+That is not permission to turn up every OLED phone by thirty brightness points without a cost. It is an observation for a particular combination of app and phone, useful because it reveals that colour and brightness interact.
+
+Here is another subtle mistake. I might assume that every shade of dark uses exactly the same electricity. But OLED power depends on the actual colours on the screen, not just whether an app labels itself 'dark'. A black area, a dark-grey area, a colourful photograph and white text don't have identical demands on the pixels.
+
+Mobile Enerlytics even found that a simple method of adding the separate red, green and blue pixel power values could overestimate display power. That is why its investigators used measurements to calibrate a more careful model.
+
+I don't need to calculate millions of pixels before choosing a theme. But I should avoid the opposite mistake: thinking I can determine precise battery savings just by counting black areas in a screenshot.
+
+The researchers at Purdue faced a similar measurement problem. Conventional battery graphs recorded how much an app used overall, without accounting well for every colour shown on the OLED screen. Their work developed a way to estimate display power frame by frame, so the displayed content mattered.
+
+That detail tells me something useful about claims I see online. A demonstration that one phone reaches zero while the other still has charge can be interesting, but the setup matters: brightness, app choices, battery condition, background activity and what was done with the phones. A controlled test is evidence for its own setup, not a universal new law of battery life.
+
+And it explains why I can't promise a certain number of extra hours from the percentages in these studies. A power saving during a minute of reading is not a measured full-day endurance result.
+
+I return to my original choice, A or B.
+
+First, I check the display type. If it is OLED, dark backgrounds can reduce screen power. If it is LCD, a shared backlight changes the story.
+
+Second, I check the brightness. If I mostly use the phone indoors at moderate brightness, I expect a modest advantage from B in many situations. If I spend time in strong daylight with the display near maximum brightness, the potential advantage is much larger.
+
+Third, I check the task. Reading a dark-themed article changes a great deal of the image; playing a full-screen video may change very little. The same phone can therefore give very different answers.
+
+Now I can make a choice without pretending I ran a laboratory experiment.
+
+At home, I choose the interface I find easiest to read. I don't sacrifice comfortable reading because I expect a miraculous battery gain from a few dark menus. Outdoors, on an OLED screen that needs to be very bright, I have a concrete reason to try dark mode.
+
+If I need a fair comparison on my own device, I keep brightness and activity fixed rather than trusting a pair of screenshots with different settings. And if I need more battery in general, lowering unnecessary brightness is another separate lever I can use, not evidence that one theme always wins.
+
+My answer isn't 'dark mode doesn't work'. That would ignore the large high-brightness savings. It isn't 'dark mode doubles battery life' either. That would turn a limited research result into a promise no one made.
+
+The honest answer is conditional. For the same OLED phone and the same task, B usually has the physical advantage. Whether I notice it depends on brightness, on the pixels my app actually shows, and on everything else the phone is doing.
+
+So the next time my battery icon turns red, I won't judge the two themes by which one looks darker. I will ask a more useful question: where is my phone spending its power right now?
