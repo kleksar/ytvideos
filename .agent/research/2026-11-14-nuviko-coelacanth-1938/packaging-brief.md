@@ -17,3 +17,7 @@ Preferred concept 2, subject to independent cold-reader evaluation. Core viewer 
 ## Duration-specific constraints after 2026-11-17
 
 Existing S001/S003/S015 visual proof points refer only to original 02m Short. For new 05m, truthful thumbnail contrast is preserved skin mount vs distinct second 1952 fish, never a claim that the entire first fish disappeared. 10m may mention the **separate 1962 AMNH specimen / 1975 embryo finding** only if that exact version is selected; do not attribute pregnancy to the 1938 or 1952 fish. No archival image rights, frame timestamps or CTR evidence established.
+
+## 2026-11-21 revised 10m visual/promise note
+
+Only if the exact newly revised 10m is independently reviewed and selected: three visible turns can support long-form packaging — **1938 blue fin and failed cold storage → 1975 five embryos in a separate 1962 AMNH female → 1997 Indonesia market sighting followed by 1998 catch and 1999 distinct-species recognition**. Do not imply the first fish was pregnant, the new species was certified in 1997, or that archive photographs are licensed assets. Existing 02m S001–S016 storyboard/thumbnail notes remain attached only to the preserved root script. New 10m visual spans, times, references and exact thumbnails: UNVERIFIED, not silently reused.
