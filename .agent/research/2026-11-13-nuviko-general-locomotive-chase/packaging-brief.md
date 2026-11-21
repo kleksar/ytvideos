@@ -20,3 +20,7 @@ Reference selection/thumbnail crop testing requires future actual images, scene-
 ## Timing variant note — 2026-11-17
 
 Existing Short thumbnail/title concept binds to original root/02m only. Suggested **05m Long** angle: *A Conductor Chased a Stolen Train — and the Sabotage Helped Him*. Promise: why every broken rail costs the thieves more time than the conductor, shown by handcar / three locomotives / wet bridge / failed fuel stop. This is a hypothesis without generated thumbnail or CTR measurement. For 10m do not promise more dramatic events absent from evidence; it offers logistics and consequences. New Long storyboard/pacing/thumbnail requires owner selection and exact-hash review.
+
+## 2026-11-21 exact 10m narrative note
+
+The expanded Long gives specific human aftermath after the train stops: Wilson's execution, eight men escaping prison, six exchanged and Parrott's first Medal of Honor. Do not promise a successful Union sabotage, general amnesty, or that all prisoners escaped. The original Short thumbnail/seam remains tied to root/02m; neither existing 14-shot storyboard nor 05m timing can be assigned to this new 10m hash `820d16a232b49b2903fa58044b39245180304590025efe42c9996afe6f8b2a0d`. Packaging, images, demand and final metadata are unverified; provisional recommendation remains 05m.

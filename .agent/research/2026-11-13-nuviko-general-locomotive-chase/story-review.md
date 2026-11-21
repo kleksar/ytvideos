@@ -97,3 +97,35 @@ Baseline exact root Git blob hashes EN `f83dc170fb23e9c1b870aaab0d71aca391e25cfd
 **Added value comparison:** 02→05 adds why the railway mattered, no telegraph at theft site, Kingston bottleneck, handoff sequence and sabotage/refuelling paradox; high causal gain. 05→10 adds covert recruitment, deliberate travel in civilian clothes, detailed progression past Dalton and Tunnel Hill, telegram warning, how repairs and prisoner fates unfolded and first decorations. Useful for dedicated rail-history audience, but the explanation slows after the river-bridge attempt and becomes historical aftermath after the execution result. **Recommend 05m**, pending real blinded independent review and owner's exact master selection. Do not produce three films.
 
 **Review input without author scores:** provide reviewer the exact EN/RU texts (paths/hashes above) without this review, both full passes of 02m and its exact end/start; let them choose old text, new text, no version or refuse all. Sources G1–G4 and extensions arrive only after their initial reaction. Missing capability: no available fresh independent session in this host, no executable pinned ytv runtime. State remains `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+
+## Substantive 10m revision — 2026-11-21 (supersedes the 2026-11-17 10m row only)
+
+**Before → after:** exact baseline HEAD `3935d5c76a48ae51dec48bdffb40877aa63de46f` / original 10m EN `38a750391d50e44a55f0edf9c82a25564feead093a6144c7c5b00ecf3a58fa05`, RU `9c6d0117b67d941fbb91b59cc7cd90e1c454cce042f57f0d451363e3dec382f9` → newly edited complete 10m EN `820d16a232b49b2903fa58044b39245180304590025efe42c9996afe6f8b2a0d`, RU `3e91ea3cb46492096aafdd6c1b853965407c79fa4337a799e2e3208b2202810c`. Original 02m, 05m, root EN/RU, storyboard, images and any production pins stay unchanged. All six scripts remain one Great Locomotive Chase story. No owner approval or independent reviewer.
+
+| Variant | Full EN | Full semantic RU | EN words | Approximate EN delivery at 120–165 wpm, pauses extra | Status |
+|---|---|---|---:|---|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 233 | 1.4–1.9 min | Unchanged Short; loop author-only, AV UNVERIFIED |
+| **05m** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | 571 | 3.5–4.8 min | **Still recommended Long**, unchanged |
+| 10m | [EN](variants/10m/script.en.txt) · SHA-256 `820d16a232b49b2903fa58044b39245180304590025efe42c9996afe6f8b2a0d` | [RU](variants/10m/script.ru.txt) · SHA-256 `3e91ea3cb46492096aafdd6c1b853965407c79fa4337a799e2e3208b2202810c` | 1463 | 8.9–12.2 min | Revised Long, editorial candidate, no voice measurement |
+
+**Revised 10m story map:** two opening questions → Mitchel's rail-cutting objective and undercover approach → no telegraph at Big Shanty → General stolen during breakfast → Fuller on foot / handcar / Yonah → Kingston trains and William R. Smith → destroyed track and Texas in reverse → wet bridge cannot ignite → Fuller warns ahead / General cannot stop for wood → steam fails at Ringgold → **distinct, sourced aftermath**: execution of Andrews and Wilson, eight escaping captivity and six exchanged, Jacob Parrott's first Medal of Honor → repairs and museum locomotive answer the opening. The old 10m repeated abstract explanations of the time paradox and ended with a source-reliability lecture; the new last act assigns real consequences to named people without claiming the raid succeeded.
+
+**Eight author editorial ratings for the revised exact 10m (1–10, not statistical prediction):**
+
+| Criterion | Rating | Concrete evidence, principal shortcoming and confidence |
+|---|---|---|
+| Interest / importance | 8 | Ordinary breakfast theft leads to eight executions and diverging prisoner fates; Civil War context still narrows some viewers. Medium |
+| Opening | 8 | Two answerable questions — no telegraph and damaged track — before espionage setup; breakfast action still follows exposition. Medium |
+| Development / reason to stay | 8 | Each vehicle switch and failed sabotage changes Fuller's options; new prisoners/escape branch adds a second distinct conflict, but telegraph and fuel sections remain close together. Medium |
+| Payoff | 8 | General runs out of steam; who survived captivity and how railway recovered now answered concretely. Six-paragraph aftermath may still feel long after the engine stops. Medium |
+| Freshness of angle | 8 | Rescue of stolen train by changing vehicles, then asymmetric human fates; famous Civil War event rather than new discovery. Medium |
+| Visual expression | 8 | Reverse-running Texas, burning freight car, escape versus exchanged prisoners, surviving museum engine; prison visuals need non-fabricated visual research. Medium |
+| Oral clarity | 8 | Replaced one generic contrast paragraph; Wilson, Pittenger and Parrott introduced by actions, but names in final act may require slower delivery. Medium-low |
+| Verified viewer demand | UNVERIFIED | No comparable viewer demand or channel-specific retention measured; no audience score is justified. None |
+
+**Hard checks (author, not independent):** historical claims of the eight October escapees and six exchanged cross-checked against participant Pittenger's 1863 list (G1) and U.S. VA account (G2); Wilson's occupation and Parrott's treatment/first-award sequence checked against the U.S. Army (G7). EN/RU describe the same actors, chronology, numbers, evidence limits and ending. No invented eyewitness dialogue, personal motives or claimed certain detailed pursuit timetable. The source spelling/total membership varies by account; script avoids exact number of the whole raiding party. Short's unchanged two-pass textual loop retains only its previous author check; Long requires no loop. No TTS/AV, independent bilingual first-listener review, measured pace, audience metrics, registered ytv run or approval: **UNVERIFIED**. The old 10m review/scene timing must not be reused for new hashes; original 14-scene storyboard remains tied only to root/02m.
+
+**Incremental value:** 02→05 gains station communication gap, specific engines and time lost on single-track traffic. 05→revised 10 gains Mitchel's strategic aim, warning sent ahead, two separate modes of prisoner survival, Wilson and Parrott as identifiable people, and the fate of first Medal recipients. After the engine stalls, attention may still drop at the transition into dates of executions and awards, so **05m is provisionally recommended** for tighter consequence per minute. The 10m is a finished alternative, not evidence that a longer film performs better.
+
+**Blind next review:** give a genuine independent reviewer exact old/new 10m full EN/RU texts in an undisclosed order without this verdict; first reaction before G1/G2/G7; preserve actual response in existing schema. Original 02m/05m hashes and evidence unchanged. This remains `EDITORIAL_CANDIDATE_UNREGISTERED`, not an official `ytv start`.

@@ -115,3 +115,18 @@ Existing G1–G4 remain the one shared research baseline. No source material is 
 **New interest verification:** No measured channel CTR/retention or apples-to-apples audience analytics obtained. The stronger 05m is an author judgement based on precise causal turns, not an independently observed user preference. YouTube public-video performance and independent listener: UNVERIFIED. No new claims about likely virality.
 
 **Format:** Nuviko channel.json supports illustrated short with narrative loop and long 16:9 as read 2026-11-17. This is not a registered production run. The existing storyboard is an original 02m asset only; 05m and 10m would each require new scene coverage if chosen.
+
+
+## 2026-11-21: specific new final-act evidence (10m revision only)
+
+The revised 10m removes generic source commentary from spoken narration and adds named aftermath **within the same railway-raid story**. Evidence checked against primary participant and US government accounts; no private project details were submitted to public search.
+
+| Narrated claim | Source / exact location | Confidence and boundary |
+|---|---|---|
+| Every raider captured within a week, including two men who missed the train; Andrews executed June 7, seven others June 18 | G2, “The Fates of Andrews’ Raiders” at https://www.cem.va.gov/history/Andrews-Raiders.asp | High for date/count. Avoid precise total raider number because sources disagree about participation versus enrollment |
+| October 1862: eight escaped; March 1863: six exchanged including Pittenger/Parrott | G1, participant William Pittenger 1863, preface roster (“ESCAPED IN OCTOBER” and “EXCHANGED IN MARCH”), https://dev.gutenberg.org/cache/epub/20509/pg20509-images.html ; G2 “The Fates” | High for broad outcomes; memoir is interested first-person testimony, not an impartial minute-by-minute witness |
+| George D. Wilson was an Ohio shoemaker/soldier, captured and executed with six others on June 18 | **G7 NEW** US Army, Pvt. George D. Wilson, biographical opening and “The Great Locomotive Chase”, https://www.army.mil/medalofhonor/wilson/ | High on role and fate, no invented thoughts or dialogue |
+| Jacob Parrott maltreated during interrogation, first to receive Medal of Honor; six released soldiers decorated March 25, 1863 | G7, section on Parrott; G2, March 25 award date; G1 names the exchanged men | High for historical narrative; treatment attributed to Army account in spoken EN/RU |
+| Rail line promptly repaired and 1862 raid did not sustain strategic disruption; the original General survives in Kennesaw | G2 / G3 / G4, already in common research | High, institutional history; no overstated claim that it caused zero temporary disruption |
+
+No new viewer performance data, independent audio evidence, photographs or new factual quotes were obtained. The 02m/05m evidence remains unchanged.
