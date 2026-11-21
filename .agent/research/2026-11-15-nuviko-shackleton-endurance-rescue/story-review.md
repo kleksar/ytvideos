@@ -10,7 +10,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED — author-only editorial review, NOT independe
 |---|---|---|---:|---|---|
 | 2m · Long 16:9 | [02m EN](variants/02m/script.en.txt) | [02m RU](variants/02m/script.ru.txt) | 275 / 251 | `991ff97fb914667cce94fb13023799f6963f792bdaf665a570eebfa17e0632cb` | `bd033ca7dab36f809726413c44e822f5dc2dc7fca85ddab8002739465184a7b8` |
 | 5m · Long 16:9 | [05m EN](variants/05m/script.en.txt) | [05m RU](variants/05m/script.ru.txt) | 692 / 580 | `cd228f10f752cd177063039422a5a95e7600a2e641af26186fadb6479c7a9ae3` | `2eac87f260fcd8103ed5413c3326de7e3846b7cab870ffdb2352ce45dda39154` |
-| 10m · Long 16:9 | [10m EN](variants/10m/script.en.txt) | [10m RU](variants/10m/script.ru.txt) | 1356 / 1132 | `7638a8967b24f0217decb17882bcc5a511dae2cf56d09db061c1c4a8901abae1` | `1cfb85c4446cd993d58569b59e6068487a8a90cc4559ee23af827c1df084d38a` |
+| 10m · Long 16:9 | [10m EN](variants/10m/script.en.txt) | [10m RU](variants/10m/script.ru.txt) | 1473 / 1242 | `92a3ed6f4aada34293aebace4e488b88c9cd4ac05f5978a0417482d514d5cf2e` | `f0dfa03f6395afd43659345aad29f64af8ce0bcbaaac25b88b2b7b893f4c527f` |
 
 **Duration caveat:** word count measured from exact UTF-8 text; EN 130–150 spoken words/minute *before* the configured 1.1× playback, pauses and 10-second Long end-screen suggests approximate storytelling ranges 1.8–2.1m, 4.6–5.3m, 9.0–10.4m at unadjusted rate. This is NOT measured TTS; configured voice speed must not be altered to meet targets. Actual voice and pacing may produce different durations. All three are Long, which `channels/nuviko_history/channel.json` supports; narrative loop N_A, end-screen is subsequent production work.
 
@@ -20,7 +20,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED — author-only editorial review, NOT independe
 
 **05m:** Three front questions explicitly promise the 22's island isolation, six sailors' ocean crossing and four rescue attempts. Original 1914 aim → ice/ship loss → floe camp → boats → Elephant Island (**main hook after substantive immersion: even land is uninhabited**) → McNish repairs James Caird → Worsley navigation, storm landing → three men cross mountains → first three ships fail and 22 under shelter → Yelcho/Pardo rescue → 28 scoped survivors. Human lines: Wild entrusted with 22, Worsley with navigation, Pardo with last vessel. **Risk:** sequential failure descriptions S024–S026 may sound enumerated; avoid another repetition during scene production. The English/Russian version preserves the original's substantive narrative middle and payoff, not original declarative front matter.
 
-**10m:** Opening three questions give one connected promise: surviving ice, reaching land but remaining stranded, four failed/successful rescue approaches. Two-party expedition objective → pack ice → abandoned ship → broken camp floe → three open boats → Elephant Island **main hook: survival on land solves neither contact nor transport** → construction/departure of James Caird → six named sailors and 22 under Wild → Worsley's four sun observations → arrival requires weather delay → several days recovery and 36h mountains → first relief vessel Southern Sky stopped ~70 miles short → Admiralty cannot help until Oct → Instituto de Pesca No. 1 blocked → Emma blocked → Yelcho with no radio/double hull navigates fog → Macklin's frozen flag/jumper → 22 embark, 28 *Endurance* crew safe. Wider Ross Sea losses bound the claim; final payoff is the rescued 22. **Risk:** long intro delays major island turn; after the third failed ship, repeated ice obstruction can lose interest despite different vessels. These facts are source-checked in [research](research.md), not inferred from shots.
+**10m (revised 2026-11-21):** Three opening questions → expedition objective and ship lost → moving floe and three open boats → **main hook: Elephant Island is uninhabited and unreachable** → six cross on James Caird while Wild collects food → Worsley's four sun observations → storm landing, mountain crossing, arrival at whaling station → Wild's men rebuild shelter with stones and inverted boats and repair stove chimney → Southern Sky blocked 70mi out → hut floods, Wild's men bail with saucepan and drain it → October naval delay → Uruguayan trawler sees island from 20mi but retreats → Emma blocked → seals/penguins scarce, bone/limpet/seaweed meals, rotating cooks → Yelcho approaching through fog while 2 days of meat remain → Marston's alert, frozen flag/jumper signal → 22 rescued, 28 Endurance crew safe, Ross Sea loss distinction. **Weakness:** three rescue voyages still fail at the same ice obstacle, and named vessels require legible spatial visualisation. Dates of island flooding are not invented; source details from Shackleton's retrospective, referenced in [research](research.md).
 
 ## Eight criteria, separately scored from the exact full scripts
 
@@ -52,18 +52,20 @@ Author-only judgment, no invented independent listener. Ratings /10 unless UNVER
 | Spoken clarity / naturalness | 8 | reused original clear action chain, updated questions-first introduction | sea-to-island geography needs map | medium |
 | Demonstrated viewer demand | UNVERIFIED | indexed Maximus/History Hit/NatGeo entries; none matched baseline | no reliable measured retention or CTR | low |
 
-### 10m
+### 10m (revised 92a3ed6f4aad)
 
 | Criterion | Score | Concrete textual reason | Main drawback | Confidence |
 |---|---:|---|---|---|
-| Interest / significance | 8 | six named voyagers; rescue crew and stranded men each face separate problems | geographic complexity for general audience | medium |
-| Opening | 7 | three promised answers but expedition plan precedes first major land turn | island turning point comparatively late | medium |
-| Development / need to continue | 8 | ice, seamanship, solar sights, storm landing, foot traverse, different rescue resources | consecutive failed ice attempts may feel repetitive | medium |
-| Payoff | 9 | frozen flag/jumper, all 22 board, distinction from Ross Sea losses | Ross Sea coda after climax slightly dilutes emotion | high |
-| Freshness | 6 | operational detail on Southern Sky, Instituto, Emma, Yelcho | still same well-known rescue | high |
-| Visual expressiveness | 8 | specific differentiated ships and island fog create scenes | many boats/ice shots may look identical | medium |
-| Spoken clarity / naturalness | 7 | verifiable actions, no fictional interior monologue, translated role distinctions | several names of ships and people to retain | medium |
-| Demonstrated viewer demand | UNVERIFIED | no 10m age-/creator-matched evidence in public counts | projected demand not measured | low |
+| Interest / significance | 8 | Wild's twenty-two solve tangible shelter and food problems while Shackleton repeatedly tries to reach them | famous survival tale with many adaptations | medium |
+| Opening | 7 | specific questions promise the island and four relief attempts before historical setup | island's principal hook still arrives after initial navigation context | medium |
+| Development / need to continue | 8 | improvised roof and chimney, hut flooding, ration choices and rescue's twenty-mile near-miss provide new causes and outcomes | a sequence of three ice-blocked ships can still feel repetitive | medium |
+| Payoff | 9 | Marston sees Yelcho, call confused with lunch, Macklin replaces frozen flag, all 22 finally depart | brief Ross Sea scope clarification after climax | high for documented event, medium for attention |
+| Freshness | 6 | diary-derived camp decisions shift from solely Shackleton's voyage to Wild's work | no novel historical discovery | high |
+| Visual expressiveness | 9 | stone walls, inverted boats, smoky blubber stove, saucepan draining, fog and jumper signal | no actual image assets inspected | medium |
+| Spoken clarity / naturalness | 8 | concrete verbs and cause-and-effect replace an encyclopedic ending in full EN/RU | number of names and ship titles remains high | medium |
+| Demonstrated viewer demand | UNVERIFIED | third-party public view snapshots, no baseline | no measured CTR, attention or same-creator comparable | low |
+
+These are author judgments on the new script hash only; neither independent review nor real audio timing was conducted.
 
 ## Strict checks by variant
 
@@ -88,10 +90,15 @@ No claims of real listener behavior or 9–10 probability. Author-only semantic 
 | Increment | New viewer value | Exact point of possible lost interest |
 |---|---|---|
 | 02m → 05m | Worsley has just four celestial fixes, McNish converts the boat, Wild stays with twenty-two, separate mountain crossing and all three failed attempts add the answer to **how** rescue was possible | 02m rushes from island to rescue in its final four paragraphs; 05m risks the three consecutive blocked-vessel sentences |
-| 05m → 10m | Actual independent names/dates/constraints of Southern Sky, Instituto and Emma, refused warship until October, 5 days on coast before 36h traverse, Yelcho's lack of radio/double hull, human flag detail | 10m early setup postpones island reveal and relief-attempt section is a long succession of ice obstruction; post-rescue Ross Sea clarification risks a tail |
+| 05m → 10m | Parallel island survival story from Shackleton's diary-based book: overturned-boat roof, biscuit-tin chimney, saucepan flood drainage, bone/limpet food, two days of remaining meat, Marston's sighting; the second relief ship came as close as 20 miles | 10m still delays the main island hook and three ship attempts are blocked by ice, so the named-vessel run is the likeliest loss of interest |
 
-**Recommendation: 05m (AUTHOR PROPOSAL, NOT APPROVAL).** It has multiple distinct real reversals in a length likely to retain a single question. 02m is a viable complete shorter alternative if later listener finds the three blocked ships repetitive. 10m is fully written with verified new events but should not be selected solely because it is longer. Decline all if a real independent listener finds the famous topic insufficiently compelling.
+**Recommendation: 05m (AUTHOR PROPOSAL, NOT APPROVAL).** It has multiple distinct real reversals in a length likely to retain a single question. 02m is a viable complete shorter alternative if later listener finds the three blocked ships repetitive. 10m now uses distinct survival problems rather than solely repeating the rescue ships, but needs a blinded reviewer before it can displace 05m. Decline all if a real independent listener finds the famous topic insufficiently compelling.
 
 **Baseline → change:** original strong 702-word EN and 593-word RU narrative remain in place, with 33 original scene spans. Before: one full bilingual script and no alternative lengths; after: 275/692/1356 EN-word full versions, all with complete RU; 05m retains original causal through-line with a questions-first opening, 02m tightens to one rescue arc, 10m adds sourced operational turns. No storyboard/prompts or original master substituted; old review remains only about original exact files.
 
 **Independent review boundary:** no authorized independent reviewer session and no original `ytv-script-review-v1` result in this run. When available, provide exact complete English/Russian inputs to reviewer **without** this scorecard/author verdict; ask for cold opening understanding, full text attention/where to abandon, source-check only after first reaction, comparison with unlabelled original. Reviewer may prefer original or reject all. Store their own unchanged schema response with new hashes. No official `ytv start`/run/approval has been created here. No TTS/MP4 or publication. Transfer in [handoff](handoff.md).
+
+
+## 2026-11-21 factual revision checkpoint
+
+**Before → after:** baseline PR HEAD `07b61803b2b0373a43f702f3b3471967b2e679d3`, 10m EN 1356 words SHA-256 `7638a8967b24f0217decb17882bcc5a511dae2cf56d09db061c1c4a8901abae1`, RU 1132 words SHA-256 `1cfb85c4446cd993d58569b59e6068487a8a90cc4559ee23af827c1df084d38a`; revised script commit `aad0f9f515835d5ead6d8c917b7cfd4f4ddfde6a`, EN 1473 SHA-256 `92a3ed6f4aada34293aebace4e488b88c9cd4ac05f5978a0417482d514d5cf2e`, RU 1242 SHA-256 `f0dfa03f6395afd43659345aad29f64af8ce0bcbaaac25b88b2b7b893f4c527f`. Different actions/people/dates/uncertainty aligned across 32 EN and 32 RU prose paragraphs. Facts added from the diary-based retrospective [South Chapters XI–XII](research.md); documentary Long maintains questions → immersion → hook; no loop requirement. The original root/33-shot storyboard and 02m/05m remain byte-for-byte unaffected. 10m length is still **estimated**; at 130–150 wpm, 1473 words span roughly 9.8–11.3 minutes excluding timing/editing and configured voice speed. Strict independent-review/real AV/approval checks = UNVERIFIED; runtime = EDITORIAL_CANDIDATE_UNREGISTERED. Follow-up: blinded comparison of old/revised 10m and 05m, exact-hash storyboard if owner selects it; no new production or fake receipts.

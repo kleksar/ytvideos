@@ -13,3 +13,5 @@ These are three editorial concepts, not approved titles or AI images. Full 3-con
 ## Revision applicability (2026-11-16)
 
 Above first-confirmation and S001–S033 scene numbers refer only to the unchanged **original** `script.en.txt` / original 33-scene storyboard. They are NOT timings or coverage of 02m/05m/10m variants. Once an exact variant is chosen and approved, re-align package promise to its literal questions and final payoff; do not claim approved title/thumbnail or image references. General concepts A/B/C remain unapproved editorial hypotheses.
+
+**2026-11-21 new 10m proposal only:** the exact [10m EN](variants/10m/script.en.txt) hash `92a3ed6f4aada34293aebace4e488b88c9cd4ac05f5978a0417482d514d5cf2e` permits testing a Wild/Elephant-Island thumbnail promise built on the two inverted boats, failing hut and nearly empty food. This is not an approved title/thumbnail, a fourth rendered concept or a visual reference. Existing S001–S033 applies only to the original root script.
