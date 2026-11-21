@@ -1,0 +1,21 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Git-only editorial handoff — Two Ways Lab subway car
+
+**Main/source:** `131ef24068d75967b1e43aa88e5f1370f6775054` observed on 2026-11-21; no shared docs/skills modified. #124 is already **merged**, canonical `docs/standards/editorial.md` and writer skill read from main. Historical proposed policy revision `7d6bdf7702a2a241a33a21677fce29f26ada9b72` is not active main or a runtime pin.
+
+**Exact Git package:** this folder, `variants/02m`, `variants/05m`, `variants/10m`, six immutable script blob SHAs and SHA-256 values in `story-review.md`. No other channel or issue changed. 02m author recommendation is NOT selection by owner or script approval.
+
+**Capability blocker observed:** `uv run ytv start --channel two_ways_lab --format short --intent 'Compare boarding the nearest subway car versus walking to the door nearest the exit at destination; conditional train arrival times'` failed: `Failed to spawn: ytv; No such file or directory (os error 2)` in this isolated environment. There is no installed runnable local ytv CLI, so no saved run, `plan_summary`, `read_next`, `task_guide`, pinned `reference_documents`, claim, lease, receipt, `attach-artifact`, script gate or approval. This is explicitly allowed **editorial Git-only queue**, not an official production run. **Independent exact-text neutral reviewer** also unavailable in this session; authorial evaluation, two reads and deterministic math do not count as independent `ytv-script-review-v1`. No answer was fabricated on its behalf.
+
+**Production blocker:** Two Ways Lab current ChannelSpec is Short 1080×1920/30 and typical 35–50s; no production-ready Long recipe (long canvas/fps null). Thus 05m and 10m are standalone editorial narratives with unresolved Long compatibility; do not create fictitious Long runs or change channel config. 02m estimated 314 English words ~1:55–2:20 depending on voice and pauses; YouTube allows up to three-minute Shorts, but channel-specific recipe and audio/loop checks remain mandatory. No real TTS or MP4, so measured runtime, safety of static model scenes, and literal audio/visual loop remain UNVERIFIED.
+
+## Safe transfer on the actual local host
+
+1. Check out/inspect current main and this Draft PR exact HEAD, and compare all six SHA-256 hashes in `story-review.md`; resolve any changed HEAD before importing.
+2. On an actual ytv-installable environment run `uv run ytv start --channel two_ways_lab --format short --intent 'Subway exit-aligned car vs nearest door: one story, all three editorial durations'` **as a fresh run**, without making up prior registration. Read returned `plan_summary`, `read_next`, `task_guide`, full pinned `reference_documents` before acting; follow `docs/operations/task-contract.md#outputs` for actual `script_variant` and `story_review` artifacts, and never auto-register three production masters.
+3. Send **the exact script** for the proposed 02m EN (and semantic RU) to a truly independent reviewer, without author scores/beat map. Reader must read all of Short twice with literal end→start, report actual observations; supply sources only after their first reading. Keep its genuine schema output; a new script hash requires a new review.
+4. Recheck math, model assumptions, EN/RU, Short semantics, estimate against actual voice, AV seam and visual continuity. A failed reviewer or loop can reject the proposal; no authorial PASS substitutes for that review.
+5. Only after normal script gate and owner approval does one chosen master enter production. Two separate existing approvals and any native references/provider rights remain required by runtime. Approvals cannot be inferred from Draft PR, CI, blog research or this handoff.
+
+**Not performed:** TTS, ImageGen, outside video/audio provider calls, MP4, DaVinci/FFmpeg work, upload, publication, scheduling, merge, shared docs/skills/channel updates. Source media bytes and brand reference images were NOT fabricated. **CI still requires exact new HEAD inspection.**

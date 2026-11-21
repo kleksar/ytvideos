@@ -1,0 +1,67 @@
+Can I save time on the subway by walking to the right car before boarding? What happens if the train arrives halfway through that walk? And could missing one train ever put me at the station exit earlier?
+
+I'm standing at the entrance end of a platform. At the station where I get off, the exit stairs I want are far away, at the opposite end of the train. I could get on right here and deal with the walk after the ride. Or I could walk along this platform to a car that will stop beside those stairs.
+
+That sounds like a small choice. But there are two clocks in it. One tells me how long it takes to reach the exit after I leave the train. The other tells me whether I will get onto the train at all.
+
+I'll keep the comparison honest with a declared model. This is not a measured commute, and the numbers are illustrative rather than a claim about any particular subway system. Both methods start with me at the same platform entrance at the same time. The platform is one hundred and eighty metres long. I move at one and a half metres per second. The train stops in a fixed position and its ride to my destination takes five minutes. I only count the time until I reach the destination stairs.
+
+For method A, I board at the nearest door. I don't walk toward the other end of the origin platform. At the destination, my door is one hundred and eighty metres from the stairs. I need two minutes to get there.
+
+For method B, I walk one hundred and fifty metres along the origin platform to the door nearest the stairs at my destination. The walk takes one hundred seconds. After the ride, the stairs are just thirty metres away, or twenty seconds.
+
+Take a moment to pick A or B. They're both legitimate choices with the same destination and the same walking speed. There is no faster train reserved for B, and no secret tunnel that A cannot use.
+
+On the first morning, the next train is due in two minutes and thirty seconds. It departs fifteen seconds after arriving. I have one hundred and sixty-five seconds before departure.
+
+A is easy. I wait where I am, board, ride for five minutes, then walk one hundred and twenty seconds. Starting when I stepped onto the platform, my clock ends at nine minutes and forty-five seconds.
+
+For B, I spend the first one hundred seconds walking to my preferred door. There are still fifty seconds until the train arrives. I wait, board that same train, ride exactly as long, then walk only twenty seconds at the other end. My clock ends at eight minutes and five seconds.
+
+B is one minute and forty seconds ahead.
+
+Here's the part that makes this more than a tip about where to stand. Look at my feet. Under A, I walk one hundred and eighty metres after the train ride. Under B, I walk one hundred and fifty before and thirty after. Exactly the same distance. I haven't eliminated the walk. I've moved most of it into time when I was waiting for something else.
+
+Now imagine I try B every day, without looking at the display. On the second morning the next train is much closer. It arrives in sixty seconds and departs fifteen seconds later. My hundred-second walk cannot fit inside seventy-five seconds.
+
+What counts as B in this experiment matters. B means I insist on reaching that distant door before boarding. I do not quietly change the rule in the middle and board a nearer car. If I change it, that's a new strategy, not the same comparison.
+
+So in this round B misses the first train. A boards immediately. With A, seventy-five seconds pass until departure, then five minutes on board and two minutes on foot. That makes eight minutes and fifteen seconds in total.
+
+Suppose the next train leaves four minutes after the first. B reaches the distant door, waits for that next departure, rides five minutes and walks twenty seconds. Its clock stops at ten minutes and thirty-five seconds.
+
+B has lost two minutes and twenty seconds. The walk it saved at the destination was worth one minute and forty seconds. The extra wait cost four minutes. The four-minute loss overwhelms the walking benefit.
+
+So should I always board the nearest car whenever the train is close? Not quite. There's a third morning I want to test.
+
+Everything starts the same as the second morning: the train leaves in seventy-five seconds, the distant door is a hundred seconds away, and B misses the first departure. But I change one declared input before rerunning the model. The service is more frequent. Instead of four minutes, the next train departs just one minute after the first.
+
+A still catches the first one and reaches the stairs at eight minutes and fifteen seconds.
+
+B takes the next one. The next departure happens at two minutes and fifteen seconds from my start. Add the same five-minute ride and the final twenty-second walk. B reaches the stairs after seven minutes and thirty-five seconds.
+
+B has missed a whole train and still wins by forty seconds.
+
+I wouldn't recommend deliberately missing a real train based on that calculation. An estimated departure can change, a car can be crowded, a train can be cancelled, and keeping clear of closing doors matters more than a theoretical saving. But the example exposes the actual rule. I can't judge these methods with the car position alone. I also need to know the cost of missing a departure.
+
+Let's inspect the three results side by side. When I can do the long walk before the same departure, B saves one hundred seconds. When B misses and the next departure is two hundred and forty seconds later, it gives back those hundred and loses another hundred and forty. When B misses but the next departure is only sixty seconds later, it still saves forty.
+
+This isn't three different mysterious effects. It's one change in where I spend time. The same hundred seconds of walking can be useful during idle waiting, or it can be expensive when it makes me miss a train. In the simplified model, the break-even comparison after missing a train is straightforward: the delay until the next departure versus those one hundred seconds of walking saved after arrival.
+
+There is also a decision I haven't included: I could walk partway, see the train, stop moving and board the nearest available car rather than miss it. That's probably a more sensible real-world habit. But to evaluate it honestly I'd need to specify how far I got, which doors were open, and how far those doors are from my destination exit. I won't pretend I've tested that third strategy merely because it sounds practical.
+
+What about the train ride itself? Both methods use a five-minute ride here. Make it eight minutes or twenty, and the difference between A and B doesn't change as long as they make the same departure. The travel time is shared by both clocks. What separates them is the waiting and the walking at the ends.
+
+And there's a trap in assuming the last car is always the right car. The staircase might be at the front or the middle at a different destination. Some trips involve changing trains rather than leaving a station. It is the position of the exit or connecting passage at the place I'm going that matters, not the label on a particular car.
+
+For example, imagine the opposite end of my destination has no stairs at all. The only exit is beside the door where A already gets off. Then the reason for walking to B disappears. It would be irrational to keep walking to the back merely because that position won the first model. The destination changed; the correct choice changes with it.
+
+Some journey planners even offer advice about which carriage is nearest the exit. That is useful information, not permission to ignore the live departure time or station announcements. Before trusting it, I still have to check the direction I'm travelling, the actual entrance I used and whether the suggested route is available.
+
+I also haven't modelled bags, a child walking with me, a crowded platform, slow lifts, closed stairs or different walking speeds. The one-and-a-half-metre-per-second speed is an input, not an instruction to walk quickly. I should never rush near a platform edge or try to squeeze through closing doors because of a cartoon calculation. If I need an accessible route, that requirement comes before saving seconds.
+
+What I can use from this model is a sequence of questions. Where is my destination exit? How far would I have to walk to the better door right now? How much time is safely left before departure? If I miss the train, how long until the next one? And does walking now actually replace waiting, or add a delay?
+
+On my first morning, the distant door wins because I use waiting time. On my second, the nearest door wins because the next train is four minutes away. On the third, the frequent service changes the calculation again. One platform, two methods, three different outcomes, all from inputs stated before the result.
+
+So the best car is not a permanent place on a train. It's a choice that depends on my route and the clock. And the next time I step onto a platform, that choice begins with a question: how long until the doors close?
