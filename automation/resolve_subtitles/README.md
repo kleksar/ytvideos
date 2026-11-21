@@ -153,7 +153,12 @@ word of a production episode. No production project content was modified or expo
 
 Before acceptance: inspect exact cue starts/ends/text, preserved VO and picture, visible
 safe area and no double captions; play early/middle/late, pause/resume and shot joins in
-Resolve. Save/reopen and repeat relevant readback. For separate selectable captions,
+Resolve. Read back the actual editable Text+ composition and inspect the native
+compositor at the title's first, middle and last frames and just before/on/after
+cue boundaries. If a per-word highlight overlay duplicates or misaligns glyphs,
+reject it: use one inline character style in the editable text, or the approved
+unhighlighted base only. Do not stack duplicate titles to simulate a highlight.
+Save/reopen and repeat relevant readback. For separate selectable captions,
 round-trip a timed SRT and follow the shared delivery workflow; MP4 upload is not CC
 transport. Use native Resolve review/delivery only, and never publish for a caption test.
 
@@ -200,3 +205,49 @@ following native frames and the audible phrase before acceptance. Offline regres
 cover late cuts, pause holds, cross-cut speech and immutable CC. The optional anchored
 path has **not yet received a live native fixture**; this does not upgrade its playback
 or visual status, and it never authorizes changes to a production timeline.
+
+## Offline one-still-per-phrase conform
+
+For a new cut from already approved narration, phrase breaks and stills, align the
+**actual final PCM WAV** offline using
+[`forced_alignment.py`](../helpers/srt/scripts/forced_alignment.py), or supply
+equivalent exact-transcript word evidence in the same format. Align after any
+pitch-preserving retime and pause edits; do not scale timestamps from the raw TTS
+or use ASR text as a replacement script. The alignment format is
+`{status:"REVIEW_REQUIRED",audio_sha256,transcript_sha256,words:[{text,start,end,score}]}`.
+Its transcript hash is of the UTF-8 text after outer whitespace is stripped;
+quoted word forms follow the existing helper. Use your existing local model
+cache; the planner never loads a model or connects to a service.
+
+```sh
+python3.12 automation/resolve_subtitles/phrase_conform.py request.json --output phrase-plan.json
+```
+
+The schema-1 JSON request requires `fps` (exact integer or ratio string), the
+absolute, half-open `origin_frame` and `end_frame`, `audio_start_frame`,
+`audio:{path,sha256}`, `transcript_path`, `alignment_path`, and ordered
+`phrases:[{id,text,asset_path,asset_sha256}]`. Input paths may be absolute
+or request-relative. Use Python 3.12+ when the PCM file is WAVE_FORMAT_EXTENSIBLE.
+Each still must already be approved; file hashes prove identity, not image QA.
+Optionally specify per-shot `titles:[{id,text}]` for explicit readable subcues
+that exactly partition a long visual beat. They cannot cross picture cuts.
+
+The JSON output has `shots:[{id,start,end,asset_path,asset_sha256}]` and
+`titles:[{id,start,end,text,words:[{text,start,end}]}]` on the same absolute
+frame axis. Quantize speech to nearest frame, half up. Every shot after the
+first starts at its first title onset. The first picture may lead silent
+preroll; the final picture holds to the declared end; the titles use measured
+spoken bounds and never stretch the audio or close its pauses. This describes
+individual titles for native assembly later, not a Resolve import format.
+A word whose endpoints fall on one frame cannot carry an independently
+visible highlight. Normal planning refuses it; diagnostic mode flags it.
+
+Use `--timing-only` if approved stills are not yet present: missing asset
+fields are permitted and named in `missing_art`. Missing or low (<0.80) word
+confidence is reported in `timing_flags` in that mode; normal planning refuses
+these words until alignment is reviewed. Values outside [0,1] always fail. This output is explicitly
+`TIMING_ONLY`, not for native install. Complete hash-covered output is still
+`OFFLINE_REVIEW_REQUIRED`: listen at representative word/cut onsets, check
+any local alignment drift, line breaks and style, then follow the native
+workflow above using the real timeline snapshot and independent evidence.
+This command never opens Resolve, adds clips, renders, or publishes.
