@@ -93,3 +93,11 @@
 - **B8:** [Boston Magazine, timeline](https://www.bostonmagazine.com/news/2019/01/12/great-boston-molasses-flood-timeline/), 2019-01-12: тело возчика Cesare Nicolo обнаружено в гавани почти через четыре месяца. Упоминается и в B6. Это поздняя хроника, не первичное свидетельство семьи.
 
 Удалён старый абстрактный финальный блок о несправедливости инфраструктуры, неопределённости реконструкции и всеобщих правилах. Новая фактология остаётся ограниченной B6–B8; никакие точные суммы возмещения, последние мысли погибших или причинность конкретных инженерных механизмов не выдуманы. Независимый review, реальный спрос и TTS UNVERIFIED.
+
+## Новые verified research anchors для 10m — 2026-11-21
+
+**B9** [Mass Moments — Hugh Ogden Issues Report, 1925-04-28](https://www.massmoments.org/moment-details/great-molasses-flood/submoment/hugh-ogden-issues-report-on-cause-of-the-molasses-flood.html): late digest of 341 days testimony and 1925 auditor findings: construction supervisor without technical training; no engineer/architect consultation or inspection; no adequate pre-use strength test; rushed work for incoming ship. Source also quotes a contemporary 1919 Boston Post, but these later audit details are NOT from that eyewitness extract.
+
+**B10** [Boston.com — victims and original Boston Globe reporting, 2019-01-13](https://www.boston.com/news/history/2019/01/13/victims-great-boston-molasses-flood-1919/): George Layhe's body pinned under timbers beneath piano/pool table, recovered after nearly four hours, wife and three children; no imagined last words/death mechanism.
+
+**B11** [Boston.com — contemporaneous eyewitness report from Martin Clougherty, 2019-01-13 reprint](https://www.boston.com/news/history/2019/01/13/first-hand-accounts-great-boston-molasses-flood/): family home swept into elevated rail; Bridget killed; Martin reportedly woke in molasses, described his confusion and finding sister. These are **attributed survivor recollections** rather than independently observed exact movements. Direct-dialogue fabrication avoided. All extra 10m facts tied to B9–B11. Independent reader and measurable duration UNVERIFIED.
