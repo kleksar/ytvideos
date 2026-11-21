@@ -19,3 +19,7 @@ Opening action: show retrieval of a living survivor from an apparently abandoned
 Promise answered before the ending: hazard, lost captain, physical impossibility of moving men, raft departure, Matthew's explicit request to return, Nick's later recovery, and conflicting interpretations. Payoff line after rescue explains **boat never sank**, not a secret betrayal revelation.
 
 After the owner accepts the precise EN text, create storyboard/scene prompts ONLY for 05m with source script SHA-256 and actual reference permissions. No fake images, scene hours, SRT, provider outputs, screenshots or media rights.
+
+### Alternate 02m Short only (not production selection)
+
+The revised 02m opens with Nick found alive, then pays off raft departure, the fuel-limited first helicopter, the second search and different testimonies. Its last physical action is a helicopter reaching the wreck; the first line of replay identifies the survivor. Author-only text check provisional; real visual loop requires the same **search-to-discovery** orientation and an actual audio/video review. Exact 02m EN SHA-256 `8f7436e6f5fe0440163b06f255dbdf4e7fed26236c464eecb7b228fbd4ba6041`; RU SHA-256 `f702a21c2d124271456297293675b3d1539b54672f4f3298bfddb8583a68e70e`. Do not apply the existing 05m opening or storyboard to the Short, and do not change the 05m recommended master.
