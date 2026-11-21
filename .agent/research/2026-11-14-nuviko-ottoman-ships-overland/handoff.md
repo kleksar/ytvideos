@@ -1,0 +1,10 @@
+# Handoff — Ottoman fleet, PR #87, three-language-paired versions
+
+Status: **EDITORIAL_CANDIDATE_UNREGISTERED**; scripts only. The exact 02m/05m/10m EN and RU bytes and SHA-256 are in [story-review](story-review.md). Original master and storyboard are unchanged except for a scope notice on storyboard; they belong to baseline head `02e9a7e410d104ce21f1db419579f1dd6cd9fce9`, not the new variants.
+
+1. Read current `AGENTS.md` and pinned `ytv-write-script`, editorial/narration plus `channels/nuviko_history/channel.json`/PROFILE. In the authorized local store, inspect matching existing runs **before** any new `start`; existing runs keep their original pins without migration.
+2. Present complete versions and choose **one** exact approved master with owner. Editorial recommendation: 05m Long 16:9. Do not silently switch an existing Short run to Long or create three runs.
+3. Fresh independent reviewer reads exact script with **no** authorial scores or briefing. For 02m require full EN/RU twice and a literal seam; no reviewer receipt exists. Reviewer saves own authentic `ytv-script-review-v1`, not a coordinator-written simulated PASS.
+4. Follow actual `ytv instructions` / existing `status` → `resume`/`next` → `plan`, read canonical `context` and pinned task files, use real `attach-artifact --kind script_variant` / `story_review` IDs and source where workflow requires; PR files cannot themselves reach `awaiting_script_approval`.
+5. Old `storyboard.md` 17 spans quote only original 247-word EN and matching RU SHA-256 `0c87a0d75d5956881ae7db68f6dbd522e691b86d24beffe136de5664fdd6a12b` and `4f1ed1529e07339561af3d55405d476c24bd6528bd4980db434a4db45c297acd`; new variants require new edition-specific storyboard/visual intent/timings after text selection. For 02m do not show land route before the first question and reveal.
+6. Audio/TTS, actual timing, images, Flow, MP4, native thumbnail, upload, schedule and YouTube publication are **UNVERIFIED / NOT EXECUTED**. No permission to perform them in this PR.

@@ -1,0 +1,7 @@
+# Packaging hypotheses — no observed CTR, unapproved
+
+- **Recommended 05m Long:** “How Did Ottoman Ships Get BEHIND Constantinople's Chain?” Start with harbour mouth and intact chain, then reveal the ridge only after the opening questions/geography. Deliver both *how* and *why the defenders cared*. Thumbnail historical composition is a proposal, not a rendered or QA-verified artifact.
+- **02m Short alternative:** “The Fleet That Went AROUND a Harbour Chain (1453) #Shorts”. Owner's opening question first. First visual must not disclose rollers, as stated in the original 17-scene planning, but new 02m script **does not inherit** that storyboard's exact scene spans. Loop remains **UNVERIFIED** after final→initial textual revision.
+- **10m Long alternative:** “The 1453 Naval Trick That Changed the Siege — But Didn't End It”. Cover April 20 relief passage, prepared work, April 22 launch, April 28 failed raid, contested harbour and final land assault. Avoid unconfirmed exact ship number, quick-build legend, severed chain or falsely decisive tactical claim.
+
+Every variant needs separately matched script/hash, accurate timing and approved scene references if chosen. Original storyboard is only for original Short. No title/thumbnail claim based on measured audience demand.
