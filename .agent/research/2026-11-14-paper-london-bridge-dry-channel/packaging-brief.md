@@ -1,0 +1,9 @@
+# Packaging brief — early proof and complete payoff
+
+Channel: **Paper Detour**, English narrative **Short**, content-only options (NOT ready YouTube metadata or rendered thumbnail). Verified unusual fact: the 1968 purchase concerned original granite **facing stones**; the functional structure in Arizona is reinforced concrete.
+
+1. **They Built London Bridge Before the River** — strongest promise; thumbnail image: five low pale granite arches sitting over compact earth in sunlit Arizona desert, tiny excavator nearby. **Paper lettering:** “NO RIVER?” Full-frame handmade paper. Early proof S001 / S011: visible empty earth under the arches. Payoff S012–S015: excavation and lake water form channel and island. Potential criticism: "river" is technically **man-made lake channel**, so prefer a clear word choice in exact final title if viewer could read as a natural river.
+2. **Why London Bridge Stood in the Desert** — familiar object, visually incongruous setting. Thumbnail: numbered pale granite blocks on desert haul trucks beside partly assembled five-arch bridge; paper lettering “IN ARIZONA”. Early proof S001 and S007. Payoff is not transport alone: concrete core and channel built afterward.
+3. **They Dug a Waterway Under London Bridge** — answer-forward technical framing. Thumbnail: cutaway model, upper dry bridge vs lower blue filled channel; paper lettering “BRIDGE FIRST”. Early proof dry site S001, full mechanism S009–S013.
+
+**Suggested default:** #1 if the exact thumbnail/first shot can honestly communicate water comes later; otherwise #3 to remove natural-river ambiguity. These are editorial hypotheses only. No thumbnail images, exact asset SHA, actual A/B tests, public CTR, retention or final title selected. Paper's large printed text is brand-specific, not a universal CTR claim. Test later with real AI-generated exact assets and mobile 2:3 crop per standards.
