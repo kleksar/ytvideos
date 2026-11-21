@@ -13,6 +13,12 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 - Other full pairs/hashes, word counts and individual weaknesses: [story-review](story-review.md). All source-claims and limited YouTube comparisons: [research](research.md). Honest packaging and 05m-only provisional scene outline: [packaging](packaging-brief.md) · [outline](scene-outline.05m.md).
 - Current scripts are Long proposals, including the compact 02m version. Do not relabel 02m as Short without a new script/loop review.
 
+## Subsequent editorial revision — existing PR #341
+
+Baseline head `735697b2a882ed9b9615cdf0b1f65d59f1189cd7`; 10m EN/RU replaced in place (full texts, not summaries) after inspecting complete 02m/05m/10m texts and shared research. The old 10m ended in general explanation and a long materials/recycling coda. The revised 10m follows two physical defects into the announced checks and owner return actions, then pays off the green battery icon. New 10m EN SHA-256 `36fed409c03cbbd30ac7e7d2785f6545e42f82f7913b95a8e0627b6b155a275c`, RU SHA-256 `9a68a33bbb93b0fa65d9d58859e72b3cc084eea520b071f7c8fbadea2ff2bd15`; baseline 10m EN `6d7112de8704676cda1cab70855ed8bbf0751d0ba9966029c5466289562bb142`, RU `875bb201f18d775ec7c1e61233e0ba7cac3e6c7c2aee245a648f360c3f44aabb`. Exact paths [10m EN](variants/10m/script.en.txt) / [10m RU](variants/10m/script.ru.txt). No new source claim beyond the same [research](research.md) ledger. The 02m and selected 05m pairs and hash-bound 05m scene outline remain unchanged.
+
+**Independent cold review, measured TTS, chosen-hash storyboard, runtime registration and owner approval UNVERIFIED.** 05m remains author recommendation, not authorization. Invalidate any checks tied to former 10m hash; new 10m is EDITORIAL_CANDIDATE_UNREGISTERED. Next unresolved action: independent blind comparison, allowing rejection of either/both; real coordinator must attach selected exact variant and obtain required approvals.
+
 ## Observed capability blockers
 
 1. **Runtime unavailable here:** attempted real `uv run ytv start --channel paper_detour --format long --intent 'Paper Detour: Note7 recall and replacement battery failure — unregistered editorial candidate'` in active container; result `error: Failed to spawn: ytv; Caused by: No such file or directory (os error 2)`. There is no mounted ytvideos project or trusted runtime DB here. **No run ID, plan_summary, read_next, task_guide, pins, claim, lease, receipt, or script gate exists** for this proposal.

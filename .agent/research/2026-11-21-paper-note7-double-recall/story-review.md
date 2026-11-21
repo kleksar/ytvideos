@@ -10,7 +10,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 |---|---|---|---|---|
 | 2 minutes | [02m/script.en.txt](variants/02m/script.en.txt) — `08e4760a0b55f9659db47018243d41559f67622f1777a1211c82ebb8f60227cd` | [02m/script.ru.txt](variants/02m/script.ru.txt) — `fdc2e06d7fcdeba64a5fe4e4d5984977b6a04ca48442a83cf3c9ec70c62538f5` | **259 words**, ~1:45–2:20 at assumed 120–155 effective wpm including short pauses | Paper **Long** short documentary, **STRONG_CANDIDATE** (author only) |
 | 5 minutes | [05m/script.en.txt](variants/05m/script.en.txt) — `b959955a448a564d8fc53ca097c3746e5df92de90f5fe050f6f42f77c0841042` | [05m/script.ru.txt](variants/05m/script.ru.txt) — `c9d4f1676bf7c3f36a02a25d9201b36381a6149865babb2cb1e17a957805c6e1` | **601 words**, ~4:15–5:15 at assumed 120–150 effective wpm incl. pauses | Paper **Long**, **STRONG_CANDIDATE / RECOMMENDED** |
-| 10 minutes | [10m/script.en.txt](variants/10m/script.en.txt) — `6d7112de8704676cda1cab70855ed8bbf0751d0ba9966029c5466289562bb142` | [10m/script.ru.txt](variants/10m/script.ru.txt) — `875bb201f18d775ec7c1e61233e0ba7cac3e6c7c2aee245a648f360c3f44aabb` | **1,431 words**, ~9:30–11:50 at assumed 125–150 effective wpm plus transition pauses | Paper **Long**, **REWORK** (pace after recall + aftermath) |
+| 10 minutes | [10m/script.en.txt](variants/10m/script.en.txt) — `36fed409c03cbbd30ac7e7d2785f6545e42f82f7913b95a8e0627b6b155a275c` | [10m/script.ru.txt](variants/10m/script.ru.txt) — `9a68a33bbb93b0fa65d9d58859e72b3cc084eea520b071f7c8fbadea2ff2bd15` | **1,398 words**, ~9.3–11.2 min at assumed 125–150 effective wpm plus transition pauses | Paper **Long**, **IMPROVED_CANDIDATE** (revised ending; author only) |
 
 Source language is English for eventual voice; RU is complete editor-readable semantic translation, never an implied second TTS job. Durations are **estimates without audio**, not certified. Paper channel has Long (2560×1440 / 30 fps) in its current `channel.json`; no Short loop is applicable to these **three deliberately Long formats**. This choice avoids an artificial two-minute loop and does not disable Paper's Short loop requirement for future Short projects. Voice speed remains profile 1.1x; we did not measure its actual effective words/minute or change it.
 
@@ -48,20 +48,20 @@ Numeric 1–10. The quoted lines/actions are present in the scripts. The last di
 | **Primary weakness** | | Six calendar anchors and two recall totals may slow a narration without visual chapter clarity; airport incident cannot be attributed to a specific cell defect. **Confidence:** medium-high on self-checked text, low on actual audience reception |
 | **Classification** | | **STRONG_CANDIDATE / recommended**: interest 9, development 9, payoff 9 each supported. Independent review still UNVERIFIED |
 
-### 10m — fully written, editorial rework
+### 10m — revised complete Long (new hashes; author-only assessment)
 
-| Criterion | Value | Exact text/observed basis; reason |
+| Criterion | Score | Exact textual basis / limitation |
 |---|---:|---|
-| Interest / significance | **9** | "What do you do when the phone you send to replace a dangerous phone turns out to be dangerous as well?" keeps universal dilemma |
-| Opening | **8** | Three questions promise recall, air ban and physical cause; may feel more expositional than 05m |
-| Development / reason to stay | **7** | Strong Louisville → recall → microscopic fault chain, **but** passage from "The response extended beyond collecting phones" into return rates and recycling risks turning into a second story after primary payoff |
-| Payoff | **9** | "In the first group, the battery's internal geometry ... In the replacement group ... welding" resolves *two defects* in clear physical contrast |
-| Freshness of angle | **8** | Adds an uncommon secondary issue: what happened to millions of returned nearly-new devices, explicitly as *announced plans* |
-| Visual expressiveness | **8** | More layered-paper cutaways and documents; some policy discussion is less visual and risks recurring notice cards |
-| Natural spoken clarity | **8** | "A defective battery does not have to be visibly damaged from the outside" is accessible; technical sections and extra policy details still add cognitive load |
-| Confirmed viewer interest | **UNVERIFIED** | No 10-minute Paper audience sample or comparable same-author matched video baseline |
-| **Primary weakness** | | The return-rate and parts-recovery coda follows the central two-battery explanation. Hard to sustain the same reason to watch for 10m. **Confidence:** medium on text, low on pacing in voice |
-| **Classification** | | **REWORK**: development 7, despite high interest/payoff; a full text exists, but length is not its own justification |
+| Interest / significance | **9** | Opening asks why a replacement phone itself was recalled; familiar everyday object, clear double reversal |
+| Opening | **8** | Three opening questions make a strong promise but are more demanding than the two questions in 05m |
+| Development / reason to stay | **8** | Owner's exchange and green icon → smoke at Louisville gate → regulatory reversal → investigation into two different faults → physical checks and return actions, now without a separate policy essay |
+| Payoff | **9** | Final green-icon return requirement answers the opening by showing that a visibly different batch still failed its safety claim |
+| Freshness of angle | **8** | Original cell's corner/negative electrode and replacement weld/insulation have different mechanisms; same double-recall story |
+| Visual expressiveness | **8** | Exchange counter, green icon, at-gate aircraft, paper battery sectional diagrams and post-recall testing are concrete; dates/notices still require visual discipline |
+| Natural spoken clarity | **8** | Replaced abstract last moral with a visible label and explicit owner action; internal electrochemistry remains the weakest spoken passage |
+| Confirmed viewer interest | **UNVERIFIED** | No matching Paper audience retention, CTR, independent listener or validated demand |
+| **Weakness / confidence** | | The Jan/Mar aftermath still follows the laboratory reveal, though compressed. Editorial assessment: medium confidence; viewer response: low confidence |
+| **Classification** | | **IMPROVED_CANDIDATE**, not independently approved |
 
 **No averages used to conceal a weak dimension.** Reviewer status does not turn STRONG_CANDIDATE into accepted production script. Self-editor has **not** claimed independent listening.
 
@@ -70,9 +70,9 @@ Numeric 1–10. The quoted lines/actions are present in the scripts. The last di
 | Transition | Unique real information gained | Where attention may be lost |
 |---|---|---|
 | 02m → 05m | Real customer exchange and green-icon distinction; documented **at-gate** evacuation with explicit causality caveat; separate role of Oct 10 urgent power-down vs Oct 13 legal recall; physical detail of weld/insulation | 02m jumps rapidly from flight ban to micro-defects; 05m needs tighter date delivery around official notices |
-| 05m → 10m | US initial incident count scoped to Sept 15; deeper distinction between warning / recall / ban; layered cell mechanism, January investigation scope, CPSC recovery rate, announced disposition/recycling of returned devices | After 10m's battery explanation, recall-rate and recycling tail no longer raises the main tension; other audiences may prefer an expanded follow-up episode |
+| 05m → 10m | Additional US incident report context, detailed distinction of warnings/recalls/ban, physical cell mechanism, scale of laboratory testing, US-only return response and conditional recovery plan | Several dates and microscopic details still tax spoken attention; brief January/March aftermath has consequences but no second dramatic climax |
 
-**Recommend 05m.** The extra four minutes to 10m are not earned by equivalent new narrative stakes. Two minutes is valid and independent, but it loses the human exchange and mechanism's clarity; five minutes completes both story tracks. This is an **authorial hypothesis**, not an independent verdict, a measured optimum, or owner selection.
+**Recommend 05m provisionally.** The revised 10m now ends on the green-icon return and earns additional detail through the investigation and real return/check actions. However, the 05m reaches the same resolution with fewer calendar shifts and clearer forward momentum. Two minutes is complete but physically compressed. This is author judgement, not independent review or measured retention. This is an **authorial hypothesis**, not an independent verdict, a measured optimum, or owner selection.
 
 ## Story maps with exact events
 
@@ -90,12 +90,12 @@ Numeric 1–10. The quoted lines/actions are present in the scripts. The last di
 - **Payoff:** "The second set wasn't simply a missed pile of the first faulty batteries." Dual independent defects with different paths to short circuit.
 - **Final:** "making a replacement is not the same as proving the replacement is safe." No generic moral or invented victim. **Long / verbal loop: N_A**.
 
-### 10m
-- **Promise:** double recall, aerospace ban, two different battery failures.
+### 10m — revised
+- **Promise:** why a replacement was recalled and banned from US planes, and why a different battery also failed.
 - **Opening:** "What do you do when the phone you send to replace a dangerous phone turns out to be dangerous as well?"
-- **Beats:** August launch → September initial warning/recall/consumer action → green icon → October gate smoking → regulatory withdrawal → DOT no-carry ban → lithium-ion layers/short → investigator scale → Battery A/B distinction → testing/recovery/recycling consequences.
-- **Payoff:** first geometry problem versus second welding/insulation problem, *both* leading to potential internal shorts.
-- **Final:** "...when that proof is missing." Full answer but subsequent recycling section hurts pacing. **Long / verbal loop: N_A**.
+- **Beats:** August launch → Sept 2 exchange → Sept 15 first US recall → replacement/green icon → Oct 5 at-gate event (owner's account, unconfirmed exact cause) → Oct 10 shutdown → Oct 13 all-device recall → Oct 15 US air ban → physical cell layers → two distinct faults → eight-point test plan → US recall response and conditional materials plan → green icon cannot attest safety.
+- **Payoff:** a different replacement battery did not solve the risk: a separate welding/insulation route to a short circuit.
+- **Final:** "It could not tell you whether that battery was safe." Long, no loop required.
 
 ## Orthogonal checks (exact versions)
 
@@ -110,4 +110,4 @@ Numeric 1–10. The quoted lines/actions are present in the scripts. The last di
 | Exact speech duration and audio quality | UNVERIFIED | UNVERIFIED | UNVERIFIED | No Lawrence TTS or listening; word counts and speed are assumptions |
 | AV continuity / actual next-video bridge | UNVERIFIED | UNVERIFIED | UNVERIFIED | No MP4 and no approved target, intro or native end screen |
 
-**Revisions performed:** initial complete authorial pass and fact/translation self-check for each exact revision; **0 independent review cycles** and **0 substantive rewrites after review**. Do not invent a baseline or completed blind read. Any changed byte requires new hash and renewed checks. General course: wait for independent cold-text reading, give sources only after initial attention report, permit rejection of the entire angle, then run the existing exact master script gate and obtain genuine owner approval before media.
+**Revisions performed:** initial complete authorial pass of six texts; one substantive 10m EN/RU revision from baseline commit `735697b2a882ed9b9615cdf0b1f65d59f1189cd7`, preserving original 02m/05m hashes and 05m-only outline. Baseline 10m EN SHA-256 `6d7112de8704676cda1cab70855ed8bbf0751d0ba9966029c5466289562bb142`, RU `875bb201f18d775ec7c1e61233e0ba7cac3e6c7c2aee245a648f360c3f44aabb`. New 10m EN `36fed409c03cbbd30ac7e7d2785f6545e42f82f7913b95a8e0627b6b155a275c`, RU `9a68a33bbb93b0fa65d9d58859e72b3cc084eea520b071f7c8fbadea2ff2bd15`. Common [research](research.md) already supports Jan CPSC/8-point Samsung/March conditional materials plan; **no novel factual claims added**. New paragraph-level bilingual meaning/fact self-check only; independent bilingual review and real TTS **UNVERIFIED**, 0 independent review cycles. Prior checks cannot transfer to changed 10m hash. Do not invent a baseline or completed blind read. Any changed byte requires new hash and renewed checks. General course: wait for independent cold-text reading, give sources only after initial attention report, permit rejection of the entire angle, then run the existing exact master script gate and obtain genuine owner approval before media.
