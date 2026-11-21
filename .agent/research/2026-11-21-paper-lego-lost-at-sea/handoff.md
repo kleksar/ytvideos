@@ -1,0 +1,15 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Runtime handoff — LEGO Lost at Sea / Paper Detour
+
+Source remote main: 131ef24068d75967b1e43aa88e5f1370f6775054; observed unchanged immediately before blob staging. Base tree c92263f9171a6a4500dcfcdb3afa37b180bb1c79. The 2/5/10 rule PR #124 is **merged**; current main editorial/writer skill were used, not the old proposed revision 7d6bdf7702a2a241a33a21677fce29f26ada9b72 as if it were a pin.
+
+Exact content revisions and sha256 in story-review.md. Recommended 05m EN: ed030c355772f88a48c0c1fc8ccd954d49cb66fe6be27bfe9ed73537017aa8d7. Full RU translation: d0c0f25ca676bacb66d660bff6f0db8c3c0a59a11d7ca0c359d74aa3f0f99250. The 2m candidate Short is not an automatic derivative or approval of the 05m Long master.
+
+Local attempt: uv run ytv start --channel paper_detour --format short --intent ... => Failed to spawn: ytv / No such file or directory (os error 2). Container has uv installed but not the repository/runtime. No actual plan_summary/read_next/task_guide/pinned reference_documents exist for a registered run; no lease, script gate, approval or reviewer receipt was fabricated. No standalone independent-review model/tool appeared in the available capabilities; true independent read remains UNVERIFIED. No paid vidIQ queried.
+
+To carry forward, on a trusted checkout with working locked uv dependencies: fetch PR branch and six exact files, verify sha256 (use sha256sum or shasum -a 256); select channel paper_detour and **actual intended production format**. Run a real uv run ytv start --channel paper_detour --format long --intent 'LEGO Lost at Sea, script editorial candidate from PR'; read returned plan_summary and read_next/task_guide and pinned reference_documents, don't substitute current repo files for old pinned ones. Reconfirm rights, sources, profile, budget and run context. Register exact script variants with attach-artifact --kind script_variant and the story review with --kind story_review using actual runtime syntax/paths and returned IDs. Give the reviewer the exact text first, no author's score/beat-map; request first impression, full reading and specific lines (for Short, literal two-cycle seam), then provide source ledger. Preserve reviewer response in existing ytv-script-review-v1 schema unchanged, tied to exact content hash. Only after fact/format/review checks attach the **one** selected 05m English master and await actual owner script approval.
+
+Blockers: independent reviewer; live ytv runtime and pinned packet; playback/TTS duration; copyright/right to any archival or toy photo; Paper paper-plane reference bytes (path and expected hash are documented in channel brand but not available here); any full storyboard/prompts until exact master review. 2026 boat corroboration is secondary only and may require removal from 10m if source confidence insufficient.
+
+No user-visible production action performed: no voice, imagegen, video providers, MP4, upload, calendar, publication, merge, or common docs/skills/status changes.
