@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "production_stage": "TEXTUAL_PREPRODUCTION_ONLY",
+  "format": "short",
+  "channel_id": "paper_detour",
+  "channel_status_main": "active",
+  "language": "en",
+  "reading_translation": "ru",
+  "source_script": "script.en.txt",
+  "source_editorial_translation": "script.ru.txt",
+  "text_script_owner_approved": false,
+  "independent_first_listener": "UNVERIFIED",
+  "visual_style": "One full-frame fully composed physical layered paper/card diorama per shot. Direct cuts, whole-frame pan/zoom only; no SVG or external overlays, no baked subtitles, no parallax, no separate mask foreground/background.",
+  "shot_time_is_measured": false,
+  "actual_tts_duration_seconds": null,
+  "provisional_total_seconds": null,
+  "timing_revision": "Previous 65s planning total invalidated by revised narration; re-time after accepted exact TTS. Individual composition targets are illustrative only.",
+  "visual_media_created": false,
+  "paper_plane_cameo": {
+    "scene_id": "S007",
+    "position": "small folded white paper plane on the notebook ledge, visible at phone size, never an event participant",
+    "reference_sha256": "36dedf45786bcdfa54fd28c00179b1ea9335ec769d94066beaa0b94c797e933d",
+    "actual_reference_bytes_verified": false
+  },
+  "loop": {
+    "opening_exact": "What's three plus five?",
+    "end_exact": "The answer wasn't inside the horse's head. It was in the mind of the person asking a simple question:",
+    "russian_opening": "Сколько будет три плюс пять?",
+    "russian_end": "Ответ был не в голове лошади. Он был в голове человека, который задавал простой вопрос:",
+    "semantics": "After full reveal in S012, the exact final phrase 'in the mind of the person asking a simple question:' connects syntactically to the replayed 'What's three plus five?' from S001. S013 reuses S001 full-frame source; render seam still unverified.",
+    "actual_audio_visual_seam": "UNVERIFIED"
+  },
+  "scenes": [
+    {
+      "id": "S001",
+      "narration": "What's three plus five? In 1904 Berlin, a horse seemed able to answer questions like that by tapping his hoof.",
+      "narration_ru": "Сколько будет три плюс пять? В Берлине 1904 года лошадь будто умела отвечать на такие вопросы ударами копыта.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Illustrative arithmetic question and Hans's apparent number-answering; no sourced literal 3+5 exchange",
+      "framing": "low angle medium close-up horse with visible examiner face",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. In a 1904 Berlin small training courtyard, a chestnut paper horse with black mane and subtle left foreleg white sock raises and taps its hoof on a dusty hand-cut tan paper floor; eight little cut grooves arranged along a nearby slate edge; paper teacher holds a physical chalk slate reading exactly '3 + 5 = ?' and looks toward tapping hoof; shallow handmade depth, diagonal light leading from question to hoof, tactile paper horse visibly alive but never anthropomorphic.",
+      "whole_frame_camera_suggestion": "gentle push-in to hoof, opening exact camera pose P0",
+      "continuity_factual_boundary": "3+5=8 is an illustrative mathematically correct example, not an attributed historic exact question; no photograph of actual Hans; first and last shot MUST reuse same approved rendered image and start/end framing.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S002",
+      "narration": "His name was Hans. A panel of experts watched him and found no obvious trick.",
+      "narration_ru": "Её звали Ганс. Комиссия специалистов наблюдала за ним и не нашла очевидного подвоха.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "A 1904 expert panel finds no deliberate trick",
+      "framing": "wide period courtyard with people watching",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. A paper-card 1904 Berlin courtyard, chestnut cut-paper horse with black mane and white left foreleg sock standing quietly beside his trainer at one end, several historically plausible paper-cut adult scholars in dark brown and grey early 1900s coats observing attentively from benches, open daylight and old brick wall made of layered textured papers, detailed non-digital props, no courtroom, masks or sensational conspiracy signs.",
+      "whole_frame_camera_suggestion": "slow whole-frame left pan",
+      "continuity_factual_boundary": "Thirteen-member commission investigated; do not depict a report visually stamped 'approved math ability'.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S003",
+      "narration": "Even when his owner stepped away, Hans could answer other people's questions.",
+      "narration_ru": "Даже когда хозяин отходил, Ганс мог отвечать на вопросы других людей.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Control test removes trainer yet behavior still possible",
+      "framing": "medium eye-level horse and a different examiner, owner behind",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. A different 1904 exam scene with the same chestnut paper horse and same white foreleg marking at center, a new bespectacled adult paper examiner in a blue-grey period coat asking it a question on a small handheld slate, the horse's earlier bearded owner physically visible in background through a gate but no longer directing the horse, measured friendly scene with coherent perspective and studio-light paper textures.",
+      "whole_frame_camera_suggestion": "slow whole-frame zoom toward unfamiliar examiner",
+      "continuity_factual_boundary": "Other questioners could elicit answers, not with uniform accuracy; do not show owner deliberately coaching from background.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S004",
+      "narration": "Then psychologist Oskar Pfungst tried questions whose answers the people asking did not know.",
+      "narration_ru": "Тогда психолог Оскар Пфунгст стал задавать вопросы через людей, которые сами не знали ответов.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Experiment with unknown answer: real information withheld from asker",
+      "framing": "close table paper cards and questioner's view",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. Intimate paper period university experiment table, a young paper psychologist holding a stack of folded tan question cards with one answer concealed under an opaque folded paper flap; a human paper examiner holds only the question slip and visibly cannot see the separate answer card facing the camera back-side out; real chalk and quill in period setting, unambiguous privacy of answer, no giant UI overlays.",
+      "whole_frame_camera_suggestion": "gentle whole-frame push on hidden answer",
+      "continuity_factual_boundary": "Historically questioner lacked the correct answer in controlled trials; exact card procedure is a reconstruction of the variable, not asserted historic apparatus.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S005",
+      "narration": "Hans started making mistakes. So Pfungst changed one more thing: could the horse see the questioner?",
+      "narration_ru": "Ганс начал ошибаться. Пфунгст изменил ещё одно условие: может ли лошадь видеть спрашивающего?",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Failure of Hans on unknown-answer condition",
+      "framing": "tight horse leg and puzzled examiner",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. Paper horse with consistently chestnut body, black mane and white left foreleg sock hesitates with hoof over several indentations on worn paper ground; examiner looks uncertain holding folded question card without seeing answer; a few chalk tick marks on real little slate show uncertain count but no exact displayed wrong computation, tactile anxious pause with side light, same 1904 courtyard.",
+      "whole_frame_camera_suggestion": "gentle whole-frame push to uncertain hoof",
+      "continuity_factual_boundary": "Don't assert horse refused all questions; material records sharply lower success, not zero.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S006",
+      "narration": "With large blinders blocking his view, correct answers almost vanished. Let him see again, and they returned.",
+      "narration_ru": "Когда большие шоры перекрывали обзор, правильные ответы почти исчезали. Ганс снова видел человека — и они возвращались.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Independent vision-block test with large blinders",
+      "framing": "side view of horse eye and block",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. Close but readable side-view in 1904 paper courtyard: the chestnut cut-paper horse wears an oversized, historically plausible opaque leather-and-paper **side blinder** placed so it cannot see a paper adult examiner positioned alongside its head; the examiner remains in scene and looks at a problem slip, central focus on the exact obstructed sightline and physical blinder material, no transparent or magical screen.",
+      "whole_frame_camera_suggestion": "slow whole-frame rightward pan along eye-to-examiner relation",
+      "continuity_factual_boundary": "In Pfungst's original larger-blinder tests correct rate 6% when examiner unseen vs 89% when seen. Do NOT show full eyes covered or horse deliberately blindfolded into darkness.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S007",
+      "narration": "So Pfungst stopped watching the hoof. He watched the humans instead.",
+      "narration_ru": "Тогда Пфунгст перестал следить за копытом. Он начал наблюдать за людьми.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Investigator changes target of observation from horse to people",
+      "framing": "behind the seated observer into human face",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. A quiet realistic 1904 psychological observation in one full-frame paper-card courtyard, layered die-cut paper psychologist notebook and period magnifying glass on small rough desk in foreground, cut-paper questioner leaning toward a chestnut paper horse in background; the attention and warm ray of light emphasize the HUMAN questioner rather than the horse's hoof. Small folded off-white origami paper airplane rests on notebook ledge as a clearly decorative modern Paper Detour traveler, not a 1904 historical instrument.",
+      "whole_frame_camera_suggestion": "whole-frame slow zoom toward human examiner",
+      "continuity_factual_boundary": "The tiny paper-plane cameo is a nonhistorical branding element; before final use compare image bytes to accepted paper-plane reference SHA-256. Do not make paper plane a separate animated layer. This is its only assigned shot.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md",
+        "channels/paper_detour/brand/References/paper_plane_20261112/scene_sample.png — required actual bytes, unverified here"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S008",
+      "narration": "As Hans tapped, the questioner leaned forward, waiting for the number they expected.",
+      "narration_ru": "Пока Ганс стучал копытом, человек слегка наклонялся вперёд, ожидая нужного числа.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Human unknowingly leans forward as horse taps",
+      "framing": "medium close with human posture and horse hoof",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. A highly tactile cut-paper early 1900s examiner in dark brown coat leaning only a little toward a chestnut cut-paper horse, hands quiet at sides, eyes on the hoof, horse makes another count on coarse papier-mache ground, physical forward posture readable but not theatrical, natural warm sunlit profile, clear line of gaze from person to hoof.",
+      "whole_frame_camera_suggestion": "whole-frame subtle push toward examiner head",
+      "continuity_factual_boundary": "Pfungst describes slight head/trunk inclinations; no visible purposeful hand gesture or finger count.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S009",
+      "narration": "At that number, their head flicked upward—sometimes by barely a millimetre.",
+      "narration_ru": "На этом числе его голова чуть приподнималась — порой едва на миллиметр.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Minute head lift marks expected number",
+      "framing": "tight human neck and face with magnifying glass prop",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. Extreme close paper diorama on a period examiner's head and shoulders as the jaw and gaze turn very slightly up at an imagined anticipated number while out-of-focus horse hoof is below; physical hand-held convex glass magnifier mounted at side showing enlarged texture of the paper collar and head position, conveying an almost imperceptible gesture through cinematographic focus, not by cartoon arrows or overlays.",
+      "whole_frame_camera_suggestion": "whole-frame nearly static slow push",
+      "continuity_factual_boundary": "Original measurements include ~1mm head movement; image cannot numerically measure it. Don't exaggerate to theatrical nod or claim magnifying glass was historically used on examiner in this exact setup.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S010",
+      "narration": "That tiny movement told Hans to stop. The people weren't cheating. They didn't even know they were moving.",
+      "narration_ru": "Этот крошечный жест подсказывал Гансу, когда остановиться. Люди не жульничали. Они даже не замечали, что двигаются.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Horses stop on unintentional signals, not fraud",
+      "framing": "low close on hoof now stopped and human's unwitting face",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. At ground height in a little 1904 paper courtyard, chestnut horse's marked left front hoof rests after tapping beside a slim hand-cut chalk tally, behind it a human examiner with restrained relieved facial expression unaware of his own tiny shift, coherent physical shadow from human to horse across the same paper stone courtyard; no raised secret hand signal.",
+      "whole_frame_camera_suggestion": "gentle whole-frame zoom out",
+      "continuity_factual_boundary": "Conscious deception is not established; do not show wink, reward, nodding signal as deliberate training trick.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S011",
+      "narration": "Pfungst then played the horse himself. He tapped with his hand while others silently chose numbers.",
+      "narration_ru": "Затем Пфунгст сам сыграл роль лошади. Он стучал рукой, пока другие молча загадывали числа.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Second surprising experiment: Pfungst physically plays horse",
+      "framing": "wide side view 1904 Berlin psychology lab",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. Full-frame 1904 university lab made from period newspapers and thick paper card, an adult male paper psychologist at wooden desk taps his bare human right HAND on wood while a second paper adult silently concentrates on an imagined number; plain wooden clock, shelf with scientific glassware and textured paper wall; no horse in lab, no cosplay horse mask, demonstrate real human substitution.",
+      "whole_frame_camera_suggestion": "whole-frame slow pan right",
+      "continuity_factual_boundary": "Original Pfungst experiment describes tapping with right hand and 25 participant sample; exact furniture and clothing are visually reconstructed.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S012",
+      "narration": "And he read their movements too. Hans wasn't doing arithmetic. He was remarkably good at reading people.",
+      "narration_ru": "И тоже считывал их движения. Ганс не решал примеры. Он удивительно хорошо понимал сигналы людей.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Human-to-human experiment payoff: movements read too",
+      "framing": "close two faces and counting hand",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. Camera-close single paper diorama of a male 1904 psychology researcher noticing a tiny, involuntary upward change in the head posture of a human experiment participant as his own hand stops tapping the lab table; precise eye-lines, small physically layered paper fingers in contact with table, no mental telepathy effects, bright contrast on faces over dark wood, expressive restrained curiosity.",
+      "whole_frame_camera_suggestion": "whole-frame slow push to participant",
+      "continuity_factual_boundary": "Never depict psychic energy or mathematical answer as floating superimposed text; participant not consciously signaling.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": null,
+      "media": null,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S013",
+      "narration": "The answer wasn't inside the horse's head. It was in the mind of the person asking a simple question:",
+      "narration_ru": "Ответ был не в голове лошади. Он был в голове человека, который задавал простой вопрос:",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Meaningful return: answer is in examiner; exact opening image for cinematic loop",
+      "framing": "reuse S001 source at same crop and camera pose",
+      "ai_image_prompt": "A SINGLE complete full-frame opaque physical layered handmade paper/card diorama, tactile cotton rag fibers and torn and cut edges and folded miniature surfaces with real depth and coherent practical studio lighting/shadows; early-1900s Berlin courtyard or period study as relevant; miniature cut-paper people and cut-paper brown horse Hans with convincing anatomy, consistent dark mane and white left foreleg sock, not flat vector shapes, photo-real people, 3D CGI, or screen split. Die-cut components are part of ONE photographed physical world, not independently movable layers or parallax. One portrait 9:16 image composed to crop safely on a phone, no subtitle text, UI, watermark, icon overlays or false archival photograph. DO NOT GENERATE a distinct image. Reuse the EXACT approved complete bitmap from S001 depicting chestnut paper horse tapping in 1904 courtyard, visible human examiner and physical slate '3 + 5 = ?'. End its whole-frame pan/zoom at precisely the P0 frame/crop/scale of S001 opening so the next play starts visually seamless; concept shifts attention from horse to human by spoken words only.",
+      "whole_frame_camera_suggestion": "same full-frame media as S001; final crop/scale/translation matches S001's opening P0",
+      "continuity_factual_boundary": "Intentional time jump after full payoff. This is not a claim the experiment replayed again; no external moving sub-layer. Initial and terminal frame matching must be measured with real MP4 later.",
+      "reference_assets": [
+        "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md"
+      ],
+      "reuse_source_image": "S001",
+      "media": null,
+      "status": "NOT_GENERATED"
+    }
+  ]
+}
