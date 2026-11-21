@@ -1,0 +1,14 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Handoff — Nuviko History / Courrières
+
+- 2026-11-21 editorial Git-only queue; **not** a registered production episode.
+- Source remote `main`: `131ef24068d75967b1e43aa88e5f1370f6775054`; branch: `story/nuviko-courrieres-survivors-20261121`. Script-only first commit `0987285132530b7d65e31f4495edfea260beeffc`. The final PR commit should be read back and recorded as actual branch HEAD, not inferred from this file.
+- #124 was **merged 2026-11-16**, original proposed revision `7d6bdf7702a2a241a33a21677fce29f26ada9b72`; authoritative rules are the current `main` docs, not an unmerged proposed policy. No unrelated changes imported. Old runtime pins still require deliberate migration.
+- Six full independent EN/RU scripts in `variants/02m`, `05m`, `10m`; research, eight-criterion exact text review, comparison, packaging, suggested 05m storyboard. Recommended 05m EN exact SHA-256 `25b6ae88bff15272bcfd672d1e45aa09595447246aabb7a4d84c1e072969c136`, not user approval.
+- Requested `uv run ytv start --channel nuviko_history --format long --intent ...`; actual attempt in the available workspace **FAILED**: `Failed to spawn: ytv — No such file or directory`. No `start.plan_summary`, `read_next`, `task_guide`, pinned `reference_documents`, lease or official run exist here. **Blocker capability: working local project checkout/install and runtime-backed `ytv start`.**
+- Independent external model reviewer/session and its contract receipt were **not available/invoked**; author self-read does not count. **Blocker capability: approved independent `ytv-script-review-v1` reviewer on the exact recommended English hash, without author verdict.** Must give blind text first and sources after first reading, preserve actual reviewer result.
+- Additional blockers: source archives site under temporary maintenance, some details only indexed; public YouTube comparables lack same-format baseline/comments; real voice duration unmeasured; archival pictures not cleared for production; exact Nuviko 2D traveler PNGs not actually opened in this Git-only environment.
+- Local continuation (NOT executed): checkout main/project with `uv`/runtime, inspect channel format; start run with `uv run ytv start --channel nuviko_history --format long --intent 'review the Courrières history exact master'`, read real plan_summary/read_next/task_guide/pins; attach variants and review via documented `attach-artifact --kind script_variant` and `--kind story_review` with actual source/path; independent blind review; owner chooses one exact master at ordinary script gate. Do NOT auto-import as accepted source, because owner has not approved. Different pins require migration.
+- Nothing merged; no general docs/channel statuses changed. No paid tools, TTS, imagegen, video providers, MP4, uploads, calendar modifications or publications.
+
