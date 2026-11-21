@@ -1,19 +1,19 @@
 # Story review — Andrea Doria, six exact narrations
 
-**2026-11-20. Author: drafting/coordinating agent.** These are six **author judgments** based on text + institutional sources, not independent human or model reviewer, not measured viewing and not actual TTS/MP4 playback. Source main `09fa62d02a85f5fdcbfcc73c5acb2dcbe99aa035`; new story branch is editorial only. Last author edit corrected 10m EN/RU sinking time to **late morning**, based on Noble Maritime Collection.
+**Updated 2026-11-21. Author: drafting/coordinating agent.** These are six **author judgments** based on text + institutional sources, not independent human or model reviewer, not measured viewing and not actual TTS/MP4 playback. Source main `09fa62d02a85f5fdcbfcc73c5acb2dcbe99aa035`; new story branch is editorial only. Most recent revision corrected the French liner's route across all six scripts and added a contemporaneously sourced 10m human throughline. Original baseline hashes are no longer current; see Git history.
 
 ## Exact UTF-8 file fingerprints and estimated timing
 
 | File | Whitespace words | Exact SHA-256 UTF-8 | Git blob SHA |
 |---|---:|---|---|
-| [02m/en](variants/02m/script.en.txt) | 295 | `7f7e37435fdbb69a603161c598d54cdfae0f867216e83b801bdf0c2634dd8d93` | `104735101ff2091a026ebfcc668cb469f4ae49e8` |
-| [02m/ru](variants/02m/script.ru.txt) | 245 | `cd41a679c3e68683e4045777af3abf2fcb3e49e8cd2a09ee0c5efe15aa41deea` | `11426876687e03589d475f2de7eb436d2a4cd99d` |
-| [05m/en](variants/05m/script.en.txt) | 746 | `bd8b96c15006a745b8f09c49dbbe4eae86728efde2c7bc35a858071722fcf671` | `269540eb31b2efff28d7590b8d77515b381fc862` |
-| [05m/ru](variants/05m/script.ru.txt) | 619 | `011632d2ebacb3ac2151f16d7fb21560c475205edd13ce1c4c873daf5abd1034` | `17cdcaaddf1d12384aa621f466a51c8b4ee9c9a0` |
-| [10m/en](variants/10m/script.en.txt) | 1656 | `f36e093e8899fbc5716a69ac4a13ce93221aacbc80e235e4758b0ddc1bd4af58` | `b253a8911c536803c34e09bfa49281d21fdb9cf3` |
-| [10m/ru](variants/10m/script.ru.txt) | 1400 | `27623915e9ec37b23a84106dbf696b9043cdc8cdb5cdf058555eea9d87d6bce3` | `e0dc5356dd5b9837711a250fd3a4d65e6f0b314e` |
+| [02m/en](variants/02m/script.en.txt) | 295 | `aa00f33127b258e1e9f6b162c718ee1a7ac775bd24e1efde2f0f112929b18834` | `e763d14eed296ca7f35e869c8b44df9f77217a8f` |
+| [02m/ru](variants/02m/script.ru.txt) | 246 | `97bc67f458435f17530070c2f2e9cf7dfc9b106543bafa6d46e1a9dc19987466` | `6563f383c6465bb656cbac73d56d6a9222860dfd` |
+| [05m/en](variants/05m/script.en.txt) | 747 | `a433d39e339d921277754ec4439557aab5704f4e8ff0db821a1e5f94b4502ce1` | `23e16f0d689f851a8e9eedbd02e8d5273181a2b6` |
+| [05m/ru](variants/05m/script.ru.txt) | 625 | `9339642d4d9d0ea1d0f07721f502c9abfd3fc92981eda7c5d32186e9c17d9911` | `7ee77aa1dad083c18d60247e3d22922f81986f8e` |
+| [10m/en](variants/10m/script.en.txt) | 1677 | `25a60aa8bab63d629908289c47ca5a31d10342731d749bb18996561769fea64a` | `3277cd930c909995d9164be97696bb433758bec4` |
+| [10m/ru](variants/10m/script.ru.txt) | 1419 | `014775dbbebc58f1fc8cf9df8aabded4afc033c56d42176020194f30c3afa926` | `482bc27aad57e9ea06b0d676be7605ed3e78a0ff` |
 
-Duration is only an **estimate**. Assumption EN voice ≈140–170 audible words/min at configured speed, plus ≈3–25s pauses, no TTS or audio verification. **02m** 295 EN words ≈1:47–2:22; **05m** 746 EN words ≈4:27–5:45; **10m** 1656 EN words ≈9:52–12:15. Format: 02m proposed Short 9:16 (loop mandatory); 05m/10m Nuviko Long 16:9 and 10s endscreen after editorial story. Actual TTS length, script timing and AV scene seam **UNVERIFIED**. Do not alter voice 1.10× to force a target. RU full meaningful review translations not a second TTS master.
+Duration is only an **estimate**. Assumption EN voice ≈140–170 audible words/min at configured speed, plus ≈3–25s pauses, no TTS or audio verification. **02m** 295 EN words ≈1:47–2:22; **05m** 747 EN words ≈4:27–5:46; **10m** 1677 EN words ≈10:00–12:25 (illustrative rates only; no TTS). Format: 02m proposed Short 9:16 (loop mandatory); 05m/10m Nuviko Long 16:9 and 10s endscreen after editorial story. Actual TTS length, script timing and AV scene seam **UNVERIFIED**. Do not alter voice 1.10× to force a target. RU full meaningful review translations not a second TTS master.
 
 ## Separate authorial scores
 
@@ -21,16 +21,16 @@ Criteria **I**=interest/importance, **H**=hook, **D**=causal development, **P**=
 
 | Exact script | I | H | D | P | F | V | N | S | Author classification |
 |---|---:|---:|---:|---:|---:|---:|---:|---|---|
-| 02m EN `7f7e37435fdb` | 9 | 8 | 8 | 8 | 7 | 8 | 8 | UNVERIFIED | STRONG_CANDIDATE, text seam author-only |
-| 02m RU `cd41a679c3e6` | 9 | 8 | 8 | 8 | 7 | 8 | 8 | UNVERIFIED | STRONG_CANDIDATE, text seam author-only |
-| 05m EN `bd8b96c15006` | 9 | 9 | 9 | 9 | 8 | 9 | 9 | UNVERIFIED | STRONG_CANDIDATE — recommended |
-| 05m RU `011632d2ebac` | 9 | 9 | 9 | 9 | 8 | 9 | 9 | UNVERIFIED | STRONG_CANDIDATE — recommended |
-| 10m EN `f36e093e8899` | 9 | 8 | 8 | 8 | 7 | 8 | 7 | UNVERIFIED | REWORK |
-| 10m RU `27623915e9ec` | 9 | 8 | 8 | 8 | 7 | 8 | 7 | UNVERIFIED | REWORK |
+| 02m EN `aa00f33127b2` | 9 | 8 | 8 | 8 | 7 | 8 | 8 | UNVERIFIED | STRONG_CANDIDATE, text seam author-only |
+| 02m RU `97bc67f45843` | 9 | 8 | 8 | 8 | 7 | 8 | 8 | UNVERIFIED | STRONG_CANDIDATE, text seam author-only |
+| 05m EN `a433d39e339d` | 9 | 9 | 9 | 9 | 8 | 9 | 9 | UNVERIFIED | STRONG_CANDIDATE — recommended |
+| 05m RU `9339642d4d9d` | 9 | 9 | 9 | 9 | 8 | 9 | 9 | UNVERIFIED | STRONG_CANDIDATE — recommended |
+| 10m EN `25a60aa8bab6` | 9 | 8 | 9 | 8 | 7 | 9 | 8 | UNVERIFIED | EDITORIAL_CANDIDATE, independent UNVERIFIED |
+| 10m RU `014775dbbebc` | 9 | 8 | 9 | 8 | 7 | 9 | 8 | UNVERIFIED | EDITORIAL_CANDIDATE, independent UNVERIFIED |
 
 ## Evidence per exact EN and RU revision — eight criteria, strengths and weakness
 
-### 02M EN — exact SHA `7f7e37435fdbb69a603161c598d54cdfae0f867216e83b801bdf0c2634dd8d93`
+### 02M EN — exact SHA `aa00f33127b258e1e9f6b162c718ee1a7ac775bd24e1efde2f0f112929b18834`
 
 - **интерес/значимость 9:** 1660/1706 survived and 46+5 deaths give high stakes, while unknown present-day interest is separate.
 - **начало 8:** Opening's literal quote: Other ships sent lifeboats....
@@ -43,7 +43,7 @@ Criteria **I**=interest/importance, **H**=hook, **D**=causal development, **P**=
 - **Main weakness:** Risk: crowding 295 EN words into ~2 min; counting multiple vessels may exhaust listener; literal two-cycle review by independent reader absent.
 - **Assessment:** author/coordinator self-review, qualitative confidence medium on verified facts and actions, low on viewer interest, none on audience measurement. No independent reviewer result.
 
-### 02M RU — exact SHA `cd41a679c3e68683e4045777af3abf2fcb3e49e8cd2a09ee0c5efe15aa41deea`
+### 02M RU — exact SHA `97bc67f458435f17530070c2f2e9cf7dfc9b106543bafa6d46e1a9dc19987466`
 
 - **интерес/значимость 9:** 1660/1706 survived and 46+5 deaths give high stakes, while unknown present-day interest is separate.
 - **начало 8:** Opening's literal quote: Другие корабли отправили свои шлюпки....
@@ -56,7 +56,7 @@ Criteria **I**=interest/importance, **H**=hook, **D**=causal development, **P**=
 - **Main weakness:** Risk: several ship names in 245 Russian words; the phrase «по инструкции» generalizes a safety plan; text loop independent QA absent.
 - **Assessment:** author/coordinator self-review, qualitative confidence medium on verified facts and actions, low on viewer interest, none on audience measurement. No independent reviewer result.
 
-### 05M EN — exact SHA `bd8b96c15006a745b8f09c49dbbe4eae86728efde2c7bc35a858071722fcf671`
+### 05M EN — exact SHA `a433d39e339d921277754ec4439557aab5704f4e8ff0db821a1e5f94b4502ce1`
 
 - **интерес/значимость 9:** 1660/1706 survived and 46+5 deaths give high stakes, while unknown present-day interest is separate.
 - **начало 9:** Opening's literal quote: How can a passenger ship carry enough lifeboats...?.
@@ -69,7 +69,7 @@ Criteria **I**=interest/importance, **H**=hook, **D**=causal development, **P**=
 - **Main weakness:** Risk: spoken vessel names and numeric figures require careful delivery; no independent attention observation.
 - **Assessment:** author/coordinator self-review, qualitative confidence medium on verified facts and actions, low on viewer interest, none on audience measurement. No independent reviewer result.
 
-### 05M RU — exact SHA `011632d2ebacb3ac2151f16d7fb21560c475205edd13ce1c4c873daf5abd1034`
+### 05M RU — exact SHA `9339642d4d9d0ea1d0f07721f502c9abfd3fc92981eda7c5d32186e9c17d9911`
 
 - **интерес/значимость 9:** 1660/1706 survived and 46+5 deaths give high stakes, while unknown present-day interest is separate.
 - **начало 9:** Opening's literal quote: Как на пассажирском корабле...?.
@@ -82,7 +82,7 @@ Criteria **I**=interest/importance, **H**=hook, **D**=causal development, **P**=
 - **Main weakness:** Risk: rare ship names and number sequence could tax ears; no independent listener available.
 - **Assessment:** author/coordinator self-review, qualitative confidence medium on verified facts and actions, low on viewer interest, none on audience measurement. No independent reviewer result.
 
-### 10M EN — exact SHA `f36e093e8899fbc5716a69ac4a13ce93221aacbc80e235e4758b0ddc1bd4af58`
+### 10M EN — exact SHA `25a60aa8bab63d629908289c47ca5a31d10342731d749bb18996561769fea64a`
 
 - **интерес/значимость 9:** 1660/1706 survived and 46+5 deaths give high stakes, while unknown present-day interest is separate.
 - **начало 8:** Opening's literal quote: Why did a ship with lifeboat places...?.
@@ -95,7 +95,7 @@ Criteria **I**=interest/importance, **H**=hook, **D**=causal development, **P**=
 - **Main weakness:** Risk: research/report texture, late explanatory tail and uncertain spoken duration; REWORK.
 - **Assessment:** author/coordinator self-review, qualitative confidence medium on verified facts and actions, low on viewer interest, none on audience measurement. No independent reviewer result.
 
-### 10M RU — exact SHA `27623915e9ec37b23a84106dbf696b9043cdc8cdb5cdf058555eea9d87d6bce3`
+### 10M RU — exact SHA `014775dbbebc58f1fc8cf9df8aabded4afc033c56d42176020194f30c3afa926`
 
 - **интерес/значимость 9:** 1660/1706 survived and 46+5 deaths give high stakes, while unknown present-day interest is separate.
 - **начало 8:** Opening's literal quote: Почему корабль, на котором хватало...?.
@@ -138,3 +138,20 @@ Criteria **I**=interest/importance, **H**=hook, **D**=causal development, **P**=
 | Script gate, runtime approval/owner selection | UNVERIFIED, unregistered | UNVERIFIED, unregistered | UNVERIFIED, unregistered |
 
 **Review contract not forged:** no independent session read the exact scripts alone, no second independent reading, no first-listener response, no real reviewer schema output. If a script hash changes, any later review of the older hash is invalid. The review must first give the script without author scores/beat map, then sources and nearest General Slocum pitch. Actual historical recordings, TTS audio, video and CTA target not verified.
+
+
+## New substantive pass — 2026-11-21, exact revised six-text package
+
+**Progress:** six texts already complete → factual contradiction independently checked against MARAD → all 02m/05m/10m EN/RU direction corrected → new, sourced 10m human storyline replaces repetitive epilogue → all six Git blobs/UTF-8 SHA-256 updated above. This **does not** constitute an independent reader, TTS, production approval or successful live retention.
+
+**2m story map:** out-of-reach boats → collision/list → rescue request → Cape Ann and Stockholm → **eastbound** Île de France turns back from its Europe-bound voyage → 1660 survive, 46+5 deaths → final setup returns to outside boats. Concrete added information is the formerly incorrect route. Cold open and payoff still meaningful; author text-only two-cycle seam provisional, AV seam and independent cold reading UNVERIFIED.
+
+**5m story map:** three documentary questions → passengers, radar, two crews → collision/list creates lifeboat access blocker → Cape Ann first ferry, physicians and drift → Thomas/Stockholm → **corrected eastbound voyage** and French captain's choice to turn around → 13 boats, 753 taken aboard → loss/survivors, physical answer. Strongest single throughline and still recommended.
+
+**10m story map:** three documentary questions → actual Boggs family separated by activities on the same ship → radar encounter and collision → parents wake and find children through smoke/list → family on sloping deck cannot understand announcements → Cape Ann 40/doctors/drift → Thomas radios and Stockholm helps → Île de France diverts from its Europe-bound course → mother/children descend rope ladder → father departs separately via cargo net, boat caught in cables, later reunion → captain Calamai departs → sinking, deaths/survivors → French liner returns to New York with survivors before resuming Europe trip. This new family strand links separate real actions and a personal payoff after the main rescue, replacing multiple general-purpose radar/lifeboat conclusions.
+
+**Eight 10m author criteria at revised exact hashes** — interest **9/10** (real rescue and 1660 lives, unverified contemporary audience), hook **8/10** (questions promise all three events, but longer setup), causal development **9/10** (separate family escapes create genuine escalation; watch vessel switches), payoff **8/10** (family reunion plus verified full-ship consequences; some summary remains), freshness **7/10** (the event has extensive earlier documentaries), visual intent **9/10** (sloping deck, rope ladder, boats trapped at hull, distinct ships, documented), natural spoken clarity **8/10** (family actions supplant lecture, but ship names/duration may burden listeners), verified audience demand **UNVERIFIED** (not a numerical 1–10 score). Exactly the same beats/factual limits appear in RU; independent bilingual review **UNVERIFIED**. These are editorial judgements, not measured viewer attention.
+
+**Added value:** 2→5 introduces rescue constraints/drift/decisions; 5→10 adds a historically documented family, two divergent evacuation paths, and human reunion, but increases the middle's name-switch cost and perhaps exceeds ten minutes. **Preliminary recommendation remains 05m**, rather than the longest; after independent cold review 10m can compete if the witness thread sustains attention. Specific likely loss point: after the French liner's 753-person rescue, a first-time viewer may feel the central question answered before Dr. Boggs' second evacuation; independent first-listener evidence needed.
+
+**Hard checks:** script files exist and original six SHA-256/old blobs have been replaced by the exact latest hashes in the table. Git-only manual EN/RU paragraph/action parity (02m 11/11; 05m 20/20; 10m 39/39) is **author structural evidence, not bilingual independent PASS**. The four central facts (official ship direction, count 13 boats/753, witness action, rescue outcomes) were read in MARAD/Noble/newspaper research; no unsupported dialogue or secret motive added. Textual 02m seam self-assessment only, 10m Long no loop requirement. No storyboard exists for any new script hash, so any old spans/timings/approval are invalid for it. **UNVERIFIED**: first-listener, real audio duration, A/V seam, production capability/runtime, exact media refs, rights, owner acceptance/approval and audience data.
