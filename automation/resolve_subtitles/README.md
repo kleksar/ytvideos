@@ -200,3 +200,47 @@ following native frames and the audible phrase before acceptance. Offline regres
 cover late cuts, pause holds, cross-cut speech and immutable CC. The optional anchored
 path has **not yet received a live native fixture**; this does not upgrade its playback
 or visual status, and it never authorizes changes to a production timeline.
+
+## Offline one-still-per-phrase conform
+
+For a new cut from already approved narration, phrase breaks and stills, align the
+**actual final PCM WAV** offline using
+[`forced_alignment.py`](../helpers/srt/scripts/forced_alignment.py), or supply
+equivalent exact-transcript word evidence in the same format. Align after any
+pitch-preserving retime and pause edits; do not scale timestamps from the raw TTS
+or use ASR text as a replacement script. The alignment format is
+`{status:"REVIEW_REQUIRED",audio_sha256,transcript_sha256,words:[{text,start,end}]}`.
+Its transcript hash is of the UTF-8 text after outer whitespace is stripped;
+quoted word forms follow the existing helper. Use your existing local model
+cache; the planner never loads a model or connects to a service.
+
+```sh
+python3.12 automation/resolve_subtitles/phrase_conform.py request.json --output phrase-plan.json
+```
+
+The schema-1 JSON request requires `fps` (exact integer or ratio string), the
+absolute, half-open `origin_frame` and `end_frame`, `audio_start_frame`,
+`audio:{path,sha256}`, `transcript_path`, `alignment_path`, and ordered
+`phrases:[{id,text,asset_path,asset_sha256}]`. Input paths may be absolute
+or request-relative. Use Python 3.12+ when the PCM file is WAVE_FORMAT_EXTENSIBLE.
+Each still must already be approved; file hashes prove identity, not image QA.
+Optionally specify per-shot `titles:[{id,text}]` for explicit readable subcues
+that exactly partition a long visual beat. They cannot cross picture cuts.
+
+The JSON output has `shots:[{id,start,end,asset_path,asset_sha256}]` and
+`titles:[{id,start,end,text,words:[{text,start,end}]}]` on the same absolute
+frame axis. Quantize speech to nearest frame, half up. Every shot after the
+first starts at its first title onset. The first picture may lead silent
+preroll; the final picture holds to the declared end; the titles use measured
+spoken bounds and never stretch the audio or close its pauses. This describes
+individual titles for native assembly later, not a Resolve import format.
+A word whose endpoints fall on one frame cannot carry an independently
+visible highlight; review this with the chosen channel caption recipe.
+
+Use `--timing-only` if approved stills are not yet present: missing asset
+fields are permitted and named in `missing_art`. This output is explicitly
+`TIMING_ONLY`, not for native install. Complete hash-covered output is still
+`OFFLINE_REVIEW_REQUIRED`: listen at representative word/cut onsets, check
+any local alignment drift, line breaks and style, then follow the native
+workflow above using the real timeline snapshot and independent evidence.
+This command never opens Resolve, adds clips, renders, or publishes.
