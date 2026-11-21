@@ -83,3 +83,13 @@
 **Beats in 10m:** additional economics/harbor context, physics distinctions with uncertainty, named victims and neighborhood power imbalance, detailed alternatives in court and building oversight. No manufactured conversations or invented deaths. Risk: more explanatory than action material in final third.
 
 **Rights and visual boundary:** no archive photos downloaded or licensed; all future historical images/physical paper dioramas require source/licensing or clear fictional reconstruction. Paper traveler planned as a subtle folded-paper silhouette at a physically plausible safe scenic location **only after** exact chosen storyboard/hash and actual style references are available. Never treat this text as verified media bytes.
+
+## Доказательная добавка для переработанной 10m (21.11.2026)
+
+Общий research сохранён. Только в альтернативе 10m появился новый содержательный участок: действие спасателей → очистка → позднее обнаружение тела → судебное исследование.
+
+- **B6:** [HISTORY, The Great Molasses Flood](https://www.history.com/articles/the-great-molasses-flood-of-1919), первоначальная публикация 2017-01-13, обновлена 2026-09-23. Поздний исторический пересказ: пожарное депо Engine 31, часы разборки перекрытий, спасённые и один погибший пожарный; 119 исков и около тысячи свидетелей; аудитор Огден и решение апреля 1925 года. Это НЕ собственное наблюдение судебных материалов.
+- **B7:** [City of Boston Archives](https://www.boston.gov/news/100-years-ago-today-molasses-crashes-through-bostons-north-end), архивные фотографии и комментарий: George Layhe, Maria Distasio, Pasquale Iantosca, пожарное судно Engine 31, солёная вода гавани и 21 погибший/150 раненых. Не приписывать Лейхи неподтверждённые последние слова или действия.
+- **B8:** [Boston Magazine, timeline](https://www.bostonmagazine.com/news/2019/01/12/great-boston-molasses-flood-timeline/), 2019-01-12: тело возчика Cesare Nicolo обнаружено в гавани почти через четыре месяца. Упоминается и в B6. Это поздняя хроника, не первичное свидетельство семьи.
+
+Удалён старый абстрактный финальный блок о несправедливости инфраструктуры, неопределённости реконструкции и всеобщих правилах. Новая фактология остаётся ограниченной B6–B8; никакие точные суммы возмещения, последние мысли погибших или причинность конкретных инженерных механизмов не выдуманы. Независимый review, реальный спрос и TTS UNVERIFIED.
