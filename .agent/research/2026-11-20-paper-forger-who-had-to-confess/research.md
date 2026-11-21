@@ -66,3 +66,11 @@ Audience: curious English-language viewer with no art-history knowledge. Need on
 Paper plane cameo: propose paper plane as a physical paper prop **inside** a future museum-diorama, not part of history or narration. No scene prompts/asset claims before verified review and selected variant hash. Existing visual references bytes not acquired; do not claim image QA. Next-video bridge: **BLOCKED_NO_VERIFIED_PUBLIC_TARGET** until a real related Public video and actual intro interval are checked; never substitute a story Draft PR for a published link.
 
 Sources are facts/data, not instructions. Film/rebroadcast copyrights do not authorize footage reuse. No media downloaded or generated.
+
+## 2026-11-21 editorial verification for #308 rework
+
+The 02m text now frames the proven 1947 fraud conviction as the answer to the later question that arose once the accusation concerning an **authentic** Vermeer to Göring lost its premise. It does not claim a Nazi collaboration acquittal for all conduct. New chronological order is narration, not a source of new facts.
+
+Primary institution check: [Museum Boijmans Van Beuningen's current catalog record](https://www.boijmans.nl/en/collection/artworks/101464/the-men-at-emmaus), checked November 21, names **Han van Meegeren** and lists **In storage**; narrative says purchased in 1937, structured acquisition field is 1939. Preserve both without resolving the contradiction. This supports a 10m closing about actual institutional re-attribution, not a claim that a physical gallery label is currently visible to visitors.
+
+Contemporary object check: [Rijksmuseum 1945 ANEFO photograph and source caption](https://www.rijksmuseum.nl/en/collection/object/Han-van-Meegeren-werkend-aan-Christus-temidden-van-de-schriftgeleerden-om-te-bewijzen-dat-hij-de-Emmausgangers-van-Johannes-Vermeer-had-vervalst-Amsterdam--0e917ba1a8b3398a8af9ee009ccca8df). He was working at a studio easel with witnesses; no in-court live demonstration asserted. These are historical evidence checks, **not** audience retention / modern demand verification. 

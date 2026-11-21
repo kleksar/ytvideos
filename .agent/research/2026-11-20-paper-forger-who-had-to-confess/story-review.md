@@ -1,3 +1,54 @@
+## 2026-11-21 — 02m/10m substantive editorial revision, PR #308
+
+**Baseline** `3cfa7f233a16deab0162235b9493804f28d0f81c` (original source bytes and SHA-256 verified); original 05m EN/RU preserved byte-for-byte. This is a **Git-only** `EDITORIAL_CANDIDATE_UNREGISTERED` candidate, not owner-approved script, runtime state, MP4, TTS, or independent review.
+
+| One original story | Complete RU | Full English | EN words | Current author status |
+|---|---|---|---:|---|
+| 02m Short | [RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-meegeren-forger-20261120/.agent/research/2026-11-20-paper-forger-who-had-to-confess/variants/02m/script.ru.txt) | [EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-meegeren-forger-20261120/.agent/research/2026-11-20-paper-forger-who-had-to-confess/variants/02m/script.en.txt) | 233 | **Rewritten**: 1947 verdict starts, provenance/consequence cause chain, final judicial question resolves into opening verdict; text-only self-assessed join, **independent/AV loop UNVERIFIED** |
+| **05m Long** | **[RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-meegeren-forger-20261120/.agent/research/2026-11-20-paper-forger-who-had-to-confess/variants/05m/script.ru.txt)** | **[EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-meegeren-forger-20261120/.agent/research/2026-11-20-paper-forger-who-had-to-confess/variants/05m/script.en.txt)** | 717 | **Preserved, preliminarily recommended** |
+| 10m Long | [RU](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-meegeren-forger-20261120/.agent/research/2026-11-20-paper-forger-who-had-to-confess/variants/10m/script.ru.txt) | [EN](https://github.com/kleksar/ytvideos/blob/work/story-drafts/paper-meegeren-forger-20261120/.agent/research/2026-11-20-paper-forger-who-had-to-confess/variants/10m/script.en.txt) | 1424 | **Rewritten**: four generic moral/recap paragraphs replaced by concrete museum attribution, storage and 1937/1939 documented record distinction; no invented after-trial scene |
+
+### Current exact UTF-8 SHA-256
+
+| Version | EN | RU |
+|---|---|---|
+| 02m | `de94bab42b7ed3771bcc325695e0a3f1a70eed4ba2e12f9c2ee504422f0b28f9` | `248bde06c8b5c570cf9956a7dac0b806feecdd37e3946edbb1589d92ef745599` |
+| 05m | `9fa26bf4a893b1191f62a1c9da47fa30d790ad8296be809222754e268ecb2adf` | `8ddf7985582d0107f6f522b29e24bcbb7a43ac87642dd139fe4f59c67c8f888f` |
+| 10m | `bab76e6b3f02f9437cece2b47ce31d15915c387a566f60b2aae15d089b4b8ea3` | `e007abdf979038d835f462bb0f18845b7fb5ad5eefe128089930c7e63c76921c` |
+
+### Narrative map and checks
+
+- **02m:** verdict up front → 1937 museum attribution → paint aging mechanism → Göring-linked transaction → investigators doubt confession → witnessed painting + materials → genuine-master allegation fails → distinct fraud case → court's decision leads back to first sentence. Verbal join is not just a repeated object; causal replay **author-only**, full EN/RU independently still **UNVERIFIED**. Pre-montage audio/visual seam: **UNVERIFIED**.
+- **05m:** unchanged strong two-question opening → specific museum/painting → main Göring investigation → the suspect has to prove a forgery → observed demonstration/materials → 1947 fraud verdict and corrected catalog attribution. No changed hash, prior evidence retained.
+- **10m:** questions → immersive 1937 museum context → author revealed → physical tests → occupation/transfer → investigation/confession → witnessed demonstration + proof → verdict → **real physical painting remains and the museum changes attribution**. Previously the last ~five paragraphs recapped expert psychology and moral character after the legal payoff; now the institution must assign a new name to the same documented object. Earlier premature catalog explanation also removed to pay off at the end.
+
+**Factual evidence newly rechecked:** [Museum Boijmans current catalog](https://www.boijmans.nl/en/collection/artworks/101464/the-men-at-emmaus) explicitly marks **location in storage**, maker Han van Meegeren, a 1937 purchase narrative and 1939 acquisition field. [Rijksmuseum 1945 archival photo](https://www.rijksmuseum.nl/en/collection/object/Han-van-Meegeren-werkend-aan-Christus-temidden-van-de-schriftgeleerden-om-te-bewijzen-dat-hij-de-Emmausgangers-van-Johannes-Vermeer-had-vervalst-Amsterdam--0e917ba1a8b3398a8af9ee009ccca8df) confirms a witnessed painting demonstration, **not** an in-court performance. Additional primary-catalog details are not extrapolated to unknown historical dialogue, motives or exact laboratory-test dates.
+
+### Eight distinct editorial criteria (author-only; 10 = strongest, NOT audience measurement)
+
+| Criterion | 02m | 05m (unchanged) | 10m |
+|---|---|---|---|
+| Significance / viewer value | **9/10** — self-incriminating proof averts alleged transfer of real treasure; missing independent demand | **9/10** — same central paradox fully motivated | **9/10** — includes museum accountability, not only courtroom |
+| Honest opening / promise | **8/10** — cold verdict reveals outcome but promises an actual causal why | **9/10** — two explicit questions lead to answers | **8/10** — three questions, some long pre-investigation context |
+| Causal development / stay | **8/10** — painting/aging/transaction/confession/proof sequence, technical mechanism compressed | **9/10** — distinct obstacles between museum, Nazi collection and evidence | **8/10** — material method and postwar reversal develop, early scholarship still dense |
+| Payoff / human outcome | **8/10** — accusation changes; court verdict at entry is answered by final judicial dilemma, death not covered | **9/10** — court + current attribution with no false moral clearance | **9/10** — court verdict **and** catalog's concrete correction; slower arrival |
+| Angle freshness | **6/10** — TED-Ed already tells the core idea | **7/10** — physical proof / institution adds value | **7/10** — storage and conflicting catalog dates are specific, not new mass appeal evidence |
+| Visual clarity | **8/10** — falsified label, canvas cracks, witnessed easel and judge; shot plan not validated | **9/10** — high physical specificity | **8/10** — museum attribution adds tangible final image; still technical stretches |
+| Natural narration | **8/10** — full 02m restructured around consequences; join may sound deliberate | **8/10** — original sound cues self-reviewed only | **8/10** — abstract ethical recap removed; earlier method paragraphs still explanatory |
+| Verified contemporary audience demand | **UNVERIFIED** — no Short retention/CTR | **UNVERIFIED** — no channel retention/CTR | **UNVERIFIED** — no Long retention/CTR |
+
+**Duration comparison:** 02→05 adds a meaningful museum context, skepticism of confession and laboratory distinction; 05→10 adds detailed mechanics, archival scope and a concrete after-verdict museum correction, but the art-historical introduction can delay the core Göring-related hook. **Recommend 05m (unchanged)**: more complete than 02m without 10m's early density. This editorial judgment is neither owner approval nor a prediction of views.
+
+**Hard checks:** fact anchors catalog/photo **author source check**; structural bilingual 8/8 (02m) and 32/32 (10m) paragraph counts; independent semantic EN/RU reader **UNVERIFIED**; short full two-cycle author-check **candidate, not PASS**; real AV seam, measured TTS durations, independent reviewer exact hash, runtime registration/leases/receipts, rights, owner approval **UNVERIFIED**. 05m original hashes retained. 02m approx length before TTS, 10m approx length before TTS; do not treat target headings as measured output.
+
+**Storyboard/packaging:** existing 05m packaging hash remains valid; no 02m/10m storyboard under these new hashes. Exact scenes/spans must be remapped after independent review and explicit owner selection. No mass-production of three versions. Existing accepted/production texts, pins, shared skills, main and external video services unaffected.
+
+---
+
+## Original author review 2026-11-20 — superseded for 02m and 10m
+
+The following earlier evidence/hashes concern the saved baseline at `3cfa7f233a16deab0162235b9493804f28d0f81c`; they are **not** fresh independent reviews of the replacement texts.
+
 # Editorial review — exact scripts, 2026-11-20
 
 **Author:** ChatGPT (the writer), **method:** document-based self-edit/review, no independent human/session; confidence labels pertain to editorial reasoning, not predictive metrics. All six texts are complete separate narration, not master excerpts. Production language EN; natural RU for editor. No generated or listened audio. User target is a useful story, not an assumed 10-minute priority. No scores indicate CTR/retention/probability.
