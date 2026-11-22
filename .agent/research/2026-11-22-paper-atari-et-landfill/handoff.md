@@ -37,3 +37,8 @@ uv run ytv plan --run ACTUAL_RUN_ID
 Для ещё не принятого нового текста сначала выполнить обычный pinned research / reviewer / script gate; **не** применять `source_script` import без реального владельческого поручения на exact source (он предназначен для уже принятого неизменённого сценария). Проверить `plan_summary`, `read_next`, `task_guide`, pinned docs и actual ChannelSpec. Точные SHA/runs/approval взять только из runtime. Ветка редакционной очереди не должна менять `main`, schedule или production state.
 
 Дальнейшее: fresh independent reviewer → факты / слова / петля (если выбран 02m Short) → корректный runtime Long → единственный exact script gate → только по принятому тексту подробный storyboard/scene prompts с variant/hash → исходные Paper reference bytes и rights → audio/meters → approved MP4. Это не поручение выполнять последующие этапы сейчас.
+
+
+## 10m r2 — редакционная запись (2026-11-22)
+
+Baseline PR HEAD `aa3603609f727341234ffcacbff19e6c0c0f0edb`; исходные 10m blobs EN `3ac01abffb5a0f5bad84bc096aa2d283227d0319`, RU `5cb08a0af6c46843a4bf0b2d8d3d4722007b5257`. Новый 10m SHA-256 EN `fdefa420b2205420bc50b3261346ef6d13baa0e8449c5e10796d1e968f6c795c` / RU `47829261ec1808482eb82ebaa0bf922445ac84b047b5e0a8fb2ea7ff6485a128`. Был повторный объяснительный хвост после находки успешных игр; теперь ведёт цепь ограниченный поиск → E.T. → другие хиты → конкретное объяснение логистики Хеллером → документированная музейная атрибуция по Робарджу. Источники S1/S3/S4/S6, неопределённость высшего заказчика сохранена. 02m/05m unchanged и 05m recommended, не approval. Новая 10m r2 нуждается в independent reviewer и в новой раскадровке после выбора exact hash. Runtime / TTS / AV / upload не выполнялись.

@@ -77,3 +77,8 @@
 ## Производственные границы
 
 Сценарий основан на событиях, но *не* содержит реальную запись/кадры или разрешение использовать archival Atari logos/game-art, лица/фото из WIRED или Smithsonian. Не генерировались опоры, видео, звук. Драматическая бумажная стилизация должна оставаться явно реконструкцией, а не подделкой фотоархива. Вопрос связи с следующим public Long — UNVERIFIED, не выдумывать релиз. Показанный реальный музейный предмет сейчас не экспонируется по Smithsonian.
+
+
+## Сверка добавленных деталей 10m r2 (2026-11-22)
+
+Вновь прочитаны: S1 https://americanhistory.si.edu/explore/stories/landfill-smithsonian-collections-et-extra-terrestrial-atari-2600-game (Drew Robarge, 2014-12-15, первичный рассказ о том, как он связался с Fuel Entertainment *до* раскопок для получения предмета с законным подтверждённым происхождением); S3 https://www.wired.com/2014/04/atari-et-dig/ (Chris Kohler, eyewitness 2014-04-29: Joe Lewandowski и одна зона поиска, неопределённая рукоятка джойстика, реальные E.T./Centipede/Missile Command, беседа с Heller); S6 https://www.ataricompendium.com/archives/interviews/james_heller/interview_james_heller.html (Scott Stilphen, прямое интервью Heller 2014: передача приказа через El Paso office, неизвестное Heller имя исходного начальника; excess inventory и экономия, другие названия и оборудование, частичный бетон после scavenging). Исследования не подтверждают точное число всех закопанных игр, содержание каждого грузовика, мотивы топ-менеджмента или бетон над конкретным участком раскопа. Эти пределы прямо отражены в EN/RU r2; прежний общий research и остальные версии сохранены.
