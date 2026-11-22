@@ -10,7 +10,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Duration / proposed format | Full English production text | Complete Russian meaning | Author editorial status |
 |---|---|---|---|
-| 02m / Short | [EN](variants/02m/script.en.txt) SHA-256 `c847697b7f2cd11d37fd14cc0b95f3e349c7300bcee1130042b3d9a090fea1f8` | [RU](variants/02m/script.ru.txt) `aa2431cab21d25af7e1dcca1a5bdb5c4847a295264696efbaccf200fc953050b` | REWORK: natural spoken Short last→first **FAIL** |
+| 02m / Short | [EN](variants/02m/script.en.txt) SHA-256 `ece24be7056c98b7bb3702a91d3741f64fc64d1b147b156bf66398812cfcb6ac` | [RU](variants/02m/script.ru.txt) `88cb992fa6152cb8626bfe4349db606449a9057602a8b74ae32d5ecdf0c3be5c` | REVISED_CANDIDATE: author textual seam improved, independent and AV UNVERIFIED |
 | **05m / Long** | **[EN](variants/05m/script.en.txt) `f676146e31bda0e7f541a310b9dc31f13204710e4c7fdd07d1ac6d053f6776a2`** | **[RU](variants/05m/script.ru.txt) `73fd3c2a7599eed5e5a09d5a2a52c688fda6254373233551d6f4e62edf1304d0`** | **STRONG_CANDIDATE / recommended, not independently accepted** |
 | 10m / Long | [EN](variants/10m/script.en.txt) `f48bde43adb5d44602e55f2f2fb68f282cf6e3c6dfc5d39cabdd4b0372c23f4d` | [RU](variants/10m/script.ru.txt) `c370aa43a8dec72d7c0f3c132caf852de21e9626764b51d8e351a60fb3ee5d68` | REWORK: factual but stretches post-climax |
 
@@ -19,7 +19,7 @@ Shared [research](research.md) records actual 12-direction shortlist, 3 strong f
 ## Actual capabilities and blockers
 
 1. Before any writing for an official run, attempted local `uv run ytv start --channel nuviko_history --format long --intent 'Создать одну документальную историю 2/5/10 минут EN/RU для редакционной очереди, без производства'` in `/mnt/data`. Observed `Failed to spawn: ytv` / `No such file or directory (os error 2)`. The current environment has no installed source-repo `ytv` executable. **No official start succeeded**, and there is **no real run ID, plan_summary, read_next, task_guide, pinned reference_documents, claim/lease, artifact receipt or script gate**. Current main docs read by GitHub do not silently replace pinned run policy. Explicit Git-only queue authorization comes from the owner request.
-2. No genuinely separate reviewer session or `ytv-script-review-v1` writer is available/was invoked. **All three exact English and Russian texts are UNVERIFIED independently.** No independent first-listener prediction is fabricated; self-evaluation cannot pass the official script gate. In particular 02m textual narrative seam author-check FAIL; without MP4 actual AV seam is UNVERIFIED.
+2. No genuinely separate reviewer session or `ytv-script-review-v1` writer is available/was invoked. **All three exact English and Russian texts are UNVERIFIED independently.** No independent first-listener prediction is fabricated; self-evaluation cannot pass the official script gate. New 02m first/last causal connection was checked by author in EN and RU twice; separate reviewer, actual audio and AV seam remain UNVERIFIED.
 3. Nuviko profile permits both 9:16 Short and 16:9 Long; 05m Long is a **recommendation**, not owner selection, and the three variants do not authorize three production runs. Timing is a word-count estimate, not real audio. The required approved traveler PNG bytes, period imagery, footage licenses and exact relevant published follow-on video intro were **not fetched or verified**. Specific real linked-video intro/end-screen target absent, so story-linked tail remains **UNVERIFIED**.
 4. Free public web/source evidence exists; recent 30–90d Nuviko demand, actual comments and CTR/retention are **UNVERIFIED**. No paid vidIQ, TTS, image/video, MP4, upload/publication or schedule operations. No credits purchased.
 
@@ -34,3 +34,7 @@ Shared [research](research.md) records actual 12-direction shortlist, 3 strong f
 ## Remote verification after writes
 
 To finish this PR, re-read **all six** exact scripts, research/review/packaging/handoff/README and compare Git blob hashes to actual branch; verify `main` source/merge base, PR Draft state, diff only this directory, current HEAD and CI checks for **that HEAD**. `queued` or `in_progress` is not a pass. Any new HEAD invalidates any hypothetical old reviewer result. Do not update a different author's files.
+
+## Focused editorial continuation — 2026-11-22
+
+Baseline `9f935c0c95c6c8410f4ab7a55a4e2955cdbbd61e`; latest 02m text EN SHA-256 `ece24be7056c98b7bb3702a91d3741f64fc64d1b147b156bf66398812cfcb6ac` (293 words), RU `88cb992fa6152cb8626bfe4349db606449a9057602a8b74ae32d5ecdf0c3be5c` (260 words). Previous EN `c847697b7f2cd11d37fd14cc0b95f3e349c7300bcee1130042b3d9a090fea1f8` and RU `aa2431cab21d25af7e1dcca1a5bdb5c4847a295264696efbaccf200fc953050b` remain recoverable in Git. Revised the actual spoken story: radio clean-up assessment → apparent ballast control failure → manual reversal risk → bow flood → emergency lifeboat with no rescue → reinterpretation of the early warning. No approval or new production master. Send new exact bytes to independent reviewer without author scores, then complete actual pinned runtime registration before owner selects one master. All old 05m/10m scripts remain byte-identical.
