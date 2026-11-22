@@ -17,3 +17,6 @@ Title A uses public narrative angle rather than catastrophe-driven numbers. Titl
 Suggested next-content bridge only after exact master and related video availability: link to a relevant accepted maritime safety story, **not** to a fabricated forthcoming film or an unapproved specific release. End screen 10s per Nuviko Long ChannelSpec, actual YouTube clickable widgets not created or claimed. Native target choice remains blocked until existing related material and rights are checked.
 
 **Only editorial brief.** No scene timings, media bytes, thumbnail PNG, prompt dispatch, TTS or DA VINCI timeline. Images from broadcaster footage may have copyright and should not be copied without licence.
+## Longer alternative after 10m editorial revision
+
+Ten-minute candidate EN SHA256 `9b882bc5bada8e213709d8a1f43e2d1ae020228f4b4c5d2c142c4bd34a01c0b6`, RU `9398497e7a6894b678e8c1929feb34c9b80ff6604319ae1dd63f99283aa9ad82` (1550 EN words, duration estimated only). It shows an additional rescue/equipment problem and documentary evidence through 1986, but **does not replace the selected packaging's 05m hash**. Do not reuse 05m promised timing or thumbnail approval for the revised 10m without an exact variant-specific review. No graphics or footage created.

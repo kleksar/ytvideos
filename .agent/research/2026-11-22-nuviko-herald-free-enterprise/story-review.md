@@ -8,7 +8,7 @@
 |---|---|---|---:|---|
 | 02m / Short | [EN](variants/02m/script.en.txt) SHA256 `42f11dcceaa97183ca0f02da2571a9247e9818cc44b511dbafae6b56ce8c15cf` | [RU](variants/02m/script.ru.txt) SHA256 `057326706e296f71fce81f269380bfa3e97610f2507c4d3d57c712f872afbf75` | 277 | ~1:53–2:15 at 125–150 EN wpm including modest breaks; **not measured** |
 | 05m / Long | [EN](variants/05m/script.en.txt) SHA256 `48472fa0f05de5035b604047037099b9be27a6428c079d75a0276582815f1777` | [RU](variants/05m/script.ru.txt) SHA256 `ea3fb202dcb5f7e95a39ceeea822ba6abf51d74744beb78240d9f1f57f55f076` | 756 | ~4:45–5:45 around 132–159 wpm + brief pauses; **not measured** |
-| 10m / Long | [EN](variants/10m/script.en.txt) SHA256 `cce6279ef495c334b7dc03e558118a232cd4b09eaf149856426fc4922ebde4e5` | [RU](variants/10m/script.ru.txt) SHA256 `ae15743b7fd830ad67f3cb0eb9ceea17c8d81702e5733acc616f21f76777a48f` | 1522 | ~9:35–11:30 at 132–159 wpm + short pauses; **not measured** |
+| 10m / Long | [EN](variants/10m/script.en.txt) SHA256 `9b882bc5bada8e213709d8a1f43e2d1ae020228f4b4c5d2c142c4bd34a01c0b6` | [RU](variants/10m/script.ru.txt) SHA256 `9398497e7a6894b678e8c1929feb34c9b80ff6604319ae1dd63f99283aa9ad82` | 1550 | ~9:35–11:30 at 132–159 wpm + short pauses; **not measured** |
 
 EN 5m/10m Long have question-led intro, documented immersion, principal hook and causal development. The Long plot is not a Short stretched. Nuviko `channel.json` enables illustrated Short and Long; estimated exact cut needs authorized host TTS. The known speed `1.10×` remains fixed in future production rather than adjusting it to fake target length.
 
@@ -46,26 +46,30 @@ EN 5m/10m Long have question-led intro, documented immersion, principal hook and
 
 **Story map:** questions on why/how/earlier knowledge → routine boarding/doors purpose → principal hook “both bow doors still fully open” → sleeping worker / chief officer / captain no indicator → water/free surface → shallow capsize/rescue (human resolution) → earlier fleet incidents and indicator requests → court distributes responsibility (conceptual payoff). Last line says actual warning signs stretched back years.
 
-## Eight criteria — 10m (complete longer investigative Long)
+## Eight criteria — 10m (revised investigative Long, 2026-11-22)
 
 | Criterion | Score | Specific textual/event basis | Confidence |
 |---|---:|---|---|
-| Interest/significance | 8 | “How could ... people steering it be unaware of an opening large enough for cars?” | Medium, author |
-| Opening | 8 | Three distinct questions, routine loading, then hook at unclosed doors | Medium, author |
-| Development / reason to stay | 8 | Added ballast/role conflict, lifejacket/boat details, 1983/84/85/86 warning timeline | Medium, author, primary verified |
-| Payoff | 8 | “The company had not designed a dependable check,” plus dated warnings, legal finding | Medium, author |
-| Freshness of angle | 7 | Strong documentary reconstruction angle, but common account has covered many of same events | Medium |
-| Visual expressiveness | 8 | Can contrast compliant hull, opened bow, trapped jackets and police/air response | Medium, images/licences UNVERIFIED |
-| Naturalness/clarity of speech | 7 | Meaningful details but explanation of the chain appears before and after the warning chronology; late repetition risk | Medium, author |
-| Confirmed audience interest | UNVERIFIED | No Nuviko 10m audience data; competitor lengths differ | Not measured |
+| Interest/significance | 8 | Calm crossing / open bow / company already knew from earlier sailings | Medium, author's interpretation; not measured |
+| Opening | 8 | Three explicit questions precede routine loading and the principal open-door hook | Medium, author |
+| Development / reason to stay | 8 | Separate actions of three officers → four-minute capsize → failed planned lifeboat departure → real tools used in rescue → dated company warnings | Medium-high for events from inquiry; audience judgement only authorial |
+| Payoff | 8 | Final contrast returns to 18:05: no warning was NOT confirmation that the doors were closed, after documented 1983–86 requests | Medium, author; fact mechanism high |
+| Freshness of angle | 7 | Details of 1983/84 incidents and dismissive 1985 replies; competing documentaries already exist | Medium; competitor metadata only |
+| Visual expressiveness | 8 | Side-lying hull and improvised rescue from lifeboat stations, then physical bridge indicator absent | Medium, storyboard hypothesis, actual assets UNVERIFIED |
+| Naturalness/clarity of speech | 8 | Rescuers use torches, ropes and ladders; investigation follows documents and decisions instead of re-explaining free-surface mechanics after rescue | Medium, author, no audible read |
+| Confirmed audience interest | UNVERIFIED | Comparable videos not controlled for duration, creator and age; no Nuviko analytics | Not measured |
 
-**Main flaw:** after the rescue's resolution, the warning chronology occupies a long second half and restates the safety lesson. **REWORK** at current length despite factual depth; 05m has superior value per added minute.
+**Actual content revision:** former post-capsize segment catalogued lifejackets, ships and helicopters in separate explanatory paragraphs; revised narrative follows failed normal evacuation → obstructing floating jackets → useful lifeboat-station tools → helicopter limitations. The second act now asks whether the departure failure was foreseeable, then follows **1983 actual open-door departure → 1984 internal record → 1985 proposal and dismissive replies → 1986 repeat requests → inquiry conclusion**, before returning to the original 18:05 bridge decision. No invented survivor quotation or new substantive historic claim; original shared research still governs assertions. Pressure-to-depart memo remains explicitly *not* an order to sail with doors open.
 
-**Story map:** three questions → calm departure, vehicle doors → hook unclosed doors → three jobs/captain assumptions → ballast context → rapid capsize → rescue equipment paradox → older open-door departures → written management replies → court decisions/MAIB → final distinction between four-minute catastrophe and years of missed warnings.
+**Specific weakness:** after the rescue, the investigation remains a second chronological act; a cold audience may stop before 1985 correspondence. No independent listener, TTS measurement or audience testing. **VIABLE_ALTERNATIVE_REVISED, not independent PASS or owner approval.** 05m still recommended for more concentrated causal progression.
+
+**Story map:** opening questions → normal loading/roles → unclosed doors main hook → bridge's missing confirmation and ballast context → harbour acceleration and capsize → lifeboats cannot launch, tools used instead → contemporaneous rescue and numbers → investigation checks earlier fleet departures and written requests → court's differentiated accountability → back to missing confirmation at 18:05.
 
 ## What added duration buys
 
-02m → 05m: a separate rescue outcome and specifically documented roles, 1983 precedent, and the court's management verdict; worth the time. 05m → 10m: ballast/port differences, why lifeboats couldn't launch, difficulties of lifejackets, particular management replies, and 1986 renewed letters. These details are real but the public information return tapers after the rescue. The 10m material can be reserved as production research, not required narration.
+02m → 05m: the extra time supplies distinct human responsibilities, shallow-water rescue and documented prior warnings without a prolonged inquiry chronology. This is the clearest added value and remains the **provisional recommendation**.
+
+05m → revised 10m: the new act reconstructs why normal evacuation could not start, how lifeboat-station tools served rescuers, the 1983/1984 evidence of prior open-door departures, actual management responses and the 1986 reminders. The point of possible loss is the transition from survivors / official fatalities back to the 1983 evidence: some viewers may regard the physical disaster as already resolved. This gain is conditional, not guaranteed by added word count.
 
 ## Separate acceptance matrix (not averaged)
 
@@ -80,8 +84,11 @@ EN 5m/10m Long have question-led intro, documented immersion, principal hook and
 | TTS duration, playback, retention | UNVERIFIED | UNVERIFIED | UNVERIFIED | No audio produced, no native Studio analytics |
 | Owner script approval and official gate | NOT_RECEIVED | NOT_RECEIVED | NOT_RECEIVED | Editorial Git candidate only |
 
-**Revision cycles:** 02m had one meaningful author edit, removing its redundant repeated final question (so literal last→first now matches the documented seam); 05m and 10m were self-checked once. No second independent reading exists. Future author rework limited to 2 deliberate passes. No absent external reviewer response fabricated. Any changed exact script SHA needs new independent review. Final editorial statuses: **02m REWORK; 05m STRONG_CANDIDATE (recommended); 10m REWORK.**
+**Revision cycles:** 02m had one meaningful author edit, removing its redundant final question; 05m retains the initial author review; 10m now has a first substantive rework of rescue and inquiry sequences. The edited exact EN/RU hashes invalidate the old 10m self-check for final approval. No second independent reading exists. Future author rework limited to 2 deliberate passes. No absent external reviewer response fabricated. Any changed exact script SHA needs new independent review. Final editorial statuses: **02m REWORK; 05m STRONG_CANDIDATE (recommended); 10m VIABLE_ALTERNATIVE_REVISED (independent UNVERIFIED).**
 
 ## Planned independent review when capability becomes available
 
 Fresh separate reviewer receives only exact raw EN text, no beat map or these scores; first the beginning question, then full text, then literal repeated Short in two full cycles. Reviewer may reject concept entirely. Ask for exact line where attention is lost, recap of causal chain, cultural clarity and payoff; then only afterwards present sources and Wahine contender. Attach exact structured review response by existing runtime schema and input hash. The author has not claimed this took place.
+## Latest exact 10m revision / provenance
+
+Baseline branch head `0c018c7890782d58fbcabb54dbef6bfc2bcdc734`. Previous 10m SHA256: EN `cce6279ef495c334b7dc03e558118a232cd4b09eaf149856426fc4922ebde4e5`, RU `ae15743b7fd830ad67f3cb0eb9ceea17c8d81702e5733acc616f21f76777a48f`. **New 10m SHA256: EN `9b882bc5bada8e213709d8a1f43e2d1ae020228f4b4c5d2c142c4bd34a01c0b6`, RU `9398497e7a6894b678e8c1929feb34c9b80ff6604319ae1dd63f99283aa9ad82`**. Other four variants remain exact previous bytes/hashes. All author tests here are text-only. New independent reviewer and AV proof required. This editorial candidate is not an official ytv run or a production permission.
