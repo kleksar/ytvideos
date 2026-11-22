@@ -2,6 +2,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 # Handoff — Apollo 12 lightning (Nuviko History)
 
+- **2026-11-22 substantive 10m revision** of original Git-only candidate: baseline `e0def35fac65da458a9fc22cb31eb1bb3eace56e`; exact new EN SHA-256 `97063b8918bfbfd864866f3ad8514f587a59e794b6bdc10eada55fb5c6a4814a`, RU `53df739bb1cb48fd225a239ba3d0140b02b6f7b2544c7d9c550380c2dd2015d3`. Separate 02m/05m scripts and recommended 05m source hash are unchanged. Added star-based realignment, actual docking/extraction, lunar-module damage inspection and damage-vs-telemetry diagnosis; NASA/Apollo Flight Journal evidence in `research.md`. Previous 10m review/timings invalid; independent first listener and approved storyboard for this hash UNVERIFIED. No new run or migration; do not replace pinned source or the selected 05m.
+
 - 2026-11-21 source remote main: `131ef24068d75967b1e43aa88e5f1370f6775054` (verified GitHub GET /git/ref/heads/main). Built solely from that main tree. PR #124 merged 2026-11-16, so **current main editorial/writer skill** used, not a proposed unmerged revision.
 - Channel verified in actual main: `nuviko_history`, `active`, English narration master, illustrated short with narrative_loop required, illustrated long supported, 10-second Long end screen. Profile/AGENTS/brand instructions were read; no actual character image bytes loaded or generated.
 - Latest relevant remote Draft before creation: #348 Paper, #347 Two Ways, #346 Nuviko. Therefore selected Nuviko. Open/closed duplicate search: no separate Apollo 12 lightning story PR found; other Apollo topics and protected Apollo 13 #46 are not substitutes.
