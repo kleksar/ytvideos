@@ -1,0 +1,24 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Handoff — Nuviko History / TACA Flight 110
+
+- **Git-only, not a production run.** At preflight `uv run ytv start --channel nuviko_history --format short --intent 'find a documentary story'` did not start a task: local environment cannot spawn the `ytv` executable (`No such file or directory`). Consequently `plan_summary`, `read_next`, `task_guide`, pinned `reference_documents`, official task leases and script receipts are unavailable. No bypassing them with invented IDs.
+- **Source remote main:** `131ef24068d75967b1e43aa88e5f1370f6775054`, verified immediately before selection. **Policy:** PR #124 merged 2026-11-16, so current `main` editorial/skill are canonical; historic proposed revision `7d6bdf7702a2a241a33a21677fce29f26ada9b72` is **not** imported as a separate main or policy.
+- **Channel contract:** `channels/nuviko_history/channel.json` f8dd73dfcfe38080a201cb871fbd01f8f2c06140; illustrated English, voice speed 1.10x, Short and Long supported. Actual voice name, audio WPM, approved references and timing are not verified here.
+- **Topic:** 24 May 1988 hail / dual engine loss / NASA Michoud levee, then 6 June repair/ferry from former WWII runway-road. Official FAA 45 persons versus UPI contemporaneous 41 discrepancy is documented, FAA chosen for passenger count.
+- **Main editorial recommendation:** **05m Long**. Exact EN hash `c3c18e9d5a3a1eeefa8c55c72ba9441d1fe35e07ecde9aed3231ab8394943570`; matching RU `023df0d81d1b4c7be1a44c60a27b63d6fc18460c58c2091d0d32047d88777fd3`. Other variants/hashes are in [story-review.md](story-review.md), each self-contained.
+- **Files:** six scripts in `variants/{02m,05m,10m}`, common [research](research.md), [eight-part assessment](story-review.md), [packaging brief](packaging-brief.md), [README](README.md). No storyboard/preproduction JSON because independent exact text review is unavailable and the Nuviko actual references have not been inspected; no fabricated media/reference bytes or spans.
+- **Current editorial states:** 02m REWORK for natural speech loop; 05m STRONG_CANDIDATE for story substance but independent review UNVERIFIED; 10m REWORK for second-half technical pacing. No branch expected to modify unrelated docs/skills, channels, status or accepted runs. No independent reader was impersonated.
+- **Demand:** Nuviko owner analytics, creator baselines, recent 30–90-day comparable YouTube performance, video playback and actual YouTube comments remain UNVERIFIED. vidIQ balance 0 credits (free public searches used), no purchases.
+- **Copyright:** FAA photos/UPI are research only; actual rights for archival visuals and channel accepted presenter reference bytes require separate local validation.
+- **No production:** TTS, image generation, paid providers, MP4, upload, publication, schedules, or owner approval not performed.
+
+## Local continuation without rewriting or bypassing gates
+
+1. Check remote source/head and PR, identify one exact owner-selected version. Preserve SHA, source path and review limitations.
+2. Use the project's working runtime: `uv run ytv start --channel nuviko_history --format long --intent 'TACA Flight 110, owner-selected script'` only when genuinely registering a new authorized production run; read returned `plan_summary`, `read_next`, `task_guide`, and exact pinned reference documents. For an **accepted full source** use `start --source-script <exact-script-path>` followed by the documented `python -m ytvideos.source_script` trusted owner-message route, rather than pretending an editorial Draft PR grants script approval. Existing runs require status/resume and explicit migration of incompatible pins.
+3. Obtain an independent reviewer for the **unmodified selected hash** through canonical reviewer input/schema; no author beat map or scores before their first reading. After substantial text changes invalidate old review/hash and repeat. For a Short, include literal full twice and compare spoken seam. For Long review the introductory questions, progress and payoff. Reviewer may reject topic.
+4. Once the exact recommended script passes review, make its **own** channel-correct illustrated storyboard/preproduction with real reference bytes, rights and shot-to-text coverage bound to `c3c18e9d...`, not hypothetical old timing. Do **not** generate three complete production runs.
+5. Obtain explicit owner script approval for one exact version, then follow normal runtime/production checks and media scope. Any upload/publication requires separate direct authorization. No end-screen target/actual next intro is claimed until verified.
+
+**Remaining blockers:** local `ytv` executable; missing independent reviewer; absent actual presenter reference inspection; unmeasured TTS duration; rights; applicable natural loop for 02m; independent demand baseline; no owner selection/approval. Do not promote `STRONG_CANDIDATE` or any CI state into official readiness.
