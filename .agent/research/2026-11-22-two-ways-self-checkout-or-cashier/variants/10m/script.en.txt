@@ -1,0 +1,57 @@
+At the grocery store I can see two checkout options. The self-checkout area has hardly anyone waiting. The staffed register has a line. With eighteen items in my basket, should I follow the shorter line?
+
+It's a question I've answered without thinking many times. Today I want to slow down the decision, not the checkout. I'll compare two methods with the same starting basket and one metric: total time from joining the queue until the goods are packed and payment is finished.
+
+This isn't hidden-camera footage, and I haven't timed a cashier. I'm going to run an illustrated calculation. Every number used to choose the winner is a declared assumption. The point is to find out when a shorter line helps and when it doesn't, then test which assumption matters most. A published study might inspire the question, but it cannot turn my invented checkout into a real measurement.
+
+My two routes share eighteen everyday products with scannable barcodes. Nothing needs to be weighed or approved; I pay the same way in both lanes. Method A is a staffed register. Method B is a self-checkout. I'm not claiming every store has the same machines or staff. This scene is just one reproducible decision.
+
+First I assign waiting times. At A, the modeled queue is eighty seconds. At B, twenty. This is the only information I can see from across the supermarket in our little scene. It makes B look like a sure winner.
+
+Then I assign the work after the queue. At A, scanning and packing one item together take three seconds. At B, I handle one item in seven. I allow fifteen seconds to pay in either lane. To keep the model honest, bagging is already included in those per-item times. I can't charge one lane for packing twice or silently give the other a free bagger later.
+
+Before I calculate, I choose. I point at B. One minute less waiting is hard to ignore. But that choice is my expectation, not the answer.
+
+Let's follow A. The imaginary clock starts when I join the line. Eighty seconds pass before the cashier can serve me. Eighteen items at three seconds each take fifty-four more. Paying takes fifteen. The finished basket leaves at one hundred forty-nine seconds. Two minutes twenty-nine.
+
+I reset the clock, the items, and the chosen starting queue. Now B. I wait just twenty seconds, then work through the same eighteen products at seven seconds each. That is one hundred twenty-six seconds handling the basket. Payment is fifteen. My exit time is one hundred sixty-one seconds. Two minutes forty-one.
+
+A wins by twelve seconds. There was no stalled screen and no slow stranger. Self-checkout lost even though its queue was sixty seconds shorter. I saved a minute up front, then spent seventy-two extra seconds handling the goods.
+
+That's the first payoff, and it gives me a better question. Was the machine the wrong choice, or was my basket just too large for this particular tradeoff?
+
+To check, I keep every speed and queue assumption but reset the basket to six items. This is a second scenario, clearly labeled, not a replay of eighteen items with a different answer. A takes eighty seconds waiting, eighteen for the items, fifteen paying. One hundred thirteen. B takes twenty waiting, forty-two for the items, fifteen paying. Seventy-seven. Now B wins by thirty-six seconds.
+
+I have two results that point in opposite directions. Both follow the same rules. With six products the short line matters more; with eighteen, the handling speed catches up. There's nothing mysterious about the switch. At A, the modeled wait costs sixty extra seconds. At B, each product costs four extra seconds. Fifteen products make up sixty seconds exactly.
+
+At fifteen items, A is eighty plus forty-five plus fifteen: one hundred forty. B is twenty plus one hundred five plus fifteen: also one hundred forty. Fourteen items leave B four seconds ahead; sixteen leave A four seconds ahead. At eighteen, A is twelve seconds quicker. At twenty-four, A takes one hundred sixty-seven seconds and B takes two hundred three: A wins by thirty-six. The wider the basket beyond the crossing point, the larger the gap in this model.
+
+But before I make a rule that says “always use a cashier above fifteen items,” look at what I fixed in place. The wait at A was eighty seconds. If it suddenly grows, my item threshold moves. The model isn't protecting any particular winner.
+
+At eighteen products, A spends sixty-nine seconds after joining the front of the line: fifty-four on the basket and fifteen on payment. B's full journey stays one hundred sixty-one. To tie, the A queue must be ninety-two seconds. That's only twelve more seconds than I originally assumed. At ninety-three, B wins by one second. The basket didn't change at all. My estimate of the staffed wait did.
+
+Now suppose the cashier's line looks short but a customer is doing a large return at the register. I cannot assign a real-world delay from that sight alone. I can say something narrower: if it adds at least thirteen seconds above the original eighty-second wait, the modeled eighteen-item winner switches from A to B. What happens in any real store needs observation, not a dramatic guess.
+
+The other uncertainty is my own speed. Seven seconds per product was a convenient input, not an average obtained from a survey. If I'm practiced and the machine lets me scan and bag in five seconds each, B with eighteen items becomes twenty plus ninety plus fifteen: one hundred twenty-five. It beats the original A time of one hundred forty-nine by twenty-four seconds. If a machine requires separate bagging checks after every scan, seven might even be optimistic. I need to know which equipment I'm using.
+
+I can vary only one input at a time and see exactly what it changes. That's the point of a model. It doesn't tell me how the world behaves. It tells me which measurements I'd need before I could confidently apply the result.
+
+Next comes an interruption. In the original six-item scenario, B won by thirty-six seconds. What if the screen pauses and I need an attendant? I won't pretend it happened on camera. I insert a modeled delay of forty-five seconds. Now the self-checkout total is one hundred twenty-two, while A remains one hundred thirteen. The staffed lane wins by nine.
+
+Notice the minimum delay needed to overturn B's lead. If B was thirty-six seconds faster, a thirty-six-second delay makes a tie; anything longer reverses it. That is a more useful description than saying self-checkout machines “always break.” They don't have to break at all in the first run. An occasional interruption matters only if it exceeds the margin I was counting on.
+
+I also have to be careful about what counts as fair. If a cashier scans everything and I still need to spend thirty seconds packing afterward, I must add that cost to A, because the metric ends when my groceries are packed. If a store's self-checkout gives me a free scanner that handles multiple identical products at once, I must change B's item rate. I can't secretly change either condition after seeing who won.
+
+The same goes for the queues. A twenty-second wait is not the same as “one person ahead.” A customer with one item and a customer buying a full cart can occupy the same place but create very different waits. A supermarket may have several self-checkout machines fed by one line, while a staffed register serves one queue at a time. That layout could reduce waiting, but it needs its own arrival pattern and service data. This little comparison has assigned waits, not simulated a whole supermarket's traffic.
+
+There are real reasons to take this question seriously without pretending my numbers came from a study. One published single-store comparison in Poland reported that self-checkout transactions lasted longer on average even though fewer items were bought there. An observational paper from a German supermarket reported shorter waits at self-service but longer processing there. Those are distinct observations in particular settings, with different customers and baskets; neither gives me a controlled eighteen-item duel.
+
+Research has also found that some customers choose self-checkout for privacy, even if it costs time. That's a different goal from mine. If I care more about avoiding interaction, I can knowingly choose B when A is faster. But I must not quietly switch the metric from time to comfort and then declare that B won the speed test.
+
+So what should I actually do at the entrance to a checkout area? First, ask how many items I have, not just how many people I can see. Second, notice whether the line is likely to move; one trolley might represent more work than several tiny baskets. Third, think about complicated goods that need weighing or staff approval. These are practical questions, not guaranteed time-saving hacks.
+
+If I wanted to replace this model with an experiment, I'd time from joining each queue to completing payment and bagging. I'd repeat similar baskets at similar times, record machine help requests and queue setup, and never call one lucky trip a general result. To compare simultaneous lanes fairly, I'd need comparable conditions and enough repetitions to describe variation. I have not done that testing here.
+
+Back to the eighteen-item basket in the model I actually constructed. At eighty seconds of cashier waiting, A leaves at two minutes twenty-nine. At twenty seconds of self-checkout waiting, B leaves at two minutes forty-one. A wins by twelve seconds. For the six-item basket, B wins by thirty-six, unless a delay wipes out its lead. At fifteen, the original assumptions produce a tie.
+
+I haven't discovered a universal best checkout. I've discovered why looking only at the line can give me the wrong answer: I'm ignoring the work that follows it. Next time I walk toward the registers, I'll still see an almost-empty self-checkout area.
