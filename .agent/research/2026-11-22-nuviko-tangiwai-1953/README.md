@@ -8,7 +8,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 |---|---|---|---|
 | 2m Short editorial | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | STRONG_CANDIDATE, независимый loop/AV UNVERIFIED |
 | **5m Long** | **[RU](variants/05m/script.ru.txt)** | **[EN](variants/05m/script.en.txt)** | **STRONG_CANDIDATE — рекомендована** |
-| 10m Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | REWORK: слишком подробный послекатастрофический хвост |
+| 10m Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | REVISED: второй акт короче, independent attention UNVERIFIED |
 
 **Почему 5 минут:** есть самостоятельное драматическое развитие после разрушения моста: Эллис пытается предупредить машиниста, торможение помогает сохранить последние вагоны, вагон Z затем тоже падает, однако 21 из его 22 пассажиров спасается. Развязка дополняется не выдуманной «виноватостью человека», а подтверждённой ролью раннего оповещения. 2m выполняет сюжет быстрее, но оставляет меньше человеческого контекста. 10m подтверждена источниками, но заметно дольше удерживает слушателя после главной развязки.
 
