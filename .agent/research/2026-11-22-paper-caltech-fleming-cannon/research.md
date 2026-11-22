@@ -78,3 +78,12 @@ No relevant pair of 2006-focused YouTube storytelling videos by separate authors
 ## Production boundaries
 
 Only narration, no actual image, ring, logo or audiovisual rights obtained; reference bytes not provided. Paper plane intended as a background prop on the toy-cannon scene, without implying historically present. Actual visual asset/crop/rights remain UNVERIFIED. No fabrication of historical dialogue, security footage or fake newspaper scans.
+## Source-backed revision note — 10m EN/RU, 2026-11-22
+
+Baseline PR HEAD `110de1d3e4643a54e5e4639f3cb0c7d000486cc7`, old 10m Git blobs EN `856a1fc14fb044c866b6f97fd1cc4347a9fdb158`, RU `15c950a2bd08bf96992e1e54231f3089b3653588`. New 10m EN/RU SHA-256 `aff5115abbcc86f43040297e1a151f97d49491685aadce3403c50e27e6ab7719` / `81c4ee1835c1261e3c19adbe3fad92f5d60f4986f554c44559026d10c9cacdf9`.
+
+**Before:** after the fake orders, several paragraphs of 2005 rivalry delayed the first public sighting of the cannon; text interrupted itself to explain why undocumented travel scenes must not be invented; a three-part post-recovery conclusion repeated the same object symbolism. **After:** 1986 theft causes a mistaken attribution → April 6 cannon with MIT ring becomes a visible surprise → 2005 shirts, signs, balloons and light explain the choice of target and event → the Caltech recovery's helicopter rejection and police ownership check build a second act → real cannon returns, MIT retains the ring and receives a miniature. These are still the same sourced events, not a newly investigated journey.
+
+Evidence for exact beats: [S2] fake work orders challenged at 05:30 and April 6 MIT display; [S1] earlier Harvey Mudd suspicion and 2005 four hundred shirts/campus pranks; [S4] ring's three machined pieces and four set screws plus museum collection; [S3] April 10 recovery, 23 students and 7 alumni, travel east by air; [S7] proposed but unexecuted helicopter extraction; [S6] AP police proof-of-ownership / ropes/dolly/truck. **No** hidden route, specific private intent, conversation, exact cannon weight, or invented risk is asserted; gun provenance remains uncertain. Source checks support the new order and preserved facts, not viewer demand.
+
+At 1,236 EN words the new script may be only ~7:39–9:52 including assumed pauses and endscreen at 130–165 wpm. Not a verified ten-minute voice recording. Add 10m events only on additional confirmed research, or preserve the more convincing 05m; do not inflate estimates. Independent reviewer and production remain UNVERIFIED.
