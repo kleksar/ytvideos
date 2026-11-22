@@ -1,4 +1,4 @@
-# Story review — Pendleton rescue (three completed versions)
+# Story review — Pendleton rescue (three complete narratives; 10m duration target not yet met)
 EDITORIAL_CANDIDATE_UNREGISTERED — **AUTHORIAL** assessment 2026-11-22, not independent listener. Main `131ef24068d75967b1e43aa88e5f1370f6775054`; direct owner exception. All eight scales per current main editorial; numerical scores describe text judgment, not CTR, observed retention, virality or probability.
 
 ## Exact six files (sha256 UTF-8, no trailing line feed)
@@ -7,9 +7,9 @@ EDITORIAL_CANDIDATE_UNREGISTERED — **AUTHORIAL** assessment 2026-11-22, not in
 |---|---|---|---|
 | 02m / Short | [EN](variants/02m/script.en.txt) `fd074efd0c25f383236d00e28dcc20b96adb89517311a0ec4a4f81a7468141c4`, **263 words** | [RU](variants/02m/script.ru.txt) `26dec1e4eab7a69c262577c653488068fbcd91f41a7e9cadd48104209793aae6` | ~1:45–2:25 at 115–150 words/min plus brief pauses |
 | **05m / Long** | [EN](variants/05m/script.en.txt) `1377155783fc9e122ba9efe8f55760b0c5841e3204360af4a61285307d1f669e`, **673 words** | [RU](variants/05m/script.ru.txt) `ebec6e9851232fd081b51c39cc59216e4c561c943962982a10407a73d873890f` | ~4:25–5:40 at 125–155 words/min plus small pauses |
-| 10m / Long | [EN](variants/10m/script.en.txt) `e2f33482e15aa451400e4dc8041a50ef4d1dd3cdc134e60af51823eb537aa825`, **1116 words** | [RU](variants/10m/script.ru.txt) `fa50d1424b7bb552e9bb37b5db12b836824b4dc529619b01d9a2fc6876af22c1` | ~9:20–11:50 at 125–155 words/min plus pauses |
+| 10m target / Long — REWORK_UNDERLENGTH | [EN](variants/10m/script.en.txt) `e2f33482e15aa451400e4dc8041a50ef4d1dd3cdc134e60af51823eb537aa825`, **1116 words** | [RU](variants/10m/script.ru.txt) `fa50d1424b7bb552e9bb37b5db12b836824b4dc529619b01d9a2fc6876af22c1` | ~7:12–8:56 at 125–155 words/min before pauses; actual voice UNVERIFIED |
 
-Voice `5vsgZsi667xMyGinrNIM` speed `1.10×` only for future authorized production; above wpm assumptions are not measured at that voice. Exact TTS, pause and end-screen dimensions unverified. Git blobs for EN 02/05/10: `805e1e518b1c98e3c7192bd37d5d0df579d6f95d`/`10399f4ea19ff0a4b50d10904fa3a6025e25560b`/`23a4fb6f8df3187b0deed54374dcb486c5a05984`; RU: `2974fb26b037bae6ecb4f665a1dcd1d55bd017c6`/`93da83a85fbe37f5661f4bf799cef60a64924204`/`419acc327ea5bb2ddb2707701c0a8282838c2358`.
+Voice `5vsgZsi667xMyGinrNIM` speed `1.10×` only for future authorized production; above wpm assumptions are not measured at that voice. Exact TTS, pause and end-screen dimensions unverified. Git blobs for EN 02/05/10: `805e1e518b1c98e3c7192bd37d5d0df579d6f95d`/`10399f4ea19ff0a4b50d10904fa3a6025e25560b`/`c39222862a107244e274e5091c9f69e2baa8b69c; RU: `2974fb26b037bae6ecb4f665a1dcd1d55bd017c6`/`93da83a85fbe37f5661f4bf799cef60a64924204`/`46a4bc2cff4b4f26a659f95a99f3ab30654f0004.
 
 ## Exact 02m / Short: REWORK
 
@@ -45,7 +45,7 @@ Story map: hook overloaded return → split tankers/radio destroyed → four cro
 
 Long structure: (1) three questions (2) Cape Cod two tankers and radio destruction (3) **principal hook** other wreck plus only four in tiny boat (4) bar smashes windshield/compass (5) 33 aboard, repeated timed ladder approaches, one loss, 32 saved (6) second crisis overcrowded return (7) red buoy, shore, medals. No mandated minute-long intro; first danger happens quickly. **Potential drag:** middle repeats challenges of wave timing, should be tested with independent first listener. EN and RU convey the same casualty distinction and the four/32 breakdown.
 
-## Revised exact 10m / Long — substantive editing of existing history
+## Revised 10m-target Long — substantive editing, REWORK_UNDERLENGTH
 
 Baseline HEAD `43071d2af49f99ab09eaf149911517d7d6cbf6e3`, exact original 10m EN SHA-256 `e63d925968f116dbc06f7c1d8bee86df64de6b4ba96f7802f050cfc003f75b39`, RU `e35c78e3069ca37789b455f6a8a0b60d991df1a1bf0565449eb1d83d45fb8b3b` → new text EN `e2f33482e15aa451400e4dc8041a50ef4d1dd3cdc134e60af51823eb537aa825` (1116 words), RU `fa50d1424b7bb552e9bb37b5db12b836824b4dc529619b01d9a2fc6876af22c1`. This is one story, not a new topic. 02m/05m unchanged and their own evidence/approval status preserved. Source trace remains P1–P4; no new quotation, numerical claim, unverified dialogue, or imagined motive added.
 
@@ -62,7 +62,7 @@ Baseline HEAD `43071d2af49f99ab09eaf149911517d7d6cbf6e3`, exact original 10m EN 
 | Natural narration | 8 | Repeated steering and self-referential caution cut; concrete crew actions replace technical restatement; no actual listening; confidence medium |
 | Verified audience interest | **UNVERIFIED** | Indexed competitors are not Nuviko CTR, retention, comments or VPH; no numerical score |
 
-**Comparison after revision:** 02→05 adds the second tanker and usable decision-by-decision danger. 05→revised 10 adds the earlier unsuccessful search, intermittent engine restart, heard-before-seen wreck and historic vessel. These are real additional facts but the ladder transfer still occupies a long central stretch. 05m remains the *provisional editorial recommendation* for a cleaner ratio of payoff to exposition. The 10m draft is a **REVISED_CANDIDATE**, not an automatic 10m winner; actual voice duration may fall short of ten minutes. At 125–155 EN wpm plus pauses, time is approximate and TTS UNVERIFIED.
+**Comparison after revision:** 02→05 adds the second tanker and usable decision-by-decision danger. 05→revised 10 adds the earlier unsuccessful search, intermittent engine restart, heard-before-seen wreck and historic vessel. These are real additional facts but the ladder transfer still occupies a long central stretch. 05m remains the *provisional editorial recommendation* for a cleaner ratio of payoff to exposition. The revised 10m-target draft is **REWORK_UNDERLENGTH**: 1116 English words suggest roughly 7:12–8:56 at 125–155 wpm before pauses and exact 1.10× voice, so a genuine ten-minute rendition is not established. Do not pad with more wave-risk explanations; source-backed new decisions or aftermath with independent viewer value are required to reach ten minutes. If none can be supported, retain the stronger 05m recommendation and leave 10m blocked. At 125–155 EN wpm plus pauses, time is approximate and TTS UNVERIFIED.
 
 **Hard checks:** EN/RU action, survivor count (4+32), other tanker (38), casualty caveat and buoy role compared by author; source-trace P1, no independent new witness. 10m Long loop N_A; channel Long eligibility PASS on current ChannelSpec. Old exact-text review/timings/storyboard do not transfer to revised EN/RU hashes. Fresh independent review and translation reader UNVERIFIED; real TTS, rights, visual assets and MP4 UNVERIFIED; runtime `ytv` unavailable, no reviewer receipt, script gate or owner approval.
 
@@ -106,3 +106,5 @@ Baseline HEAD `43071d2af49f99ab09eaf149911517d7d6cbf6e3`, exact original 10m EN 
 **Review author:** current editorial assistant, source confidence high for P1 documented counts/names, medium for retrospective on-water micro-sequence, low for predicted viewer response. Two authorial substantive rewrites: **0** after these baseline drafts; no invented independent review. New hash requires new reviewer.
 
 No storyboard, prompts or timing spans attached to a different variant; recommended 05m hash `1377155783fc9e122ba9efe8f55760b0c5841e3204360af4a61285307d1f669e` is only the proposed target for later review.
+
+**Git blob provenance:** the exact 10m Git blob SHA1 values at the revised HEAD supersede those from the original baseline. Original EN `23a4fb6f8df3187b0deed54374dcb486c5a05984` and RU `419acc327ea5bb2ddb2707701c0a8282838c2358` remain reachable at the baseline commit, not at the current tip. No independent listener or measured 10m duration exists.
