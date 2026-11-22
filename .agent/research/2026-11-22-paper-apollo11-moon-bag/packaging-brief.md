@@ -4,7 +4,7 @@
 
 | Variant | Title proposal | Earliest on-screen proof | Honest payoff |
 |---|---|---|---|
-| 02m / Short | **The Government Sold an Apollo 11 Moon Bag for $995** | Government receipt $995 beside white zipper pouch carrying visible “LUNAR SAMPLE RETURN” (illustrated, not archival) | NASA tests bag, loses title dispute; 2017 $1.8125m sale with fees |
+| 02m / Short | **The Government Sold an Apollo 11 Moon Bag for $995** | Paper auction lot showing Carlson's $995 bid beside white zipper pouch carrying visible “LUNAR SAMPLE RETURN” (illustrated, not archival) | NASA tests bag, loses title dispute; 2017 $1.8125m sale with fees |
 | **05m / Long** | **NASA Found Its Lost Moon Bag. The Buyer Wouldn't Give It Back.** | Large hand-folded white pouch and official auction lot tag under one physical paper desk lamp; labelled as stylized recreation | Kansas court cannot undo bona fide purchase, Texas orders return; full resale and meaning |
 | 10m / Long | **How NASA Lost an Apollo 11 Artifact in Its Own Paperwork** | Close-ups of stitched part number, two misfiled folders, physical outer bag | Wrongly handled government records vs innocent buyer, two courts and exact Sotheby's price |
 
@@ -19,3 +19,4 @@
 **Ending / related video:** 05m has full conclusion already. An authentic, thematically connected next published film plus its **actual** opening clip and authorized 10-second clickable end screen should be added at production only after resolving target/rights. No invented next title or video ID. Short version needs natural last-to-first seamless narration; no unrelated end-screen tail. A/V seam to be checked on real MP4.
 
 **Do not create fake preproduction.json:** actual independent script review has not been performed, full accepted image-reference bytes are absent, and stable storyboard spans for chosen master have not been materialized. After independent review of *this* exact 05m hash, build a `preproduction.json` only for that variant following `docs/operations/preproduction-contract.md`, with complete paper scene prompts, contiguous Unicode spans and correct ChannelSpec digest; verify with its validator. No image generation/TTS/Flow or uploading here.
+**Updated 02m hook/loop intent (2026-11-22, no media created):** exact opening “Nancy Carlson paid nine hundred and ninety-five dollars for a white sample bag at a federal auction in 2015.” Visual intent: buyer's bid/paper lot with object, then real-content stylized lab dust analysis. After fee-inclusive 2017 Sotheby's result, final complete line looks back to the unrecognized federal 2015 listing. The beginning next shows Carlson buying it; author sees a cause-and-time bridge, but independent oral and actual MP4 seam remain UNVERIFIED. No change to recommended 05m package.

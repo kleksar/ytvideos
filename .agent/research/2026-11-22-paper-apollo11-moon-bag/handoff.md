@@ -11,7 +11,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 - `research.md`: actually observed source links/paragraphs, 12 candidate screening, real rival Selbee, qualified YouTube data. Confidence medium on primary 2016 court and 2017 auction outcome, **low** on channel demand.
 - Three **complete** scripts with full EN master and sense-equivalent full RU: `variants/02m`, `variants/05m`, `variants/10m`. Exact SHA-256 in `story-review.md`.
 - Recommended **05m Long**: `variants/05m/script.en.txt` SHA-256 `a8153ff59e9779b59445fb9457e850118a1b9a15801ab6e61b0344572a69e142`; not owner-approved.
-- `02m` pending loop first-listener, `10m` substantively revised, independent review and timing UNVERIFIED; do not silently claim three STRONG versions.
+- `02m` rewritten for a finished spoken chronology pivot, still pending blind loop first-listener/AV, `10m` substantively revised, independent review and timing UNVERIFIED; do not silently claim three STRONG versions.
 - `packaging-brief.md` has owner-reviewable visuals/accurate titles, not actual generated art, references or completed scene plan.
 
 ## Exact capability blockers
@@ -30,3 +30,7 @@ After verified reviewer and owner selection: build only exact recommended-master
 ## Owner-authorized scoped 10m revision (baseline `de0cae5c8931c823ffb99f331f279eb5ae9bc222`)
 
 EN SHA-256 `ee0b228eaa424132d4635e4497ecde891c82395d3b14aeff87344502711d3f09`, RU `619ebfbbda8530a08c0c4cd6fb1db96575ba3a737cd39e570ca4618f364bdc40`; earlier hashes `863b32bb98bc2bd91d735057dc4e6853771d284e5a8b3af39e18b88385e55ee6` / `da99f81a80977b15d39f92ced197f021129f0f5cde14698a547e73e6b8a0ce53`. The complete 02m/05m originals remain byte-identical, with 05m still the editorial recommendation. Revised 10m removes duplicated explanations of NASA/government and sharpens the two separate court remedies; its exact text requires fresh blind review and pinned runtime migration before any production. Research S1–S4 already covers every changed claim; actual Texas signed order, audio timing, AV and rights still UNVERIFIED. No owner approval, run ID, or media work.
+
+## Later owner-authorized 02m substantive revision — baseline HEAD `fa9e916471746b9f40032d7a832462811b9bff26`
+
+Short EN [complete text](variants/02m/script.en.txt) SHA-256 `04f9505e74d90b1140eccf4a38d0aed8963ab10bfcc78b36a5a2ec1157544eae`, RU [complete text](variants/02m/script.ru.txt) SHA-256 `2a68cf4c774e251c5e5ad18590738863705a111f792a0f9d002baeafaf15a556` (previous EN `ea250223a5d0b728211422bda4f3bb9c679279da3907f3c99dd537cbfb6e575c`, RU `1720cd3497678d654cc54eb4bb48b0156a4554c1d535bcb80d99fae462467771`). Reframed around buyer's decision to send the bag for testing; NASA's identification creates, rather than ends, the conflict; Kansas completed-sale ruling is separate from Texas physical return. The finish is a complete chronological return to the original auction, not a dangling join. Full author twice-read complete EN/RU only, independent listener and actual AV seam UNVERIFIED. Research S1–S4 unchanged; old 02m review/spans/timings invalid for revised hash. No scene plan/production/pins edited. Strong 05m recommendation retained, no owner approval. Exact next stage: blind independent first reading of changed EN/RU, then baseline and source checks, real TTS/AV only after separately authorized production.

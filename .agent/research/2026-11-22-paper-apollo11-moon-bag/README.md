@@ -8,7 +8,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Одна история | Предлагаемый формат | Полный RU | Production EN | Авторская оценка |
 |---|---|---|---|---|
-| 2 минуты | Short | [Русский](variants/02m/script.ru.txt) | [English](variants/02m/script.en.txt) | REWORK — сильный конфликт, но буквальную речевую петлю должен проверить первый независимый слушатель |
+| 2 минуты | Short | [Русский](variants/02m/script.ru.txt) | [English](variants/02m/script.en.txt) | REVISED_CANDIDATE — замена обрывка на завершённый временной возврат к торгам; независимый loop/AV UNVERIFIED |
 | **5 минут** | Long | **[Полный RU](variants/05m/script.ru.txt)** | **[Full English](variants/05m/script.en.txt)** | **STRONG_CANDIDATE — рекомендована** |
 | 10 минут | Long | [Русский](variants/10m/script.ru.txt) | [English](variants/10m/script.en.txt) | REVISED_CANDIDATE — юридическая часть переписана, независимая проверка не выполнена |
 
@@ -21,3 +21,5 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 Ветка начата ровно от remote main `131ef24068d75967b1e43aa88e5f1370f6775054`. Diff ограничен этой новой папкой. Не менять общие docs/skills, профили, pins, существующие PR; не исполнять production, TTS, изображения, медиа, upload или publish.
 
 **Ревизия 10m, 2026-11-22.** Переписана конфликтная часть: отказ NASA → предложение возврата денег → проблема уведомления в Канзасе → защита завершённой сделки → физический возврат из Техаса → документированный аукцион. Полные EN/RU hash: `ee0b228eaa424132d4635e4497ecde891c82395d3b14aeff87344502711d3f09` / `619ebfbbda8530a08c0c4cd6fb1db96575ba3a737cd39e570ca4618f364bdc40`, исходный HEAD `de0cae5c8931c823ffb99f331f279eb5ae9bc222`. Рекомендация 05m сохраняется: в 10m два суда всё ещё могут замедлить темп. Independent review, фактическая длительность и production UNVERIFIED.
+
+**Ревизия 02m, 2026-11-22.** С HEAD `fa9e916471746b9f40032d7a832462811b9bff26` полностью переработаны [EN](variants/02m/script.en.txt) (286 слов, SHA-256 `04f9505e74d90b1140eccf4a38d0aed8963ab10bfcc78b36a5a2ec1157544eae`) и [RU](variants/02m/script.ru.txt) (SHA-256 `2a68cf4c774e251c5e5ad18590738863705a111f792a0f9d002baeafaf15a556`). Было: изложение с незавершённым «And the whole dispute started when». Стало: покупка → лабораторное открытие → отказ NASA → объяснение ошибки учёта → два разных судебных действия → Sotheby's → законченный возврат к нераспознанному аукционному лоту 2015 года. Автор прочитал полные пары и стык дважды; независимое чтение и AV UNVERIFIED. Рекомендация 05m не изменилась. Исходные 05m/10m тексты и их evidence неизменны. Полная карта, восемь критериев и hashes — в [story-review](story-review.md).
