@@ -77,3 +77,19 @@ The following indexed pages/titles were retrieved by public web search. **No vid
 PR #136 concerns *queue architecture* (one shared line versus separate shorter lines), not this *service speed* and basket-threshold comparison. PR #272 concerns value-sized checkout shopping; also distinct. No overlap with #365's furniture check-now story. Query/search completed against open and closed PR metadata and issues, but unindexed long-description duplicates remain possible and recheck before writing.
 
 The official `uv run ytv start` required before research could not start in this environment: executable `ytv` missing (os error 2). This is Git-only editorial exception, no runtime receipts, no lease/approval. Independent reviewer unavailable; exact script hashes not independently reviewed. ChannelSpec only describes production short; Long 5/10 blocked. Short script length exceeds usual 35–50s, so duration compatibility must be resolved before any production work. All media/assets/rights unverified; none generated. No edits to common standards, profiles, existing drafts, or publish schedule.
+
+## 2026-11-23 substantive 10m editorial continuation (not new empirical research)
+Baseline PR #368 HEAD `102ed6a39153bfe62cee0f3b299b5cd8aa244e58`; 02m/05m texts unchanged. The previous 10m had repetitive fixed-parameter sweeps after the main reversal. Instead of more synonyms for the short-line lesson, the new complete 10m tests a different viewer question: **Is my twelve-second advantage robust enough to trust when the queue wait is uncertain?** The new 70–100 second interval is explicitly invented for the exercise, not observed or supported by outside studies. No changes to the original empirical source claims.
+
+### Derived calculations and fact-map for new variant
+| Named modeled scene | Inputs and exact computation | Viewer-relevant causal step / next question |
+|---|---|---|
+| Original eighteen | A=80+18×3+15=149; B=20+18×7+15=161 | B leads queue by 60 but loses handling by 72; A wins by 12 → is basket size the factor? |
+| Separate six-item reset | A=80+6×3+15=113; B=20+6×7+15=77 | B wins by 36 → where does the winner flip? |
+| Basket tie | A(15)=80+45+15=140; B(15)=20+105+15=140 | 15×4 seconds offsets 60s waiting gap → how stable is the 18-item twelve-second win? |
+| **NEW** wait uncertainty at eighteen | A with q=70→139, q=100→169; B fixed161; q=92→161 tie | Same basket, both possible winners under assumed [70,100]; no confident choice without better wait observation |
+| **NEW** same queue uncertainty at six | A(q=70)=103, A(q=100)=133; B=77 | B still wins throughout this assumed range → stronger margin, until possible interruption |
+| **NEW** six items with 45s modeled assistance | B=77+45=122; A(q)=q+33, tie at q=89; at q70 A103 wins, q100 A133 loses | A help delay plus queue uncertainty now changes the choice again; not a report of a real breakdown |
+| Fast self-scanning case (original) | B(18,5 sec/item)=20+90+15=125 vs original A149 | Different service input changes 18-item winner; no universal superiority |
+
+This is **one unchanged story** with three texts; the longer option's additive value is uncertainty and decision resilience, not an invented accident or store measurement. Contrasting 18/6/15 item scenarios must visibly reset baskets and queues. Onscreen intervals and counts would require actual image assets and continuity checks in authorized production. Independent blind review and exact audio timings are still missing.
