@@ -8,7 +8,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 ## Independent copies and recommended master
 
-- 02m Short, full [EN](variants/02m/script.en.txt), [RU](variants/02m/script.ru.txt), **REWORK**, proposed price-label last→first textual seam; no measured AV or independent two-cycle review.
+- 02m Short, full [EN](variants/02m/script.en.txt), [RU](variants/02m/script.ru.txt), **human-led revised editorial candidate**; new EN SHA-256 `2ca028b9e93b410a9a2eaf4a18d1bf85f412dc99e6f516d25e01dd38524614d7`, RU `91caa2245c626b0108685b1d4dae334000d89a39ae6de9d8c98c5f9dd0ec4051`; no measured AV or independent two-cycle review.
 - **05m Long** full [EN](variants/05m/script.en.txt), [RU](variants/05m/script.ru.txt), **STRONG_CANDIDATE and editorial recommendation**; English SHA-256 bbf44c8ee968b4133e18a5aea763e721e310aae24c40957aeb398829e23d7dd2; Russian SHA-256 5109769343fcbe0ac828fc86faba190e01b1a40d50d1df111b4ea0bf1b6220e7.
 - 10m Long full [EN](variants/10m/script.en.txt), [RU](variants/10m/script.ru.txt), **REWORK** because substantial truthful detail trails the climax.
 
@@ -37,3 +37,7 @@ No independent model reviewer existed/invoked in this writing environment; autho
 
 ### 2026-11-22 10m revision handoff
 [10m RU](variants/10m/script.ru.txt) · [10m EN](variants/10m/script.en.txt). Baseline HEAD `9eaecc66d6c236a546c91c2dac764048c63a050a`, hashes EN `6a48bde9b0084f86af6b6eaa7b87e4c15c7c0540f3b0ab5c81e9395f994e91df` RU `2185c8e1c105948467a55a4655d2374c2be726d58a9f206d7f6cbaf46ca6dec0`, 1530 EN words. Changed only proposed 10m candidate: post-claim process, actual contrasting named customers, qualified accounting and focused payoff. Original 02m/05m plus any actual production pins retained. Recommendation remains 05m. Independent reviewer, TTS, exact scene spans, actual endscreen / AV and runtime registration UNVERIFIED; never treat old approvals, hashes or scenes as applying to new 10m. See story-review update and dated source ledger.
+
+
+### 2026-11-22 02m human-story revision handoff
+Baseline remote HEAD `9e3cb8eacd4718d9a5a4c622ac8e62a806d90972` at preflight. New 300-word English Short and full semantic Russian ([EN](variants/02m/script.en.txt), [RU](variants/02m/script.ru.txt)) with exact SHA-256 `2ca028b9e93b410a9a2eaf4a18d1bf85f412dc99e6f516d25e01dd38524614d7` / `91caa2245c626b0108685b1d4dae334000d89a39ae6de9d8c98c5f9dd0ec4051`. Named Pauline/Timothy Keen and Steve/Mandy Holbrook outcomes sourced to Independent contemporary March 1994 account, plus confirmed Maytag/Hoover rescue and April reporting. Source-ledger and 8-criterion author review updated. The previously drafted 02m colon-loop and old script hashes are obsolete, not approved. 05m and 10m are unchanged. The 05m Long recommendation is still tentative; new Short needs a genuinely independent blinded first listener and two full joined EN/RU readings before any selection, then runtime registration/approval. Scene spans and AV cannot be reused across a changed hash; no production actions or approvals.
