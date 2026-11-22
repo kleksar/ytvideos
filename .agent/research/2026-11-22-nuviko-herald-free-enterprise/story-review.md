@@ -6,7 +6,7 @@
 
 | Variant / intended format | English production master | Русский смысловой текст | EN word count (whitespace approximation) | Pre-audio estimate |
 |---|---|---|---:|---|
-| 02m / Short | [EN](variants/02m/script.en.txt) SHA256 `4ddbed597e205f2ed893a4cd795a74f26ee63863cf926817ded2f8734dee40bc` | [RU](variants/02m/script.ru.txt) SHA256 `1b8f2754e0dda25e125173f7ad1f0265fba53fa73cf89f916787155490218da6` | 282 | ~1:53–2:15 at 125–150 EN wpm including modest breaks; **not measured** |
+| 02m / Short | [EN](variants/02m/script.en.txt) SHA256 `42f11dcceaa97183ca0f02da2571a9247e9818cc44b511dbafae6b56ce8c15cf` | [RU](variants/02m/script.ru.txt) SHA256 `057326706e296f71fce81f269380bfa3e97610f2507c4d3d57c712f872afbf75` | 277 | ~1:53–2:15 at 125–150 EN wpm including modest breaks; **not measured** |
 | 05m / Long | [EN](variants/05m/script.en.txt) SHA256 `48472fa0f05de5035b604047037099b9be27a6428c079d75a0276582815f1777` | [RU](variants/05m/script.ru.txt) SHA256 `ea3fb202dcb5f7e95a39ceeea822ba6abf51d74744beb78240d9f1f57f55f076` | 756 | ~4:45–5:45 around 132–159 wpm + brief pauses; **not measured** |
 | 10m / Long | [EN](variants/10m/script.en.txt) SHA256 `cce6279ef495c334b7dc03e558118a232cd4b09eaf149856426fc4922ebde4e5` | [RU](variants/10m/script.ru.txt) SHA256 `ae15743b7fd830ad67f3cb0eb9ceea17c8d81702e5733acc616f21f76777a48f` | 1522 | ~9:35–11:30 at 132–159 wpm + short pauses; **not measured** |
 
@@ -25,9 +25,9 @@ EN 5m/10m Long have question-led intro, documented immersion, principal hook and
 | Naturalness/clarity of speech | 8 | “Silence” vs confirmation in ordinary clauses; no invented conversations | Medium, author |
 | Confirmed audience interest | UNVERIFIED | Documentary public views span incompatible creators/lengths; no 2min-specific audience data | Not measured |
 
-**Main flaw:** closing and opening repeat the door question; author’s spoken seam is understandable but may feel an editorial reset rather than a natural film loop. Full double EN/RU were author-read in drafting, not independently listened. **REWORK**: development 7 fails strong-candidate minimum; no production approval.
+**Main flaw:** the ending now supplies a precise invitation to the opening question instead of duplicating it, but the spoken seam may still feel like an editorial reset and needs an independent double reading. Full double EN/RU were author-read in drafting, not independently listened. **REWORK**: development 7 fails strong-candidate minimum; no production approval.
 
-**Exact seam EN:** “It was a question that should have been settled before departure. Were the bow doors closed?” / literal final and first sentence contiguous. **RU:** “Этот вопрос должен был быть решён ещё до отхода. Были ли закрыты носовые ворота?” This is authorial semantic proposal only; an AV seamless join is UNVERIFIED.
+**Exact seam EN:** “It was a question that should have been settled before departure. Were the bow doors closed?” / the first sentence is the exact final sentence, and the second is the exact opening after a loop, NOT a repeated final line. **RU:** “Этот вопрос должен был быть решён ещё до отхода. Были ли закрыты носовые ворота?” Exact ending + beginning. This is authorial semantic proposal only; an AV seamless join is UNVERIFIED.
 
 ## Eight criteria — 05m (recommended complete documentary Long)
 
@@ -80,7 +80,7 @@ EN 5m/10m Long have question-led intro, documented immersion, principal hook and
 | TTS duration, playback, retention | UNVERIFIED | UNVERIFIED | UNVERIFIED | No audio produced, no native Studio analytics |
 | Owner script approval and official gate | NOT_RECEIVED | NOT_RECEIVED | NOT_RECEIVED | Editorial Git candidate only |
 
-**Revision cycles:** 1 author composition and self-check per variant, no second substantive rewrite made; allowed maximum 2 before rejection. No absent external reviewer response fabricated. Any changed exact script SHA needs new independent review. Final editorial statuses: **02m REWORK; 05m STRONG_CANDIDATE (recommended); 10m REWORK.**
+**Revision cycles:** 02m had one meaningful author edit, removing its redundant repeated final question (so literal last→first now matches the documented seam); 05m and 10m were self-checked once. No second independent reading exists. Future author rework limited to 2 deliberate passes. No absent external reviewer response fabricated. Any changed exact script SHA needs new independent review. Final editorial statuses: **02m REWORK; 05m STRONG_CANDIDATE (recommended); 10m REWORK.**
 
 ## Planned independent review when capability becomes available
 
