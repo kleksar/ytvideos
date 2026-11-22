@@ -20,4 +20,4 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 **Progress r2:** baseline `aa3603609f727341234ffcacbff19e6c0c0f0edb`; новый 10m EN SHA-256 `fdefa420b2205420bc50b3261346ef6d13baa0e8449c5e10796d1e968f6c795c` / RU `47829261ec1808482eb82ebaa0bf922445ac84b047b5e0a8fb2ea7ff6485a128`, 1407 EN слов; 02m/05m текст и evidence без изменений, owner approval отсутствует.
 
-**Progress 02m r3:** baseline `cfacdcb0f3b2b4449dd531c65907d7eaa9202dad`; EN SHA-256 `7a6ec816c5b3f74dbb42cdd1e3ac6f7546d8fea14fe37c43d4ba54f0ee043103`, RU SHA-256 `67e469534f8a283101b4746b368a7374192aedc7186efd9da7e70500b70d3a7f`, 276 EN words. Содержательная перестройка Short, без изменения 05m/10m; independent/AV/owner approval отсутствуют. [Story-review](story-review.md).
+**Progress 02m r3:** baseline `cfacdcb0f3b2b4449dd531c65907d7eaa9202dad`; EN SHA-256 `7a6ec816c5b3f74dbb42cdd1e3ac6f7546d8fea14fe37c43d4ba54f0ee043103`, RU SHA-256 `ba9b6b4c524ffce666b7f789872b87a6b5de0e7e16ee57d271cd8f07031ef434`, 276 EN words. Содержательная перестройка Short, без изменения 05m/10m; independent/AV/owner approval отсутствуют. [Story-review](story-review.md).

@@ -8,7 +8,7 @@
 
 | Вариант | Script EN, SHA-256 | Script RU, SHA-256 | EN слов | Возможный формат / оценка без аудио |
 |---|---|---|---|---|
-| 02m · r3 | [EN](variants/02m/script.en.txt) `7a6ec816c5b3f74dbb42cdd1e3ac6f7546d8fea14fe37c43d4ba54f0ee043103` | [RU](variants/02m/script.ru.txt) `67e469534f8a283101b4746b368a7374192aedc7186efd9da7e70500b70d3a7f` | 276 | Short; примерно 2.0–2.3m при гипотетических 120–140 WPM до пауз, Lawrence 1.10× UNVERIFIED |
+| 02m · r3 | [EN](variants/02m/script.en.txt) `7a6ec816c5b3f74dbb42cdd1e3ac6f7546d8fea14fe37c43d4ba54f0ee043103` | [RU](variants/02m/script.ru.txt) `ba9b6b4c524ffce666b7f789872b87a6b5de0e7e16ee57d271cd8f07031ef434` | 276 | Short; примерно 2.0–2.3m при гипотетических 120–140 WPM до пауз, Lawrence 1.10× UNVERIFIED |
 | **05m** | [EN](variants/05m/script.en.txt) `28b7da58638846e1603f59a34d9bf4ad430fc4f2a720de00e44595965a1c7225` | [RU](variants/05m/script.ru.txt) `30ea7479c815a739b0c59efbf1d7f3d558bec72e09571e38d675cdc1b7751226` | 577 | Long; примерно 4.1–5.1m при тех же допущениях + короткие паузы; **рекомендован**, фактическая длительность UNVERIFIED |
 | 10m · r2 | [EN](variants/10m/script.en.txt) `fdefa420b2205420bc50b3261346ef6d13baa0e8449c5e10796d1e968f6c795c` | [RU](variants/10m/script.ru.txt) `47829261ec1808482eb82ebaa0bf922445ac84b047b5e0a8fb2ea7ff6485a128` | 1407 | Long; примерно 10.1–11.8m при 120–140 WPM **до пауз**, Lawrence 1.10× / measured UNVERIFIED |
 
@@ -72,7 +72,7 @@
 
 ## 02m r3 — содержательная ревизия (2026-11-22)
 
-**Baseline:** PR HEAD `cfacdcb0f3b2b4449dd531c65907d7eaa9202dad`; исходные 02m Git blobs EN `595ef99250aa32f243f5481ff402f9fd493fc09e` и RU `ec6afef35945c55359aa255476a48f1471137419`; прежние SHA-256 EN `a354750501410c19a554ba10c2c5aefdc656618b15b450bd9fbead9016f3eb1b`, RU `381c7e089b5c7ab16357a6c5ffc0699a91c432ab45cb4e96cd344ec15da3879c`. Новый EN `7a6ec816c5b3f74dbb42cdd1e3ac6f7546d8fea14fe37c43d4ba54f0ee043103`; RU `67e469534f8a283101b4746b368a7374192aedc7186efd9da7e70500b70d3a7f`; 276 EN words.
+**Baseline:** PR HEAD `cfacdcb0f3b2b4449dd531c65907d7eaa9202dad`; исходные 02m Git blobs EN `595ef99250aa32f243f5481ff402f9fd493fc09e` и RU `ec6afef35945c55359aa255476a48f1471137419`; прежние SHA-256 EN `a354750501410c19a554ba10c2c5aefdc656618b15b450bd9fbead9016f3eb1b`, RU `381c7e089b5c7ab16357a6c5ffc0699a91c432ab45cb4e96cd344ec15da3879c`. Новый EN `7a6ec816c5b3f74dbb42cdd1e3ac6f7546d8fea14fe37c43d4ba54f0ee043103`; RU `ba9b6b4c524ffce666b7f789872b87a6b5de0e7e16ee57d271cd8f07031ef434`; 276 EN words.
 
 **Было → стало:** прежняя первая реплика сообщала E.T. и хиты, лишая раскопки второго открытия. Финал «proof ... next shovel of dirt:» повторял предмет без повода вернуться к началу. Теперь начало — известный газетам вывоз 1983 и вопрос о мифе; 1982 дедлайн + склад Хеллера объясняют груз; 2014 слабая улика → E.T. → Centipede/Missile Command → новая причина; музейный картридж возвращает к газетам. Ответ закрыт до финальной реплики, без обрыва.
 
