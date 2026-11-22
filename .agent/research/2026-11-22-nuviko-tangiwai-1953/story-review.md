@@ -8,7 +8,7 @@ Author-only review on 2026-11-22; **not an independent reviewer** and not a vide
 |---|---|---|---|
 | 02m | [EN](variants/02m/script.en.txt), 292, `4b503702a539015e2fcee895369a79214baeada0b7b34125f8c2cf2e50ff0a12` | [RU](variants/02m/script.ru.txt), 264, `d54e727fa6dff01f3cc5d6d0f4ea89f0d3538ab0068384933835685800fcac40` | Short enabled; ~1.8–2.1min spoken if 140–165wpm, pauses unknown |
 | **05m** | **[EN](variants/05m/script.en.txt), 820, `a1f70795c7b17cbfd5f744d1110a65e17a5ddbe625435a60244280f0ba749087`** | **[RU](variants/05m/script.ru.txt), 696, `eae7d934d0383015a30e17ddb42d969a3719ba84d360a6bd1a1bfbf1d3936b2a`** | **Long enabled; ~5.0–5.9min spoken** plus pauses/10s end screen; duration not measured |
-| 10m | [EN](variants/10m/script.en.txt), 1418, `299d3b91ade5bac9cf1684481a352bfc84c5381d44b962c20e1f49f2dd58e486` | [RU](variants/10m/script.ru.txt), 1229, `95099e7725a60b354f74249189e2e34fb5fd156cc2edfe7702934cfcb5523989` | Long enabled; ~8.6–10.2min spoken plus pauses/10s end; duration not measured |
+| 10m | [EN](variants/10m/script.en.txt), 1336, `b80c782dc21cfe9ea396d7ef595cbc615e0af6cba726e4814f54c33e5094a8f4` | [RU](variants/10m/script.ru.txt), 1185, `cd6764cae230e241bdd1ea8b4a7c6709c83902b15a55451bd21f508b8fda1f92` | Long enabled; ~8.1–9.5min spoken plus pauses/10s end; duration not measured |
 
 UTF-8 SHA-256 computed from Git-returned exact blob text via locally verified SHA-256 routine (“abc” standard test). Git blob SHA-1 distinct. Counts are whitespace word counts, English estimates assume **range** 140–165 spoken words/min + pauses; actual pinned voice 1.10× does not establish measured speed. No automatic speed change.
 
@@ -38,25 +38,27 @@ UTF-8 SHA-256 computed from Git-returned exact blob text via locally verified SH
 
 **Main deficit:** strongest emotional result can arrive before five minutes and final recommendation segment may lose attention; independent first listener may reject. Multiple human names require spoken/AV testing. No other review.
 
-## 10m — REWORK on post-climax pacing, fully written
+## 10m — REVISED Long candidate, author-only (new exact hashes below)
 
-- **Interest/significance 9/10, author medium:** 151 deaths, Christmas journey, Car Z and vulnerable passengers deserve attention; coverage is substantial.
-- **Opening 8/10, medium:** three verified questions, detailed but risks slower immersion before locomotive scene.
-- **Development 8/10, medium:** second-fall rescue, Bell/Smidt response, casualty distribution, Mahy siblings' confirmed move, and warning inquiry provide actual new actions after hook.
-- **Payoff 9/10, medium:** differentiates human effort that could save 21/22 from missing early warning, ends with change to monitoring; no fake moral.
-- **Freshness of angle 8/10, medium-low:** class location and named survivors improve on broad retelling, but historical documentaries/dramatizations exist.
-- **Visual potential 8/10, medium:** richer locations/detailed historical train geometry, but reconstruction rights, unknown visuals and risk of misleading map complexity grow.
-- **Natural spoken grammar 7/10, medium-low:** long aftermath, royal responses and commission details can detach from main carriage dilemma; length does not automatically add retention.
-- **Confirmed audience appetite UNVERIFIED:** no own-channel comparable 10m retention, comments or CTR.
+- **Interest/significance 9/10, author medium:** documented Christmas journey, 151 deaths, contrasting carriage outcomes; the subject is substantive but current Nuviko viewer appetite is not measured.
+- **Opening 8/10, medium:** three questions lead through normal weather and crater-rim failure to the broken-bridge hook; first minute may still be dense for a cold audience.
+- **Development 9/10, medium:** bridge collapse now precedes a clearly located passenger seat change; front carriages fall, Car Z hangs and falls later, individual rescuers intervene, then the Mahy siblings' seat change receives its consequence. Named actions displace abstract explanation.
+- **Payoff 8/10, medium:** 21/22 from Car Z survived but 151 across the train died; 1954 early-warning recommendation and 2007 alarm complete the opening missing-warning question. The answer is earned before the end.
+- **Freshness of angle 8/10, medium-low:** Car Z and Mahy seat change are a more specific double human line than generic tragedy coverage; existing documentaries cover the warning controversy.
+- **Visual potential 8/10, medium:** bridge layout, seat change, Car Z position, bank rescue and upstream alarm can be shown without invented character thoughts; no image/rights evidence.
+- **Natural spoken grammar 8/10, medium:** cut royal/identification tangent, meta-commentary on imaginary sibling thoughts and a repeated final casualty summary; phrases follow observable actions. Inquiry still risks slowing the second act.
+- **Confirmed audience appetite UNVERIFIED:** no current comparable Nuviko Long retention/CTR, independent cold listener or published-test evidence.
 
-**Main deficit:** after Car Z rescue and revelation of casualties, detailed memorial and inquiry slow narrative more than they deepen the central choices; shorten or obtain more indispensable primary human testimony before treating 10m as best production master.
+**Baseline → changed:** 10m EN Git blob `938d7f9dea70983f5476574a56cfab09db150a65`, old SHA-256 `299d3b91ade5bac9cf1684481a352bfc84c5381d44b962c20e1f49f2dd58e486` → `b80c782dc21cfe9ea396d7ef595cbc615e0af6cba726e4814f54c33e5094a8f4` (1336 words); RU Git blob `b99235d2889a0a51d3b57329d4daf2b527c90ba4`, old SHA-256 `95099e7725a60b354f74249189e2e34fb5fd156cc2edfe7702934cfcb5523989` → `cd6764cae230e241bdd1ea8b4a7c6709c83902b15a55451bd21f508b8fda1f92` (1185 words). Preserved 02m/05m unchanged. Material rearrangement: Mahy siblings' move after Waiouru is now introduced *before* the derailment and paid off after the class death distribution; the Car Z rescue flows directly into Bell/Smidt and the search, not a repeated explanation; funeral/royal recap and generic outro are removed. Main hook still follows questions → geographic/weather explanation → loss of bridge support. No invented dialogue/motives or Ellis-caused-braking claim. T1/T2/T4 in [research](research.md) and official NZ History pages cover all event links; no new research source needed.
+
+**Hard checks:** source-fact chronology, explicit uncertainty on Ellis→braking, and EN/RU numbers/actions/meaning: author PASS only; Long narrative loop N_A; independent reviewer, TTS duration, performance interest, exact storyboard, AV and archival rights UNVERIFIED. Reviewer must read exact new hashes without author findings. Editorial recommendation stays 05m Long because it gives the rescue and inquiry payoff sooner; no automatic owner acceptance.
 
 ## Comparative final decision (actual texts)
 
 | Step | Value added | What is weaker |
 |---|---|---|
 | 02 → **05m** | Adds causal mountain-to-bridge setup, genuine last-carriage suspense, identifiable rescue actions and explained inquiry/warning outcome. A listener can care about people in Car Z rather than 21/22 as a statistic | More names and setup; longer technical terms |
-| 05 → 10m | Adds truly sourced class separation (148/151), Mahy siblings, local multi-agency rescue, longer memorial and investigation | Main dramatic answer delivered already; legal/memorial history becomes a second documentary and dilutes momentum |
+| 05 → 10m | Adds 148/151 distribution, Mahy seat move before the crash, separate rescue organization, and 1925→1954→2007 warning sequence | Main rescue payoff still arrives well before the inquiry, and that slower second act lacks independent audience evidence |
 
 **Recommended Long 05m EN** SHA-256 `a1f70795c7b17cbfd5f744d1110a65e17a5ddbe625435a60244280f0ba749087`. This is authored editorial recommendation only, not owner approval, independent reading result or runtime master. A two-minute Short is also promising; absence of strong ten minutes is not reason to discard it.
 

@@ -15,3 +15,5 @@ Bound only to **`variants/05m/script.en.txt` SHA-256 `a1f70795c7b17cbfd5f744d111
 **Linked ending dependency:** thematic next video should present another verified train/transport survival consequence, but no actually produced and approved Nuviko next-video intro, approved card target, or permitted clip/input currently available. Do not invent the next intro or add a 10-second pseudo-clickable video; preserve only the end-screen space in future planning.
 
 **No invented timings, assets or production decision.** Actual TTS, traveler reference files, storyboard, copyright clearance, native YouTube end screen and CTR testing remain blocked/unverified.
+
+10m alternative updated 2026-11-22: EN `b80c782dc21cfe9ea396d7ef595cbc615e0af6cba726e4814f54c33e5094a8f4`, RU `cd6764cae230e241bdd1ea8b4a7c6709c83902b15a55451bd21f508b8fda1f92`. Packaging 05m remains unchanged. Author comparison: [story-review](story-review.md). No approval or media.

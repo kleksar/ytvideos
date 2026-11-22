@@ -21,3 +21,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 6. Keep `approval` and release checks as-is; GitHub CI is a software check, not story acceptance. Never upload/publish or change schedule from this editorial task.
 
 **Nothing done:** no TTS, imagegen, video provider, MP4, media files, copyright license purchase, YouTube update, publication, new Issue, merge, owner or agent impersonation.
+
+## 2026-11-22 — substantive 10m revision
+
+Baseline `5874862317d282a2dde8a97ba40a5acaa2b1a49f`. New 10m EN SHA-256 `b80c782dc21cfe9ea396d7ef595cbc615e0af6cba726e4814f54c33e5094a8f4` (1336 words), RU `cd6764cae230e241bdd1ea8b4a7c6709c83902b15a55451bd21f508b8fda1f92` (1185 words). Exact 02m/05m script blobs unchanged. The new narration introduces Barbara and John's verified seat relocation before the crash, pays it off when the class-based death toll is explained, replaces repeated Car Z survival analysis with the separate Bell/Smidt rescue operations, and trims the memorial appendix and second repeated conclusion. New author-only eight-criteria assessment and blockers: [story-review](story-review.md). **05m still recommended**, not approved; independent reviewer/TTS/AV/rights/run remain UNVERIFIED. This is a Git editorial candidate only, not a production master.
