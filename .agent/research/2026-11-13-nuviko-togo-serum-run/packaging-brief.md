@@ -1,3 +1,9 @@
+## 2026-11-22 — 02m Short packaging hypothesis for current hash
+
+New [02m EN](variants/02m/script.en.txt) `1eb42cca95929646d3efb38e52a5e10a5057dca658db15ddae78ae23be9854de`, [RU](variants/02m/script.ru.txt) `dd38a362a1b0bf4d72d8c068dcd90961750b709b27960075439a52af335bf711`. Opening visual: sled travelling **east away from Nome**, no serum aboard; middle distinct actions: missed Ivanoff meeting, dangerous return, Kaasen's fallen canister/recovery, dark Port Safety. The copy must promise why the *longest* serum trip began in the wrong direction and show both communication errors, never falsify Balto's contribution. Candidate question/title only: “Why Did the Longest Serum Run Start the Wrong Way?” No rendered/approved image, CTR, TTS or thumbnail test. The earlier 15-scene root Short plan and exact caption spans do not cover the changed narration.
+
+---
+
 ## 2026-11-20 — 10m revision, unapproved variant
 
 The 10m Long now promises **two undelivered instructions and a medicine cylinder nearly lost in snow**. Concrete 16:9 candidate image: Kaasen trying to recover a canister beside an overturned sled, NOT an invented archival photo; title hypothesis: “Two Missed Messages in the Race to Save Nome”. Unlike the unchanged root 9:16 Short visual plan, neither a 10m storyboard nor any finished thumbnail exists. Exact EN SHA-256 `f46c17773c6f50ad884653718ffe4628dcbf7b3515e43e2e25f73552926849ba`, RU `04941500059d73e20616d858a8e20a25cd3c292b8f52f30361332f125d3859ed`. No CTR, AV, TTS, image, approval or audience proof.

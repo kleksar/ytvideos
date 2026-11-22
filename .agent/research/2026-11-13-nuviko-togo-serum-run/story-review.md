@@ -1,3 +1,42 @@
+# Current 2026-11-22 editorial revision — existing Togo PR #26
+
+Baseline `0a54c9c7a923120ff5de55518a545fe04dacafcd`. **New 02m EN SHA-256 `1eb42cca95929646d3efb38e52a5e10a5057dca658db15ddae78ae23be9854de`; RU SHA-256 `dd38a362a1b0bf4d72d8c068dcd90961750b709b27960075439a52af335bf711`.** 289 EN words, 9 matched narrative paragraphs by author (NOT an independent bilingual review). Previous 02m EN SHA-256 `18db621fd5e8f247f2558a7cb753d567bdfe1d97fa127ab221a815dcbe9efc91`, RU SHA-256 `224c8cc8aea7e504608d9a3b0fc0db80ea08de4f2e9401a2c63263f3a287452a`; original remains in branch history.
+
+| Target | Full RU | Full EN | Status |
+|---|---|---|---|
+| 02m Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | **reworked 289 EN words**, complete; independent review UNVERIFIED |
+| **05m Long** | **[RU](variants/05m/script.ru.txt)** | [EN](variants/05m/script.en.txt) | **provisionally recommended**, unchanged 871 words |
+| 10m Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | unchanged 1570 words, slower early-middle |
+
+**Before → after:** former 02m completed Togo's route and appended a self-answering question about the empty sled, but compressed the last physical danger to a generic delivery. New full 02m keeps empty outbound sled → Seppala's missed Ivanoff meeting → Togo's exposed return crossing, then adds **a second unreceived storm-pause instruction → Kaasen's overturned sled → lost/recovered serum cylinder → sleeping Rohn → intact vials reaching Nome**. The second climax makes Balto's final-leg role an earned consequence instead of a statue-only afterword. This is a substantive same-story rewrite, not a changed PR description. Original root EN/RU and 15 original storyboard scenes, runtime pins, unchanged 05m and 10m text bytes preserved.
+
+**Evidence mapping:** original NPS/AKC/Smithsonian source map T1–T10 for emergency, relay, miscommunication, Norton Sound, handoff and distance; previously checked T11–T13 in the **unchanged common [research](research.md)** for storm-pause, Kaasen, cylinder and Rohn, based on retrospective [Al Jazeera](https://www.aljazeera.com/features/2025/2/1/the-alaskan-hero-dogs-who-prevented-a-diphtheria-epidemic-in-1925) and [MY HERO](https://myhero.com/1925_serum_run_participants_06), with independent [Alaska State Archives](https://archives.alaska.gov/education/serum.html) confirming undamaged delivery. No original 1925 telegram was viewed. Exact final-leg communication sequence has **medium** factual confidence; no invented speech, feelings, inferred motives, or definitive Balto lead position.
+
+**02m story map:** empty sled travelling east (paradox) → Nome diphtheria/transport choices → opposing relay directions → changed handoff unheard by Seppala → Ivanoff narrowly met (main hook) → sea-ice return → Golovin handoff → storm pause unheard by Kaasen → cylinder lost in snow and recovered (second climax) → Rohn asleep, Kaasen finishes → medicine arrives intact, combined team achievement and fame → image returns to the outbound empty sled.
+
+**Eight authorial 02m criteria (out of ten, not measured audience outcomes):**
+
+| Editorial criterion | Rating, grounded strength and weakness | Confidence |
+|---|---|---|
+| Interest / significance | **8/10** — medicine for sick children and two nearly missed handoffs; famous Balto/Togo subject may feel familiar | medium |
+| Opening / promise | **8/10** — visible empty sled moving away from Nome; many proper names later | medium |
+| Development / reason to watch | **8/10** — route change then physical canister loss change the situation; late second act is dense for Short | medium |
+| Payoff / consequences | **8/10** — intact serum reaches Nome, whole relay credited; patient outcomes necessarily compressed | medium |
+| Angle / distinctiveness | **8/10** — focuses on broken instructions and package rather than invented rivalry | medium |
+| Visual specificity | **8/10** — empty sled, exposed ice, passing teams, overturned sled, snow search, dark roadhouse; no mapped storyboard | medium |
+| Oral naturalness / clarity | **7/10** — concrete verbs and a non-question ending; too many names/handoffs may require better visual pacing | medium |
+| Actual viewer interest / demand | **UNVERIFIED** — no analytics, audience panel, CTR or first-listener data | none |
+
+**Separate hard checks:** facts/causal chain **AUTHORIAL PASS WITH SECONDARY-SOURCE LIMITS**; EN/RU meaning **AUTHORIAL PASS** (not blind); Short standalone payoff/cold-entry **AUTHORIAL PASS**; end → start semantic text transition: final `The longest journey that brought it there had begun in the opposite direction.` → opening `The sled leaving Nome was empty.` **authorial text-only candidate**, full independent two-cycle and actual AV seam **UNVERIFIED**. Estimated narration 1.70–2.22 minutes at assumed 170–130 WPM before pauses and actual configured 1.10×: TTS duration **UNVERIFIED**, no speed tampering. Old 15-scene storyboard applies ONLY to unchanged root bytes, not revised 02m; new scene spans/timing **UNVERIFIED**. 05m/10m Long have documented question-led opening, Short loop **N_A** to them. Independent reviewer, owner selection, runtime, image/MP4 and demand **UNVERIFIED**; status `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+**Comparison of complete texts:** 02m now includes both failures but loses detail at the Golovin→Rohn name transition; 05m adds Olson's frostbite, storm decisions, the cylinder rescue and why Kaasen passes sleeping Rohn, at a more legible tempo; 10m adds Togo's background, expedition logistics and overlooked mushers, but may lose attention during his puppy history *before* the first handoff. **Authorial recommendation remains 05m Long**, conditional on actual TTS length (871 words may exceed 5m), independent comparison and owner selection; a stronger 02m result could win. No three productions approved.
+
+**Next unprocessed area:** new exact-hash blind comparison with old 02m, independent bilingual/two-cycle seam review, actual timing/visual intent for selected hash, canonical run/context/pins and owner's decision. No reviewer receipt, approval, media or CI result is manufactured.
+
+---
+
+## Previous reviews below (historical for prior 02m hash; do not apply their loop verdict to the changed text)
+
 ## 2026-11-20 — substantive 10m revision at baseline `f3be2c61fb2e75d02507fb0fb36d9b31c3590439` (current editorial candidate)
 
 **Before → after:** the previous 10m told the crucial Ivanoff near-miss and Togo's return, then compressed the last-stage delivery into one paragraph and repeated the credit/statue point through several afterwords. The revised **same-story** 10m EN/RU retains the questions → epidemic/transport background → changed plan → first near-miss → exposed ice crossing, and adds independently source-mapped events **T11–T13** already in the shared [research](research.md): Welch's storm-pause message reached Rohn but not Kaasen, Olson's frostbite and handoff, Kaasen's overturned sled and recovered serum cylinder, Rohn asleep at the expected last handoff, Kaasen's decision to continue, and frozen but unbroken vials. The closing now contrasts the two failures to communicate and the intact medicine; no imagined quote, motive or 1925 primary record. Those sources are retrospective accounts, so the sequence has **medium** factual confidence, not original-record confirmation.

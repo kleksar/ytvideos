@@ -1,3 +1,15 @@
+## 2026-11-22 — current same-story revision (02m)
+
+| Target | Full RU | Full EN | Status |
+|---|---|---|---|
+| 02m Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | **reworked 289 EN words**, complete; independent review UNVERIFIED |
+| **05m Long** | **[RU](variants/05m/script.ru.txt)** | [EN](variants/05m/script.en.txt) | **provisionally recommended**, unchanged 871 words |
+| 10m Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | unchanged 1570 words, slower early-middle |
+
+**Before → after:** old 02m gave an empty-sled twist and then a summary ending; revised 02m gives two separate communication failures and a final physical danger (Kaasen recovers serum cylinder, passes sleeping Rohn, vials arrive intact), not just a sentence about Balto's statue. New hashes: EN `1eb42cca95929646d3efb38e52a5e10a5057dca658db15ddae78ae23be9854de`, RU `dd38a362a1b0bf4d72d8c068dcd90961750b709b27960075439a52af335bf711`; baseline `0a54c9c7a923120ff5de55518a545fe04dacafcd`, 289 EN words. Full reasons/eight scores at [story-review](story-review.md). Shared research remains unchanged; 05m and 10m also unchanged. Root scripts/storyboard untouched, **not** a review or scene map for these variants. **05m remains a provisional authorial recommendation** for clearer causal pacing. `EDITORIAL_CANDIDATE_UNREGISTERED`; independent reader/bilingual/two full Shorts cycles, TTS, AV, production runtime and owner approval **UNVERIFIED**.
+
+---
+
 ## Editorial revision 2026-11-20 — new 10m EN/RU
 
 Full scripts for **one** Nome relay story: **[02m RU](variants/02m/script.ru.txt) · [02m EN](variants/02m/script.en.txt)**; **[05m RU](variants/05m/script.ru.txt) · [05m EN](variants/05m/script.en.txt)**; **[10m RU](variants/10m/script.ru.txt) · [10m EN](variants/10m/script.en.txt)**. Latest 10m now includes the documented final-leg failure to communicate, overturned sled and recovered antitoxin, rather than an abbreviated ending. SHA-256 EN `f46c17773c6f50ad884653718ffe4628dcbf7b3515e43e2e25f73552926849ba`, RU `04941500059d73e20616d858a8e20a25cd3c292b8f52f30361332f125d3859ed`; 1570 English words. **05m Long preferred provisionally** because it reaches both reversals sooner. Exact comparison/reasons and eight scores: [story-review.md](story-review.md). Baseline f3be2c61fb2e75d02507fb0fb36d9b31c3590439; no master, approval, storyboard, production pins or media changed. `EDITORIAL_CANDIDATE_UNREGISTERED`; independent blind/bilingual reviewer and owner acceptance UNVERIFIED.
