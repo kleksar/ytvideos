@@ -16,3 +16,7 @@ Next steps **only on actual authorized production host**:
 5. Actual linked next-video target + clip, rights, AV seam and end-screen placement remain UNVERIFIED. Do not invent a target, media, provider jobs or publication action.
 
 No media providers invoked; no TTS, imagegen, MP4, upload, schedule, publication or merge. Review scores are author/editorial hypotheses and CI checks do not authorize production.
+
+## Later revision on 2026-11-22 — draft #351 (no runtime transition)
+
+Baseline branch `70dcb2013cd5074ef55608c92e58d0ea66cb2916`; old 10m EN/RU SHA-256 `6e8023e28563ddc6c11f5c8b587109cf9ab8fc2a02d87e64785a16b7da6ee581` / `adb15ed1a0d20f6ace1047a988c70023a940dae49de909292925acfd919c5326`. New complete [10m EN](variants/10m/script.en.txt) SHA-256 `b89a023534401af8f571390d7c64bc1c28de6d3998e21df0eaad170486e32d3a`, [10m RU](variants/10m/script.ru.txt) SHA-256 `fd15a4dada33f006b83dcabf829a20cecac5b98d919598c7c8e33bb743cc171c`. This is a substantive replacement of only the unapproved 10m candidate; 02m and recommended 05m are unchanged. Prior judgments on old 10m bytes are superseded; no storyboard/voice spans can be assumed compatible. Before any local transfer, first reconcile the actual branch HEAD, current pinned main, production status and owner decisions. A fresh blind comparison of 05m versus 10m remains essential; **not performed**. The earlier environment blocker (`ytv` command unavailable) is not a new finding and no second runtime-start attempt is claimed. No accepted master, media or pinned artifacts were modified.
