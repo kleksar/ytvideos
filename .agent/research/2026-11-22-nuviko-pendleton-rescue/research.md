@@ -73,3 +73,8 @@ Title promise: “The 36-Foot Boat That Brought 36 People Home” — 36 include
 **Best objection:** this plot is already a feature film and an October 2026 documentary. If the midsection merely repeats wave danger, the 10-minute draft should be cut. If independent listener finds no new reason to watch beyond a known story, mark REWORK/REJECT rather than automatically ship 5m.
 
 No outside video media bytes, comments, fake reviews or licensed assets imported. Research is not a right to begin production.
+
+
+## Existing-story revision note — 02m oral loop, 2026-11-22
+
+No new factual claims beyond P1: aircraft finds second broken tanker without distress call; another tanker diverts large vessels; CG-36500 loses compass and suffers recurring engine stoppages; four rescue 32/33, the stern later rolls; a red buoy previously passed on the outward trip guides 36 ashore. **Causal map for revised 02m:** aircraft sighting → why SOS impossible → four-person dispatch → compass loss and Fitzgerald engine restarts → risky ladder boarding → one casualty / 32 saved → return without compass → red buoy → 36 home → no-SOS line naturally feeds initial aircraft sighting. Same event, not a fourth version or new story. Source-specific micro-sequence follows the Coast Guard's later written account; no direct video is claimed. 05m and 10m story maps remain in [story-review](story-review.md); no change to original source trace or verified demand.

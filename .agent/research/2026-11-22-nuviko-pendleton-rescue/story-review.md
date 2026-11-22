@@ -5,13 +5,36 @@ EDITORIAL_CANDIDATE_UNREGISTERED — **AUTHORIAL** assessment 2026-11-22, not in
 
 | Variant, proposal | Production EN SHA-256 / words | Full semantic RU SHA-256 | Time estimate before any audio |
 |---|---|---|---|
-| 02m / Short | [EN](variants/02m/script.en.txt) `fd074efd0c25f383236d00e28dcc20b96adb89517311a0ec4a4f81a7468141c4`, **263 words** | [RU](variants/02m/script.ru.txt) `26dec1e4eab7a69c262577c653488068fbcd91f41a7e9cadd48104209793aae6` | ~1:45–2:25 at 115–150 words/min plus brief pauses |
+| 02m / Short | [EN](variants/02m/script.en.txt) `f42978ab0034067d623dd6d4e4d23d251f22439e5ff89d13fabb6bcff84a6506`, **262 words** | [RU](variants/02m/script.ru.txt) `9089b691c8493203a7d6bf1b43dbb4ccd77884d166f01fa16222ffdba01b75e6` | ~1:45–2:17 at 115–150 EN wpm before pauses; TTS UNVERIFIED |
 | **05m / Long** | [EN](variants/05m/script.en.txt) `1377155783fc9e122ba9efe8f55760b0c5841e3204360af4a61285307d1f669e`, **673 words** | [RU](variants/05m/script.ru.txt) `ebec6e9851232fd081b51c39cc59216e4c561c943962982a10407a73d873890f` | ~4:25–5:40 at 125–155 words/min plus small pauses |
 | 10m target / Long — REWORK_UNDERLENGTH | [EN](variants/10m/script.en.txt) `e2f33482e15aa451400e4dc8041a50ef4d1dd3cdc134e60af51823eb537aa825`, **1116 words** | [RU](variants/10m/script.ru.txt) `fa50d1424b7bb552e9bb37b5db12b836824b4dc529619b01d9a2fc6876af22c1` | ~7:12–8:56 at 125–155 words/min before pauses; actual voice UNVERIFIED |
 
 Voice `5vsgZsi667xMyGinrNIM` speed `1.10×` only for future authorized production; above wpm assumptions are not measured at that voice. Exact TTS, pause and end-screen dimensions unverified. Git blobs for EN 02/05/10: `805e1e518b1c98e3c7192bd37d5d0df579d6f95d`/`10399f4ea19ff0a4b50d10904fa3a6025e25560b`/`c39222862a107244e274e5091c9f69e2baa8b69c; RU: `2974fb26b037bae6ecb4f665a1dcd1d55bd017c6`/`93da83a85fbe37f5661f4bf799cef60a64924204`/`46a4bc2cff4b4f26a659f95a99f3ab30654f0004.
 
-## Exact 02m / Short: REWORK
+## Current 02m / Short — revised causal loop, authorial assessment (2026-11-22)
+
+**Baseline** PR HEAD `4c68b6c56c5111f44b9f97d63a396fea724875f9`, 02m EN SHA256 `fd074efd0c25f383236d00e28dcc20b96adb89517311a0ec4a4f81a7468141c4`, RU `26dec1e4eab7a69c262577c653488068fbcd91f41a7e9cadd48104209793aae6`; **new** EN `f42978ab0034067d623dd6d4e4d23d251f22439e5ff89d13fabb6bcff84a6506` (262 words), RU `9089b691c8493203a7d6bf1b43dbb4ccd77884d166f01fa16222ffdba01b75e6`. Exact [EN](variants/02m/script.en.txt) and [RU](variants/02m/script.ru.txt). Original baseline retained at its commit; 05m and 10m are byte-identical to the previous PR head.
+
+**Before → after:** previous result-first opening revealed the 36-person return and the final sentence restated the same lifeboat without an oral handoff. Now a Coast Guard aircraft sees a silent half-tanker → radio has broken away → other tanker occupies large rescue ships → four men set off → broken compass plus repeated engine restart → ladder and 32/33 rescue → overcrowded compassless return → buoy visible on outward trip → all 36 ashore. The final sentence establishes that the sailors could not send an SOS; the restarted first line immediately shows the aircraft discovering them anyway. Full payoff occurs before that handoff. The loop supplies a *cause and discovery* instead of a shared noun or colon.
+
+**Two complete authorial reads, each EN and RU:** (1) From cold first sentence through the casualty and safe harbor, verify all actors, numbers (4 + 32; one sailor died) and cause/effect; (2) read the entire story in repeated order after final→first, check that no-SOS leads to aircraft discovery, then that the same questions are answered again. RU and EN use the same events. No independent listener, playback, MP4, TTS or actual AV seam: **UNVERIFIED**, not an official narrative-loop PASS. The final line still has an explanatory tone; a blind listener may prefer the original result-first hook.
+
+| Current 02m criterion | Author 1–10 | Exact evidence, weakness and confidence |
+|---|---:|---|
+| Interest/significance | 9 | 33 isolated on half a tanker, and 36 in 36-foot boat; true counts in USCG P1, familiar film is competition (fact high, appeal low) |
+| Opening | 8 | Plane sees silent half-ship; concrete visual mystery, but not as startling as original 36-person result (medium) |
+| Development / why stay | 8 | Diverted larger crews → bar/compass → engine repeatedly stops → moving ladder and fatality → buoy. Dense 33/32 arithmetic remains (medium) |
+| Payoff | 9 | 32 sailors survive aboard with four rescuers, safe harbor by red buoy; death not suppressed (high) |
+| Angle freshness | 7 | First discovery without SOS and the second navigation crisis add contrast, but feature film/documentary already exist (medium) |
+| Visual expressivity | 9 | Aircraft, half ship, smashed compass, ladder, red buoy are discrete ideas; real frames/rights not inspected (medium) |
+| Natural narration | 8 | Active verbs, shortened recap, clearer last→first causal bridge; last explanatory sentence may still feel like a setup (medium) |
+| Verified audience interest | **UNVERIFIED** | No comparable Nuviko retention, CTR or comments; indexed views are not measurements of this script |
+
+**Hard checks:** P1 trace for aircraft discovery, two tankers, engine stop/restart, compass loss, 33 stranded → 32 saved + 1 loss, buoy and 36 reaching shore (organizational retrospective; unseen actions not represented as camera evidence). EN/RU author semantic check only. Short ChannelSpec supports narrative_loop; **text improved authorially, no independent/audio/AV PASS**. At assumed 115–150 EN words/min, 262 words estimate ~1:45–2:17 before pauses; fixed 1.10× voice not measured. No verified visual timing; prior review/spans for old 02m hash invalid. 05m Long remains provisionally recommended because it provides the two crises with more explanatory space; 10m still `REWORK_UNDERLENGTH`, 1116 words, not falsely accepted as ten minutes.
+
+**Next untouched work:** new independent blind review comparing original and revised 02m plus 05m/10m texts (author scores withheld), audio+AV seam, TTS timing, any fact-backed 10m expansion or explicit blocker, runtime transfer under canonical pins and owner decision. Editorial-only / `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+## Historical superseded 02m / Short: original REWORK (not the present text)
 
 Authorial 1–10, confidence medium unless specified; each remark refers to **this 263-word text**, not other lengths:
 
@@ -83,7 +106,7 @@ Baseline HEAD `43071d2af49f99ab09eaf149911517d7d6cbf6e3`, exact original 10m EN 
 
 ## Compare *written complete versions*
 
-**2→5:** +second disaster in the same storm, duty allocation, ladder's collision problem, repeated approach decisions and strong distinct homeward narrative; this strengthens suspense with new cause and effect. The 02m Short can function as a standalone event but its natural-loop seam needs substantive revision.
+**2→5:** +second disaster in the same storm, duty allocation, ladder's collision problem, repeated approach decisions and strong distinct homeward narrative; this strengthens suspense with new cause and effect. The current 02m Short has a causal no-SOS → aircraft-discovery textual replay, but independent spoken assessment is still UNVERIFIED.
 
 **5→10:** +previous failed motorboat attempt, engine restart, auditory discovery of wreck, wartime tanker context, historically surviving CG-36500 and clear attribution of Fort Mercer's 38. All traceable in cited official sources, but midsection dilutes tension; 10m would benefit from shorter return to the human question. The fact that more facts fit ten minutes is **not** a recommendation.
 
@@ -96,14 +119,14 @@ Baseline HEAD `43071d2af49f99ab09eaf149911517d7d6cbf6e3`, exact original 10m EN 
 | Core incident and casualty arithmetic | PASS (author source-trace) | PASS (author source-trace) | PASS (author source-trace) | USCG 2024 article, independent archival witnessing not tested |
 | EN/RU semantic pair | PASS (author textual comparison) | PASS (author textual comparison) | PASS (author textual comparison) | all six full texts compared in this draft |
 | Channel format eligibility | PASS (Short proposal) | PASS (Long proposal) | PASS (Long proposal) | `channels/nuviko_history/channel.json` has both |
-| Spoken seam and narrative loop | **REWORK (not PASS)** | N_A Long | N_A Long | 02m last→first thematic only; no blind second listener |
+| Spoken seam and narrative loop | **AUTHORIAL_REVISED; independent UNVERIFIED** | N_A Long | N_A Long | 02m no-SOS → aircraft discovery on restart; real spoken/AV seam not checked |
 | Actual audiovisual seam | UNVERIFIED | N_A Long | N_A Long | no MP4/audio |
 | Exact duration and speed | UNVERIFIED | UNVERIFIED | UNVERIFIED | no authorized TTS |
 | Copyright / actual visual assets | UNVERIFIED | UNVERIFIED | UNVERIFIED | concepts only; no bytes |
 | Independent listener/reviewer | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** | no fresh session, no `ytv-script-review-v1` |
 | Official runtime/script gate/owner approval | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** | `ytv` absent; recommendation not gate |
 
-**Review author:** current editorial assistant, source confidence high for P1 documented counts/names, medium for retrospective on-water micro-sequence, low for predicted viewer response. Two authorial substantive rewrites: **0** after these baseline drafts; no invented independent review. New hash requires new reviewer.
+**Review author:** current editorial assistant; P1 counts/names high confidence, retrospective on-water micro-sequence medium, viewer response low. Current PR has substantive edits to 10m and now 02m; no independent review or fabricated receipt. New hash requires new reviewer.
 
 No storyboard, prompts or timing spans attached to a different variant; recommended 05m hash `1377155783fc9e122ba9efe8f55760b0c5841e3204360af4a61285307d1f669e` is only the proposed target for later review.
 

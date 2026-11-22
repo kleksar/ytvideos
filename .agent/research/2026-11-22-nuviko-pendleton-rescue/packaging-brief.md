@@ -15,3 +15,8 @@ Proposed Nuviko History English 5m master: `variants/05m/script.en.txt`, SHA256 
 **Sources for potential real reference photos:** USCG historian https://www.history.uscg.mil/Research/THE-LONG-BLUE-LINE/Article/3757656/bernard-bernie-webber-and-the-greatest-smallboat-rescue-in-coast-guard-history/; USCG image archive https://www.history.uscg.mil/Our-Collections/Photos/igphoto/2003451189/ ; National Park Service https://npgallery.nps.gov/AssetDetail/NRIS/05000467 . Rights per exact asset, resolution/crop, Nuviko host turnaround PNGs and real shot production remain **UNVERIFIED**; web search thumbnails are NOT media handed off.
 
 If and only if the full exact 05m text gets approved by independent reviewer and owner through normal runtime, the detailed storyboard/prompts may be built **for this variant/hash**, not copied to 02m or 10m. No source clips, images, audio or timing bytes have been created.
+
+
+## Short alternative after revised 02m (not selected production master)
+
+Revised [02m EN](variants/02m/script.en.txt) `f42978ab0034067d623dd6d4e4d23d251f22439e5ff89d13fabb6bcff84a6506` and [RU](variants/02m/script.ru.txt) `9089b691c8493203a7d6bf1b43dbb4ccd77884d166f01fa16222ffdba01b75e6`: cold frame may show the airborne discovery of a silent broken stern. Final line (no SOS) connects causally to that discovery at replay; the complete rescue and red buoy remain before the loop. Do not reuse 05m's thumbnail/stills, storyboard or actual scene timings as if hash-matched. Visual assets and the real AV seam are UNVERIFIED; 05m remains the recommended editorial master awaiting review and owner choice.
