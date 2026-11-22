@@ -83,3 +83,7 @@ Media retrieved: **titles/metadata and descriptions only**. No actual watch, run
 ## Production boundaries
 
 Paper Detour has actual EN source, Lawrence 1.10× voice, Short and Long illustrated formats in main ChannelSpec; the 02m proposal is Short with required spoken/audio-visual loop, 05/10m are Long. No spoken time measured. The paper plane is a fictional scene prop, never claimed as part of the Apollo record. Actual Paper reference PNG bytes, visual-rights clearance, future end-screen target and licensed recordings unavailable; no providers dispatched.
+
+## 10m revision evidence boundary — 2026-11-22
+
+A scoped second revision of the **same** lunar-bag story reorders only already-evidenced court and auction facts (S1 Kansas ruling; S2–S3 documented sale amounts; S4 contemporaneous Texas-return report). Original 10m exact SHA-256 EN `863b32bb98bc2bd91d735057dc4e6853771d284e5a8b3af39e18b88385e55ee6`, RU `da99f81a80977b15d39f92ced197f021129f0f5cde14698a547e73e6b8a0ce53` recorded before rewriting. No new source-backed claim was needed; the exact route into Kansas custody and full Texas signed judgment remain unknown. The clearer agency/auction distinction is editorial, not independent court review or measured viewer interest.
