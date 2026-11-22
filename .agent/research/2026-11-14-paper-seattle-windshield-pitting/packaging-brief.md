@@ -18,3 +18,7 @@ For 05m, headline promise can be “What Made Seattle Think Its Windshields Were
 
 For 02m original, existing title/cover propositions are retained; for 10m, do not turn the later behavioral explanation into a promise of a discovered weapon. Neither package authorizes a trailer, publish, CTR claim or independent audience demand. Visual storyboard of chosen text/hash required before production.
 
+
+## 2026-11-22 long editorial scope
+
+The revised 10m detective thread uses physical comparisons (dated reports vs undated pits, university front/rear glass, sheriff's raw count, dealer old/new cars). Thumbnail/scene ideas for 02m remain specific to original exact Short, **not** new Long script or its timeline. Recommendation 05m still provisional. No new visuals generated; Long exact-hash storyboard UNVERIFIED.

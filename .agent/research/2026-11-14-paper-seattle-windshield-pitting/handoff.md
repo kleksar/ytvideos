@@ -20,3 +20,7 @@ Baseline exact source HEAD `23d00c2ebc99b1afa4bcf04335cf6c1feeeda10a`, published
 
 For migration: local checked-out agent must choose an **exact selected hash** after owner's decision; run real `ytv start --channel paper_detour --format long` for 05m/10m (or short for 02m), attach unapproved candidate inputs/research via documented actual task packet; no `--source-script` accepted-source shortcut unless the owner independently accepts that source for production. Obtain independent blind `ytv-script-review-v1`, then official script approval; produce storyboard for chosen hash only. No implicit promotion of Git-only files to an official run. Preserve all existing pins and protected versions.
 
+
+## 2026-11-22 10m revision handoff
+
+Changed exact 10m EN SHA-256 `8e0d0f9fac62d034035d0a485f8468969a836ba7c8bfaecc147ee5bd2765834e`; RU `d31ce4d59ace8b8616fd656a83110afb175e0985a49dbc6b6e732f6881fe1d0f`. Prior Long text review, timing assumptions and any scene spans for old 10m are invalid; unchanged Short storyboard spans remain valid solely for its original hash. For possible official runtime transfer on local verified main, use `uv run ytv start --channel paper_detour --format long --intent 'Review Seattle windshield mystery candidate'`, read actual context/pins, attach six exact text variants and this review through the task contract; do not impersonate a saved run or approved script. No TTS/media/production authorized. Independent reviewer, authentic audio timings and selected-version storyboard still required.

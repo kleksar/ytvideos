@@ -1,5 +1,30 @@
 # Story review — Seattle windshield mystery
 
+## 2026-11-22 — 10m substantive detective-line revision (author-only, supersedes prior 10m scores)
+
+**Exact changed texts:** [10m EN](variants/10m/script.en.txt) SHA-256 `8e0d0f9fac62d034035d0a485f8468969a836ba7c8bfaecc147ee5bd2765834e`; [10m RU](variants/10m/script.ru.txt) SHA-256 `d31ce4d59ace8b8616fd656a83110afb175e0985a49dbc6b6e732f6881fe1d0f`. Baseline branch HEAD `9310977bc720888b5bbaeace48213ddda6010435`, baseline 10m Git blobs EN `012c7820bc6b5e6e581d3984993e2661e4fd0b5d`, RU `8499fd826cdf8c151807dee696bb1b70a3dada9b`. New EN 1321 words (formerly 1351); RU 1134 words. Target ten minutes is editorial/approximate, not timed audio. Other four scripts, root master and 14-scene Short storyboard remain untouched.
+
+**Before → after:** the former 10m spent its post-university half on the sheriff's numbers, pellets, dust, a dealer comparison and then several rounds of paraphrasing the same collective-attention explanation. The revised final act makes the sheriff's counter-count a concrete test of *frequency*, exposes its missing *date*, follows Seattle police to new-vs-used cars to test *timing*, and only then traces one documented reporting/press feedback mechanism. It retains uncertainty about isolated vandalism and does not turn unproven pellets or coal dust into causes. The 1954 facts, dates and test results were already registered in the shared [research](research.md); **no new historical claims** were introduced. The stronger action and physical comparison replace repetitive abstract interpretation. Original first 740 EN words, including question opening → event immersion → failed search hook, remain intact.
+
+**Revised 10m story map:** questions (why sudden damage / why officials cannot find attacker) → Bellingham pellet hypothesis → Anacortes roadblocks fail → Whidbey Marines find no culprit → Seattle calls and mayoral escalation → Geiger/transmitter/University exclusions → sheriff counts 15,000+ but cannot date pits → police compare old/new dealership glass → everyday wear explains age difference → press/inspection/report cycle → April 17 fade, further reports and qualified payoff. No fabricated quotes, motives, minute-level actions or universal claim that every scratch was old.
+
+| Editorial criterion · revised 10m | Author 1–10 | Exact reason, remaining weakness, confidence |
+|---|---:|---|
+| Interest / significance | 7 | Officials and sheriff disagree about visible damage; historical pattern has explanatory relevance, but low physical stakes. Medium confidence. |
+| Opening / promise | 8 | Two direct questions are followed by late-March Bellingham, and roadblocks fail; initial explanation may be familiar. Medium. |
+| Development / reason to continue | 7 | Specific investigative tools now test successive hypotheses: roadblocks, radiation, front/rear survey, sheriff count, dealer age contrast. The middle still contains several negative tests. Medium. |
+| Payoff | 8 | Used/new windshields distinguish accumulated wear from a fresh attack; aftermath explains why reports spread. Some individual pits remain uncertain. Medium. |
+| Angle freshness | 7 | Focus on dating marks rather than simply 'mass hysteria'; topic itself has prior coverage. Low–medium. |
+| Visual expressiveness | 7 | Bridges, 1954 cars, physical glass comparison and police desks suit paper miniatures; numbers/counter-surveys need careful visualization. Medium. |
+| Natural narration / clarity | 7 | Replaces several generalized recaps with observation/action and a concrete comparison; explanatory middle may still sound documentary. Medium. |
+| Verified viewer demand | UNVERIFIED | No comparable cohort, YouTube Studio impressions, CTR or retention; article existence is not audience measurement. No score. |
+
+**Hard checks:** historical chronology and qualifications are author-checked against the existing shared claim matrix, not new live source verification (web sources returned 403 this run); EN/RU paragraph sequence is paired; Paper ChannelSpec supports Long 16:9. 10m independent reviewer **UNVERIFIED**, bilingual second-reader **UNVERIFIED**, TTS duration **UNVERIFIED**; no AV seam applies to Long. Root storyboard belongs only to unchanged 02m exact hash. New Long's storyboard/spans are **NOT CREATED**. These author scores supersede old 10m scores, not the untouched 02m/05m scores.
+
+**Duration comparison:** 02m finishes core case and applies a provisional spoken loop; 05m gains a distinct University-vs-sheriff disagreement, Geiger checks and simple used/new proof without a long tail; revised 10m makes the competing tests more explicit and explains the feedback cycle but still adds fewer consequential turns than its duration costs. Likely slowdown: 10m between the transmitter test and university survey; 05m between the first scientific explanation and the sheriff disagreement. **Provisional recommendation remains 05m**, not owner approval, production authorization or a measured performance prediction. Git-only `EDITORIAL_CANDIDATE_UNREGISTERED`; no official runtime/reviewer receipt.
+
+---
+
 EDITORIAL_CANDIDATE_UNREGISTERED: самостоятельный редакционный разбор, не независимый script review и не official receipt.
 
 ## Review method and exact input

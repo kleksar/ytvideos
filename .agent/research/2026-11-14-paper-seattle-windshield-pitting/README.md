@@ -25,3 +25,7 @@ Paper Detour · EN Short · 1954 Washington. In the space of days, reports of pi
 Research and finalist comparison: [research.md](research.md). Author-only checks and unverified independent reviewer: [story-review.md](story-review.md). Exact bilingual preliminary compositions: [storyboard.md](storyboard.md). Thumbnail/title options: [packaging-brief.md](packaging-brief.md). Real local migration and remaining capabilities: [handoff.md](handoff.md).
 
 Nothing approved for production and no media generated.
+
+## 2026-11-22 editorial follow-up
+
+10m EN/RU has a substantive new final act after the University survey. [Complete EN](variants/10m/script.en.txt) / [complete RU](variants/10m/script.ru.txt), exact SHA-256 EN `8e0d0f9fac62d034035d0a485f8468969a836ba7c8bfaecc147ee5bd2765834e`, RU `d31ce4d59ace8b8616fd656a83110afb175e0985a49dbc6b6e732f6881fe1d0f`. Previous 10m evidence is superseded by the dated top section of [story-review](story-review.md). Unchanged [2m RU](variants/02m/script.ru.txt) / [EN](variants/02m/script.en.txt), [5m RU](variants/05m/script.ru.txt) / [EN](variants/05m/script.en.txt). Recommendation remains 05m for concrete causality with less repeated explanation. New 10m audio timing, independent reviewer, Long storyboard, and owner approval UNVERIFIED; old 14-scene plan ONLY applies to unchanged Short. `EDITORIAL_CANDIDATE_UNREGISTERED`.
