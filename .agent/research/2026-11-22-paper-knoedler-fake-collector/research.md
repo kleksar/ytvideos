@@ -69,3 +69,15 @@ No credible same-author, same-format, age-controlled baselines; **UNVERIFIED**. 
 - [Reddit r/ArtHistory, 2026-07-29](https://www.reddit.com/r/ArtHistory/comments/1va7a58/how_raman_spectroscopy_used_chemistry_to_uncover/): commenters distinguish tests that can **disprove** a date from tests that can **prove** authorship. Some anecdotes are inaccurate/unverified. These threads are *older than 90 days* as of observation, not “fresh trend.”
 
 No paid vidIQ requests or credit spend; detailed first-party channel analytics unavailable. Therefore **demand UNVERIFIED, not zero and not 8/10.**
+
+## 2026-11-22 10m revision evidence
+
+Revised 10m EN/RU on baseline `7c715ba19928ca4318d3349d1c44311a528c718c`, leaving 02m/05m intact. Important evidence added or moved (not independent editorial review):
+
+- [The Art Newspaper, 2016-03-01, “The Rothko”](https://www.theartnewspaper.com/2016/03/01/parties-settle-in-knoedler-case-as-court-hears-fakes-helped-keep-business-afloat): Domenico De Sole testified he asked Ann Freedman to put assurances in writing and she did. This is **trial testimony** and the buyer's account, not an adjudicated finding of mens rea.
+- Same 2016 article, “The Pollock”: the 2003 IFAR report could not authenticate the painting and rejected the described provenance; the account was subsequently changed. Script presents revision as testimony/reporting, **not** confirmation that any employee knew the story was false.
+- Same 2016 article, forensic accountant Roger Siefert's testimony: claimed gallery would have been unprofitable without Rosales sales; report also gives a high markup on De Sole painting. Again testimony, **not criminal conviction or audited causal proof**.
+- [DOJ 2013-05-21](https://www.justice.gov/archive/usao/nys/pressreleases/May13/RosalesGlafiraArrestPR.php): alleged undisclosed foreign account and false tax return; at arrest stage only an accusation. [DOJ 2013-09-16 plea](https://www.justice.gov/archive/usao/nys/pressreleases/September13/RosalesGlafiraPleaPR.php): subsequent admitted involvement, nonexistent Swiss client, false Spanish provenance, Queens painter, 1994–2009, two **non-additive** transaction figures.
+- [The Art Newspaper 2016](https://www.theartnewspaper.com/2016/03/01/parties-settle-in-knoedler-case-as-court-hears-fakes-helped-keep-business-afloat): the De Sole civil trial ended in settlements, not a jury verdict deciding director's knowledge.
+
+Story change: source of canvases is revealed *after* warnings and the bank trail, rather than before both; verified trial testimony replaces abstract repetition. **No extra material sufficient to make the edited 1121-word version a reliable 10m speech.** At 135–165 WPM with 10s end screen and up to 12s pauses, rough 6:58–8:40; real TTS UNVERIFIED. Need independently sourced new causal episode to attempt a longer version, or retain 05m. Demand remains UNVERIFIED.
