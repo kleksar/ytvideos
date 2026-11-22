@@ -1,0 +1,39 @@
+Which wastes more time when I build a shelf: checking too often, or discovering one wrong piece after everything is assembled? Can the same mistake make either method win, just because it happened at a different stage?
+
+On the floor in front of me is a fictional flat-pack shelf. There are six construction stages, and I can choose between two complete strategies. I want one result: the total time until the finished model is correct. 
+
+Before I touch a piece, I need fair rules. This is a calculation, not a filmed experiment or measured furniture assembly. Every one of the six stages takes four model minutes. Looking closely at a completed stage takes one. If a stage must be removed, that costs two, and rebuilding it costs another four. One extra check confirms a repair. Later stages physically depend on the earlier ones. In this imaginary unit, I cannot reach a wrongly installed part without removing everything built above it. 
+
+I call my first method A. I build one stage, inspect it, and only then go to the next. I call the second B. I build all six stages without stopping for checks, then inspect the finished unit once. Both methods get the same parts, the same assembly times, the same ability to detect an error when they inspect, and the same repair costs. 
+
+There are six building stages at four minutes each. That is twenty-four minutes whichever method I choose. A adds six one-minute checks, taking the total to thirty. B adds just one, ending at twenty-five. B wins by five. 
+
+Now I deliberately change just one input: a single panel is reversed at stage two. 
+
+I try A first. I complete stage one, check it, and move on. I complete stage two, inspect the panel, and discover its orientation is wrong. I remove that stage. It costs two minutes. I rebuild it correctly for four minutes and spend one more minute confirming that repair. Only then do I install stage three. My normal thirty-minute routine gains seven minutes. A finishes at thirty-seven.
+
+In B, I attach the wrong panel at stage two, but I do not check. I add stage three. Then four, five and six. The unit looks finished, and in this model my final inspection catches the reversed panel. This is the moment the five-minute shortcut stops being a shortcut. The wrong panel is buried behind five completed stages, including stage two itself. To reach it I take off stages six, five, four, three and two, at two minutes per stage. 
+
+Then I have to rebuild all five of those stages. Five times four is twenty minutes. Finally I inspect the correction for another minute. I already spent twenty-five minutes on the original build and final check, so this late discovery adds thirty-one. B finishes at fifty-six. A takes thirty-seven for the very same shelf, with the very same early mistake. Nineteen model minutes separate the two choices. 
+
+
+
+I slide the error along the six stages, one position at a time. For A, each case still has the same total: thirty-seven. The check after the mistaken stage catches it immediately, regardless of whether it is the first or sixth. That result depends on my assumption that the mistake is visible to that check.
+
+B behaves very differently. A stage-one mistake ends at sixty-two, because all six stages must come apart and go back together. A stage-two mistake ends at fifty-six, the case we just watched. A stage-three mistake takes fifty. At stage four it takes forty-four. At stage five it takes thirty-eight. And at stage six it falls to thirty-two. I'm not changing the speed of my hands. I'm changing how much completed work sits on top of the error.
+
+Something surprising happens near the end. When the mistake is at stage five, A wins by only one minute: thirty-seven against thirty-eight. Move the same error one stage later and B suddenly wins by five: thirty-two against thirty-seven. In the error-free version, B wins by five as well. So A is not always faster, and neither is B. The stage at which a repair becomes necessary changes the result.
+
+The model also lets me ask a different question. Suppose I do not know whether I will make a mistake at all. I could run this model many times, but to calculate an average I would need a probability for mistakes, and perhaps a different probability at every stage. I do not have that real-world evidence. I cannot pretend that my own repair rates or a furniture maker's failure rates have been measured.
+
+For illustration only, I can add a fictional rule: either the build has no error, or it has exactly one error, and that error is equally likely to occur at any of the six stages. Let p be the chance that this single-error case occurs. A costs thirty minutes when clean and thirty-seven when mistaken. Its average is therefore thirty plus seven times p. B costs twenty-five when clean. Its six possible mistaken totals are sixty-two, fifty-six, fifty, forty-four, thirty-eight and thirty-two. Their average is forty-seven. That is twenty-two above B's clean twenty-five, giving twenty-five plus twenty-two times p.
+
+Under those invented assumptions, the averages meet when five equals fifteen times p. That is p equal to one third. If errors occur less often than that, B's lower inspection cost wins on average. If they occur more often, A wins. But this one-third line is not a recommendation for people building furniture. It is the crossing point of my deliberately simplified equations. Change the chance of a mistake, the distribution of mistakes across stages, or what the check can see, and the crossing point moves.
+
+Now I challenge the model again. Why would a check at every stage always take exactly one minute? Some connections can be inspected in seconds. Others cannot be seen once a cover is attached. The final inspection might take much longer than a quick glance, especially when the shelf contains moving parts. Real assembly steps do not all take four equal minutes, and removing a finished component may cause damage rather than a neat two-minute reversal. My perfect error detection rule is especially generous. A check that misses a fault would break the tidy result for A.
+
+There is also a difference between checking the work and following the instructions. The model does not test whether a shelf is safe, whether it needs wall anchoring, or whether a step is reversible. I would never replace the manufacturer's installation or safety procedure with a scoring trick from a video. The only claim I can make is conditional: given these six stages and these invented costs, an early concealed error favors frequent checking, while a clean build or an accessible late error favors the single final check.
+
+So what did I actually learn? The cost of an error is not just the time required to correct that one part. It can include all the later work that must be undone to reach it. In A I paid for inspection before I knew whether it was needed. In B I saved the inspection cost and accepted the chance of a much bigger rebuild. The useful question is how many later steps depend on the part I am about to cover.
+
+I can finish this model with a definite answer and still face a genuine choice the next time I see a pile of boards and screws. Before I start again, I have to ask myself the same thing.
