@@ -1,0 +1,91 @@
+If I have a message to send, should I type it or speak it? Does faster text entry really mean a faster send? And why might the answer change just because the message is shorter?
+
+I'm leaving home with my phone in my hand. I need to tell someone where and when we're meeting. The note has sixty words, including a name and a place that must be right. I could type it while I stand by the door. Or I could tap the microphone, speak, and send the transcript.
+
+Those options feel almost identical until I ask what finishing actually means. Is the job complete when I see sixty words on the screen? No. It's complete when those words are correct enough to send to another person.
+
+I call typing A and dictation B. Pick one before the numbers appear. Both methods start with the same sixty-word message, on the same imagined phone. I score the seconds until the exact message is ready to send, not the seconds until the first draft exists.
+
+I'm not acting out a real stopwatch test. This is a calculated comparison built from declared assumptions. It can show how a result changes; it cannot tell you how your own phone will perform.
+
+For A, suppose I type and fix small mistakes as I go at fifty finished words a minute. To make sixty words, I need sixty divided by fifty minutes. That's one point two minutes, or seventy-two seconds.
+
+Imagine the screen filling as I type. The name arrives, the time arrives, and when I finish the last word the text is ready. In the model there's no extra proofreading step for A. That's a simplification, and I'll return to it.
+
+For B, I set a speaking-input rate of one hundred and fifty words per minute. The same sixty words appear as a draft after twenty-four seconds.
+
+For a moment it seems the race is over. The microphone has produced the words three times faster than my fingers.
+
+But the recipient doesn't receive a speaking speed. They receive a message. And the transcript still needs checking.
+
+In the first case I give B twenty seconds to read through the draft and correct anything that needs attention. Twenty-four plus twenty is forty-four seconds. That's twenty-eight seconds ahead of A.
+
+Now the distinction becomes visible. The microphone wins not because I speak quickly, but because the time it saves is greater than the time I spend checking its work.
+
+Let me reset the comparison. Same sixty words. Same phone. Same fifty-word typing rate and hundred-and-fifty-word speaking rate. I change one input: the time needed to make the voice draft send-ready.
+
+Instead of twenty seconds of review and correction, this time it's fifty-five. A tricky name or a wrong meeting place could make editing expensive. I'm not claiming that happened in a real test; I am setting an alternative correction cost.
+
+The microphone still makes its draft in twenty-four seconds. Then I spend fifty-five on it. That totals seventy-nine. Typing remains seventy-two.
+
+Now A finishes seven seconds earlier.
+
+The first winner lost even though its raw input speed didn't change. The difference was hiding in the step after input, between the draft and the Send button.
+
+I can work out exactly when the winner changes. A takes seventy-two seconds. The B draft takes twenty-four. The gap is forty-eight. That's the most editing time B can afford before it stops winning.
+
+If the corrections take forty-seven seconds, B needs seventy-one and wins by one. If they take forty-eight, both finish at seventy-two. If they take forty-nine, B takes seventy-three and loses by one.
+
+That boundary is more useful than declaring one method permanently faster. It tells me what to watch when I'm choosing.
+
+But there's a second surprise. The boundary itself moves when I change how much I have to say.
+
+Take a twelve-word reply. Imagine I simply need to confirm the time. At fifty words a minute, typing takes fourteen point four seconds. At a hundred and fifty, speaking those words takes four point eight seconds. If the dictation still needs twenty seconds of checking, B totals twenty-four point eight. A finishes about ten seconds earlier.
+
+Here the microphone is still three times faster at entering words, yet it loses the whole job. A fixed checking cost can outweigh the small time saved on a short message.
+
+Now return to sixty words. A needs seventy-two. B needs twenty-four plus twenty of checking, or forty-four. Here the faster input has enough distance to make up for the check.
+
+Try a hundred and twenty words. A requires a hundred and forty-four seconds. The microphone drafts it in forty-eight. With twenty seconds of correction, B takes sixty-eight: seventy-six seconds ahead. Even with fifty-five seconds of correction, B finishes at a hundred and three, which is forty-one seconds ahead of A.
+
+So I have a short reply that favors A, a medium message that can favor either method, and a longer message that favors B under these particular assumptions.
+
+Nothing mystical happened at those lengths. I can explain the entire crossover in one small calculation.
+
+Every word takes one point two seconds on my modeled keyboard and point four seconds by speech. Speaking saves point eight seconds per word before corrections. For a twelve-word message that's only nine point six seconds saved. For sixty, it's forty-eight. For a hundred and twenty, it's ninety-six.
+
+If the checking cost is a fixed twenty seconds, I need twenty divided by point eight, or twenty-five words, just to break even. Below twenty-five, typing is faster. Above twenty-five, dictation is faster. At twenty-five, they tie.
+
+Now set the correction cost to fifty-five seconds. Fifty-five divided by point eight gives sixty-eight point seven five words. The break-even point moves from twenty-five to almost sixty-nine. A sixty-word message no longer gives voice enough room to recover its corrections. A hundred-and-twenty-word message still does.
+
+This is why a single comparison at a single message length cannot tell me what to do every time. The entry speeds alone aren't the decision. It's the gap between those speeds multiplied by the amount of text, compared with the cost of fixing the result.
+
+There's an important assumption hidden in this neat rule. I've treated correction time as a fixed number. Real correction may not behave that way. Twice as many words could mean twice as many places to check, or it might mean just one troublesome proper name. The model can't pick the true correction cost without observing it.
+
+And I'm also giving A an advantage that deserves to be visible: its fifty-word rate already produces finished text, while B gets a separate checking cost. I did that to compare two send-ready outputs, but I haven't proved that my keyboard really needs no final review.
+
+Suppose I add ten seconds of final keyboard verification, for this same sixty-word message. A now takes eighty-two instead of seventy-two. The clean B still takes forty-four. Even the difficult B, at seventy-nine, is now three seconds faster than A.
+
+That isn't a secret third test. It's another disclosed sensitivity check, and it shows why a result changes when assumptions change. I should never report the original keyboard win as a universal fact.
+
+What if my voice input rate is slower too? If I dictate at a hundred words a minute rather than a hundred and fifty, sixty words take thirty-six seconds instead of twenty-four. With twenty seconds of checking, B becomes fifty-six. It still beats the original seventy-two-second A, but by sixteen seconds instead of twenty-eight.
+
+Again, I haven't timed that rate. I'm testing whether the original conclusion survives a plausible change of input. For this case it does. Under other combinations it won't.
+
+So how would I turn this from an illustrated model into a fair real experiment? First, I would decide whether I'm testing copying a prepared message or composing one from scratch. Those are different jobs. If I already know the exact words, I can compare the input methods. If I'm still thinking about what to say, that thinking time needs its own treatment.
+
+For a copying test, I'd prepare one sixty-word message and a fixed rule for what counts as correct. I'd use the same phone, language and keyboard. I'd time from the first action to the point where I could safely tap Send. I'd include the corrections, because a wrong meeting time is not a completed message.
+
+I'd also run more than one trial. I'd sometimes type first and sometimes dictate first. Otherwise practice might make the second method look better. I'd write down every time, including the slow rounds, and report the spread rather than my best attempt.
+
+If I change the surroundings, I'd say so. A quiet room and a crowded station are not interchangeable conditions. If I'm handling a private message on a train, I may not want to dictate aloud at all. In that situation B might not be a reasonable option, no matter how quick it is on paper.
+
+There's also the meaning of accuracy. A message can have the right number of words and still be wrong. The name, number, time or location can be what the other person needs most. In any proper real test, both outputs would have to meet the same correctness standard before the clock stopped.
+
+None of that requires me to announce that a microphone is good or bad. It requires me to define what I'm trying to finish.
+
+My original question was about speed. The model gives a limited but useful answer: for sixty words, when review takes twenty seconds, B finishes in forty-four and beats A's seventy-two. When review takes fifty-five, B needs seventy-nine and loses. The break-even editing allowance is forty-eight seconds. For a very short message, the fixed cost of reviewing can make typing faster even with much slower input.
+
+The stronger lesson is about where the finish line sits. I don't send a draft. I send a message I trust. Every comparison of these two methods should end at the Send button, not at the last word that appears on screen.
+
+Next time I pick up my phone, before I choose thumbs or microphone, I'm back to the same questions:
