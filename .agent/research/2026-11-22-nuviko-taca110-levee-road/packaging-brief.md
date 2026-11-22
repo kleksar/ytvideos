@@ -23,7 +23,7 @@ No media assets/photos/frames have been generated or licensed. Any later Nuviko 
 
 ## Length-specific packaging
 
-- **02m Short:** cold entrance “A passenger jet landed on a strip of grass beside a canal. Both engines had stopped.” Its verbal loop currently needs revision. Short top/first frame matters more than a promised clickable Long end screen; no fake Short card.
+- **02m Short:** cold entrance “A passenger jet landed on a strip of grass beside a canal. Both engines had stopped.” Its 02m narration was substantively revised to open during the powerless grass approach and end with a concrete ground-ahead return. Author text-only continuity is provisional; independent full double-cycle and AV seam remain UNVERIFIED. Short top/first frame matters more than a promised clickable Long end screen; no fake Short card.
 - **05m Long — recommended:** questions then real flight context then worsening hail / usable engine loss. Return to an unlikely damaged-but-intact jet, then the road ferry on **June 6, 1988**, thirteen days after the grass-landing of May 24. Any graphic or description must preserve those separate dates.
 - **10m Long:** engine-core/certification story is distinct; a technical thumbnail should not masquerade as a new crash or explosion. Need new audience evidence before preferring this slower treatment.
 

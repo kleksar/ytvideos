@@ -6,7 +6,7 @@
 
 | Version / format | English narration master (SHA-256 of exact UTF-8 bytes) | Full semantic Russian (SHA-256) | Actual count; estimated length | Editorial classification |
 |---|---|---|---|---|
-| 02m / proposed **Short** | [EN](variants/02m/script.en.txt) · `dcb503348469a23b8c925d804ba90e0e01aace7ab17e1934cb16baf08754afb4` | [RU](variants/02m/script.ru.txt) · `e7e37ff044841fdccf6026507162db58a67227c24c0e4d7919e1e8ef6e03fdee` | EN 284 words, ~1:54–2:16 at hypothetical 145–160 wpm + pauses | **REWORK**: last→first speech transition mostly restates location |
+| 02m / proposed **Short** | [EN](variants/02m/script.en.txt) · `9281d376a2d87fbb5ed2a3e552a66f86cba465a7dc78ef1ba7a6983e0492f60d` | [RU](variants/02m/script.ru.txt) · `61bd6db12240e2dc497f58f55497fb0b450a01cea40fb31338b9c6446a8f1345` | EN 274 words, ~1.71–2.07 min at hypothetical 145–160 wpm plus pauses; no real audio | **REVISED, text-only seam promising; independent and AV UNVERIFIED** |
 | 05m / proposed **Long** | [EN](variants/05m/script.en.txt) · `c3c18e9d5a3a1eeefa8c55c72ba9441d1fe35e07ecde9aed3231ab8394943570` | [RU](variants/05m/script.ru.txt) · `023df0d81d1b4c7be1a44c60a27b63d6fc18460c58c2091d0d32047d88777fd3` | EN 699 words, ~4:40–5:15 with pauses | **STRONG_CANDIDATE — recommended** |
 | 10m / proposed **Long** | [EN](variants/10m/script.en.txt) · `f9688fef7a15918377ba298a249b6a1c9f0877e217d0dd3d7cb7849f52072c55` | [RU](variants/10m/script.ru.txt) · `295d126bd7c7ce91f0a0a74476fb9f98fad633ea708909807c101bef1181dd10` | EN 1,353 words, ~9:00–10:10 with pauses | **REWORK**: the causal engine explanation runs long after the human resolution |
 
@@ -14,26 +14,32 @@ Duration is **not measured**: no real voice audio, no listening, no edit. WPM ra
 
 ### Exact hashes — origin
 
-Calculated over the six final Git blobs as literal UTF-8 bytes (not normalized or line-wrapped). Git blob IDs in order 02m EN/RU, 05m EN/RU, 10m EN/RU: `650d71462f98508ca1bc818312eb371c533c03b3`, `ed15cb95e7a41459609e790dffd53fbf5d8fb96e`, `dda238581e38aa0711d03ed3cd14f5972518f31e`, `ff9b00d5fd9d2d6e82709b15dea15383230106fa`, `2c70ba92507234e3d31f59cc47a609648ab261f1`, `2f0d0f7215d9dd02e5ea17009afef26b683a3128`. Any new edit invalidates the associated hash-bound assessment.
+Calculated over the six final Git blobs as literal UTF-8 bytes (not normalized or line-wrapped). Git blob IDs in order 02m EN/RU, 05m EN/RU, 10m EN/RU: `679cc7929c9f92216b13a267ad6bacdce8ec2f32`, `8793f7bacfc8e13cb33d35a878dbc4b34f0b6f60`, `dda238581e38aa0711d03ed3cd14f5972518f31e`, `ff9b00d5fd9d2d6e82709b15dea15383230106fa`, `2c70ba92507234e3d31f59cc47a609648ab261f1`, `2f0d0f7215d9dd02e5ea17009afef26b683a3128`. Any new edit invalidates the associated hash-bound assessment.
 
 ## Eight editorial criteria per exact completed version
 
 **Authorship:** same drafting writer and **self-review**, confidence **moderate** for text structure, **high** for source-linked basic events, **low** for response of an actual first listener. Scores are editorial judgements from the listed literal lines and source chain, **not** probabilities, viewer data or measured retention. `UNVERIFIED` is not zero.
 
-### 02m — proposed Short
+### 02m — proposed Short, substantive revision of 2026-11-22
+
+**Exact baseline:** original 284-word EN, SHA-256 `dcb503348469a23b8c925d804ba90e0e01aace7ab17e1934cb16baf08754afb4`; original RU `e7e37ff044841fdccf6026507162db58a67227c24c0e4d7919e1e8ef6e03fdee` at PR HEAD `266b458a8aab66f3063cc2e913cef223f379d9d6`. **Current:** EN `9281d376a2d87fbb5ed2a3e552a66f86cba465a7dc78ef1ba7a6983e0492f60d`, RU `61bd6db12240e2dc497f58f55497fb0b450a01cea40fb31338b9c6446a8f1345`. No alteration to 05m/10m, original sources, or approvals.
 
 | Criterion | Score / evidence and confidence |
 |---|---|
-| Interest / significance | **8/10**, moderate — “Both engines had stopped” on a passenger jet, then recovery from an improbable place; easily understood but not novel in aviation video space |
-| Opening | **9/10**, moderate — “A passenger jet landed on a strip of grass beside a canal. Both engines had stopped.” immediately names concrete outcome and contradiction |
-| Development / reason to continue | **8/10**, moderate — failed windmill restart, assisted relight, airport unreachable, levee, then need to recover jet; brisk and genuinely changing questions |
-| Payoff | **8/10**, moderate — “It took off, flew to New Orleans airport, and finished the journey it had missed.” resolves second question; some after-result explanation compresses science |
-| Freshness of angle | **7/10**, moderate — road takeoff after emergency landing is meaningful, but related documentaries exist |
-| Visual expressiveness | **8/10**, moderate — grass strip, weather, parked jet, transformed road can be composed without inventing passenger faces; no actual scene images checked |
-| Speech naturalness / clarity | **8/10**, moderate — short concrete declaratives, correct distinction “ignited” / “couldn't reach a stable idle”; final parallel road/grass line is slightly writerly |
-| Verified viewer interest | **UNVERIFIED**, low — no valid creator-matched YouTube baseline, analytics or comments; only unrelated public web and Reddit question |
+| Interest / significance | **8/10**, moderate — two linked concrete problems, powerless jet with 45 on board and a stranded airliner, backed by FAA and 1988 UPI |
+| Opening | **8/10**, moderate — “A Boeing 737 was gliding toward a strip of grass beside a canal. Neither engine was producing usable thrust.” gives a cold viewer both danger and visible destination; less surprise left for touchdown |
+| Development / reason to continue | **8/10**, moderate — hail → failed airflow relight → ignition without stable idle → inaccessible airport → water contingency → levee → recovery on former runway-road; each event changes the next problem |
+| Payoff | **9/10**, moderate — “Seventeen minutes later, they reached New Orleans airport.” answers the practical second-flight question rather than leaving the plane stranded |
+| Freshness of angle | **7/10**, moderate — planned ferry flight after the landing is a distinct follow-through, though other aviation accounts exist |
+| Visual expressiveness | **8/10**, moderate — grass levee beside canal, NASA grounds and old runway-road are distinct, documentable visual intents; source-image rights and actual shots unverified |
+| Speech naturalness / clarity | **8/10**, moderate — names the two engines' lack of *usable thrust*, avoids saying an ignition was a successful restart; the final ground-ahead transition needs actual listening to judge |
+| Verified viewer interest | **UNVERIFIED**, low — no creator-matched retention, CTR, fresh demand or actual commentary; public video counts are not a grade |
 
-**Main flaw:** final “It survived the storm because a grassy bank became one first” ends with a theme reset rather than a clearly causal spoken seam to “A passenger jet landed…”. Not an approved Short loop. **Self-read loop:** content complete before restart but literary recap; `loop=REWORK`, literal double cycle independent check **UNVERIFIED**, actual AV seam **UNVERIFIED**. No new claim of PASS. Writer has made **one** substantive editorial pass; a future rewrite must not discard the strong concise landing/recovery pairing.
+**Was → now:** earlier 02m opened by revealing the successful landing, repeated “both engines” in successive lines, and finished with the symmetrical grass/road aphorism. This text begins at the still-unresolved approach, shows the failed restart before the landing, makes the stranded-aircraft recovery a second practical decision, and contrasts the emergency with a deliberately prepared ferry flight. Same evidence, no invented feelings, quotations or touchdown details.
+
+**Text-only Short loop:** full English and Russian narratives were authored with a return from “the pilots had only the ground ahead” / “оставалась только земля впереди” to the first visible approach to the grass strip. There is a concrete temporal/visual dependency, not just a repeated keyword, colon or a compulsory final question. **Author assessment: provisional continuity, not independent PASS.** Two complete cycles by an independent first-time reviewer and exact AV seam remain **UNVERIFIED**. A meaningful weakness is that the reprise still revisits an already resolved emergency and could feel repetitive in performance.
+
+**Format:** 02m Short supported by current Nuviko ChannelSpec. Full resolved human/aircraft outcomes occur before the return beat. Actual voice timing, image rights, viewer response and runtime gate **UNVERIFIED**.
 
 ### 05m — recommended Long
 
@@ -67,9 +73,9 @@ Calculated over the six final Git blobs as literal UTF-8 bytes (not normalized o
 
 ## Comparison of the **finished texts**
 
-- **2 → 5:** 05m adds distinct meaning: powered relight can ignite without producing thrust; crew first considered water; a rescue surface is not a ferry runway; recovery required planned repair and reduced load. Extra time materially increases clarity and emotional relief. Failure risk in 2m: viewer may confuse ignition with full engine restart.
+- **2 → 5:** revised 02m now preserves ignition without stable idle and the water-landing contingency, but 05m adds spatial and physical explanation of glide, damage inspection, NASA runway constraints, and a fuller transition from rescue to repair. At the 02m fast hardware-summary line the audience may not absorb why earlier tests failed; 05m stays the recommendation.
 - **5 → 10:** 10m adds original test conditions, airspeed/fan speed effects, spinner/splitter/bleed-valve modifications and procedural changes. Genuine researched material, **not padding or another story**, but too much after the landing and road flight; at “Earlier certification tests had not reproduced…” a general-interest listener may stop waiting for the next human event.
-- **Recommendation:** **05m, illustrated Long**, Nuviko supports Long in ChannelSpec. 02m could be stronger for Shorts *after* natural loop revision and independent review; 10m suits engineering-focused audiences only after a reasoned reordering or tighter research-film brief. No preference for length itself.
+- **Recommendation:** **05m, illustrated Long**, Nuviko supports Long in ChannelSpec. 02m is stronger as a cold Short after substantive revision but awaits an independent full two-cycle review and actual AV seam; 10m suits engineering-focused audiences only after a reasoned reordering or tighter research-film brief. No preference for length itself.
 
 ## Checks — separate from editorial grades
 
@@ -78,16 +84,16 @@ Calculated over the six final Git blobs as literal UTF-8 bytes (not normalized o
 | Fact/causality, self cross-check | PASS (writer's source mapping only) | PASS (writer's source mapping only) | PASS (writer's source mapping only) | FAA flight/hail and UPI recovery; contemporary occupancy conflict recorded in research; this is not independent fact review |
 | EN↔RU semantic equivalence, writer | PASS (author check) | PASS (author check) | PASS (author check) | Same event order, 45, repaired vs emergency, road/levee, uncertainty; native-reader QA unavailable |
 | Channel/format compatibility | PASS for proposed Short | PASS for illustrated Long | PASS for illustrated Long | Nuviko ChannelSpec permits both; *not* runtime registration |
-| Natural spoken Short loop | **REWORK** | N_A | N_A | The physical seam after narration audio and visuals: UNVERIFIED |
+| Natural spoken Short loop | **AUTHOR TEXT-ONLY PROVISIONAL; independent two-cycle and AV UNVERIFIED** | N_A | N_A | Return to visible approach after complete landing and ferry payoff; not proof of audible seamlessness |
 | Unverified extra claims / licensing | UNVERIFIED | UNVERIFIED | UNVERIFIED | Actual photography/film rights not checked, generated reference bytes none |
 | Independent first-listener review of exact text | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** | Fresh independent session/reviewer capability unavailable in this run |
 | Actual audio length, sound, image and MP4 | UNVERIFIED | UNVERIFIED | UNVERIFIED | None produced, no narration playback or timed frames |
 
-**Revision attempts:** one full writing pass per version and one self-review; no independent revision cycle executed, no fabricated reviewer. The 02m speech seam is a substantive unresolved weakness, not relabelled PASS. No approval requested or inferred. Existing accepted source scripts/active runs untouched.
+**Revision attempts:** 02m received a second, substantive narrative writing pass; 05m/10m remain first-pass complete texts. No independent revision cycle or fabricated reviewer. The text-only seam is provisionally coherent but not independently validated. No approval requested or inferred. Existing accepted source scripts/active runs untouched.
 
 ## Story map: expectation → evidence → payoff
 
-- **02m** opens with the grass landing; hail / relight / land / second departure explains the apparent contradiction. Payoff before the parallel-grass closing line. The final line does not yet supply a seamless Short replay.
+- **02m revised** opens while the jet is still approaching the grass; hail → two distinct failed restart approaches → water contingency → levee landing → no-injury passenger payoff → stranded plane → planned road ferry → limited technical explanation → ground-ahead reprise. Spoken seam author-only, independent full double cycle and AV UNVERIFIED.
 - **05m** introductory questions → ordinary flight → 30s hail and failed restart (main hook) → levee and no injuries → airplane recovery problem → old road runway takeoff → why hail tests mattered → complete conclusion. Questions answered inside story.
 - **10m** asks three linked questions → descent details → engine loss → failed restart and glide → emergency landing → logistical ferry → why certification misread hail → modified hardware → bounded conclusion. At the marked post-ferry explanatory section, interest may fade.
 
