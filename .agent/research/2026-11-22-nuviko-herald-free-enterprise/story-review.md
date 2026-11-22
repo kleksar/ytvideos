@@ -6,28 +6,28 @@
 
 | Variant / intended format | English production master | Русский смысловой текст | EN word count (whitespace approximation) | Pre-audio estimate |
 |---|---|---|---:|---|
-| 02m / Short | [EN](variants/02m/script.en.txt) SHA256 `42f11dcceaa97183ca0f02da2571a9247e9818cc44b511dbafae6b56ce8c15cf` | [RU](variants/02m/script.ru.txt) SHA256 `057326706e296f71fce81f269380bfa3e97610f2507c4d3d57c712f872afbf75` | 277 | ~1:53–2:15 at 125–150 EN wpm including modest breaks; **not measured** |
+| 02m / Short | [EN](variants/02m/script.en.txt) SHA256 `91339ed2a3e5b18f9b551655570576682ee4c691fc3e2af11db25996601007f5` | [RU](variants/02m/script.ru.txt) SHA256 `5d43eb0bccc80521a898d122f540a293afa063bbe3850d55de40110a2dee1f78` | 254 | ~1:42–2:02 at 125–150 English words/minute, plus pauses; **not measured** |
 | 05m / Long | [EN](variants/05m/script.en.txt) SHA256 `48472fa0f05de5035b604047037099b9be27a6428c079d75a0276582815f1777` | [RU](variants/05m/script.ru.txt) SHA256 `ea3fb202dcb5f7e95a39ceeea822ba6abf51d74744beb78240d9f1f57f55f076` | 756 | ~4:45–5:45 around 132–159 wpm + brief pauses; **not measured** |
 | 10m / Long | [EN](variants/10m/script.en.txt) SHA256 `9b882bc5bada8e213709d8a1f43e2d1ae020228f4b4c5d2c142c4bd34a01c0b6` | [RU](variants/10m/script.ru.txt) SHA256 `9398497e7a6894b678e8c1929feb34c9b80ff6604319ae1dd63f99283aa9ad82` | 1550 | ~9:35–11:30 at 132–159 wpm + short pauses; **not measured** |
 
 EN 5m/10m Long have question-led intro, documented immersion, principal hook and causal development. The Long plot is not a Short stretched. Nuviko `channel.json` enables illustrated Short and Long; estimated exact cut needs authorized host TTS. The known speed `1.10×` remains fixed in future production rather than adjusting it to fake target length.
 
-## Eight criteria — 02m (one full standalone Short)
+## Eight criteria — 02m (substantive Short rewrite at this HEAD)
 
 | Criterion | Score | Specific textual/event basis | Confidence |
 |---|---:|---|---|
-| Interest/significance | 8 | “Were the bow doors closed?” followed by a passenger ferry leaving with car-size opening | Medium, author |
-| Opening | 7 | Clear cold question; early answer risks reducing curiosity | Medium, author |
-| Development / reason to stay | 7 | Sleep → unchecked departure → free-surface flood → prior warnings; crowd and rescue condensed into few lines | Medium, author |
-| Payoff | 8 | Earlier open-door sailings and refused bridge indicators reveal larger management issue | Medium, author |
-| Freshness of angle | 6 | Many pre-existing documentaries already cover open door and failure of supervision | Medium, public metadata |
-| Visual expressiveness | 8 | Contrasting bow doors, bridge indicator absence, moving water on car deck | Medium, design hypothesis; actual images UNVERIFIED |
-| Naturalness/clarity of speech | 8 | “Silence” vs confirmation in ordinary clauses; no invented conversations | Medium, author |
-| Confirmed audience interest | UNVERIFIED | Documentary public views span incompatible creators/lengths; no 2min-specific audience data | Not measured |
+| Interest/significance | 8 | Cold open names two wide-open ferry loading doors; minutes later the vessel capsizes with 193 dead | Medium, author; historical outcome primary-sourced |
+| Opening | 8 | "Both loading doors at the front of the ferry were wide open" immediately creates a concrete danger before explaining who should close them | Medium, author; untested first listener |
+| Development / reason to stay | 8 | Assigned crew member asleep → chief officer leaves without watching → no bridge indicator → no report → speed and mobile water → shallow-water rescue → prior fleet warnings | Medium, author; documented causality |
+| Payoff | 8 | The earlier sailings and unanswered requests shift the answer from one sleeper to a system that never required positive confirmation | Medium, author; inquiry supports |
+| Freshness of angle | 6 | Bridge information gap is specific, but established TV documentaries already explore the same disaster | Medium, public metadata only |
+| Visual expressiveness | 8 | Doors open, three separated crew positions, water moving on deck, ship on its side, missing bridge indicator; no visuals generated | Medium, author hypothesis |
+| Naturalness/clarity of speech | 8 | Short oral clauses including "No report came" and a concrete final missing fact, without invented dialogue | Medium, author; no voice measured |
+| Confirmed audience interest | UNVERIFIED | Public documentary metadata cannot establish Nuviko or Short-specific viewer interest | Not measured |
 
-**Main flaw:** the ending now supplies a precise invitation to the opening question instead of duplicating it, but the spoken seam may still feel like an editorial reset and needs an independent double reading. Full double EN/RU were author-read in drafting, not independently listened. **REWORK**: development 7 fails strong-candidate minimum; no production approval.
+**Authorial reading #1 and #2 (both full EN and RU):** the opening is understandable alone; the main promise is discharged before the final sentence by the inquiry's discovery of earlier open-door departures and ignored indicator requests. The final factual absence leads back to the literal first sentence as its answer. **EN exact seam:** "At the moment the Herald sailed, the bridge lacked the one fact that mattered most. Both loading doors at the front of the ferry were wide open." **RU exact seam:** "В момент выхода из порта на мостике не знали самого важного. Обе погрузочные створки в носовой части парома были полностью открыты." This is a plausible **text-only** spoken transition, not a proven AV seam; a blind reviewer may reject it. No colon, repeated final question, or fabricated survivor speech. **Status: REVISED_EDITORIAL_CANDIDATE; independent reviewer and AV remain UNVERIFIED; not approved.**
 
-**Exact seam EN:** “It was a question that should have been settled before departure. Were the bow doors closed?” / the first sentence is the exact final sentence, and the second is the exact opening after a loop, NOT a repeated final line. **RU:** “Этот вопрос должен был быть решён ещё до отхода. Были ли закрыты носовые ворота?” Exact ending + beginning. This is authorial semantic proposal only; an AV seamless join is UNVERIFIED.
+**Story map:** danger disclosed → ordinary car embarkation → three human/system gaps → acceleration moves water across deck → four-minute capsize → shallow-water escape and fatalities → the earlier fleet incidents / ignored written requests → systemic conclusion → information missing at departure → the opening supplies the exact missing fact. All facts already mapped to the original common inquiry and official later count; no new independent claim. Visual/scene plans for this new hash are NOT inherited from any old edition.
 
 ## Eight criteria — 05m (recommended complete documentary Long)
 
@@ -78,13 +78,13 @@ EN 5m/10m Long have question-led intro, documented immersion, principal hook and
 | Factual core | Authorial PASS / independent UNVERIFIED | Authorial PASS / independent UNVERIFIED | Authorial PASS / independent UNVERIFIED | Original formal inquiry pp. 1, 10–13, 23–26, 32–33; Hansard; MAIB official death-count update |
 | EN↔RU meaning/parity | Authorial PASS | Authorial PASS | Authorial PASS | Same actions, years, uncertainties and rescue outcomes; no separate bilingual reviewer |
 | Format compatibility | Authorial PASS (Short) | PASS profile allows Long | PASS profile allows Long | Nuviko ChannelSpec; not proof platform/actual runtime validation |
-| Narrative loop | Authorial REWORK; AV UNVERIFIED | N_A documentary Long | N_A documentary Long | 02m exact seam above; no voice or MP4 |
+| Narrative loop | Authorial text seam PLAUSIBLE; AV UNVERIFIED | N_A documentary Long | N_A documentary Long | 02m exact seam above; no voice or MP4 |
 | Visual/rights | UNVERIFIED | UNVERIFIED | UNVERIFIED | No real period images, Nuviko traveler reference PNG or asset licences examined |
 | Independent first listener | UNVERIFIED | UNVERIFIED | UNVERIFIED | No separate agent/session review; author cannot claim independent result |
 | TTS duration, playback, retention | UNVERIFIED | UNVERIFIED | UNVERIFIED | No audio produced, no native Studio analytics |
 | Owner script approval and official gate | NOT_RECEIVED | NOT_RECEIVED | NOT_RECEIVED | Editorial Git candidate only |
 
-**Revision cycles:** 02m had one meaningful author edit, removing its redundant final question; 05m retains the initial author review; 10m now has a first substantive rework of rescue and inquiry sequences. The edited exact EN/RU hashes invalidate the old 10m self-check for final approval. No second independent reading exists. Future author rework limited to 2 deliberate passes. No absent external reviewer response fabricated. Any changed exact script SHA needs new independent review. Final editorial statuses: **02m REWORK; 05m STRONG_CANDIDATE (recommended); 10m VIABLE_ALTERNATIVE_REVISED (independent UNVERIFIED).**
+**Revision cycles:** 02m now has a second substantive author edit: full recut to physical cold-open, separated responsibilities, rescue and a fact-answer loop; 05m retains the initial author review; 10m now has a first substantive rework of rescue and inquiry sequences. The edited exact EN/RU hashes invalidate the old 10m self-check for final approval. No second independent reading exists. Future author rework limited to 2 deliberate passes. No absent external reviewer response fabricated. Any changed exact script SHA needs new independent review. Final editorial statuses: **02m REVISED_EDITORIAL_CANDIDATE (independent UNVERIFIED); 05m STRONG_CANDIDATE (recommended); 10m VIABLE_ALTERNATIVE_REVISED (independent UNVERIFIED).**
 
 ## Planned independent review when capability becomes available
 
@@ -92,3 +92,7 @@ Fresh separate reviewer receives only exact raw EN text, no beat map or these sc
 ## Latest exact 10m revision / provenance
 
 Baseline branch head `0c018c7890782d58fbcabb54dbef6bfc2bcdc734`. Previous 10m SHA256: EN `cce6279ef495c334b7dc03e558118a232cd4b09eaf149856426fc4922ebde4e5`, RU `ae15743b7fd830ad67f3cb0eb9ceea17c8d81702e5733acc616f21f76777a48f`. **New 10m SHA256: EN `9b882bc5bada8e213709d8a1f43e2d1ae020228f4b4c5d2c142c4bd34a01c0b6`, RU `9398497e7a6894b678e8c1929feb34c9b80ff6604319ae1dd63f99283aa9ad82`**. Other four variants remain exact previous bytes/hashes. All author tests here are text-only. New independent reviewer and AV proof required. This editorial candidate is not an official ytv run or a production permission.
+
+## Exact 02m revision / provenance — 2026-11-22
+
+**Before → after:** PR HEAD `4085c77ed6a470916c22ed17c2fcb530b6a07b81` → new commit recorded in PR progress. Previous exact 02m SHA256 EN `42f11dcceaa97183ca0f02da2571a9247e9818cc44b511dbafae6b56ce8c15cf`, RU `057326706e296f71fce81f269380bfa3e97610f2507c4d3d57c712f872afbf75`; new EN `91339ed2a3e5b18f9b551655570576682ee4c691fc3e2af11db25996601007f5`, RU `5d43eb0bccc80521a898d122f540a293afa063bbe3850d55de40110a2dee1f78`. Complete [EN](variants/02m/script.en.txt) and [RU](variants/02m/script.ru.txt); 254 English words. Previous question-led intro and report-style conclusion replaced with a concrete doors-open cold start, clear responsibility / water / rescue causal sequence and a final missing-fact sentence which gains its literal answer on replay. Five- and ten-minute original blobs and their scores unchanged. The author recommends **05m**, not all three productions. **Next unpassed segment:** blind independent comparison of previous vs new 02m and exact EN/RU loop, then rights/storyboard bound to recommended 05m exact hash; real voice duration and AV seam remain UNVERIFIED. No runtime/reviewer receipt, owner approval, media, production or changed pins.
