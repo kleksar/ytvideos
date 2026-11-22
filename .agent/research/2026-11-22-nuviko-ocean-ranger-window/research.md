@@ -1,6 +1,6 @@
 # One-story research — Ocean Ranger / Nuviko History
 
-Date observed: **2026-11-22**. Source remote `main`: `131ef24068d75967b1e43aa88e5f1370f6775054`. Channel: `nuviko_history`, EN illustrated narrative; 02m planned Short and 05m/10m editorial Long. The 2016? policy reference is not used: PR #124 **merged 2026-11-16**; current editorial applies. No production run started (see handoff). These are author research notes, not an independent reviewer verdict.
+Date observed: **2026-11-22**. Source remote `main`: `131ef24068d75967b1e43aa88e5f1370f6775054`. Channel: `nuviko_history`, EN illustrated narrative; 02m planned Short and 05m/10m editorial Long. Policy PR #124 **merged 2026-11-16**; the current main editorial governs this candidate. No production run started (see handoff). These are author research notes, not an independent reviewer verdict.
 
 ## Actual selection coverage before production drafting
 
