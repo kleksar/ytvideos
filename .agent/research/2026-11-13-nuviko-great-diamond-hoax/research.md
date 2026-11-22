@@ -106,3 +106,20 @@ Fresh remote `main`, all open and closed PR/Issue titles and bodies, channel vid
 **English / Russian semantic contract:** 02m source byte copy untouched; 05m and 10m independently translated to preserve chronological logic, sampling vs deposit distinction, a natural/probabilistic inference rather than absolute impossibility, the economic context, Janin's unproven collusion, and that dissolution did not recover all losses. No invented quotations or inner voices. `story-review.md` records exact language hashes.
 
 **Baseline preserved:** 2026-11-13 original `script.en.txt` Git blob `86d9dd7ee3e9b15f80e9f97b1a672c6a07bf5bff`, `script.ru.txt` Git blob `72fb19f0a5b1ef26fadbd50ccba18204895bb1d1`, PR HEAD `b340e3661d230d6c964cc21b5fa52999840c9b08`.
+
+
+## 2026-11-22 10m claim check
+
+Re-read Robert Wilson, *The Great Diamond Hoax of 1872*, Smithsonian Magazine (June 2004), https://www.smithsonianmag.com/history/the-great-diamond-hoax-of-1872-2630188/ , sections beginning *“The first person the pair approached”*, *“Once Slack got his first 50 grand”*, *“Because of cold weather, Janin did not visit”*, *“What finally led to the hoax’s collapse”*, *“King and his men decided”* and *“The next morning King and Janin”*. These are retrospective reporting, not a newly read 1872 manuscript; narrative quotations are **not** copied into the script. Participant Harpending (1913), https://www.gutenberg.org/files/48834/48834-h/48834-h.htm , remains interested retrospective testimony. The new script does not use his disputed partially cut diamond anecdote.
+
+| Added or emphasized event | Specific reported basis | Limitation in narration |
+|---|---|---|
+| Arnold formerly worked for a diamond-tipped drill company; Roberts first saw the bag in San Francisco | Smithsonian opening Arnold and Roberts paragraphs | Don't assert theft of the first stones; exact source uncertain |
+| London purchase under other names, early 1870s and salted remote site | Smithsonian London merchant Leopold Keller and Janin preparation passages | Do not quote purchase profit as certain personal motive |
+| June 4, 1872, long winding horseback journey, immediate early finds; Janin claimed thousands of acres but site salted on a small patch | Smithsonian Janin June 4 section, original source includes interested memoir | The visitor's reported exclamation is not recreated as speech |
+| King's map work, Oct 1872 chance encounter, advance men, ~150-mile cold journey, claims notices, Emmons first small ruby | Smithsonian survey/Emmons diary sections | Original Emmons field notebook remains not inspected directly; no false claim of an independently verified direct diary |
+| Roughly a dozen rubies per diamond, broken vs untouched anthills, no diamonds in ten-foot trench | Smithsonian Emmons field notes retold; 1913 memoir also describes anthills with discrepancies | Pattern is evidence within this field, not asserted absolute mineral impossibility |
+| Dealer followed party, leaked news, return to SF Nov 10, investors halted public shares and sent second inspection | Smithsonian Berry and November directors passage | Motive for haste limited to preventing additional share transactions; no claim of trades or proof of dealer's intent |
+| Board dissolution Nov 25 and newspapers Nov 26; Arnold settled with investor | Smithsonian directors and Arnold later-life paragraphs | No assertion all sums reimbursed, no proof of Slack arrest |
+
+No new demand/retention measurement; remains UNVERIFIED. One shared research preserved; scene and AV assertions not established by this ledger.

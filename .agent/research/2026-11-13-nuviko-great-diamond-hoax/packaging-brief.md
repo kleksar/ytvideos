@@ -29,3 +29,8 @@
 The original Short thumbnails/opening above are **only suggestions for 02m**. If 05m Long is selected, use its exact introductory promise: *why two apparently convincing expert checks failed and what the geologists examined instead*. An illustrative wide-screen concept: two credible rough gemstones above a bare Wyoming mesa; in the same physical scene a disturbed anthill and cut earth show the verification failure. No fabricated archival still or invented Tiffany endorsement of the mine. Other 10m emphasis, if independently approved, is the series of inspections (sample / surface / deeper layer) with the company directors' reversal and the surveyors' exposure.
 
 No storyboard, artwork, final title, thumbnail, audio, measured first proof time, or native YouTube layout has been approved for Long. Do not transfer old Short-specific 9:16 geometry to 16:9 or treat visual directions as image generation consent.
+
+
+### 2026-11-22 · 10m planning update (no images)
+
+For the revised 10m, opening promise is a practical decision about trustworthy evidence: real bag → Tiffany sample → Janin's surface check → King's test of *distribution and depth*. Visual order should follow the actual narration, notably the June 4 horseback field arrival, King's party following claim markers, damaged vs intact anthills, ten-foot empty trench, and final directors' second expedition. Recreate shot list from the exact new 10m hash EN `fefce974e5930fedc17fe62692e449d3c442b2c013a84f15c6fca7ea894cd5dc`; the old 16-shot Short-only storyboard is invalid for it. No visual sources, references, scene images or voice generated. `EDITORIAL_CANDIDATE_UNREGISTERED`.
