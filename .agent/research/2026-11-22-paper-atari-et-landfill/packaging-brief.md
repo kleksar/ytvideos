@@ -6,7 +6,7 @@
 
 | Версия | Title (EN) | Центральный первый образ | Первое подтверждение | Полный payoff |
 |---|---|---|---|---|
-| 02m Short | **Atari Buried E.T. — But Look What Else They Found** | Из ковша выходят два разных бумажных картриджа, а не масса одинаковых | E.T. среди других известных игр в первом предложении | Не только E.T.; музейный предмет с provenance |
+| 02m Short | **Atari Buried E.T. — But Look What Else They Found** | Грузовики 1983 у свалки и газетный лист; позже в ковше появляются разные игры | Публичный газетный отчёт 1983; E.T. подтверждается позднее, хиты раскрываются после неё | Смешанные складские остатки вместо тайной могилы одного провала; музейный предмет с provenance |
 | **05m Long** | **Atari's Game Graveyard Wasn't What People Thought** | Свалка/экскаватор, E.T. и другая узнаваемая игра рядом, бумажная фактура | Вопросы о truckloads и успешных названиях в самом начале | После найденной E.T. выходят Centipede, Missile Command → объяснение: смешанные запасы, музей |
 | 10m Long | **The Game That Went From Christmas Shelves to the Smithsonian** | Рождественская магазинная витрина / свалка / музейный ярлык в бумажной перспективе | Вопрос о пути объекта от продажи до музея сразу | Картридж перешёл от товара к мусору и историческому свидетельству |
 
@@ -31,3 +31,8 @@ Title/thumbnail ratio, визуальные права, mobile readability, intr
 ## 10m r2 — promise/proof/payoff
 
 EN SHA-256 `fdefa420b2205420bc50b3261346ef6d13baa0e8449c5e10796d1e968f6c795c`. Вопрос в начале теперь об организаторе вывоза, а не о неизвестном высшем инициаторе. Первое подтверждение — E.T. из ковша; главный поворот — Centipede/Missile Command; дополнительное развитие — свидетельство Хеллера и музейная проверка происхождения Робарджа. Все кадры/упаковка/next-video target остаются предложениями: реальных media, проверенных art rights и AV нет. Рекомендация 05m сохраняется.
+
+
+## 02m r3 — новая последовательность visual intent
+
+Exact EN SHA-256 `7a6ec816c5b3f74dbb42cdd1e3ac6f7546d8fea14fe37c43d4ba54f0ee043103`, RU `67e469534f8a283101b4746b368a7374192aedc7186efd9da7e70500b70d3a7f`. Предложение: trucks/newspaper → Warshaw/deadline → warehouse/Heller → legend → joystick grip → E.T. → Centipede/Missile Command → museum → contextual return to trucks. Это **не** storyboard, не сценовые тайминги и не media asset. Первую сцену с двумя хитами не использовать: она теперь раскрыла бы payoff раньше текста. Нужна новая точная сценовая привязка после выбора версии. Loop actual AV UNVERIFIED.

@@ -42,3 +42,8 @@ uv run ytv plan --run ACTUAL_RUN_ID
 ## 10m r2 — редакционная запись (2026-11-22)
 
 Baseline PR HEAD `aa3603609f727341234ffcacbff19e6c0c0f0edb`; исходные 10m blobs EN `3ac01abffb5a0f5bad84bc096aa2d283227d0319`, RU `5cb08a0af6c46843a4bf0b2d8d3d4722007b5257`. Новый 10m SHA-256 EN `fdefa420b2205420bc50b3261346ef6d13baa0e8449c5e10796d1e968f6c795c` / RU `47829261ec1808482eb82ebaa0bf922445ac84b047b5e0a8fb2ea7ff6485a128`. Был повторный объяснительный хвост после находки успешных игр; теперь ведёт цепь ограниченный поиск → E.T. → другие хиты → конкретное объяснение логистики Хеллером → документированная музейная атрибуция по Робарджу. Источники S1/S3/S4/S6, неопределённость высшего заказчика сохранена. 02m/05m unchanged и 05m recommended, не approval. Новая 10m r2 нуждается в independent reviewer и в новой раскадровке после выбора exact hash. Runtime / TTS / AV / upload не выполнялись.
+
+
+## 02m r3 — новая короткая редакция (2026-11-22)
+
+Baseline `cfacdcb0f3b2b4449dd531c65907d7eaa9202dad`, прежние Git blobs EN `595ef99250aa32f243f5481ff402f9fd493fc09e`, RU `ec6afef35945c55359aa255476a48f1471137419`. New SHA-256 EN `7a6ec816c5b3f74dbb42cdd1e3ac6f7546d8fea14fe37c43d4ba54f0ee043103`, RU `67e469534f8a283101b4746b368a7374192aedc7186efd9da7e70500b70d3a7f`. Газетный вывоз → склад → открытие E.T. → Centipede/Missile Command → музей. Источники S1/S3/S6/S7 уже в research; 05m/10m без изменений, рекомендация 05m. EN/RU loop дважды автором по тексту; независимый reviewer и реальный AV UNVERIFIED. Пункты о runtime/pins/owner approval выше актуальны.
