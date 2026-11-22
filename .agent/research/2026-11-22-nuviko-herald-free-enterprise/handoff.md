@@ -1,0 +1,17 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Handoff — Nuviko History: Herald of Free Enterprise
+
+**Remote base**: `main` at `131ef24068d75967b1e43aa88e5f1370f6775054` at selection time. Original PR #124 policy has been merged, so current canonical main editorial + writer skill used; proposed commit `7d6bdf7702a2a241a33a21677fce29f26ada9b72` remains historical reference only, **not main**. No other existing runtime pins changed.
+
+**Runtime blocker observed**: container command `uv run ytv start --channel nuviko_history --format short --intent 'Create Nuviko History draft story candidates with complete 2 5 10 minute bilingual scripts'` failed with `Failed to spawn: ytv; No such file or directory (os error 2)`; this host has no repository checkout/installed CLI. Thus unavailable capabilities include saved run, plan_summary, read_next, task_guide, pinned reference_documents, context/lease/claim, artifact attach, independent reviewer invocation and official `awaiting_script_approval`. This PR is a **Git-only editorial candidate**, not an official registered run or an owner-approved master. The author used remote GitHub connector to read canonical main; no local Git tree or uncommitted owner files were modified.
+
+**Proposed**: 05m Long master `variants/05m/script.en.txt` SHA256 `48472fa0f05de5035b604047037099b9be27a6428c079d75a0276582815f1777`, RU `ea3fb202dcb5f7e95a39ceeea822ba6abf51d74744beb78240d9f1f57f55f076`. Short 02m and Long 10m are also complete **separate** editorial choices, *not* automatically produced. 02m loop needs work. The recommended length does not grant production permission.
+
+**Continue on actual local host** after review: read this immutable PR HEAD and exact scripts/source ledger; compare active main and existing runs; create a proper `uv run ytv start --channel nuviko_history --format long --intent 'Herald of Free Enterprise: editorial story review and one proposed script master'` (or resume an actual pre-existing matching run). Read actual `plan_summary`, `read_next`, `task_guide` and pinned docs for that run. Attach actual `script_variant` and `story_review` artifacts with real paths and returned IDs. Assign a **separate real independent reviewer** to exact script hash, first unprompted then source review; use canonical reading-input helper and save its real result, not a self-authored substitute. Do not claim script gate before all required checks. Present one chosen exact script to owner for approval.
+
+Next, only if selected approved, verify Nuviko visual PNG reference bytes and permitted historical photographs, complete the **05m-only** preproduction/storyboard tied to exact master hash, measure approved voice and actual shot lengths, consider Long end-screen target from approved material. Do not copy speculative story durations to timing. Check rights. Permission to create a new story PR explicitly **does not** authorize TTS, ImageGen, external video, MP4, upload, publication or changes to release schedule.
+
+No branch force-push, merge, repo docs/skills/profile edits, existing PR status changes or issue creation. Script approval, independent review, 05m duration, rights and any real AV elements all remain pending. External metadata demand signals are labelled UNVERIFIED as Nuviko-specific audience evidence.
+
+**Changes** (once PR is published): eleven files only under `.agent/research/2026-11-22-nuviko-herald-free-enterprise/`, including six complete text files. Keep actual remote head and checks results in PR conversation; queued/in_progress not success.
