@@ -11,7 +11,7 @@ This Git-only candidate is NOT an official `ytv start` run, has no script gate/i
 - Next channel after last-created #366 Paper based on remote-created PRs: Nuviko. No duplicate Salyut 7 story title found in remote open/closed PR search. Unlisted private episode overlap UNVERIFIED.
 - New research: [research.md](research.md). Per-text author review, complete versions, hashes and recommendation: [story-review.md](story-review.md). Exact 05m packaging scope: [packaging-brief.md](packaging-brief.md).
 - Proposed master: `variants/05m/script.en.txt`, SHA-256 `87e0d80a18f45cdd102e0b058506603bc4fe0011cbd9279ec8438cdff69b0c04`. Supporting RU SHA-256 `41015eea42543a18c2b5334fe508e2f88268d1078e9174e7a0d0b17fb44da433`. Other language/length hashes in story-review.
-- All three 2/5/10 versions are independent, full and bilingual. Editorial 02m = REWORK (seam textual FAIL); 05m = STRONG_CANDIDATE (recommend, not approved); 10m = REWORK (repeated closing summary).
+- All three 2/5/10 versions are independent, full and bilingual. Editorial 02m = REVISED (author-only textual seam provisional PASS; AV and independent UNVERIFIED); 05m = STRONG_CANDIDATE (recommend, not approved); 10m = REWORK_UNDERLENGTH (rewritten last act, estimated too short for reliable 10m).
 
 ## Actual capabilities observed
 
@@ -19,7 +19,7 @@ This Git-only candidate is NOT an official `ytv start` run, has no script gate/i
 - Direct and deferred function registry was searched for independent session/spawn capability; no `collaboration.spawn_agent` or independent agent session tool present here. Thus no reviewer was invoked and no schema response fabricated. All independent-review checks remain **UNVERIFIED**.
 - Remote GitHub connector was available for safe branch/file writes and post-write read-back. Web tools and free searches were available for source research and public YouTube metadata. No vidIQ credits or other paid provider calls made.
 - Actual Nuviko traveler PNGs with brand-authorized hashes were described in channel profile but not materialized, so their existence/content and rights were NOT verified in this run. No fake PNGs/prompts/timing assets.
-- Exact voice duration, media rights, final AV loop and real YouTube metric baselines remain **UNVERIFIED**. Short author-detected loop defect is **FAIL**, not UNVERIFIED.
+- Exact voice duration, media rights, final AV loop and real YouTube metric baselines remain **UNVERIFIED**. Short original loop defect was **FAIL** at baseline; replacement text has an author-only provisional textual PASS; independent and real AV seam remain **UNVERIFIED**.
 
 ## Local migration to official runtime — instructions, NOT performed actions
 
@@ -34,3 +34,9 @@ This Git-only candidate is NOT an official `ytv start` run, has no script gate/i
 No merges, history rewrites or other branches touched intentionally. On finish, reread remote branch HEAD, compare diff against recorded source main, check 11 files, exact bytes/sha256 of six scripts and CI of that exact HEAD. Queued/in-progress checks are not PASS. A branch/PR alone does not represent completed approval.
 
 **Outstanding blockers:** official runtime missing executable `ytv` / code checkout; independent sessions tool absent; exact future endscreen intro/source unavailable; final reference assets, visual rights, measured timing and AV checks not executed. This is an allowed Git-only editorial queue, not a failed production claim.
+
+## Editorial revision against baseline 5c17767642eef6cc85b2e0676fca15157bf01d23
+
+Two variants were changed in the original PR branch without changing 05m or its packaging hash: Short [EN](variants/02m/script.en.txt) `85393e1e25ab632882ac705f0b3bd44085f6076d077335811419914185023929`, [RU](variants/02m/script.ru.txt) `3bb0363f6bb058caabfee622eb7ac15f424ec65c12253473050ffc6e8678c5eb`; Long 10m [EN](variants/10m/script.en.txt) `b67d72feb82fc3a5859d3c4b718956d0a6b7f0d72c5ee073a935ef4db7af92bf`, [RU](variants/10m/script.ru.txt) `232d611f08385f68583754db5fe8fe084b0250dbc1d9b2d821376fcd4ecde8c8`. Baseline blob ids and all previous SHA-256 are preserved in story-review. Current 10m EN 1232 words is an estimated underlength risk, not validated narration timing.
+
+**Next unpassed area:** independent reviewer on blinded exact EN/RU versions, then actual AV seam of 02m and measured 10m duration. Do not create a fake receipt or production run. Research facts remain from NASA pages cited in research.md; no new factual event is asserted beyond the existing sourced August 2 EVA / continued Savinykh mission.

@@ -1,35 +1,37 @@
 # Story review — exact six narrations
 
-Author: editorial-writing agent (self-review **only**); evaluation date 2026-11-22. No independent session available in this host; independent review **UNVERIFIED** for every language/variant. Scores describe editorial judgment, not retention, CTR, click probability or success forecast. Primary verification map: [research.md](research.md), NASA *Mir Hardware Heritage* pp.98–100.
+Author: editorial-writing agent (self-review **only**); evaluation date 2026-11-22; 02m/10m re-evaluated against their revised exact text, with baseline hashes preserved below. No independent session available in this host; independent review **UNVERIFIED** for every language/variant. Scores describe editorial judgment, not retention, CTR, click probability or success forecast. Primary verification map: [research.md](research.md), NASA *Mir Hardware Heritage* pp.98–100.
 
 ## Exact read-back file hashes (SHA-256 of UTF-8 text including final newline)
 
 | Variant / format proposal | English master SHA-256 | Full Russian editor SHA-256 | EN words / rough 130–150 spoken wpm plus pauses |
 |---|---|---|---|
-| 02m / narrative Short (provisional, loop unresolved) | `13bd75aea53fbc2138301ae3d7f778f033179a584b65b1b47d50601cf85cb411` | `d3a4d173a64aa6fbdbffef16f07dda6ab8fcce74c9815d9c3571097bc4c3f618` | 265 / ≈1:46–2:15 before visual pacing and any repeat |
+| 02m / narrative Short (author text seam provisional PASS) | `85393e1e25ab632882ac705f0b3bd44085f6076d077335811419914185023929` | `3bb0363f6bb058caabfee622eb7ac15f424ec65c12253473050ffc6e8678c5eb` | 252 / ≈1.68–1.94 minutes before pauses; unmeasured |
 | 05m / documentary Long | `87e0d80a18f45cdd102e0b058506603bc4fe0011cbd9279ec8438cdff69b0c04` | `41015eea42543a18c2b5334fe508e2f88268d1078e9174e7a0d0b17fb44da433` | 616 / ≈4:06–4:54 plus pauses / endscreen; not measured |
-| 10m / documentary Long | `1142433009c741b2b50d6586474bfeb4973925b01bdd5aa447d19324f399e98b` | `4a64abfd0f70fa1bb70206c49123ba7ac79d883e96545879bee5413a1743c705` | 1364 / ≈9:06–10:30 plus pauses / endscreen; not measured |
+| 10m / documentary Long (REWORK_UNDERLENGTH) | `b67d72feb82fc3a5859d3c4b718956d0a6b7f0d72c5ee073a935ef4db7af92bf` | `232d611f08385f68583754db5fe8fe084b0250dbc1d9b2d821376fcd4ecde8c8` | 1232 / ≈8.21–9.48 minutes before pauses/endscreen; unmeasured |
 
 Numbers above are estimates from word counts only. Actual voice speed is set by the channel and cannot be adjusted to hit a headline target. Endscreen timing, breaths and pacing are not measured.
 
-## Variant 02m — REWORK (one meaningful author pass; full story, weak linguistic loop)
+## Variant 02m — revised narrative Short / EDITORIAL_CANDIDATE_UNREGISTERED
 
-Exact opening: "Two cosmonauts flew to a space station that could no longer answer them." Exact closing: "And it all began with the problem Dzhanibekov faced outside: how do you approach a station that cannot help you park?" A two-cycle text-only check detects a **thematic restart**, not a direct answer: closing asks *how*, opening says *two people flew*. Cold opening is clear; full payoff (station can orient and accept parts) occurs before the last line, but the literal seam does not quite connect. Short loop **FAIL (author textual check)**; audio/visual seam **UNVERIFIED**. No false PASS based on shared word "station". A future short revision must rewrite opening and ending together, then recalculate SHA/redo reviewer. Do not trigger production on this Short as-is.
+Baseline HEAD `5c17767642eef6cc85b2e0676fca15157bf01d23`, original EN SHA-256 `13bd75aea53fbc2138301ae3d7f778f033179a584b65b1b47d50601cf85cb411`, original RU SHA-256 `d3a4d173a64aa6fbdbffef16f07dda6ab8fcce74c9815d9c3571097bc4c3f618`. **New exact:** [full EN](variants/02m/script.en.txt) `85393e1e25ab632882ac705f0b3bd44085f6076d077335811419914185023929`; [full RU](variants/02m/script.ru.txt) `3bb0363f6bb058caabfee622eb7ac15f424ec65c12253473050ffc6e8678c5eb`. 252 EN words; rough 1:41–1:56 before edit pauses, voice at channel-approved speed unmeasured.
 
-Story map: manual approach → first inactive docking → cold air/frost → depleted batteries/failed sensor → Soyuz angles panels → June 10/13 recovery → cargo consequence. Strong point: "They had reached Salyut. They had not rescued it." Main weakness: resolution is telescoped and short loop not actually continuous.
+**Before → after:** previous opening promised an unresponsive station and ended by *asking how to approach it*, but the next line never answered that question. The new first line shows the rolling station at arrival; manual laser-aided approach, docking, air test, failed batteries, Soyuz-powered turn, June 10/13 heating/orientation and June 23 cargo delivery remain. Last line contrasts the working station with the first Soyuz's arrival. Reading the full EN and RU from last line into first twice gives a complete contrast, not a syntactically broken tease or a repeated unanswered question. **Text-only author seam: provisional PASS; actual listening/AV seam and independent reader UNVERIFIED.**
 
-| Editorial criterion | Rating | Exact grounding / why |
+Story map: silent/rolling station on approach → cause/mission in February → laser and manual dock June 8 → frost and eight flat batteries → pointing-sensor/power circular dependency → Soyuz turns the pair → heat / attitude restore → moisture risk → cargo arrives → contrast with first arrival. First independent listener may still find the final contrast over-explicit; do not treat this self-check as a review.
+
+| Criterion | Author score | Grounding / deficiency |
 |---|---:|---|
-| Interest / significance | 8 | Manual docking with an unpowered station is a tangible, novel-feeling task, not a generic mission |
-| Opening | 8 | "Two cosmonauts flew to a space station that could no longer answer them" states situation immediately |
-| Development / reason to continue | 8 | "They had reached Salyut. They had not rescued it" makes docking a midway turn |
-| Payoff | 8 | "By June thirteenth, Salyut could control its orientation again" gives an objective resolved outcome |
-| Freshness of angle | 6 | A known 2017/2023/2025 documented subject; our focus after docking is a candidate differentiation |
-| Visual expression | 8 | Unaligned solar panels, slow rotation, frosted instrument panels, spacecraft orientation |
-| Naturalness / clarity | 8 | "They had reached Salyut. They had not rescued it" plain language; explanation of failed sensor slightly compressed |
-| Verified audience demand | UNVERIFIED | Public views span authors and languages, no matched Nuviko baseline, no CTR/retention |
+| Interest/significance | 8 | Manual docking is only the first act; confirmed frozen interior alters what rescue means |
+| Opening | 8 | "Salyut 7 was slowly turning" gives a physical cold entry and immediately establishes missing guidance |
+| Development / reason to continue | 8 | Docking → dead electrics → Soyuz orientation is a different obstacle each time; moisture condensed |
+| Payoff | 8 | Progress 24 actually arrives June 23, showing station usable again |
+| Freshness of angle | 6 | Competing explainers already cover this event; our focus is the repair after docking |
+| Visual expression | 8 | Misaligned panels, laser approach, frost, joined ships turning toward Sun |
+| Naturalness / clarity | 8 | Plain verbs and full final sentence; battery/sensor mechanism remains dense for 2m |
+| Verified audience interest | UNVERIFIED | No matched Nuviko analytics, actual CTR/retention or first-listener data |
 
-Author confidence: medium about clear facts and premise, low about Short repeat seam and actual run time. Strongness rule: despite ≥8 on three critical editorial dimensions, **not** STRONG_CANDIDATE because mandatory Short loop fails.
+Author confidence medium on factual event order, low on physical seam and duration. Semantic EN/RU facts checked by the author, not independent. Short still not production-authorized.
 
 ## Variant 05m — STRONG_CANDIDATE (editorial recommendation; NOT approved)
 
@@ -50,37 +52,39 @@ Story map: communication silence → why an ordinary rendezvous fails → laser-
 
 Main weakness: a subject already repeatedly explained by established science channels; unfamiliar audience may not distinguish original packaging. Confidence: medium about documentary event coverage and editorial flow; low on actual audience interest and spoken timing. Proposed master 05m **SHA `87e0d80a18f45cdd102e0b058506603bc4fe0011cbd9279ec8438cdff69b0c04`**. Long format supported in current Nuviko ChannelSpec. A full reviewer is still mandatory before official script gate.
 
-## Variant 10m — REWORK (complete alternative, lower density)
+## Variant 10m — rewritten opening and post-Progress ending / REWORK_UNDERLENGTH
 
-Opening questions cover communication, docking and thawing. Early context includes the 1983 propellant repair and October 1984 departure. New beyond 05m: March 1985 public report versus subsequent mission decision; former orbital repair and maintenance; full inspection logic; dependency on Soyuz for orientation vs powered station orientation; slow thaw through end July; replacement details; August 2 EVA and later Savinykh occupancy. These are real events, not fabricated filler, but not all add equal dramatic value.
+Baseline HEAD `5c17767642eef6cc85b2e0676fca15157bf01d23`, original EN SHA-256 `1142433009c741b2b50d6586474bfeb4973925b01bdd5aa447d19324f399e98b`, original RU SHA-256 `4a64abfd0f70fa1bb70206c49123ba7ac79d883e96545879bee5413a1743c705`. **New exact:** [full EN](variants/10m/script.en.txt) `b67d72feb82fc3a5859d3c4b718956d0a6b7f0d72c5ee073a935ef4db7af92bf`; [full RU](variants/10m/script.ru.txt) `232d611f08385f68583754db5fe8fe084b0250dbc1d9b2d821376fcd4ecde8c8`. 1232 EN words / approximately 8.2–9.5 minutes of speech before pauses and endscreen; this is not measured. The revised script is **under the intended 10m at faster narration**: do not label the 10m production timing validated.
 
-Strongest moment: "The two systems were trapped in a circle" followed by the physical Soyuz maneuver. Main deficiency: after Progress arrival, the speech summarizes the same sequence for several paragraphs beginning "This is why docking is the wrong place to end the story" and "The crew had to reach a rolling station". The ending feels explanatory rather than living in the August EVA's visible result. This drop justifies REWORK despite a complete source-backed text.
+**Before → after:** Intro now asks three specific documentary questions about docking, safe air, and a potentially damaging thaw before immersion and main visual hook. Earlier version recapped all engineering steps *after* Progress had already arrived. New final act moves through a fresh event — August 2 EVA fitting solar-array sections — and ends on the confirmed human consequence: Dzhanibekov later leaves and Savinykh stays to operate the same station he first entered wearing warm clothes. No new personal thoughts, dialogue, emergency or technical claim added.
 
-| Editorial criterion | Rating | Exact grounding / why |
+Story map: prior repair history / empty station → loss of communication and rescue decision → manual laser-assisted docking → air test, frost and dead batteries → pointing sensor / Soyuz breaks power circularity → gradual heat, thaw hazard and loss of water heater → June 13 attitude control → June 23 Progress cargo arrival → August 2 EVA → Savinykh's continued occupation. Distinct added value over 05m: 1983–84 repair legacy, March announcement vs recovery decision, month-scale thaw and water restoration, EVA and subsequent station residency. Weak spot is **the early 1983 background**: it delays the 1985 crew story; cutting it further would make the 10m target even less defensible. Extra verified material with a new event is required to reach ten minutes without padding.
+
+| Criterion | Author score | Grounding / deficiency |
 |---|---:|---|
-| Interest / significance | 8 | Same substantial risk and human-scale repair |
-| Opening | 8 | Three distinct questions with early explanation of station value |
-| Development / reason to continue | 7 | Actual August EVA adds event, but March announcement and post-Progress summary delay/duplicate the result |
-| Payoff | 8 | Cargo arrival plus upgrade and renewed occupation satisfy promise, yet final recap flattens it |
-| Freshness of angle | 6 | Additional historical background also appears in pre-existing documentaries |
-| Visual expression | 9 | 1983 EVA pipes; 1985 manual docking; frozen station; new panels installed outside |
-| Naturalness / clarity | 7 | More abstraction and repeated "problem" in last paragraphs than in 05m |
-| Verified audience demand | UNVERIFIED | No 10m Nuviko performance baseline; Curious Droid alleged 10:37 metadata not proof |
+| Interest/significance | 8 | Manual dock plus genuine station-repair work, but premise covered elsewhere |
+| Opening | 8 | Three answerable questions precede substantive 1985 immersion; historical prelude still long |
+| Development / reason to continue | 8 | Solar-panel deadlock, thaw problem and exterior upgrade form successive decisions, no post-Progress recap |
+| Payoff | 8 | Progress followed by actual EVA and Savinykh remaining, a consequence rather than a moral |
+| Freshness of angle | 6 | Historical material covered in major Salyut explainers |
+| Visual expression | 9 | Silent orbiting station, frosted interior, linked Soyuz and Salyut, August EVA |
+| Naturalness / clarity | 8 | Less circular explanation in closing; early program background remains expository |
+| Verified audience interest | UNVERIFIED | No controlled channel baseline or real listener response |
 
-Main weakness: excess recap after the real conclusion. Confidence: medium factual, low future interest and actual duration. Extra author revision could tighten final 200 words without adding imaginary events.
+Author confidence medium on NASA-established sequence, low on timing and interest; independent review UNVERIFIED.
 
 ## Comparative decision
 
 | Dimension | 02m | 05m | 10m |
 |---|---|---|---|
 | Complete resolution | Yes | Yes | Yes |
-| Best additional reason to stay | Two fixes | Docking *unlocks* the real repair and thawing complication | Several decades? No: relevant 1983–85 context, post-recovery upgrades |
-| Risk of attention loss | Last line loop restarts | Dense battery-sensor exposition | Early program history and post-Progress summary |
-| Critical editorial 8+ trio | YES | **YES** | NO (development 7) |
-| Exact format | Short, loop FAIL | Long, supported | Long, supported |
+| Best additional reason to stay | Manual dock and repair paradox with complete cargo payoff | Docking *unlocks* the repair and thawing complication | 1983–85 context, August EVA and ongoing human occupation |
+| Risk of attention loss | Battery-sensor explanation compressed in 2m | Dense battery-sensor exposition | Historical 1983 prelude before 1985 crisis; underlength if read fast |
+| Critical editorial 8+ trio | YES (author only) | **YES** | YES (author only, not timing proof) |
+| Exact format | Short supported; author textual seam provisionally PASS, AV UNVERIFIED | Long supported | Long supported; timing REWORK_UNDERLENGTH |
 | Independent reviewer | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 
-**Recommend 05m.** It turns docking into the beginning of the rescue and keeps the confirmed moisture issue as a genuine second obstacle. The 2m Short's natural speech loop needs repair; the 10m historical expansion does not yet warrant twice the time. Alternative single-master production still requires owner's exact choice and normal script gate.
+**Recommend 05m.** The Short now reaches the payoff and closes on a contrasting image that joins its new cold open, but the author-only loop cannot replace AV/reviewer checks. The 10m now has a real August EVA and human endpoint without repetitive recaps; its earlier context and estimated underlength still do not justify doubling runtime. Five minutes presents the most distinct verified changes per spoken minute. A single master still requires owner's exact choice and normal gate.
 
 ## Checks (distinct from author scores)
 
@@ -88,8 +92,8 @@ Main weakness: excess recap after the real conclusion. Confidence: medium factua
 |---|---|---|---|
 | Main event fact-check against NASA p.98–100 | PASS (author source check) | PASS (author source check) | PASS (author source check) |
 | EN/RU semantic equivalence (author read) | PASS | PASS | PASS |
-| Channel production format | Short supported; loop **FAIL** | Long supported | Long supported |
-| Narrative loop | FAIL author textual seam | N_A Long | N_A Long |
+| Channel production format | Short supported; owner review pending | Long supported | Long supported; underlength estimate |
+| Narrative loop | Provisional PASS (author full-text twice; new hash), independent UNVERIFIED | N_A Long | N_A Long |
 | Actual AV seam | UNVERIFIED (no MP4) | N_A | N_A |
 | Visual image/reference and usage rights | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 | Independent first listener (existing schema response) | UNVERIFIED | UNVERIFIED | UNVERIFIED |
