@@ -1,0 +1,13 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Handoff — Paper Detour / Caltech cannon
+
+- Source remote `main` = `131ef24068d75967b1e43aa88e5f1370f6775054`, observed before writing; canonical docs on main, PR #124 merged (policy source head originally `7d6bdf7702a2a241a33a21677fce29f26ada9b72` only historical).
+- New independent branch = `story/paper-caltech-fleming-cannon-2006` from source SHA above; HEAD needs a live PR/branch read at handoff time. Do not label unverified SHA as pushed.
+- Full six texts and their Git blob and SHA-256 values: [story-review.md](story-review.md). Recommended only 05m English `e6baaa1355656e2a4c9258e73d4644c634a5606abbec5241276fe49f0b986540`. 02m independent Short candidate; 10m REWORK.
+- No source variant in this folder is approved or production master. No live run, lease, receipt, reviewer acceptance or uploaded media.
+- Current runtime attempt in local sandbox: `uv run ytv start` failed `Failed to spawn: 'ytv' ... No such file or directory (os error 2)`. Git clone/push network DNS unavailable locally, but authenticated GitHub connector is available for Git-only files. Runtime no `plan_summary`, `read_next`, `task_guide` or pinned `reference_documents` obtained. Do not pretend this is official workflow.
+- `sessions.independent`: no actual independent agent/session launcher in visible direct/deferred host tools. All first listener, independent two-full-cycle seam, fact review and audience measurements UNVERIFIED. Do not convert author scores into reviewer receipt.
+- To transfer locally: on working host check matching pinned code and repo, execute `uv run ytv start --channel paper_detour --format long --intent 'Prepare exactly the editorial candidate story from the linked Draft PR; owner has not approved a master yet'` **only after resolving correct authorized workflow for an unapproved editorial package**. Read all returned `plan_summary`, `read_next`, `task_guide`, pinned `reference_documents`. Attach all 6 exact variants and research/story-review via documented script_variant/story_review source registration, then fresh reviewer on exact unscored text. Request owner acceptance of one exact selected master only via ordinary script gate. Do not use `--source-script` as if it grants approval.
+- Complete remaining: independent review, genuine user choice/approval, measured narration duration, rights/reference asset checks, 10-second Long endscreen target, paper-plane actual scene asset, production readiness and eventual visual seam (if 02m chosen). 10m author pacing revision if picked; new hash → new review.
+- No TTS, imagegen, provider dispatch, video generation, MP4, upload, schedule or publication. CI status of exact new HEAD requires read-back after push.
