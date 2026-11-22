@@ -19,3 +19,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 6. Never merge this PR or produce an episode just because its CI passes. The 02m Short and 10m Long remain **editorial alternatives** until a later explicit decision.
 
 At writing: external PR URL and final Git commit not yet assigned; current repo branch update / GitHub Draft creation / read-back must be performed and verified separately. No fabricated CI PASS.
+
+## Rework of 10m Long (existing PR)
+
+Original remote head `43071d2af49f99ab09eaf149911517d7d6cbf6e3`, 10m original EN `e63d925968f116dbc06f7c1d8bee86df64de6b4ba96f7802f050cfc003f75b39` / RU `e35c78e3069ca37789b455f6a8a0b60d991df1a1bf0565449eb1d83d45fb8b3b`; revised EN `e2f33482e15aa451400e4dc8041a50ef4d1dd3cdc134e60af51823eb537aa825` (1116 words) / RU `fa50d1424b7bb552e9bb37b5db12b836824b4dc529619b01d9a2fc6876af22c1`. Check the current PR branch ref for the new commit SHA; no other storyline is changed. The voice/script has been substantively tightened around two live decisions: getting 32 off the rolling tanker, then finding the red harbor buoy without compass. Research P1–P4 remains shared; new unsupported beats were not inserted. Keep 02m and 05m bytes, their scores, and proposed 05m master unchanged. Baseline 10m review is historical; independent new-hash review and actual spoken duration are UNVERIFIED. No runtime registration/approval/pins/media/production updates. Transfer via normal pinned `ytv start` context when capability exists.
