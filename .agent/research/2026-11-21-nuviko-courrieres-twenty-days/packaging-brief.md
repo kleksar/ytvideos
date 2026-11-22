@@ -11,6 +11,6 @@
 - Core changed beats: blast → gas → bodies/blockages → desperate navigation → interrupted search → thirteen → fourteenth → unhealed loss.
 - Payoff: their return exposes the enormous gap between what miners underground were still trying to do and what those above believed possible; not a statement of certain additional preventable deaths.
 - End-screen concept after full current payoff: *only after exact next-video input and permission*, an adjacent verified survival/rescue story (e.g. approved USS S-5 #20) could make a meaningful bridge. **No live next intro clip retrieved, no link target promised.** Preserve normal Nuviko 10s end-screen window and native click zones for future long production.
-- Short 02m script payoff complete but **spoken loop is not fully defensible** as literal continuity; no claim of AV seam PASS. Long 10m broadens historical context but length detracts from main reversal.
+- Short 02m script payoff complete but **spoken loop is not fully defensible** as literal continuity; no claim of AV seam PASS. The revised 10m puts the physical obstacles before the search dispute and ends on the April 4 return + above/below contrast; it still has a slower organizational passage than 05m, so the 05m recommendation remains provisional.
 - Accuracy: sources and disputed claims in `research.md`; archive photographs not rights-cleared. Title/thumbnail and actual first frames require later independent review and verification. No impressions, CTR, retention or demand forecast.
 
