@@ -33,3 +33,7 @@ No independent model reviewer existed/invoked in this writing environment; autho
 6. Audit exact branch diff, workflow checks and remote SHA before changes/merge; no force, merge or publication without separate instruction.
 
 **Explicitly NOT performed:** TTS, imagegen, paid video services, MP4, YouTube upload, publication, scheduling, edits to other PR/Issues, common docs or channel status.
+
+
+### 2026-11-22 10m revision handoff
+[10m RU](variants/10m/script.ru.txt) · [10m EN](variants/10m/script.en.txt). Baseline HEAD `9eaecc66d6c236a546c91c2dac764048c63a050a`, hashes EN `6a48bde9b0084f86af6b6eaa7b87e4c15c7c0540f3b0ab5c81e9395f994e91df` RU `2185c8e1c105948467a55a4655d2374c2be726d58a9f206d7f6cbaf46ca6dec0`, 1530 EN words. Changed only proposed 10m candidate: post-claim process, actual contrasting named customers, qualified accounting and focused payoff. Original 02m/05m plus any actual production pins retained. Recommendation remains 05m. Independent reviewer, TTS, exact scene spans, actual endscreen / AV and runtime registration UNVERIFIED; never treat old approvals, hashes or scenes as applying to new 10m. See story-review update and dated source ledger.

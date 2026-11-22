@@ -26,3 +26,7 @@
 [02m](variants/02m/script.en.txt) has the entire outcome but the paper workflow is compressed; Short loop remains unverified. [05m](variants/05m/script.en.txt) carries the best new consequences. [10m](variants/10m/script.en.txt) adds true details but may lose attention after the business cost is revealed.
 
 **Rights boundary**: image/video provider generation, source advertisements and BBC documentary footage were not retrieved or authorized. Only document a paper-diorama interpretation; any real logo/ad/TV clip requires independent rights and factual QA. TTS, image generation, flow, MP4, publication and scheduling not performed. Package is editorial, not accepted production brief.
+
+
+## 10m editorial alternative revision (2026-11-22)
+[10m RU](variants/10m/script.ru.txt) · [10m EN](variants/10m/script.en.txt) supersede only 10m. For any future 10m visual plan show separately sourced Keens, Holbrooks and Cichy with period-appropriate paper reconstructions; **do not invent their appearances or imply one family experienced the other's outcome**. New scenes/spans/visual intent must be based on these exact hashes, not the 05m concept. Preserve 05m as provisional packaging choice; do not create/approve/render anything. Actual rights/reference imagery UNVERIFIED.
