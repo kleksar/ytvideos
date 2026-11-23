@@ -15,7 +15,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 | 02m | ru | 236 | `9b2b3028dd54a44fcb6d4cb4020c1bae7188f6f5d6ba04f0785da893fd3401a2` |
 | 05m | en | 724 | `5c50e894572e87dcf6e31a523a24dfbbec2dc1cfd2d55c5f9c80e506a726bf94` |
 | 05m | ru | 554 | `a316911e797dcd3ee91878a194d060cadd075dfd91218eb4fd230a8a20a92d21` |
-| 10m | en | 1373 | `46cc22d23993e1b01be068054ca359af87d5dc320468c2a00195fb7a672cf196` |
-| 10m | ru | 1081 | `149380712a5c6868e484b5de6a20d399c73fc175f2948ffcfe0a1fa9dcaea90b` |
+| 10m | en | 1361 | `5c17667f4648c5de036e269ab76be233f772130d4b62afc67eac871f3787b606` |
+| 10m | ru | 1075 | `e54d9f90c56730f5b1cfb4f4059df7b7c3d6e7c8156a883e14858c3db9acd348` |
 
 Revision baseline d2a4a12a42c952f22ce2b7dd22c1b68b2598b274. New 10m only: old hashes 7485b12f39c4933ab089ca6fffa680347ef61cc921d387b8eb6421c8db8db9d3 (EN), 4fa6fff32b6faec44346e91a9dbba1f704d8c7b4b0e900d22fb257c4488d2574 (RU); new exact manifest above. 02m/05m preserved. Packaging remains bound to unchanged 05m. No timed storyboard exists for 10m; its beat map is editorial visual intent only. No owner approval, active production or parallel editor visible in PR metadata/discussion; external Codex/run inventory not accessible, do not infer global absence. Transfer only after local inventory and exact pin checks.
