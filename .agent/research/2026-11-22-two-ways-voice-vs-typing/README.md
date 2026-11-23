@@ -22,9 +22,9 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Same 60-word message and variants | Full RU | Full EN | Authorial status |
 |---|---|---|---|
-| 02m · Short | [RU](https://github.com/kleksar/ytvideos/blob/REVISION/.agent/research/2026-11-22-two-ways-voice-vs-typing/variants/02m/script.ru.txt) · [EN](https://github.com/kleksar/ytvideos/blob/REVISION/.agent/research/2026-11-22-two-ways-voice-vs-typing/variants/02m/script.en.txt) | Strong original preserved; 299 EN words; author-only seam; AV UNVERIFIED | 
-| 05m · Long | [RU](https://github.com/kleksar/ytvideos/blob/REVISION/.agent/research/2026-11-22-two-ways-voice-vs-typing/variants/05m/script.ru.txt) · [EN](https://github.com/kleksar/ytvideos/blob/REVISION/.agent/research/2026-11-22-two-ways-voice-vs-typing/variants/05m/script.en.txt) | Original preserved; 788 EN words; Long production BLOCKED |
-| 10m · Long | [RU](https://github.com/kleksar/ytvideos/blob/REVISION/.agent/research/2026-11-22-two-ways-voice-vs-typing/variants/10m/script.ru.txt) · [EN](https://github.com/kleksar/ytvideos/blob/REVISION/.agent/research/2026-11-22-two-ways-voice-vs-typing/variants/10m/script.en.txt) | Full new causal revision; 1239 EN words; potential UNDERLENGTH; Long production BLOCKED |
+| 02m · Short | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | Strong original preserved; 299 EN words; author-only seam; AV UNVERIFIED | 
+| 05m · Long | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | Original preserved; 788 EN words; Long production BLOCKED |
+| 10m · Long | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | Full new causal revision; 1239 EN words; potential UNDERLENGTH; Long production BLOCKED |
 
 **New 10m SHA-256:** EN `983bdaee9c0251594acea79a2909235731546cc589c18dd056e731211ba9e56a`; RU `f695d55d2e08d27c9da67f9debac0cee709c17875fe5f3bd967fa9e1cc38fdea`. Existing 02m/05m SHA-256 and packaging unchanged. The new length remains **REWORK_UNDERLENGTH**, not confirmed as 10 minutes. **Recommendation is still 02m**, not approval. Hypothetical model E110 for 120 words now reveals B=158 > A=144; source of model and limits: [research](research.md#2026-11-23-revision-specific-sensitivity-case-10m-only). Author-only eight criteria and separate gates: [review](story-review.md#2026-11-23-substantive-review--10m-exact-revision-supersedes-earlier-10m-author-judgement).
 
