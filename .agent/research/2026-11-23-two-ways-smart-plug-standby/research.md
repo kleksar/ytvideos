@@ -86,3 +86,13 @@ A conditional device change is a newly disclosed run, not a hidden mid-run switc
 - Storyboard/prompts: deferred until exact script passes checks, reviewer sees it cold, and actual image-reference bytes available; no existing timings/spans inherited.
 
 No actual channel-owned performance data, media, provider output, independent reading, or AV loop measurement.
+## Additional conditional 10m evidence (2026-11-23)
+
+No new physical measurements or sourced device facts. One **hypothetical 1.0W idle appliance** held fixed with the original 0.7W-off / 0.9W-on controller demonstrates a same-device winner change when **only the daily schedule** changes:
+
+| Schedule | A: 1W idle appliance | B: same controller | Winner |
+|---|---:|---:|---|
+| 4h on / 20h idle | 1×20 = **20Wh** | 0.7×20 + 0.9×4 = **17.6Wh** | **B** by 2.4Wh |
+| 8h on / 16h idle | 1×16 = **16Wh** | 0.7×16 + 0.9×8 = **18.4Wh** | **A** by 2.4Wh |
+
+Break-even standby power changes 17.6/20 = **0.88W** → 18.4/16 = **1.15W**, with 1.0W between these thresholds. Separate alternate-controller scenario (0.1W-off/0.2W-on; original 4/20 schedule) totals 2.8Wh, saving 3.2Wh versus the hypothetical TV's 6Wh. Those are internally auditable arithmetic examples, **not evidence of any actual product**. Equal active-appliance energy cancels per run. Physical accuracy, consumer demand and audible clarity remain UNVERIFIED.
