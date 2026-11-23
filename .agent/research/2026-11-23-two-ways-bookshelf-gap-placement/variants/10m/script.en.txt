@@ -36,11 +36,9 @@ If they're equally likely, A averages eleven and a half moves: twenty-three in o
 
 What if I expect interior additions three times out of four? A then averages seventeen and a quarter moves; B averages nine and a quarter. Now B wins. If both starting layouts already exist, B pulls ahead only when the chance of that interior delivery exceeds roughly fifty-seven percent. Those chances are assumptions in my example, not measured buying patterns.
 
-But that calculation has left out something important. I don't necessarily begin with two ready-made layouts.
+But those averages assume that both layouts are already waiting for me. My shelf might be arranged like A. What would it cost to turn A into B?
 
-That leads to the part I left out of my first result. How did I get the distributed gaps in the first place?
-
-Until now, I assumed A or B was already prepared and counted only the arrivals. If I already have layout A and decide to create layout B, I need to move existing books to the right to open those internal spaces. Under the very same one-slot metric, that setup costs nineteen book moves.
+I start from A and shift the existing books to the right until I have the four internal gaps of B. Under the same one-slot metric, that's nineteen moves before I insert a single new title.
 
 I can see why by following the original books. A, B and C stay put. D, E and F move one slot each. G, H and I move two slots each. J and K move three slots each. L moves four slots. Three plus six plus six plus four: nineteen. That's the rearrangement cost of converting A into B, ignoring the initial effort of choosing the layout.
 
