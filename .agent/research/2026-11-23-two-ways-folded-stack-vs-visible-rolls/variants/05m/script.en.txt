@@ -1,0 +1,33 @@
+Would I save time by rolling my clothes, or is folding still faster when I actually use the suitcase? And why can a packing method lose at the start but win before I get home?
+
+I'm taking eight T-shirts in one suitcase. For this comparison, my trip has three mornings when I need one shirt without taking everything out. I'll count the time spent packing and retrieving those shirts. I am not measuring how many clothes fit, how wrinkled they get, or how pleasant either method feels. Those would be different tests.
+
+I have two options. A is a neat flat stack: all eight shirts in the same order, one on top of another. B is eight individually visible rolls, side by side. The same shirts go into the same case in both versions. Before choosing A or B, the rule for the mornings is fixed: I won't know which shirt I want until that morning. In this simplified model, every remaining shirt is equally likely.
+
+This is a calculation with declared timings, not an actual timed packing video. Folding one shirt takes five seconds and rolling one takes nine. Once the case is open, grabbing the shirt I want takes two seconds with either method. If my shirt is buried in A, each shirt above it takes three seconds to move aside and another three to put back. I put those others back in the same order, and the chosen shirt leaves the case.
+
+Pick A or B now. I might have spent less time folding, but I still have three mornings ahead.
+
+First, the packing. Eight folds at five seconds make forty seconds. Eight rolls at nine make seventy-two. A starts with a thirty-two-second lead. That difference is not a claim that every person folds at those speeds. It's simply our test's starting price.
+
+Now I open the folded case. Sometimes the shirt I want is on top. Sometimes it's right at the bottom with seven shirts above it. If each of the eight positions is equally likely, the average number of shirts above the target is three and a half. Moving one aside and putting it back costs six seconds, so the first search costs twenty-one seconds in rearranging, and another two to take the shirt. Twenty-three.
+
+I close the case. Seven shirts remain. On the second morning, the average number above my target is three. That search takes eighteen seconds of moving plus two to grab: twenty. On the third morning, six shirts remain. Two and a half shirts above the target on average means fifteen seconds of moving plus two to grab: seventeen.
+
+So the folded method needs forty seconds to pack and sixty to retrieve three shirts. Total: one hundred seconds.
+
+For the rolls, I can see all eight. There's no pile to dismantle. Each of the three searches costs two seconds. Packing took seventy-two; three grabs add six. Total: seventy-eight seconds.
+
+Under these exact assumptions, rolling wins by twenty-two seconds. It wins not because the clothes magically occupy less space, but because I pay the extra packing time once and save repeated digging later.
+
+The result changes when the trip changes. Suppose I need only one shirt before I completely empty the suitcase at my destination. A is forty seconds of packing plus twenty-three for that average search: sixty-three. B is seventy-two plus two: seventy-four. Now folding wins by eleven seconds.
+
+The surprising moment is the second access. With two unknown shirt choices, the stack needs forty plus twenty-three plus twenty: eighty-three seconds. Rolls need seventy-two plus four: seventy-six. At the second search, the extra work of rolling has already paid for itself in this model.
+
+There is an important objection. What if I know my outfits in advance? Then I can stack them with tomorrow's shirt on top, and I may never have to dig. That is not a trick that breaks the test; it tells us its limit. The model is about choosing shirts after packing, not a carefully planned outfit sequence.
+
+Another objection is speed. Someone might roll as quickly as they fold, or move the stack in one fast motion. Then these numbers change. The rule isn't “rolling always wins.” The question is whether the time saved on each future search repays the time spent rolling at the beginning.
+
+I would not advertise this as an experiment proving one packing hack is universally better. It is a reproducible thought experiment: eight shirts, two layouts, equal random requests, fixed action times, and one total-time metric. It gives me something I can actually test in my own room with a stopwatch later.
+
+If I'm packing for one night and will empty everything, I choose the stack. If I'll live out of the suitcase and grab different shirts for several mornings, I choose rolls—unless I already planned exactly what sits on top. The method doesn't have a permanent winner. The task has one.
