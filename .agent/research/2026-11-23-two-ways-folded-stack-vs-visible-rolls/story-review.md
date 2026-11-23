@@ -9,7 +9,7 @@
 | 05m | `bf5da0f51a4254f0de8fe777a13ac21073bc941e` | `319a42061f65b2b2ba045cccd2ce6adeb97792ef8e33f247ef02b96ad2e7bf17` | 821 | `89f19adc890a4d5662fb0595dc6af389d263cb59` | `12cae654ec1b5aef6377ed2d7bba6fd02895c4dceb7a55b99b3c4dd3db4a991d` | 670 | Long editorial proposal, Long ChannelSpec unresolved |
 | 10m | `f8aea8001bf797277b1ef28686382bd7d59699a5` | `335eacb3ed021e74d90dc94bb966fcd1ec54b64d4f1f40b66d9f0a40018c417d` | 1471 | `8ac9f19bba9ffbb21b90de8a6a16973d5d3691c2` | `2fd01db99d75e40b2d62a2494fe7740846c45a791d1469bd524bfa86aafc61aa` | 1208 | Long editorial proposal, Long ChannelSpec unresolved |
 
-Speech duration **estimate only**, not measured: 02m 292w / 140–165wpm ~1:46–2:05 before pauses; allow ~1:55–2:15. 05m 821w ~4:59–5:52 before pauses; allow ~5:05–6:05. 10m 1523w ~9:14–10:53 before pauses; allow ~9:30–11:15. Pauses/illustrated result may extend. Actual production voice may differ. **Do not alter voice speed** to meet the name of a variant.
+Speech duration **estimate only**, not measured: 02m 292w / 140–165wpm ~1:46–2:05 before pauses; allow ~1:55–2:15. 05m 821w ~4:59–5:52 before pauses; allow ~5:05–6:05. 10m 1471w ~8:55–10:30 before pauses; allow ~9:10–10:50. Pauses/illustrated result may extend. Actual production voice may differ. **Do not alter voice speed** to meet the name of a variant.
 
 ## Script-specific maps and classifications
 
@@ -74,7 +74,7 @@ Scores are authored assessment with confidence **medium** except viewer interest
 - **5 → 10:** retain the move-speed threshold `t=32/18`, add two opposite realized suitcase paths, enumerate exact 56/336 vs 280/336 model outcomes, and show a deliberate known-outfit scenario A46/B78. Remove the weaker three-/four-shirt computation. Additive value: expected time is not a guaranteed personal result, and information available before packing changes the winner; attention risk begins in the middle probability block.
 - **Recommend 2m** for strong simple A/B surprise + full useful reversal, without claiming it meets final format gate. If channel's usual 35–50s Short is strict, the 2m variant is **not** silently compressed and a separate owner-authorized production choice is needed.
 
-Two authored editorial passes at most; the latest substantive 10m pass introduces realized-path counts, a known-outfit counterfactual and synchronized EN/RU narration. No independent reading took place. A future rewrite to improve 10m would invalidate this exact verdict/hash and need fresh review.
+Editorial passes here are author-only, not independent: the latest substantive 10m pass introduces realized-path counts, a known-outfit counterfactual and synchronized EN/RU narration. No independent reading took place. A future rewrite to improve 10m would invalidate this exact verdict/hash and need fresh review.
 
 ## Production restriction
 No `ytv start`, pinned reference packet, actual independent review, source approval, media bytes, provider usage, MP4 or release recorded here. Convert the chosen exact EN script into local runtime using real CLI when available, inspect pinned plan, obtain independent review of its literal text, and seek owner approval. Do not mark an official script gate PASS.
