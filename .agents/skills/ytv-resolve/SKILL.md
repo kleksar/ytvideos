@@ -12,6 +12,7 @@ description: "Assemble, mix, subtitle, animate, render and hand off future ytvid
 - Для создания/переработки раскадровки, включая исправления по меткам Resolve, выполнить [storyboard-процедуру с назначением Astra](../ytv-produce-video/references/storyboard.md). Монтажник реализует проверенное решение, не заменяет этого исполнителя.
 
 - Для монтажа/audio/subtitles/render читать [timeline](references/timeline.md). Сборка должна остаться редактируемой, не превращать всё в один готовый MP4.
+- Когда у речевых клипов разные пустые края или паузы, выполнить [нормализацию пауз по слышимой речи](references/voice-spacing.md). Обрабатывать исходные фразы раздельно, не ускорять голоса.
 - Для export/upload/configure/read-back читать [delivery](references/delivery.md). Поручение собрать проект без рендера не разрешает render queue, upload или замену уже опубликованного видео.
 - Для порученного обучения и нового native метода читать [private lab](references/lab.md); отделять live proof от reference-only упражнения.
 - Перед выбором метода сверить [проверенные возможности и границы](references/evidence.md). Не выдавать видимое UI-поле за успешную интеграцию/API или готовую публикацию.
