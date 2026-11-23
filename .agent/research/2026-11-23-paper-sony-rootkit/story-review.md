@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | 02m | [script.en.txt](variants/02m/script.en.txt) — `637a8d21478b17dd5d59bbc716f35c1f8f2c8bbc7154fb622cbdc75c0aed8c8b` | [script.ru.txt](variants/02m/script.ru.txt) — `1e2af53b08ed723e690b55a168d38183c6f4c67cb8e6ae74534a0ab99b66f82f` | 280 / 243 | ~1.9–2.2 minutes of EN speech before pauses (125–145 wpm), unmeasured; portrait Short proposed |
 | 05m | [script.en.txt](variants/05m/script.en.txt) — `b257f1a9f88030d9083607e5b08ded19879868cdc9c5df7a8bf0bc4dafbebfcd` | [script.ru.txt](variants/05m/script.ru.txt) — `0e5d3e7de584c54d764109e736f7a5245d0dad6e04f07dfa0fc4114666bdc767` | 596 / 470 | ~4:45–5:15 EN (120–130 wpm + brief pauses); landscape Long proposed |
-| 10m | [script.en.txt](variants/10m/script.en.txt) — `a71457d92f4b3d860e7f7c1640a52762bde6b2abdfc6a27e42961daa81f8c313` | [script.ru.txt](variants/10m/script.ru.txt) — `6cfd3c16dc746b0c8daf5d47229a40f19f9be31db44ff6fd895681359da14ffd` | 1156 / 892 | ~9:10–10:15 EN (115–130 wpm + pauses); landscape Long proposed |
+| 10m | [script.en.txt](variants/10m/script.en.txt) — `8d1c197ea8485f67dfc8f416b103a408643da1afda9d2b86a83f9d3f073df2a9` | [script.ru.txt](variants/10m/script.ru.txt) — `8eabc5ff9bc3994c23802b82b97734bc3db2b819c454bdeb47b01f390e8c6c73` | 1213 / 973 | ~9.3–10.6 min EN before pauses at 115–130 wpm; UNMEASURED, production speed 1.10× untested; landscape Long, TIMING_RISK |
 
 Estimates use spoken word ranges and small intro/pacing pauses; voice Lawrence 1.10× is **not auditioned**. Counting whitespace-separated tokens is approximate. Every script is a standalone completed story, not three differently cut sections of one file.
 
@@ -50,26 +50,31 @@ Estimates use spoken word ranges and small intro/pacing pauses; voice Lawrence 1
 
 **Exact story map:** familiar physical purchase → computer changed by installer → surprise XCP concealment → second system weakens consent → removal itself dangerous → recall and federal agreement → resolved question of computer ownership. Full payoff in the spoken story, not an end card.
 
-### 10m — REWORK for pace (full text with new sourced detail)
 
-| Criterion | Author score | Exact observation / reason |
+### 10m — REVISED_EDITORIAL_CANDIDATE; timing and attention UNVERIFIED
+
+| Criterion | Author score | Exact evidence and limitation |
 |---|---:|---|
-| Interest/importance | 9 | Three opening questions establish concealment, unwanted installation and dangerous cleanup |
-| Opening | 8 | Clear consumer dilemma; first major discovery only after explaining buying/copying context |
-| Development / stay | 8 | Adds autorun, RootkitRevealer mechanism, the `$sys$` prefix, MediaMax telemetry, security vendor response, separate state/federal action |
-| Payoff | 8 | Returns to the physical CD case and explains the ownership/consent failure |
-| Freshness | 7 | Same well-documented scandal; lengthy technical recap may overlap generic DRM videos |
-| Visual potential | 8 | Wider stages possible but legal paragraphs risk a run of generic papers and computer screens |
-| Speech naturalness | 7 | The last third lists institutions and settlements, with a likely attention dip |
-| Evidence of audience interest | UNVERIFIED | No matched 10-minute creator baseline, real audience or analytics |
+| Interest/importance | 8 | One ordinary purchased CD leads to two distinct installation failures and two different removal obstacles |
+| Opening | 8 | Three fact-checkable questions promise concealment, consent, and dangerous repair; Russinovich's forensic mismatch answers the first |
+| Development / stay | 8 | Machine-specific temporary XCP remover and later vulnerable ActiveX browser component are different confirmed turns, followed by recall that cannot remove installed software |
+| Payoff | 8 | FTC two-year repair/removal condition explicitly answers the earlier difficulty of restoring computer control |
+| Freshness | 7 | Confirmed but historically familiar scandal; the removal sequence is a narrative selection, not an original discovery |
+| Visual potential | 8 | Forms and delayed letters, expiring removal tool, persistent browser control, recalled physical CD versus still-affected computer |
+| Natural speech | 8 | Replaces repetitive legal inventory with observable actions; two software names and ActiveX remain difficult for a novice listener |
+| Evidenced audience demand | UNVERIFIED | Search view counts do not prove CTR, 10m interest, or Paper Detour retention |
 
-**Main defect:** after the uninstall reversal, another block of technical and regulatory context dilutes momentum. It does add verified differences from 05m, so it is a **complete long script**, not padding copied word for word; still less strong as current production master. **Confidence:** medium on accuracy subject to fact review, medium-low on entertainment value, very low on audience demand.
+**Story map:** opening questions → specific purchased album → investigator's mismatch → XCP hidden items and broad rule → MediaMax software before consent → personal data concerns → first XCP removal route with forms, delayed emails, temporary machine-bound tool → second ActiveX-removal risk and leftover component → Microsoft/advocacy response → recall cannot repair previous PC installs → distinct state and FTC proceedings → two-year patch/removal obligation → ordinary-buyer payoff. Source claim locations: USENIX §8–8.2 and official FTC release, newly checked in research. No fictional thoughts, named victim attack, or unqualified criminal finding.
+
+**Weakness and confidence:** 1213 EN words may be short of ten minutes if the voice is fast, or long once pauses are counted. XCP/MediaMax distinction and two removal mechanisms demand concentration; no independent listener or actual pacing measurement. Author confidence high in sourced facts, medium in narrative clarity, none in audience metrics. Author EN/RU semantic check PASS; independent review UNVERIFIED, Long loop N_A.
+
+**Preserved previous 10m baseline** at commit 27265898790420e014d653b6d9a9ad893ee2d61c: EN SHA-256 a71457d92f4b3d860e7f7c1640a52762bde6b2abdfc6a27e42961daa81f8c313; RU SHA-256 6cfd3c16dc746b0c8daf5d47229a40f19f9be31db44ff6fd895681359da14ffd. The old 1156/892-word version and its ratings do not apply to the revised exact text.
 
 ## Length comparison and selection
 
 **2 → 5:** five-minute version uses room for ordinary purchase and why autorun matters, gives the researcher a causal entrance, differentiates XCP/MediaMax, and develops the risky-uninstaller surprise before regulatory resolution. 2m now completes its textual question bridge, but still has no room for the 5m's fuller explanation of the two independent mechanisms and their consumer consequences.
 
-**5 → 10:** longer version makes genuinely new observations: how RootkitRevealer found hidden items, generalized filename concealment, effects of refusing EULA, reported listening data, responses by Microsoft/EFF and different 2006/2007 settlements. Those are source-supported and material, but not every added paragraph changes the central question. The 10m legal portion can lose a first-time viewer. No automatic preference for length.
+**5 → 10:** revised 10m adds concrete user obstacles absent from 05m: Russinovich's specific diagnostic mismatch, timed two-form XCP removal, one-computer authorization and repeated request after reinsertion, the residual ActiveX vulnerability, and FTC's two-year support condition. The final third now pays off a repair problem instead of repeating legal abstractions. The gain is real explanatory value, but there is a possible attention loss at the second technical removal step; no listening evidence. Potential loss in 02m: quick MediaMax entrance; in 05m: naming two packages; in 10m: repeated removal stages and timing risk. Recommend unchanged 05m for clearer payoff per minute; recommendation is not approval.
 
 **RECOMMEND 05m EN `b257f1a9f88030d9083607e5b08ded19879868cdc9c5df7a8bf0bc4dafbebfcd`.** This is **authorial recommendation only**, not owner master selection or runtime approval.
 
@@ -91,3 +96,9 @@ Estimates use spoken word ranges and small intro/pacing pauses; voice Lawrence 1
 ## Revision accounting and limits
 
 Original creation: one authorial composition/editing round; this follow-up is a separate authorial content revision of 02m only. Baseline HEAD `dd2af388209a9b939e8aff0aced1c3bc626e91b9`, 02m SHA-256 EN `e2cd31331714d02266299f6f557c4d5ba7a4f530937a7ca00484164992ed0c26`, RU `91c4304649785fb182d5b26f4e18432647dbc206343d70205a8eb82186065dcd`. New EN `637a8d21478b17dd5d59bbc716f35c1f8f2c8bbc7154fb622cbdc75c0aed8c8b`, RU `1e2af53b08ed723e690b55a168d38183c6f4c67cb8e6ae74534a0ab99b66f82f`. Unchanged 05m/10m evidence preserved. All previous 02m assessments and timing invalidate on the new hash. No genuine independent reviewer session/receipt is available; AV and runtime registration remain UNVERIFIED. The 05m-only storyboard stays bound to its untouched exact hash and does not apply to 02m.
+
+## Current revision checkpoint, 2026-11-23
+
+Script-only commit 63da9743e4bdb790dd8d21dab37a09d6cd47ab53 replaced the complete 10m EN/RU with substantive new removal and remedy events. Exact new script SHA-256: EN 8d1c197ea8485f67dfc8f416b103a408643da1afda9d2b86a83f9d3f073df2a9 (1213 words); RU 8eabc5ff9bc3994c23802b82b97734bc3db2b819c454bdeb47b01f390e8c6c73 (973 words). Baseline branch HEAD was 27265898790420e014d653b6d9a9ad893ee2d61c. Unchanged 02m and 05m script hashes remain as above; the 05m storyboard applies only to its unchanged hash.
+
+Hard checks: exact semantic EN/RU author PASS; primary-source fact evidence author PASS; 02m unchanged textual loop author PASS and AV UNVERIFIED; Long loop N_A; 10m TTS measured duration UNVERIFIED; independent reviewer UNVERIFIED; market interest UNVERIFIED; rights, runtime registration and owner approval UNVERIFIED. Current state EDITORIAL_CANDIDATE_UNREGISTERED. Previous 10m review/timings invalidated; no review receipt fabricated.

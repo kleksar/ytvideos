@@ -64,7 +64,7 @@ Audience: English-speaking viewers interested in unusual real-world technologica
 
 **5m (recommended):** questions → ordinary CD purchase → XCP discovery → concealment mechanism → MediaMax consent → uninstall reversal → recall/FTC; more real narrative context and two independently sourced reversals. No forced loop (Long).
 
-**10m:** questions → period-specific purchase model → autorun and media delivery → Russinovich detector → XCP generalized hidden filename mechanism → MediaMax pre-EULA installation and listening-data concerns → technical/uninstaller failure → security/consumer reactions → state and federal settlements → why DRM did not justify the risk. Full documentary resolution, though legal follow-up may dilute narrative momentum.
+**10m revised:** questions → exact purchased album and two DRM families → Russinovich's mismatched file listings → XCP's broad hiding rule → MediaMax pre-license components and distinct listening-data concern → initial XCP removal with two forms and two delayed emails, machine-specific temporary tool and possible repeat after reinsertion → later XCP/MediaMax ActiveX removal components with demonstrated risks and residual controls → recall that cannot clean installed systems → separate state and federal settlements → FTC two-year software removal and repair remedy. This replaces abstract legal commentary with a two-stage repair obstacle; 10m pacing still unverified.
 
 ## Research limitations / rights
 
@@ -75,3 +75,11 @@ Audience: English-speaking viewers interested in unusual real-world technologica
 ## Follow-up fact evidence for revised 02m (2026-11-23)
 
 The new **removal sequence**, which replaces a generic phrase about “security holes,” was checked against [Halderman & Felten, USENIX Security 2006 §8, Uninstallation](https://www.usenix.org/legacy/event/sec06/tech/full_papers/halderman/halderman_html/index.html): early XCP removal required repeated forms and delayed email replies (§8, paragraph 2); subsequent uninstallers for XCP and MediaMax used ActiveX controls, with proof-of-concept ability for a malicious site to invoke unsafe code (§8.1–8.2); some controls could remain installed after removal. This is **demonstrated attack capability**, not a claim that a real Sony BMG purchaser was attacked in this way. The January 2007 FTC agreement remains a proposed consent settlement, not a criminal conviction ([FTC official release](https://www.ftc.gov/news-events/news/press-releases/2007/01/sony-bmg-settles-ftc-charges)). Existing research and all unchanged 05m/10m evidence remain in effect.
+
+## Source validation for revised 10m (2026-11-23)
+
+- **First removal obstacle:** [USENIX 2006 §8](https://www.usenix.org/legacy/event/sec06/tech/full_papers/halderman/halderman_html/index.html) describes two XCP forms, separate delayed emails and a machine-bound time-limited uninstaller. A later reinsertion could require a fresh request. This exact inconvenience was not in the prior 10m.
+- **Second removal obstacle:** the same technical paper §§8.1–8.2 explains why the later ActiveX-based uninstallers for both XCP and MediaMax left vulnerable browser controls. The researchers demonstrated proof-of-concept exploitability. The script does not claim a particular user was attacked or give exploit instructions.
+- **Human/device consequence:** [FTC 2007-01-30 official notice](https://www.ftc.gov/news-events/news/press-releases/2007/01/sony-bmg-settles-ftc-charges) requires two years of patches and removal tools under the proposed consent agreement, plus qualifying exchanges/repair remedies. The agency explicitly says this is not an admission of wrongdoing. Do not merge this federal proposal with the December 2006 states' settlement.
+
+The old 10m ending revisited an abstract loss of control several times. The new ending pays off the concrete repair obstacle: recalling discs does not uninstall code from existing PCs. All claims are drawn from the above primary sources; audience response and factual TTS timing are UNVERIFIED. Four earlier 02m/05m texts and their 05m-only storyboard are unchanged.
