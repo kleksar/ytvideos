@@ -81,3 +81,22 @@
 ## Главный blocker и дальнейшая проверка
 
 `uv run ytv start` не запущен: в текущем исполнителе отсутствует CLI executable `ytv` (ошибка spawn ENOENT, без run id). Независимая модельная ревизия exact EN/RU отсутствует. Имеется лишь авторская self-check арифметики и текста. Прежде чем считать script gate пройденным: перенести шесть точных файлов/hashes в доступный runtime через штатный start/attach и провести независимый first-listener/loop/fact review, без выдуманных receipts; выбрать один master после решения владельца.
+
+## Revision evidence — 10m deadline-preserving order (2026-11-23)
+
+**Baseline protected:** original 10m EN SHA-256 `d05d81d6b227d656d68a1604ca8b03eaeef89f3a9a56ca206eb92d9164847aa7`, RU `24fe042ebe5d3e415cebc8b9c343365ffcc87e77d86964b77df1e73764fcd30b` at PR #385 HEAD `bc2eab7f58e864a398e4e7fe17a2a0b3158fb834`. Revised 10m is a distinct finished composition of the **same four lunches**, not another topic. Original 02m/05m files and their blob SHAs remain unchanged.
+
+**New causal beat in the conditional model:** after B's average-time win (6:00 versus A's 12:45), the L=10 owner misses a deadline at t=11. Instead of ending with a moral about fairness, I search for the best schedule that simultaneously meets the deadline and minimizes mean completion time.
+
+| Conditional order | Exact heating sequence | Completion times from shared t=0 | Sum person-min | Average | L ready at t11? |
+|---|---|---|---:|---:|---|
+| A, original FIFO | 10,2,2,1 | 10,12,14,15 | 51 | 12:45 | Yes (t10) |
+| B, shortest first | 1,2,2,10 | 1,3,5,15 | 24 | 6:00 | **No** (t15) |
+| **Negotiated compromise** | **1,10,2,2** | **1,11,13,15** | **40** | **10:00** | **Yes (t11)** |
+| Earliest-deadline tightened to t10 | 10,1,2,2 | 10,11,13,15 | 49 | 12:15 | Yes (t10) |
+
+With a ten-minute non-preemptive cycle and t11 deadline, the total work placed before L must be ≤1 minute. Since every other meal takes 1 or 2 minutes, L must go first or immediately after S=1. If L first, the remaining shortest-first order is [10,1,2,2], sum=49. If S first, the only feasible order is [1,10,2,2], sum=40. Thus the compromise is **globally best within this exact four-job, non-preemptive, simultaneous-arrival, no-setup-time model**, not a general workplace policy. Tightening the deadline to t10 forces L to start at t0; an earlier deadline is impossible with the given processing time. The compromise saves 11 person-minutes versus A: S gains14 and L/M1/M2 each lose1.
+
+**Late arrival stress-test:** L arrives at t0 and starts immediately; S/M1/M2 arrive at t5; no preemption. Their food-ready clocks are t10, t11, t13, t15, but *individual* arrival-to-ready times are [10,6,8,10], mean=8.5 minutes. This is a **separate arrival condition**, not directly comparable with the original simultaneous-arrival 6-minute mean. All new numbers are computed from invented inputs, not measured kitchen behavior, and the script explicitly keeps consent and safe actual heating outside model scope. No new real-world historical claim or unverified experiment is introduced.
+
+**Reproduction:** calculate prefix sums for each order and divide sum by four; enumerate the two possible L placements before its deadline (or all unique permutations of [10,2,2,1] to cross-check). This is author arithmetic validation, not independent editorial review or live user evidence.
