@@ -13,7 +13,7 @@ Relevant current documents read: root AGENTS; documentation index; writer skill;
 | Edition | Full EN | Full RU | SHA-256 EN / RU |
 |---|---|---|---|
 | 02m, Short editorial recommendation | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 8fe085cd58076f8116792424f4b5c265147997d68c3c807c1d0c6b3afd460983 / 6dd8341adc99cbb44d424e60f2cd58bcfffd7ed84ad16d833a3b7fa0fc427ed0 |
-| 05m, Long proposal only | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | f047392e2b90cf1a4f6393a381983610d425e5c22858bc232e1ae04946dd4341 / 8c88ea54eebb95f39c44a090bd6d8427dd4b38925759fce47d995f5d9379b18c |
+| 05m, revised Long proposal only | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 2ba66aca993083494205acd59916cdb53390ab86cbaf0c2d19c03ebd725ec84b / b0f9f2807e9d231b5db90f8769fa81ece4236672635fd0b9332c5e9f08445ad7 |
 | 10m, REWORK, Long proposal only | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | e1316d220049c7d6c8b11bd191f91ee684e3b0b2fd0c9e7b0473448e0a5eee74 / e03c4f8f766c599b1b4a525c9ac54806938004eccb9f926ab34f8378b6f03f2e |
 
 Research, formulas, competitor caveats: [research.md](research.md). Eight-criterion authored review, SHA-256 and QA: [story-review.md](story-review.md). Title, thumbnail, early proof, payoff, next-video obstacle: [packaging-brief.md](packaging-brief.md).
@@ -36,3 +36,9 @@ Short production recipe exists at 1080×1920 and 30 fps; however 02m script (~2m
 5. Resolve mismatch of recommended 2m with 35–50s channel preference, verify media rights, measured TTS and MP4 AV seam before any release authorization. A GitHub CI green mark is not script approval.
 
 This PR remains Draft. No merge, force-push, editing other PRs, changing common docs/skills/channel status, TTS, imagegen, MP4, upload or publication is authorized.
+
+## Existing PR #376: substantive editorial revision (2026-11-23)
+
+Baseline head `ba4c1f897d6274f63222380e1678020f055cea2b`. Old 05m SHA-256 EN `f047392e2b90cf1a4f6393a381983610d425e5c22858bc232e1ae04946dd4341`, RU `8c88ea54eebb95f39c44a090bd6d8427dd4b38925759fce47d995f5d9379b18c`. New 05m exact EN `2ba66aca993083494205acd59916cdb53390ab86cbaf0c2d19c03ebd725ec84b` (838 words), RU `b0f9f2807e9d231b5db90f8769fa81ece4236672635fd0b9332c5e9f08445ad7` (697 words). The previous conclusion largely explained uncertainty and sunk cost after the two conditional results. The revision replaces that explanatory tail with an explicit third trial: reset original no-price-check schedule, B5 joins at second 63 while the protagonist walks from t60 to t65, so B ends at t245 (4:05) versus unchanged A195 (3:15). If B5 enters at second 67 *after* protagonist arrives, B ends at t205 (3:25). The original A+25s price check occurs **only** in trial two, never in trial three. This new scene adds an independent causal risk of crossing and keeps full first-person EN/RU. Existing 02m/10m exact text unchanged. 02m packaging/scene assumptions are not applied to 05m.
+
+Self-check of calculations/EN-RU mapping performed on text; no independent reviewer, measured speech length, storyboard, live evidence, actual ytv run or owner approval. This remains EDITORIAL_CANDIDATE_UNREGISTERED. Two Ways Long ChannelSpec has no canvas/fps. The intended 05m requires its own new independent reader on exact hash and production-format resolution. No protected masters, channel docs, provider assets or production states altered.

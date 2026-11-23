@@ -7,10 +7,10 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 | Самостоятельная редакция | Полный русский | Full English production narration | Авторский статус |
 |---|---|---|---|
 | **02m / Short editorial** | **[RU](variants/02m/script.ru.txt)** | **[EN](variants/02m/script.en.txt)** | **STRONG_CANDIDATE — рекомендована редакционно**; Short 35–50s target mismatch, independent review UNVERIFIED |
-| 05m / proposed Long | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | STRONG_CANDIDATE, **Long production BLOCKED** |
+| 05m / proposed Long | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | **REVISED STRONG_CANDIDATE** — third declared arrival reversal; **Long production BLOCKED** |
 | 10m / proposed Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | REWORK: complex probability/arrival sensitivity; **Long production BLOCKED** |
 
-**Почему 02m:** в ней уже полностью раскрыты выбор, неожиданный исход, явная смена победителя при изменении одного условия и вывод о *оставшейся работе* вместо того, кто первым закончил. 05m добавляет реальную ценность: пересечение времени ходьбы с ожиданием, порог ничьей 10 секунд и более ясный контроль условий. 10m добавляет расчёт вымышленной вероятности, дедлайн и нового покупателя, но ослабляет темп. Не удлинять сценарий ради производственной квоты. Production format отдельно от длительности.
+**Почему 02m:** в ней уже полностью раскрыты выбор, неожиданный исход, явная смена победителя при изменении одного условия и вывод о *оставшейся работе* вместо того, кто первым закончил. 05m объясняет пересечение ходьбы с ожиданием и порог ничьей 10 секунд, затем отдельным третьим раундом показывает, как новый покупатель в B на 63-й секунде меняет итог перехода на 4:05. Это добавочная причина, а не повтор исходного расчёта. 10m добавляет расчёт вымышленной вероятности, дедлайн и нового покупателя, но ослабляет темп. Не удлинять сценарий ради производственной квоты. Production format отдельно от длительности.
 
 | Supporting evidence | What it covers |
 |---|---|

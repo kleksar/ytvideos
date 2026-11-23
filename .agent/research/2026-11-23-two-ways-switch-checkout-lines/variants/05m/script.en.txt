@@ -26,12 +26,16 @@ The other line finishes my basket at three twenty-five. My original line finishe
 
 I can test that without pretending a price check actually happened. In a second, explicitly changed scenario, the shopper in front of me needs an additional twenty-five seconds for a price check. The new finish for staying is three forty. Switching still ends at three twenty-five, fifteen seconds earlier. The winner really does flip—but only because I changed and disclosed one condition.
 
-What did I learn? The person leaving the other cashier is an observation about work already completed. My decision depends on work still ahead. Those are different numbers.
+But there is a second risk I didn't test yet. What if the other line changes while I am crossing?
 
-A real queue doesn't hand me a timer for every customer's payment. The model cannot promise I will save ten seconds at an actual store. I can look at basket sizes, whether one payment is already underway, and how far back I would join—but any guess about the next delay is uncertain.
+I reset both registers to the original schedule, with no price check. At second sixty I start walking. The five-second crossing is still the same. Now I openly add a new customer: at second sixty-three, someone with a forty-second basket joins the other queue. They arrive before I do, so they stand ahead of me.
 
-There is also a difference between deciding at the entrance and changing my mind after a minute. The first minute has already passed either way. I shouldn't call it a reason to stay because I've invested it, or a reason to move because I'm annoyed. At the decision point, I compare only the time that remains in each possible route.
+The original four customers finish at second one hundred and sixty. That newcomer finishes at second two hundred. I leave at second two hundred and forty-five: four minutes and five seconds. My original line would still have got me out at three fifteen. This time my switch costs fifty seconds.
 
-For this fixed run, I keep my place and leave first. With the stated price-check delay, I switch and leave first. Both outcomes are honest, and neither is a universal rule about supermarkets.
+Move the new arrival to second sixty-seven, *after* I join, and they wait behind me. My exit is back at three twenty-five. The new customer and their basket are unchanged. Only the order of arrival decides who waits.
+
+These are three separate model runs, not three surprises smuggled into one real checkout: stay wins in the first, a declared price check makes switching win in the second, and an earlier arrival makes switching lose badly in the third.
+
+In a real shop, I don't know anyone's remaining seconds. I can look at baskets, payments already underway, and the place I would actually take after switching. And the minute I've already waited is gone either way; I shouldn't stay just to justify it, or switch to punish it.
 
 The useful habit isn't to follow the line that just moved. It is to ask what is actually left between me and the exit.

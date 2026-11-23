@@ -81,3 +81,7 @@ Metric announced before outcomes: wall-clock seconds from t=0 joining the first 
 Thumbnail/title promise: *The Faster Line Was a Trap (In This Model)*. The first visual must show two staffed checkout lanes, A=2 people, B=4, B's first person leaving *first*; viewer is asked to pick stay/switch before seeing output. Payoff must be shown before the Short loop: 3:15 vs 3:25 base, then 3:40 vs 3:25 when one disclosed input changes. Explain *remaining work, not customers already served*. No universal "queues always..." claim.
 
 Important production boundary: actual hero reference images not fetched; don't invent their bytes or reuse the checkout pilot frame as a new exact input. Visual media rights, model display geometry, exact timings and audio/video transition **UNVERIFIED**.
+
+## Existing PR #376 revised 05m evidence / no new store measurements
+
+The new 05m now uses the **already documented independent arrival scenario** (previously included in the 10m research): departure from A at t60, B5 joins at t63, protagonist arrives at t65, original B shoppers complete by t160, B5 serves [160,200), protagonist [200,245). If B5 arrives at t67, they are behind the protagonist, whose B service stays [160,205). There is **no A2 price check** in this third trial; A+25 is confined to the separate second trial. These are conditional invented inputs, not observed arrivals, frequency estimates or retention observations.
