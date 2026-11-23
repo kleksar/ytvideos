@@ -69,6 +69,28 @@ class PlannerTests(unittest.TestCase):
         self.assertEqual(result["style"]["geometry"]["font_size_px"], 104)
         self.assertEqual(result["cues"][0]["end_frame"], result["cues"][0]["spoken_end_frame"])
 
+    def test_continuous_mode_preserves_speech_boundaries_for_both_profiles(self):
+        for channel, form, raster in (("nuviko_history", "long", [2560, 1440]),
+                                     ("paper_detour", "short", [1440, 2560])):
+            with self.subTest(channel=channel):
+                request = fixture()
+                request.update(channel=channel, format=form, continuous_captions=True)
+                request["target"]["raster"] = raster
+                result = planning.plan_subtitles(request)
+                cues = result["cues"]
+                self.assertEqual(cues[0]["start_frame"], cues[0]["spoken_start_frame"])
+                self.assertEqual(cues[-1]["end_frame"], cues[-1]["spoken_end_frame"])
+                self.assertTrue(all(a["end_frame"] == b["start_frame"]
+                                    for a, b in zip(cues, cues[1:])))
+                self.assertTrue(all(c["start_frame"] == c["spoken_start_frame"] for c in cues))
+                self.assertIn("00:00:00,500 --> 00:00:00,700\nNew York", result["srt"])
+
+    def test_continuous_mode_rejects_conflicting_policy(self):
+        request = fixture()
+        request.update(continuous_captions=True, hold_gaps=False)
+        with self.assertRaisesRegex(ValueError, "conflicts"):
+            planning.plan_subtitles(request)
+
     def test_reject_identity_and_ambiguous_timebase(self):
         for key, value in (("project_id", "current"), ("timeline_id", ""), ("fps", 29.97),
                            ("origin_frame", 86400.5), ("raster", [1920, 1080])):

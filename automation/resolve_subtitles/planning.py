@@ -273,7 +273,12 @@ def plan_subtitles(request, *, root=None):
     tool = _tool(root)
     alignment = _sync(request.get("evidence"), placements, words, tool)
     default_hold = style.get("style", {}).get("name") == "nuviko" and request["format"] == "long"
-    hold = request.get("hold_gaps", default_hold)
+    continuous = request.get("continuous_captions", False)
+    if type(continuous) is not bool:
+        raise ValueError("continuous_captions must be boolean")
+    hold = request.get("hold_gaps", default_hold or continuous)
+    if continuous and not hold:
+        raise ValueError("continuous_captions conflicts with hold_gaps=false")
     if type(hold) is not bool:
         raise ValueError("hold_gaps must be a boolean channel decision")
     origin = target["origin_frame"]
@@ -283,7 +288,7 @@ def plan_subtitles(request, *, root=None):
         spoken_start, spoken_end = group[0]["start_frame"], group[-1]["end_frame"]
         # History Long's rendered overlay spans the conform's complete target
         # interval: neutral outside speech, with no invented word highlights.
-        full_span = hold and default_hold
+        full_span = hold and default_hold and not continuous
         start = origin if full_span and i == 0 else spoken_start
         end = spoken_end
         if hold and i+1 < len(groups):
