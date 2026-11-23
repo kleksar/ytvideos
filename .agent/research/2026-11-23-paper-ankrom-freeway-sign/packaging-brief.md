@@ -20,7 +20,7 @@ Audience: English-speaking viewers interested in unusual real-world choices, urb
 | L2 | **He Secretly Fixed a Highway Sign. Then the State Copied Him.** | Paper model: artist holds hand-crafted plate at left; authorized state-style new sign at right; one arrow shows transformation, not two conflicting road systems; text “THEY COPIED IT” | Workshop/installation is early; final replacement repeats direction | Title “copied” accurately refers to direction, not exact artistic surface; do not imply official plagiarism/legal finding |
 | L3 | **They Crushed His Artwork — But Left His Idea on the Freeway** | Paper aluminum sheet signed reverse disappearing into recycling bale vs official NORTH / Interstate shield above road; text “GONE / STILL HERE” | Loss question at opening; later retrieval attempt fails, official replacement bears directions | Don't show fabricated original photograph or claim a particular photographed factory; symbolize based on sourced crushed-recycling account |
 
-**Short candidate after loop fix:** “Someone Forged a Highway Sign. The Government Kept It.” Hook = counterfeit worker, payoff = retained correction; cannot approve before a real loop and independent review.
+**Revised Short candidate (independent loop still UNVERIFIED):** “Someone Forged a Highway Sign. The Government Kept It.” Hook = counterfeit worker, payoff = retained correction; author pass on the new literary seam does not permit approval without independent full-text review and an actual AV check.
 
 ### Channel-specific constraints
 

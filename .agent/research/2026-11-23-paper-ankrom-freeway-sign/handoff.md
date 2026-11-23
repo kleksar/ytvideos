@@ -16,11 +16,11 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Variant | Production EN | Complete RU | Editorial status |
 |---|---|---|---|
-| 2m / Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | REWORK — genuine narrative loop defect |
+| 2m / Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | REVISED — author-checked contrast seam; independent/AV UNVERIFIED |
 | **5m / Long** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **STRONG_CANDIDATE, recommended** |
 | 10m / Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | REWORK — diminishing new viewer value in second half |
 
-Recommended script exact SHA-256: `7a1b87cbe472784d24867ddfa0b091cd7349f835976ed0845f10c79890f6d562` (includes terminal LF). Not owner selection, approval, or independent review. All EN/RU versions are complete. No production master has been chosen.
+Recommended script exact SHA-256: `7a1b87cbe472784d24867ddfa0b091cd7349f835976ed0845f10c79890f6d562` (includes terminal LF). Not owner selection, approval, or independent review. All EN/RU versions are complete. No production master has been chosen. Revised 02m SHA-256: EN `d099b88483fd23a5e566b883e284067092f3ab2cfdd1577d4b5f5898613b4739`, RU `d1a98ba955a1031cfe8e1d26638d38633fef3ec7f7f15f291a6ae05c136976d5`; the exact old hashes remain in [story-review.md](story-review.md). Independent reviewer must compare both exact 02m texts blind-first.
 
 ## Observed blocker / migration path
 
