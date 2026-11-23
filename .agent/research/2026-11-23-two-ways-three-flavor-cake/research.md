@@ -60,3 +60,16 @@ Each row conserves exactly 4 units of each flavor; sums per person verified in J
 Two-minute focus: equal size doesn't guarantee equal value → action at knife → payoff 4 to 8 → envy caveat, no claim B always wins. Five-minute focus: add changed preference reversal. Ten-minute focus: proof, order counterfactual, equal-own-value repair fails, precision, alternate result. One premise throughout. Original 2D visual proposals only; no actual media/reference bytes.
 
 Related next-video editorial dependency: #388 is a draft, not confirmed published; do not claim it as a native related video or use its intro. Choose verified related publication and actual intro only at authorized runtime.
+
+## 10m revision — quarter-unit diagnostic (2026-11-23)
+Baseline `ebf95e2bc6bcacab8e68df6d5d31c91bed845e77` (original scripts and calculations retained in Git). Existing A/B comparison and alternate Lee preference remain exactly as defined above. The failed equal-own-value repair is retained here as evidence but removed from the 10m narration to avoid a second lengthy fractional cutting exercise.
+
+New diagnostic after baseline B, **not a third competing method or part of the guaranteed protocol**: given the full preference table and agreement to use it, move only the first boundary from 2 to 2.25; keep the second at 6. Allocations in I, Max, Lee order: (0,2,4), (2.25,0,0), (1.75,2,0). Each flavor conserves exactly four units. Cross-valuation matrix (rows are observer, columns I/Max/Lee):
+
+| Observer | I plate | Max plate | Lee plate |
+|---|---:|---:|---:|
+| I | 10 | 4.5 | 9.5 |
+| Max | 6 | 9 | 9 |
+| Lee | 8 | 6.75 | 9.25 |
+
+Checked by JS dot products and conservation assertions: own scores 10, 9, 9.25; minimum 9 (baseline B 8); nobody strictly prefers another plate in this **particular** allocation. No optimality claim, no guarantee this adjustment works in another case, no measured taste or social behavior. The adjustment is calculated with full private preference inputs; the proportional guarantee itself uses only participants' own nonnegative additive fixed valuations, truthful accurate trims and cut-and-choose. New story sequence: B succeeds on floor → Max still envies Lee → quarter-unit diagnostic changes floor and envy simultaneously → why the known-input adjustment is not a general guarantee → alternate Lee preference reverses original A/B → choice. Visual intent: retain the same cake and three plates; freeze second cut, move first one by a quarter, show unchanged total and own/cross-scores; no generated assets or storyboard approval.
