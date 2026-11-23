@@ -1,0 +1,88 @@
+# Shared research — Nuviko History / HMS Thetis
+
+**Observation date:** 2026-11-23; source material is public, search queries generic and de-identified. **Research is ONE shared evidence file for three different lengths, not one reused master.** Own channel analytics, measured CTR, retention, watched videos, YouTube comments and verified asset rights are **UNVERIFIED**. No paid vidIQ or provider calls. This is a bounded editorial hypothesis, not proven audience demand.
+
+## A. Repo, format and non-duplicates
+
+- Remote main at selection: `a6023668001421b689a8142cebc0bd436545be6b` (actual GitHub remote, not remembered SHA).
+- GitHub story PR chronology: #389 Paper Detour → next Nuviko History; #388 Two Ways Lab, #387 Nuviko History.
+- #124 closed/**merged** on 2026-11-16: canonical main instructions apply; historic `7d6bdf7702a2a241a33a21677fce29f26ada9b72` is NOT a pending current policy.
+- Related but distinct: #20 S-5 (white T-shirt rescue; all survive), #373 Squalus (rescue chamber), #387 Air Florida 90 (survivor identity). In Thetis the particular conflict is a **false dry test followed by a visible stern that cannot safely be cut into**, ending with 99 deaths. This is not another S-5 escape victory.
+- Already commissioned #46 Apollo 13 / #25 Lawnchair Larry are protected. #13 telegraph and #88 bridge-before-canal rejected by owner and not repackaged here.
+- `channels/nuviko_history/channel.json`: `illustrated` supports both `short` and `long`; all three editorial versions proposed as **long 16:9**, no fictional Short loop. Voice EN 1.1 speed; time *estimated* until actual TTS. No media, no real traveler PNG bytes, no licensed footage in scope.
+
+## B. Broad bounded search — 11 different real stories
+
+Each candidate was screened for probable hook, causal development, ending, duplication and evidence availability; only finalists received source-depth review. This is a genuine shortlist, not 11 completed source audits.
+
+| Candidate | What could keep the viewer | Decision / counterargument |
+|---|---|---|
+| **HMS Thetis, 1939** | visible stern and living men, then tide defeats rescuers; blocked tap explains original flood | **Finalist / selected**; severe human cost, known documentaries, overlap with S-5/Squalus |
+| **Silver Bridge, 1967** | one hidden fracture collapses whole bridge; inspection system changes | **Finalist / strongest alternative**; strong cause/payoff but a static mechanism and historical regulation ending |
+| **Cocoanut Grove, 1942** | one ordinary night; many exits fail; public safety reforms | **Finalist**; very clear human stakes but crowded fire-disaster market and difficult respectful depiction |
+| HMS Birkenhead, 1852 | order of evacuation and survival controversy | Preliminary; the established phrase risks replacing primary-action story |
+| USS Thresher, 1963 | depth, engineering failure and military search | Preliminary; technical uncertainty and other submarine coverage |
+| Eschede train, 1998 | fatigue crack and derailment's propagation | Preliminary; graphic loss-of-life imagery and crowded catastrophe videos |
+| St Francis Dam, 1928 | overnight flood, lost communities and later forensic investigation | Preliminary; archival sources and distinct character chain not yet checked |
+| MV Doña Paz, 1987 | scale of collision and passenger-count uncertainties | Preliminary; exact totals disputed, would need greater evidence budget |
+| Kursk, 2000 | signals after explosion and rescue delays | Preliminary; disputed details, political claims, source conflict |
+| Bhopal, 1984 | dangerous industrial process and multidecade aftermath | Duplicate **#298** |
+| Herald of Free Enterprise, 1987 | an open-door safety failure with audit trail | Duplicate **#358** |
+
+No final claim about unverified candidates' facts follows from screening alone. Silver Bridge's inclusion is NOT a revival of the owner-rejected #88 bridge-built-before-canal angle.
+
+## C. Three finalist pitches at comparable depth
+
+**1. Thetis — selected.** Audience: EN viewers of historical mechanisms and human choices. Stop: *“Why did rescuers lose ninety-nine men in a submarine whose stern they could see?”* Proposed literal beginning: “Why did a small test tap help sink a brand-new submarine? And why couldn't rescuers reach ninety-nine people after finding its stern above the water?” Development: tube five false dry → inner door → two flooded compartments → buoy/search delay → two pairs escape → attempted lift and cables/tide → death → post-salvage explanation. Payoff: **the stern was visible but unsafe to cut, and tidal operations removed that opportunity**, plus blocked enamel meant “no water at tap” was not evidence of a dry tube. Best objection: a **new Polish 30-minute video published 2026-11-18 has the same visible-stern/99-deaths promise**, and prior English coverage exists. Difference proposed: compact causal treatment from 1939 parliamentary account with separate initial failure and rescue failure, not a new historical discovery. Interest is **experimental**, not empirically proven for Nuviko.
+
+**2. Silver Bridge — runner-up.** Open: “What can a crack smaller than a fingernail do to a road full of cars?” First action: December 15, 1967 Ohio River crossing collapses during rush hour. After-hook: one eyebar fractured at a flaw not accessible to ordinary inspection → companion link slips → collapse propagates → investigators reconstruct cause → standards response. Payoff: 46 died and U.S. bridge-inspection standards developed after the collapse. Sources [West Virginia DOT](https://transportation.wv.gov/silver-bridge) (The Collapse / 1971 cause report), [ASCE](https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/silver-bridge-collapse-and-creation-of-national-bridge-inspections-standards) (small crack/redundancy), [FHWA](https://www.fhwa.dot.gov/highwayhistory/national_bridge_inspection_standards.cfm) (1971 standards). **Strongest objection**: all answers fit one short explanation; the remaining minutes risk material-science lecture instead of new evolving action. This could beat Thetis in a concise technical Short; it is NOT a straw man.
+
+**3. Cocoanut Grove — finalist.** Open: “A nightclub had doors. Why couldn't hundreds of people get out?” November 28, 1942 a fast-growing fire moved through a Boston nightclub; revolving/inward opening, obscured or locked exits became barriers. Payoff: death toll 492, and changed fire/egress practices; [US National Archives](https://www.archives.gov/publications/prologue/2017/fall/cocoanut-grove) (Black Smoke... and Board findings), [Boston Public Library](https://guides.bpl.org/bostonfires/cocoanutgrove) (fatalities/consequences). **Strongest objection**: heavy archival and ethical burden plus numerous existing documentary treatments; detailed casualty imagery is neither necessary nor suited to Nuviko's recognizable character style. Competes on stronger immediate human stakes but less distinct mechanism-and-second-obstacle structure.
+
+**Selection against strongest alternative:** Silver Bridge may have a cleaner 2-minute explanatory hook. Thetis gives Nuviko a first verified reversal (false dry tap) followed by a **different physical obstacle after the rescue ships arrive**, and a concrete fatal payoff. It can earn five minutes without repeated engineering diagrams. Still, the new same-angle Polish release prevents any unsupported novelty or breakout claim. Do not force the 10-minute variant if it loses the thread.
+
+## D. Primary/history evidence map — confirmed actions and precise limits
+
+| Source / verified location | Claims genuinely supported | Uncertainty/limits |
+|---|---|---|
+| [UK Hansard, Prime Minister statement, 5 June 1939](https://api.parliament.uk/historic-hansard/commons/1939/jun/05/loss-of-his-majestys-ship-thetis), cols 45–49 | dive 1 June ~13:40; two forward compartments flooded; ~130 ft bottom; marker buoys delayed; HMS Brazen located exposed stern 07:54 on June 2, **18 ft visible**; first two survivors, then two more 09:54; severe carbon-monoxide poisoning observation; tidal lift cables broke and stern submerged; reported possible tapping; attempt to supply air deemed too slow | Contemporary official *pre-inquiry* statement; explicitly said initial reason for opening torpedo rear door was still unclear. No automatic evidence of later inferences |
+| [Historic England, HMS Thetis record 1387013](https://historicengland.org.uk/listing/heritage-gateway/results/record/0d636742-8028-4a8c-8b7c-e1f9aaf2d338/0a9a6bd6-67c1-4fc3-82f8-a4324d4d06d1), Description | 103 onboard; tube #5 test cocks blocked with enamel; sunk 1 June 1939; 99 deaths, four survivors; raised, recommissioned as HMS Thunderbolt in 1940; lost all hands 14 March 1943 | summary says Adriatic but body says Mediterranean: script **does not choose sea or precise cause**; contains later compilation |
+| [Liverpool maritime history / Wrecks of Liverpool Bay](https://www.liverpool.ac.uk/~cmi/books/miscWr/lwsub.html), Thetis paragraph | bow on bottom, stern above water, four escaped; salvaged and renamed | Brief overview, not source for technical sequence |
+| [Great Disasters, 12 July 2021, Thetis investigation transcript](https://greatdisasters.co.uk/hms-thetis/), chronology + public inquiry sections | safety cock/hole blocked by bitumastic enamel, extra steps: unclear bow-cap indicator, heavy door multiple clips, attempted flooded-chamber return, complicated escape, tides, inquiry; design of `Thetis clip` | Detailed **secondary** reconstruction; does not prove unknown motives or explain exactly who opened outer cap |
+| [UK House of Lords 1942 judgment, Duncan v Cammell Laird](https://www.casemine.com/judgement/uk/5a8ff87860d03e7f57ec102b), facts/disclosure sections | relatives' negligence actions; Admiralty public interest/Crown privilege restricted disclosure of submarine construction documents | Judicial privilege ruling, **not** factual finding assigning one perpetrator for accident |
+| [Royal Naval Association, 8–14 March commemorative article](https://www.royal-naval-association.co.uk/swinging-the-lamp-march-8th-14th), 14 March 1943 | the same hull renamed HMS Thunderbolt and lost again during war; 99 Thetis victims, rescue and salvage | May overstate definitive second-loss cause; script preserves dispute rather than copying confident attribution |
+
+**Critical factual negative tests:** Do not claim the tap itself caused the outer cap to open; it prevented detection. Do not claim **all** victims died exclusively of CO/CO2 poisoning; multiple factors/failed escape attempts. Do not assert the initial open-cap mechanism or the exact cause of the 1943 loss is conclusively established. Do not assert the stern could be cut without flooding. Do not equate the four successful escapes with a method for extracting the other ninety-nine quickly.
+
+## E. YouTube and public audience signals, compared fairly
+
+Metadata was inspected **2026-11-23** from indexed YouTube/result pages or explicitly dated third-party snapshots; **no complete YouTube videos, transcripts, or native comments were watched/read**. Counts are snapshots, not current promises. Publication dates are dates of uploads, not dates a search engine crawled them.
+
+| Topic / creator, link or ID | Published | Language; format; duration | Observed public views / metadata age | Comparison / counter-signal |
+|---|---|---|---|---|
+| Thetis: [OdwróconaLekcja — Thetis Katastrofy w głębinach #1](https://www.youtube.com/watch?v=xDQJ0mfk3p0) `xDQJ0mfk3p0` | **2026-11-18** | PL, long **30:05** | **154.7k** in public channel snapshot on 2026-11-23 ([channel page](https://explodingviews.com/pl/channel/%40odwroconalekcja)); detailed video X-Ray preserved only earlier **44,199 on Nov 19** ([dated snapshot](https://www.explodingviews.com/pl/video/xDQJ0mfk3p0)) | **Direct same-angle competitor published 5 days earlier**; channel page shows ~0.9× typical, **not standout**, no direct proof of EN 5m success |
+| Thetis: [Today I Found Out — Murphy's Law in Action](https://www.youtube.com/watch?v=pCzXVZTssbM) `pCzXVZTssbM` | 2022-03-05 | EN, history long; duration UNVERIFIED | 123,422 indexed views (crawl ~2026-09) | Huge creator 3.25M followers. Count is NOT outperforming baseline; duration unknown |
+| Thetis: [Grove — Submarine Thetis (1967)](https://www.youtube.com/watch?v=sjaXAad8h_A) `sjaXAad8h_A` | 2025-04-13 | EN, documentary reupload; duration UNVERIFIED | 23,959 indexed views (crawl ~2026-08) | Archival film and other medium; **not** a newly animated English account |
+| Thetis: [Cyberheritage Steve Johnson](https://www.youtube.com/watch?v=hnGJH0etmUo) `hnGJH0etmUo` | 2010-01-28 | EN, ~38m archival film per Historic England | 173,386 indexed views (crawl ~2026-09) | Evergreen archival interest, not recent velocity |
+| Silver Bridge: [Abbie Cheeseman Short](https://www.youtube.com/watch?v=BbWg3WINoKo) `BbWg3WINoKo` | 2025-06-19 | EN; likely Short, duration UNVERIFIED | 15,515 indexed views (older crawl) | Different length/genre; only weak signal on engineering storytelling |
+| Cocoanut Grove: [Disastrous History](https://www.youtube.com/watch?v=dx7RFXbyPrs) `dx7RFXbyPrs` | 2024-04-22 | EN, long history, duration UNVERIFIED | 1,284 indexed views (crawl months ago) | Saturated subject; lower-view example is not necessarily typical |
+
+**Same-author baseline, not cherry-picked outliers:** [OdwróconaLekcja public channel list](https://explodingviews.com/pl/channel/%40odwroconalekcja) on 2026-11-23 lists recent similar-age long videos, e.g. “Koszmarny wypadek w Nutty Putty” 75.4k (29m, 22h), “Objawienia pod lupą neurologów” 123.6k (34m, 7d), “Patriotyzm po POLSKU” 98.8k (28m, 11d), “Statystyczny człowiek nie istnieje” 119.2k (23m, 12d), “Zapomniana pandemia” 404.3k (37m, 15d). These are **different ages and topics**, useful coarse normal-result context only. Thetis ~154.7k is **around ordinary performance**, not 4× breakout. For EN Today I Found Out/Grove/Cyberheritage, same-age/format same-author baseline **UNVERIFIED**; no synthetic comparable sample invented. A few public questions ("why exposed stern not cut?", "why tap said dry?") are the editorial promise from documented facts, **NOT actual comments**. The detailed 19 Nov snapshot lists 24 comments but their text was not available; don't present imagined audience questions as read replies.
+
+Fresh 30–90d signal: **Nov 18 Polish video (5 days) is recent but shorter than 30 days**; its release is a recent cross-language competitor, not confirmed ongoing 30–90-day trend. Other results are evergreen. Public views and VPH from a third-party snapshot do not establish creator-specific CTR, audience satisfaction, retention, or stable growth.
+
+## F. Story cause → changed expectation → source
+
+1. Acceptance test and unusual headcount → more people aboard than standard crew → Hansard / Historic England.
+2. Bow buoyancy investigation → test tap shows no water → Great Disasters + Historic England.
+3. Tube five inner door opens, sea connection exists → two forward spaces flooded → Hansard + inquiry reconstruction.
+4. Blow ballast tanks, release buoys → stern rises, search still delayed → Hansard 5 June cols 46–47.
+5. HMS Brazen finds stern exposed; Oram/Woods then Arnold/Shaw escape → hope of further rescue → Hansard cols 47–48.
+6. Unsafe cut at waterline; cables part, tide sweeps stern under → no usable high opening → Hansard cols 48–49.
+7. Further attempts fail, air deteriorates; 99 die → accepted fatal outcome → Hansard / Historic England.
+8. Recovered tube #5 tap plugged, cap mechanism not definitively traced → multiple safeguards failed → Historic England + inquiry; later Thetis clip and 1942 privilege lawsuit secondary/legal.
+9. Hull recommissioned as Thunderbolt and lost again in 1943 → second fate is factual epilogue, **not** required to fulfil main payoff → Historic England / Royal Naval Association.
+
+## G. Rights, budget, production and limitations
+
+No archive/downloaded video, historian footage, BBC films, photos, documents, two approved traveler PNGs or actual reference bytes were obtained in this run. Every external media use still needs provenance and rights; metadata/web pages alone do not authorize images, video or voice. Scene reconstruction of historical setting must follow Nuviko profile; 2D presenter not a historical witness. Script references are prose facts only. `sessions.independent` NOT found in direct/deferred tool inventory; absence is UNVERIFIED independent review, not PASS. `ytv start` cannot be issued without an installed repo checkout and shared runtime workspace; Git-only editorial queue is explicitly permitted with `EDITORIAL_CANDIDATE_UNREGISTERED`. No TTS/imagegen/video/MP4/release/schedules. No paid credits.
