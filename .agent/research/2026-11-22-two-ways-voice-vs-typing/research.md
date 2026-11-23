@@ -56,3 +56,7 @@ Sensitivity: N=12 => A=14.4 s, B(E=20)=4.8+20=24.8 (A wins 10.4). N=120 => A=144
 ## Narrative/payoff trace
 
 Opening promises a counterintuitive reversal. Same text and device lead to A=72 and B=44; when E changes, B=79. At the 48-second cutoff the seemingly fast draft stops being the fastest *sent* text. Short variant completes its answer and bridges its last question into the first line. Five-minute version adds a short and long message, practical limits. Ten-minute version adds threshold-per-word reasoning and experiment-design limits at pacing cost; not recommended as master.
+
+## 2026-11-23 revision-specific sensitivity case (10m only)
+
+Using the existing openly hypothetical model `A(N)=1.2N` and `B(N,E)=0.4N+E`, the revised 10m examines a **new assumed**, not observed, correction burden `E=110` for `N=120`: voice `48+110=158` seconds versus keyboard `144`, so keyboard wins by `14`. This specifically challenges the previously fixed E55 assumption (which gave voice `103` and a `41`-second win). The 110-second case is not sourced to a real device or study and is clearly declared hypothetical in EN and RU; it requires no factual claim beyond the existing model. A separate conditional keyboard final check of `+10` seconds for the 60-word E55 case is retained from the original draft (keyboard `82` vs voice `79`). The Stanford studies remain inspiration for the question only, **not** measurements of these parameters.

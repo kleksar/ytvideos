@@ -65,3 +65,50 @@ No independent reviewer was available as an authorized separate session. No fabr
 - Author revision history: 1 full author composition + 1 local fact/translation/arithmetic/seam pass, no claimed independent cycles; the <=2-revision budget has not been exhausted. No prior source script was edited; baseline N_A.
 
 The strongest alternative remains the shared-bathroom schedule, which may outperform this numerically led story in visual humor. Unverified audience demand is **not** a score of zero or eight. No prospective retention or CTR is predicted.
+
+## 2026-11-23 substantive review — 10m exact revision (supersedes earlier 10m author judgement)
+
+**Baseline:** existing Draft #353 at `6f3b974c3e57a6bab0b6ea497219fd10ea0d8197`; original 10m EN SHA-256 `d985465787ebe242c58fe16c5e7bd5e78fa42adb192538d68a624b5f2dd0fe7b`; RU `d9e41abf20c874f5a1d6f7d6a5f727feaa6d5578b09391a45084e4c7502075fa`. Old 10m scorecard above describes that old hash only and must **not** be treated as current review. Original 02m/05m unchanged and their author observations preserved.
+
+**Current 10m:** [full EN](variants/10m/script.en.txt) SHA-256 `983bdaee9c0251594acea79a2909235731546cc589c18dd056e731211ba9e56a`; [full RU](variants/10m/script.ru.txt) SHA-256 `f695d55d2e08d27c9da67f9debac0cee709c17875fe5f3bd967fa9e1cc38fdea`. EN **1239 words**; at hypothetical 125–155 wpm, ~8.0–9.9 min spoken before pauses; **10m target UNDERLENGTH/UNVERIFIED**, never measured by TTS. The text is complete as a narrative candidate, not a verified full ten-minute duration. Exact content must be read by an independent reviewer after this hash; author check is not independent.
+
+**Was → now story map:** technical introduction and calculated B=44 → B=79 → 48-second threshold → repeated length/equation block → keyboard verification and voice-rate sensitivity → long checklist of test design → repeated answer **became** human send-ready promise → equal-condition 60-word B=44 victory → B=79 reversal → check budget 48 → 12-word typing win → 120-word dictation win at E55 → **new explicit conditional E110 long-message loss** → per-word explanation only after events → ten-second typed final-check flips the 60-word hard-case back to voice → one short fair-test boundary → complete answer. This uses the same declared computational model; the new E110 is **hypothetical**, not a measured recognition failure.
+
+**What stayed / what changed:** the accurate core 72, 24, 44, 79, 48, 14.4/24.8, 144/103 and keyboard A82/B79 were retained. The original exhaustive 47/48/49 recitation, formula repetition and speculative speech-rate variation were removed; the added 120-word cost challenge provides a new result instead of padding. No real personal actions, interviews, phone tests or external statistics are asserted. Strong 02m retained.
+
+### Eight criteria — anchored to the actual current texts
+| Editorial criterion | 02m · unchanged | 05m · unchanged | Revised 10m · author only |
+|---|---|---|---|
+| Interest/significance | 8 — familiar send button comparison | 8 — short/long contrast | 8 — the same message's winner changes at final correction; no verified viewer interest |
+| Opening | 8 — immediate speed question | 8 — correct meeting detail problem | 8 — two questions promise draft-versus-send and proofread cost; first action is leaving home |
+| Development/causal escalation | 8 — quick vs expensive corrections | 8 — length changes the answer | 8 — 60-word flip → 12/120-word tests → long-message review rising to 110 seconds → keyboard final-check reversal |
+| Payoff | 9 — 48-second break-even | 9 — finish line plus length | 8 — final rule explains the 48-second budget and why 120-word dictation can lose at 110-second correction |
+| Freshness of angle | 7 — send-ready not draft | 7 — practical length variant | 7 — specific growing-correction trap beyond the original fixed-review assumption; still a hypothetical model |
+| Visual potential | 8 — two lanes/Send button | 8 — length scenarios | 7 — visible draft, edits and competing finish; multiple numeric comparisons remain demanding on phone |
+| Natural spoken clarity | 8 — direct first-person actions | 8 — calm first-person narration | 8 — removes detailed repeated mathematical lecture and redundant "how to test" checklist; still numerically dense |
+| Confirmed audience interest | UNVERIFIED — no matched baseline | UNVERIFIED — no matched baseline | UNVERIFIED — no matched baseline; ratings are not retention predictions |
+
+**Author confidence:** high in deterministic arithmetic after conditional inputs, moderate in EN/RU parity and causality, low in viewer response and spoken pacing. Weakest 10m segment: after the 120-word reversal, numbers and the keyboard final-check case remain demanding. **Attention loss candidate:** the explanation of per-word savings after the 120-word result; test with a blind first listener. Full new RU mirrors the 60 / 12 / 120 cases, the 110-second hypothetical, the keyboard +10 check, 48-second threshold and "no real test" caveat. Neither text contains invented dialogue, measured claims or a protected production master.
+
+### Conditional model evidence (arithmetic, not field data)
+- 60 words: keyboard `60×60/50=72`; voice draft `60×60/150=24`; voice E20 = `44`; E55 = `79`; tie E48 = `72`.
+- 12 words: A `14.4`; B E20 `4.8+20=24.8` (typing ahead `10.4`).
+- 120 words: A `144`; B E55 `48+55=103` (voice ahead `41`); **new explicitly assumed E110** yields `48+110=158` (typing ahead `14`).
+- 60-word final keyboard check +10 gives A `82`; B E55 remains `79` (voice ahead `3`).
+- For modeled speeds, savings `(60/50 - 60/150)N = 0.8N` seconds. E is NOT a measured variable.
+
+### Separate hard gates for revised exact 10m
+| Check | Current result and limit |
+|---|---|
+| Text identity | AUTHOR-CHECKED local UTF-8 SHA-256 values above; remote read-back required after branch CAS |
+| 2/5 variants | NO CHANGE; exact original evidence preserved |
+| Arithmetic / declared conditions | PASS for listed deterministic equalities only; not a real test |
+| Fact/model boundary | AUTHOR-CHECKED: same modeled speeds, clearly hypothetical 110 and keyboard +10; real device/user performance UNVERIFIED |
+| EN/RU equivalence | AUTHOR-CHECKED meaning/numbers/caveat; independent bilingual pass UNVERIFIED |
+| Independent blind-first script review | UNVERIFIED; do not fabricate response or receipt |
+| Estimated 10m timing | REWORK_UNDERLENGTH until actual playback/TTS and/or more valuable confirmed content |
+| ChannelSpec long production | BLOCKED — `channels/two_ways_lab/channel.json` long canvas/fps null; do not change profile |
+| Media references, storyboard, rights | UNVERIFIED; no storyboard/hash reuse across variants |
+| Runtime/approval | EDITORIAL_CANDIDATE_UNREGISTERED; no official run, gate or user approval |
+
+**Duration comparison:** 02m gives the central 60-word correction reversal and usable 48-second threshold with a self-contained finish; its Short text loop still needs independent two-cycle review and exact AV test. 05m earns extra time with short-vs-long message constraints and a fair-test caveat. Revised 10m now earns some added time by proving that **longer messages can still lose if correction time grows** and that a keyboard review cost shifts the finish line; it remains less efficient than 02m and under the nominal length target. **Recommendation: retain original 02m** as *editorial candidate only*. No approval/production implied. Demand, retention, actual listening, exact voice timing and audience preference UNVERIFIED.
