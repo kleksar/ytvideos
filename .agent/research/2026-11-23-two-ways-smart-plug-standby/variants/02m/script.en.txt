@@ -1,0 +1,21 @@
+Can a smart plug use more electricity than it saves?
+
+I want to stop wasting power while my TV sits in standby. I have two choices. A: leave it connected. B: put a scheduled smart plug between the TV and the wall. Which one uses less electricity over a day?
+
+I will use a simple model, not measurements from my home. In both versions I watch for four hours and leave the TV unused for twenty. The TV uses exactly the same power while I'm watching, so I can leave that shared part out.
+
+My imaginary efficient TV draws 0.3 watts in standby. Leaving it alone for twenty hours costs six watt-hours.
+
+Now the catch. My model's smart plug draws 0.7 watts while it cuts power to the TV. It draws 0.9 watts during the four hours it supplies the TV. The plug is never completely asleep.
+
+Twenty hours times 0.7, plus four times 0.9, gives 17.6 watt-hours. That's the plug's own daily overhead.
+
+So A wastes six. B wastes 17.6. In this example the gadget that was meant to save power uses 11.6 watt-hours more.
+
+But I change one stated input before the next comparison. Suppose the device is an older audio receiver drawing eight watts when unused. Same four hours on, same twenty off, same plug. Leaving it in standby burns 160 watt-hours. The smart plug's overhead is still 17.6. Now B saves 142.4 watt-hours a day.
+
+The winner changed because the device changed, not because I secretly changed the clock.
+
+The useful number is the device's real standby draw compared with the plug's own overhead. Some devices also need standby power for updates or maintenance; cutting it is not automatically sensible.
+
+I cannot claim either result for my actual television without checking its manual and measuring both devices. But when a smart plug promises savings, I know which question to ask first.
