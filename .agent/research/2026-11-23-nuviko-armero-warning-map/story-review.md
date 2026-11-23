@@ -8,9 +8,9 @@
 |---|---|---|---:|---|---|---|
 | 02m / **Long** | [02m EN](variants/02m/script.en.txt) | [02m RU](variants/02m/script.ru.txt) | 274 | `574bcd26626e7912e8516cdeb10f7dd9892adf85e683b6dddac1b1dec0bcbd6c` | `d0b4bcd9bdac96f829a0172a71b1abe922a58024afe6a1db1f45aa42229efcb5` | STRONG_CANDIDATE |
 | **05m / Long** | **[05m EN](variants/05m/script.en.txt)** | **[05m RU](variants/05m/script.ru.txt)** | **688** | `85c71fec57751bb516d0c020b5a67ba03906d7dad9a1ecc603fddce0787b87cb` | `140f11ef0065fc07d8acedfc43a548c51f045bf49e52742b7bbebe08e11844b1` | **STRONG_CANDIDATE — RECOMMENDED** |
-| 10m / Long | [10m EN](variants/10m/script.en.txt) | [10m RU](variants/10m/script.ru.txt) | 1565 | `a882e90fc0deb3aa826adf14c38107db02b3f5bcd9930aeb8285e3ffa55920e8` | `4d12a376057847139fdf7f9dbda8a1fb8d9d7a303d2c0e7cbf5e93f28d739000` | REWORK |
+| 10m / Long | [10m EN](variants/10m/script.en.txt) | [10m RU](variants/10m/script.ru.txt) | 1361 | `e3c359dc6f68d356c1439450b22bdb1cbdfdec9447e2b6ea8b756d5522b9fc7a` | `84afa4a0665dd630a7175386e19d3f80c4e8f53938a30decbb051eb6473f2173` | REVISED_UNDERLENGTH_RISK |
 
-Estimated timing only, **not** a recorded voice: assumed effective 135–155 spoken EN words/min at the source voice rate, apply configured 1.10× speed **once** (not again in script) plus pauses and Nuviko's 10-second Long end screen. Estimated 02m 1:46–2:14, 05m 4:10–4:58, 10m 9:20–10:55. Actual TTS / music / edit timing **UNVERIFIED**. RU is complete semantic review translation, not RU TTS master.
+Estimated timing only, **not** a recorded voice: assumed effective 135–155 spoken EN words/min at the source voice rate, apply configured 1.10× speed **once** (not again in script) plus pauses and Nuviko's 10-second Long end screen. Estimated 02m 1:46–2:14, 05m 4:10–4:58, 10m ~8:57–10:15 (at effective 135–155 wpm plus 10s end screen; revised 1361 words). Actual TTS / music / edit timing **UNVERIFIED**. RU is complete semantic review translation, not RU TTS master.
 
 Both channel's declared format compatibility (long 16:9, end screen 10s) and nominal narration type **PASS as documented configuration**. No production started. No narrated Short: narrative loop **N_A by Long choice**, not a failed/claimed Short loop. If owner later wants a Short, rewrite exact selected short script and pass literal full-cycle review on new SHA; no silently relabeling this 2m Long as a Short.
 
@@ -44,20 +44,24 @@ Both channel's declared format compatibility (long 16:9, end screen 10s) and nom
 
 **Main weakness:** risk that planning/explanation section around paragraph four feels abstract before eruption. The intended fix at storyboard stage is concrete visual cause and a clear return to the physical eruption, **not** inventing dialogue or dangerous action. **Opening:** “What happens when a warning is scientifically right…”; **development:** map and institutions → unseen eruption → volcanic mud travels → evacuation failure; **payoff:** map right, protective action inadequate. STRONG_CANDIDATE based on verified factual arc and author judgement.
 
-## 10m: full-text author review
+## 10m: full-text author review — revised at baseline `b1d243a0aa5b1bed6f850ab271084a7003451745`
 
-| Criterion | Author score (confidence) | Exact anchor and concrete reason / caveat |
+**Baseline:** 1565 EN words, EN SHA-256 `a882e90fc0deb3aa826adf14c38107db02b3f5bcd9930aeb8285e3ffa55920e8`, RU `4d12a376057847139fdf7f9dbda8a1fb8d9d7a303d2c0e7cbf5e93f28d739000`. New exact EN `e3c359dc6f68d356c1439450b22bdb1cbdfdec9447e2b6ea8b756d5522b9fc7a` (1361 words), RU `84afa4a0665dd630a7175386e19d3f80c4e8f53938a30decbb051eb6473f2173` (1138 whitespace-delimited words). Other four scripts byte-identical. **All scores authorial, not independent.**
+
+| Canonical criterion | Author score / confidence | Exact revised line/action and concrete weakness |
 |---|---|---|
-| Interest / significance | **8/10**, medium | asks why “the most painful evidence” is a pre-eruption map |
-| Hook | **8/10**, medium | three differentiated questions tied to timing, mechanism and warning |
-| Causal development / reason to stay | **7/10**, medium | detailed risk assessment and physical sequence are strong, but multiple paragraphs on institutional procedures reduce dramatic momentum |
-| Payoff | **8/10**, medium | map/path comparison and who could act on warning deliver the main answer |
-| Freshness of angle | **8/10**, medium | adds hazard-vs-timing distinction, counting uncertainty, concrete rescue constraints, 2025 memory |
-| Visual expressivity | **8/10**, medium | mountain/river/town aftermath plus scientific/procedural reconstruction; archive shots not sourced |
-| Natural speech / clarity | **7/10**, medium | “the gap lay elsewhere” paragraph and sensor/disaster-preparation section are clear but essay-like in sequence |
-| Observed audience interest | **UNVERIFIED** | no matched 10m comparison or verified retention |
+| Interest / significance | **8/10**, medium | “map show the path … fail to save the town” promises a consequential contradiction; the tragic subject needs careful handling |
+| Hook | **8/10**, medium | Three first questions, followed by Armero's river and old mud deposits; main hook is the October map despite scientific time uncertainty; slower buildup than 05m |
+| Causal development / reason to stay | **8/10**, medium | 1845 deposits → overlooked hazard → September event → October 7 map → November 10 revision → November 12 uncertain summit observation → eruption → lahar; calendar dates add cognitive load |
+| Payoff | **8/10**, medium | “predicted hazard corridors were remarkably close” then distinguishes conditional geographical risk from failed actionable warning; missing individual survivor perspective |
+| Freshness of angle | **8/10**, medium | Specific 7 Oct / 10 Nov maps and 12 Nov uncertain observation add an authentic obstacle, not a false all-knowing forecast; scientific response history is still familiar |
+| Visual expressivity | **8/10**, medium | Historical mud deposits, dated maps, instrument installation, storm and river corridor permit distinct imagery; source PNG rights and actual footage UNVERIFIED |
+| Natural speech / clarity | **8/10**, medium | “That is not the same as two hours of warning for every person” is speakable and clarifies the key misunderstanding; some report-derived dates may remain dense |
+| Observed audience interest | **UNVERIFIED**, no numerical score | 2025 Spanish commemorative views cannot establish current English long-form demand or retention; no Nuviko analytics |
 
-**Main weakness:** after the map revelation, broader warning-system material repeats the core lesson; 10m would be better as a science essay, but this channel's desired cause→consequence oral history loses tempo. **Status REWORK** despite full independent plot and ending; do not push it into production as winner. A second editorial revision is permitted later but do not lengthen to force a nominal clock time.
+**Narrative check:** questions → immersion (town/1845 deposit) → main hook (dated map conditional on eruption) → second obstacle (no clear timing signal on Nov 12) → eruption/physical flow → human cost → map accuracy/payoff → single concise consequence. The disaster is not blamed on an invented official or quote. **Potential viewer drop:** instrument/dated-map stretch before the November 13 storm; this is meaningfully shorter than the former repeated emergency-policy tail but is still a risk. **Timing:** effective 135–155 spoken EN wpm gives roughly 8:47–10:05 narration; with the documented 10-second Long end screen, nominal 8:57–10:15 *before other pacing/pauses*. This is not measured; **UNDERLENGTH_RISK** remains at the fast end. Do not artificially slow voice or append filler.
+
+**Change comparison:** old strong 10m material preserved: snow/ice → lahar, river corridor, two-hour window, difficult rescue, denominators, mapped-vs-actual revelation. Old repetitive sensor/training/policy tail removed; new research-grounded map chronology and 12 Nov observation turn the first half into specific decisions/constraints. RU was rewritten alongside EN, not derived metadata only. No storyboard or timings existed for this text; none inherited. Only 05m retains preliminary recommendation and no master approval.
 
 ## Translation QA, fact checks, rights, independent review
 
@@ -78,7 +82,8 @@ Both channel's declared format compatibility (long 16:9, end screen 10s) and nom
 ## Comparative value and decision
 
 - **02 → 05:** reader gains a concrete sequence of decisions before the eruption, the role of rain, institutional uncertainty, and why scientific correctness did not translate to evacuation; this enhances the actual reversal rather than repeating death statistics.
-- **05 → 10:** gains distinction between hazard maps and timed prediction, old geological deposits, variations in casualty counts, rescue constraints, and general warning-system mechanics. Those are truthful and informative, but the second half risks duplicating the already established lesson.
-- **Recommendation: exact 05m English script.** Strongest balance of concrete action, ethical framing and earned map revelation. This does **not** select a runtime master, grant owner approval, or authorize production. If independent reviewer finds it too abstract or insufficiently human, reject or revise within the remaining limited budget. Do not treat self-scores as audience probabilities.
+- **05 → 10 (revised):** gains specific 1845 prior flow, the absent volcano chapter in a 1985 public guide, 7 October and 10 November maps, the uncertain 12 November summit observation, casualty denominators and difficult rescue. These verified developments add a real time-vs-place dilemma. Loss point moves to the dated monitoring/map section before the storm; no repeated sensor-policy epilogue, but the extra dates still cost attention. 05m remains stronger for first-view narrative economy.
+- **Recommendation: unchanged exact 05m English script.** Strongest balance of concrete action, ethical framing and earned map revelation. This does **not** select a runtime master, grant owner approval, or authorize production. If independent reviewer finds it too abstract or insufficiently human, reject or revise within the remaining limited budget. Do not treat self-scores as audience probabilities.
 
 Next review requires independently reading the **exact raw 05m text** cold (opening then full story), without this author's diagnosis or beat map; after first reading, supply sources and strongest challenger Thetis/Loma Prieta. Record the reviewer’s true result under the existing schema. Changing any narration byte invalidates that review.
+**Status after this pass:** 02m/05m prepared and source-checked (author only), 10m substantively rewritten and source-checked (author only); independent blind-first, exact voice timing, and owner approval UNVERIFIED. Existing Git-only state `EDITORIAL_CANDIDATE_UNREGISTERED`. Never report author QA as independent.

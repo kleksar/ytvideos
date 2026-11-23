@@ -17,10 +17,10 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 | 02 RU | `variants/02m/script.ru.txt` | `bbb644eba5f41cfdb7b0d15735513ef171a609b2` | `d0b4bcd9bdac96f829a0172a71b1abe922a58024afe6a1db1f45aa42229efcb5` |
 | **05 EN** | **`variants/05m/script.en.txt`** | `75aeb08d3dab238c2470fdf5c2c92ec6ebdc2bb0` | `85c71fec57751bb516d0c020b5a67ba03906d7dad9a1ecc603fddce0787b87cb` |
 | 05 RU | `variants/05m/script.ru.txt` | `f3a3df5da9183ec02203766ff0084fb4a085ca7f` | `140f11ef0065fc07d8acedfc43a548c51f045bf49e52742b7bbebe08e11844b1` |
-| 10 EN | `variants/10m/script.en.txt` | `cdcb4f5c8a71b9a0b93f9512213e7104975464df` | `a882e90fc0deb3aa826adf14c38107db02b3f5bcd9930aeb8285e3ffa55920e8` |
-| 10 RU | `variants/10m/script.ru.txt` | `6bddc58c56ad0b1eab28ca3a027cd7e632e09cfe` | `4d12a376057847139fdf7f9dbda8a1fb8d9d7a303d2c0e7cbf5e93f28d739000` |
+| 10 EN (revised) | `variants/10m/script.en.txt` | `6650d2576bb9218ae380b08e0c8c562ec591379d` | `e3c359dc6f68d356c1439450b22bdb1cbdfdec9447e2b6ea8b756d5522b9fc7a` |
+| 10 RU (revised) | `variants/10m/script.ru.txt` | `e165703059ead7f49d3d6de28636c19e0653006e` | `84afa4a0665dd630a7175386e19d3f80c4e8f53938a30decbb051eb6473f2173` |
 
-All translations are full and author-compared; SHA values are for exact UTF-8 bytes with no appended newline. A new byte means a new hash and new independent reading.
+All translations are full and author-compared; SHA values are for exact UTF-8 bytes with no appended newline. The two 10m entries replaced their prior baseline blobs, preserved in story-review/research. No prior review, storyboard or timing for those changed bytes may be reused. A new byte means a new hash and new independent reading.
 
 ## Verified capabilities / blockers
 
@@ -40,3 +40,8 @@ All translations are full and author-compared; SHA values are for exact UTF-8 by
 5. Before release, measure TTS length/audio, handle actual permissions, render QA, subtitles and complete Studio checks with separately authorized scope. Never migrate old run pins silently.
 
 This file reflects editorial Git staging, not a successful downstream tool run.
+## Existing PR #384 scoped editorial revision — 2026-11-23
+
+**Baseline/head lease:** branch `story/nuviko-armero-warning-map-20261123`, expected old HEAD `b1d243a0aa5b1bed6f850ab271084a7003451745`. Existing baseline 10m hashes EN `a882e90fc0deb3aa826adf14c38107db02b3f5bcd9930aeb8285e3ffa55920e8`, RU `4d12a376057847139fdf7f9dbda8a1fb8d9d7a303d2c0e7cbf5e93f28d739000`. New 10m full EN/RU SHA-256 in table above. No rewrites to accepted/protected texts elsewhere. **What changed:** replaced post-reveal generic policy tail with a verified pre-eruption chain (1845 precedent, 7 Oct/10 Nov maps, 12 Nov uncertainty) and direct consequence/rescue, preserving physical/casualty evidence. **Best candidate remains original 05m**; no owner approval. File/tree read-back and exact CI must be confirmed for the new commit before claiming completion.
+
+Remaining: fresh independent blind-first reviewer on exact preferred version and revised 10m (without author scores first); actual Nuviko TTS duration; visual reference and rights inspection; runtime registration with canonical context/pins on the proper host; owner chooses one master; subsequent storyboard must bind exact master hash. No tools/media/prod/pins changed.
