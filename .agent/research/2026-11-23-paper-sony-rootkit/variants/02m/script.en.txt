@@ -1,0 +1,17 @@
+A music CD from a store could hide software on your Windows computer.
+
+In 2005, Sony BMG wanted to stop people copying certain albums. The discs still played music. But on Windows computers with autorun enabled, they could also start a copy-protection installer.
+
+Security researcher Mark Russinovich found something strange while testing a tool that detects hidden software. Files and settings on his own computer were disappearing from ordinary listings. He traced them to the copy protection on a Sony BMG CD.
+
+This wasn't merely a player that limited copying. One system, called XCP, used a rootkit: software that hid certain files and processes from Windows tools. Its hiding trick was broad enough for unrelated malicious programs to exploit.
+
+Sony BMG sold another system too, called MediaMax. Researchers found that some of its components could be installed before a customer accepted a license agreement. Saying no did not necessarily keep them off the computer.
+
+Then came the supposed solution. Sony offered ways to remove the software, but researchers found that the removal tools introduced security holes of their own.
+
+The company recalled the affected XCP discs. In a 2007 settlement with the US Federal Trade Commission, it agreed to clearer disclosures, consent rules, exchanges, and remedies for certain customers.
+
+So the scandal wasn't simply that a company tried to stop copying. It placed risky code on customers' machines, made that code hard to see, and even struggled to remove it safely.
+
+In 2005, the risky thing wasn't always a suspicious download. Sometimes it was
