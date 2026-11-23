@@ -61,3 +61,21 @@ These links contextualize audience questions; they **do not** verify invented mo
 
 ## Causal promise and evidence boundaries
 First visual: the same six-level shelf in cyan A and amber B. Announced metric: full time including checks and repairs. Initial no-error B win, stage 2 A reversal, stage 6 B reversal. Payoff: errors concealed by later steps cost more to correct. Strongest objection: a schematic instead of real build may be less satisfying. No rights to any original YouTube frames, IKEA brand images or reference assets; no media bytes or prompts made.
+
+## Existing PR #365 · 10m causal revision: cost of inspections (2026-11-23)
+
+This is an **additional test of the same fictional six-stage shelf**, not a newly observed assembly, not a new story, and not a claim about IKEA or real construction times. Starting model and exact baseline are above; the original fictional probability p=1/3 discussion remains research context **but is removed from the new spoken 10m** because the listener needed a second concrete result, not an expected-value lecture.
+
+**Original t=1 inspection model, unchanged:** Build 6×4=24. A clean 24+6×1=30; A with any single perfectly detected error 30+(2+4+1)=37. B clean 24+1=25; B with error at j takes 25+6×(7−j)+1: stages 1..6 yield 62,56,50,44,38,32. A wins by 1 at stage 5 (37 against 38); B wins at stage 6 (32 against 37).
+
+**New independently checked invented scenario:** Change only the **inspection cost**, from t=1 to t=2 model minutes, *including every regular, final and post-repair check*. Leave all build/removal/rebuild stage times, error visibility, reachability, and one-error location unchanged.
+- A clean = 6×4 + 6×2 = **36**; A one error = 36+2+4+2 = **44**.
+- B clean = 6×4 + 2 = **26**; B with single error at stage j = 26 + (7−j)×(2+4) + 2.
+- Stage 2: B = 26+5×6+2 = **58**, versus A **44**. Early detection still saves 14 minutes in the model.
+- Stage 5: B = 26+2×6+2 = **40**, versus A **44**. Same error position, now B wins by 4; under t=1 A had won by 1. This is the second substantive turn and the specific benefit of the longer explanation.
+- Stage 6: B = 26+1×6+2 = **34**, versus A **44**.
+- Check of all six stages at t=2: B totals **64,58,52,46,40,34**. No claims that a particular real shelf's checks take one or two minutes.
+
+**Storyboard dependency:** No storyboard, scenes, timing, thumbnails or actual media are produced for the revised 10m. Existing 02m and recommended 05m scripts, their exact hashes, packaging concept and any prior independent evidence remain untouched. New script uses first-person participant and expressly names invented times and perfect-detection assumptions.
+
+**Risk/interest:** Added 10m value is *a different result under one isolated changed assumption*: at stage five, the preferred method reverses without moving the error. The old original 10m probability equations remain research-only; independence, real voice duration, channel Long capabilities, viewer interest and measured real-world times are **UNVERIFIED**.
