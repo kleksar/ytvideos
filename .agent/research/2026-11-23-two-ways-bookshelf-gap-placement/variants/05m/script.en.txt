@@ -1,0 +1,31 @@
+I cleared four spaces for future books. Where should those spaces go?
+
+A tidy row would leave all four at the right edge. But perhaps four little gaps among my books would save me from moving half the shelf every time I buy something. I can test that without pretending to have measured a real bookshelf.
+
+Picture a sixteen-slot shelf and twelve equal-width books, A through L, already in alphabetical order. Layout A has four consecutive empty slots after L. Layout B has a single empty slot after each of C, F, I and K. I don't add shelves, remove books, or change the alphabetical rule.
+
+My score is simple: one move every time an existing book slides one position left or right. Setting a newly purchased book into its available place costs zero under this definition. I'm counting rearrangement, not seconds, money, or the effort of creating the original layout. All twelve original books are in both starting states.
+
+The first delivery contains A2, E2, H2 and K2. The labels tell me exactly where they belong: directly after A, E, H and K. I insert them in that order. Which shelf will take fewer moves?
+
+Look at A. There's no space between A and B. To insert A2, I slide every book from B through L one position right. Eleven separate moves just to open the first position. The next new book goes after E. By then I have a gap only at the far end, so moving F through L costs seven more. The book after H costs four; the one after K costs one. Eleven plus seven plus four plus one: twenty-three moves. No book was sent to the wrong alphabetical position. The work comes entirely from the location of the unused space.
+
+On B, the gap after C is close to A. I slide B and C to the right and place A2: two moves. The gap after F needs only F to slide before E2 can be inserted: one. After H, I slide I once. K2 fits directly into the gap after K, with no existing book displaced. Two plus one plus one plus zero: four moves.
+
+Same sixteen slots, same sixteen final titles, same order. In this particular delivery, the distributed gaps avoid nineteen one-slot moves.
+
+But the next delivery could be completely different. I return both shelves to their original twelve books and four empty places. Now the new titles are M, N, O and P. They all belong at the very end.
+
+Shelf A barely notices. I put M, N, O and P into its four open slots. No old or newly inserted book has to slide. Zero moves.
+
+Shelf B has no empty slot after L. To make room for M, I shift L left into the nearest gap and put M at the right edge: one move. For N, the next available gap lies farther left, so four books shift. For O, eight. For P, twelve. One plus four plus eight plus twelve: twenty-five moves. I didn't secretly change the rules between the two rounds. Both shelves still use the nearest available gap and preserve the sorted order.
+
+So the first result doesn't mean scattered gaps are always better, and the second doesn't mean they were a mistake. The winner changes with the arrival pattern. Those gaps are like reserved seats: their value depends on who turns up next.
+
+What would I actually do? If I regularly buy books for different authors and series, I might leave room among those groups. If I add everything at the end of a numbered sequence, a block of space at the edge makes more sense. If I cannot predict either pattern, this test cannot honestly name a universal winner.
+
+There are two important limits. I assumed every book occupies exactly one slot; real hardbacks and paperbacks vary in width. I also excluded the time needed to arrange the gaps in the first place. If moving books to create layout B costs more than it saves later, that matters to a real decision. A count of shifts is not a stopwatch result.
+
+Still, I can now see why a shelf with more visible gaps can demand less work. The number of empty spaces stayed the same throughout. Only their position changed, and that changed the outcome completely.
+
+The next time I face an almost-full shelf, I won't ask simply whether the gaps look untidy. I'll ask where the next books are likely to arrive.

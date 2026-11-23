@@ -1,0 +1,53 @@
+Four empty spaces can save me nineteen book moves. The very same four spaces can also cost me twenty-five. I haven't changed the books or the size of the shelf. I've changed where the empty spaces sit.
+
+I want to know which way I should organize a bookshelf that is going to grow. Put every gap at the far right, so the row looks continuous? Or leave small gaps between groups, so a new book won't force the whole row to move?
+
+A real bookshelf gives me too many uncontrolled variables. Some books are thick; some lean; I might move two at once. So first I'll use a deliberately small model. I'm not claiming to have filmed an experiment or measured actual seconds.
+
+My shelf has sixteen equal-width slots. Twelve books are already present, with labels A through L in alphabetical order. Four slots are empty. Layout A puts all four empty slots to the right of L. Layout B leaves a blank after C, F, I and K. The exact labels aren't the point. They just let us see where a new book belongs without arguing over how to sort by author or genre.
+
+I will count one move whenever a book already standing on the shelf slides by one slot. If I slide three books one position each, that is three moves. If one book slides through three positions, that is also three. I don't count setting a new book into the open space. Both methods must keep the books sorted, and each insertion uses the nearest available blank. This score measures rearrangement only. It is not a measure of total labor, walking time, or visual neatness.
+
+Here's the first delivery: four new books labeled A2, E2, H2 and K2. A2 belongs immediately after A; E2 after E; and so on. I will add them in that order. Before doing the math, I would expect the scattered gaps to help, but how much?
+
+On shelf A, the first book is the worst one. A2 needs a space between A and B. There is no empty slot anywhere near that place. The nearest blank is beyond L. I slide B, C, D, E, F, G, H, I, J, K and L one step right. Eleven book moves. I can finally place A2.
+
+The second addition is E2. It goes after E, ahead of F. The empty spaces are still on the right, though one has been used. I slide F, G, H, I, J, K and L. That's seven more moves. The third new book, H2, requires four moves. The fourth, K2, requires one. Eleven, seven, four, one. Total: twenty-three.
+
+Notice what did not happen. I didn't drop a book, lose a title, or break the alphabet. There was simply no free space near the insertion points. I kept paying for the distance from the gap to the next new title.
+
+Now I reset everything. Same twelve original books; this time I start with layout B. The gap after C is only two books away from the space after A. Sliding B and C opens that position, so A2 costs two moves. To insert E2, I slide F into the blank immediately after it: one move. To place H2, I shift I once. And after K, there's already an empty slot. K2 costs zero moves.
+
+The total is four. By the time all four books are in place, A and B look identical: sixteen titles in alphabetical order, no gaps left. But one route required twenty-three one-slot movements and the other needed four. Distributed gaps saved nineteen moves on that delivery.
+
+It's tempting to stop here and say: scatter your empty spaces. But there's a problem with that advice. I chose four insertions right where layout B had made room. What happens if those aren't the books I buy?
+
+I restore both layouts once again. This delivery is M, N, O and P. Each book belongs after L, the last title already on the shelf. The new books are still sorted, and the count works the same way.
+
+On A, there's a four-slot opening immediately after L. I put in M, N, O, P. None of the existing books need to move. My score is zero.
+
+On B, there is no blank after L. For M, I can shift L left into the nearest empty slot and then place M at the right edge: one move. That uses the gap after K. To insert N, I need to carry a gap past four books: four moves. For O, the next gap is farther away, and eight books move. For P, twelve books move. One plus four plus eight plus twelve equals twenty-five.
+
+The gap pattern that looked brilliant a moment ago has now lost by twenty-five moves. The four spaces weren't an investment with a guaranteed return. They were a bet on where future books would appear.
+
+What if my deliveries are mixed? I test a third list: A2, E2, M and N. Some books belong in the middle; others at the end. On A, the insertions cost eleven and seven, then zero and zero. Eighteen moves. On B, they cost two, one, one and four. Eight moves. The distributed gaps still win, but this isn't as dramatic as the first comparison.
+
+Even the arrival order matters. Suppose M and N arrive before A2 and E2. The same four titles now take twenty-two moves on A, compared with eight on B. When I insert in the middle after filling part of the right-hand space, I have more books to slide. If I reverse all four middle insertions, starting near K and ending near A, layout A takes twenty-nine moves, not twenty-three. B still takes four in this particular example. The final arrangement is the same, but the path to it is not.
+
+That leads to the part I left out of my first result. How did I get the distributed gaps in the first place?
+
+Until now, I assumed A or B was already prepared and counted only the arrivals. If I already have layout A and decide to create layout B, I need to move existing books to the right to open those internal spaces. Under the very same one-slot metric, that setup costs nineteen book moves.
+
+I can see why by following the original books. A, B and C stay put. D, E and F move one slot each. G, H and I move two slots each. J and K move three slots each. L moves four slots. Three plus six plus six plus four: nineteen. That's the rearrangement cost of converting A into B, ignoring the initial effort of choosing the layout.
+
+Now revisit the first delivery. B saved exactly nineteen moves when the four books arrived. But if I first had to spend nineteen moves creating B from A, I've broken even, not gained nineteen. If I never buy those four books, I did extra work for nothing. If the additions all arrive at the end, I paid for a layout that then requires even more movement.
+
+That doesn't make B useless. It tells me what the comparison is actually measuring. If I'm setting up an empty shelf from scratch, I can choose gaps as I place each book, and the initial cost comparison needs a separate model. If I'm rearranging a shelf that's already full on one side, the upfront work must be included. And once all sixteen slots are filled, I cannot pretend I can add another batch to the same shelf without removing books or adding capacity.
+
+There's also a physical limitation. My books were identical blocks with precise positions. Actual paperbacks and hardbacks have different widths. Sliding a row might take one continuous push, not eleven distinct hand motions. Or a tightly packed shelf might require lifting books out. To estimate seconds, I would need actual measurements and a different model. I have neither, so I won't turn the move counts into invented time savings.
+
+The two methods can now be compared honestly. All the space at the end is excellent when new books append to the sequence. Distributed gaps are excellent when additions are scattered near those gaps. A mixed pattern makes the answer depend on where and when books arrive. Starting layout and setup effort can erase a later advantage.
+
+I began by asking where the four blank slots should go. The more useful question turned out to be: what kind of arrivals am I preparing for, and how much work am I willing to do before they even happen?
+
+That is the outcome of this model. Neither layout wins for every future. Empty space is useful, but not just because it's empty. Where I leave it determines what work I will have to do later.
