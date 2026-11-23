@@ -12,8 +12,8 @@ SHA-256 over UTF-8 file bytes including one terminating newline. Git blob values
 | 02m | RU | 252 | `c8e39c47e6bbcaacf4801012204f2a6637f0ba3b5cfb2467904fd69fcb405a19` |
 | 05m | EN | 660 | `a1b8771903c15eff762abeb9562ddca9795caff61bc1ef4ea2b1cfefcd7b6de7` |
 | 05m | RU | 571 | `f1bf6601f8843abf6288d96f751d5ddd56d1e084b73cce16db29c29a4baba64f` |
-| 10m | EN | 1564 | `51f571fcaef6f1613e19271a436ad9a6c848db20d91aadb2205ca6d771c09d8f` |
-| 10m | RU | 1250 | `1c4e81d2fa3d6cae05592d55eb7132763e70f3f6662977405449b9c0fa8a9e4e` |
+| 10m | EN | 1564 | `e657a9ea541b6691c81bcadad541406edada60d23faeffffa16dab2cc92c0d0e` |
+| 10m | RU | 1250 | `d968e83ac187730089756ef66bd474a278b92f195a0feb8fff5b908c99f9b8b7` |
 
 Estimated speech at **135–165 EN words/minute** plus breath/pause/end screen: 02m ~1:51–2:25 speech; 05m ~4:00–4:54; 10m ~9:29–11:35. These ranges do **not** certify target durations and do not count an exact 10s end-screen as speech; speed 1.10× must not be applied twice. RU narration is review translation, not a Russian TTS schedule.
 
@@ -71,4 +71,4 @@ No rounded average is reported; UNVERIFIED is not zero. 02/05 interests, develop
 | Independent blind-first reading and exact schema response | UNVERIFIED | UNVERIFIED | UNVERIFIED | No reviewer session/receipt exists |
 | Audience CTR, retention, comparable channel baseline | UNVERIFIED | UNVERIFIED | UNVERIFIED | No own analytics or reliable comparative data |
 
-Author pass count: **one substantial original pass, one small factual/oral correction** to 05m EN, and **one separate substantive rewrite of 10m EN/RU at baseline `a88bc30ffb0b3613c6e12825db1c8bd140a9a31d`** (“At four minutes past? No.” removed), no unbounded rewrite cycle. Further substantive changes require new hash and fresh review. No claim of two actual aloud readings or hearing the text; author reviewed wording and transitions only. No independent reviewer impersonation. Current 10m exact hashes require fresh independent verdict; original 10m verdict and timings are superseded.
+Author pass count: **one substantial original pass, one small factual/oral correction** to 05m EN, and **one separate substantive rewrite of 10m EN/RU at baseline `a88bc30ffb0b3613c6e12825db1c8bd140a9a31d`** (05m author correction removed “At four minutes past? No.”), no unbounded rewrite cycle. Further substantive changes require new hash and fresh review. No claim of two actual aloud readings or hearing the text; author reviewed wording and transitions only. No independent reviewer impersonation. Current 10m exact hashes require fresh independent verdict; original 10m verdict and timings are superseded.
