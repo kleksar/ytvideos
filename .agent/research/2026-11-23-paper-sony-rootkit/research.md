@@ -60,7 +60,7 @@ Counter-signals: modest indexed engagement for the shortest comparable and lectu
 
 Audience: English-speaking viewers interested in unusual real-world technological mishaps; no operating-system expertise assumed. Promise: “How did a store-bought CD hide risky software, and how did even the fix backfire?” Visible first confirmation: familiar CD case inserted into Windows-era computer; paper-diorama depiction labeled as stylization, not archival footage. Major escalation: XCP hides files/processes, MediaMax installs parts despite declined agreement; uninstallers expose new risks. Full payoff: recall plus consent/removal obligations, and shift from **copying music** to **ownership of the computer**.
 
-**2m:** one immediate object → Russinovich discovery → two mechanisms → defective remover → settlement; full answer, textual loop “Sometimes it was” → “A music CD…” (literal concatenation passes author grammar test; AV seam UNVERIFIED).
+**2m:** one immediate object → Russinovich discovery → two mechanisms → defective remover → settlement; full answer, textual loop “Sometimes it was” → “A music CD…” is **grammatically broken** on literal concatenation; the 2m is full but **REWORK** for Short loop; AV seam UNVERIFIED.
 
 **5m (recommended):** questions → ordinary CD purchase → XCP discovery → concealment mechanism → MediaMax consent → uninstall reversal → recall/FTC; more real narrative context and two independently sourced reversals. No forced loop (Long).
 
