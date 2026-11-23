@@ -8,49 +8,49 @@ All six UTF-8 texts exist separately, were re-read from Git blobs and SHA-256 ca
 
 | Story | Exact text | EN/RU words | SHA-256 EN | SHA-256 RU |
 |---|---|---|---|---|
-| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 248 / 209 | `6fd8214760b3d1e79c3c919282bcb994a62a5443d2a90dbee426cbff73a617f3` | `6737faf70157d759321d765865d447e736dd0c75345265d3a11df84d0669ea43` |
-| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 638 / 514 | `4b345e2b843132f389e184fa2ea6ec241d5acab96f997d8f4c110055ef0077f8` | `f617fdb1b9f0a37de94819de8a54c7227fc3b1b818bd4c3f7bb947e997a3325e` |
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 241 / 202 | `9256ca7bf7518349f4e7abb74ad8319894d0dacc50bebe89424b344cdef5af31` | `de9b59b46e5a3f8ba464cc8546c9e38bf4c41905f86f01c6a71c993d4c5a2bc3` |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 669 / 594 | `1dd0fba05efce9299acfecdee3d1c21c3c9baddad4910a28e13ae7ec257d3a7b` | `53249b4f77146a13e4379958289397bfb113c64f0d26bbbd79cfc556dfdce6e5` |
 | 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1541 / 1220 | `f651818ac0534b12252385e5de15f7171af361c9d9cd2a24bd417505156ba0ad` | `80de83a510f258d0041a846f4b71878a320bc18dbcdfebf6b5861d4b941b56f4` |
 
-Time estimates for EN: 02m ~1.55–1.98 minutes; 05m ~3.99–5.10 minutes; 10m ~9.63–12.33 minutes at assumed 125–160 wpm **before** pauses and required 10-second Paper Long end screen. Paper voice speed remains channel-pinned 1.10, *not experimentally timed here*. No title-card, speaking pace or playback measurements are claimed.
+Time estimates for EN: 02m ~1.51–1.93 minutes; 05m ~4.18–5.35 minutes; 10m ~9.63–12.33 minutes at assumed 125–160 wpm **before** pauses and required 10-second Paper Long end screen. Paper voice speed remains channel-pinned 1.10, *not experimentally timed here*. No title-card, speaking pace or playback measurements are claimed.
 
-## Version 02m: complete and self-contained Short; REWORK on seam
+## Version 02m: substantively revised Short; oral seam still requires independent confirmation
 
-**Story map:** claim “Five photographs ... genuine photographs” → 1917 first images → photographs spread to adults → expert test and Doyle → 1920 marked plates, three more → physical cardboard/hatpins → 1983 acknowledgment and fifth disagreement → proof that record ≠ interpretation, complete payoff → proposed seam.
+**Story map of new exact scripts:** 1920 sixteen-year-old letter challenging the fairy photos → 1917 two cousins photograph staged-looking beings → pictures reach adult believers and Doyle → experts inspect photographic manipulation → 1920 marked plates lead to three new photographs → question shifts to props actually in frame → Elsie's cutouts held by hatpins → 1983 letter, Elsie/Frances disagreement about fifth → completed principle of camera versus identification. The new teenage correspondent is documented by the museum's 2025 research; there is no invented letter quotation, name, exact date or evidence that Doyle read it.
 
-Cold opening: “Five photographs of the Cottingley fairies were genuine photographs. The fairies weren't.” It is immediately understandable but the exact distinction needs following explanation. Midpoint escalation: marked plates and three more images did not observe the staged scene. Complete reveal: “The fairies had been drawn, cut from cardboard and fixed among the plants with hatpins.” Ending: “Cardboard figures on pins left no darkroom trick to uncover. That's why”. Proposed literal seam: `That's why Five photographs of the Cottingley fairies were genuine photographs.` Semantically causal; **the dangling "That's why" feels like an engineered restart** rather than normal conversational cadence. The main claim and payoff exist before repetition; independent *two-cycle* check and AV seam are UNVERIFIED. Do not automatically mark loop PASS.
+**Before → after:** old 02m opened with the full conclusion and ended on a forced unfinished "That's why". New opening gives an independent historical counter-hypothesis while the public endorsement continues; the actual physical solution comes only after marked plates fail to constrain staging. New ending is a complete spoken sentence. Full EN/RU were each read for chronology and meaning twice, and end→start was checked as complete statements; *actual spoken/AV loop remains UNVERIFIED*.
 
-| Criterion | Author score / evidence from this exact script |
+| Criterion | Author score / concrete strength and remaining defect / confidence |
 |---|---|
-| Interest/significance | **9/10** — famous detective creator persuaded by visible fairies; relevance to trust in pictures, not predicted views |
-| Opening | **9/10** — concrete apparent contradiction in first two sentences |
-| Development / reason to stay | **8/10** — two then three photographs plus marked plates make a growing investigation, though condensed |
-| Payoff | **8/10** — reveals paper + hatpins and why negative checks missed deception; fifth-photo caveat preserved |
-| Freshness of angle | **9/10** — foregrounds real photo of fake physical object; the historical story itself is widely told |
-| Visual expressiveness | **9/10** — miniature stream, photographic plate, paper props; **only concept**, not visual production PASS |
-| Natural voice/clarity | **7/10** — direct spoken prose but final "That's why" is mechanical |
-| Verified viewer interest | **UNVERIFIED** — adjacent/comparable videos are not Paper Detour's own CTR/retention |
+| Interest/significance | **8/10** — 16-year-old suggestion against Doyle's endorsement creates a genuine human contrast; public demand remains unmeasured; medium |
+| Opening | **8/10** — a recorded 1920 action opens the paradox without proclaiming all experts fools; answer partly indicated early; medium |
+| Development / reason to stay | **8/10** — letter → camera scrutiny → stricter marked plates → three more → physical explanation; dense in ~2 minutes; medium |
+| Payoff | **8/10** — hatpins and 1983 letter identify mechanism; fifth-photo claim explicitly disputed; medium-high for sourced claims |
+| Freshness of angle | **8/10** — contemporaneous dissent against testing the negatives, although this hoax is widely covered; medium |
+| Visual expressiveness | **9/10** — 1920 letter, marked plates, cutout in grass are distinct paper objects, not rendered/evaluated assets; medium |
+| Natural voice/clarity | **8/10** — no dangling connective; direct verbs and complete last sentence; spoken pace/transition not independently heard; medium-low |
+| Verified viewer interest | **UNVERIFIED** — public comparable counts aren't own Short retention or CTR; low |
 
-**Major weakness:** engineered last-to-first connective; exact seam and 02m pacing unresolved. **Status: REWORK** (despite interest, development, payoff ≥8, a required short loop is unconfirmed). Confidence: author **medium** story structure, **low** verbal/AV seam without fresh listener. Author editorial passes: 1. No declared independent approval.
+**Hard checks:** independent blind-first reviewer UNVERIFIED; AV seam and measured voice UNVERIFIED; author-only EN/RU event/number correspondence PASS; source claim (teen letter) verified against museum account, underlying letter image UNVERIFIED. Two-cycle semantic seam is *authorially plausible but not certified*: last statement about camera identification returns to a person who offered the cardboard hypothesis; no required grammatical bridge or duplicated noun is mistaken for proof.
 
-## Version 05m: recommended provisional Long, STRONG_CANDIDATE
+## Version 05m: revised recommended Long, not owner-approved
 
-**Story map:** opening questions (how, who, what did examiners check?) → 1917 first staging near stream → 1919 mother's distribution to interested group → photographic scrutiny checks negatives → Doyle's inference → Gardner 1920 marked-plate test / three new photos (main rising hook) → explaining physical figures → 1983 archival letter / disputed final frame → final conceptual understanding. The reveal is anchored in *what investigators checked*, not cheap ridicule of Doyle.
+**Story map of new exact scripts:** opening questions (origin, photographic tests, contemporary alternative) → 1917 staged-looking portraits → photos leave family in 1919 → Gardner and some examiners investigate negatives → Doyle's interest and publication plan → *main hook*: Gardner supplies newly marked plates in 1920 and three more photos appear → letter from a 16-year-old suggesting cutouts → verified physical reveal (Elsie's models, cardboard and hatpins) → public debate and decades of delay → Crawley's 1983 correspondence → fifth-image disagreement → camera-versus-interpretation payoff.
 
-Opening: “How could two girls photograph fairies, persuade famous adults to believe them, and keep the secret for more than sixty years?” Promise covers both human outcome and causal mechanism. Main hook: “Gardner visited the cousins in 1920. They were given new cameras and photographic plates with hidden marks ... Under that extra scrutiny, they produced three more fairy photographs.” Payoff: “The error was asking the camera to decide what the objects were.” Final line returns to two cousins and what adults made of their images *after* the concrete answer.
+**Before → after:** original recommended 05m revealed "The girls had placed the figures in the scene itself" near the opening, so the later negative-check puzzle and marked-camera challenge had little unresolved question. It also introduced a meta-lecture about Doyle's fictional detective. New version holds the *confirmed* trick until after the marked-plate escalation, brings in a source-backed contemporary critic, and retains an independent end. The original 05m is preserved by baseline blob `fc47c27a2660681d915b06f253967d3678f9fa2e` at commit `b302f7f0bfc696f550a2653b2d136566cdf2cca9`; no production master has been overwritten.
 
-| Criterion | Author score / evidence from this exact script |
+| Criterion | Author score / concrete strength and remaining defect / confidence |
 |---|---|
-| Interest/significance | **9/10** — a real misleading photograph + prominent adult endorsement; reader learns where scrutiny can fail |
-| Opening | **9/10** — three linked testable questions answered by material events |
-| Development / reason to stay | **9/10** — 1919 circulation, expert examination, Doyle, fresh marked plates, three new pictures, late letter all alter prior expectations |
-| Payoff | **9/10** — “They did not alter the negatives; the fake figures were in the scene” followed by Frances's fifth-photo caveat |
-| Freshness of angle | **8/10** — tangible cutout and negative-check failure is an interesting angle but several creators have covered the hoax |
-| Visual expressiveness | **9/10** — physical paper art can depict photo plates and pins without passing off generated stills as archival artifacts |
-| Natural voice/clarity | **8/10** — active verbs and causal language; “For a moment, consider the gap” risks a small editorial lecture |
-| Verified viewer interest | **UNVERIFIED** — public snapshots not normalized to Paper account or own performances |
+| Interest/significance | **8/10** — two girls, an investigating adult and a contemporary teenage alternative give an identifiable human conflict; medium |
+| Opening | **8/10** — three questions promise different answers; the age detail may be less instantly clear to a cold viewer; medium |
+| Development / reason to stay | **9/10** — family → experts → Doyle → controlled second session → letter → cutouts → long delay; verified events rather than repeated method; medium |
+| Payoff | **9/10** — hatpins resolve the apparent photographic impossibility; 1983 letter closes secrecy without falsely resolving disputed fifth image; medium-high |
+| Freshness of angle | **8/10** — a known hoax gets an overlooked 1920 letter as a competing explanation; not proven new to YouTube audiences; medium |
+| Visual expressiveness | **9/10** — clear physical beats for a single diorama style; no archive rights or actual images verified; medium |
+| Natural voice/clarity | **8/10** — shorter interpretive blocks, action carries the explanation; unmeasured oral rhythm at 1.10 voice speed; medium-low |
+| Verified viewer interest | **UNVERIFIED** — neither own analytics nor comparable normalized retention accessible; low |
 
-**Major weakness:** some epistemic explanation ("straight photograph of staged scene") may sound instructional if dramatization and edit lack tempo; precise voice duration and archive permissions unknown. **Status: STRONG_CANDIDATE**: interest 9, development 9, payoff 9 have exact text/event grounds, all while independent review remains UNVERIFIED. Confidence: author **medium** editorial, **high** essential chronology where museum records corroborate; **low** native sound/production. Author editorial passes: 1, not reviewer.
+**Hard checks:** author EN/RU facts/chronology PASS; historical 16-year-old statement from museum report PASS *as attributed account*, original reader letter not independently inspected; Long question→immersion→marked-plate hook PASS (author text); independent reader, duration, visual rights, 10s end-screen asset and approvals UNVERIFIED. A long candidate, not a script gate or a production order.
 
 ## Version 10m: full independent Long, REWORK on attention density
 
@@ -79,12 +79,12 @@ Opening: “Why did a famous detective novelist accept photographs of fairies as
 | Factual chronology/causal mechanism | PASS (author factual review) | PASS (author factual review) | PASS (author factual review, with contextual hypotheses separated) | Museum/period sources in research; verification limited to cited facts |
 | EN/RU essential equivalence | PASS (author) | PASS (author) | PASS (author) | Same five photos, test limits, hatpins, Doyle, 1983, fifth disagreement |
 | Channel format | Paper Short supported; runtime time UNVERIFIED | Paper Long supported; actual timing UNVERIFIED | Paper Long supported; actual timing UNVERIFIED | Long format exists; 10-second end-screen real next-video clip missing |
-| Short semantic loop | REWORK (author), independent UNVERIFIED | N_A (Long) | N_A (Long) | Full audio/AV and two-cycle independent test not completed |
+| Short semantic loop | AUTHOR SEMANTIC CANDIDATE, independent/AV UNVERIFIED | N_A (Long) | N_A (Long) | Full audio/AV and two-cycle independent test not completed |
 | Archive-photo and copyrighted visual rights | UNVERIFIED | UNVERIFIED | UNVERIFIED | Photos and illustrations may require licence |
 | Independent reviewer / `ytv-script-review-v1` | UNVERIFIED | UNVERIFIED | UNVERIFIED | Not available; no simulated result |
 | Real voice/TTS, end-screen, final audio/video | UNVERIFIED | UNVERIFIED | UNVERIFIED | No providers, generation or MP4 invoked |
 
-**Comparison/decision:** 02 → 05 adds real story movement (the photos leave the family, Gardner's scrutiny, Doyle's contrast, separate 1920 challenge, 1983 letter). That addition justifies five minutes. 05 → 10 adds explanatory apparatus, cultural context and slow historical aftermath, but too little new action for the extra five minutes. Recommend **05m exact English text** for future owner choice and independent review, not approval. 02m is not rejected for being short; its independent/loop checks remain. 10m is complete but needs genuine substantive improvement before being called strong. All three use one research source base. No revisions by independent reviewer; new hashes would invalidate these checks.
+**Comparison/decision:** Revised 02m moves from a real contemporary counter-hypothesis to the proof of cardboard and a complete ending; viewer gets an answer, but the letter and photographic tests arrive in a dense run and AV seam remains UNVERIFIED. Revised 05m adds the family-to-public transition, specific examiners, Doyle's involvement, a stricter second photographic test, and *then* the contemporaneous letter and the 1983 evidentiary close: more human decisions and causal turns, not merely a slower Short. The old 05m lost mystery immediately after the family portraits; the revised 05m holds the practical reveal until the marked-plate failure. At 05 → 10, the unchanged 10m devotes many passages to repeating the epistemic distinction (starting at "A toy, a drawing, a costume..." and returning to "The tests made it harder..." and later "This is not to say..."), with too little new action. **Recommend revised 05m** for future independent blind-first review and owner decision, not approval. 02m may remain competitive if spoken-loop QA succeeds; 10m remains REWORK. All versions share one research file; only 02m/05m have new exact hashes, so old author and independent receipts for those texts would be invalid. None exist.
 
 ## Current missing production checks
 

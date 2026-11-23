@@ -1,10 +1,10 @@
 # Paper Detour — packaging / provisional 05m exact text
 
-**Editorial-only, NO generated artwork.** Bound to recommended `variants/05m/script.en.txt` with SHA-256 `4b345e2b843132f389e184fa2ea6ec241d5acab96f997d8f4c110055ef0077f8`, RU SHA-256 `f617fdb1b9f0a37de94819de8a54c7227fc3b1b818bd4c3f7bb947e997a3325e`. No production scenes/frames approved. Visual references described here are **ideas**, not verified original asset bytes.
+**Editorial-only, NO generated artwork.** Bound to recommended `variants/05m/script.en.txt` with SHA-256 `1dd0fba05efce9299acfecdee3d1c21c3c9baddad4910a28e13ae7ec257d3a7b`, RU SHA-256 `53249b4f77146a13e4379958289397bfb113c64f0d26bbbd79cfc556dfdce6e5`. No production scenes/frames approved. Visual references described here are **ideas**, not verified original asset bytes.
 
 Audience: English-speaking viewers of curious real stories who may know Sherlock Holmes but not Cottingley. Mood: mischievous hand-crafted puzzle with a precise documentary resolution, not fantasy lore sold as fact. Material standard: single physical handmade paper/card full-frame diorama, thickness/cut edges/fibres/contact shadows; not a photographic archival fake or digital flat vector. Historical people should not appear as "actual photos" without rights and provenance. Paper plane cameo only proposed, only if supported by actual reference read-back.
 
-**Core promise:** Why did a photographic examination miss two girls' obvious cardboard fairies? The opening questions invite a true physical explanation, not a fictional conversation. First substantiating event: Frances and Elsie take two photos by a Yorkshire stream; figures share the same physical environment on plates. Main escalation: new marked plates in 1920 and three more photos, despite scrutiny. Full payoff: the negatives are straight photographs of staged paper figures; a genuine photographic record does not identify the recorded object. Later disagreement about picture five is preserved.
+**Core promise:** Why did a photographic examination miss two girls' obvious cardboard fairies? The opening questions invite a true physical explanation, not a fictional conversation. First substantiating event: Frances and Elsie take two photos by a Yorkshire stream; figures share the same physical environment on plates. Main escalation: new marked plates in 1920 and three more photos, despite scrutiny; later reveal that a contemporary sixteen-year-old had separately proposed cardboard cutouts in a letter to Gardner. Do not imply Doyle saw the letter. Full payoff: the negatives are straight photographs of staged paper figures; a genuine photographic record does not identify the recorded object. Later disagreement about picture five is preserved.
 
 ## Three distinct Long title/thumbnail hypotheses (not selected A/B test; no thumbnails produced)
 
@@ -18,11 +18,11 @@ Concept-first basis: `docs/standards/thumbnails.md#обещание-и-конц�
 
 ## Introduction → middle → payoff cross-check
 
-05m English opening text: “How could two girls photograph fairies, persuade famous adults to believe them, and keep the secret for more than sixty years?” The next paragraph moves to the stream and shows cousins with a camera, so audience knows this is documentary, not a fantasy plot.
+05m English opening text: “How did two cousins turn fairy photographs into a national argument? What did the experts actually test? And why did a sixteen-year-old suggest an explanation that the cameras could never rule out?” The next paragraph moves to the stream and shows cousins with a camera, so audience knows this is documentary, not a fantasy plot.
 
 After a compact historical introduction, first real change of stakes: the images are sent for expert photographic examination; then Doyle endorses them. Main secondary hook: 1920 marked plates + three more shots. Do not promise "experts proved fairies" — they saw no conventional alteration of negatives.
 
-End text: “Two cousins had made paper fairies, photographed them for real and watched adults turn that photograph into evidence of something else.” Full ending comes before required **10s Long end-screen** (not included in script duration). Any next-video bridge needs a genuinely chosen relevant existing video and its **actual opening input**, verified rights and real link. No static universal end-screen/no invented script fragment; currently **UNVERIFIED production blocker**.
+End text: “Two girls made figures out of paper, and a real camera took their picture. The camera did its job. The interpretation was made by people.” Full ending comes before required **10s Long end-screen** (not included in script duration). Any next-video bridge needs a genuinely chosen relevant existing video and its **actual opening input**, verified rights and real link. No static universal end-screen/no invented script fragment; currently **UNVERIFIED production blocker**.
 
 ## Provisional visual/sound ideas, not a storyboard
 
