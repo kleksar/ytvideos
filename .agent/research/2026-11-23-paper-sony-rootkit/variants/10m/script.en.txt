@@ -1,0 +1,55 @@
+How could a music CD make a computer less safe? Why would its copy protection be difficult to see? And why did an attempt to remove the problem create another one?
+
+In 2005, the silver disc was still an ordinary way to buy music. You opened the plastic case, put the album into a CD drive, and expected music to come out. If you owned a portable player, you might also try to transfer the songs.
+
+That second possibility mattered to record companies. Sony BMG was selling certain albums with software designed to restrict how customers copied or played them. This was digital rights management, or DRM. The difficulty was that it did not stay politely on the disc.
+
+On a Windows computer with the right autorun setting, inserting a protected CD could launch software from the disc itself. A customer might see a license agreement and a music player. What the machine installed behind that interface was much harder to understand.
+
+The scale was larger than one suspicious album. Researchers later documented two different protection families distributed on millions of Sony BMG CDs: XCP and MediaMax. The systems worked differently and produced different security problems. Both are essential to understanding what happened.
+
+The first clue came from a computer-security specialist who was looking for hidden software.
+
+Mark Russinovich had helped develop RootkitRevealer, a tool that compared what Windows normally reported with what was really present on the computer. In October 2005, while investigating suspicious differences on his system, he traced them back to a Sony BMG CD. He published his findings on October 31.
+
+The software was XCP, made for Sony BMG by First 4 Internet. Its purpose was to discourage copying. But XCP also used a technique normally associated with rootkits: it made selected files and running processes disappear from ordinary system listings.
+
+The trick was startlingly general. According to the researchers' analysis, files with names beginning with a particular prefix, dollar sign, s-y-s, dollar sign, could be concealed. It did not matter whether those files belonged to the CD protection system. Other software could use the same prefix to hide.
+
+A buyer trying to understand what had changed on the computer could search for a file and not see it. A malicious program could use the very same blind spot. XCP was sold as protection for music, yet its hiding method offered protection to things the customer had never agreed to install.
+
+The obvious response might have been to remove the program. That was not straightforward. XCP had changed the way Windows handled parts of its software environment, and simply ripping out components could break normal functions. Most customers were not equipped to decide which hidden pieces were safe to remove.
+
+Now consider the second family, MediaMax, developed by SunnComm. It did not need the same hiding method to create trouble. In research published in 2006, J. Alex Halderman and Edward Felten's team showed that components of certain MediaMax versions could be installed before the customer had accepted the license agreement.
+
+Imagine clicking No, expecting the computer to go back to normal, and discovering that the supposed refusal did not guarantee a clean machine. A consent screen had appeared, but a part of the installation process had already happened.
+
+Some versions of MediaMax also collected or transmitted information connected to music use, according to the FTC's later complaint. That is a different concern from file concealment. It raises questions about whether a person knew what the software was collecting and why.
+
+These distinctions matter. It would be misleading to claim that every Sony music CD contained the same rootkit or that every version behaved identically. What connected them was that an ordinary music purchase could create an unexpected software relationship between a company and a customer's personal computer.
+
+Security researchers then asked a harder question. Even if the programs were removed, how did customers get their machines back safely?
+
+Sony BMG began offering fixes and uninstall procedures. But Princeton researchers examined these tools and identified serious new security vulnerabilities in the removal process itself. Some of the uninstall mechanisms involved browser components that could be invoked in unsafe ways.
+
+The rescue route could become a second opening for an attacker. A customer who had bought a CD, followed the instructions, and tried to take off its copy protection might end up with a different exposure. Doing the responsible thing was not necessarily enough.
+
+There was also a practical problem of trust. The software was not sold separately as a computer program. It arrived inside a music product. Many of the people who needed an explanation had simply wanted to listen to an album.
+
+As the investigation spread, security companies and public-interest groups scrutinized Sony BMG's approach. Microsoft announced that its security products would detect and remove the XCP rootkit. The Electronic Frontier Foundation pressed for recalls, exchanges and help for affected customers.
+
+Sony BMG stopped production of the affected XCP CDs and announced a recall in November 2005. That decision did not make the software already installed on computers disappear. Fixing those machines and explaining the risks would take longer.
+
+There were legal consequences as well. In December 2006, US state authorities announced a settlement covering refunds and restrictions on hidden copy-protection software. In January 2007, the Federal Trade Commission announced its own proposed settlement.
+
+The FTC's complaint went beyond technical embarrassment. It said that the company had not adequately disclosed restrictions on playback and copying, had exposed computers to security risks, and had not provided a reasonable way to uninstall the software. The agency also raised concerns about data collected for marketing.
+
+Under the proposed federal settlement, Sony BMG agreed to more prominent disclosures and to obtain consent before installing similar software. Customers were to have ways to exchange covered CDs, obtain removal tools, and, when eligible, receive reimbursement for certain repair costs. The agreement was a settlement, not a court finding that the company admitted every allegation.
+
+Look back at the original purpose: stopping people from making copies of songs. Security researchers also found that the technology did not reliably stop determined copying. What it did accomplish was to add software, complexity and risk to the computers of ordinary purchasers.
+
+There is no need to invent a villain pressing a secret button. The failure is visible in the sequence of decisions. A physical music product delivered a program. That program hid itself or installed components without meaningful consent. Its removal process could cause another vulnerability. And the company then had to recall the product and explain how customers might undo what it had done.
+
+When a shop sold an album, the buyer expected control over where and how to listen. Instead, the purchase could put control of part of the computer in someone else's hands.
+
+The most revealing object in this story is not a hacker's laptop, or a mysterious file from the internet. It is an ordinary plastic CD case.
