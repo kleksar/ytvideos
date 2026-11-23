@@ -83,3 +83,12 @@ Viewer questions/counter-signal: [real 2024-07-13 The Drive discussion on Tildes
 Artist's film, photos of actual signs, logos and news broadcasts have distinct rights. Links and stills were **not downloaded**, licensed or inserted. Proposed Paper Detour paper-diorama compositions are not historical footage. Mark asset availability, licenses, look-and-feel and third-party source permissions **UNVERIFIED** until actual references are inspected. No media was generated or released.
 
 Research author: automation editorial assistant; source observations as above. Do not treat this file as an independent reviewer or official runtime receipt.
+
+
+## Follow-up 2026-11-23: revised ten-minute causal evidence
+
+- **Public reveal by the artist, not official discovery at the bridge.** [LA Weekly, May 2002, installation account and 2002 film reporting](https://www.laweekly.com/guerrilla-public-service-the-man-who-would-be-caltrans/); [The Land, 2021 firsthand interview on film and publicity](https://thelandmag.com/richard-ankrom-guerrilla-public-service-los-angeles-free/). His plans and recall are participant evidence, not inspector testimony.
+- **2009 second obstacle — recovery of the original.** [LA Weekly, 2009 firsthand interview after removal](https://www.laweekly.com/richard-ankroms-freeway-art-caltrans-buys-into-the-prank/): contractor led to a worker who thought a piece was saved, but it was not the signed original; actual work was crushed in a recycling bale; artist reported recycler would not sell it. This is an artist's contemporary account, **not** an audited contractor/recycler record. Do not invent dialogue, named employees or a recovered original.
+- **Outcome and ethical limit.** Same 2009 interview and [2021 retrospective](https://thelandmag.com/richard-ankrom-guerrilla-public-service-los-angeles-free/): official replacement included northbound I-5 directions, while unauthorized installation was not retroactively approved. No measured safety improvement, crash reduction or number of affected drivers established.
+
+Linked new scripts: 10m EN SHA-256 `8d2cb4ccca9a90fc1eab7e6ad719a3290c421da6aaa82a707da8397992fd4f83`; RU SHA-256 `21148fb353dff8c3e3a6986546b2f337e05436b571e003297797a58dc879f2ce`. One shared research file, no new story selection, independent listener, live-rights check or measured demand.
