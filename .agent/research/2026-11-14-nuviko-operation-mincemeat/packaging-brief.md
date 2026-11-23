@@ -34,3 +34,7 @@ These are **hypotheses**, not achieved CTR, native tests, approved AI images or 
 - The **primary Pair A** now immediately proves a body/briefcase combination in S001, before the S002 questions about the false plan, German strategic choices and how belief was detected.
 - Pair B's forged-secret promise is resolved by S034–S040 (what letters said), S059–S067 (German access and response) and S079–S080 (stolen-secret mechanism); its opening preview **must still** use the courier, not claim a genuine German spy personally wrote to Britain.
 - Pair C is the indirect strategic hook; if chosen, test whether the opening's Sicily question is clear before any detailed Mediterranean map. No CTR or A/B result exists.
+
+
+### 2026-11-24 10m editorial alignment
+Exact EN 61037951cbb63d7e2997edd65090048f9bbed85508ece8489b1680c5c5764af5, RU 32ae78731f59fbe1cfb25574cfccefab63658153f27ffb94b6c0826fcc660d47. Opening questions about the dead courier and trust; Sicily context precedes Huelva's invented-officer reveal. Promise is fulfilled by paper-access evidence, separate German strategic response, and the real campaign. Suggested non-graphic visual motifs: identity papers, committee, doctor's examination, retained briefcase, Sicily map, grave. No old S spans, thumbnails or actual media licensed/approved for this cut. 05m recommendation unchanged.
