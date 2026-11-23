@@ -30,4 +30,4 @@ Paper Detour Long ChannelSpec: 10-second end-screen, **but do not fabricate a ne
 - Full 16:9 frame for Long; separate word-highlight caption layer after actual voice. Chalkboard SE Bold availability UNVERIFIED; no silent substitution.
 - Intro must deliver concrete context quickly, then main XCP finding; avoid showing rootkit visual shorthand as evidence of a literal worm.
 - In thumbnail QA check 320×180 and duration overlay once a graphic exists. No AI picture is part of this brief.
-- Research/brand citations: [source note](research.md), [Paper profile](../../../..//channels/paper_detour/PROFILE.md) (repository root path; valid internal reference should be checked), profile typography and Thumbnail Playbook. Image rights and attribution remain unknown.
+- Research/brand citations: [source note](research.md), [Paper profile](../../../channels/paper_detour/PROFILE.md) (repository root path; valid internal reference should be checked), profile typography and Thumbnail Playbook. Image rights and attribution remain unknown.
