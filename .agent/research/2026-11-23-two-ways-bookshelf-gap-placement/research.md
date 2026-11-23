@@ -55,7 +55,7 @@ Audience: English-speaking home-organization / tiny everyday optimization audien
 
 First Short line: “Should I keep four empty bookshelf slots together, or spread them out?” First pictured state: same 12 books, same four holes, A/B side by side; the viewer chooses **before** outcome.
 
-Development: a four-book interior delivery gives B an apparent huge win; a reset and entirely appended delivery reverses the winner. Payoff for 2m is the honest conditional rule. 5m additionally explains why the gap travel distance matters. 10m adds mixed deliveries, arrival-order sensitivity and the exact 19-move upfront conversion cost—material beyond a repeated headline, but the resulting technical density risks killing watchability.
+Development: a four-book interior delivery gives B an apparent huge win; a reset and entirely appended delivery reverses the winner. Payoff for 2m is the honest conditional rule. 5m additionally explains why the gap travel distance matters. 10m now models a hypothetical unknown future (equal chances or 75% interior arrivals) and then includes the 19-move initial conversion cost; this creates a separate decision rather than repeating book-shift sequences.
 
 Strong objection: model measures displacements, not elapsed time; different widths, shifting many at once, acquisition pattern and first-time rearrangement can change results. This is acknowledged inside the actual narratives, not hidden in metadata.
 
@@ -80,3 +80,16 @@ Cross-channel interpretation: bookshelf organization is a recognizable topic, bu
 The only exact numeric claims come from the disclosed **model and checked arithmetic**, not from a published science experiment. External bookshelf videos are solely category-interest context. Scenes, book icons, photographed interiors, generated data labels, graphics and rights are not yet acquired or approved. Channel rule forbids unsupported programmatic graphics text overlays except captions; actual visuals await applicable storyboard/scene planning with approved image-derived lettering. No TTS, imagegen, upload, MP4 or paid tools used.
 
 Format: 02m **editorial Short proposal**, exceeds Two Ways Lab's 35–50-second orientation (format compatibility needs runtime decision); 05m/10m **editorial Long proposals only**, no usable Long ChannelSpec recipe. No fictitious runtime, receipts, approved master or independent listener.
+
+## Additional computed evidence for revised 10m (2026-11-23)
+
+The mixed and reversed-order sequence results above remain legitimate research, but are **not** part of the revised 10m narration. New text considers exactly two mutually exclusive complete four-book futures, each starting with the identical 12 books and resetting the shelf (never >16 occupied slots): interior A23/B4 and append A0/B25. The following are explicitly *hypothetical weights*, not measured frequencies:
+
+| Scenario weighting | A expected moves | Already-prepared B expected moves | B after converting A→B (add 19 upfront) |
+|---|---:|---:|---:|
+| interior 50% / append 50% | 11.5 | 14.5 | 33.5 |
+| interior 75% / append 25% | 17.25 | 9.25 | 28.25 |
+| interior 100% | 23 | 4 | 23 |
+| append 100% | 0 | 25 | 44 |
+
+For assumed interior share p, A=23p and prepared B=4p+25(1−p)=25−21p, hence prepared B improves the model if p>25/44≈56.818%. If starting at A and paying 19 to convert, B_total−A=44(1−p)≥0 for p∈[0,1]; only ties at p=1. This is not a physical time measurement or a claim that real purchases follow those probabilities. Initial shelf assembly from an empty shelf is **not modeled**.

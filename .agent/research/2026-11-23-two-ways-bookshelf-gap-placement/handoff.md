@@ -17,3 +17,9 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 **Review sequence:** independent opening without notes, whole English narration, 02m text twice back-to-back, full RU equivalence, then research/model and strongest alternative after first impression. Revalidate exact hash after edit. A script score is not CTR, retention, or a user decision.
 
 **Do not do:** TTS, imagegen, paid API, MP4, upload, publish, schedule changes, feature/profile/docs edits, merge, force-push or changes to accepted S-5/Lawnchair works or rejected #13/#88. No new Issues.
+
+## Revision in existing PR #388 (2026-11-23)
+
+Baseline HEAD `7f63b93c0f3c2a97f532ed9c449de2a61bae2371`, prior 10m EN `fb61fbcfbb1303520b33c3362de2a57ef7d6260a49cee82d7754903e5be56d98`, RU `ae1f769311a253e4b360fa17d6d813d488909821c1b09de197c02497410774f4`. New 10m SHA-256 EN `65ee7e8d23e442583ae4b949c8c0f7c077502032d2e30427f433cd8d5c4be160`, RU `2eb19d2cfab872b46fd89afb4c25d347b02d4fb5f049cbc814f9a5b209d05d1b`. Full original text remains recoverable from baseline commit. New text removes repeated mixed-order exercises and shows conditional buying forecasts plus the 19-move cost of converting layout A to B. The other four scripts and original approval/media/pins are unchanged. Research/model arithmetic and review now document before→after and separate hard checks.
+
+02m continues to be recommended; 10m independent blind-first review, measured TTS, Long canvas/fps, visual rights and owner selection are UNVERIFIED/BLOCKED. Git-only status remains EDITORIAL_CANDIDATE_UNREGISTERED. Next untouched newly opened PR is #389, subject to fresh HEAD/owner/agent check; technical PR remain in scope. No additional PR, run or production generated.

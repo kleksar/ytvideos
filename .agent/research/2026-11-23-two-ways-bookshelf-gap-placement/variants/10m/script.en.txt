@@ -30,9 +30,13 @@ On B, there is no blank after L. For M, I can shift L left into the nearest empt
 
 The gap pattern that looked brilliant a moment ago has now lost by twenty-five moves. The four spaces weren't an investment with a guaranteed return. They were a bet on where future books would appear.
 
-What if my deliveries are mixed? I test a third list: A2, E2, M and N. Some books belong in the middle; others at the end. On A, the insertions cost eleven and seven, then zero and zero. Eighteen moves. On B, they cost two, one, one and four. Eight moves. The distributed gaps still win, but this isn't as dramatic as the first comparison.
+Instead of testing a third list, I need to choose before I know which list will arrive. My shelf fills after one four-book delivery, so each possible future starts from the same twelve books. Suppose the only two outcomes are the interior delivery and the append-only delivery. That's a deliberately narrow forecast, not a claim about real book shopping.
 
-Even the arrival order matters. Suppose M and N arrive before A2 and E2. The same four titles now take twenty-two moves on A, compared with eight on B. When I insert in the middle after filling part of the right-hand space, I have more books to slide. If I reverse all four middle insertions, starting near K and ending near A, layout A takes twenty-nine moves, not twenty-three. B still takes four in this particular example. The final arrangement is the same, but the path to it is not.
+If they're equally likely, A averages eleven and a half moves: twenty-three in one future, zero in the other. B averages fourteen and a half: four or twenty-five. Those halves describe averages across alternative futures, not literal half moves. With a fifty-fifty forecast, A wins.
+
+What if I expect interior additions three times out of four? A then averages seventeen and a quarter moves; B averages nine and a quarter. Now B wins. If both starting layouts already exist, B pulls ahead only when the chance of that interior delivery exceeds roughly fifty-seven percent. Those chances are assumptions in my example, not measured buying patterns.
+
+But that calculation has left out something important. I don't necessarily begin with two ready-made layouts.
 
 That leads to the part I left out of my first result. How did I get the distributed gaps in the first place?
 
@@ -40,13 +44,13 @@ Until now, I assumed A or B was already prepared and counted only the arrivals. 
 
 I can see why by following the original books. A, B and C stay put. D, E and F move one slot each. G, H and I move two slots each. J and K move three slots each. L moves four slots. Three plus six plus six plus four: nineteen. That's the rearrangement cost of converting A into B, ignoring the initial effort of choosing the layout.
 
-Now revisit the first delivery. B saved exactly nineteen moves when the four books arrived. But if I first had to spend nineteen moves creating B from A, I've broken even, not gained nineteen. If I never buy those four books, I did extra work for nothing. If the additions all arrive at the end, I paid for a layout that then requires even more movement.
+Now revisit the first delivery. B saved exactly nineteen moves when the four books arrived. But if I first had to spend nineteen moves creating B from A, I've broken even, not gained nineteen. At a three-in-four forecast, the prepared B layout seemed eight moves better on average. But if I first spend nineteen converting A to B, B's expected cost rises to twenty-eight and a quarter, while A stays at seventeen and a quarter. The forecast didn't change; my starting condition did. If I never buy those four books, I did extra work for nothing. If the additions all arrive at the end, I paid for a layout that then requires even more movement.
 
 That doesn't make B useless. It tells me what the comparison is actually measuring. If I'm setting up an empty shelf from scratch, I can choose gaps as I place each book, and the initial cost comparison needs a separate model. If I'm rearranging a shelf that's already full on one side, the upfront work must be included. And once all sixteen slots are filled, I cannot pretend I can add another batch to the same shelf without removing books or adding capacity.
 
 There's also a physical limitation. My books were identical blocks with precise positions. Actual paperbacks and hardbacks have different widths. Sliding a row might take one continuous push, not eleven distinct hand motions. Or a tightly packed shelf might require lifting books out. To estimate seconds, I would need actual measurements and a different model. I have neither, so I won't turn the move counts into invented time savings.
 
-The two methods can now be compared honestly. All the space at the end is excellent when new books append to the sequence. Distributed gaps are excellent when additions are scattered near those gaps. A mixed pattern makes the answer depend on where and when books arrive. Starting layout and setup effort can erase a later advantage.
+The two methods can now be compared honestly. All the space at the end is excellent when new books append to the sequence. Distributed gaps are excellent when additions are scattered near those gaps. When I don't know which of the two deliveries is coming, an explicit forecast helps me compare already-prepared layouts, but not without considering the starting arrangement. Starting layout and setup effort can erase a later advantage.
 
 I began by asking where the four blank slots should go. The more useful question turned out to be: what kind of arrivals am I preparing for, and how much work am I willing to do before they even happen?
 
