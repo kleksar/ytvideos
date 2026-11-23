@@ -93,6 +93,43 @@ class VoiceSpacingTest(unittest.TestCase):
             voice.materialize(plan, out)
         self.assertFalse(out.exists())
 
+    def test_tight_uses_connected_quiet_edges_and_keeps_detached_candidate(self):
+        # 200 ms floor, 30 ms quiet onset, 100 ms voice, 50 ms quiet decay,
+        # 150 ms silence, 10 ms detached low event, 100 ms floor.
+        p = self.wav("event", [1] * 1600 + [30, -30] * 120 + [8000, -8000] * 400
+                     + [45, -45] * 200 + [0] * 1200 + [320] + [0] * 79 + [1] * 800)
+        self.assertEqual(voice.analyze_wav(p), voice.analyze_wav(p, edge_mode="conservative"))
+        tight = voice.analyze_wav(p, guard_ms=20, edge_mode="tight")
+        self.assertEqual((tight["speech_start"], tight["speech_end"]), (1840, 3040))
+        self.assertEqual((tight["trim_start"], tight["trim_end"]), (1680, 4480))
+        self.assertEqual(tight["measurement"]["detached_candidates"], [
+            {"window_start": 53, "window_end": 54, "peak": 320, "action": "retained_for_review"}])
+        plan = voice.plan_spacing([{"cue": "clip", "wav": p, "speed": 85}],
+                                  guard_ms=20, edge_mode="tight")
+        self.assertEqual(plan["edge_mode"], "tight")
+        voice.materialize(plan, self.root / "tight-result")
+        self.assertEqual(plan["rows"][0]["trim_end"], 4480)
+
+    def test_tight_excludes_only_near_floor_at_a_simple_connected_tail(self):
+        p = self.wav("fade", [2] * 1600 + [2000, -2000] * 400 + [20, -20] * 160
+                     + [5, -5] * 480 + [0] * 1600)
+        a = voice.analyze_wav(p)
+        b = voice.analyze_wav(p, guard_ms=20, edge_mode="tight")
+        self.assertGreater(b["speech_end"], a["speech_end"])
+        self.assertLess(b["trim_end"], a["trim_end"])
+        self.assertGreater(b["trim_end"], b["speech_end"])
+        self.assertEqual(b["measurement"]["detached_candidates"], [])
+
+    def test_tight_hard_peak_guard_survives_relative_threshold(self):
+        # Loud speech raises the relative gate: this detached short 300 peak is
+        # below the resulting soft peak gate but above the absolute discard ceiling.
+        p = self.wav("loud", [0] * 800 + [30000, -30000] * 400
+                     + [0] * 1200 + [300] + [0] * 799)
+        a = voice.analyze_wav(p, guard_ms=20, edge_mode="tight")
+        self.assertEqual(a["speech_end"], 1600)
+        self.assertGreater(a["trim_end"], 2800)
+        self.assertEqual(a["measurement"]["discard_peak_ceiling_pcm16"], 199)
+
     def test_cli_plan_only_and_explicit_new_destination(self):
         p = self.phrase("one")
         cue = self.root / "cues.json"
