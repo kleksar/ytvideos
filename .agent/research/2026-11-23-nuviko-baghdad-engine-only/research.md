@@ -51,7 +51,7 @@ Baseline comparison for Aaron Rheins (not same age, format length UNVERIFIED): h
 ## Source cautions and rights
 Do not depict the Airbus A300 as Boeing 777: AVweb warns its simulation used a 777. Distinguish official technical presentation from an independent official investigation. Never reproduce the TV show's dialogue, footage, or any interview voice without permission. Actual ISASI photos/ATC/video/character reference bytes and reuse rights UNVERIFIED; visuals should be original reconstructions after permitted source-specific validation. Exact crew surname spelling varies slightly between secondary sources; confirmed against independent coverage but pronounce by local authority before recording. Note Airbus source itself names crew by first names only.
 
-Narrative beats and references: loss of hydraulics pp. 2–3 → pitch/throttle recovery p. 3 → asymmetric-thrust delay pp. 3–4 → gravity gear and fuel pp. 3–4 → runway switch p. 4 → 250-ft thrust correction p. 4 → touchdown and 1-km run p. 5 → Airbus safety interpretation pp. 6–7.
+Narrative beats and references: loss of hydraulics pp. 2–3 → pitch/throttle recovery p. 3 → emergency gravity gear above 270 knots p. 3 → asymmetric-thrust bank learning pp. 3–4 → fuel/crossfeed pp. 3–4 → runway switch p. 4 → 250-ft thrust correction p. 4 → touchdown and 1-km run p. 5 → Airbus safety interpretation pp. 6–7.
 
 Topic status: experimental **strong editorial hypothesis**, not verified demand.
 
