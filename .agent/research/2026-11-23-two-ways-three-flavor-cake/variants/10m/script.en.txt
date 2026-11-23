@@ -1,34 +1,34 @@
 I can draw two perfectly straight lines through a cake and still give somebody a raw deal. Is there a better way to split it? Could I guarantee all three of us a fair share without knowing what my friends like? And would that also guarantee that nobody wants to swap plates?
 
-Imagine I've invited Max and Lee over and we've got one cake with three flavors. It's shaped like a long rectangle: chocolate at one end, vanilla in the middle, strawberry at the other end. This is a mathematical model, not footage from a real dinner or a measured experiment. I'll give the three of us different preferences, keep the starting cake fixed, and compare two ways of dividing it.
+Imagine I'm sharing a rectangular cake with Max and Lee: chocolate at one end, vanilla in the middle, strawberry at the other. I'm setting their preferences in a mathematical model, not filming or measuring a real dinner.
 
 The first method is familiar: I cut equal-sized pieces and we choose in an agreed order. The second involves passing a proposed piece around and allowing someone who thinks it's too valuable to trim it. Before I show you the result, which would you choose?
 
-I want a score that isn't just a measurement with a ruler. If I dislike strawberry and get a huge strawberry serving, it might be less useful to me than a small amount of vanilla. So I assign taste points. Every person's points add up to twenty-four for the whole cake. Each person's fair minimum is eight points, a third of their personal total. The score of a division will be the lowest fraction any of us receives. That's the problem I'm solving. I'm not comparing time, waste, or which of us gets the most food by weight.
+A large serving of my least favorite flavor may be less valuable to me than a small serving of vanilla. I give each person twenty-four taste points for the whole cake. A third is eight points. I'll compare the lowest personal score in each method; I won't compare time, weight or waste.
 
 Here's the starting cake. Four units of chocolate, four vanilla, four strawberry. Each unit is the same size. I give chocolate two points per unit, vanilla three and strawberry one. Max gives chocolate four, vanilla one and strawberry one. Lee gives chocolate three, vanilla two and strawberry one. Notice how we're all interested in the chocolate or vanilla end, although I prefer vanilla to chocolate. Strawberry isn't worthless, but nobody has it as a favorite.
 
 For method A, I put the knife at the end of chocolate and at the end of vanilla. The three servings have equal lengths. Max goes first and takes chocolate, worth sixteen points to him. Lee picks vanilla, worth eight. I'm left with strawberry, which is worth four to me. Max has two thirds of his personal value, Lee has a third, and I have just a sixth. That's not a claim about the amount on our plates. All three plates have the same quantity of cake.
 
-Could I fix that by letting somebody else choose first? Suppose I took vanilla at the beginning. Max could still take chocolate. Lee would get strawberry and score four. Somebody always ends up with the strawberry serving and nobody here gives it more than four points. In this particular setup, changing the order can't get the minimum to eight.
+Could I fix that by choosing first? I'd take vanilla, Max could take chocolate, and Lee would be left with strawberry. Nobody values that serving above four, so changing the order can't raise the minimum to eight.
 
-So I put the model cake back together. No new ingredients, no different people, no changing the scores to help the second method win. I offer the first piece, starting at the chocolate end. I stop when that proposed piece reaches eight points according to my taste. That's all four units of chocolate.
+I reset the same cake and scores. I offer a piece worth eight to me, starting at the chocolate end. That's the whole chocolate section.
 
 I pass the proposal to Max. He's looking at sixteen points. He can reduce the piece to what he thinks is a third of the whole cake. He moves the boundary back to two units of chocolate. Now he sees eight points.
 
 Lee considers what's left of the proposed piece. Two units of chocolate are worth six to him. He doesn't trim it. He can't make six become eight by cutting some away. Max was the last person to reduce the piece, so he takes it. If nobody had trimmed the first proposal, I would have taken it.
 
-I haven't lost the chocolate Max cut off. The two units he left behind stay with the unallocated cake. There are now ten units to divide, including two chocolate, four vanilla and four strawberry.
+The two units Max trimmed stay with the unallocated cake. Ten units remain: two chocolate, four vanilla, four strawberry.
 
 It's my turn to make two portions, with Lee choosing first. The leftover chocolate is worth four to me, the vanilla is worth twelve, and strawberry is worth four. That's twenty in total. I draw a line after the first two units of vanilla. To my left are two chocolate and two vanilla, worth ten. To my right are two vanilla and four strawberry, also worth ten.
 
 Lee values the left piece at ten and the right at eight. He takes the left. I take the right. My score is ten regardless of his choice. Max has eight. Lee has ten. Everybody has reached the agreed minimum.
 
-For a moment I have what I wanted. Nobody has less than eight points. But before we eat, let's see what happens when Max looks over at Lee's plate.
+Everyone has at least eight points. But before we eat, Max can compare his plate with Lee's.
 
 Max has two units of his favorite flavor. Lee also has two units of chocolate, plus two of vanilla. To Max, the extra vanilla is worth two points. He would score ten on Lee's plate and only eight on his own. Giving him his guaranteed third hasn't ended the disagreement.
 
-Can I fix that complaint without taking us back to the original unequal result? I'll keep the two cuts from B on the table and try a small adjustment. This is a separate check using the full preference table, not another step that the trimming rule automatically performs.
+Can I fix that complaint without taking us back to the original unequal result? I'll test a small adjustment using the full preference table. This is separate from B, not a step the trimming rule automatically performs.
 
 The right-hand cut stays exactly where it is. I move the boundary between Max and Lee by just a quarter of a unit, toward Lee. Max now gets two and a quarter units of chocolate. He gains one point. Lee loses a quarter of a chocolate unit, which costs him three quarters of a point. My plate hasn't changed at all.
 
@@ -38,11 +38,11 @@ What happened to Max's complaint? He would now value Lee's smaller piece at nine
 
 Why didn't I just do that from the beginning? I could, if I knew all three sets of taste points and we agreed to use them. But the first trimming rule doesn't need me to know the exact value my friends assign to each flavor. It lets each person set a limit for themselves. The little adjustment only worked because I could see the whole table. I haven't proved that it finds the best possible division or that the same movement would work for a different cake.
 
-That's a useful distinction when I don't know what my friends like. I propose a piece worth eight to me. Anybody who thinks it's worth more than eight to them may reduce it to their own eight. The piece only gets smaller, so it can't become more valuable to a person who has already passed. The last person who reduced it takes a third by their own measure. If nobody reduces it, I take my original third. The two people still waiting each value the rest at no less than two thirds of the original cake.
+Here's why B can work without the full table. A person who sees more than their own eight points may trim to eight. Further trims cannot increase the value to anyone who has already passed. The last trimmer takes their third, or I take my original third if nobody trims. The other two each value the rest at no less than two thirds of the whole cake.
 
-One of those two divides the remainder into two equally valuable pieces by their own taste. The other chooses first, so they can take at least half of what they value in the remainder. The cutter also gets half by their own measure. That's how the minimum survives even when nobody shares a complete list of their preferences.
+One divides the remainder equally by their own taste; the other chooses the portion they prefer. Each secures at least half of their own remaining value, hence at least a third of the whole.
 
-This relies on the cake being divisible, our points being nonnegative and additive, and everyone keeping their valuations fixed and cutting honestly and accurately. If Max accidentally takes one and three quarter units of chocolate instead of two, his score is seven. A real knife and three hungry people might not reproduce the guarantee. I'm testing the rule under the stated assumptions, not measuring an actual dinner.
+The rule assumes divisible cake, fixed nonnegative additive scores and honest, accurate cuts. If Max takes one and three quarter units of chocolate instead of two, his score drops to seven. A real kitchen may not reproduce the guarantee.
 
 Now I'm going to change just one thing: Lee's preferences. This time he loves strawberry, giving it four points per unit and the other flavors one each. His personal total stays twenty-four. My preferences and Max's don't change.
 

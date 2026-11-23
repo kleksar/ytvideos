@@ -7,10 +7,10 @@ Author: current editorial agent; NOT independent. Confidence high on arithmetic/
 | variants/02m/script.ru.txt | 235 | `c27719351a256c969a5473dfc61744eb1406e411bd2349ac01b8c05387cd7087` |
 | variants/05m/script.en.txt | 710 | `3678b4e6656a39a58b42bdea2286f074ac62777bba3b8bc36f4948e83a99f66a` |
 | variants/05m/script.ru.txt | 606 | `95daee08261692f7014ccc99bcf09e5d9466ce7b199e2e07cd63a1297c6876d7` |
-| variants/10m/script.en.txt | 1598 | `e3d8485afca60eaadb53dd5da5245cee3d4d8587d17bd2d3e3108e07769997a8` |
-| variants/10m/script.ru.txt | 1374 | `9ac13b9f39326f4d665af67365fb7047107daf270d5570548fc5de496a47259f` |
+| variants/10m/script.en.txt | 1351 | `750a77f45969e0de5b4c309ae0815eaea6e58217a193e3f8b1ee97088bfb7485` |
+| variants/10m/script.ru.txt | 1172 | `0c31c042f38623dd9b74f7ba829dcd0523ee01c27e7dcb8258d28112e0aebb11` |
 
-Duration targets not measurements. At 120–140 spoken EN words/min with short visual holds: 02m near two minutes, 05m around five, 10m around ten; word counts above include spoken prose only. RU pacing separately estimated; no TTS. 02m proposed Short exceeds normal channel 35–50s guideline; compatibility unresolved. 05m/10m editorial Long only, no supported recipe.
+Duration targets not measurements. At 120–140 spoken EN words/min with short visual holds: 02m near two minutes, 05m around five, 10m near the target only toward the faster end; word counts above include spoken prose only. RU pacing separately estimated; no TTS. 02m proposed Short exceeds normal channel 35–50s guideline; compatibility unresolved. 05m/10m editorial Long only, no supported recipe.
 
 ## 02m — STRONG_CANDIDATE (author)
 | Criterion | Score | Exact basis |
@@ -52,7 +52,7 @@ Map: question and setup → metric and rows → A → B → envy → counterfact
 | Natural/clear speech | 7 | “each value the rest at no less than two thirds” still requires attention; abstract proof after the visible payoff is the likeliest slowdown |
 | Confirmed viewer interest | UNVERIFIED | No measured comparable 10m audience evidence |
 
-Map: question/metric → equal A and order counterexample → B and proportional floor → Max envies Lee → separate quarter-unit diagnostic, minimum nine and no envy for this input → distinguish full-information repair from guarantee → concise general proof and precision caveat → changed Lee preference reverses A/B → practical choice. New claim tested by conservation and full 3×3 valuation matrix in research. Editorial status remains REWORK: stronger physical action, but the proof after the quarter-unit reveal and repeated score comparisons may slow listening. Confidence high on model math, medium on author assessment and language pair; independent/AV/timing/interest unverified. EN estimate 1598 words at 120–140 wpm: 685–799 seconds before visual holds; target not measured. RU 1374 words, no measured timing.
+Map: question/metric → equal A and order counterexample → B and proportional floor → Max envies Lee → separate quarter-unit diagnostic, minimum nine and no envy for this input → distinguish full-information repair from guarantee → concise general proof and precision caveat → changed Lee preference reverses A/B → practical choice. New claim tested by conservation and full 3×3 valuation matrix in research. Editorial status remains REWORK: stronger physical action, but the proof after the quarter-unit reveal and repeated score comparisons may slow listening. Confidence high on model math, medium on author assessment and language pair; independent/AV/timing/interest unverified. EN estimate 1351 words at 120–140 wpm: 579–676 seconds before visual holds; OVERLENGTH_RISK at slower pace, target not measured. RU 1172 words, no measured timing.
 
 ## Exact checks
 For all three: model arithmetic PASS (author JS dot-product and conservation tests in research; hypothetical assumptions disclosed), EN/RU equivalence PASS (author text comparison; no independent reviewer), rights to original written scripts PASS (no third-party text/media copied; future image/audio rights UNVERIFIED), actual visual continuity UNVERIFIED, independent reviewer UNVERIFIED, actual speech timing UNVERIFIED.
@@ -64,3 +64,5 @@ Revision: 02m/05m retained byte-identical; 10m EN/RU revised from baseline `ebf9
 02m delivers core result and caveat, most compact; short format still blocked by guideline. 05m adds a materially different result with the same cake and changed Lee only, proving that B is a guarantee rather than a universal winner; recommend for editorial selection, not a production action. 10m now adds the quarter-unit adjustment (minimum 8→9 and no envy for this one input), then distinguishes known scores from the general guarantee and explains precision. Its specific loss-of-interest risk is the proof immediately after the physical payoff and the subsequent repeated numeric comparisons; keep complete alternative with REWORK. 05m remains recommended for its faster preference reversal. 02m retains a complete compact answer; 05m risks slowing at the first full preference row. Audience demand and production readiness remain UNVERIFIED. No owner selection yet.
 
 Progress: original three editions prepared → revised 10m language pair and author model/semantic checks → 05m editorial recommendation retained. No runtime registration, independent review, approval or production. Next: independent exact-text review and format resolution; do not repeat cosmetic 10m edits absent a new defect.
+
+Within this revision the first candidate `b5d68399f2466f67ace633e2494c190f5758181e` was too long (1598 EN words); compressed setup, repeated preference explanations and general proof without changing the model or payoff. Exact final SHA-256 in the table supersedes that intermediate candidate. The earlier commit remains in Git.
