@@ -12,10 +12,10 @@ SHA-256 over UTF-8 file bytes including one terminating newline. Git blob values
 | 02m | RU | 252 | `c8e39c47e6bbcaacf4801012204f2a6637f0ba3b5cfb2467904fd69fcb405a19` |
 | 05m | EN | 660 | `a1b8771903c15eff762abeb9562ddca9795caff61bc1ef4ea2b1cfefcd7b6de7` |
 | 05m | RU | 571 | `f1bf6601f8843abf6288d96f751d5ddd56d1e084b73cce16db29c29a4baba64f` |
-| 10m | EN | 1638 | `c16127719840647c1065604db80aa4245b8a6f136d2713fb344d34d32dbf9164` |
-| 10m | RU | 1309 | `78f9a4306656bcbf06377e564af1d8439b960e95c8f36746df5d729a69e15e3a` |
+| 10m | EN | 1564 | `51f571fcaef6f1613e19271a436ad9a6c848db20d91aadb2205ca6d771c09d8f` |
+| 10m | RU | 1250 | `1c4e81d2fa3d6cae05592d55eb7132763e70f3f6662977405449b9c0fa8a9e4e` |
 
-Estimated speech at **135–165 EN words/minute** plus breath/pause/end screen: 02m ~1:51–2:25 speech; 05m ~4:00–4:54; 10m ~9:56–12:08. These ranges do **not** certify target durations and do not count an exact 10s end-screen as speech; speed 1.10× must not be applied twice. RU narration is review translation, not a Russian TTS schedule.
+Estimated speech at **135–165 EN words/minute** plus breath/pause/end screen: 02m ~1:51–2:25 speech; 05m ~4:00–4:54; 10m ~9:29–11:35. These ranges do **not** certify target durations and do not count an exact 10s end-screen as speech; speed 1.10× must not be applied twice. RU narration is review translation, not a Russian TTS schedule.
 
 ## Individual eight-criteria rubric
 
@@ -27,8 +27,8 @@ Order: **interest/significance; opening; causal development / reason to stay; pa
 | 02m RU | 8 | 8 | 8 | 8 | 7 | 8 | 8 | UNVERIFIED | STRONG_CANDIDATE |
 | **05m EN** | **9** | **9** | **9** | **9** | **8** | **9** | **9** | **UNVERIFIED** | **STRONG_CANDIDATE / recommended** |
 | **05m RU** | **9** | **9** | **9** | **9** | **8** | **9** | **9** | **UNVERIFIED** | **STRONG_CANDIDATE / translation** |
-| 10m EN | 8 | 8 | 8 | 8 | 8 | 9 | 7 | UNVERIFIED | REWORK (narrative density) |
-| 10m RU | 8 | 8 | 8 | 8 | 8 | 9 | 7 | UNVERIFIED | REWORK (narrative density) |
+| 10m EN | 8 | 8 | 8 | 8 | 8 | 9 | 8 | UNVERIFIED | REVISED_CANDIDATE; independent review UNVERIFIED |
+| 10m RU | 8 | 8 | 8 | 8 | 8 | 9 | 8 | UNVERIFIED | REVISED_CANDIDATE; independent review UNVERIFIED |
 
 No rounded average is reported; UNVERIFIED is not zero. 02/05 interests, development and payoffs >=8 are grounded in distinct reveal of a contested identity. A strong 02m does not become unusable because the 10m is weaker.
 
@@ -42,9 +42,11 @@ No rounded average is reported; UNVERIFIED is not zero. 02/05 interests, develop
 
 **05m RU:** “как обычный рейс ... закончился у моста?” adds a human-scale question (opening 9). “Когда спасатели вернулись за ним, тот уже исчез” changes expectation (development 9); disagreement about beard/survivor account creates a genuine investigative turn (interest 9). The official 1983 conclusion and posthumous medal answer the identity question (payoff 9). Freshness 8/visual 9 from documentary-investigation angle; speech 9 for natural inflection. Weakness: wording “мужчина, остававшийся в воде” can momentarily sound as if others left the water before return; narration remains understandable.
 
-**10m EN:** “Ice changes how air flows over a wing” allows meaningful technical immersion (development 8); contrasting pilot/river evidence gives two lines, and “The Coast Guard reaches a conclusion” answers a second thread (payoff 8). Interest 8/visual 9 for alternating locations; freshness 8 because more verifiable evidence is revealed than typical cliff notes. Speech 7: repeated transitions “investigation”, “evidence”, “official answer” slow after missing man; title promise risks being delayed. Weakness: lengthy midsection after the first rescue outcome. REWORK despite standalone 10m completion.
+**10m EN, revised from baseline `c16127719840647c1065604db80aa4245b8a6f136d2713fb344d34d32dbf9164`:** The first mechanism is now attached to the waiting, anomalous engine readings and visible inability to climb, followed by the river rescue before returning to the detailed safety investigation. The line “The safety board's conclusion is about the combination” is a clear answer rather than a second exposition of the same cause. Interest 8 for two documented investigative chains; opening 8 for three unanswered but concrete questions; development 8 because an initial crash cause is followed by the separate question of identity; payoff 8 because the official finding retains the witness disagreement. Freshness 8 for the evidentiary conflict, visual 9 for bridge/helicopter/body-recovery records, speech 8 because consecutive repeated final summaries were removed. **Weakness/confidence medium:** the midsection comparing thrust and wing contamination may still slow a viewer waiting for the human investigation; no measured timing, TTS or independent listener.
 
-**10m RU:** passage “две ухудшившиеся характеристики встретились” explains compound causality (development 8); “мать Уильямса ... написала президенту” advances the story, then “Береговая охрана ... пришла к выводу” resolves (payoff 8). The opening's three questions score 8; naturalness 7 because long technical segments can feel expository, even when accurately translated. Weakness: the emotional action is partly obscured by sustained technical mechanics; no extra events should be fabricated to fill time.
+**10m RU, revised from baseline `78f9a4306656bcbf06377e564af1d8439b960e95c8f36746df5d729a69e15e3a`:** The paired text follows the same events and caveats. “Причина смерти подтверждала, что Уильямс пережил столкновение” does not pretend to prove the rope handoffs; the investigator still weighs witness descriptions and medical findings. The later bridge naming gives a concrete afterlife of the case without a moralizing summary. Interest/opening/development/payoff/freshness 8, visual 9, speech 8 from more natural causal transitions; demand UNVERIFIED. **Weakness/confidence medium:** some aviation language remains technical, and the estimate does not demonstrate Russian read speed.
+
+**Change record (this pass):** both 10m scripts rewritten through the crash-to-rescue, aircraft reconstruction, identity dispute and final aftermath. No added invented speech or motives. Newly introduced concrete detail that the struck bridge span was later named after Williams is supported by the 2014 Washington Post Windsor obituary (see research). Original 02m and 05m bytes, ratings and evidence retained. This is an author-only editorial pass, not a second independent review. New hash invalidates every old assessment of 10m.
 
 ### Story map and comparative value
 
@@ -52,9 +54,9 @@ No rounded average is reported; UNVERIFIED is not zero. 02/05 interests, develop
 |---|---|---|
 | 02m | Who/why unnamed → snow, thrust/wing ice → six above water → helicopter handoffs → Williams identification/award. | Cold start and entire answer; compressed NTSB mechanism and ID dispute may prompt “how do you know?” |
 | **05m** | Three precise questions → waiting after deice → odd gauges/bridge → lifeline transfers, bystanders → eyewitness conflict → independent Coast Guard review → official name and consequences. | Adds two genuinely new reversals and moral nuance. Possible loss when NTSB technical cause intercuts rescue, but fewer repetitions. |
-| 10m | Three questions → snow/deicing delay → simultaneous false thrust + dirty-wing loss → bridge and river → rescue actions → two investigations → medical vs face evidence, mother’s letter and award → NTSB full chain. | Explains combined defects and evidentiary reconstruction, valuable for specialist viewers; first high-density mechanical segment and later return to NTSB weaken pace. |
+| 10m | Three questions → waiting/deicing and observed engine anomaly → bridge impact → helicopter rescues and sixth missing → NTSB combined thrust/lift finding → divergent face and survivor accounts → mother's request and Coast Guard evidence → official name, medal and named bridge span. | Extra value: explicit distinction between surviving impact and proven handoffs; precise two-part investigation. Risk: post-rescue mechanics could still feel like a detour; no audience data. |
 
-**Recommendation: 05m Long.** It achieves a clear first image, credible human action, an unanswered identity after physical rescue, contested eyewitnesses and a resolved official finding. 02m is a legitimate strong shorter option. 10m has new confirmed subject matter but not enough sustained narrative momentum to rank first.
+**Recommendation: 05m Long.** It achieves a clear first image, credible human action, an unanswered identity after physical rescue, contested eyewitnesses and a resolved official finding. 02m is a legitimate strong shorter option. Revised 10m moves the rescue earlier and reduces the doubled technical ending, but still asks a viewer to tolerate more reconstruction than the 05m; 05m remains the conservative choice pending a blind-first review.
 
 ### Tests, honesty and next pass
 
@@ -69,4 +71,4 @@ No rounded average is reported; UNVERIFIED is not zero. 02/05 interests, develop
 | Independent blind-first reading and exact schema response | UNVERIFIED | UNVERIFIED | UNVERIFIED | No reviewer session/receipt exists |
 | Audience CTR, retention, comparable channel baseline | UNVERIFIED | UNVERIFIED | UNVERIFIED | No own analytics or reliable comparative data |
 
-Author pass count: **one substantial pass + one small factual/oral correction** to 05m EN (“At four minutes past? No.” removed), no unbounded rewrite cycle. Further substantive changes require new hash and fresh review. No claim of two actual aloud readings or hearing the text; author reviewed wording and transitions only. No independent reviewer impersonation.
+Author pass count: **one substantial original pass, one small factual/oral correction** to 05m EN, and **one separate substantive rewrite of 10m EN/RU at baseline `a88bc30ffb0b3613c6e12825db1c8bd140a9a31d`** (“At four minutes past? No.” removed), no unbounded rewrite cycle. Further substantive changes require new hash and fresh review. No claim of two actual aloud readings or hearing the text; author reviewed wording and transitions only. No independent reviewer impersonation. Current 10m exact hashes require fresh independent verdict; original 10m verdict and timings are superseded.
