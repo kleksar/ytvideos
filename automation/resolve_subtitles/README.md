@@ -251,3 +251,11 @@ these words until alignment is reviewed. Values outside [0,1] always fail. This 
 any local alignment drift, line breaks and style, then follow the native
 workflow above using the real timeline snapshot and independent evidence.
 This command never opens Resolve, adds clips, renders, or publishes.
+
+## Offline spacing between voice clips
+
+For isolated PCM takes, `python3 -m automation.resolve_subtitles.voice_spacing --help`
+describes the separate offline trim and spacing planner. Follow the
+[Resolve skill for voice spacing](../../.agents/skills/ytv-resolve/references/voice-spacing.md)
+to apply and verify the resulting plan. The planner does not open Resolve, write
+original WAVs, or render a video.
