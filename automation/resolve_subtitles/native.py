@@ -30,7 +30,11 @@ def identity(resolve, target):
     require(not project.IsRenderingInProgress(), 'Resolve is rendering')
     require(timeline.GetStartFrame() == target['origin_frame'] and timeline.GetEndFrame() == target['end_frame'], 'Timeline range changed')
     require(str(timeline.GetSetting('timelineFrameRate')) in target['native_fps_values'], 'Timeline frame rate mismatch')
-    require([int(timeline.GetSetting('timelineResolutionWidth')), int(timeline.GetSetting('timelineResolutionHeight'))] == target['raster'], 'Timeline raster mismatch')
+    width, height = (timeline.GetSetting(key) for key in ('timelineResolutionWidth','timelineResolutionHeight'))
+    if width and height and str(width) != '0' and str(height) != '0':
+        require([int(width), int(height)] == target['raster'], 'Timeline raster mismatch')
+    else:
+        require(target.get('explicit_missing_raster') is True, 'Timeline raster unavailable; explicit dimensions required')
     return manager, project, timeline
 
 
@@ -179,3 +183,17 @@ def install(resolve, target, before, expected, srt_path, candidate_name, token):
                 restored.append(label)
         require(not restored, 'Could not restore source view: '+', '.join(restored))
         require(snapshot(resolve, target) == before, 'Source timeline changed during authoring; candidate is not accepted')
+
+
+def discover_current(resolve):
+    manager=resolve.GetProjectManager()
+    project=manager.GetCurrentProject()
+    require(project, 'No active project')
+    timeline=project.GetCurrentTimeline()
+    require(timeline, 'No active timeline')
+    require(not project.IsRenderingInProgress(), 'Resolve is rendering')
+    return dict(project_id=project.GetUniqueId(), timeline_id=timeline.GetUniqueId(),
+                fps_observed=str(timeline.GetSetting('timelineFrameRate')),
+                width_observed=str(timeline.GetSetting('timelineResolutionWidth')),
+                height_observed=str(timeline.GetSetting('timelineResolutionHeight')),
+                origin_frame=timeline.GetStartFrame(), end_frame=timeline.GetEndFrame())

@@ -178,8 +178,11 @@ def verify_branded(candidate, base, before, layout, token, expected_cc, replace_
         for track in range(1,base.GetTrackCount(kind)+1):
             desired=False if kind=='video' and track in replace_tracks else before[kind+'_track_state'][str(track)]
             require(bool(candidate.GetIsTrackEnabled(kind,track))==desired,'Original track state changed')
-    require(candidate.GetTrackCount('subtitle')==1 and not candidate.GetIsTrackEnabled('subtitle',1),'Independent CC track changed')
-    require(cue_readback(candidate)==expected_cc,'Independent CC timing changed')
+    if expected_cc is None:
+        require(content_signature(candidate,'subtitle')==content_signature(base,'subtitle'),'Original subtitle tracks changed')
+    else:
+        require(candidate.GetTrackCount('subtitle')==1 and not candidate.GetIsTrackEnabled('subtitle',1),'Independent CC track changed')
+        require(cue_readback(candidate)==expected_cc,'Independent CC timing changed')
     lane=candidate.GetTrackCount('video')
     require(candidate.GetIsTrackEnabled('video',lane),'Branded lane disabled')
     clips=candidate.GetItemListInTrack('video',lane) or []
@@ -200,7 +203,7 @@ def require_picture_cut(item, shot):
                 'Declared display anchor is not an actual carrier picture cut')
 
 
-def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp_paths, candidate_name, token, replace_tracks):
+def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp_paths, candidate_name, token, replace_tracks, carrier_path=None):
     manager,project,base=identity(resolve,target)
     require(snapshot(resolve,target)==before,'Source changed since final-VO verification')
     require(len(comp_paths)==len(layout['shots']),'Missing owned comp paths')
@@ -209,7 +212,7 @@ def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp
     require(isinstance(fonts,dict) and layout['recipe']['font']['style'] in fonts.get(layout['recipe']['font']['family'],{}),'Native font face missing')
     original={item.GetUniqueId():item for item in items(base,'video')}
     carriers=[]
-    for shot in layout['shots']:
+    for shot in layout['shots'] if carrier_path is None else []:
         item=original.get(shot['carrier_id'])
         require(item and item.GetStart()<=shot['start_frame']<shot['end_frame']<=item.GetEnd(),'Carrier does not cover exact authored section')
         require_picture_cut(item,shot)
@@ -227,7 +230,7 @@ def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp
             require(candidate.GetMarkerByCustomData(token),'Unowned branded candidate name')
             require(project.SetCurrentTimeline(candidate),'Cannot inspect branded candidate')
             verify_branded(candidate,base,before,layout,token,expected_cc,replace_tracks)
-            return dict(status='UNCHANGED',candidate_id=candidate.GetUniqueId(),name=candidate_name,native_cues=len(expected_cc),branded_style='NATIVE_AUTHORED',visual='UNVERIFIED',playback='UNVERIFIED')
+            return dict(status='UNCHANGED',candidate_id=candidate.GetUniqueId(),name=candidate_name,native_cues=len(expected_cc) if expected_cc is not None else 0,branded_style='NATIVE_AUTHORED',visual='UNVERIFIED',playback='UNVERIFIED')
         candidate=base.DuplicateTimeline(candidate_name);created=bool(candidate)
         require(candidate and project.SetCurrentTimeline(candidate),'Cannot create branded candidate')
         for kind in ('audio','video'):
@@ -239,27 +242,35 @@ def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp
         require(candidate.SetTrackName('video',lane,'Editable word highlights | '+token[-12:]),'Cannot name caption lane')
         require(candidate.SetTrackEnable('video',lane,True),'Cannot activate caption lane')
         pool=project.GetMediaPool()
+        if carrier_path is not None:
+            require(len(layout['shots'])==1, 'Synthetic carrier requires one exact section')
+            imported_carrier=pool.ImportMedia([carrier_path])
+            require(imported_carrier and len(imported_carrier)==1, 'Cannot import synthetic carrier')
+            carriers=[None]
         for item,shot,path in zip(carriers,layout['shots'],comp_paths):
-            first=item.GetLeftOffset()+shot['start_frame']-item.GetStart()
+            first=item.GetLeftOffset()+shot['start_frame']-item.GetStart() if item else 0
             last=first+shot['end_frame']-shot['start_frame']
-            added=pool.AppendToTimeline([dict(mediaPoolItem=item.GetMediaPoolItem(),startFrame=first,endFrame=last,mediaType=1,trackIndex=lane,recordFrame=shot['start_frame'])])
+            media=item.GetMediaPoolItem() if item else imported_carrier[0]
+            added=pool.AppendToTimeline([dict(mediaPoolItem=media,startFrame=first,endFrame=last,mediaType=1,trackIndex=lane,recordFrame=shot['start_frame'])])
             require(added and len(added)==1,'Native caption carrier append failed')
             clip=added[0]
             require((clip.GetStart(),clip.GetEnd())==(shot['start_frame'],shot['end_frame']),'Native carrier timing differs; no guessed retime')
             clip.SetName(shot['id']+' | editable captions')
             author_caption_comp(clip,shot,layout['recipe'],path)
-        # Same speech-only SRT contract as Phase 1, independent of display holds.
-        for track in range(candidate.GetTrackCount('subtitle'),0,-1):
-            require(candidate.DeleteTrack('subtitle',track),'Cannot prepare independent CC')
-        require(candidate.AddTrack('subtitle'),'Cannot create independent CC')
-        imported=pool.ImportMedia([srt_path]);require(imported and len(imported)==1,'Cannot import speech SRT')
-        pool.AppendToTimeline([dict(mediaPoolItem=imported[0],recordFrame=target['origin_frame'],trackIndex=1)])
-        shift=normalize_import(candidate,expected_cc)
-        require(candidate.SetTrackEnable('subtitle',1,False),'Cannot prevent doubled captions')
+        shift=0
+        if expected_cc is not None:
+            # Same speech-only SRT contract as Phase 1, independent of display holds.
+            for track in range(candidate.GetTrackCount('subtitle'),0,-1):
+                require(candidate.DeleteTrack('subtitle',track),'Cannot prepare independent CC')
+            require(candidate.AddTrack('subtitle'),'Cannot create independent CC')
+            imported=pool.ImportMedia([srt_path]);require(imported and len(imported)==1,'Cannot import speech SRT')
+            pool.AppendToTimeline([dict(mediaPoolItem=imported[0],recordFrame=target['origin_frame'],trackIndex=1)])
+            shift=normalize_import(candidate,expected_cc)
+            require(candidate.SetTrackEnable('subtitle',1,False),'Cannot prevent doubled captions')
         require(candidate.AddMarker(0,'Blue','Branded subtitle recipe','',1,token),'Cannot mark ownership')
         verify_branded(candidate,base,before,layout,token,expected_cc,replace_tracks)
         require(manager.SaveProject(),'Cannot save branded candidate')
-        return dict(status='CREATED',candidate_id=candidate.GetUniqueId(),name=candidate_name,branded_style='NATIVE_AUTHORED',native_cues=len(expected_cc),import_offset_corrected=shift,visual='UNVERIFIED',playback='UNVERIFIED')
+        return dict(status='CREATED',candidate_id=candidate.GetUniqueId(),name=candidate_name,branded_style='NATIVE_AUTHORED',native_cues=len(expected_cc) if expected_cc is not None else 0,import_offset_corrected=shift,visual='UNVERIFIED',playback='UNVERIFIED')
     except Exception:
         if created and candidate and lane is not None:
             candidate.SetTrackEnable('video',lane,False)

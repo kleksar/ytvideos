@@ -97,7 +97,21 @@ def main(argv=None):
     group.add_argument('--apply-native-cc', action='store_true', help='Create isolated editable CC candidate; does not install branded screen captions')
     group.add_argument('--apply-branded', action='store_true', help='Create an isolated editable branded+CC candidate for a calibrated recipe')
     parser.add_argument('--exclusive-session', action='store_true', help='Coordinator has granted sole access to this Resolve instance')
+    parser.add_argument('--from-srt', action='store_true', help='Install timed SRT as editable Text+ in an owned candidate')
+    parser.add_argument('--template', type=Path, help='Explicit channel native Text+ template JSON')
+    parser.add_argument('--channel', help='Channel ID for automatic native template selection')
+    parser.add_argument('--baseline', action='store_true', help='Use generic unapproved orientation-specific baseline')
+    parser.add_argument('--exact-fps', help='Exact rational timeline fps when Resolve displays a rounded fractional rate')
+    parser.add_argument('--dimensions', nargs=2, type=int, metavar=('WIDTH','HEIGHT'), help='Explicit dimensions only when timeline readback is missing')
     args = parser.parse_args(argv)
+    if args.from_srt:
+        if not args.exclusive_session or not (args.template or args.channel or args.baseline) or args.inspect or args.apply_native_cc or args.apply_branded:
+            parser.error('--from-srt requires --channel, --template or --baseline and --exclusive-session, without other modes')
+        from srt_import import install_srt
+        print(json.dumps(install_srt(args.request,args.template,args.output,channel=args.channel,exact_fps=args.exact_fps,dimensions=args.dimensions,baseline=args.baseline),ensure_ascii=False))
+        return 0
+    if args.template or args.channel or args.exact_fps or args.dimensions or args.baseline:
+        parser.error('--template and --exact-fps require --from-srt')
     request = json.loads(args.request.read_text())
     args.output.mkdir(parents=True, exist_ok=True)
     if (args.inspect or args.apply_native_cc or args.apply_branded) and not args.exclusive_session:

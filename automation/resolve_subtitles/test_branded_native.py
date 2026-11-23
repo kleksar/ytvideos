@@ -330,6 +330,29 @@ class BrandedNativeTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError, pattern):
                     native.author_caption_comp(item, section, recipe, "owned.comp")
 
+    def test_existing_srt_candidate_is_read_back_without_new_duplicate_or_import(self):
+        resolve, manager, project, base, candidate = [Mock() for _ in range(5)]
+        before = {"timecode": "01:00:01:00", "page": "edit"}
+        resolve.Fusion().FontManager.GetFontList.return_value = self.fonts
+        base.GetTrackCount.return_value = 1
+        project.GetTimelineCount.return_value = 1
+        project.GetTimelineByIndex.return_value = candidate
+        candidate.GetName.return_value = 'candidate'
+        candidate.GetMarkerByCustomData.return_value = {"name":"owned"}
+        candidate.GetUniqueId.return_value = 'candidate-id'
+        verifier=Mock()
+        with patch.multiple(native, create=True, identity=Mock(return_value=(manager,project,base)),
+                            snapshot=Mock(return_value=before), items=Mock(return_value=[]),
+                            verify_branded=verifier):
+            result=native.install_branded(resolve,{},before,{"recipe":dict(RECIPE,panel=None),"shots":[]},
+                                          None,None,[],"candidate","token",[],"technical.mp4")
+        self.assertEqual(result['status'],'UNCHANGED')
+        self.assertEqual(result['candidate_id'],'candidate-id')
+        verifier.assert_called_once()
+        self.assertIsNone(verifier.call_args.args[5])
+        base.DuplicateTimeline.assert_not_called()
+        project.GetMediaPool.assert_not_called()
+
     def test_failed_timeline_restore_still_restores_playhead_and_page(self):
         resolve, manager, project, base, candidate = [Mock() for _ in range(5)]
         before = {"timecode": "01:00:01:00", "page": "edit"}
