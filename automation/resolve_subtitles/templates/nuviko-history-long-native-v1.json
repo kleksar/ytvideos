@@ -1,0 +1,89 @@
+{
+  "recipe_id": "nuviko-history-long-native-v1",
+  "recipe": {
+    "channel": "nuviko_history",
+    "format": "long",
+    "raster": [
+      2560,
+      1440
+    ],
+    "font": {
+      "family": "Georgia",
+      "style": "Bold"
+    },
+    "font_metrics_px": 84,
+    "native_size": 0.046875,
+    "native_outline": 0,
+    "word_gap_ratio": 1,
+    "case": "preserve",
+    "center_x": 1280,
+    "center_y": 1255,
+    "max_width": 1286,
+    "neutral": "#F3E9D5",
+    "active": "#FFD166",
+    "outline": "#20252B",
+    "profile_geometry": {
+      "reference_width": 2560,
+      "reference_height": 1440,
+      "font_size_px": 84,
+      "max_visible_width_px": 1344,
+      "center_x_ratio": 0.5,
+      "baseline_y_ratio": 0.8944444444444445,
+      "bottom_y_ratio": 0.925
+    },
+    "profile_style": {
+      "background": "#20252BCC",
+      "outline_width": 0,
+      "pad_x": 29,
+      "pad_y": 17,
+      "font_index": 0
+    },
+    "panel": {
+      "color": "#20252BCC",
+      "pad_x": 29,
+      "top": 1193,
+      "height": 135
+    },
+    "evidence": "Canonical long/nuviko profile; native Georgia 84px caps/descenders calibration 2026-11-19",
+    "safe_area": [
+      0.05,
+      0.05,
+      0.95,
+      0.95
+    ]
+  },
+  "style": {
+    "mode": "word_highlight",
+    "channel": "nuviko_history",
+    "format": "long",
+    "profile_sha256": "9194d9a0744cd752d8893d40bd80405e12613d170874aa8455c9dd0bf3c51783",
+    "font_face": {
+      "family": "Georgia",
+      "style": "Bold"
+    },
+    "text_plus_recipe_available": true,
+    "style": {
+      "name": "nuviko",
+      "font": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+      "font_index": 0,
+      "text": "#F3E9D5",
+      "highlight": "#FFD166",
+      "background": "#20252BCC",
+      "outline": "#20252B",
+      "outline_width": 0,
+      "pad_x": 29,
+      "pad_y": 17
+    },
+    "geometry": {
+      "reference_width": 2560,
+      "reference_height": 1440,
+      "font_size_px": 84,
+      "max_visible_width_px": 1344,
+      "center_x_ratio": 0.5,
+      "baseline_y_ratio": 0.8944444444444445,
+      "bottom_y_ratio": 0.925
+    },
+    "style_sha256": "e710153ae2bd0587adf233b671924ebbf64d183c3e77d2f5ea0c48b266f467a0",
+    "geometry_sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+  }
+}

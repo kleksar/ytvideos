@@ -41,10 +41,13 @@ def rgba(value):
     return [int(value[i:i+2],16)/255 for i in (0,2,4)]+[int(value[6:8],16)/255 if len(value)==8 else 1]
 
 
-def native_layout(plan, shots, recipe_id, *, font_loader=None, display_cut_anchors=None):
-    if recipe_id not in RECIPES:
+def native_layout(plan, shots, recipe_id, *, font_loader=None, display_cut_anchors=None,
+                  template=None, neutral_only=False):
+    if template is None and recipe_id not in RECIPES:
         raise ValueError('No calibrated native recipe; do not substitute another channel')
-    recipe=RECIPES[recipe_id]
+    recipe=RECIPES[recipe_id] if template is None else template
+    if not isinstance(recipe, dict):
+        raise ValueError('Native template must be an object')
     style=plan['style']; geometry=style.get('geometry',{})
     if ((style['channel'],style['format']) != (recipe['channel'],recipe['format'])
         or plan['target']['raster'] != recipe['raster'] or style['font_face'] != recipe['font']
@@ -72,6 +75,10 @@ def native_layout(plan, shots, recipe_id, *, font_loader=None, display_cut_ancho
         raise ValueError('Installed font face does not match the calibrated native recipe')
     sections=partition_cues(plan['cues'],shots,display_cut_anchors)
     width,height=recipe['raster']
+    safe=recipe.get('safe_area',[0,0,1,1])
+    if (not isinstance(safe,list) or len(safe)!=4 or any(type(v) not in (int,float) for v in safe)
+            or not 0<=safe[0]<safe[2]<=1 or not 0<=safe[1]<safe[3]<=1):
+        raise ValueError('Invalid normalized safe area')
     for shot in sections:
         nodes=[];panels=[]
         for group in shot['sections']:
@@ -83,9 +90,16 @@ def native_layout(plan, shots, recipe_id, *, font_loader=None, display_cut_ancho
             if total > recipe['max_width']:
                 raise ValueError('Reviewed phrase exceeds calibrated one-line safe width; regroup explicitly')
             left=recipe['center_x']-total/2
+            if not (safe[0]*width <= left and left+total <= safe[2]*width
+                    and safe[1]*height <= recipe['center_y']-recipe['font_metrics_px']/2
+                    and recipe['center_y']+recipe['font_metrics_px']/2 <= safe[3]*height):
+                raise ValueError('Caption geometry exceeds timeline raster')
             if recipe['panel']:
                 panel=recipe['panel'];box_width=math.ceil(total+2*panel['pad_x'])
                 box_left=round(recipe['center_x']-box_width/2)
+                if not (safe[0]*width <= box_left and box_left+box_width <= safe[2]*width
+                        and safe[1]*height <= panel['top'] and panel['top']+panel['height'] <= safe[3]*height):
+                    raise ValueError('Caption panel exceeds timeline raster')
                 panels.append(dict(name='Panel'+str(words[0]['index']),
                     x=(box_left+box_width/2)/width,y=1-(panel['top']+panel['height']/2)/height,
                     width=box_width/width,height=panel['height']/height,
@@ -96,8 +110,8 @@ def native_layout(plan, shots, recipe_id, *, font_loader=None, display_cut_ancho
                 nodes.append(dict(name=f"Word{word['index']:05d}",text=label,index=word['index'],
                     x=(left+length/2)/width,y=1-recipe['center_y']/height,
                     first=group['start_frame']-shot['start_frame'],last=group['end_frame']-shot['start_frame'],
-                    active_first=active_start-shot['start_frame'] if active_start<active_end else None,
-                    active_last=active_end-shot['start_frame'] if active_start<active_end else None))
+                    active_first=active_start-shot['start_frame'] if not neutral_only and active_start<active_end else None,
+                    active_last=active_end-shot['start_frame'] if not neutral_only and active_start<active_end else None))
                 left+=length+gap
         shot['nodes']=nodes
         shot['panels']=panels

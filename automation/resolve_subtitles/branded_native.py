@@ -178,8 +178,11 @@ def verify_branded(candidate, base, before, layout, token, expected_cc, replace_
         for track in range(1,base.GetTrackCount(kind)+1):
             desired=False if kind=='video' and track in replace_tracks else before[kind+'_track_state'][str(track)]
             require(bool(candidate.GetIsTrackEnabled(kind,track))==desired,'Original track state changed')
-    require(candidate.GetTrackCount('subtitle')==1 and not candidate.GetIsTrackEnabled('subtitle',1),'Independent CC track changed')
-    require(cue_readback(candidate)==expected_cc,'Independent CC timing changed')
+    if expected_cc is None:
+        require(content_signature(candidate,'subtitle')==content_signature(base,'subtitle'),'Original subtitle tracks changed')
+    else:
+        require(candidate.GetTrackCount('subtitle')==1 and not candidate.GetIsTrackEnabled('subtitle',1),'Independent CC track changed')
+        require(cue_readback(candidate)==expected_cc,'Independent CC timing changed')
     lane=candidate.GetTrackCount('video')
     require(candidate.GetIsTrackEnabled('video',lane),'Branded lane disabled')
     clips=candidate.GetItemListInTrack('video',lane) or []
@@ -227,7 +230,7 @@ def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp
             require(candidate.GetMarkerByCustomData(token),'Unowned branded candidate name')
             require(project.SetCurrentTimeline(candidate),'Cannot inspect branded candidate')
             verify_branded(candidate,base,before,layout,token,expected_cc,replace_tracks)
-            return dict(status='UNCHANGED',candidate_id=candidate.GetUniqueId(),name=candidate_name,native_cues=len(expected_cc),branded_style='NATIVE_AUTHORED',visual='UNVERIFIED',playback='UNVERIFIED')
+            return dict(status='UNCHANGED',candidate_id=candidate.GetUniqueId(),name=candidate_name,native_cues=len(expected_cc) if expected_cc is not None else 0,branded_style='NATIVE_AUTHORED',visual='UNVERIFIED',playback='UNVERIFIED')
         candidate=base.DuplicateTimeline(candidate_name);created=bool(candidate)
         require(candidate and project.SetCurrentTimeline(candidate),'Cannot create branded candidate')
         for kind in ('audio','video'):
@@ -248,18 +251,20 @@ def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp
             require((clip.GetStart(),clip.GetEnd())==(shot['start_frame'],shot['end_frame']),'Native carrier timing differs; no guessed retime')
             clip.SetName(shot['id']+' | editable captions')
             author_caption_comp(clip,shot,layout['recipe'],path)
-        # Same speech-only SRT contract as Phase 1, independent of display holds.
-        for track in range(candidate.GetTrackCount('subtitle'),0,-1):
-            require(candidate.DeleteTrack('subtitle',track),'Cannot prepare independent CC')
-        require(candidate.AddTrack('subtitle'),'Cannot create independent CC')
-        imported=pool.ImportMedia([srt_path]);require(imported and len(imported)==1,'Cannot import speech SRT')
-        pool.AppendToTimeline([dict(mediaPoolItem=imported[0],recordFrame=target['origin_frame'],trackIndex=1)])
-        shift=normalize_import(candidate,expected_cc)
-        require(candidate.SetTrackEnable('subtitle',1,False),'Cannot prevent doubled captions')
+        shift=0
+        if expected_cc is not None:
+            # Same speech-only SRT contract as Phase 1, independent of display holds.
+            for track in range(candidate.GetTrackCount('subtitle'),0,-1):
+                require(candidate.DeleteTrack('subtitle',track),'Cannot prepare independent CC')
+            require(candidate.AddTrack('subtitle'),'Cannot create independent CC')
+            imported=pool.ImportMedia([srt_path]);require(imported and len(imported)==1,'Cannot import speech SRT')
+            pool.AppendToTimeline([dict(mediaPoolItem=imported[0],recordFrame=target['origin_frame'],trackIndex=1)])
+            shift=normalize_import(candidate,expected_cc)
+            require(candidate.SetTrackEnable('subtitle',1,False),'Cannot prevent doubled captions')
         require(candidate.AddMarker(0,'Blue','Branded subtitle recipe','',1,token),'Cannot mark ownership')
         verify_branded(candidate,base,before,layout,token,expected_cc,replace_tracks)
         require(manager.SaveProject(),'Cannot save branded candidate')
-        return dict(status='CREATED',candidate_id=candidate.GetUniqueId(),name=candidate_name,branded_style='NATIVE_AUTHORED',native_cues=len(expected_cc),import_offset_corrected=shift,visual='UNVERIFIED',playback='UNVERIFIED')
+        return dict(status='CREATED',candidate_id=candidate.GetUniqueId(),name=candidate_name,branded_style='NATIVE_AUTHORED',native_cues=len(expected_cc) if expected_cc is not None else 0,import_offset_corrected=shift,visual='UNVERIFIED',playback='UNVERIFIED')
     except Exception:
         if created and candidate and lane is not None:
             candidate.SetTrackEnable('video',lane,False)

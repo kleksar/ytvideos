@@ -259,3 +259,46 @@ describes the separate offline trim and spacing planner. Follow the
 [Resolve skill for voice spacing](../../.agents/skills/ytv-resolve/references/voice-spacing.md)
 to apply and verify the resulting plan. The planner does not open Resolve, write
 original WAVs, or render a video.
+
+## Timed SRT to editable screen captions
+
+With the intended timeline already active, and an exclusive Resolve session, use:
+
+```sh
+python automation/resolve_subtitles/command.py /absolute/path/speech.srt \
+  --from-srt --channel nuviko_history --exclusive-session \
+  --output /absolute/path/new-caption-work
+```
+
+The command reads the current project, timeline identity, frame rate and raster; it
+selects a channel template matching the actual raster and uses an enabled picture
+lane as carriers for editable Text+ compositions on a separate video track of an
+owned duplicate timeline. It does not switch projects or change the source timeline.
+Two native templates are included, for Nuviko History long 2560×1440 and Paper
+Detour short 1440×2560. Other channels, dimensions or orientations require an
+explicit calibrated `--template /path/to/template.json` with the same structure as
+those examples. A channel/geometry mismatch, missing font, unsafe placement or lack
+of a continuous carrier lane fails; there is no silent horizontal fallback. For a
+rounded fractional frame-rate readback, provide e.g. `--exact-fps 30000/1001`;
+if the timeline provides no dimensions, provide `--dimensions WIDTH HEIGHT`.
+Conflicting explicit values are rejected.
+
+The SRT must be UTF-8 with sequential, nonempty, nonoverlapping cues and timestamps
+relative to the timeline start. It is **never overwritten**. Cue grouping is
+preserved: review the source's phrase breaks, including prepositions, before use.
+SRT does not contain word onsets, so this mode keeps the template's neutral text
+rather than inventing word highlights. Starts are quantized once to the nearest
+frame, half up. Every phrase ends at the next phrase's start; the first begins at
+its own start, and the final phrase ends at its own end. `display.srt` is a separate
+inspection artifact; retain the original timed SRT for YouTube. Existing subtitle
+tracks are preserved, not used to carry the new screen captions. Explicitly inspect
+for existing visible or burned-in captions to avoid doubles.
+
+The output directory must not contain the source SRT or template. It records the
+plan, display SRT, native layout and receipt. The identity includes inputs, template,
+source timeline and layout. Repeating the same call checks and reuses the owned
+candidate; an altered candidate is refused. On UNKNOWN, inspect candidate and source
+before any retry. Read back the compositions and inspect and listen at cue boundaries
+before acceptance; API and fake tests do not establish visual/playback quality. No
+render or publication occurs. This route has not yet been live-tested as a complete
+SRT import; earlier bounded branded fixtures are documented above.

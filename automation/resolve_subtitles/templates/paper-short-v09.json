@@ -1,0 +1,82 @@
+{
+  "recipe_id": "paper-short-v09",
+  "recipe": {
+    "channel": "paper_detour",
+    "format": "short",
+    "raster": [
+      1440,
+      2560
+    ],
+    "font": {
+      "family": "Chalkboard SE",
+      "style": "Bold"
+    },
+    "font_metrics_px": 104,
+    "native_size": 0.121875,
+    "native_outline": 0.04,
+    "word_gap_ratio": 0.6666666666666666,
+    "case": "upper",
+    "center_x": 680,
+    "center_y": 1950.72,
+    "max_width": 1024,
+    "neutral": "#F4E8C8",
+    "active": "#FFD166",
+    "outline": "#18243A",
+    "profile_geometry": {
+      "reference_width": 1440,
+      "reference_height": 2560,
+      "font_size_px": 104,
+      "max_visible_width_px": 1024,
+      "center_x_ratio": 0.4722222222222222,
+      "center_y_ratio": 0.762
+    },
+    "profile_style": {
+      "background": null,
+      "outline_width": 3,
+      "pad_x": 20,
+      "pad_y": 12,
+      "font_index": 2
+    },
+    "panel": null,
+    "evidence": "Paper Flagship v09 native imported Text+; 2026-11-19",
+    "safe_area": [
+      0.05,
+      0.05,
+      0.95,
+      0.95
+    ]
+  },
+  "style": {
+    "mode": "word_highlight",
+    "channel": "paper_detour",
+    "format": "short",
+    "profile_sha256": "12b91f1984ffd72973607a574f20071dc961247c9fb8cc1c88317965d84d56fe",
+    "font_face": {
+      "family": "Chalkboard SE",
+      "style": "Bold"
+    },
+    "text_plus_recipe_available": true,
+    "style": {
+      "name": "paper",
+      "font": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "font_index": 2,
+      "text": "#F4E8C8",
+      "highlight": "#FFD166",
+      "background": null,
+      "outline": "#18243A",
+      "outline_width": 3,
+      "pad_x": 20,
+      "pad_y": 12
+    },
+    "geometry": {
+      "reference_width": 1440,
+      "reference_height": 2560,
+      "font_size_px": 104,
+      "max_visible_width_px": 1024,
+      "center_x_ratio": 0.4722222222222222,
+      "center_y_ratio": 0.762
+    },
+    "style_sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0",
+    "geometry_sha256": "ab84ac0aed239ea59e26a4d0e4878decd47f1e5f42db9a3563ca06bbea0adb6b"
+  }
+}
