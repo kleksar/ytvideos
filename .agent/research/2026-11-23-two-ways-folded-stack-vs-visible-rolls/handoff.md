@@ -14,3 +14,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 - No TTS, AI images, video providers, MP4, upload, release, changes of schedules or merging authorized or executed. CI and editorial ratings do not authorize them.
 
 Next update: independent reviewer + owner format/master decision, not an automatic production advance.
+
+## Subsequent editorial revision in PR #382 (2026-11-23)
+
+Baseline HEAD `152bd60c67e20ab06a6a942cb58ce45262197f2a`. Full 10m EN/RU replaced to distinguish A100/B78 expected from a realized lucky A46/B78, unlucky A154/B78, and exactly enumerated **56/336 vs 280/336 modeled outcomes**; planned outfits knowingly change A to 46s. Former smaller-bag section removed. No real measurement or audience statistic implied. New exact 10m SHA-256 EN `335eacb3ed021e74d90dc94bb966fcd1ec54b64d4f1f40b66d9f0a40018c417d`, RU `2fd01db99d75e40b2d62a2494fe7740846c45a791d1469bd524bfa86aafc61aa`. New Git blob identities are in story-review. All 02m/05m bytes and exact 02m packaging hash remain unchanged. Recommendation: 02m editorial, no approval. 10m independent blind-first reader and actual timing still UNVERIFIED; no runtime gate, Long production BLOCKED. Next action is a genuine review of the new exact 10m text, not an inherited review receipt.

@@ -58,3 +58,9 @@ All timing values and distribution assumptions originate **only from this fictio
 
 ## Rejected and unverified
 Alternative full model of vertical filing folds is deliberately **not** masqueraded as A. True fabric volume, wrinkle severity, actual motor timings, viewer intent and AV seam are UNVERIFIED. If a real measured comparison is required before editorial approval, perform physical repeat testing rather than change the model's numbers to force a winner.
+
+## Subsequent 10m model review — exact paths, no real-world frequency claim (2026-11-23)
+
+10m now tests **expected vs realized** outcomes of the same A/B packing story, replacing the lower-value smaller-suitcase calculation. Original model and timings are unchanged. With 8 then 7 then 6 equiprobable remaining shirts, there are **8×7×6 = 336** equiprobable ordered shirt requests (not observed samples). Let S be the total number of shirts above the chosen target across three mornings. Exact realized A = **46+6S seconds** (40 packing, 6 for grabs, 6 per obstruction), B = **78 seconds**. A wins iff S≤5. Direct triple-loop enumeration over ranks 0..7, 0..6, 0..5 returns **56/336=1/6** A victories and **280/336=5/6** B victories, no ties. Best repeated top-draw path A=46/B=78; worst repeated bottom-draw path A=154/B=78. These are conditional math results, **not measured trip frequencies** or a survey of people.
+
+A separate controlled **information-rule change** is now explicit: if the first three outfits are known before packing and stacked in intended retrieval order, the folded stack requires A=40+6=46, rolls B=78. It is no longer a uniform unknown-target experiment; changing what is known at pack time changes the choice. No claim is made about the performance of vertical-file folds, packing cubes, garment wrinkles, or real motor speed. Earlier 02m/05m artifacts are unchanged; original 10m blobs and SHA-256 remain in git and story-review for traceability.
