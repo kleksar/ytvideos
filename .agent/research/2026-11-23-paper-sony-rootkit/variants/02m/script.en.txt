@@ -1,17 +1,15 @@
-A music CD from a store could hide software on your Windows computer.
+What could a music CD do to your Windows computer in 2005? It could turn an ordinary album into a security problem.
 
-In 2005, Sony BMG wanted to stop people copying certain albums. The discs still played music. But on Windows computers with autorun enabled, they could also start a copy-protection installer.
+Sony BMG sold some discs with copy-protection software. On Windows computers with autorun enabled, putting one into the drive could launch an installer.
 
-Security researcher Mark Russinovich found something strange while testing a tool that detects hidden software. Files and settings on his own computer were disappearing from ordinary listings. He traced them to the copy protection on a Sony BMG CD.
+Security researcher Mark Russinovich was checking his own computer with a tool for finding hidden software. Its results did not match the files Windows normally showed him. He traced the difference to a Sony BMG disc.
 
-This wasn't merely a player that limited copying. One system, called XCP, used a rootkit: software that hid certain files and processes from Windows tools. Its hiding trick was broad enough for unrelated malicious programs to exploit.
+The program was called XCP. It concealed selected files and running processes. Worse, its hiding rule could be borrowed by unrelated malicious software. A system built to protect songs had created a hiding place for something else.
 
-Sony BMG sold another system too, called MediaMax. Researchers found that some of its components could be installed before a customer accepted a license agreement. Saying no did not necessarily keep them off the computer.
+Researchers then examined MediaMax, a different protection package used on other Sony BMG discs. Some components could install before a customer accepted the license. Clicking Decline did not necessarily leave the computer unchanged.
 
-Then came the supposed solution. Sony offered ways to remove the software, but researchers found that the removal tools introduced security holes of their own.
+Getting the software off was another ordeal. The original XCP removal process involved online forms and delayed emails. Later removal tools for both packages used browser controls. Researchers found that a malicious website could exploit those controls to run code. Some controls could remain even after the protection was removed.
 
-The company recalled the affected XCP discs. In a 2007 settlement with the US Federal Trade Commission, it agreed to clearer disclosures, consent rules, exchanges, and remedies for certain customers.
+Sony BMG recalled affected XCP discs. In January 2007, the US Federal Trade Commission announced a proposed settlement requiring clearer disclosures, permission for installation and remedies for qualifying buyers. This was a settlement, not a criminal conviction.
 
-So the scandal wasn't simply that a company tried to stop copying. It placed risky code on customers' machines, made that code hard to see, and even struggled to remove it safely.
-
-In 2005, the risky thing wasn't always a suspicious download. Sometimes it was
+The problem wasn't whether somebody copied a song. Simply playing a purchased album could bring unwanted software into a personal computer. By the time the discs were recalled, there was a new question worth asking before putting another album in the drive.

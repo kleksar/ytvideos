@@ -11,7 +11,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 - **Source evidence:** USENIX academic technical research, Russinovich first-person finding, FTC 2007 official complaint/settlement, Washington State 2006 settlement; all links and factual caveats in [research](research.md).
 - **Viewer validation:** YouTube search metadata only; actual videos, transcripts, comments and own analytics unavailable, demand UNVERIFIED. Never convert public view counts to CTR or retention.
 - **Runtime capability attempt:** `uv run ytv start --channel paper_detour --format long --intent 'Сюжетная заготовка Paper Detour, три версии одной истории'` cannot launch `ytv` executable in this environment (`No such file or directory`), so `start.plan_summary` / `read_next` / `task_guide` / pinned `reference_documents` do **not** exist. No runtime output, lease or gate was simulated. Independent reader/tester unavailable: `ytv-script-review-v1` UNVERIFIED.
-- **Other checks:** 02m literal end/start fails grammatical test; five-minute text is an author STRONG_CANDIDATE, not an official PASS; 10m is complete but REWORK for pace. Media/reference file bytes not observed; rights, audio lengths and AV seam UNVERIFIED.
+- **Other checks:** 02m was revised after this handoff's baseline: EN/RU author textual end→start twice PASS with a complete new removal obstacle; MP4 seam UNVERIFIED. Five-minute text remains the recommended author STRONG_CANDIDATE, not an official PASS; 10m remains REWORK for pace. Media/reference file bytes not observed; rights, audio lengths and AV seam UNVERIFIED.
 - **Nonproduction boundaries:** no TTS, image generation, paid video services, MP4, upload, publish, schedule or owner approval. Do not alter old pinned runs; any change requires explicit migration.
 
 ## Safe transfer when runtime and reviewer are available
@@ -24,3 +24,10 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 6. Await owner selection and explicit official approvals, not the Draft PR's existence. Only production task with authorization can generate media or publish.
 
 Remote read-back, exact HEAD/diff/CI and Draft PR state should be confirmed after final write; the SHA is intentionally not predicted here.
+
+## Editorial follow-up for PR #383 — 2026-11-23
+
+- Baseline branch HEAD `dd2af388209a9b939e8aff0aced1c3bc626e91b9`; previous 02m exact SHA-256 EN `e2cd31331714d02266299f6f557c4d5ba7a4f530937a7ca00484164992ed0c26`, RU `91c4304649785fb182d5b26f4e18432647dbc206343d70205a8eb82186065dcd`.
+- Rewritten 02m complete EN [text](variants/02m/script.en.txt) / `637a8d21478b17dd5d59bbc716f35c1f8f2c8bbc7154fb622cbdc75c0aed8c8b` and RU [text](variants/02m/script.ru.txt) / `1e2af53b08ed723e690b55a168d38183c6f4c67cb8e6ae74534a0ab99b66f82f`; 280/243 whitespace-token words. Real USENIX §8 removal difficulty and browser-control vulnerability now form a causal obstacle; 2007 FTC remedy is qualified as a proposed settlement.
+- Author textual cold-read and end→first test twice EN/RU: PASS. Audio/AV seam: UNVERIFIED. All four 05m/10m text bytes and 05m-only storyboard left unchanged. Five minutes still editorial preference; independent blind review, timed speech, rights, runtime registration and owner master approval remain missing.
+- Continue with 10m final-third narrative density only after checking fresh head/activity; never change approved media or pins. Current final remote HEAD and CI belong in the PR progress comment (not guessed here).

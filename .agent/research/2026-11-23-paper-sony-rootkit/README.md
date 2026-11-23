@@ -6,12 +6,14 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Edition | Full EN narration | Full RU narration | Author status |
 |---|---|---|---|
-| 2 minutes | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | REWORK — full story, but FAIL literal Short seam |
+| 2 minutes | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | REVISED — author textual loop PASS in EN/RU, AV UNVERIFIED |
 | **5 minutes** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **STRONG_CANDIDATE — recommended**, independent review UNVERIFIED |
 | 10 minutes | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | REWORK — dense final legal section |
 
-**Why 5m:** it adds a distinct XCP/MediaMax explanation and a second twist when removal software introduces further security risks. 2m lacks a natural grammatical loop; 10m's extra security and regulatory context costs narrative momentum. No running time has been measured.
+**Why 5m:** it adds a distinct XCP/MediaMax explanation and a second twist when removal software introduces further security risks. 2m now contains a genuinely continuous question bridge and a concrete browser-uninstaller reversal; 5m still gives those failures more context while 10m's later regulatory detail slows the story. No running time has been measured.
 
 All six exact SHA-256 hashes, individual eight-criterion scores, source claims, format checks and review limitations: [story-review](story-review.md). Selection of twelve directions, three candidates, contemporary sources and limited public YouTube observations: [research](research.md). [Packaging](packaging-brief.md), [provisional 05m-only shot sheet](storyboard-05m.md), [handoff](handoff.md).
 
 **Non-production state:** `uv run ytv start --channel paper_detour --format long ...` failed to spawn `ytv` in this environment; no official run, task packet, pin, lease, script gate, approval or independent reviewer receipt exists. This is a Git-only editorial queue candidate under the owner's explicit exception. No images, TTS, media, uploads, publication or release scheduling were performed. Archive image rights, actual references, voice timing and Long end-screen targets unverified. Do not infer approval from a draft PR.
+
+**Revision progress (2026-11-23):** original 02m was **REWORK / literal loop FAIL** at dd2af388209a9b939e8aff0aced1c3bc626e91b9. Now full EN/RU 02m scripts are substantively revised (unsafe uninstall-browser mechanism and delayed removal are sourced in research), author textual loop PASS in both languages; full 05m and 10m scripts and 05m shot sheet remain byte-identical. Exact new hashes, authorial eight-criteria scores and residual gates: [story-review](story-review.md). The 05m recommendation is unchanged and is not approval. No reviewer, runtime or MP4 evidence is implied.

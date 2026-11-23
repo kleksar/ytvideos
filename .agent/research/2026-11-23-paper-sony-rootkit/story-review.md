@@ -6,7 +6,7 @@
 
 | Target | EN master (path / SHA-256) | Full RU review version (path / SHA-256) | Word counts EN/RU | Estimated timing, NOT measured |
 |---|---|---|---|---|
-| 02m | [script.en.txt](variants/02m/script.en.txt) — `e2cd31331714d02266299f6f557c4d5ba7a4f530937a7ca00484164992ed0c26` | [script.ru.txt](variants/02m/script.ru.txt) — `91c4304649785fb182d5b26f4e18432647dbc206343d70205a8eb82186065dcd` | 254 / 218 | ~1:50–2:15 EN (115–140 wpm + pauses); portrait Short proposed |
+| 02m | [script.en.txt](variants/02m/script.en.txt) — `637a8d21478b17dd5d59bbc716f35c1f8f2c8bbc7154fb622cbdc75c0aed8c8b` | [script.ru.txt](variants/02m/script.ru.txt) — `1e2af53b08ed723e690b55a168d38183c6f4c67cb8e6ae74534a0ab99b66f82f` | 280 / 243 | ~1.9–2.2 minutes of EN speech before pauses (125–145 wpm), unmeasured; portrait Short proposed |
 | 05m | [script.en.txt](variants/05m/script.en.txt) — `b257f1a9f88030d9083607e5b08ded19879868cdc9c5df7a8bf0bc4dafbebfcd` | [script.ru.txt](variants/05m/script.ru.txt) — `0e5d3e7de584c54d764109e736f7a5245d0dad6e04f07dfa0fc4114666bdc767` | 596 / 470 | ~4:45–5:15 EN (120–130 wpm + brief pauses); landscape Long proposed |
 | 10m | [script.en.txt](variants/10m/script.en.txt) — `a71457d92f4b3d860e7f7c1640a52762bde6b2abdfc6a27e42961daa81f8c313` | [script.ru.txt](variants/10m/script.ru.txt) — `6cfd3c16dc746b0c8daf5d47229a40f19f9be31db44ff6fd895681359da14ffd` | 1156 / 892 | ~9:10–10:15 EN (115–130 wpm + pauses); landscape Long proposed |
 
@@ -16,20 +16,22 @@ Estimates use spoken word ranges and small intro/pacing pauses; voice Lawrence 1
 
 `Interest`, `Opening`, `Development`, `Payoff`, `Angle freshness`, `Visual potential`, `Natural speech`, `Evidenced audience demand`.
 
-### 02m — REWORK (full text, weak Short seam)
+### 02m — REVISED_EDITORIAL_CANDIDATE; textual loop PASS (AV UNVERIFIED)
 
-| Criterion | Author score | Exact observation / reason |
+| Criterion | Author score | Concrete evidence / limitation |
 |---|---:|---|
-| Interest/importance | 8 | “A music CD from a store could hide software” turns a familiar purchase into a personal-computer risk |
-| Opening | 8 | Cold opener names the object, action and stakes without jargon |
-| Development / stay | 8 | Russinovich's disappearing files → XCP hide mechanism → MediaMax unwanted components → unsafe removal tool |
-| Payoff | 8 | FTC response plus “placed risky code on customers' machines”; the conflict is resolved rather than teased |
-| Freshness | 7 | Rootkit story has several established video explainers; physical consumer-object angle is only a treatment difference |
-| Visual potential | 8 | Disc/case, ordinary file list with a missing item, attempted uninstall, recall in paper/card dioramas |
-| Speech naturalness | 7 | Understandable but 2m condensation compresses XCP/MediaMax distinctions |
-| Evidence of audience interest | UNVERIFIED | Public video views cannot prove this version's demand, CTR, retention or audience match |
+| Interest/importance | 8 | Opening asks what a familiar shop CD could do to a PC; it becomes a personal-ownership problem |
+| Opening | 8 | Direct question immediately gives the 2005 Windows context; no unexplained jargon at entry |
+| Development / stay | 8 | Russinovich's mismatched file listings → XCP concealment exploitable by other software → separate MediaMax consent failure → an uninstaller problem |
+| Payoff | 8 | Recall, FTC proposed settlement and the concrete cost of simply playing a purchased album resolve the promise before the closing bridge |
+| Freshness | 7 | The scandal is well documented and other explainers exist; consumer-object viewpoint is a treatment, not a new historic finding |
+| Visual potential | 8 | Disappearing file slips, consent card, frustrating mail/form path and lingering browser component can each form a different paper-diorama action |
+| Speech naturalness | 8 | Replaces the abstract “security holes” with sourced forms, delays and an unsafe browser control; normal spoken verbs, little jargon |
+| Evidence of audience interest | UNVERIFIED | Neither public views nor indexed titles demonstrate 2m retention, CTR or Paper Detour demand |
 
-**Main defect:** literal last→first is **“Sometimes it was A music CD from a store could hide software...”**, which is not grammatical. Merely repeating the product at both ends is insufficient for a narrative loop. Author self-test **FAIL**; do not present 02m as Short-ready or a passed script gate. EN/RU endings both intentionally unfinished; same concern applies to both. Narration story itself has full payoff. Independent reviewer remains UNVERIFIED. No artificial loop marker accepted.
+**Specific story map:** cold purchase question → enabled Windows autorun → researcher observes hidden files → XCP hiding extends to unrelated software → MediaMax may install before consent → XCP removal forms and dangerous browser-based removal for both systems → recall and FTC's proposed remedy → why the next disc deserves a question. **New sourced detail vs baseline:** the first XCP removal route required forms and delayed emails; the later ActiveX components were exploitable and could remain after removal (USENIX 2006 §8). These are documented mechanism/obstacle additions, not a promise of actual infections. **Weakness:** XCP and MediaMax names still arrive quickly; a novice may need visual distinction. **Confidence:** high for cited mechanisms, medium for clarity, none for audience metrics.
+
+**Two complete textual reads (author, EN and RU):** first read checks cold comprehension, cause-effect and full resolution; second read checks the end→first continuation. EN ends “there was a new question worth asking before putting another album in the drive.” → opens “What could a music CD do to your Windows computer in 2005?” RU ends “...стоило задать один новый вопрос.” → opens “Что музыкальный компакт-диск мог сделать...?” Both are an ordinary preceding statement followed by its specified question, without a dangling ungrammatical fragment, repeated object as fake loop, or disclosure deferred until replay. **Author textual PASS; independent blind reader and actual two-cycle MP4/AV seam UNVERIFIED.** This is not owner approval or runtime script gate. Estimated 2m duration remains unmeasured.
 
 ### 05m — STRONG_CANDIDATE; editorial recommendation
 
@@ -65,7 +67,7 @@ Estimates use spoken word ranges and small intro/pacing pauses; voice Lawrence 1
 
 ## Length comparison and selection
 
-**2 → 5:** five-minute version uses room for ordinary purchase and why autorun matters, gives the researcher a causal entrance, differentiates XCP/MediaMax, and develops the risky-uninstaller surprise before regulatory resolution. 2m cannot supply these naturally and currently fails its literal Short seam.
+**2 → 5:** five-minute version uses room for ordinary purchase and why autorun matters, gives the researcher a causal entrance, differentiates XCP/MediaMax, and develops the risky-uninstaller surprise before regulatory resolution. 2m now completes its textual question bridge, but still has no room for the 5m's fuller explanation of the two independent mechanisms and their consumer consequences.
 
 **5 → 10:** longer version makes genuinely new observations: how RootkitRevealer found hidden items, generalized filename concealment, effects of refusing EULA, reported listening data, responses by Microsoft/EFF and different 2006/2007 settlements. Those are source-supported and material, but not every added paragraph changes the central question. The 10m legal portion can lose a first-time viewer. No automatic preference for length.
 
@@ -75,10 +77,10 @@ Estimates use spoken word ranges and small intro/pacing pauses; voice Lawrence 1
 
 | Check | 02m | 05m | 10m | Limit |
 |---|---|---|---|---|
-| Core documented event/numbers/causality | Author PASS | Author PASS | Author PASS | Independent fact verification still UNVERIFIED; primary research USENIX + FTC; no unverifiable infection counts |
+| Core documented event/numbers/causality | Author PASS, new details cross-checked to USENIX §8 | Author PASS | Author PASS | Independent fact verification still UNVERIFIED; primary research USENIX + FTC; no unverifiable infection counts |
 | Complete EN + full semantic RU | Author PASS | Author PASS | Author PASS | Same mechanisms, legal caveats and outcomes; review of precise complete texts, not machine diff |
 | Format | PROPOSED Short, compatibility UNVERIFIED | ChannelSpec Long supports, runtime UNVERIFIED | ChannelSpec Long supports, runtime UNVERIFIED | Length after recording unmeasured |
-| Narrative loop | FAIL: literal grammar | N_A (Long) | N_A (Long) | MP4 boundary always UNVERIFIED |
+| Narrative loop | Author textual PASS on both full languages, twice; real AV UNVERIFIED | N_A (Long) | N_A (Long) | Two-cycle MP4 boundary and independent ear UNVERIFIED |
 | Rights / real reference assets | UNVERIFIED | UNVERIFIED | UNVERIFIED | No source video, CD artwork or brand reference bytes used |
 | Independent review `ytv-script-review-v1` | UNVERIFIED | UNVERIFIED | UNVERIFIED | Tool/session unavailable; author self-check is not a receipt |
 | Voice and physical timing | UNVERIFIED | UNVERIFIED | UNVERIFIED | No audio rendered or listened |
@@ -88,4 +90,4 @@ Estimates use spoken word ranges and small intro/pacing pauses; voice Lawrence 1
 
 ## Revision accounting and limits
 
-This initial package uses one authorial composition/editing round; no independent reviewer revision round used. 02m seam failure is explicitly an outstanding REWORK, not silently promoted to STRONG_CANDIDATE. A real independent review of any changed hash must be repeated. No storyboard spans from this text can be reused for a different version.
+Original creation: one authorial composition/editing round; this follow-up is a separate authorial content revision of 02m only. Baseline HEAD `dd2af388209a9b939e8aff0aced1c3bc626e91b9`, 02m SHA-256 EN `e2cd31331714d02266299f6f557c4d5ba7a4f530937a7ca00484164992ed0c26`, RU `91c4304649785fb182d5b26f4e18432647dbc206343d70205a8eb82186065dcd`. New EN `637a8d21478b17dd5d59bbc716f35c1f8f2c8bbc7154fb622cbdc75c0aed8c8b`, RU `1e2af53b08ed723e690b55a168d38183c6f4c67cb8e6ae74534a0ab99b66f82f`. Unchanged 05m/10m evidence preserved. All previous 02m assessments and timing invalidate on the new hash. No genuine independent reviewer session/receipt is available; AV and runtime registration remain UNVERIFIED. The 05m-only storyboard stays bound to its untouched exact hash and does not apply to 02m.
