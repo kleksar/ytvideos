@@ -15,7 +15,7 @@ SHA-256 over UTF-8 file bytes including one terminating newline. Git blob values
 | 10m | EN | 1564 | `e657a9ea541b6691c81bcadad541406edada60d23faeffffa16dab2cc92c0d0e` |
 | 10m | RU | 1250 | `d968e83ac187730089756ef66bd474a278b92f195a0feb8fff5b908c99f9b8b7` |
 
-Estimated speech at **135–165 EN words/minute** plus breath/pause/end screen: 02m ~1:51–2:25 speech; 05m ~4:00–4:54; 10m ~9:29–11:35. These ranges do **not** certify target durations and do not count an exact 10s end-screen as speech; speed 1.10× must not be applied twice. RU narration is review translation, not a Russian TTS schedule.
+Estimated speech at **135–165 EN words/minute** plus breath/pause/end screen: 02m ~1:51–2:25 speech; 05m ~4:00–4:54; 10m ~9:21–11:26. These ranges do **not** certify target durations and do not count an exact 10s end-screen as speech; speed 1.10× must not be applied twice. RU narration is review translation, not a Russian TTS schedule.
 
 ## Individual eight-criteria rubric
 
