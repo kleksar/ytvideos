@@ -271,14 +271,23 @@ python automation/resolve_subtitles/command.py /absolute/path/speech.srt \
 ```
 
 The command reads the current project, timeline identity, frame rate and raster; it
-selects a channel template matching the actual raster and uses an enabled picture
-lane as carriers for editable Text+ compositions on a separate video track of an
-owned duplicate timeline. It does not switch projects or change the source timeline.
+selects a channel template matching the actual raster and creates editable Text+
+compositions on a separate video track of an owned duplicate timeline. A tiny
+technical video carrier holds the Fusion composition; the captions and their panel
+remain editable nodes and are not baked into the carrier. It does not switch projects or change the source timeline.
 Two native templates are included, for Nuviko History long 2560×1440 and Paper
-Detour short 1440×2560. Other channels, dimensions or orientations require an
-explicit calibrated `--template /path/to/template.json` with the same structure as
-those examples. A channel/geometry mismatch, missing font, unsafe placement or lack
-of a continuous carrier lane fails; there is no silent horizontal fallback. For a
+Detour short 1440×2560. For another channel, choose an explicit calibrated `--template /path/to/template.json`
+with the same structure as those examples, or explicitly select the generic baseline:
+
+```sh
+python automation/resolve_subtitles/command.py /absolute/path/speech.srt \
+  --from-srt --baseline --exclusive-session --output /absolute/path/new-caption-work
+```
+
+`--baseline` selects a portrait or landscape template from the actual timeline
+raster and scales it for 9:16 or 16:9. It is a generic appearance, **not an approved
+channel style**. The template JSON owns its font, colors, sizing, position, panel,
+and normalized safe area; channel-specific templates can be supplied instead. A channel/geometry mismatch, missing font, unsafe placement or a missing technical carrier dependency fails; there is no silent horizontal fallback. For a
 rounded fractional frame-rate readback, provide e.g. `--exact-fps 30000/1001`;
 if the timeline provides no dimensions, provide `--dimensions WIDTH HEIGHT`.
 Conflicting explicit values are rejected.
@@ -294,11 +303,16 @@ inspection artifact; retain the original timed SRT for YouTube. Existing subtitl
 tracks are preserved, not used to carry the new screen captions. Explicitly inspect
 for existing visible or burned-in captions to avoid doubles.
 
-The output directory must not contain the source SRT or template. It records the
+The output directory must not contain the source SRT or template. `ffmpeg` and
+`ffprobe` must be installed to prepare and verify the tiny technical carrier. It records the
 plan, display SRT, native layout and receipt. The identity includes inputs, template,
 source timeline and layout. Repeating the same call checks and reuses the owned
 candidate; an altered candidate is refused. On UNKNOWN, inspect candidate and source
 before any retry. Read back the compositions and inspect and listen at cue boundaries
 before acceptance; API and fake tests do not establish visual/playback quality. No
-render or publication occurs. This route has not yet been live-tested as a complete
-SRT import; earlier bounded branded fixtures are documented above.
+render or publication occurs. A live 21.2 test on a separate synthetic portrait timeline completed CREATED →
+UNCHANGED with the same candidate ID and full editable graph readback; the original
+working timeline and playhead were restored. The exact SRT SHA-256 was
+`15f7f3d687c5ce2f0b6c70edfd2cd5ab011404044590cd75af6d1dce305a440c`.
+The complete SRT route has not had live landscape, visual, or listening QA; the
+landscape baseline is covered by offline tests. No production timeline was edited.

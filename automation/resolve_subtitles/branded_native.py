@@ -203,7 +203,7 @@ def require_picture_cut(item, shot):
                 'Declared display anchor is not an actual carrier picture cut')
 
 
-def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp_paths, candidate_name, token, replace_tracks):
+def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp_paths, candidate_name, token, replace_tracks, carrier_path=None):
     manager,project,base=identity(resolve,target)
     require(snapshot(resolve,target)==before,'Source changed since final-VO verification')
     require(len(comp_paths)==len(layout['shots']),'Missing owned comp paths')
@@ -212,7 +212,7 @@ def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp
     require(isinstance(fonts,dict) and layout['recipe']['font']['style'] in fonts.get(layout['recipe']['font']['family'],{}),'Native font face missing')
     original={item.GetUniqueId():item for item in items(base,'video')}
     carriers=[]
-    for shot in layout['shots']:
+    for shot in layout['shots'] if carrier_path is None else []:
         item=original.get(shot['carrier_id'])
         require(item and item.GetStart()<=shot['start_frame']<shot['end_frame']<=item.GetEnd(),'Carrier does not cover exact authored section')
         require_picture_cut(item,shot)
@@ -242,10 +242,16 @@ def install_branded(resolve, target, before, layout, expected_cc, srt_path, comp
         require(candidate.SetTrackName('video',lane,'Editable word highlights | '+token[-12:]),'Cannot name caption lane')
         require(candidate.SetTrackEnable('video',lane,True),'Cannot activate caption lane')
         pool=project.GetMediaPool()
+        if carrier_path is not None:
+            require(len(layout['shots'])==1, 'Synthetic carrier requires one exact section')
+            imported_carrier=pool.ImportMedia([carrier_path])
+            require(imported_carrier and len(imported_carrier)==1, 'Cannot import synthetic carrier')
+            carriers=[None]
         for item,shot,path in zip(carriers,layout['shots'],comp_paths):
-            first=item.GetLeftOffset()+shot['start_frame']-item.GetStart()
+            first=item.GetLeftOffset()+shot['start_frame']-item.GetStart() if item else 0
             last=first+shot['end_frame']-shot['start_frame']
-            added=pool.AppendToTimeline([dict(mediaPoolItem=item.GetMediaPoolItem(),startFrame=first,endFrame=last,mediaType=1,trackIndex=lane,recordFrame=shot['start_frame'])])
+            media=item.GetMediaPoolItem() if item else imported_carrier[0]
+            added=pool.AppendToTimeline([dict(mediaPoolItem=media,startFrame=first,endFrame=last,mediaType=1,trackIndex=lane,recordFrame=shot['start_frame'])])
             require(added and len(added)==1,'Native caption carrier append failed')
             clip=added[0]
             require((clip.GetStart(),clip.GetEnd())==(shot['start_frame'],shot['end_frame']),'Native carrier timing differs; no guessed retime')

@@ -54,11 +54,25 @@ class DirectImportTests(unittest.TestCase):
         self.run_profile('paper-short-v09','portrait')
         self.run_profile('nuviko-history-long-native-v1','landscape')
 
-    def test_missing_carrier_fails_before_native_install(self):
-        from srt_plan import choose_carriers,plan_srt
-        cues=plan_srt(SRT,dict(fps='30',origin_frame=100,end_frame=300))['cues']
-        for picture in ([], [[['x',100,125,0,0,True,{},'m']]], [[['x',100,300,0,0,False,{},'m']]]):
-            with self.assertRaisesRegex(ValueError,'covers'):
-                choose_carriers(dict(picture=picture,video_track_state={'1':True}),cues)
+    def test_generic_baselines_scale_both_orientations_and_reject_ambiguous_aspect(self):
+        from srt_plan import plan_srt
+        with tempfile.TemporaryDirectory() as tmp:
+            font=Path(tmp)/'font'; font.write_bytes(b'font')
+            for name, raster in (('generic-landscape',[1920,1080]),('generic-portrait',[1080,1920])):
+                with self.subTest(name=name):
+                    template=json.loads((Path(__file__).parent/'templates'/f'{name}.json').read_text())
+                    template=srt_import.adapt_baseline(template,*raster)
+                    template['style']['style']['font']=str(font)
+                    plan=plan_srt(SRT,dict(fps='30000/1001',origin_frame=100,end_frame=300,raster=raster))
+                    plan['style']=template['style']
+                    shots=[dict(id='shot',carrier_id='carrier',start_frame=115,end_frame=139)]
+                    result=layout.native_layout(plan,shots,template['recipe_id'],template=template['recipe'],neutral_only=True,
+                         font_loader=lambda *a,**kw:Font('Georgia'))
+                    self.assertTrue(result['recipe']['baseline'])
+                    self.assertEqual(result['recipe']['raster'],raster)
+                    self.assertEqual([(n['first'],n['last']) for n in result['shots'][0]['nodes']],[(0,15),(15,24)])
+                    with self.assertRaisesRegex(ValueError,'16:9'):
+                        srt_import.adapt_baseline(template,1000,1000)
+
 
 if __name__ == '__main__': unittest.main()

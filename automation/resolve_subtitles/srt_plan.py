@@ -35,29 +35,6 @@ def plan_srt(text, target):
                 conform_sha256=digest, source_srt_sha256=digest, playback='UNVERIFIED')
 
 
-def choose_carriers(snapshot, cues):
-    """Find one complete, enabled video lane covering the display interval."""
-    first, last = cues[0]['start_frame'], cues[-1]['end_frame']
-    states = snapshot['video_track_state']
-    for number, track in enumerate(snapshot['picture'], 1):
-        if not states.get(str(number)):
-            continue
-        cursor, chosen = first, []
-        for row in sorted(track, key=lambda r: r[1]):
-            identity, start, end, _, _, enabled, _, media = row
-            if end <= cursor:
-                continue
-            if start > cursor or not enabled or not media:
-                break
-            stop = min(end, last)
-            chosen.append(dict(id=f'section-{len(chosen)+1:04d}', carrier_id=identity,
-                               start_frame=cursor, end_frame=stop))
-            cursor = stop
-            if cursor == last:
-                return chosen
-    raise ValueError('No enabled source video lane covers all caption frames')
-
-
 def format_srt(plan):
     """Separate display SRT for inspection; never changes the timed source."""
     fps=Fraction(plan['target']['fps']); origin=plan['target']['origin_frame']
