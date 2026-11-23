@@ -1,0 +1,9 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+Source main a6023668001421b689a8142cebc0bd436545be6b. #124 merged; canonical current main used, not proposed revision. New story only, no shared docs/skills/channel status modifications.
+
+Runtime attempt before research: uv run ytv start --channel two_ways_lab --format short --intent 'Prepare editorial candidates; no production' -> exit 2, Failed to spawn: ytv, No such file or directory (os error 2). No checkout/runtime plan_summary/read_next/task_guide/pinned reference_documents available. No fabricated run, lease, reviewer, receipt or approval. Explicitly authorized Git editorial queue only. Tool registry has GitHub reviewer assignment tools, no independent session/agent execution; cannot substitute self-review.
+
+Path locally: checkout actual remote main on authorized host, read canonical docs and materialize this branch's story folder (.agent/research/2026-11-23-two-ways-three-flavor-cake); preserve original bytes/hashes in story-review.md. Start real runtime per canonical process, read actual pins and plan, resolve format constraints without silently changing ChannelSpec, choose a single exact master after owner review, register only through documented runtime. 05m/10m editorial Long blocked (long canvas/fps absent); 02m duration outside normal Short 35–50s. Do not create three runs. Independent reviewer receives exact texts without author verdict, sources after first reading; preserve original schema/response, re-review on new hash. Detailed storyboard/preproduction/prompts deferred until review and actual reference availability. Existing runtime pins not modified; no migration attempted.
+
+No TTS, images, MP4, media generation, upload, publication, schedule change or merge. CI only checks repo; no production permission. Own channel live analytics/private scheduled list UNVERIFIED. No paid calls.
