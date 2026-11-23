@@ -1,6 +1,6 @@
 # Author review of exact drafts
 
-2026-11-23. Author: current ChatGPT editorial session. Independent reviewer not available; no receipt. Ratings are first-author judgments, not predicted views, CTR or retention. Final author pass: removed an unsupported vehicle-delivery comparison, avoided claiming archive photographs were personally inspected, and included differing geographic boundaries in all duration variants. No other editorial pass asserted. Each text is an independent complete Long; 2m is deliberately NOT a Short and therefore loop N_A. 
+2026-11-23. Author: current ChatGPT editorial session. Independent reviewer not available; no receipt. Ratings are first-author judgments, not predicted views, CTR or retention. Original author pass removed an unsupported vehicle-delivery comparison and preserved geographic boundaries. This second editorial pass rewrites 10m only; older exact-text evaluations remain in baseline history. Each text is an independent complete Long; 2m is deliberately NOT a Short and therefore loop N_A. 
 
 | Variant | Language | Words (whitespace) | SHA-256 of UTF-8 LF text |
 |---|---|---:|---|
@@ -8,8 +8,8 @@
 | 02m | ru | 236 | `9b2b3028dd54a44fcb6d4cb4020c1bae7188f6f5d6ba04f0785da893fd3401a2` |
 | 05m | en | 724 | `5c50e894572e87dcf6e31a523a24dfbbec2dc1cfd2d55c5f9c80e506a726bf94` |
 | 05m | ru | 554 | `a316911e797dcd3ee91878a194d060cadd075dfd91218eb4fd230a8a20a92d21` |
-| 10m | en | 1376 | `7485b12f39c4933ab089ca6fffa680347ef61cc921d387b8eb6421c8db8db9d3` |
-| 10m | ru | 1116 | `4fa6fff32b6faec44346e91a9dbba1f704d8c7b4b0e900d22fb257c4488d2574` |
+| 10m | en | 1373 | `46cc22d23993e1b01be068054ca359af87d5dc320468c2a00195fb7a672cf196` |
+| 10m | ru | 1081 | `149380712a5c6868e484b5de6a20d399c73fc175f2948ffcfe0a1fa9dcaea90b` |
 
 ## Estimated duration
 
@@ -19,7 +19,7 @@ Whitespace counts, not spoken-word measurements. Assumed effective EN 140–155 
 |---|---|---|---|
 | 02m | 1.90–2.11 min | 1.89–2.25 min | illustrated Long 2560×1440 / 30 fps |
 | 05m | 4.67–5.17 min | 4.43–5.28 min | illustrated Long 2560×1440 / 30 fps |
-| 10m | 8.88–9.83 min | 8.93–10.63 min | illustrated Long 2560×1440 / 30 fps |
+| 10m | 8.86–9.81 min | 8.65–10.30 min | illustrated Long 2560×1440 / 30 fps |
 
 ## 02m — STRONG_CANDIDATE
 
@@ -55,28 +55,28 @@ Questions → port and hurricane → wall construction → original doors below 
 
 Author confidence medium in structure, low in audience prediction. Main weakness: wall description before house hook; remove if independent reader flags it, not by untracked edit. 
 
-## 10m — REWORK, complete text not a pacing PASS
+## 10m — REWORK, revised complete text; no pacing PASS
 
-Questions → barrier island exposure → 1900 loss → report and wall cross-section → old grade geometry → different foundations and private affordability / Ashton Villa → footways → temporary canal & drawbridge → four dredges → contained fill → railway/vegetation → reinstated streets → 1912 causeway → 1915 flood / damaged water connection → temporary smaller main → uncertainty and lower human loss. Extra new value: individual owners could not all lift homes; canal interfaces with traffic; water supply fails even when seawall remains. Not padding or new unverified danger.
+Baseline d2a4a12a42c952f22ce2b7dd22c1b68b2598b274, variants/10m/script.en.txt SHA-256 7485b12f39c4933ab089ca6fffa680347ef61cc921d387b8eb6421c8db8db9d3, script.ru.txt SHA-256 4fa6fff32b6faec44346e91a9dbba1f704d8c7b4b0e900d22fb257c4488d2574. Original 02m and 05m preserved byte for byte. Original 10m had slow abstract setup and repeated ending; revised version brings doorway consequence forward, then follows unequal ground elevations → owners' physical tradeoffs → documented grocery access → initial canal earth supplies fill → prevent the new land blocking the transport route → street railway crossing → canal disappears → 1915 broken approaches, temporary railway and water connection → comparative consequence → street meets door. These are narration beats/visual intent, not timed storyboard or measured images.
 
 | Criterion | Rating | Grounded observation |
 |---|---:|---|
-| Interest/significance | 8 | Why houses are raised and why city lifelines still fail |
-| Beginning | 7 | The first two context paragraphs defer concrete house action longer than 05m |
-| Development | 8 | Ashton Villa exception and 30-to-8-inch temporary pipe add actual causal events, but wall/grade exposition accumulates |
-| Payoff | 8 | Protection vs mainland connection revealed, no exact saved fraction, street meets houses |
-| Freshness | 8 | Inhabited city and fresh-water lifeline angle |
-| Visual expression | 8 | Concrete structures/route; likely recurring wide scenes during technical middle |
-| Naturalness/clarity | 7 | “The builders divided the area to be filled…” and adjacent explanations may sound instructional |
-| Audience support | UNVERIFIED | Same evidence limit |
+| Interest/significance | 8 | “the house had to rise before the ground did” makes the engineering personal; interrupted water connection creates second constraint |
+| Beginning | 8 | Three answerable questions and port disaster, then doorway hook before wall cross-section |
+| Development | 8 | Villa loses basement; canal excavation itself supplies fill; pilings keep route open; rails and pipes compete for space |
+| Payoff | 8 | Temporary eight-inch pipe restores a link; 1915 comparison retains caveat; street rises to door |
+| Freshness | 8 | Different owners and occupied shop/canal route, not a construction chronology alone |
+| Visual expression | 8 | Door, raised shop steps, canal fill, temporary track, broken causeway; archive captions are references only |
+| Naturalness/clarity | 8 | More action verbs and fewer repeated endings; elevation and ship details may slow speech |
+| Audience support | UNVERIFIED | No matched baseline or measured interest |
 
-Author confidence medium-low on tempo; main deficiency is gradual loss of urgency after wall explanation and before canal. Independent reviewer can reject even a complete text. Do not prefer ten minutes solely because it is longer.
+Confidence medium on fact/causal structure, low on audience and timing. Main remaining risk: the elevation paragraph and middle canal infrastructure detail. Estimated durations above are not recorded TTS; ten-second endscreen not yet measured. All prior 10m assessments are historical, no approval or storyboard carried over. Independent review UNVERIFIED.
 
 ## Explicit checks (author, not official script gate)
 
 | Check | 02m | 05m | 10m | Method and limitations |
 |---|---|---|---|---|
-| Facts | PASS | PASS | PASS | Author compared substantive claims against A–H in research; estimates/attribution caveats preserved; no numeric saved fraction |
+| Facts | PASS | PASS | PASS | Author compared substantive claims against A–H and revision I–L in research; estimates/attribution caveats preserved; no numeric saved fraction |
 | EN/RU semantics | PASS | PASS | PASS | Paired review of sequence, dates, figures, caveats and ending; RU natural meaning, not literal wording |
 | Format proposal | PASS | PASS | PASS | Long supported by current Nuviko ChannelSpec; actual runtime pins/recorded length UNVERIFIED |
 | Rights | UNVERIFIED | UNVERIFIED | UNVERIFIED | Text independently written; archival/visual/music rights and actual assets not checked |
@@ -86,4 +86,4 @@ Author confidence medium-low on tempo; main deficiency is gradual loss of urgenc
 
 ## Compare
 
-02m resolves the paradox efficiently but cannot show the difference between the communal works and owners' costs. 05m adds the wall function, doorway consequence, church, drawbridge and funding consequences before the storm, and earns the final image. 10m adds the genuine counterexample Ashton Villa, fleet sequence and fresh-water restoration after the second hurricane; useful information but less momentum and more abstract setup. Recommend **05m** for a general audience. 02m is viable alternative, and 10m is a complete but weaker editorial proposal. No approval, runtime gate, verified demand or production dispatch. No detailed storyboard until exact recommended variant passes independent review. 
+02m resolves the paradox efficiently but cannot show the difference between the communal works and owners' costs. 05m adds the wall function, doorway consequence, church, drawbridge and funding consequences before the storm, and earns the final image. 10m adds the basement sacrifice, actual grocery access, initial excavation material and canal protection, temporary rail crossing and fresh-water recovery. The extra information is substantive, but the elevation and construction logistics still risk slower momentum. Recommend **05m** for a general audience. 02m is viable alternative, and 10m is a complete but weaker editorial proposal. No approval, runtime gate, verified demand or production dispatch. No detailed storyboard until exact recommended variant passes independent review. 

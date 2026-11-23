@@ -59,3 +59,16 @@ Main uncertainty: extent of protection's causal contribution compared with storm
 ## Read and authority
 
 Current main: AGENTS, index, writer skill including PR route, editorial/narration, workflow/development/task contract applicable sections, task-execution, hook patterns, thumbnails, Nuviko AGENTS/ChannelSpec/PROFILE/brand. Read accepted B scripts at S-5 78b375bf0004fdeb45722e6106f2919f09e82fe1 and Lawnchair 28862598989045cd02990e654b086afae28fea59; preserve action-led narration, not wording. #124 merged; not a separate policy overlay. Runtime attempted before research and unavailable (see handoff). No storyboard or media. Publication inventory and audience analytics incomplete; editorial hypothesis only.
+
+## 2026-11-23 revision: documented construction constraints (10m only)
+
+Baseline d2a4a12a42c952f22ce2b7dd22c1b68b2598b274. Newly opened textual sources (not inspected photo bytes):
+
+| ID | Exact source | Verified addition and boundary |
+|---|---|---|
+| I | [Rosenberg Library Grade Raising](https://www.galvestonhistorycenter.org/research/grade-raising), caption G_59261_FF1_010 and overview paragraphs | Raised West End Grocery access, woman on steps and child/dog below (caption evidence only); approximate elevations relative to mean low tide; material from canal used by seawall; final area in 1928, distinct from main 1904–1910 phase. No comparison of grade datum with wall height. |
+| J | [Handbook of Texas: Ashton Villa](https://www.tshaonline.org/handbook/entries/ashton-villa), paragraph beginning Brown died in 1895 | Widow inherited property, structure survived 1900 storm, basement filled and about two feet of soil on grounds. No inferred motive or claim all owners could choose this. |
+| K | [Rosenberg Library Dredges](https://www.galvestonhistorycenter.org/archive/exhibits/graderaising/Dredges/index.html), first two paragraphs; [General views](https://www.galvestonhistorycenter.org/archive/exhibits/graderaising/Genviews/index.html), introductory paragraph | July 1904 canal, pilings to retain fill, turning basins and traffic drawbridge; Leviathan arrival Dec 1904; raised rail tracks, buried sidewalks and residents' replacement costs. Potential waiting at bridge is conditional illustration, not a witnessed event. |
+| L | [1915 Causeway](https://www.galvestonhistorycenter.org/research/causeway-1915), opening paragraphs and temporary trestle captions; [1915 Storm](https://www.galvestonhistorycenter.org/research/1915-storm), opening paragraph | Surviving central span and lift bridge, ruined approaches, temporary railway trestle, 30-inch mains and temporary 8-inch main, 6–9 feet flood depth and city death count. No restoration duration, exact saved fraction or exact same-boundary comparison. |
+
+Revision causal map: exposed port → repeat vulnerability → doorway/grade constraint → unequal site heights/owner expenses → Villa lost basement and grocery steps → canal material reused → protect canal from fill → rail and pipeline intersection → reinstated streets → second hurricane/failure of links → rail/water workaround → outcome and front door. Removed generic setup and redundant after-payoff paragraphs. Strong 02m/05m remain unchanged. Visual references are text/captions only; exact frames and rights remain unverified.
