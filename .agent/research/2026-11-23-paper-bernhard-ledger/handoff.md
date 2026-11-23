@@ -10,7 +10,7 @@ Last prepared 2026-11-23, **Git editorial candidate only**. Branch work/story-dr
 |---|---|---|
 | [02m](variants/02m/) | 0a1b923e347354b1e7f5bd437f0954de55e646aa3437d1da408db3aaf398a5f7 | 6651eab7a47e43cd15ced0438f47e424c75d5f749190a1438ba9b5d447ee7dbc |
 | [05m](variants/05m/) | **106e5bb4e42ca0bc2288876e9289ea54b9084adb1239d463dc7ddc84d3c595c9** | **7fb52835390c7792abd63d68fdf7568f24424bedee61e97c374515bc0a6fc17f** |
-| [10m](variants/10m/) | 8d0c35892fb62f91ec0fb7a6550c2145e8681fe7271a72fc7dc5c00c8706b991 | 52d55d5916c044dba87690be5e3044e39c0892a607c21655e14ef5a7586d28b0 |
+| [10m](variants/10m/) | 354b5d58c0fac350e9551cacba34566c2b575e50c424db40495df89d38233576 | 66d67e6b09da57826dcf677715b022721bc093ca539372f9e22e8f31c9a0723a |
 
 These bytes are **not approved production source**. The recommendation is 05m Long EN; the exact 05m source hash must be carried through to independent review/selection and any later script gate. RU is a complete semantic review translation, not a separate Russian voice/master.
 
@@ -40,3 +40,9 @@ These bytes are **not approved production source**. The recommendation is 05m Lo
 **Runtime:** ytv executable unavailable here (observed attempted spawn). **Independent reviewer:** no authorized fresh reviewer dispatch observed. **Audience:** no same-creator ordinary baselines, watch histories, 30–90-day topical momentum, CTR or retention. **Production:** exact measured duration, Paper accepted references and legal reuse rights, original playable next-video intro/public eligibility and end-screen, AV QA. **Decision:** owner has not approved one exact script.
 
 Allowed next action here is purely editorial revision/readback on this separate branch if justified. No merge, no force-push, no deleting or closing any existing PR, no editing shared standards/status.
+
+## Follow-on editorial pass (2026-11-23)
+
+The formerly weak **10m** narrative has been substantially restructured, **not promoted** to approval. Previous HEAD `1675d9874730b14addbc9b8aa51bb4a281df2b5d`; old 10m EN/RU SHA-256 `8d0c35892fb62f91ec0fb7a6550c2145e8681fe7271a72fc7dc5c00c8706b991` / `52d55d5916c044dba87690be5e3044e39c0892a607c21655e14ef5a7586d28b0`. **Before:** Switzerland incorrectly sounded like only a visual check, and the narration repeated several conclusions after Morocco. **After:** distinction between early serial-number comparison in Swiss test and 1943 Morocco's ledger of previously paid notes, plus uninterrupted prisoners' arc through two shifts and liberation. Research limitation: exact registers used in Swiss test are not identified, so do not claim two identical bank checks.
+
+The unmodified 05m remains the recommended Long. 02m/05m full texts and precise SHA-256 remain unchanged. Revised 10m **new reviewer required**, no inherited old review/timings or scene binding. Continue through actual pinned runtime if later authorized, with genuine blind-first reading and one selected script; all previous production constraints and UNVERIFIED statuses still apply. No registered run, approval, media or publication claimed here.

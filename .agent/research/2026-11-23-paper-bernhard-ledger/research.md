@@ -42,7 +42,7 @@ For Max Headroom: sources for **specific identity and transmitter location are u
 
 ### Facts and meaning boundaries
 
-- Switzerland acceptance and Morocco detection are different tests/times; the Swiss test demonstrates realistic paper/design, *not* comprehensive immunity to later ledger serial checks. Without original transaction records, a stronger “Bank officially verified every bill” claim is forbidden.
+- Switzerland acceptance and Morocco detection are different tests/times. The **Sachsenhausen Memorial says the earlier Swiss trial included a Bank of England serial-number check**; the Bank of England Museum later describes **a ledger of previously paid notes** in 1943 Morocco. The available source does not identify the full Swiss checking procedure, so neither an appearance-only test nor identical checks in both places can be claimed. Without original transaction records, a stronger “Bank officially verified every bill” claim is forbidden.
 - No assured evidence of original banknote “having a life”: final metaphor refers specifically to a ledgered recorded serial, not an identifiable preserved note or a documented owner's experience.
 - Not all £135m was necessarily exchanged or usable; do not use 1959 speculative £700m press figure as true. Dumping into Toplitz is described as suspected and headlines as inconsistent.
 - The camp prisoners **were not voluntary counterfeiters**; no heroic speculation about their intentions or mythical interventions. No fictional SS dialogue or execution event.
@@ -76,3 +76,11 @@ On 2025-06-12, public r/Banknotes discussion https://www.reddit.com/r/Banknotes/
 ## Negative tests before production
 
 There is **no** actual TTS, spoken run-time, MP4, scene reference hash read, YouTube Studio target verification, source-image license, independent review, or visual continuity result. The Git-only drafts do not make those PASS. More factual/visual checks and owner master selection remain required.
+
+## Follow-on 10m verification — 2026-11-23
+
+**Material correction identified during full-text review:** the preceding 10m described the Swiss acceptance mainly as proof of paper/printing. The [Sachsenhausen Memorial, A Genuine Forgery](https://www.sachsenhausen-sbg.de/en/collection-and-research/objects-in-focus/a-genuine-forgery/) explicitly says the earlier agent's Swiss test included **serial-number comparison involving the Bank of England**. The [Bank of England Museum's 2024 account](https://www.bankofengland.co.uk/museum/online-collections/blog/operation-bernhard) separately describes a **1943 British bank in Morocco** consulting a ledger of **already paid/withdrawn** serial numbers. These are compatible reported outcomes, but the sources do **not** establish that Swiss and Moroccan checks used identical records, nor which exact Swiss paid-note ledgers (if any) were consulted. The new 10m states those limits instead of attributing Swiss acceptance exclusively to a visual inspection. The early Andreas / 1942 Bernhard timeline is also kept separate: memorial says planning 1939; Bank dates Andreas start 1940.
+
+No added attributed dialogue, motives or death events. Retained scope of ~150 printing marks, 142 coerced Jewish prisoners, two shifts in 1944, >£135m nominal (not verified spent), February 1945 Austria transfers and May liberation; 1959 lake reporting remains uncertain. Verified claims rely on those two linked institutional articles, not documentary recreations. **Independent source reviewer UNVERIFIED**.
+
+**Revised 10m progression:** first Swiss acceptance → banknote technical work and the prisoners who must do it → Moroccan paid-ledger detection → bank currency withdrawal fails to free the still-working prisoners → 1945 transfers/liberation → evidence from the ledger and from survivor Adolf Burger. The original 02m and 05m are unchanged, including their hashes and any prior notes. This is a materially different explanation of *which record caught the counterfeit*, not only tightened prose.

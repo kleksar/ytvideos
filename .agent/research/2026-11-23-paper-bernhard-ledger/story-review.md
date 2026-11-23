@@ -8,11 +8,11 @@
 |---|---|---|---|
 | **02m** | [EN](variants/02m/script.en.txt); **295**; `0a1b923e347354b1e7f5bd437f0954de55e646aa3437d1da408db3aaf398a5f7` | [RU](variants/02m/script.ru.txt); **245**; `6651eab7a47e43cd15ced0438f47e424c75d5f749190a1438ba9b5d447ee7dbc` | Editorial **Long 16:9**, **REWORK** |
 | **05m** | [EN](variants/05m/script.en.txt); **674**; `106e5bb4e42ca0bc2288876e9289ea54b9084adb1239d463dc7ddc84d3c595c9` | [RU](variants/05m/script.ru.txt); **559**; `7fb52835390c7792abd63d68fdf7568f24424bedee61e97c374515bc0a6fc17f` | Editorial **Long 16:9**, **STRONG_CANDIDATE, RECOMMENDED** |
-| **10m** | [EN](variants/10m/script.en.txt); **1445**; `8d0c35892fb62f91ec0fb7a6550c2145e8681fe7271a72fc7dc5c00c8706b991` | [RU](variants/10m/script.ru.txt); **1244**; `52d55d5916c044dba87690be5e3044e39c0892a607c21655e14ef5a7586d28b0` | Editorial **Long 16:9**, **REWORK** |
+| **10m** | [EN](variants/10m/script.en.txt); **1423**; `354b5d58c0fac350e9551cacba34566c2b575e50c424db40495df89d38233576` | [RU](variants/10m/script.ru.txt); **1172**; `66d67e6b09da57826dcf677715b022721bc093ca539372f9e22e8f31c9a0723a` | Editorial **Long 16:9**, **REWORKED / REVIEW_UNVERIFIED** |
 
 All six scripts are **complete texts**, not three topics nor excerpted master parts. Hashes are of exact UTF-8 contents read back from branch. They are **not approved production master IDs**. All three are conceptually compatible with the currently published Paper Detour ChannelSpec's 16:9 Long recipe; assets and independent gates remain missing. The 02m has no demonstrated natural Short loop, so cannot currently be presented as a Short. No made-up Short run.
 
-Estimated English spoken lengths with **illustrative 135–150 words/min**, plus uncertain pauses/end-screen not in narration: 02m **1:58–2:11**, 05m **4:30–4:59**, 10m **9:38–10:42**. The actual Paper voice speed is fixed by its profile; no calibration of this rate against real Lawrence audio occurred. **Measured duration UNVERIFIED**. Long end screen reserves 10 seconds in final video and is not counted as speech.
+Estimated English spoken lengths with **illustrative 135–150 words/min**, plus uncertain pauses/end-screen not in narration: 02m **1:58–2:11**, 05m **4:30–4:59**, 10m **9:29–10:32**. The actual Paper voice speed is fixed by its profile; no calibration of this rate against real Lawrence audio occurred. **Measured duration UNVERIFIED**. Long end screen reserves 10 seconds in final video and is not counted as speech.
 
 ## Eight criteria: 02m (exact EN narration / RU semantic version)
 
@@ -48,31 +48,33 @@ Biggest weakness: the result is telegraphed by the opening, and ~295 words may b
 
 Biggest weakness: the story's most consequential emotional stakes are the imprisoned workers, yet 05m invests considerable time in mechanics; reviewer may prefer a survivor-led approach. **Technical and human meaning are integrated but their balance remains to be tested**. Estimated 674 words; no measured TTS.
 
-## Eight criteria: 10m (exact EN narration / RU semantic version)
+## Eight criteria: 10m (revised exact EN / RU)
 
-**Author/self, medium confidence in factual anchors, low in audience value. Editorial classification: REWORK.** Longer does not beat five minutes by default.
+**Follow-on author self-review only; independent reviewer UNVERIFIED.** Confidence: **medium** in checked institutional chronology, **low** in listening pace and audience response. Revision of former 10m, not an owner-approved replacement. The 05m recommendation remains intact.
 
-| Editorial criterion | Score and concrete evidence |
+| Editorial criterion | Score and concrete evidence / weakness |
 |---|---|
-| Interest / significance | **8** — central contradiction and human stakes survive, but not strengthened in proportion to extra length |
-| Opening | **8** — three questions give clear promises that are answered, though three may be too many for this audience |
-| Development / why stay | **7** — new real beats (separate early 1939 planning, camp conditions, afterlife) but the explanation of design/watermark/marks repeats the same “convincing counterfeit” point |
-| Payoff | **8** — duplicated serial history resolves the main question; liberation and museum-object/survivor contrast resolve separate human question |
-| Freshness of angle | **7** — later sections resemble classic documentary overview rather than sharper ledger-centred original treatment |
-| Visual expressiveness | **8** — banknotes, two-shift workshop, camp moves, lake headlines, British new denominations; some proposed sequences risk repetitive close-ups |
-| Oral clarity / naturalness | **7** — multiple paragraphs interpreting a mechanism after it was already explained; may feel written rather than spoken |
-| Verified audience interest | **UNVERIFIED** — older YouTube examples can't prove viewers would want ten minutes from Paper |
+| Interest / significance | **8/10** — the Swiss serial-number check accepted a forged batch, yet a Moroccan paid-note ledger later detected duplication; the fate of the forced workers continues beyond the bank detection. No direct audience testing |
+| Opening | **8/10** — asks about two apparently incompatible banking outcomes and the imprisoned makers; a new viewer can identify both promises. Risk: the institutional premise is less immediate than a single physical note |
+| Development / why stay | **8/10** — Andreas-era Swiss test → 1942 SS camp production → fragile numbering method → 1943 Moroccan paid-ledger contradiction → bank withdrawal while camp shifts continue → transfers and liberation. Stronger secondary human through-line; paper detail remains long |
+| Payoff | **8/10** — contrasts a ledger proving a duplicated paid number with Burger's survivor testimony proving the coercive context. Both opening questions are resolved without speculating how every Swiss check was conducted |
+| Freshness of angle | **8/10** — source-specific distinction between *a serial check that accepted a batch* and *a paid-note ledger that later exposed another note* is a meaningful correction from the former simplified Swiss appearance-only reading |
+| Visual expressiveness | **8/10** — two genuinely different verification surfaces, aging paper, camp workshop, two-shift work, bank withdrawal, relocation and testimony; proposed paper dioramas not generated or rights-cleared |
+| Oral clarity / naturalness | **8/10** — removed three repeated interpretive endings and redundant printer-defect analogy; the necessary caveat about unknown Swiss records may still feel technical when spoken |
+| Verified audience interest | **UNVERIFIED** — neither indexed views nor the author rewrite establish CTR, retention, comparative demand or listener satisfaction |
 
-Biggest weakness: after the Morocco ledger climax, the pacing slows through face-value caveat, operations and post-war design; there is authentic additional information but not enough new narrative causality for a ten-minute recommendation. **Do not add fictional rescues or persecution details to create suspense.**
+**Biggest weakness:** the 10m still needs to earn the long institutional aftermath after the 1943 payoff; the Swiss/morocco distinction requires unusually careful, unhurried delivery. The outcome of a blind-first reviewer may still favour the old 10m, the unchanged 05m or neither. No measured TTS or real audience evidence.
+
+**Exact 10m baseline protected for comparison:** branch HEAD before revision `1675d9874730b14addbc9b8aa51bb4a281df2b5d`; [former EN at baseline](https://github.com/kleksar/ytvideos/blob/1675d9874730b14addbc9b8aa51bb4a281df2b5d/.agent/research/2026-11-23-paper-bernhard-ledger/variants/10m/script.en.txt) SHA-256 `8d0c35892fb62f91ec0fb7a6550c2145e8681fe7271a72fc7dc5c00c8706b991`; [former RU at baseline](https://github.com/kleksar/ytvideos/blob/1675d9874730b14addbc9b8aa51bb4a281df2b5d/.agent/research/2026-11-23-paper-bernhard-ledger/variants/10m/script.ru.txt) SHA-256 `52d55d5916c044dba87690be5e3044e39c0892a607c21655e14ef5a7586d28b0`. Two unchanged versions retain their exact hashes and any corresponding evidence.
 
 ## Comparison of actual full versions
 
 | Transition | Incremental viewer value | Cost / point likely to lose attention |
 |---|---|---|
 | **02m → 05m** | Additional purpose change, imprisoned workers and isolation, ~150 security marks, validation in Switzerland, separate serial-failure reveal, specific bank withdrawal, liberation and note afterlife; the second test changes the audience's understanding of “looks genuine” | More institutional detail; first potentially slow section around explanations of paper/watermark |
-| **05m → 10m** | Differentiates Andreas planning from Bernhard production, explains why each anti-counterfeit detail mattered, carefully distinguishes face value from spent money, adds two-shift camp conditions and staged deportations, 1959 distorted reporting, future note denominations | Repeated process explanation before climax and an extended documentary tail after resolution; need tighter character-driven development for 10m |
+| **05m → 10m** | Corrects Swiss test interpretation: memorial describes an early Bank-of-England-involved *serial-number check*, not simply an appearance test; separates this from the Morocco ledger of notes already paid. Extends the prisoners' human line through the 1944 two-shift production, 1945 transfers/liberation and Burger's testimony; keeps face value vs spending distinct | The explanation of two kinds of check risks slowing the film around the ledger reveal; historical afterlife and denominations still cost time after the central mystery resolves. No measured voice pacing |
 
-**Recommendation: 05m Long** as a *candidate* for owner consideration, not as approved master. No narrative Short loop required for this chosen Long, but its **actual 10-second ending, destination and playback are UNVERIFIED**. The full cinematic/script review must check the intro questions, early immersion, later main hook and all questions answered. Await independent story judgement, not merely chronology/fact checking.
+**Recommendation: 05m Long** as a *candidate* (retained after the revised 10m comparison) for owner consideration, not as approved master. No narrative Short loop required for this chosen Long, but its **actual 10-second ending, destination and playback are UNVERIFIED**. The full cinematic/script review must check the intro questions, early immersion, later main hook and all questions answered. Await independent story judgement, not merely chronology/fact checking.
 
 ## QA table — real verification limits
 
@@ -90,3 +92,11 @@ Biggest weakness: after the Morocco ledger climax, the pacing slows through face
 **Independent reviewer procedure once supported:** first pass sees exact script in a fresh independent context without our ratings/beat map, then sources, then competing finalist and exact hash. Reviewer should identify the question after 15s, the point they would stop, causally new middle events, full answer and one specific unnatural sentence; preserve their actual response in current schema, no author invention. If any words change, invalidate this version's review/hash and re-run it. No artificial PASS or source-import approval.
 
 Status remains **EDITORIAL_CANDIDATE_UNREGISTERED** until a real `ytv start` run and official gate, or an explicit accepted-source route is executed by authorized runtime. No production authorized.
+
+## Follow-on revision audit — 2026-11-23
+
+- **Before → after:** the former 10m placed Switzerland as a demonstration of paper/printing and then treated Morocco's serial-ledger discovery as a sudden opposite verdict. The revised complete 10m clarifies the memorial's explicit reference to a Swiss **serial-number check**, keeps the different Moroccan **paid-note ledger** distinct, and refuses to invent which exact records the Swiss trial consulted.
+- **Story map, 10m:** two opening questions → old one-sided paper notes → Andreas planning and early Swiss acceptance → 1942 revival/142 coerced workers → watermarks/150 deliberate marks/aging → inability to reproduce numbering scheme → Morocco paid-note record → bank withdrawal but camp work continues in two shifts → 1945 deportations and liberation → confirmed banknote redesign dates and uncertain Toplitz numbers → two kinds of surviving evidence, ledger and testimony.
+- **EN/RU pairing:** both new full texts preserve dates (1939 planning, 1940 programme, 1942, 1943, 1944, February and May 1945, 1959, 1964/1970/1981), 142 workers, approximately 150 marks and over £135m nominal **not necessarily spent**. Institutional sources and limits remain explicit.
+- **Hard checks:** Long question→immersion→main mechanism hook is text-based author PASS; facts against Bank of England / Sachsenhausen in [research](research.md) author PASS for checked anchors; English/Russian meaning author PASS. Fresh independent review, TTS runtime, visual rights, playable 10-second ending, recording and owner approval **UNVERIFIED**. Long does not require a Short narrative loop (N_A). Script-derived scenes and timings for old 10m are invalidated; no storyboard was claimed.
+- **Next unresolved:** request blind-first comparison of old/new 10m plus unchanged 05m, then source audit and owner selection of a single exact master. This PR is `EDITORIAL_CANDIDATE_UNREGISTERED`; recommendation is not production approval.
