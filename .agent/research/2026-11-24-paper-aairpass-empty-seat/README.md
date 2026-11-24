@@ -8,7 +8,7 @@ RU: Финансист заплатил $400 000 за пожизненные п�
 |---|---|---|---|
 | 2m Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | STRONG_CANDIDATE — recommended |
 | 5m Long | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | STRONG_CANDIDATE |
-| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | REWORK — legal density, final appeal record missing |
+| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | REWORK — revised, legal density; appellate disposition located |
 
 [Research](research.md) · [Story review](story-review.md) · [Packaging](packaging-brief.md) · [Handoff](handoff.md).
 
