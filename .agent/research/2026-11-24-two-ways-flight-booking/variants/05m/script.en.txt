@@ -1,0 +1,27 @@
+Four friends, one flight, four seats. I can put everyone in one booking, or I can pay twice and get two separate bookings. Why would I ever choose the second way? And what would have to happen to make it cost more?
+
+I haven't bought any real tickets. I'm going to simulate a booking system with a simple pricing rule and track the dollars I would spend to get all four adults on the same flight. No loyalty benefits, different baggage allowances or different cabins in the first test.
+
+On my imaginary flight there are two tickets available at a hundred and thirty-five dollars each. There are four more at two hundred and fifteen. Think of those as two price tags the system can use, not two different rows of seats. In this model the conditions of travel are the same. The booking system has one restriction: everyone in a reservation must come from the same price level.
+
+Would you pick A, one purchase for all four, or B, two purchases for two people each?
+
+I start with A. I select four adults and request a price. The system looks at the lower price level and finds only two tickets. That's not enough for my booking. It moves to the next price level, which can accommodate all four. I could buy four tickets for eight hundred and sixty dollars. The two lower-priced tickets haven't been used in this calculation.
+
+Now I go back to the original inventory. Nothing from the first test has been sold. I search for two travelers. This time they fit in the cheaper group. I pay two hundred and seventy dollars in the simulation and remove those two tickets. Then I search for two more. The second pair costs four hundred and thirty dollars. I put both confirmations on the table. Four tickets, seven hundred dollars.
+
+I haven't changed the flight or asked anyone to travel a day earlier. The difference is a hundred and sixty dollars. It's the eighty-dollar difference in price on each of the two tickets I was able to buy cheaply.
+
+So how could I know which size of booking to try in the first place? I can compare quotes for one, two, three and four adults before paying. In my model, the first two searches show a hundred and thirty-five per person. The last two show two hundred and fifteen. That pattern gives me a reason to investigate a booking for two, rather than just guessing.
+
+But a quote on a screen isn't a promise that the next quote will be the same. The most awkward part of B comes after my first payment.
+
+I reset the model and introduce one change. The first pair still costs two hundred and seventy dollars. Before I can buy the next pair, the price for those tickets rises to three hundred and ten each. Now the second payment is six hundred and twenty. I've spent eight hundred and ninety dollars. If I could have completed A at the original price, I'd be thirty dollars better off with A.
+
+The two methods are back to even if the second pair costs five hundred and ninety dollars. That's two hundred and ninety-five per ticket. Beyond that, the saving from the first payment disappears. I don't know the odds of that happening on a real flight; that's why this is a sensitivity test, not a prediction.
+
+I have another decision to make. If I need the four of us to travel together even when a flight is changed, managing two reservations may be harder. And a benefit that covers companions in one booking might not carry over to another. I would check those conditions before I count the fare difference as a real saving.
+
+In real systems there isn't always a single price level per booking, and prices can behave differently depending on the number of travelers. If all four tickets already cost the same amount per person as the smaller booking, I have no price reason to split.
+
+For the first test, B wins: seven hundred dollars instead of eight hundred and sixty. In the changed-price test, A wins. My practical rule is to compare smaller reservations before paying, check the complete cost and conditions, and decide whether two separate confirmations are worth the difference. I want four people on a plane, not just a cheap price for the first two.

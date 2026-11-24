@@ -1,0 +1,43 @@
+I want to take a trip with three friends. We have agreed on a flight. I enter four passengers on the booking page, and I am about to pay. Would I ever be better off buying two tickets, closing that booking, and starting another one? Could the price for the very same flight be different just because I changed the number of people? And how much could the price rise before the trick stopped being useful?
+
+I am going to work with a model, not an airline website. I'm not making a live purchase, and none of the prices here is a real fare quote. The model gives me a way to separate a pricing rule from the risk of making two purchases. The four passengers are adults. All of us need tickets for one particular flight, with the same cabin and travel conditions. The goal is to pay the smallest total for all four tickets. If a method only gets two of us on board, it has not completed the job.
+
+Imagine the available tickets in two boxes. In the first box are two tickets at a hundred and thirty-five dollars each. In the second box are four tickets at two hundred and fifteen dollars each. They could be for neighboring seats. The boxes represent price levels, not the location of the seats. I have deliberately given them identical conditions, so I don't accidentally count a difference in baggage or flexibility as a saving.
+
+Here's the rule in this booking model. The system offers one price level for everyone in a reservation. If I request a group of four, the system needs four tickets within one of those levels. Some real reservation systems work with a restriction like this, but that doesn't mean every airline or website uses this exact pricing mechanism.
+
+I have two methods. A is one booking for all four adults. B is two bookings for two adults each. Which one would you choose?
+
+I begin with A. The system tries to find four tickets at the cheaper price. It can find two. It cannot put four people into that price level, so it offers the next one, where all four fit. I see a total of eight hundred and sixty dollars. If I accept it, four tickets are taken from the higher-priced box. The two lower-priced tickets were never part of my order.
+
+For B I rewind the model. I restore both boxes to their original contents. I'm not trying to buy another four tickets after the first four. Each method starts with the same inventory.
+
+I select two adults instead of four. Both tickets can now come from the cheaper box. The simulation charges me two hundred and seventy dollars. I have a booking for the first pair and two friends who are still waiting for theirs. The cheaper box is now empty.
+
+For the remaining pair, the system offers two tickets at the higher price. I spend four hundred and thirty dollars. I add both receipts: seven hundred dollars. Four passengers, same flight, and one hundred and sixty dollars left over compared with A.
+
+Notice where every dollar of the saving came from. I didn't get a reward for making two bookings. I simply used two lower-priced tickets that were available to a smaller group. Each of those tickets was eighty dollars cheaper. The other two tickets cost exactly the same as in A.
+
+I can also test what would happen with a different number of cheaper tickets. Suppose there is only one cheap ticket, and at least four at the higher price. Now my original B, which insists on pairs, cannot use the cheap ticket. Both pairs cost two hundred and fifteen per traveler. B and A tie at eight hundred and sixty.
+
+If I change the split to one adult followed by three, I can use the single cheap ticket. That alternative costs one hundred and thirty-five plus six hundred and forty-five, or seven hundred and eighty dollars. But that's a different split strategy, not a victory for the original two-pair rule. If there are three cheap tickets instead, one booking for three and one for the last traveler would cost six hundred and twenty dollars. Splitting the right number of travelers matters more than making more reservations.
+
+How can I investigate the price levels without actually spending money? I keep the flight and the requested travel conditions unchanged. In my original model I request prices for one, then two, then three, then four adults. For one and two I see a hundred and thirty-five dollars per traveler. For three and four I see two hundred and fifteen. That's the pattern I would look for before considering a purchase. On a real site the numbers alone wouldn't prove there were exactly two cheap tickets; other pricing rules and availability changes could produce a similar pattern.
+
+Now I want to test the weakness of B. When I pay for the first pair, I still haven't secured the other pair. The original comparison assumed that the next price wouldn't move. Let's remove that assumption.
+
+I start both methods from the original six-ticket inventory once again. A can still be completed at eight hundred and sixty before the price changes. In B I buy my two cheap tickets for two hundred and seventy. Between the first and second purchases, the remaining price changes to three hundred and ten dollars a ticket. It doesn't matter for this test why the price changed; I am not estimating the cause or the likelihood.
+
+The last two now cost six hundred and twenty. My total is eight hundred and ninety dollars. I end up thirty dollars worse off than if I had completed A at the initial price. I can't fix that by showing the cheap first receipt. Both receipts count.
+
+Where's the boundary? After paying two hundred and seventy, I have five hundred and ninety left before I reach the original eight hundred and sixty. So if the remaining pair costs less than five hundred and ninety, B is still cheaper. At exactly that amount the methods tie. Above it A would have cost less, assuming its initial price was actually payable before the change. That puts the boundary at two hundred and ninety-five dollars per remaining ticket.
+
+This also gives me a way to think about other costs. Return to the stable price test. My fare saving is one hundred and sixty. Imagine that one booking would include an eligible companion benefit, but the separate booking would not. In the model, losing that benefit and buying the same service for the second pair costs me ninety dollars. Now B's comparable total is seven hundred and ninety, and it saves seventy. If the extra cost were instead one hundred and seventy, B would total eight hundred and seventy, ten dollars more than A. Those amounts are hypothetical, not airline fees. I would have to look up the real conditions for the tickets I need.
+
+There are costs I can't honestly turn into a dollar figure. With two confirmation numbers, I may have to manage two separate changes if a flight is disrupted. A request to associate the reservations is not a guarantee that all four will always be moved together. If I am traveling with children or someone who needs assistance, I have to check the airline's rules and the arrangements for that person. My four-adult model cannot answer those questions for me.
+
+And even before those issues arise, there is another reason not to buy blindly in pairs. A real booking system might offer a lower fare per person for a larger party, or no difference at all. The model assumes the opposite price pattern. I cannot infer today's prices from the simulated boxes.
+
+What will I actually do before buying? I will compare the full booking with smaller searches for the same flight, travel conditions and passenger types. If the price is flat I can stay with one reservation. If smaller bookings look cheaper, I'll check the complete payable totals, the consequences of splitting, and whether the remaining tickets are still available. If I cannot tolerate the risk of two separate purchases, that matters even when the displayed fare saving looks attractive.
+
+The answer to my original question is yes, splitting can save money: seven hundred versus eight hundred and sixty in the stable model. And the same method can lose: eight hundred and ninety versus eight hundred and sixty if the second price rises. The trick is not to buy the cheapest individual ticket. It's to compare the cost and conditions for getting the whole group onto the plane before I commit to the first payment.
