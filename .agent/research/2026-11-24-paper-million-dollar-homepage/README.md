@@ -8,8 +8,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 |---|---|---|---|---|---|
 | 2 | Short (9:16) | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | STRONG_CANDIDATE | 254 / 222 |
 | 5 | Long (16:9) | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | STRONG_CANDIDATE | 667 / 557 |
-| 10 | Long (16:9) | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | REWORK | 1369 / 1142 |
+| 10 | Long (16:9) | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | REWORK | 1350 / 1149 |
 
-**Рекомендация:** 5 минут — причинно раскрывает появление покупателей, аукцион, обязательство перед рекламодателями, восстановление и неожиданный смысл позднего исследования. 2 минуты самостоятельны; 10 минут дополнительно раскрывают повторный проект и разные методы исследования, но теряют темп. Спрос UNVERIFIED; независимый review отсутствует. Это не approval.
+**Рекомендация:** 5 минут — причинно раскрывает появление покупателей, аукцион, обязательство перед рекламодателями, восстановление и неожиданный смысл позднего исследования. 2 минуты самостоятельны; 10 минут теперь показывают крупнейшую покупку Pixellance и её судьбу, различие ставки и выручки аукциона и признаки упадка самого сайта; повторный проект и методология всё ещё снижают темп. Исходные 10m сохранены в commit `6a8b306105019fd033554e86105e427dfda419bc`; 02m/05m неизменны. Спрос UNVERIFIED; независимый review отсутствует. Это не approval.
  
 [Общее исследование и источники](research.md) · [Оценки, сравнение, exact hashes](story-review.md) · [Editorial packaging brief](packaging-brief.md) · [Handoff / blockers](handoff.md).
