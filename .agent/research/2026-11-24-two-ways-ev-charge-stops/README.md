@@ -10,7 +10,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 | 5m | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | STRONG_CANDIDATE — proposed Long, production blocked |
 | 10m | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | REWORK — proposed Long, production blocked |
 
-Recommend 02m: complete comparison, mechanism, reversal and decision rule. 05m adds exact elapsed times and a slower second charger plus queue. 10m adds planned meal overlap, unavailable station, higher consumption and price trade-offs; complete editorial draft but slower and more technical. No format or script approval.
+Recommend 02m: complete comparison, mechanism, reversal and decision rule. 05m adds exact elapsed times and a slower second charger plus queue. 10m now adds a losing two-stop plan rescued by shifting charge to the faster first station, then a queue reverses it again. Meal overlap, unavailable station and higher consumption remain; cost moved to research. Complete editorial draft but calculation-heavy. 02m/05m unchanged; see baseline and exact hashes in story-review. No format or script approval.
 
 [Research](research.md) · [Exact scripts, review, SHA-256 and estimates](story-review.md) · [Packaging brief](packaging-brief.md) · [Handoff](handoff.md).
 
