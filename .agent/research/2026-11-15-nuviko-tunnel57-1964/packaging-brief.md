@@ -48,3 +48,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 Финальный кандидат `variants/05m/script.en.txt` (SHA-256 `73dfa51d9d17cfa65bb9802061811809204a0e9d27a8c9679f8bc328ea7384cb`) отличается от исходных 42 сцен. Проверить по **новому** narration: (1) семейное разделение и неудачный первый побег, (2) пекарня → 145-метровый ход → **одна дверь** во дворе как уязвимое место, (3) переходы и освобождение Кристы, (4) мнимые беглецы возвращаются с охраной, (5) Шульц — бывший учитель, (6) несмертельное ранение и затем смертельный friendly fire, (7) противоречащие публичные и секретные документы, письмо его матери, (8) исход двух семей. Обязательны честная география и атрибуция архивов; не создавать поддельный аутентичный документ или вымышленные лица/реплики.
 
 Вариантам 02m/10m соответствуют **другие** scene spans и first-proof windows. Концепты A–C выше пока привязаны к original master, для 05m это лишь идеи, не проверенный visual plan или owner-selected packaging.
+
+
+## 2026-11-24 — 10m visual intent
+
+Exact new EN SHA-256 `9f5bef9facc48ec6454feb5948dddf3b267bc89e6cc7c89bb5f3bd91f2751e66`, RU `df91839ec68270e362b2530841531b554b99eecddf95e1afd4b9bccecf356928`. The historical original concepts are not scene mappings for this text. P01–06 border/personal passport attempt; P07–18 bakery and ordinary doorway; P19–21 letter/reunion; P22–28 operation and loss; P29–36 school plaque and disputed records; P37–40 investigations and new memorial plaque. Candidate promise: **How 57 People Escaped Under the Berlin Wall**, with the loss and later investigation acknowledged in the opening. The physical closing image is the memorial, not a fictitious trial victory. No generated assets; verify period details/rights before production. 05m packaging remains unchanged.

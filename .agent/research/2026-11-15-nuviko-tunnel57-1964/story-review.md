@@ -171,3 +171,33 @@ S041–S042: сравнение итогов для двух семей, без 
 **05m → 10m:** 10m добавляет прошлый КПП Йоахима, отдельного свидетеля поиска адреса, процесс 1965 года, новый разбор 1992 года и судьбы других помощников; это реальные дополнительные линии, не мусор. **Место вероятного спада:** после выстрелов и закрытия тоннеля идут последовательно письмо, западное расследование, позднее дело и исторический эпилог. Для неподготовленного зрителя это может стать второй документальной лекцией после кульминации. Измеренного спада нет.
 
 **Рекомендация: 05m** (вместо 02m и 10m). Она раскрывает оба payoff без длинной правовой истории. Это лишь editorial preference с medium confidence, **не approval и не поручение производить три версии**. Независимый reviewer вправе выбрать другую редакцию или отвергнуть все.
+
+
+## Текущий 10m review — 2026-11-24
+
+Baseline `76d4c69cede70dc85936de2923d913e578d492c4`; canonical main `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). Original root and storyboard unchanged; 02m/05m exact bytes preserved. Старые 10m scores/spans/hashes являются историческим evidence, не проверкой текущего текста.
+
+| Variant (all Long 16:9) | EN exact SHA-256 | RU exact SHA-256 | EN words |
+|---|---|---|---:|
+| 02m | [EN](variants/02m/script.en.txt) `9a433fc78bd1924d94147bdbf22d02e69691f67dbbbcbb0aab650c8f0284fbf7` | [RU](variants/02m/script.ru.txt) `7df1698f79d0105b952a26299301c0f239cc49da321e9254c05bc8e2076bc3e3` | 247 |
+| **05m recommended** | [EN](variants/05m/script.en.txt) `73dfa51d9d17cfa65bb9802061811809204a0e9d27a8c9679f8bc328ea7384cb` | [RU](variants/05m/script.ru.txt) `79f465d101c1351a2eb71e49360387753996ae5645ccab29cff162ff7768339d` | 755 |
+| 10m revised | [EN](variants/10m/script.en.txt) `9f5bef9facc48ec6454feb5948dddf3b267bc89e6cc7c89bb5f3bd91f2751e66` | [RU](variants/10m/script.ru.txt) `df91839ec68270e362b2530841531b554b99eecddf95e1afd4b9bccecf356928` | 1356 |
+
+**Было → стало:** 1540 EN / 1219 RU → 1356 EN / 1120 RU, 40 aligned paragraphs. 8.75–10.04 min narration, plus pauses and 10s end screen (unmeasured). 02m/05m оценки и evidence из предыдущих разделов сохраняются для неизменённых hashes. 10m: устранён ложный намёк на причинную связь между воссоединением и обнаружением, повтор про охраняемую границу и дублирование об уязвимой двери. Уточнены личная переписка Шульца, отказ восточной прокуратуры, внутренний разбор и поздние жалобы матери; финальный физический объект — новая доска, а не абстрактная мораль.
+
+| Критерий 10m | /10 | Основание и риск (author, medium unless noted) |
+|---|---:|---|
+| Интерес | 8 | Две семьи и конфликт памяти; тема требует исторического контекста |
+| Начало | 8 | Три конкретных вопроса, без мнимой причинности; фамилии появляются после контекста |
+| Развитие | 8 | Личный побег → арест → письмо → агенты → закрытие → конфликт следствий → жалоба матери; после суда 1994 возможен спад |
+| Payoff | 9 | Различие ранения и причины смерти, затем новая доска; нет обещания полного правосудия (high factual support) |
+| Свежесть | 8 | Поздняя жалоба матери отличает от обычной истории тоннеля; аналоги существуют |
+| Визуал | 8 | Паспорт, мешки, письмо, школа, противоречащие документы, две доски; исторические лица/архивы требуют проверки |
+| Речь EN/RU | 8 | Конкретные глаголы и события вместо абстрактных итогов; правовой блок 35–38 всё ещё плотный |
+| Подтверждённый спрос | UNVERIFIED | Нет нового same-author baseline, CTR, retention or independent viewer evidence (low) |
+
+**Story map / provisional visual spans (EN/RU aligned paragraphs, not actual shots):** P01 questions (border and memorial); P02–06 split families, passport check, first failed tunnel; P07–12 bakery and excavation, exit; P13–18 first arrivals and witness; P19–21 letter and reunion; P22–26 disguised agents / former teacher / guards; P27–28 fatal encounter and escape closure; P29–33 official account versus secret investigation and school/plaque; P34–36 letter and disputed investigation; P37–39 later cases and family outcomes; P40 replacement plaque. Use illustrative contextual scenes, do not invent portraits or authentic documents. No approved storyboard or measured shot windows. Exact original storyboard remains limited to root master.
+
+**Hard checks:** baseline SHA-256 verified for all six, new 10m EN/RU aligned 40 paragraphs, author factual and bilingual check against shared research; 02m/05m unchanged. Long questions → immersion → hook, loop N_A; ChannelSpec Long supported. Independent first-listener/bilingual factual review, official runtime/pins, timings, approval, rights and measured demand UNVERIFIED. Runtime/reviewer unavailable here; route via handoff; no media. No reviewer verdict manufactured.
+
+**Comparison:** 02m → 05m provides the earlier attempt, agents and human cost without the courtroom tail; 05m → 10m adds the conflicting investigations and continuing family dispute, with a physical payoff at the plaque. Likely loss of momentum: after the 1994 case is closed, the 1999 case requires another legal explanation. **05m remains recommendation**, not approval; 10m REWORK on pacing pending independent reader. The recommendation may change after genuine blind review. Next: #102 and other unreviewed Long; do not claim full queue complete.

@@ -44,3 +44,14 @@ Real terminal attempt in this host: `uv run ytv start --channel nuviko_history -
 Переработаны только `variants/05m/script.en.txt` / `script.ru.txt`. **Текущие** SHA-256: EN `73dfa51d9d17cfa65bb9802061811809204a0e9d27a8c9679f8bc328ea7384cb` (755 слов, Git blob `c8a45d137ff3532911f45a83caee1d5b728651a3`); RU `79f465d101c1351a2eb71e49360387753996ae5645ccab29cff162ff7768339d` (Git blob `fb587e83c777a0a6ec0ffc1fd5d8e6c133d378a1`). Старые 05m hashes из записи 2026-11-16 **исторические и непригодны для review/production**. 02m, 10m, original master, storyboard и старые pins не менялись. Актуальный canonical editorial стандарт находится в `main`: #124 merged 2026-11-16, не Draft.
 
 `EDITORIAL_CANDIDATE_UNREGISTERED`: runtime `ytv` CLI и независимая reviewer-сессия не доступны в текущей GitHub-only среде; не выдумывать регистрацию, отзыв или receipt. При возможном дальнейшем импорте открыть локальный pinned context, перенести три exact пары как supporting artifacts, получить подлинный blind reviewer на новом 05m hash и отдельное решение владельца по одному master. Затем перестроить storyboard/visual spans по выбранному тексту; не наследовать 42 сцены старого master. No MP4, TTS, image generation, upload, release or merge.
+
+
+## 2026-11-24 — 10m exact candidate
+
+| Variant (all Long 16:9) | EN exact SHA-256 | RU exact SHA-256 | EN words |
+|---|---|---|---:|
+| 02m | [EN](variants/02m/script.en.txt) `9a433fc78bd1924d94147bdbf22d02e69691f67dbbbcbb0aab650c8f0284fbf7` | [RU](variants/02m/script.ru.txt) `7df1698f79d0105b952a26299301c0f239cc49da321e9254c05bc8e2076bc3e3` | 247 |
+| **05m recommended** | [EN](variants/05m/script.en.txt) `73dfa51d9d17cfa65bb9802061811809204a0e9d27a8c9679f8bc328ea7384cb` | [RU](variants/05m/script.ru.txt) `79f465d101c1351a2eb71e49360387753996ae5645ccab29cff162ff7768339d` | 755 |
+| 10m revised | [EN](variants/10m/script.en.txt) `9f5bef9facc48ec6454feb5948dddf3b267bc89e6cc7c89bb5f3bd91f2751e66` | [RU](variants/10m/script.ru.txt) `df91839ec68270e362b2530841531b554b99eecddf95e1afd4b9bccecf356928` | 1356 |
+
+Only 10m replaced; old 10m hashes and timings are historical. 8.75–10.04 min narration, plus pauses and 10s end screen (unmeasured). Keep original master and its 42-scene storyboard unchanged. 05m remains recommended. For actual runtime import use pinned context and the existing script_variant/story_review attach-artifact route in the instructions above; verify no duplicate run, get actual independent exact-hash review and owner's decision. Runtime/independent session unavailable; no production. 
