@@ -1,0 +1,54 @@
+# Research — United Breaks Guitars / complaint turned into training request
+
+Observed 2026-11-24. Paper Detour, EN broad adult audience; familiar problem: airline sends passenger between departments, then asks to use the passenger's public complaint. Historical 2008–2012 story, not fresh news or established audience forecast. No paid provider calls. No licensed clips/lyrics needed.
+
+## Selection (8 distinct candidates)
+| Candidate | Stop / continue / payoff or concern | Disposition |
+|---|---|---|
+| United Breaks Guitars | broken instrument, claim loop, refusal becomes public training request | finalist, selected |
+| $10 potato salad Kickstarter | absurd small request becomes $55k in pledges, actual public event | finalist, runner-up |
+| Taco Liberty Bell | public landmark supposedly sold to chain, complaints, actual donation | finalist |
+| Joshua Bell subway experiment | famous musician unnoticed in ordinary commute; risk of generic moral, needs context | screen only |
+| Radiohead In Rainbows pay what you want | price choice upends expectations; proceeds and comparison require stronger evidence | screen only |
+| BBC spaghetti tree | television hoax as vivid visual gag; little action beyond reveal | screen only |
+| Netflix Qwikster | announced separate DVD service then reversed; corporate choice, less personal | screen only |
+| Beanie Babies bubble | recognizable price collapse, no chosen specific protagonist or documented arc yet | screen only |
+
+Full reading concentrated on three finalists, not eight completed research dossiers. No duplicated primary title in all 406 PR titles inspected including closed; explicit repo search for United Breaks Guitars and main tracked path names returned no matching candidate. Prior Paper drafts on Knight Capital and Million Dollar Homepage are distinct; this topic appeared as alternative not as owner-rejected topic. No GitHub Releases returned; issue search returned empty; channel private/scheduled release calendar unavailable, public discovery incomplete. No implication that every existing PR body, private release or title alias was searchable.
+
+## Comparable finalist briefs
+1. United: opening "United Airlines asked a passenger for permission to use his complaint video to train its own employees." The musician tried to get help at the airport, returned to the departure airport, obtained a claim, was redirected, paid for repair, offered voucher compromise, then released the video. Payoff: United reversed the interaction, apologized, offered compensation and asked to use video internally; charity received $3000. Objection: very well-known viral incident; repeating the stock myth would be misleading and training implementation is not established. Angle is change in who is asking whom, not generic virality.
+2. Potato salad: opening "He asked strangers for ten dollars to make potato salad." Kickstarter records $55,492 / 6,911 backers. The challenge becomes a public party, with corporate donations contributing to a charity fund. Payoff: joke resulted in a real community event; avoid claiming all Kickstarter money went to charity. Objection: first number almost answers entire hook; less sustained personal conflict. Primary campaign https://www.kickstarter.com/projects/zackdangerbrown/potato-salad; event reporting https://www.cbsnews.com/news/man-who-raised-55000-for-potato-salad-throws-huge-public-party/ .
+3. Taco Liberty Bell: opening "A fast-food chain announced that it had bought the Liberty Bell." April Fools 1996 ad, complaints and correction, real $50,000 preservation donation. Payoff: landmark was not sold, announcement had real public consequence. Objection: the joke's reveal resolves most tension; donation supplies coda but limited 10m depth. https://www.inquirer.com/history/taco-bell-april-fools-day-prank-20250331.html (historical retrospective, not first-hand ad bytes).
+
+United chosen because each claim handoff changes the next action, the voucher compromise introduces a real decision, and the apology/training request completes the reversal. Potato salad has a stronger numerical surprise at first glance but the central question after the funding result is weaker. This is editorial judgment, not CTR.
+
+## Audience evidence and limitations
+All following observations are search-index metadata on 2026-11-24, not watch-throughs or Studio data. Language inferred from English title; actual audio, duration, comments and format not established unless specified. No matched same-author same-age baseline obtained; baseline composition = zero verified comparable pairs. Historical contemporaneous press counts are not current views or growth measurements.
+| Subject / uploader | URL | Published | Indexed views / format |
+|---|---|---|---|
+| Carroll original song | https://www.youtube.com/watch?v=5YGc4zOqozo | 2009-07-06 | original music video; page footer only, live count UNVERIFIED; historical 1m+ July10 CBS/AP, 3.2m July17 Taylor |
+| Curve Productions Inc / Carroll statement | https://www.youtube.com/watch?v=Ay7hFIYQFnw | 2009-07-10 | 365,926; statement, duration unknown, index only |
+| Rise Up... | https://www.youtube.com/watch?v=HFEOoC7Ne0g | 2025-06-22 | 68,632; format/duration unknown |
+| Guitar with Bob | https://www.youtube.com/watch?v=_UatE--Rg4k | date unknown | 19,830; format/duration unknown |
+| Potato salad USA TODAY | https://www.youtube.com/watch?v=VzOTeMuBOkg | 2014-07-09 | 1,110; news, duration unknown |
+| Potato salad Citytv | https://www.youtube.com/watch?v=4PcFZ9bE1bk | 2014-07-08 | 73; news, duration unknown |
+| Potato salad Financial Post | https://www.youtube.com/watch?v=_ymfzPJpwz0 | 2014-08-12 | 1,467; interview, duration unknown |
+| Taco Bell CBS Philly April Fools roundup | https://www.youtube.com/watch?v=pl0OzwerIss | 2023-04-01 | 4,879; roundup, not matched dedicated video |
+
+Actual public discussion sampled via indexed Reddit threads, not YouTube comments: https://www.reddit.com/r/BeAmazed/comments/1oo802g/united_airlines_broke_his_guitar_and_refused_to/ (2025-11-04, participants challenge the stock-price causality); https://www.reddit.com/r/unitedairlines/comments/1bcckip (2024-03-11, stock-price counterargument); https://www.reddit.com/r/Damnthatsinteresting/comments/13erx4a (2023-05-11, question about what the airline gave him). Questions inform training/compensation payoff, not a representative sample. No verified 30–90 day current demand, no verified matched baseline for any finalist, no private channel analytics, no retention/CTR. United is evergreen experimental hypothesis; interest criterion UNVERIFIED. Original song views reflect original event rather than documentary retelling. Do not reuse lyrics, video, audio, or thumbnail.
+
+## Claim map (access 2026-11-24)
+- A. https://www.davecarrollmusic.com/songwriting/united-breaks-guitars/ — Carroll first-person account, Full Story, lines 27–56. 2008-03-31 Halifax–Chicago–Omaha tour; passenger saw cases, bass player saw own instrument, Carroll did not claim direct observation of own case being thrown; cabin/gate referrals; late arrival, outer case seemed okay, next-day soundcheck damage; Omaha → Halifax/Air Canada claim, refusal; United claim lookup, Chicago inspection request, New York fax, disconnected line; $1200 repair and vouchers rejected; 3-song promise. These are claimant's account, not independent finding or proof of carrier legal liability. Three songs listed on same page. No invented conversations or employees' thoughts.
+- B. https://www.cbsnews.com/news/miffed-guitarists-video-goes-viral/ — CBS/AP 2009-07-10, lines 96–128. 1m+ views by publication, Taylor $3500, repair $1200, owned >10 years/recordings, compensation including pre-video voucher request rejected, phone call and reported training request, friends' comic reenactment. Contemporary report/interview, not independent view of original baggage incident.
+- C. https://www.davecarrollmusic.com/wp-content/uploads/United-Breaks-Guitars-Case-Jan-11-10-21.pdf — University of Toronto Rotman case, pp.2 and 5 inspected as rendered pages. First video July6, 500k July9 and 5m Aug21 (not used exact intermediate numbers due different press snapshot times); industry recession/pressure; Rob Bradford apology and internal training request; $1200 vouchers offered post-video and declined, $3000 jazz institute donation; disputed Daily Mail causal claim. Use documented request, not claim actual training or policy change; no inference of exact stock loss caused by song.
+- D. https://blog.taylorguitars.com/singer-of-united-breaks-guitars-to-visit-taylor-guitars-factory — manufacturer, 2009-07-17, reports 3.2m views, response and upcoming factory visit. Do not assert visit occurred.
+- E. https://www.theguardian.com/world/2009/jul/23/united-airlines-guitar-dave-carroll — contemporary report of refusal of compensation and request to donate, viral reach. 
+- F. https://www.guitarworld.com/features/interview-songwriter-and-author-dave-carroll-united-breaks-guitars — 2012 interview, lines 129–137 and interview body: subsequent public speaking/book, continued musician, repair still part of life. Article introduction conflates event date with video release; use A for date. 
+- G. https://www.fastcompany.com/1320152/broken-guitar-has-united-playing-blues-tune-180-million — contemporary financial claim and uncertainty; no validated counterfactual stock effect. Distinguish contemporaneous price movement from causation. Do not imply a proved $180m damage figure.
+- H. https://transcripts.cnn.com/show/sitroom/date/2009-07-08/segment/03 — contemporaneous CNN coverage of music video and airline response, differing snapshot; support press uptake, not retention.
+- Claimant account of no visible staff, damage discovery and routing is reported as his account, not verified breach of a rule. No direct quotation, song lyric, actual copyrighted clip, or inferred employee motive.
+- Narrative explanation of claim routing/evidence and why a share-price causal inference fails is editorial analysis. It is not a regulatory judgment. No legal determination or claim that all United staff acted improperly.
+
+## Prior decisions / overlap
+Remote main a6023668001421b689a8142cebc0bd436545be6b; latest story #406, Two Ways Lab, actual head at first check cd24f388e0472e95e040f0cfa4bda49b83b84e47. #124 merged on 2026-11-16; read current main editorial, writer skill, narration, channel profile and applicable contracts. #13 and #88 rejected; no reuse; #20 and #25 owner-selected speech examples read at exact source revisions 78b375bf0004fdeb45722e6106f2919f09e82fe1 and 28862598989045cd02990e654b086afae28fea59. #46 and #25 accepted, not touched. No paid vidIQ calls, no own performance evidence.
