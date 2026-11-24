@@ -1,0 +1,221 @@
+{
+  "status": "illustrative model; not actual purchase or measurement",
+  "observation_date": "2026-11-24",
+  "source": "https://www.hp.com/us-en/subscriptions/instant-ink.html",
+  "units": "US cents and printed pages",
+  "metric": "plan charges attributable to periods within window, before next ordinary renewal; not actual bank posting dates or lifetime cost; residual annual pages reported",
+  "assumptions": {
+    "same_eligible_ink_printer": true,
+    "trial": false,
+    "starting_rollover": 0,
+    "monthly_price": 199,
+    "monthly_pages": 10,
+    "monthly_rollover_cap": 30,
+    "additional_block_price": 200,
+    "block_size_bounds": [
+      10,
+      15
+    ],
+    "annual_price": 2099,
+    "annual_pages": 120,
+    "annual_auto_renew": true,
+    "prices_constant": true,
+    "plan_changes": false,
+    "tax_paper_hardware_excluded": true,
+    "annual_renewal": "early when allowance exhausted; ordinary after 12 months; no annual rollover"
+  },
+  "scenarios": [
+    {
+      "id": "steady_110",
+      "monthly_pages": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        0
+      ],
+      "total_pages": 110,
+      "monthly": [
+        {
+          "block_size": 10,
+          "cost": 2388,
+          "blocks": 0,
+          "remaining": 10
+        },
+        {
+          "block_size": 15,
+          "cost": 2388,
+          "blocks": 0,
+          "remaining": 10
+        }
+      ],
+      "annual": {
+        "cost": 2099,
+        "remaining": 10,
+        "last_period_start_month": 1
+      },
+      "note": "For early renewal exhaustion occurs on first day of month 12; no selected endpoint exactly exhausts annual allowance."
+    },
+    {
+      "id": "month12_batch_130",
+      "monthly_pages": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        20
+      ],
+      "total_pages": 130,
+      "monthly": [
+        {
+          "block_size": 10,
+          "cost": 2588,
+          "blocks": 1,
+          "remaining": 0
+        },
+        {
+          "block_size": 15,
+          "cost": 2588,
+          "blocks": 1,
+          "remaining": 5
+        }
+      ],
+      "annual": {
+        "cost": 4198,
+        "remaining": 110,
+        "last_period_start_month": 12
+      },
+      "note": "For early renewal exhaustion occurs on first day of month 12; no selected endpoint exactly exhausts annual allowance."
+    },
+    {
+      "id": "continuation_235",
+      "monthly_pages": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        20,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        5
+      ],
+      "total_pages": 235,
+      "monthly": [
+        {
+          "block_size": 10,
+          "cost": 4777,
+          "blocks": 1,
+          "remaining": 5
+        },
+        {
+          "block_size": 15,
+          "cost": 4777,
+          "blocks": 1,
+          "remaining": 10
+        }
+      ],
+      "annual": {
+        "cost": 4198,
+        "remaining": 5,
+        "last_period_start_month": 12
+      },
+      "note": "For early renewal exhaustion occurs on first day of month 12; no selected endpoint exactly exhausts annual allowance."
+    },
+    {
+      "id": "late_project_110",
+      "monthly_pages": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        110
+      ],
+      "total_pages": 110,
+      "monthly": [
+        {
+          "block_size": 10,
+          "cost": 3788,
+          "blocks": 7,
+          "remaining": 0
+        },
+        {
+          "block_size": 15,
+          "cost": 3388,
+          "blocks": 5,
+          "remaining": 5
+        }
+      ],
+      "annual": {
+        "cost": 2099,
+        "remaining": 10,
+        "last_period_start_month": 1
+      },
+      "note": "For early renewal exhaustion occurs on first day of month 12; no selected endpoint exactly exhausts annual allowance."
+    },
+    {
+      "id": "stop_after_3",
+      "monthly_pages": [
+        10,
+        10,
+        10
+      ],
+      "total_pages": 30,
+      "monthly": [
+        {
+          "block_size": 10,
+          "cost": 597,
+          "blocks": 0,
+          "remaining": 0
+        },
+        {
+          "block_size": 15,
+          "cost": 597,
+          "blocks": 0,
+          "remaining": 0
+        }
+      ],
+      "annual": {
+        "cost": 2099,
+        "remaining": 90,
+        "last_period_start_month": 1
+      },
+      "note": "No further work or renewal counted; cancellation after 30 days has no refund. Unused entitlement not assumed immediately lost."
+    }
+  ]
+}
