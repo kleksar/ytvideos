@@ -60,14 +60,14 @@ Story map: questions (docking, air, heat) → station's purpose and communicatio
 
 | Criterion | Score | Grounds / weakness / confidence |
 |---|---:|---|
-| Interest | 8 | Entry is a new concrete obstacle after docking; high source confidence, audience response UNVERIFIED. |
-| Significance | 8 | Restoring an occupied research outpost has consequences beyond docking; high. |
-| Hook and opening | 8 | Three questions answered later; station history still delays approach; medium. |
-| Causal development | 8 | Pressure, power, air and cargo each introduce a distinct next task; radio chronology is comparatively technical; medium-high. |
-| Human line | 8 | Crew handles a valve, requests tools, uses visiting spacecraft, later works outside; high for actions, feelings not claimed. |
+| Interest / significance | 8 | Entry is a new obstacle after docking; restoring a research outpost has consequences beyond arrival; high factual confidence, audience response UNVERIFIED. |
+| Opening | 8 | Three questions answered later; station history still delays approach; medium. |
+| Development / reason to continue | 8 | Pressure, power, air and cargo each introduce a distinct next task; radio chronology is comparatively technical; medium-high. |
+| Freshness of angle | 7 | Concrete hatch and radio exchanges distinguish this account, though Salyut 7 is widely covered; medium. |
 | Payoff | 9 | September crew arrival and Savinykh staying supply a concrete answer; high. |
-| Natural spoken language | 7 | Several technical expressions remain necessary; medium, no recorded read. |
-| Visual potential | 8 | Hatches, dark repair, linked craft and exterior work have distinct image intents; medium, no storyboard or rights validation. |
+| Naturalness / clarity | 7 | Several technical expressions remain necessary; medium, no recorded read. |
+| Visual expression | 8 | Hatches, dark repair, linked craft and exterior work have distinct image intents; medium, no storyboard or rights validation. |
+| Verified audience interest | UNVERIFIED | No matched audience or independent listener data. |
 
 Hard checks: new factual material matched to Grahn recordings and NASA pp. 99–101 (author); EN/RU semantic alignment checked paragraph by paragraph (author); opening questions answered; Long narrative seam N/A; demand, independent review, exact AV, timing and rights UNVERIFIED. No inherited 10m approval/timing/scene span applies. Visual intent only: two closed hatches, equipment checks, frost, docked craft orientation, cargo handover, EVA, new crew. No 05m packaging transferred to 10m.
 
@@ -76,21 +76,21 @@ Hard checks: new factual material matched to Grahn recordings and NASA pp. 99–
 | Dimension | 02m | 05m | 10m |
 |---|---|---|---|
 | Complete resolution | Yes | Yes | Yes |
-| Best additional reason to stay | Manual dock and repair paradox with complete cargo payoff | Docking *unlocks* the repair and thawing complication | 1983–85 context, August EVA and ongoing human occupation |
-| Risk of attention loss | Battery-sensor explanation compressed in 2m | Dense battery-sensor exposition | Historical 1983 prelude before 1985 crisis; underlength if read fast |
+| Best additional reason to stay | Manual dock and repair paradox with complete cargo payoff | Docking *unlocks* the repair and thawing complication | Pressure checks, radio recovery, cargo, EVA and ongoing occupation |
+| Risk of attention loss | Battery-sensor explanation compressed in 2m | Dense battery-sensor exposition | Historical prelude and technical radio chronology |
 | Critical editorial 8+ trio | YES (author only) | **YES** | YES (author only, not timing proof) |
-| Exact format | Short supported; author textual seam provisionally PASS, AV UNVERIFIED | Long supported | Long supported; timing REWORK_UNDERLENGTH |
+| Exact format | Short supported; author textual seam provisionally PASS, AV UNVERIFIED | Long supported | Long supported; timing UNVERIFIED |
 | Independent reviewer | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 
-**Recommend 05m.** The Short now reaches the payoff and closes on a contrasting image that joins its new cold open, but the author-only loop cannot replace AV/reviewer checks. The 10m now has a real August EVA and human endpoint without repetitive recaps; its earlier context and estimated underlength still do not justify doubling runtime. Five minutes presents the most distinct verified changes per spoken minute. A single master still requires owner's exact choice and normal gate.
+**Recommend 05m.** The Short now reaches the payoff and closes on a contrasting image that joins its new cold open, but the author-only loop cannot replace AV/reviewer checks. The 10m now has a real August EVA and human endpoint without repetitive recaps; its earlier context and technical radio chronology still do not justify doubling runtime. Five minutes presents the most distinct verified changes per spoken minute. A single master still requires owner's exact choice and normal gate.
 
 ## Checks (distinct from author scores)
 
 | Check | 02m | 05m | 10m |
 |---|---|---|---|
-| Main event fact-check against NASA p.98–100 | PASS (author source check) | PASS (author source check) | PASS (author source check) |
+| Main event fact-check against NASA pp.98–101 and Grahn recordings | PASS (author source check) | PASS (author source check) | PASS (author source check) |
 | EN/RU semantic equivalence (author read) | PASS | PASS | PASS |
-| Channel production format | Short supported; owner review pending | Long supported | Long supported; underlength estimate |
+| Channel production format | Short supported; owner review pending | Long supported | Long supported; actual timing UNVERIFIED |
 | Narrative loop | Provisional PASS (author full-text twice; new hash), independent UNVERIFIED | N_A Long | N_A Long |
 | Actual AV seam | UNVERIFIED (no MP4) | N_A | N_A |
 | Visual image/reference and usage rights | UNVERIFIED | UNVERIFIED | UNVERIFIED |
