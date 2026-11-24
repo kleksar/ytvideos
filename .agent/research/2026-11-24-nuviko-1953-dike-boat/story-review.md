@@ -8,8 +8,8 @@ Author: ChatGPT, 2026-11-24. Authorial judgments after reading the six full text
 | 02m/ru | 201 | `34696f112908dd9b292cde54a67169937a3f8cbcf170141374806ea3fdd218b3` |
 | 05m/en | 646 | `a7749798b7ba5e3201ffb5a8228a5c22bc50a5af6d7e18fb90b1a51cdab8b31f` |
 | 05m/ru | 538 | `8251fc20ec6671d9af488a4a820cabb0dd65c2b3689abcfae518b2d7fb07e631` |
-| 10m/en | 1301 | `37b8372f885d70750dbdee8b4114d80e91d02a2bd5b31c415f09c0115efad05a` |
-| 10m/ru | 1080 | `50a50ef4d7668378c27ebd0f15208ffb76e4383e67357a6ccecdce81cd7538ed` |
+| 10m/en | 1270 | `b682721d57447938ec61c74c2c8c2214ffa9d339260f0cf3724b0713e3f18ece` |
+| 10m/ru | 1040 | `5199e4090f460e0c592cef0dc576c5dcb9e463a4eaa49a2a45905185b1e0fca7` |
 
 ## 02m — STRONG_CANDIDATE
 Independent complete opening, rescue, repair and 1958 outcome.
@@ -38,23 +38,23 @@ Main deficiency: the human recognition thread is absent; listeners may not remem
 | Audience evidence | UNVERIFIED | Modest institutional/local comparables, no exact author-normalized EN demand. |
 Main deficiency: transitions from physical rescue to recognition and back to the permanent barrier need restrained pacing. Approx 277–320s. Best added value per minute; no unearned suspense. Not approval.
 
-## 10m — REWORK
+## 10m — REWORK (revised, unregistered)
 | Criterion | Score | Evidence / limitation |
 |---|---:|---|
-| Interest | 8 | Same recognisable conflict, stronger low-land context; initial three questions broaden promise. |
-| Opening | 8 | Mayor, current, navigable floodgate questions connect all acts. Geography exposition is slower before the main action. |
-| Development | 7 | Engineering adds real constraints (shipping, drainage, scouring, tide limits), but "Why not just dam the river permanently?" starts an extended second problem after the rescue is already over. |
-| Payoff | 9 | Last lines identify collective causal roles and contrast the emergency hull with permanent gate. |
-| Freshness | 8 | Gate hydraulics, delayed recognition, uncertain population counterfactual. |
-| Visual | 8 | Strong historical action and construction imagery, weaker varied coverage during institutional history. |
-| Natural speech | 7 | Longer multi-clause explanatory passages and temporal jump from 1958 to 1977. |
-| Audience evidence | UNVERIFIED | No evidence length is demanded or improves viewing. |
-Main deficiency: third-act construction lesson may outstay the rescue audience's question. Approx 548–634s; complete script, not selected. Do not force 10m production. 
+| Interest | 8 | Opening promises the rescue mechanism and the delayed medals; new material follows the actual people after the emergency. Confidence medium. |
+| Opening | 8 | River already high at low tide, clay settlement and failed bags build to the mayor's requisition. Main hook still later than in the 05m; estimate only. Confidence medium. |
+| Development | 8 | Merchant's familiarity with the boat, younger stranger volunteering, return to stop the engine, second requisition and the brothers' repeated supply journeys add decisions rather than synonyms. Confidence medium. |
+| Payoff | 9 | Repair holds; the cost of the engine and the delayed medals answer the human questions; final gate makes the analogy visible. Confidence medium. |
+| Freshness | 8 | Engine trouble and family supply role complicate the familiar single-skipper account. Confidence medium. |
+| Visual | 9 | Harbour, line, propeller, cabin, unloading, repair yard, monument and medal ceremony offer distinct images, not archive footage claims. Confidence medium. |
+| Natural speech | 8 | Concrete actions replace the old generic transition to construction; Dutch names and the policy paragraph remain dense. Confidence medium. |
+| Audience evidence | UNVERIFIED | No relevant normalized audience or retention evidence. |
+Main deficiency: engineering chronology between the motor aftermath and the memorial can still dilute the central emotional question. Estimated 536–620s including 10s endscreen, before unmeasured pauses. If too long after actual timing, recommend 05m rather than accelerating narration. No independent review or approval.
 
 ## Checks (author scope, not runtime gates)
 | Check | 02m | 05m | 10m | Reason |
 |---|---|---|---|---|
-| Facts/causal author check | PASS | PASS | PASS | Ledger S1–S10; 14–15m approximate, 1958 first gate, 1970s second gate; no invented death counterfactual. Late testimony identified in longer versions. |
+| Facts/causal author check | PASS | PASS | PASS | Ledger S1–S12; 14–15m approximate, 1958 first gate, 1970s second gate; no invented death counterfactual. Late testimony identified in longer versions. |
 | EN/RU semantic parity | PASS | PASS | PASS | Complete text pairs; widths, actors, chronology, nature of evidence and payoff preserved. |
 | Proposed format compatibility | PASS | PASS | PASS | Illustrated Long allowed by pinned main ChannelSpec; no runtime registration. |
 | Rights | UNVERIFIED | UNVERIFIED | UNVERIFIED | Original narration only; archival visual/audio rights and exact assets not cleared. |
@@ -62,4 +62,14 @@ Main deficiency: third-act construction lesson may outstay the rescue audience's
 | Measured timing / AV / endscreen | UNVERIFIED | UNVERIFIED | UNVERIFIED | No actual voice/media or related endscreen reference bytes. |
 | Independent review | UNVERIFIED | UNVERIFIED | UNVERIFIED | Independent session capability not available; author reading not independent evidence. |
 
-Comparison: 2m delivers repair and long-term solution but loses recognition; 5m earns its additional time via Heuvelman, supply problem and medals; 10m adds drainage, navigation and threshold construction but develops a less focused second story. Recommend **5m**, not longest. If editor prefers immediate mechanics, 2m remains useful. One revision pass during authoring to avoid implying exact lives saved and to avoid inconsistent 1976/1977 dates; no reviewer receipt. No approved production master; exact script gate remains pending.
+## Comparison and story maps (author read, all six exact texts)
+
+| Version | Exact full scripts | Status | Added viewer value / possible loss |
+|---|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | STRONG_CANDIDATE, preserved | Direct failed bags → boat → supplies → floodgate; names in quick succession may tax a new listener. |
+| 05m | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | STRONG_CANDIDATE, recommended, preserved | The two other boatmen become necessary actors and the 2009 medals finish the human line; national toll/context slows briefly. |
+| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | REWORK, revised | Merchant identifies a suitable ship, Heuvelman joins a stranger, propeller must stop, second boat is requisitioned, brothers transport supplies, engine requires later replacement. Construction still costs attention after the immediate resolution. |
+
+02m visual/story spans, EN and RU by matching paragraph: P1 questions, P2–3 storm and failed bags, P4–6 hull/rope, P7–8 supply and closure, P9–10 permanent gate and answer. 05m: P1 promise; P2–5 high water, shelter, failed bags; P6–9 choice/rope/turn; P10–12 ballast and supply; P13–15 stakes, memorial and medals; P16–17 gate and closing. 10m: P1 promise; P2–7 high water, shelter and weak clay; P8–11 merchant/requisition and relative size; P12–16 stranger, rope, current and engine shutdown; P17–23 ballast, second boat, brothers, warm cabin and completion; P24–25 national context and engine consequences; P26–28 permanent gate; P29–32 recognition and collective answer. These are authorial semantic spans, not measured scenes or storyboard. Visual intent is object/action-led historical reconstruction; exact visual references, rights, timings and detailed storyboard await selected hash.
+
+Revision 2026-11-24: baseline `d17ef228d5bd6cf72302a01a97090e3f0cb49a12`; exact old 10m EN SHA-256 `37b8372f885d70750dbdee8b4114d80e91d02a2bd5b31c415f09c0115efad05a`, RU `50a50ef4d7668378c27ebd0f15208ffb76e4383e67357a6ccecdce81cd7538ed`, same paths as above. 02m/05m unchanged (all four source blobs preserved). No runtime pins, approved master, production assets or schedule changed. Previous author assessment applies only to old 10m; no independent response existed to invalidate. New source evidence S11–S12 below in research. The 02m and 05m are strong standalone texts and were not rewritten. Recommend **05m** because it completes the rescue and delayed recognition without the longer gate/repair-yard detour. 10m now has its own human consequences, but remains REWORK for pacing. Independent reader, actual duration, rights, and private production-state visibility UNVERIFIED. Editorial candidate only; no official script gate.
