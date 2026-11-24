@@ -11,3 +11,5 @@ Logline RU: Чикаго изменил направление реки, что�
 
 All three are complete, separate documentary Long editorial texts, not measured durations or production approvals. [Research](research.md), [exact reviews and hashes](story-review.md), [packaging](packaging-brief.md), [handoff](handoff.md).
 Runtime checkout unavailable; git remote direct DNS failed; authorized Git connector available. Independent reviewer unavailable. No run, receipt, approval, storyboard or media generated. Current canonical main a6023668001421b689a8142cebc0bd436545be6b; #124 merged.
+
+2026-11-24 revision: 10m EN/RU substantively revised from df9b80eba9f01cd3de51916292be099570635ab9; political compromise, raised sewers, competing evidence, wastewater treatment. 1281 EN/1104 RU words; 8.54–9.85 min before pauses and 10s end screen. 05m still recommended. See exact updated hashes and maps in [story-review](story-review.md). No independent or runtime approval.
