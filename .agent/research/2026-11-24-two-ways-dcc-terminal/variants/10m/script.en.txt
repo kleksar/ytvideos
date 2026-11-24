@@ -8,17 +8,13 @@ The payment terminal displays two options: pay two hundred euros or pay two hund
 
 My only measure of success is the number of dollars the four purchases ultimately cost. I'm not comparing different hotels, cards, rewards, or rooms. I'm paying the same amounts to the same businesses. At first, I'll give the card an assumed conversion rate of one dollar and ten cents for each euro and no additional fee.
 
-The person who receives the hotel payment needs euros, so one way or another my dollars have to cover that amount. The two buttons determine which payment arrangement converts the bill.
-
 I take A. The hotel payment provider converts the euros into dollars before the purchase reaches my card account. It offers me an exchange rate of one dollar and fifteen and a half cents per euro. I know the converted price on the terminal: two hundred and thirty-one dollars. This kind of offer is called dynamic currency conversion.
 
 I reset the scene. Same hotel bill, same card. This time I choose B and authorize two hundred euros. The transaction goes through the card's arrangements for conversion to dollars. Using the rate I've put into the model, two hundred euros becomes two hundred and twenty dollars.
 
-The difference is eleven dollars. I haven't got a nicer room for the extra eleven dollars. I haven't paid for breakfast or late checkout. I have paid for the same room through a more expensive conversion.
+The difference is eleven dollars. The extra eleven dollars pays only for the more expensive conversion. Nothing about my stay changed.
 
 I can express the difference as a percentage. The extra eleven dollars is five percent of two hundred and twenty. This is a comparison with my modeled card rate, not a measured markup at a real hotel or an official reference rate.
-
-I have the choice to see the dollar figure immediately, which is useful when I am counting money in a currency I understand. But I now have a price for that convenience. In this example it's eleven dollars at the hotel desk.
 
 Next I want to see whether one payment makes much difference to my day. I leave the room and go to a restaurant, a museum and a taxi. For each purchase, I'm going to give the terminal the same proportional markup as the hotel and keep the modeled card rate constant. I don't claim these merchants actually make those offers.
 
@@ -38,18 +34,24 @@ Back at the hotel, the dollar option goes from two hundred and thirty-one dollar
 
 If I apply the three percent to each of my four modeled purchases and round each final charge to the nearest cent, the dollar route comes to four hundred and four dollars and forty-eight cents. That's over my budget. The euro route comes to three hundred and eighty-five dollars and twenty-two cents. The same room, dinner, museum visit and taxi are still covered.
 
-What if I also need cash? I'll keep this separate from my four purchase totals. Suppose I withdraw one hundred euros with a debit card and the ATM adds a four-euro operator fee to the amount converted. For the demonstration, my debit card also charges a flat three-dollar withdrawal fee either way.
+I have one more reason not to turn the first result into a rule for every receipt. So far, the four terminals have all offered the same exchange rate. Let me replay the day with different offers. I'll remove the issuer fee from both routes again, keep the card rate at one dollar and ten cents, and change just two terminal quotes.
 
-The terminal converts one hundred and four euros at its modeled rate, which is one hundred and twenty dollars and twelve cents. Add three dollars: one hundred and twenty-three dollars and twelve cents. If I decline the terminal's conversion and allow the card to convert the same one hundred and four euros, it's one hundred and fourteen dollars and forty cents, then three dollars on top. The total is one hundred and seventeen dollars and forty cents.
+The hotel and restaurant still offer two hundred and thirty-one dollars and ninety-two dollars and forty cents. At the museum, the dollar button now says twenty-one dollars instead of twenty-three dollars and ten cents. My card would charge twenty-two dollars. For once, the terminal is cheaper. At the taxi, the dollar offer is forty-five dollars; my card would charge forty-four.
 
-I haven't removed the ATM fee by choosing euros. I changed the conversion cost. Actual ATMs and cards can charge fees differently. I would read the withdrawal conditions rather than treat these amounts as a real tariff.
+I can still compare the two consistent methods. If I press the dollar button every time, I spend three hundred and eighty-nine dollars and forty cents. If I press euros every time, I spend three hundred and seventy-four dollars. Euros win overall. But I missed a saving at the museum because I stopped looking at the actual offer.
+
+I replay the same four receipts once more, making the cheaper choice at each payment. I pay in euros at the hotel and restaurant, in dollars at the museum, then in euros in the taxi. The result is three hundred and seventy-three dollars. I saved one more dollar without changing any purchase. This is a conditional third strategy, not a different itinerary. It assumes I know the card's applied rate and fees; on a real trip I may only have an estimate.
+
+The first hotel payment still taught me something useful. It just didn't settle the question for the next terminal.
 
 Finally, I return to the original hotel payment with no additional card fee. The terminal quotes two hundred and thirty-one dollars and I leave that offer unchanged. Now I vary only the exchange rate my card ultimately uses.
 
 A card rate of one dollar and fifteen and a half cents per euro makes the two totals equal. Any lower rate in dollars per euro favors paying the euro bill, given these inputs. If the actual applied rate is one dollar and sixteen cents, B costs two hundred and thirty-two dollars and A is cheaper by one dollar. The direction can change. A rate that looked good on my phone isn't necessarily the rate used by my card.
 
+That was a change in the exchange rate alone. A different fee rule can also change the result without moving either rate. Suppose instead my card charges only for currency conversion, not for a foreign purchase already billed in dollars. At three percent on B alone, the euro route costs two hundred and twenty-six dollars and sixty cents, still below the terminal quote. At five percent the totals meet, and at a deliberately hypothetical six percent B costs two hundred and thirty-three dollars and twenty cents. A wins by two dollars and twenty cents. I am not saying that my real card charges six percent, or that paying in dollars always avoids fees. The precise fee rule determines which calculation is relevant.
+
 Before an actual trip, I would check the terms for my card, including when its exchange rate is determined and whether foreign purchases in my account currency still incur fees. At the terminal, I'd compare the converted offer with the card estimate, read the choice on the screen, and keep the receipt showing what I agreed to pay. If I don't understand an offer or didn't agree to the currency shown, I'd ask for clarification before confirming or contact the issuer about a disputed charge.
 
 In the original model, I leave the hotel having spent two hundred and twenty dollars rather than two hundred and thirty-one. At the end of the four purchases, the choice has kept eighteen dollars and seventy cents in my budget. The local currency wins in that model; it isn't a guarantee for every card or every trip.
 
-The two buttons are easy to understand once I know what they control. The question isn't whether I like euros or dollars. It's who does the conversion, at what rate, and what else the card will charge me.
+The lesson I take to the next terminal is to compare the complete cost of each offer, rather than commit to a currency for the whole trip.

@@ -13,3 +13,5 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 Recommend **02m**: complete immediate decision, $11 payoff and the foreign purchase fee surprise without additional itinerary arithmetic. The 2m target is an editorial Short, outside the 35–50s routine channel target; exact timing/format acceptance remains open. The 05m and 10m are complete editorial Long proposals, not supported by the current Long recipe. Demand UNVERIFIED; not official script approval.
 
 [Research](research.md) · [Individual review, hashes and comparison](story-review.md) · [Packaging](packaging-brief.md) · [Handoff](handoff.md).
+
+Revision 2026-11-24: 10m now compares changing quotes across the same four purchases and isolates a conversion-only fee crossover; removed separate ATM diversion. Recommendation remains 02m. Exact revised hashes in story-review; baseline retained in Git.
