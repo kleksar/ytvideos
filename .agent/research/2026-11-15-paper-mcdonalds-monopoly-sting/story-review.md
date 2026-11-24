@@ -151,3 +151,50 @@ Confidence medium для редакторской оценки/сверки те
 **Сравнение 02→05→10:** 02m заканчивает всю историю, но сокращает маршрут фишки. 05m добавляет сводного брата, нужду в разных получателях и судебную развязку. 10m теперь расширяет одну историю подтверждёнными действиями в другом промо-розыгрыше, денежной цепочкой, новым $10m розыгрышем, прекращением контрактных отношений, живым юридическим конфликтом. Главный **риск потери внимания** — после арестов и ответа McDonald's, при переходе к отдельному процессу о правилах частного конкурса; длинная версия не доказала превосходство. **Рекомендуется 05m, это не approval.**
 
 **Fact evidence:** [DOJ 2001](https://www.justice.gov/archive/opa/pr/2001/August/422ag.htm) — allegations/claimants and prizes, [McDonald's statement 2001](https://mcdonalds.mediaroom.com/2001-08-21-McDonalds-Applauds-FBI-Action-Announces-10-Million-Instant-Give-Away-for-Customers) — announced remedies, [United States v. Chandler 2004](https://law.justia.com/cases/federal/appellate-courts/F3/388/796/569839/) — specific four appeals. Дополнительные claims и пределы в [research](research.md). **Hard checks:** три EN + три RU — PRESENT; 37 EN / 37 RU paragraphs — author semantic alignment, independent bilingual UNVERIFIED; ранние вопросы → действия → основной hook → полный payoff — author PASS; Long loop N_A; TTS duration, real AV, independent first listener, independent factual review, demand/retention, runtime IDs, owner approval UNVERIFIED. Старый 38-scene storyboard OBSOLETE для всех новых вариантов; scene spans и visual intent перестраивать только под exact hash выбранной редакции. Статус EDITORIAL_CANDIDATE_UNREGISTERED. Ни один pin или accepted media не изменён.
+
+---
+## 24.11.2026 — текущая содержательная редакция 05m
+
+**Baseline:** `0f94f1ad4530b45bcfa85b639fae11535ea77d56` · canonical main `a6023668001421b689a8142cebc0bd436545be6b`. #124 и #117 merged. Старые разделы выше — исторические, не оценки нового hash. Новый 05m отличается от root master; root, storyboard, 02m и 10m сохраняются. PR discussion: no visible owner production approval or active editor; no unresolved review threads. Channel directory checked against current main; external saved runtime/Codex inventory not available. No pins or accepted artifacts touched. EDITORIAL_CANDIDATE_UNREGISTERED.
+
+| Target, all Long 16:9 | Full EN / RU | Status |
+|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | Unchanged, exact old hashes below retained from previous manifest |
+| **05m** | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | **Rewritten, author recommendation** |
+| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | Unchanged, current length risk retained |
+
+New 05m EN SHA-256 `2504bec60a5335b8db643896ff93cd6bbbfe314e9187e5df796d3730d7fd7776`, 709 whitespace words; RU SHA-256 `6da1b2000eca6b51753b86a0a99b08d24048b1a7be0cbfe7f4dd3cdb56d8ce0f`, 613 whitespace words. 17/17 aligned paragraphs. Old 05m EN blob `798a70d5b97c3fe5fbaec80942a6f01a6766a093`, RU blob `bd505be8c2e0b2a2c2ac3782c20fc8d82f9bcaff`; their exact bytes remain as root script.en.txt and script.ru.txt. Old 05m author ratings/timing/review not transferred to new hash. Estimate 4.57–5.67 minutes narration at 125–155 EN words/min, plus separate 10 seconds Long end screen and unmeasured pauses; actual Lawrence 1.10x playback not measured.
+
+**Before → after:** 901-word root-derived 05m repeatedly explained that camera alone could not prove each claimant's knowledge (former paragraphs 21–25, 30–34). The new standalone 709-word version uses two geographically separate claims to make the network concrete, then lets the courtroom actually change direction: trading practice → disputed knowledge requirement → judge changes jury instruction five minutes before briefing → convictions → appeal and conceded acquittals. The legal turn no longer arrives as a generic maxim. The original root is preserved for a fresh reviewer to prefer it if desired. No second production master chosen.
+
+### New 05m story map and visual intent (paragraph spans, not measured scenes)
+
+| Span | New information / cause → consequence | Visual intent |
+|---|---|---|
+| P1–2 | Three questions → Hoover's account of replacement magazine, not verified discovery | Paper living room, check, crew; no invented archival portrait |
+| P3–4 | Random access expected → actual FBI purpose → access before public distribution | Cup and rare sticker, transition to contractor and camera |
+| P5–8 | Jacobson's access → relative → recruiters → two claims from different states → missing pieces | Small physical paper objects; separate paths and a check; allegations not convictions |
+| P9–10 | Tip → ongoing promotion → evidence collection through interview | Paper office, camera and case notes; no invented transcript |
+| P11 | Arrests → different estimates → guilty plea and sentence | Date, two clearly labeled estimates, court entry |
+| P12–13 | Other defendants' case → disputed rules → acknowledged public transfers | Paper rules and exchanged sticker; nominate paper plane as prop on side table, not historical object |
+| P14–15 | Late jury instruction change → convictions → appeal → acquittals | Courtroom with clock as conceptual illustration, no exact decor/quotes |
+| P16–17 | Limits of camera evidence → customer payoff | Camera and check → opened cup with missing rare piece |
+
+02m map retained: questions → Hoover → access → intermediary → tip → arrests/sentence → four convictions reversed → lost chance. 10m map retained in 19.11 section; extra named routes, separate promotion, announced corporate response and legal detail. No old storyboard spans are reused; actual scene count follows selected narration.
+
+### Exact-version editorial assessment (author, confidence medium text / low audience)
+
+| Criterion | 02m unchanged | 05m current | 10m unchanged |
+|---|---|---|---|
+| Interest/significance | 8: recognizable contest, camera; limited context | 8: actual courtroom reversal makes cost of knowing concrete; familiar topic | 8: wider response, familiar topic |
+| Opening | 8: two questions, immediate interview | 8: three answerable questions, Hoover then security access; third question may be heavy | 8: same question burden |
+| Development | 7: network/tip compressed | 8: state-separated claims → tip → trial instruction changes; still no complete operational chronology | 8: separate promotions and company response; post-arrest slowdown |
+| Payoff | 8: theft plus four reversals | 9: late instruction, guilty verdict and acquittal resolve third question; clear distinct organizer outcome | 8: more aftermath but repeated explanation |
+| Freshness | 6: well-known camera story | 7: trial judge's action and acquittals differentiate from generic fraud retelling | 7: company response and legal detail |
+| Visual expressiveness | 8: camera and sticker | 8: cup, claim paths and courtroom change; legal concepts need visual clarity | 7: longer abstract legal sequence |
+| Natural voice | 8: concrete short clauses | 8: repeated evidence maxims removed; possible stumble at the multi-clause appeal sentence, no listening | 7: names and repeated fairness framing |
+| Verified viewer interest | UNVERIFIED: no comparable 2m baseline | UNVERIFIED: no exact 5m audience experiment | UNVERIFIED: no comparable 10m retention |
+
+**Added value comparison:** 02→05 adds specific claim routes, jury instruction reversal and final acquittals; probable attention dip in 02m at jump from recruiter to tip. In 05m attention risk at P12, shift from arrests to legal issue, but P14 now brings action instead of another abstract explanation. 05→10 adds multiple promotions, corporate giveaway and contractor response; first likely dip after arrest/corporate announcement before separate trial discussion, and 1591 EN words are long for nominal 10m. **Recommend 05m**, subject to independent reviewer (may prefer root/02m/10m or none). Not owner approval, not measured retention.
+
+**Hard checks:** six full texts present; author read-through EN/RU meaning and numbers checked; added facts grounded in research (DOJ and appellate decision) with allegations/actual judgment distinctions; three question-led Long openings and complete payoff reviewed by author; narrative loop N_A for all three Long versions; supported paper_detour Long ChannelSpec; all TTS/AV, exact independent reviewer, verified demand, media rights, owner selection, runtime registration UNVERIFIED. No local authorized run/store or fresh independent-session tool exposed here; to transfer use existing pinned run or authorized start, canonical context, exact `attach-artifact --kind script_variant`/ `story_review` and fresh reviewer result before gate. No fabricated IDs. Next: continue other unaccepted old Long with actual deficiencies; no automatic re-edit of this hash absent new issue.
