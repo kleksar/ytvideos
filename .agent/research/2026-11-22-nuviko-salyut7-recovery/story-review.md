@@ -1,6 +1,6 @@
 # Story review — exact six narrations
 
-Author: editorial-writing agent (self-review **only**); evaluation date 2026-11-22; 02m/10m re-evaluated against their revised exact text, with baseline hashes preserved below. No independent session available in this host; independent review **UNVERIFIED** for every language/variant. Scores describe editorial judgment, not retention, CTR, click probability or success forecast. Primary verification map: [research.md](research.md), NASA *Mir Hardware Heritage* pp.98–100.
+Author: editorial-writing agent (self-review **only**); evaluation dates 2026-11-22 (02m/05m) and 2026-11-24 (10m); 02m/10m re-evaluated against their revised exact text, with baseline hashes preserved below. No independent session available in this host; independent review **UNVERIFIED** for every language/variant. Scores describe editorial judgment, not retention, CTR, click probability or success forecast. Primary verification map: [research.md](research.md), NASA *Mir Hardware Heritage* pp.98–100.
 
 ## Exact read-back file hashes (SHA-256 of UTF-8 text including final newline)
 
@@ -8,7 +8,7 @@ Author: editorial-writing agent (self-review **only**); evaluation date 2026-11-
 |---|---|---|---|
 | 02m / narrative Short (author text seam provisional PASS) | `85393e1e25ab632882ac705f0b3bd44085f6076d077335811419914185023929` | `3bb0363f6bb058caabfee622eb7ac15f424ec65c12253473050ffc6e8678c5eb` | 252 / ≈1.68–1.94 minutes before pauses; unmeasured |
 | 05m / documentary Long | `87e0d80a18f45cdd102e0b058506603bc4fe0011cbd9279ec8438cdff69b0c04` | `41015eea42543a18c2b5334fe508e2f88268d1078e9174e7a0d0b17fb44da433` | 616 / ≈4:06–4:54 plus pauses / endscreen; not measured |
-| 10m / documentary Long (REWORK_UNDERLENGTH) | `b67d72feb82fc3a5859d3c4b718956d0a6b7f0d72c5ee073a935ef4db7af92bf` | `232d611f08385f68583754db5fe8fe084b0250dbc1d9b2d821376fcd4ecde8c8` | 1232 / ≈8.21–9.48 minutes before pauses/endscreen; unmeasured |
+| 10m / documentary Long (revised; timing UNVERIFIED) | `484419f63de7625c56dd2aca3837dfa9335763fe804f97f1542854b058d59239` | `0ceb50b5d532b688d173444fc5d0f02a7d8dd87479fe495170a919edf9ace2e9` | 1414 / ≈9.43–10.88 min before pauses/end screen; unmeasured |
 
 Numbers above are estimates from word counts only. Actual voice speed is set by the channel and cannot be adjusted to hit a headline target. Endscreen timing, breaths and pacing are not measured.
 
@@ -52,26 +52,24 @@ Story map: communication silence → why an ordinary rendezvous fails → laser-
 
 Main weakness: a subject already repeatedly explained by established science channels; unfamiliar audience may not distinguish original packaging. Confidence: medium about documentary event coverage and editorial flow; low on actual audience interest and spoken timing. Proposed master 05m **SHA `87e0d80a18f45cdd102e0b058506603bc4fe0011cbd9279ec8438cdff69b0c04`**. Long format supported in current Nuviko ChannelSpec. A full reviewer is still mandatory before official script gate.
 
-## Variant 10m — rewritten opening and post-Progress ending / REWORK_UNDERLENGTH
+## Variant 10m — documentary Long / EDITORIAL_CANDIDATE_UNREGISTERED
 
-Baseline HEAD `5c17767642eef6cc85b2e0676fca15157bf01d23`, original EN SHA-256 `1142433009c741b2b50d6586474bfeb4973925b01bdd5aa447d19324f399e98b`, original RU SHA-256 `4a64abfd0f70fa1bb70206c49123ba7ac79d883e96545879bee5413a1743c705`. **New exact:** [full EN](variants/10m/script.en.txt) `b67d72feb82fc3a5859d3c4b718956d0a6b7f0d72c5ee073a935ef4db7af92bf`; [full RU](variants/10m/script.ru.txt) `232d611f08385f68583754db5fe8fe084b0250dbc1d9b2d821376fcd4ecde8c8`. 1232 EN words / approximately 8.2–9.5 minutes of speech before pauses and endscreen; this is not measured. The revised script is **under the intended 10m at faster narration**: do not label the 10m production timing validated.
+2026-11-24 self-review only. Baseline HEAD `ccd7ebdb48e4008bde8db98659f1c73e2688d6b6`: EN `b67d72feb82fc3a5859d3c4b718956d0a6b7f0d72c5ee073a935ef4db7af92bf`, RU `232d611f08385f68583754db5fe8fe084b0250dbc1d9b2d821376fcd4ecde8c8`. Revised [EN](variants/10m/script.en.txt) `484419f63de7625c56dd2aca3837dfa9335763fe804f97f1542854b058d59239` (1414 words), [RU](variants/10m/script.ru.txt) `0ceb50b5d532b688d173444fc5d0f02a7d8dd87479fe495170a919edf9ace2e9` (1177 words). Estimated 9.43–10.88 min at 130–150 spoken wpm before pauses/end screen; actual voice duration UNVERIFIED. Earlier underlength concern is addressed by source-backed development, not an asserted exact duration.
 
-**Before → after:** Intro now asks three specific documentary questions about docking, safe air, and a potentially damaging thaw before immersion and main visual hook. Earlier version recapped all engineering steps *after* Progress had already arrived. New final act moves through a fresh event — August 2 EVA fitting solar-array sections — and ends on the confirmed human consequence: Dzhanibekov later leaves and Savinykh stays to operate the same station he first entered wearing warm clothes. No new personal thoughts, dialogue, emergency or technical claim added.
+Story map: questions (docking, air, heat) → station's purpose and communication loss → manual docking → pressure equalization/air checks → working by radio and in orbital night → Soyuz air regeneration and battery/pointing deadlock → warm-up and moisture → station radio returns → independent attitude control → cargo and replacement equipment → August EVA → September arrival and Savinykh stays. Payoff: the station becomes a working place again.
 
-Story map: prior repair history / empty station → loss of communication and rescue decision → manual laser-assisted docking → air test, frost and dead batteries → pointing sensor / Soyuz breaks power circularity → gradual heat, thaw hazard and loss of water heater → June 13 attitude control → June 23 Progress cargo arrival → August 2 EVA → Savinykh's continued occupation. Distinct added value over 05m: 1983–84 repair legacy, March announcement vs recovery decision, month-scale thaw and water restoration, EVA and subsequent station residency. Weak spot is **the early 1983 background**: it delays the 1985 crew story; cutting it further would make the 10m target even less defensible. Extra verified material with a new event is required to reach ten minutes without padding.
-
-| Criterion | Author score | Grounding / deficiency |
+| Criterion | Score | Grounds / weakness / confidence |
 |---|---:|---|
-| Interest/significance | 8 | Manual dock plus genuine station-repair work, but premise covered elsewhere |
-| Opening | 8 | Three answerable questions precede substantive 1985 immersion; historical prelude still long |
-| Development / reason to continue | 8 | Solar-panel deadlock, thaw problem and exterior upgrade form successive decisions, no post-Progress recap |
-| Payoff | 8 | Progress followed by actual EVA and Savinykh remaining, a consequence rather than a moral |
-| Freshness of angle | 6 | Historical material covered in major Salyut explainers |
-| Visual expression | 9 | Silent orbiting station, frosted interior, linked Soyuz and Salyut, August EVA |
-| Naturalness / clarity | 8 | Less circular explanation in closing; early program background remains expository |
-| Verified audience interest | UNVERIFIED | No controlled channel baseline or real listener response |
+| Interest | 8 | Entry is a new concrete obstacle after docking; high source confidence, audience response UNVERIFIED. |
+| Significance | 8 | Restoring an occupied research outpost has consequences beyond docking; high. |
+| Hook and opening | 8 | Three questions answered later; station history still delays approach; medium. |
+| Causal development | 8 | Pressure, power, air and cargo each introduce a distinct next task; radio chronology is comparatively technical; medium-high. |
+| Human line | 8 | Crew handles a valve, requests tools, uses visiting spacecraft, later works outside; high for actions, feelings not claimed. |
+| Payoff | 9 | September crew arrival and Savinykh staying supply a concrete answer; high. |
+| Natural spoken language | 7 | Several technical expressions remain necessary; medium, no recorded read. |
+| Visual potential | 8 | Hatches, dark repair, linked craft and exterior work have distinct image intents; medium, no storyboard or rights validation. |
 
-Author confidence medium on NASA-established sequence, low on timing and interest; independent review UNVERIFIED.
+Hard checks: new factual material matched to Grahn recordings and NASA pp. 99–101 (author); EN/RU semantic alignment checked paragraph by paragraph (author); opening questions answered; Long narrative seam N/A; demand, independent review, exact AV, timing and rights UNVERIFIED. No inherited 10m approval/timing/scene span applies. Visual intent only: two closed hatches, equipment checks, frost, docked craft orientation, cargo handover, EVA, new crew. No 05m packaging transferred to 10m.
 
 ## Comparative decision
 
@@ -101,3 +99,7 @@ Author confidence medium on NASA-established sequence, low on timing and interes
 | Original YouTube CTR/retention | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 
 No reviewer receipt, ID, run, lease, owner approval or media bytes were created. New hash requires new independent review. Author did one candidate text pass; no invented independent “second opinion.” No detailed shot prompts are asserted approved by a reviewer.
+
+## Current comparative decision — 2026-11-24 (supersedes older 10m status above)
+
+02m is unchanged: compact discovery, recovery and cargo payoff; loses some causal detail at the battery explanation. 05m unchanged: each stage of recovery is intelligible and the Progress arrival closes the promise; the technical middle is its risk. **Recommend 05m** as strongest compact Long, not approval. 10m now adds the pressure obstacle, ground-supported work, radio evidence and later resupply/EVA sequence rather than repeating the five-minute account. Interest risk: radio-monitor dates and the July cargo transition; the extra human actions are worth preserving, but do not make ten minutes the default. All three full texts exist, author-assessed, independent review UNVERIFIED; runtime EDITORIAL_CANDIDATE_UNREGISTERED. Next: blind independent review on exact variants; proceed only with owner-selected master and explicit runtime registration.
