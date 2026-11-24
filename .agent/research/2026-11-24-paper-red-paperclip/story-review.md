@@ -6,7 +6,7 @@ Author: current editorial agent; independent first listener not available (no in
 |---|---:|---:|---:|
 | Interest/meaning | 8 | 9 | 8 |
 | Opening | 9 | 8 | 8 |
-| Development | 8 | 9 | 7 |
+| Development | 8 | 9 | 8 |
 | Payoff | 9 | 9 | 9 |
 | Freshness of angle | 7 | 8 | 8 |
 | Visual expressiveness | 9 | 9 | 8 |
@@ -49,23 +49,21 @@ Story map: two questions → early chain → generator seizure is main hook → 
 
 Checks (author): factual support PASS for central claims with source-specific limitations in research; EN/RU meaning PASS (trade chain, both sides and uncertainty aligned); format compatibility PASS, timing UNVERIFIED; rights UNVERIFIED (no media selected); independent review UNVERIFIED. Not official script gate.
 
-## 10m
-EN [exact](variants/10m/script.en.txt), 1320 words, SHA-256 `0782f09bd524eddae0ad4f94abf3f47574591e7fe826e1513b484a5b45f29cf9`.
-RU [exact](variants/10m/script.ru.txt), 1053 words, SHA-256 `6ce37eb9258d64a34e81f466da8934e410bd5fcd7c1ebcbb68a737243113de9e`.
-Assumed 135–155 effective EN whitespace words/minute including pauses; 8.7–9.9 minutes including 10s Long end screen where applicable. Actual approved Lawrence 1.10 speed not changed or measured; estimates only. RU review not timed.
+## 10m — revised author review
+EN [exact](variants/10m/script.en.txt), 1251 words, SHA-256 `505d5f33a9550f41d62361e07c7be2688915685c218fbf68b5aef9d016ddc5aa`.
+RU [exact](variants/10m/script.ru.txt), 1007 words, SHA-256 `47b7ecdc36b2b98f0ba83efbfa536642ea741adc428ed65f07a9dc018f29c903`.
+Estimated EN 8.2–9.4 minutes at 135–155 effective words/minute including pauses plus 10s end screen. Actual timing UNVERIFIED.
 
-- Interest 8: Actual 53-day stall and house/council stakes; more explicit limit on replication.
-- Opening 8: Three questions all answered; first four paragraphs delay first obstruction.
-- Development 7: 53-day record and trade-partner needs add depth, but long early sequence may lose first listener before rent.
-- Payoff 9: Town purchase price qualification, contest, later film and 2025 visitors complete outcome.
-- Freshness 8: First-party account of prearranged trade and price vs use; familiar story.
-- Visual 8: Numerous different objects; explanations risk static talking points.
-- Speech 8: Conditional examples clear but generator paragraphs and price explanation slow the narration.
-- Audience: UNVERIFIED — public title/metadata and genuine reader questions, no comparable author baseline, no current demand or private analytics.
+- Interest 8: a deliberately undisclosed role offer and municipal investment deepen rent/globe contradiction.
+- Opening 8: questions about rent, stall and city benefit; shorter early exposition reaches generator sooner.
+- Development 8: seizure and 53 days, private radio-contact offer, real exchange, city investment and monument. Early chain still carries pace risk.
+- Payoff 9: monument unveiling, audition and named local film consequences, then visitors. No claimed measured municipal profit.
+- Freshness 8: undisclosed offer and enduring city outcome distinguish this from a price ladder, but familiar topic.
+- Visual 8: generator, radio, hidden offer, globe, landmark and local film set provide distinct provisional intents; no approved assets or spans.
+- Speech 8: more concrete actions, but municipal purchase paragraph remains dense.
+- Audience UNVERIFIED: no comparable baseline/current demand/analytics.
 
-Story map: three questions → early participants' reasons → generator stall/53 days → project publicly broadens scope → magazine/media → housing → globe plan → city purchase/price boundary → actor, tourism and non-repeatability. Main weakness: explanatory generator paragraphs and early geographical trades delay the strongest reversal. REWORK; additional sourcing is meaningful but does not justify choosing this over 05m. Long supported; narrative loop N_A. Questions answered by completed exchange, 53-day primary post and real town contest.
-
-Checks (author): factual support PASS for central claims with source-specific limitations in research; EN/RU meaning PASS (trade chain, both sides and uncertainty aligned); format compatibility PASS, timing UNVERIFIED; rights UNVERIFIED (no media selected); independent review UNVERIFIED. Not official script gate.
+Story map: questions → first trades → generator seizure/53 days → scope expands → rent → apparent mistake → hidden radio-contact offer → globe → city purchase and monument obligation → 2007 audition/landmark → subsequent local filming → 2025 visitors. Author factual and EN/RU comparison PASS for revised claims within sources and attributed limitations. Format supported; loop N_A (Long). Timing, rights, independent review, runtime and approval UNVERIFIED. Confidence high for named municipal outcomes, medium for participant's attributed motives and pacing. REWORK: early trade sequence still takes longer than 05m. Prior review/timing of changed 10m invalidated. 02m/05m untouched.
 
 ## Comparison
-02→05 adds a genuinely different development: the lower-price generator exchange and change of project rules, then a concrete city/community payoff. 05→10 adds first-party 53-day delay, espresso-knob rationale, publicity, price boundary and later café, but delays the snow globe and explains too much before the strongest turn. Choose 05m, not the longest. There is no reason to prioritize three productions. Author pass 1 drafted; pass 2 revised short opener to state two transactions and Long motive attribution; no further autonomous rewrites. No independent approval or official gate; no fabricated reviewer. All six texts are complete editorial drafts, not final narration or rendered runtime.
+02→05 adds a genuinely different development: the lower-price generator exchange and change of project rules, then a concrete city/community payoff. 05→10 adds the 53-day delay, undisclosed role offer, actual monument obligation and named film outcomes. Added causal value, but the generator-to-rent stretch still delays the collector reveal. Choose 05m, not the longest. There is no reason to prioritize three productions. No independent approval or official gate. Baseline 19843969f4f47227271fa6235934a828a2dab0e1; prior 10m EN 0782f09bd524eddae0ad4f94abf3f47574591e7fe826e1513b484a5b45f29cf9, RU 6ce37eb9258d64a34e81f466da8934e410bd5fcd7c1ebcbb68a737243113de9e. Next: independent comparison, actual timing, remaining backlog.
