@@ -181,9 +181,9 @@ Baseline `76d4c69cede70dc85936de2923d913e578d492c4`; canonical main `a6023668001
 |---|---|---|---:|
 | 02m | [EN](variants/02m/script.en.txt) `9a433fc78bd1924d94147bdbf22d02e69691f67dbbbcbb0aab650c8f0284fbf7` | [RU](variants/02m/script.ru.txt) `7df1698f79d0105b952a26299301c0f239cc49da321e9254c05bc8e2076bc3e3` | 247 |
 | **05m recommended** | [EN](variants/05m/script.en.txt) `73dfa51d9d17cfa65bb9802061811809204a0e9d27a8c9679f8bc328ea7384cb` | [RU](variants/05m/script.ru.txt) `79f465d101c1351a2eb71e49360387753996ae5645ccab29cff162ff7768339d` | 755 |
-| 10m revised | [EN](variants/10m/script.en.txt) `9f5bef9facc48ec6454feb5948dddf3b267bc89e6cc7c89bb5f3bd91f2751e66` | [RU](variants/10m/script.ru.txt) `df91839ec68270e362b2530841531b554b99eecddf95e1afd4b9bccecf356928` | 1356 |
+| 10m revised | [EN](variants/10m/script.en.txt) `2b3a368c82b004a0d5e028a0e9846dd1522637274a4baad9cb071a998129e555` | [RU](variants/10m/script.ru.txt) `6f16934437083188bfc83602483f2211a8dae0c94ad80d5c59bc80c86e74cf32` | 1358 |
 
-**Было → стало:** 1540 EN / 1219 RU → 1356 EN / 1120 RU, 40 aligned paragraphs. 8.75–10.04 min narration, plus pauses and 10s end screen (unmeasured). 02m/05m оценки и evidence из предыдущих разделов сохраняются для неизменённых hashes. 10m: устранён ложный намёк на причинную связь между воссоединением и обнаружением, повтор про охраняемую границу и дублирование об уязвимой двери. Уточнены личная переписка Шульца, отказ восточной прокуратуры, внутренний разбор и поздние жалобы матери; финальный физический объект — новая доска, а не абстрактная мораль.
+**Было → стало:** 1540 EN / 1219 RU → 1358 EN / 1118 RU, 40 aligned paragraphs. 8.76–10.06 min narration, plus pauses and 10s end screen (unmeasured). 02m/05m оценки и evidence из предыдущих разделов сохраняются для неизменённых hashes. 10m: устранён ложный намёк на причинную связь между воссоединением и обнаружением, повтор про охраняемую границу и дублирование об уязвимой двери. Уточнены личная переписка Шульца, отказ восточной прокуратуры, внутренний разбор и поздние жалобы матери; финальный физический объект — новая доска, а не абстрактная мораль.
 
 | Критерий 10m | /10 | Основание и риск (author, medium unless noted) |
 |---|---:|---|
