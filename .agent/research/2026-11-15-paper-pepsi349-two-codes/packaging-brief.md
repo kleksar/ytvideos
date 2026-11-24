@@ -9,3 +9,7 @@ English Paper Detour Long 16:9. No actual images, A/B test or observed CTR; alig
 **C / legal twist:** `Why the Winning Pepsi Number Wasn't Enough` — enlarged physical cap showing number and smaller security code, a legal document in the background. Text: `THE OTHER CODE`. Mechanism 12–18, resolution 23–29. Avoid fake precise real code.
 
 Packaging is an editorial hypothesis only. Separate 10-second channel-required Long end screen after production approval. Old S001–S025 scene references are INVALID.
+
+## 2026-11-24 scope update
+
+05m packaging hypotheses remain tied to unchanged 05m; not extended automatically to new 10m. If 10m is selected after review, its promise is the loss of both prizes and the smaller voluntary payment (P01, P11–13, P21–23; new hashes in story-review). Avoid saying all cap holders lost all money. No actual assets or verified CTR. Paper plane candidate P06 for 10m only; final scene/ref check pending. Related-video target/actual intro not verified.

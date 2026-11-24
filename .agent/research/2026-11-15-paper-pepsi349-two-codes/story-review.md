@@ -1,3 +1,53 @@
+# Current review — 24 November 2026
+
+EDITORIAL_CANDIDATE_UNREGISTERED. ## 2026-11-24 — current 10m revision
+
+Baseline `6e515fef07007a7b4c4b4cbf579af53333715b46`; canonical main `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). Original 02m/05m and root master unchanged. Old 10m EN/RU blob SHA `158f6fa39c55e9b88ac856cdc4517eae761f705e` / `9dd72b520ece975d2ae194ea93c9a4dd5dcb05fd`; old text SHA-256 `b04e3fa200216ac508728caed29912caf2667739593933ca34cbcc0e33b1e7c0` / `a02a5ae11d68bb4078cb636203a9b1e35104e9bc853d038151b58c75b0a3e967`. New 10m: 1617 → 1283 EN words; 1367 → 1072 RU words; 23 aligned paragraphs; SHA-256 EN `a48e9163079240b79cd5b3cf1c9fb37af82f4cea3f87cad75775219a22267eee`, RU `e631bd784c8ea8277d302714f8d0f1e4a1ecc8af99da09cff669738d9ed76bec`. Estimate at hypothetical 125–155 wpm: 8.28–10.26 min, excluding pauses and 10s end screen; exact 10m remains UNVERIFIED. No prior 10m evidence applies. Recommendation 05m remains provisional; independent reviewer, runtime, rights, actual timings and owner approval UNVERIFIED.
+
+| Target / format | Full EN | Full RU | EN words | SHA-256 EN | SHA-256 RU | Decision |
+|---|---|---|---:|---|---|---|
+| 02m Long | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 305 | `c027b99f1348e38d58f864118fc67b1d09138a3187348eb20e9d9762e73b9451` | `022202228807b2f66fc9662a12c6bd2650988607b73af84a14e8887cc52b82f9` | Preserved, brief complete |
+| 05m Long | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 781 | `cc8459a28a341ae5e8112194583b7f306c8f6a283d1e12ddb3c0e43f6a544b90` | `cea3c6c3827eed80475337450c8edb541f64f6bea577814e916556781a507ef3` | Preserved, recommended candidate |
+| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1283 | `a48e9163079240b79cd5b3cf1c9fb37af82f4cea3f87cad75775219a22267eee` | `e631bd784c8ea8277d302714f8d0f1e4a1ecc8af99da09cff669738d9ed76bec` | Reworked; independent review/timing pending |
+
+Before → after: old 10m repeats code tiers and legal-precedent explanations after central contradiction; no explicit final loss of goodwill. New 10m makes the expiring offer and two claimants' ultimate zero the causal spine; reduces duplicate mechanisms and final recaps. All six complete texts were read. All three are Long 16:9 per ChannelSpec; no loop requirement. 02m 305 EN words ≈ 1.97–2.44 min, 05m 781 ≈ 5.04–6.25 min, all estimates exclude pauses and end screen.
+
+## Current eight canonical dimensions (authorial, not independent)
+
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Интерес/значимость | 8 — family and prize refusal, compressed legal consequence | 8 — recognisable contest, named family and case result; similar to #100 | 8 — temporary offer versus final zero gives human stake, legal detail still niche |
+| Начало | 8 — two questions, refusal in fourth paragraph | 8 — three questions, early code hook; asks why so many, precise manufacturing cause unknown | 8 — concrete final loss promised, household before P04 refusal; two men not introduced until P12 |
+| Развитие / причина досмотреть | 7 — compensation-to-violence-to-court compressed | 8 — rules, refusal, offer and association; repeated code explanation slows P12–16 | 8 — P11 deadline → P13 demand → P16 partial award → P18 millions → P21 zero; P17 second track slows |
+| Payoff | 8 — one reversal, scope limited | 8 — P25–29 explains code and legal answer but late recaps | 9 — P21 both awards lost, P22 separate damages, P23 returns to family without inventing outcome |
+| Свежесть угла | 7 — familiar promotion scandal | 7 — code conflict versus rigged Monopoly | 8 — expired fallback payment as separate legal twist, not proven novelty outside queue |
+| Визуальная выразительность | 8 — caps, TV, court; limited time | 8 — caps, contrasting lists and human scale; court paperwork repetitive | 8 — two keys, 134/349 display, seven/two caps, contrasting award cards; legal section still abstract |
+| Естественность/ясность речи | 8 — short clauses, transition abrupt | 7 — repeated code summaries and abstract closing | 8 — concrete decisions; several unfamiliar names and amounts may burden cold listener |
+| Подтверждённость зрительского интереса | UNVERIFIED — no matched baseline | UNVERIFIED — no own data | UNVERIFIED — no own data |
+
+Confidence: medium for text-grounded observations and low for predicted attention/pace; factual claims separately high for court records, medium for attributed contemporary family report. Demand UNVERIFIED. No automatic scores. 02m factual wording “Most protests” is not quantified in the evidence; 05m table/collection scene and broad “most viewers” lack precise corroboration in accessible article; preserve existing versions in this pass, flag for next narrow fact revision before selection. These are not owner-approved; no version cleared for production. 05m provisional recommendation: enough legal context and shorter than 10m, with caveats above; 02m loses detail at attack → court; 10m adds meaningful deadline/award reversal but risks losing attention at separate damages track P17 and prior cases P19. No duration selected by owner.
+
+## Current story maps / visual intent
+
+02m P01 questions → P02–03 family and number → P04 refusal → P05–06 code/offer → P07 human fallout → P08–09 specific result. 05m P01 questions → P02–05 family/code → P06–16 promotion and mismatch → P17–22 offer, association, harm → P23–29 court and answer. The following 10m map is bound only to new EN/RU SHA-256 above; paragraph numbering is editorial span, not approved shot count or timing. Each span is one or more possible static paper dioramas, no generated media.
+
+| Span | Verified event / visual intent |
+|---|---|
+| P01–04 | Promise of court loss; ordinary family/TV and rejected cap; no invented portrait |
+| P05–07 | Consulting selection, sealed two-key box, redemption counter; optional paper plane candidate P06 |
+| P08–10 | Same digits on caps, switch to 134, actual prize tiers; distinguish printed amount from valid code |
+| P11–13 | Deadline and choice, seven vs two caps, July demand and court files |
+| P14–15 | Protest and harm through restrained non-graphic memorial/empty street, then growing court filings |
+| P16–18 | Distinct case folders, small payment, damages, large award; distinguish actual award from printed face values |
+| P19–21 | Prior rulings and reversal; court documents and awards crossed out, not recreated as archive |
+| P22–23 | Separate damages reversal, family hopes and final zero for the two men; no fabricated Victoria outcome |
+
+Hard checks: source comparison completed for new assertions in 10m (research links), semantic EN/RU author check of 23 paired paragraphs; no Short loop (N_A), no final storyboard/timing or visual rights (UNVERIFIED), no independent reviewer (UNVERIFIED). Old 10m reviews/spans/timings stale, historical 25-shot storyboard stays obsolete. No approved linked ending target or actual intro available; dependency recorded, not invented. Runtime/approval UNVERIFIED. Local coordinator must register only one selected exact script via canonical pinned route; no replacement of existing runs. Next: independently review these texts, correct 02m/05m narrow factual concerns, or proceed to next unreviewed Long after fresh head check.
+
+---
+
+## Historical review below — not current 10m scores, hash or timing
+
 # Pepsi 349 — three exact editorial variants, 2026-11-16
 
 **Status:** EDITORIAL_CANDIDATE_UNREGISTERED. Direct owner instruction 2026-11-15; proposed skill/editorial [PR #124](https://github.com/kleksar/ytvideos/pull/124), original proposed revision `7d6bdf7702a2a241a33a21677fce29f26ada9b72`. #124 was subsequently merged into main; it was only proposed at the time of the historical review. Canonical main at review start `ddafebf5aec10ff4158b4ea8aabac4dd1d576b67`. PR baseline HEAD `683b0f7a5bbae99ea6fdb0f21481e91adc44d9cf`. Source master `script.en.txt` (blob `f08306d0f6290f276b5750cbc91ab614d5c13fad`) and RU `script.ru.txt` (blob `a251314424054e408349abcfaf04ce7cdfb2df82`) **unchanged**.
