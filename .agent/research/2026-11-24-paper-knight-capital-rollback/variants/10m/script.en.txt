@@ -1,0 +1,57 @@
+How could two hundred and twelve ordinary customer orders generate more than four million transactions? Why did an attempt to restore working software make the disaster worse? And what did a company have to give up to survive the result?
+
+Before August 2012, Knight Capital was a major participant in the American stock market. It usually accounted for about a tenth of trading in listed American shares. Its software helped determine how orders for those shares reached the market.
+
+That meant its computers had to do something more complicated than just pass on an instruction to buy or sell. Suppose you want to buy one hundred shares of a company. There might be people offering smaller quantities on several exchanges. A broker's computers can divide your request and send out several smaller orders. When fifty shares are bought in one place and fifty in another, the original request is satisfied. Those numbers are only an example, but the distinction is important. A single customer order can legitimately become several orders on the market.
+
+A program at Knight handled this kind of routing. It needed to keep track of the parts of a customer's order that were already filled and make decisions about the parts that remained.
+
+The New York Stock Exchange was about to introduce a new retail trading program on August 1. Knight prepared an update that would let its software recognize the relevant orders and handle them under the new program. It began installing the software on July 27.
+
+There were eight servers running the routing program. Seven got the update. The eighth did not. There was no written procedure requiring another person to check that the deployment had been done correctly.
+
+Now imagine two machines receiving exactly the same instruction. One recognizes a request to participate in the new exchange program. The other starts running a function that hasn't been used in nine years.
+
+That was the difference Knight had accidentally created between its machines. And the old function had developed a fault in the intervening years.
+
+Knight had stopped using a feature called Power Peg in 2003. It didn't remove all the code that made the feature work. In 2005, it moved part of the logic for counting shares that had already been bought or sold to another part of the program. Power Peg was no longer used, so it wasn't tested after the change. It remained on the servers without a properly functioning way to keep track of how much of the original request had been filled.
+
+The new software reused the instruction that used to activate Power Peg. That was a serious problem on the eighth machine, which still understood the old instruction. New orders arriving under the exchange program could inadvertently start running the old code.
+
+There was an opportunity to see the trouble before real trading began. Before the exchange opened, some orders relating to the new program had already arrived. A separate system produced emails containing an error description: Power Peg disabled.
+
+It sent ninety-seven such emails before the opening bell. These were not purpose-built emergency warnings. They were messages from another part of the software, generally not reviewed by the recipients. They weren't acted upon before trading began.
+
+At nine thirty in the morning, the exchange opened. The old feature on the eighth server started sending orders. As its smaller orders were filled, it failed to take proper account of those fills. It could keep sending new orders long after a customer had received the number of shares requested.
+
+To understand why that continued, look at the system as a whole. Another part of Knight's software could keep track of the original customer order and knew when the request was complete. That knowledge wasn't communicated back to the faulty routing program. The company had the information necessary to see the mismatch, but not a working connection that would stop the extra orders from going out.
+
+The market didn't know that the orders were mistakes. Buyers and sellers responded to them. The resulting trades were real, and Knight was taking on positions that weren't justified by customer requests.
+
+One clue appeared in a temporary account used to collect certain positions before they were dealt with. The account was growing rapidly. But it could receive positions for several reasons, so the numbers did not immediately reveal where the excess was coming from.
+
+The account had a two-million-dollar gross position limit. That limit wasn't integrated into an automated system that could prevent the company from exceeding its overall exposure. Knight also relied on a monitoring application to show staff what had already happened in the market. It didn't automatically stop new orders when exposure rose, and its figures became less reliable when trading volume surged.
+
+There were controls on certain incoming requests and limits on some prices. But the orders involved here were sent in the opening auction, where the relevant price limit didn't apply. A control that looks reassuring on a list of safeguards isn't necessarily a control that can stop this particular sequence of events.
+
+During the incident, Knight's staff were trying to locate the cause while trading continued. They uninstalled the new code from the seven servers that had been updated correctly.
+
+Consider what that did. They were still receiving requests containing the instruction for the new exchange program. Removing the update restored the old interpretation of the instruction. That interpretation could now activate Power Peg on more servers. The attempted repair made the problem worse.
+
+In about forty-five minutes, the routing program generated more than four million completed transactions involving one hundred and fifty-four stocks. They came from only two hundred and twelve incoming customer orders. In total, the transactions involved more than three hundred and ninety-seven million shares.
+
+The effects were visible beyond Knight. In seventy-five stocks, Knight accounted for more than a fifth of trading volume during the incident and prices moved more than five percent. Some people who traded during the incident received better prices than they otherwise would have obtained. Others received worse ones.
+
+Knight was left with billions of dollars in positions. It had a net long position of about three and a half billion dollars across eighty stocks, and a net short position of about three billion one hundred and fifty million across seventy-four others. In plain English, in one group it had bought more shares than it had sold; in the other it had sold more than it had bought. It was exposed to further changes in the prices of both groups. Those figures were the size of its positions, not the amount of money it had lost.
+
+The company ultimately lost more than four hundred and sixty million dollars because of the incident. It now had another problem. Firms that trade on the stock market need capital and the confidence of their customers and counterparties. Knight needed both back quickly.
+
+On August 6, it announced a four-hundred-million-dollar investment. A normal shareholder vote would have taken time the company couldn't afford. Its board's audit committee concluded that waiting for shareholder approval would seriously jeopardize the company's financial viability. The exchange did not object to Knight using an exception to that requirement.
+
+In return for their money, investors got preferred securities that could be converted into approximately seventy-three percent of Knight's common stock after the issuance. This was not simply a large loan that left the ownership of the company unchanged.
+
+In July 2013, Knight merged with another trading firm, GETCO. Later that year, the securities regulator imposed a twelve-million-dollar penalty in a settlement and required an independent review of Knight's controls.
+
+The missed server is easy to understand, and a second check might have caught it. But the firm's own controls had been reviewed without adequately considering what would happen if the routing software itself malfunctioned. The old function survived, the information about completed customer orders didn't reach it, and the excessive activity wasn't automatically blocked before it could reach the exchange.
+
+When the employees removed the update, the underlying conditions had not gone away. The commands for the new program were still arriving. Returning to the old code returned the machines to an old interpretation of those commands. Knight had lost its ability to trust not only the new version but the supposed safe way back to the old one.
