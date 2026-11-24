@@ -1,0 +1,55 @@
+I've just got back from a weekend with three friends, and I have four receipts to settle. The strange part is that the friend who paid for the groceries might have to send money to two people and receive money from a third. Can I eliminate those extra transfers without making anyone pay more? And can I still trust the shortcut if someone spots a mistake in our expenses?
+
+I'll build a model of that weekend rather than pretending I've tested four real bank accounts. I want to find out how many separate payments it takes to settle the trip. I'm not measuring bank processing times, fees or whether the friends are happy with the original split. For the first run I assume we have agreed to split everything equally, we use the same currency, and every person can pay any of the others.
+
+Here are my four receipts. I paid a hundred and sixty dollars for our accommodation. Maya paid a hundred and twenty for the rental car. Leo picked up eighty dollars of groceries, and Nina paid forty for snacks. Nobody has reimbursed anyone yet.
+
+I could settle the money between each pair of friends, method A. If I owe someone and they owe me, I cancel those two amounts and send only the difference. Or I could work out each person's final balance for the whole trip, method B, and arrange payments between people with opposite balances. Which method would you use?
+
+I'll try A first because it has a familiar advantage: every payment follows a pair of original obligations. If a friend asks why they're sending me money, I can point to the bill we shared and the amount I've already offset.
+
+The accommodation costs forty dollars each. Maya owes me forty, Leo owes me forty, and Nina owes me forty. My own share is already included in the amount I paid to the host, so I don't write a debt to myself.
+
+Now I look at Maya's car receipt. Its hundred and twenty dollars means thirty dollars each. Maya owes me forty, but I owe her thirty. We cross out thirty in each direction. She sends me the remaining ten.
+
+Leo owes me forty for the accommodation and I owe him twenty for the groceries. He sends me twenty. Nina owes me forty for the accommodation and I owe her ten for the snacks. She sends me thirty.
+
+I add up those three amounts. Ten, twenty and thirty give me sixty dollars. My own account is finished, but I can't close the group ledger yet.
+
+There are three pairs that don't include me. Leo owes Maya thirty for the car and she owes him twenty for the groceries, so he sends her ten. Nina owes Maya thirty and Maya owes Nina ten for the snacks, so Nina sends Maya twenty. Nina owes Leo twenty and he owes Nina ten, leaving another ten-dollar transfer from Nina to Leo.
+
+Six payments. A hundred dollars moves through the group. My sixty is exactly what I need to receive; Maya has received thirty and sent ten. Leo has sent thirty and received ten, and Nina has sent sixty. I can close all six pair balances.
+
+There's something odd about Leo's account. He spent eighty on our trip. Now he has to send thirty and get ten back. If Nina could send that ten to one of the people Leo owes instead, Leo wouldn't need to handle that extra money. The original calculation wasn't wrong. I'm beginning to see a different way to settle the same trip.
+
+I reset all the transfers. In B, I stop looking at pairs and start with the total cost. My receipt and Maya's come to two hundred and eighty, Leo's brings that to three hundred and sixty, and Nina's makes four hundred. Our agreement says each of us should cover a hundred dollars.
+
+I put one balance beside each name. I paid sixty above my share, so I need sixty back. Maya paid twenty above hers. Leo paid twenty less than his share and Nina paid sixty less.
+
+There are two amounts to receive and two to send. In this case they match perfectly. I can ask Nina to send me sixty and ask Leo to send Maya twenty. I check the four results: a hundred and sixty minus sixty, a hundred and twenty minus twenty, eighty plus twenty, and forty plus sixty. Everyone finishes at a hundred dollars.
+
+Two payments instead of six, and only eighty dollars moves. The twenty-dollar difference in money moved is not twenty dollars of savings on the holiday. It's money that no longer needs to pass through an extra person's account.
+
+Could I reduce the count to one? No. Nina and Leo both owe money, and a single ordinary transfer has only one sender. Both of them have to pay. Two is the minimum for this particular set of balances, not a promise about every group.
+
+Before I send anything in either version, imagine I check the receipts with Nina. We notice that the snacks were for Nina and me only. That's a different agreement. I keep the accommodation, rental car and groceries shared by all four. Only the forty-dollar receipt changes.
+
+Each person's share of those first three bills is ninety dollars. Nina and I each add twenty dollars for the snacks. Maya and Leo add nothing.
+
+I have paid a hundred and sixty and should have spent a hundred and ten, so I need fifty back. Maya paid a hundred and twenty and should have spent ninety, so she needs thirty. Leo paid eighty and should have spent ninety, so he owes ten. Nina paid forty and should have spent a hundred and ten, so she owes seventy.
+
+If I blindly send the original two payments, my own cost would be ten dollars too low and Maya's ten dollars too high. Leo would pay ten too much, while Nina would pay ten too little. The shortcut doesn't know that the input agreement was wrong.
+
+I recalculate A. Maya still sends me ten and Leo still sends me twenty. Nina now sends me twenty, not thirty. Leo still sends Maya ten. Nina sends Maya thirty and Leo twenty. Six payments remain, but now a hundred and ten dollars moves.
+
+In B, I ask Nina to send me fifty, then send Maya twenty. Leo sends Maya ten. That's three payments and eighty dollars moved. I cannot settle those balances with two transfers: both debtors would have to make exactly one payment each, but neither of their amounts matches either of the two credits. The third payment is necessary under our rules.
+
+Now imagine another change. Before we spotted the snack receipt, Nina had already sent me ten dollars. This is not an extra expense for the holiday. It is a repayment.
+
+I keep the corrected shares, but I reduce my remaining credit from fifty to forty and Nina's remaining debt from seventy to sixty. Maya still needs thirty and Leo still owes ten. The plan becomes Nina to me forty, Nina to Maya twenty, and Leo to Maya ten. If I ask Nina for the original seventy again, she would be paying ten too much. This is why I record completed transfers separately instead of deleting the original ledger.
+
+My model has clear limits. It assumes everybody accepts the new routes and can actually send the money. If someone wants a receipt for a direct reimbursement, has a payment restriction, or disputes a shared cost, I have to deal with that before treating the shorter route as settled. Fewer transfers do not establish faster settlement or lower fees. And I don't combine different currencies unless we have already agreed on the conversion and what everyone owes.
+
+So I keep the record of every original receipt, every agreed share, and every payment that really happened. The four-person comparison gave me six versus two, and six versus three after correcting the snack bill. I can show each friend why their final cost is unchanged by the payment method.
+
+I would use the group balances when we agree on them, and keep the original record available for anyone who wants to check the calculation. The holiday still cost four hundred dollars. I just don't need to make it look as though the same money is going on a second trip.
