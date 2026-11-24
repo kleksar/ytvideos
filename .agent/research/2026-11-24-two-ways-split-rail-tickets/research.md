@@ -59,3 +59,18 @@ Fee sensitivity baseline: B-only fee f, A=80, B=55+f; B wins iff f<25, tie f=25,
 ## Narrative and visual boundaries
 
 Use an everyday hypothetical participant in first person. A/B identical train, visible stop labels, separate fares and price totals. Label MODEL; no fake website/receipts, no actual experiment. Channel language EN and full RU review. Short opens with choice before results; closes with question answered by opening. 05m/10m long editorial proposals, production blocked. Detailed storyboard only after independent exact script review and actual visual references. Related video optional native link only after verifying real publication and suitable existing intro. No invented footage, no TTS/media, no rights claims.
+
+## 10m revision — checkout rank reversal, 2026-11-24
+
+Baseline 7462b52ffd4f2588812dc250f7df1cad1789ff56; EN 4a6ba69f66a31185eec183e80f69ff892a6febacb6d9cb7d6bd64a89f4a769da; RU 27a95e53e86ecd434273e04a0062ffa64feb6ff34b96b6c0fe72aec1a8c0b806. Keep the first-person same-train question and stop validity twist; replace the repeated 05m flat-fee exercise. National Rail split-ticket page (https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/split-train-tickets/) re-read: “Using split tickets” and “Things to remember” require the appropriate service, time and ticket restrictions as well as ordinary split stops. The £49 later-departure restriction, new leg price and fees below are explicitly fictional inputs, not observations. Original baseline flat-fee model remains applicable to 05m, not revised 10m.
+
+| Scenario | A | B via J | B via P | B via J,P | Result |
+|---|---:|---:|---:|---:|---|
+| J-P £6, no fees | 80 | 55 | 65 | 53 | triple |
+| Same, £3 per ticket on every option | 83 | 61 | 71 | 62 | pair, B by 22 |
+| Same, £2 per ticket | 82 | 59 | 69 | 59 | leading splits tie |
+| Same, £5 per order | 85 | 60 | 70 | 58 | triple |
+| Reset £49 through valid | 49 | 55 | 65 | 69 | A by 6 |
+| £49 only valid later; existing £80 through remains | 80 | 55 | 65 | 69 | B by 25, £49 excluded |
+
+Seven four-option arithmetic cases / 28 equalities passed author-side calculation. No real booking. Story: cheap pair → fewer stops → triple wins after offer → checkout reverses ranking → fee basis restores ranking → cheap through valid only on permitted train → first-leg price changes best split → resolution. Visual intent: visible route, ticket price cards, crossed invalid choice, separate fee row; no fake retailer UI.
