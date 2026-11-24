@@ -6,8 +6,8 @@ Author: ChatGPT, editorial author only; confidence medium for causal sequence, l
 | [variants/02m/script.ru.txt](variants/02m/script.ru.txt) | 243 | `bace240c2639c1b7bb68281f3fd6be3fef56af7e9ec9bb6db66441cc9e02a989` |
 | [variants/05m/script.en.txt](variants/05m/script.en.txt) | 708 | `aeb0ce558edde04b31f38f78fa860270ca1f2698c594067fd6dd24d98c1e70ef` |
 | [variants/05m/script.ru.txt](variants/05m/script.ru.txt) | 601 | `5ed25922afecf1494372401e23c1ce6ca9a32a3c619efc61bfe9ab521491f48f` |
-| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1399 | `a16c3aa8a7a8f3280bb8d8f8c3ad3c9903ee6e0b2169860e7e73289c15d87c44` |
-| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1193 | `fd49b64164d0bc98bf2f32ffca3a44c69a140b95da9ab13781ea7f355a7bf552` |
+| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1399 | `439e7f2331423defeaebcc3a71fb2d6fced40e7990213dff78d738288437089b` |
+| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1193 | `4eca43dd2312383403c505d53032d13444d3d49f93bed52dbd1023b64880aee6` |
 
 Estimated EN effective narration 130–155 words/min (not measured, profile 1.10× applied only in real production; no speed change). Add 10s for Long endscreen separately, actual pauses not measured. RU review text not a production voice, timing illustrative only. 02m 1.82–2.17 min narration; 05m 4.57–5.45 min narration; 10m 9.03–10.76 min narration. 02m RU 243 words; 05m RU 601 words; 10m RU 1193 words. 10m is a full story but target duration not proven; if narration tests fall short do not pad or accelerate. 
 
