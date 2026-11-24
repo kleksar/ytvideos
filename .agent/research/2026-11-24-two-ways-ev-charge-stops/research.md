@@ -1,0 +1,51 @@
+# Research — one trip, one long charge or two short charges
+Observed 2026-11-24; main a6023668001421b689a8142cebc0bd436545be6b. PR #124 merged; canonical main applies. Rotation: remote #399 Nuviko after #398 Paper and #397 Two Ways; next Two Ways.
+
+## Selection before script
+Audience: broad English everyday-decision audience; EV drivers and prospective renters/buyers, not battery engineers. Specific desire: arrive sooner without reducing arrival reserve. Considered ten directions against 399 PR titles including closed, releases endpoint empty, issue search no standalone issues returned, and published queue E001–E006 in repository. Private current Studio queue and analytics not independently visible. Existing #397 flight booking and #394 trip splitting are unrelated, #320 AC/open windows is vehicle consumption not charging; #379 standby power is not this. No known duplicate in scanned titles or charging/EV searches. No owner rejection found; #13/#88 and accepted #20/#25/#46 protected.
+
+| Candidate | Payoff / objection | Decision |
+|---|---|---|
+| EV long charge vs two sessions | same reserve, surprising time win, threshold, availability; narrower EV audience | finalist |
+| Card terminal home vs local currency | two buttons, fee comparison and reversal if issuer charges more; actual rates variable | finalist |
+| London daily pass vs capped taps | cap makes a pass redundant in some cases; region-specific rules and discounts | finalist |
+| Annual streaming plan vs month-to-month | break-even based on actual viewing months; little development beyond threshold | reserve |
+| One large print job vs allowing short jobs between batches | waiting vs switching overhead; resembles scheduling #217 and needs fairness choice | reserve |
+| One big shopping trip vs two stores | basket savings vs travel/time; overlap #307 and #237, current prices unavailable | reserve |
+| Buy or rent carpet cleaner | frequency and detergent; too close to pressure-washer #335 | exclude |
+| One continuous video backup vs incremental | rescan/transfer costs vary by device; weak physical scene | reserve |
+| Return package at nearby shop or drop-off on commute | measurable detour and deadline, weak reversal without arbitrary delays | reserve |
+| Two loads in different washing machines vs one machine | timing and availability; overlaps #246 | exclude |
+
+Finalists:
+- EV opening: "One long charging stop or two short ones? Which gets me home sooner?" Same car and reserve; the first method spends time in slow bands, second resets to faster range; queue or slower charger cancels saving. Payoff is exact threshold with the same arrival charge. Objection: EV-only audience and common advice; concrete equal-energy comparison distinguishes it from generic rules.
+- Currency opening: "The card machine offers me a price in my own currency. Is that the cheaper button?" Same purchase, assumed merchant vs issuer conversion and fee, then counterexample if issuer fee is high. Payoff: compare all-in cost, not currency label; Visa confirms option/markup disclosure, but numerical rates would be assumed and much of a 10m version risks repeating one calculation. Strongest alternative for broad travel audience. Source https://www.visa.com/en-gb/personal/travel/dynamic-currency-conversion.
+- London opening: "I need six rides today. Is the unlimited pass actually cheaper?" Same adult itinerary, daily cap vs fixed ticket; discounts or bundled rail cases need eligibility. Payoff compare eligible products; specific region narrower, rules can change. https://tfl.gov.uk/how-to-pay/pay-as-you-go and https://www.london.gov.uk/md3464-march-2026-transport-london-fare-changes, 2026 cap table: zone 1–2 £8.90 vs Anytime 1–4 £16.60, not equivalent zones in general. https://www.nationalrail.co.uk/tickets-railcards-and-offers/ticket-types/oyster-contactless-and-travelcards/ describes caps, validity, eligibility. No arbitrary fare conclusions.
+EV wins for visible progress, nontrivial second stop with equal endpoints and second outcome. Currency has broader reach but weaker development. Editorial hypothesis, not proven demand.
+
+## Audience evidence (indexed public pages, not watched)
+Observed 2026-11-24. Index counts, not live analytics; crawl dates vary. Duration unknown except descriptive chapter lower bound; language/format inferred from metadata.
+| Topic | Video / author | Published | Indexed views | Format/language / limits |
+|---|---|---|---:|---|
+| EV | https://www.youtube.com/watch?v=rhEGTyOcrWw Shayan_EV, charging engineer road-trip charging | 2026-08-01 | 34,202 | English explainer; chapters to 8:30, exact duration unknown; index ~3 months old |
+| EV | https://www.youtube.com/watch?v=6zcEsrTzbuA Automobile Propre, highway 80% | 2020-12-25 | 83,653 | French with EN subtitles per title; duration unknown, index ~2 months old |
+| EV same-author comparator | https://www.youtube.com/watch?v=jFlKrVkg9xU Shayan_EV, reading curves | 2025-07-20 | 1,173 | duration/format unknown, older crawl |
+| EV same-author comparator | https://www.youtube.com/watch?v=3X7XJkFSMyQ Shayan_EV, home vs highway charging cost | 2026-03-07 | 184 | duration/format unknown, index ~7 months old |
+| EV same-author comparator | https://www.youtube.com/watch?v=b3Vz-xccB3M Shayan_EV, no home charger | 2026-03-28 | 101 | duration/format unknown, same caveat |
+| Currency | https://www.youtube.com/watch?v=AdLb527Mxjo Preet Banerjee | 2016-10-24 | 32,078 | English consumer explainer, duration unknown |
+| Currency | https://www.youtube.com/watch?v=3JHKF-CfkOc Moneris DCC | 2024-05-09 | 219 | English provider/merchant marketing, not comparable audience |
+| London | https://www.youtube.com/watch?v=h4Vo65vVffE TutorialsWithJames Oyster vs contactless | 2024-01-04 | 6,221 | English tutorial, title updated to 2025; not exact pass comparison |
+
+Baseline composition above; no matched age/length sample for either EV author, no useful baseline for other two. Shayan result could be outlier; older/smaller results are counterevidence, not proof of velocity. French video evergreen cross-language signal, not English Short benchmark. 2026-08-01 outside 90 days on Nov 24. Recent (30–90 days) signal: Sep 27, 2026 https://autos.yahoo.com/ev-and-future-tech/articles/britain-one-ev-owner-says-184400001.html reports Dave Takes It On challenging rigid 80% rule; includes contrasting viewer comments about charging to 100% or just enough to reach destination. Secondary report, video not watched, views/duration not observed. Direct evergreen questions: https://www.reddit.com/r/TeslaModel3/comments/121qoy5 (2023-03-25, first EV owner asks about charging to 90–95% at every stop; replies discuss reserve/weather/meal); https://www.reddit.com/r/electricvehicles/comments/t8biro (2022-03-06, route planner charge limits). London real questions https://www.reddit.com/r/LondonTravel/comments/1iaxtgz (2025-01-27 why buy day pass) and https://www.reddit.com/r/TransportForLondon/comments/1pfvlnz/weekly_rail_pass/ (2025-12-06 weekly pass). Currency direct comments not retrieved; UNVERIFIED. No fresh comparable English Shorts baseline or retention/CTR. Pages/title/description only, no video/audio/transcript watched. No vidIQ paid calls or purchase. Demand UNVERIFIED for all.
+
+## Evidence and reproducible model
+Tesla support https://www.tesla.com/support/charging/supercharging (read Nov 24): rate depends on pack/temperature/charge; charging slows as pack fills; navigation suggests enough to reach next station. Also route/station access, waitlist at some sites. Supports mechanism and feasibility, NOT the numerical model. No named model, real geography, tariff, road test or chemistry claim.
+Inputs invented: start 20%, destination reserve 20%, middle arrival reserve 20% if stopping. 280km, model 400km/full =4km/point, legs 160/120km =40/30 points. Model speed 100km/h; drive 96+72=168 min. Stations on route, compatible, free initially; overhead 5min per session, no detour. Charge bands [20,60] 2 pp/min; [60,80] 1; [80,100] .5. Time metric declared before comparison, same route/reserve. 
+- A 20→90: 40/2 +20/1+10/.5=60 charge; +5=65 stopped; leaves t65, middle t161 SOC50, home t233 SOC20.
+- B 20→60: 20 charge+5=25; middle t121 SOC20; 20→50: 15+5=20; leaves t141; home t213 SOC20. Both add 70 points. 25 charge minutes avoided minus 5 extra overhead =20.
+- Queue q: B 45+q vs A65; tie q20; q25 B70 loses5. Slow second rate1: B20+30+10=60; +10 queue B70 loses5.
+- Lunch overlap (10m) replace first stop by max(lunch,stop). 30min lunch A65 vs B30+20=50; B saves15. 65min lunch A65 vs B65+20=85; A saves20. Full overlap assumed, same duration both.
+- Unavailable second station discovered before departure: B can reach site with20 but cannot finish 120km with reserve, infeasible without alternative. A remains feasible. No made-up finish time.
+- Higher consumption reset: first45 second35; A20→100=80 charge+5=85; B20→65=25, 20→55=17.5, +10=52.5, saves32.5. Both add80 and finish20. Above capacity A infeasible.
+- Price separately: 80 usable kWh, no losses/fixed fees, 70%=56kWh. .40/kWh both→$22.40. B 32*.40+24*.60=$27.20, +$4.80 vs A. Not live rates.
+Reproducibility: for each band add max(0,min(end,hi)-max(start,lo))/rate. Arithmetic assertions executed for A/B, total, q25, slow, increased use, lunch, price. Real charge rates, traffic, temperature, consumption, compatibility and delays vary; no unconditional charge-to-X or below-reserve advice. Original narration/model only, no third-party imagery/audio proposed; actual asset rights UNVERIFIED.
