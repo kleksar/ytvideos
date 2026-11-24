@@ -1,0 +1,51 @@
+I want to catch a train from West to Harbour. The screen says eighty pounds for a ticket. I'm about to pay when I notice that shorter trips along the very same route have their own prices.
+
+Could I buy those shorter trips and ride all the way to Harbour for less? Would the tickets still be valid if I stayed in my seat? And how much could I lose by choosing the wrong combination?
+
+I'm going to build a small model of a British railway and make two ways of buying the same journey compete. These are fictional stations and fares, not quotes from a booking site. The rules about ordinary split tickets, however, come from the British rail system.
+
+Here's the route. I leave West, call at Junction, call at Park, and arrive at Harbour. I'm buying standard class for one person, for this particular train, without a railcard. I'm not measuring the number of tickets, the time to buy them, or the flexibility of a different train. My score is the total price paid for a valid journey on this train. I can only compare a fare if it allows this train and covers the necessary stretch.
+
+Which would you choose? A is one through ticket. B is a combination of two or more tickets. Both must get me to Harbour.
+
+I'll buy nothing until I've compared the available prices. First, A: West to Harbour costs eighty pounds. I know what that means. One fare, covering the whole route.
+
+Now I check B. West to Junction is twenty-eight pounds. Junction to Harbour is twenty-seven. I add them: fifty-five pounds. That's twenty-five pounds cheaper than A. So far, B has a clear lead.
+
+But I have another possible split. West to Park costs forty-six pounds, and Park to Harbour costs nineteen. That makes sixty-five. It's cheaper than the through ticket, but ten pounds more expensive than the first pair.
+
+What about dividing the journey into three pieces? I already know the twenty-eight-pound fare to Junction and the nineteen-pound fare from Park. Junction to Park is twenty-two. Twenty-eight plus twenty-two plus nineteen makes sixty-nine pounds.
+
+I've now covered every way to divide this simple route at its two intermediate stops. My three possible split totals are fifty-five, sixty-five and sixty-nine. The lowest is fifty-five. More tickets didn't always mean more savings. The three-ticket option actually cost fourteen pounds more than the best pair.
+
+I can show all four results together and choose the cheapest valid option. In this model I save twenty-five pounds without changing where I'm going or which train I'm taking.
+
+Why might the prices behave like this? A train ticket is a fare for a particular journey, subject to its own conditions. It's not necessarily a price per mile that stays constant along every route. There may be different offers, restrictions and availability for the shorter sections. I'm not claiming that every real price difference has one particular cause. I can only know the offers that are available when I search.
+
+There's also a practical rule that keeps the comparison honest. For ordinary split tickets, the train must call at the station where I switch from one ticket to another. It isn't enough to see that station on a railway map. My original train calls at Junction and Park, so the valid pair to Junction and then Harbour covers the whole ride.
+
+When the train stops at Junction, I don't have to get off and board again simply because the first ticket ends. If I have two different reserved seats, I may have to move, though. I can't assume a seat reservation covers the whole train ride just because my tickets do.
+
+Now I change exactly one feature of my itinerary. I decide to take an express service along the same route. It goes through Junction without stopping and calls at Park. I keep the modeled through price at eighty pounds, and keep the Park split quotes available and valid for this train.
+
+Look at my three split choices again. The fifty-five-pound pair fails because it splits at Junction. The sixty-nine-pound triple fails for the same reason. There's only one ordinary split left in my simple model: West to Park and Park to Harbour. That's sixty-five pounds, saving fifteen against the through fare.
+
+Imagine that I only searched for the cheapest split on the slower service and copied it onto my express. The screen might show a lower total, but the tickets wouldn't satisfy the stop rule. I can't put an invalid journey in the results just because its number looks good. If a different express skipped both intermediate stops, none of these three ordinary splits would remain valid. A would be the only option in this four-station model.
+
+So far, I've learned to check more than the sum. The exact train matters. Next, I go back to my original stopping service. All three ordinary splits are valid again, but this time I look at the total cost after fees.
+
+Imagine that one seller offers the through ticket with no booking fee and another adds five pounds to the cheapest split combination. The fares themselves are still eighty and fifty-five. After the fee, I pay sixty for B. That's a saving of twenty, not twenty-five.
+
+I can work out the point where that extra fee removes the saving. Eighty minus fifty-five is twenty-five. If B alone adds twenty-five pounds, the methods tie. At any greater extra fee, A is cheaper. If the exact same fee is added to both, the difference stays twenty-five pounds. These amounts are just sensitivity tests; they aren't an allegation about the charges of an actual booking service.
+
+What happens when the fares themselves move? I refresh the model, still on the stopping train. A new through fare appears at forty-nine pounds and is valid on my chosen train. The split fares remain twenty-eight and twenty-seven for the first pair; the other pairs remain sixty-five and sixty-nine. This time A wins by six pounds. There's no rule that says the total has to be lower when a ticket is divided.
+
+Now I'll try a different change, rather than just repeating the same result. The through price is back at eighty, but the short fare from West to Junction rises from twenty-eight to fifty-six. I haven't paid yet. I might be tempted to say splitting now costs eighty-three pounds and give up.
+
+That would be a mistake. Eighty-three is only the price of that first pair. I still have the split at Park for sixty-five. The three-piece version now costs fifty-six plus twenty-two plus nineteen, or ninety-seven. B's best valid combination is sixty-five, not eighty-three. The cheaper combination changed when one offer disappeared.
+
+There's one last boundary to my comparison. I chose a particular train from the start. If the cheapest ticket is an Advance ticket tied to that train and I might want a different departure, I need to compare the flexibility I am actually buying. A more expensive flexible fare can be a different product. My figures don't assign a cash value to that flexibility or to seat reservations. If a train is delayed or cancelled, I check the applicable passenger rights and the operator's instructions; I don't assume that holding several valid tickets automatically cancels those rights.
+
+When I reach Harbour in this model, both the valid through ticket and the valid split combination have done the same job. On the original prices, I keep twenty-five pounds in my pocket. On the express, fifteen. With the forty-nine-pound through fare, I choose A. When the first split fare rises, I check the remaining combinations instead of assuming every split is now expensive.
+
+I can take this method to a real booking screen, but not these invented fares. I start with the train I need, find the stations where it actually stops, compare all available valid tickets and the full cost, then make sure the restrictions match my plans. The winning choice is the one that gets me to Harbour on the journey I've chosen for the lowest price. Sometimes that's a pair of tickets. Sometimes it's the single ticket I almost bought at the beginning.
