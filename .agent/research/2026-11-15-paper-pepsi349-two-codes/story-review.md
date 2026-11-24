@@ -1,3 +1,36 @@
+## 2026-11-24 — exact 02m/05m factual and causal correction
+
+EDITORIAL_CANDIDATE_UNREGISTERED. Baseline `e48087cc525fd022c22917e7dc98268ddbb0b49b`; canonical main `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). 10m and original root master/storyboard preserved; the root master contains superseded claims and must not be selected as current 05m. This is a bounded correction of unapproved alternatives, not a production instruction.
+
+| Target | Full EN | Full RU | Words EN/RU | SHA-256 EN | SHA-256 RU | Decision |
+|---|---|---|---|---|---|---|
+| 02m Long | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 297 / 281 | `98b3e1dab86b68cdbe53295b1219ae25ab8e876082b71177200f5c2143238315` | `d4e0b65579b22bb5628972b779c81a90fc78cd4c82966bcf318209b95b8a6ab7` | Factual repair |
+| 05m Long | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 730 / 633 | `ef436c78d48535a9a4d74b71e4ce73e10f9a6d7dc8207a98807c9f075bf385ee` | `87dd2366ee033b0b61393c2cc5e1779485b237a7f298909ae3272b3af568141f` | Factual and payoff repair; recommended |
+| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1283 / 1072 | `a48e9163079240b79cd5b3cf1c9fb37af82f4cea3f87cad75775219a22267eee` | `e631bd784c8ea8277d302714f8d0f1e4a1ecc8af99da09cff669738d9ed76bec` | Preserved |
+
+Old 02m/05m SHA-256 (EN/RU respectively): `c027b99f1348e38d58f864118fc67b1d09138a3187348eb20e9d9762e73b9451`, `022202228807b2f66fc9662a12c6bd2650988607b73af84a14e8887cc52b82f9`, `cc8459a28a341ae5e8112194583b7f306c8f6a283d1e12ddb3c0e43f6a544b90`, `cea3c6c3827eed80475337450c8edb541f64f6bea577814e916556781a507ef3`. Previous 02m/05m exact-script evidence is stale; 10m hashes and evidence remain unchanged. EN estimated at illustrative 125–155 wpm, excluding pauses and end screen: 02m 1.92–2.38 min; 05m 4.71–5.84 min; 10m 8.28–10.26 min. Actual timing UNVERIFIED.
+
+Before → after: 02m no longer claims a majority of protests were peaceful without a denominator; specifies offer deadline, claimant argument and unknown individual legal outcome. 05m removes the invented cap-table action and unsupported audience quantifier; opening asks what distinguished valid caps, not the unestablished root cause of mass printing; the concrete seven-cap claim and actual published prize range replace repeated code exposition. The final court decision now resolves the two men's claims and expired goodwill offer before returning briefly to Victoria. The separate damages track, two-key vault and full award ladder still belong to 10m. Source-backed and bilingual author check only. No owner approval, no independent reviewer, no runtime receipt.
+
+| Canonical criterion | 02m | 05m | 10m unchanged |
+|---|---|---|---|
+| Interest/meaning | 8: family hopes and refusal; limited court context | 8: named family and seven disputed caps give stakes | 8: dual appeals and deadline, niche detail |
+| Opening | 8: direct prize/court questions, refusal P04 | 8: concrete eligibility question, P05 code hook; delayed refusal | 8: clear final-loss promise, P04 refusal |
+| Development | 7: protests → court compressed | 8: actual code range, offer deadline, court reversal; P06–13 still repeats parts of opening | 8: P11–21 award arc, separate track slows P17 |
+| Payoff | 8: case-specific rejection and unknown personal result | 9: P25–27 actual reversal of both types of award, no extended moral | 9: both awards lost; independent damages outcome and family return |
+| Fresh angle | 7: familiar contest | 7: eligibility instead of jackpot spectacle; novelty unverified | 8: two different cases, novelty unverified |
+| Visual potential | 8: caps/TV/court, short span | 8: seven caps, code table and changed awards, court paperwork risk | 8: two keys and two cases; abstract appeals |
+| Natural speech | 8: ordinary words, brisk transition to court | 8: concrete actions and shorter ending; unfamiliar names and amounts | 8: named claimants and concrete results, heavier legal exposition |
+| Observed demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Confidence medium for text observations, high for specific court facts, medium for attributed household reporting; low for audience attention. 02m adds a complete compact answer but loses the individual case's intermediate awards; 05m is preferred because it gives a concrete claim and both legal reversals without a second lawsuit. 10m adds verified institutional controls and the separate damages track, but the secondary case P17 risks loss of momentum. Recommendation is not approval.
+
+Story spans (authorial, not final shots): 02m P01 questions → P02–03 family/TV → P04 refusal → P05–06 code and deadline → P07 protests and bystander loss (non-graphic memorial, no attack reconstruction) → P08–09 court/family and answer. 05m P01 questions → P02–05 TV/family and code → P06–13 promotion, rules and mismatch → P14–16 seven caps and published prize range → P17–19 offer and lawsuit → P20–22 demonstrations, bystander loss, case transition → P23–27 courts, reversal and family. Paper plane candidate: ordinary redemption counter P09 in 05m, cap collection P02 in 02m; never historical fact, no final image. 10m map below remains bound to unchanged hashes. All Long; loop N_A. Hard checks: source comparison for changed facts, EN/RU paragraph mapping (9/27/23); no storyboard/timing/visual rights or independent review confirmed, no audience data, no production. Git-only: exact selection later registered in canonical runtime by coordinator; preserve existing pins. External active runtime/Codex sessions could not be inspected; Git discussion contains no accepted source or active claim, prior Draft remains unregistered. Next: #103 and fresh unreviewed Long; independent review still open for #102.
+
+---
+
+## Historical record — previous 02m/05m hashes and assessments superseded; 10m unchanged
+
 # Current review — 24 November 2026
 
 EDITORIAL_CANDIDATE_UNREGISTERED. ## 2026-11-24 — current 10m revision
