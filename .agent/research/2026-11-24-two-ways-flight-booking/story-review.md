@@ -8,8 +8,8 @@ Author: ChatGPT editorial agent, 2026-11-24. Confidence moderate for narrative j
 | [variants/02m/script.ru.txt](variants/02m/script.ru.txt) | 227 | `f76ec2c74c520e908388ae6e20525bfc69fa533bc5ce1b48a8bb16c299382b10` |
 | [variants/05m/script.en.txt](variants/05m/script.en.txt) | 735 | `ef82cf137d755e4f81ebc7f03769cd958763ab63516635f7163beddd39c315ba` |
 | [variants/05m/script.ru.txt](variants/05m/script.ru.txt) | 584 | `2a3e853aab75b9d5f16fc15588492b9e1f54c552b372f001a88117e03d9801f9` |
-| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1452 | `a57d88e7e45049a070578ff6676beca7fbeb0c768452d685d492c09c237ed8b8` |
-| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1169 | `fe13a2662716a6e49ed869351e45ff04fb4c9608c7ffc1dfd19ac97ce3b4e809` |
+| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1628 | `b4506bea1f105d827adc1cf32a43a01aa34147efc38c5e68f67eee17dab72fe9` |
+| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1315 | `8fd985f93c99366b3df8470da8147c9b8f489bf2d2d2a61be79cb8f94b1f164e` |
 
 ## 02m — STRONG_CANDIDATE
 Map: four adults/same flight → pick A/B → one price level cannot fill cheap request → reset, two receipts → second-price change reverses outcome → compare before paying. 
@@ -41,20 +41,28 @@ Map: choice + why second payment → price tags not seats → A/B identical star
 Main weakness: quote ladder and arithmetic can slow the middle; likely loss point “The two methods are back to even...” if visual arithmetic is unclear. Long treatment does not have a production recipe. 
 Checks: model facts PASS; EN/RU sense PASS author; format FAIL (Long unavailable); rights UNVERIFIED; loop N_A for proposed Long; independent review UNVERIFIED.
 
-## 10m — REWORK
-Map: inventory rule → fixed A/B → number of low tickets and distinct alternative splits → quote ladder limits → price shift threshold → hypothetical benefit cost → non-priced coordination and group fare counterexample → decision.
+## 10m — REWORK (revised)
+Map: four-adult task and identical inventory → A/B stable reveal → group size quotes and one-ticket exception → second fare rises → $295 boundary → two mild changes independently save $70 but together lose $20 → boundary shifts to $250 → one remaining ticket makes B incomplete → check actual conditions before payment.
 | Criterion | Score | Basis |
 |---|---:|---|
-| Interest | 8 | Three practical questions about same flight and price. |
-| Opening | 8 | “Would I ever be better off buying two tickets...” framed around imminent purchase. |
-| Development | 7 | “Suppose there is only one cheap ticket” is new useful sensitivity, but additional cases slow main reveal. |
-| Payoff | 8 | Separates fare saving, final cost and incomplete-group risk. |
-| Freshness | 7 | More nuanced than one tip, not uniquely novel. |
-| Visual | 8 | Price box counts and changed inventory/receipt states are visibly distinct. |
-| Speech | 7 | Repeated numbers and detailed caveats accumulate; “Where's the boundary?” marks an increasingly instructional section. |
-| Demand | UNVERIFIED | No evidence audience needs a ten-minute treatment. |
-Main weakness: viewer already has central answer in first half; extension valuable but too technical for an entertainment-led audience. Additional counterexamples are genuine, not claimed experiments. Do not declare strong on average; development below 8.
-Checks: model facts PASS; EN/RU sense PASS author; format FAIL (Long unavailable); rights UNVERIFIED; loop N_A for Long; independent review UNVERIFIED.
+| Interest | 8 | Familiar four-friend decision; now a partial reservation introduces a concrete non-price stake. |
+| Opening | 8 | “If a method only gets two of us on board, it has not completed the job” establishes a testable completion condition, though explanation before A still takes time. |
+| Development | 8 | Combined price/benefit changes make a new outcome; missing last seat tests a qualitatively different failure. Group-size subsection still slows transition to the main counterexample. |
+| Payoff | 8 | “B has failed the task” correctly distinguishes completion from cheap receipts; practical decision retains both fare and risk. |
+| Freshness | 7 | Combined-cost and completion cases add nuance to familiar split-fare advice, not evidence of novelty across YouTube. |
+| Visual | 8 | Two receipts + separate service charge; later two confirmed travelers and two unconfirmed, one remaining ticket; no live website fabricated. |
+| Speech | 7 | Arithmetic is tied to actions, but the group-size examples and two break-even prices remain dense. |
+| Demand | UNVERIFIED | No measured demand for this exact treatment. |
+Confidence: moderate author judgment; high arithmetic conditional on inputs. Weak point: “What if my search for two shows the higher price” may feel like a detour after the first reveal; later two thresholds require sustained attention. EN estimate 10.5–13.0 min before separate pause allowance, RU 9.4–12.5 min; exact timing UNVERIFIED. Checks: model arithmetic and completion logic PASS author; EN/RU semantic alignment PASS author; Long format FAIL (canvas/fps missing); rights and independent reviewer UNVERIFIED; loop N_A for Long. No storyboard/timing or approval for this new hash.
 
 ## Compare
-2m is recommendation: choice, both outcomes, decision condition; does not require listener to memorize the quote ladder. 5m adds the quote ladder, precise $295 threshold and tradeoffs, useful for a viewer planning a trip. 10m adds availability-count sensitivity, different splits and benefit-price threshold, but development is more lecture-like. Six complete editorial texts, exact duration is an estimate only. No master approved. No fabricated independent review. One author pass, no second rewrite required for recommended editorial candidate; longer treatment remains REWORK. For production, obtain independent fresh review of exact selected file and actual timing before storyboard; no transfer of older spans.
+| Target | Added viewer value | Cost to attention | Recommendation |
+|---|---|---|---|
+| 02m | Stable price and reversal; clear actionable check | “one price level” abstract; textual seam still UNVERIFIED | **Preferred editorial candidate** |
+| 05m | Quote ladder and $295 threshold | Arithmetic near “The two methods are back to even” | Useful deeper option |
+| 10m | Joint cost reversal, $250 threshold, explicit incomplete-group failure | Group-size sensitivity and repeated thresholds; more difficult to absorb aloud | Revised but REWORK for pace |
+
+Six complete editorial texts; no approved master or independent receipt. The exact 02m/05m files, author findings and packaging are preserved. The 10m old timing/score is historical, not evidence for new hash. Selected 02m still needs independent review, duration and format compatibility, textual/AV seam and actual visual rights before production.
+
+## Revision progress — 2026-11-24
+Baseline commit `d57a85eca7a344021081c1bfef14d4d381b4aaa4`, old 10m EN SHA-256 `a57d88e7e45049a070578ff6676beca7fbeb0c768452d685d492c09c237ed8b8`, RU `fe13a2662716a6e49ed869351e45ff04fb4c9608c7ffc1dfd19ac97ce3b4e809`; exact paths unchanged. Prior package already had six texts; all six read → 10m substantively revised → all six author-checked at baseline/new hashes → 02m remains recommended, not approved. New scenario assertions tested against model, not observations. 10m visual intent: generic checkout, same original inventory reset; add separate service receipt only in combined test; show one unsold ticket and exactly two confirmed travelers in incomplete test. No approved storyboard exists; no spans/timings transferred. Runtime/independent review UNVERIFIED; next: independent review and compatible format for the selected script; remaining open PR backlog is not completed.

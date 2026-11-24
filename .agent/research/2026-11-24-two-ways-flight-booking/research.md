@@ -42,3 +42,17 @@ Age-matched partial baseline for Away Together: https://socialcounts.org/youtube
 ## Reproducible model
 A/B compare completed four adults on same flight, one-price-per-reservation rule; start with two at $135 and four at $215; cheapest level with enough inventory for request. Same travel terms; no additional costs unless separately declared. A requests 4: 4*215=860, leaves 2 cheap. Reset. B requests 2 then 2: 2*135+2*215=700; saving 160. Quote ladder for 1/2/3/4 = 135/135/215/215 per person. Changed-price test: A completed before change 860; B buys 2 at 135 then price becomes 310 for remaining pair: 270+620=890, loss 30. This is conditional on A actually being payable before change. Break-even (860−270)/2=295 each for last pair. No frequency or cause assumed.
 Further sensitivity (10m): initial cheap count 1, at least four high, A and fixed B 860; alternative 1+3 costs 135+645=780. Cheap count 3 and at least four high, alternative 3+1 costs 405+215=620. These are expressly different strategies, not relabelled B wins. Extra costs unique to B: 700+90=790 (saving 70), 700+170=870 (loss 10). Not airline fees. All totals arithmetic from explicit assumptions. No guarantee of seating, benefits, linked handling, availability or price. No real booking, no fare scraping, no individualized travel advice. Visual rights for actual brand assets not checked; use original generic illustrations only after review and actual approved references are available.
+
+## Revision — 2026-11-24, existing PR #397
+Baseline `d57a85eca7a344021081c1bfef14d4d381b4aaa4`. Rechecked public airline FAQ: https://www.finnair.com/en/frequently-asked-questions/bookings-and-payments/i-m-booking-flights-for-my-family--i-noticed-that-the-price-is-lower-when-i-make-two-separate-bookings--why-is-the-price-different--1890388 — same booking class restriction and changing availability, not proof of any simulated price or probability. Existing source on companion benefits retained. New inputs are explicitly hypothetical and not airline charges. Replace the earlier $170-only sensitivity in spoken 10m with joint sensitivity and availability failure; older research retained as baseline.
+
+| Reset / scenario | A (complete four before change) | B | Completion |
+|---|---:|---:|---|
+| Stable | 860 | 270+430=700 | 4/4 both |
+| Second price 310 | 860 | 270+620=890 | 4/4 both |
+| Second price 260 only | 860 | 270+520=790 | 4/4 both |
+| Extra comparable service 90 only | 860 | 700+90=790 | 4/4 both |
+| Both changes | 860 | 270+520+90=880 | 4/4 both |
+| Inventory drops to one after first pair | 860 | 270 spent; no second purchase | A 4/4; B 2/4, no comparable complete total |
+
+Thresholds without/with service: (860-270)/2=295; (860-270-90)/2=250. Incomplete state: after buying 2 cheap tickets, 4 high tickets originally remain; exogenous availability reduction to 1 is an explicit stress input (3 no longer available); no claim as to cause/frequency. No refund, reaccommodation, or real airline handling assumed. Alternative 1+3/3+1 distinct from fixed 2+2; original tie/780/620 preserved. Checked all listed arithmetic and counts. Visual states must show exact number of confirmed travelers and separate service charge, not live reservation screens.
