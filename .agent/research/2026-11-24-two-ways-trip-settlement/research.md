@@ -53,3 +53,11 @@ Correction before either trial: only I and Nina share snacks [20,0,0,20]. Shares
 ## Duplicate/owner status
 
 Remote latest #393 Nuviko (open draft), #392 Paper, #391 Two Ways. Two Ways PR title list includes #291 early debt payoff (interest, different problem), #391 cake (allocation, different metric), #220 chores (work distribution). Searches for splitwise, debt, settlement, restaurant bill returned no matching issue/PR but title search has imperfect indexing; checked channel title list and published queue. #13 closed rejected, #88 open rejected, neither touched. #20 and #25 exact reference texts read at owner supplied commits, no rewrite; #25/#46 protected. Public platform live/private queue remains unverified. Revision N_A, new story. 
+
+
+## Editorial revision — 2026-11-24
+Baseline 6b4ab30aa60e6a6dc81ac5ca1b0bcb1ec6978109; old 10m EN cdeee9a67ffda26296168ae7af3bdb5681f80aaa96e1aaa207584e17bad16d40, RU 60d2126e5623400b669dd26795ccf0a16e6595b9fef1669375c6c5bddba20271. Previous ten-dollar partial-payment trial is historical evidence only. No new real-world factual claims; same illustrative trip, independent resets.
+- Original A/B unchanged: net [60,20,-20,-60], count/gross 6/100 and 2/80. Restricted-route sensitivity: Nina→I alone forbidden. Two transfers would require exact one-to-one debtor/creditor match (60→60,20→20), so impossible. Nina→Maya 60, Leo→Maya 20, Maya→I 60: 3/140, same net; A also uses forbidden edge, no A/B winner asserted for modified routes.
+- Restore unrestricted routes and unpaid ledger. Corrected A/B: [50,30,-10,-70], 6/110 and 3/80. Two transfers impossible because {70,10} differs from {50,30}.
+- Separate prior-payment trial: Leo→Maya 20 completed before correction. Remaining [50,10,10,-70]. Nina→I 50, Nina→Maya 10, Nina→Leo 10; 3 new transfers, 4 total/90 gross. Leo becomes creditor; three recipients require at least three incoming transfers.
+- Separate completed trial: original A or B completed, then correction. Remaining [-10,10,10,-10]. I→Leo 10, Nina→Maya 10. 2 new transfers minimum; A total 8/120, B total 4/100. All corrected costs [110,90,90,110], sum 400. Fresh B 3/80 and already completed histories not treated as a simultaneous test. Exact eight flow vectors and gross sums checked in JS; not bank measurements.

@@ -8,8 +8,8 @@ Author: ChatGPT, editorial self-review only; confidence medium for interest/pace
 | variants/02m/script.ru.txt | 244 | c572174e22d5ebde2431677ea0533ce5b13438daef826c90a18cccebeebf1fdd |
 | variants/05m/script.en.txt | 742 | 7f6c0c2b3c518a25e1f9ca5071e283951f690c3af3e1b9b03b440646ec590223 |
 | variants/05m/script.ru.txt | 609 | 0ec0f1d247743c19862d895dabdfb12ebe258019168e2173194b3225c2efb507 |
-| variants/10m/script.en.txt | 1399 | cdeee9a67ffda26296168ae7af3bdb5681f80aaa96e1aaa207584e17bad16d40 |
-| variants/10m/script.ru.txt | 1233 | 60d2126e5623400b669dd26795ccf0a16e6595b9fef1669375c6c5bddba20271 |
+| variants/10m/script.en.txt | 1574 | 07acd0ea04a3bda4b508d372de687c3d362be1be2cca893e91c47a4d23260334 |
+| variants/10m/script.ru.txt | 1391 | 57bdea7f284ed3f1ae8e9a79bf4d3e6647e25c39eecd589feaeb840cf9c74af8 |
 
 ## 2m — STRONG_CANDIDATE (recommended)
 | Criterion | Score | Exact reason |
@@ -40,19 +40,27 @@ Facts/model PASS (arithmetic only); EN/RU equivalence PASS author; format UNVERI
 
 Story map: problem → A even after pair netting → Leo's unnecessary incoming/outgoing → B minimal two → pre-settlement correction → recompute both → limits. Main weakness: receipt sequence is still arithmetic-heavy, especially "My share and Nina's are now a hundred and ten each"; audience may disengage after first result before correction. Facts/model PASS; translation PASS author; format FAIL production (Long canvas/fps/end-screen undefined); narrative loop N_A editorial Long; rights visual UNVERIFIED; independent review UNVERIFIED. No author revision.
 
-## 10m — REWORK (editorial Long only)
+## 10m — REWORK (revised editorial Long only)
+Baseline 6b4ab30aa60e6a6dc81ac5ca1b0bcb1ec6978109, EN cdeee9a67ffda26296168ae7af3bdb5681f80aaa96e1aaa207584e17bad16d40, RU 60d2126e5623400b669dd26795ccf0a16e6595b9fef1669375c6c5bddba20271; old exact text preserved at baseline. New hashes above. Author review, confidence medium for interest/pace/translation, high for integer arithmetic. Old assessments/timing not transferred.
+
 | Criterion | Score | Exact reason |
 |---|---:|---|
-| Interest/significance | 8 | practical issue of already-paid partial debt; "can I still trust the shortcut if someone spots a mistake" |
-| Opening | 8 | concrete grocery friend three notifications and correction stakes |
-| Development | 7 | pair arithmetic detailed; correction, impossibility of two transfers and partial settlement add real value but delayed first payoff |
-| Payoff | 8 | "The holiday still cost four hundred dollars." followed by complete route and partial-payment result, not money saving |
-| Freshness | 8 | exact lower bound and handling completed transfers after corrected allocation |
-| Visual expression | 7 | balances/receipts/arrow maps repeat and require readable graphics |
-| Oral naturalness | 7 | "two debtors each need an outgoing edge" is in research not narration; spoken proof understandable but can be dry, extensive arithmetic |
-| Audience evidence | UNVERIFIED | no comparable 10m demand |
+| Interest/significance | 8 | "if we finish settling up before someone spots a mistake" makes completed payments the obstacle; practical but narrow utility |
+| Opening | 8 | Leo's three arrows and correction question promise concrete outcomes; four receipts still require attention |
+| Development | 8 | "Maya has become the intermediary" under a new constraint; then Leo becomes a creditor and completed settlement needs adjustments instead of rollback |
+| Payoff | 8 | "I can send Leo ten and Nina can send Maya ten" resolves post-payment correction; final agreed costs verify it |
+| Freshness | 8 | Distinguishes restricted route, pre-payment correction, partial and completed histories; not a novel accounting theory |
+| Visual expression | 8 | Six→two arrows, blocked arrow and relay, balance sign reversal, two adjustment arrows; actual readable images unverified |
+| Oral naturalness | 7 | "What if Nina has already sent me sixty as well?" advances action; two-transfer proof and repeated balances may sound dense |
+| Audience evidence | UNVERIFIED | no comparable 10m demand or measured retention |
 
-Story map: choice → six individual transfers → flow through Leo → two-transfer proof → correction and wrong old settlement → three-transfer proof → already-paid ten → remaining plan → limits. Main weakness: long arithmetic before the first reversal, particularly "There are three pairs that don't include me" followed by six amounts; slower than 5m without corresponding emotional stakes. Further compression would undermine 10m target; recommend shorter version rather than padding or further rewriting. Facts/model PASS; translation PASS author; production format FAIL Long undefined; narrative loop N_A; rights visual UNVERIFIED; independent review UNVERIFIED.
+Story map: question → A six and Leo intermediary → B two → separate restricted-route trial → restore routes and reset → snack correction six vs three → prior Leo payment reverses his balance → fully settled trial two adjustment transfers → final costs. First A comparison compressed; the previous single partial repayment replaced with sign reversal and completed-settlement correction; route limit shown rather than listed. Main weakness: "Two transfers would require each of the two debtors" and the subsequent four balances may lose attention; still more tutorial than entertainment. Estimated speech EN 10.5–12.6 min, RU 10.3–13.2 min, plus assumed 15–40s holds; no audio, exact target UNVERIFIED. Facts/model PASS author eight flow checks; EN/RU equivalence PASS author (same amounts, directions, resets, constraints and final result); Long production FAIL (canvas/fps/end-screen undefined); narrative loop N_A; independent review, visual rights/readability and demand UNVERIFIED. New hash has no storyboard/timing evidence.
 
 ## Comparison
-2m answers the main question in full, enough to reproduce, leaves correction for deeper version. 5m adds meaningful receipt correction, different required count and a transparent validation, editorially strong but slower and no supported Long recipe. 10m adds actual distinct material (gross movement vs savings, proof that three is minimal, and handling partial completed payments) yet is more tutorial than entertaining experiment. Recommend 2m, not approved and not measured. All variants one story; no automatic productions. End-screen/related-video actual input not verified; no invented next video fragment. Detailed storyboard/prompts deferred until exact recommended version reviewed independently and owner selects format; no reference images fetched or fabricated.
+| Target | Additional value | Weakness | Recommendation |
+|---|---|---|---|
+| 02m | original six vs two and cost check | six amounts in sequence; closing question sounds like reset | provisionally recommended for density |
+| 05m | corrected receipt changes required count | four corrected balances after first payoff | strong alternative |
+| 10m | route failure, creditor reversal, completed settlement corrected without rollback | proof and repeated balance recalculation after first payoff | revised, still REWORK on pace |
+
+02m/05m remain byte-identical, each resolves its promised question. 02m closing reset is a weakness, not independent loop PASS; actual AV UNVERIFIED. Six full texts prepared and author-reviewed; recommend 02m provisionally, not approval. Independent reviewer and runtime unavailable; no new receipts or runs. Detailed storyboard deferred until exact selected version reviewed. Next: independently review exact versions including Short seam; continue next untouched PR by fresh HEAD.
