@@ -1,3 +1,47 @@
+# Story review — Pendleton rescue (three independent EN/RU narratives)
+EDITORIAL_CANDIDATE_UNREGISTERED — authorial editorial assessment, 2026-11-24. Canonical main a6023668001421b689a8142cebc0bd436545be6b (#124 merged). This section supersedes the historical 10m review below, not the independent review or approval (neither exists).
+
+## Current exact variants
+
+| Duration / format | Full EN | Full RU | Estimate / status |
+|---|---|---|---|
+| 02m Short | [EN](variants/02m/script.en.txt) `f42978ab0034067d623dd6d4e4d23d251f22439e5ff89d13fabb6bcff84a6506` (262 words) | [RU](variants/02m/script.ru.txt) `9089b691c8493203a7d6bf1b43dbb4ccd77884d166f01fa16222ffdba01b75e6` (230 words) | Unchanged revised candidate; textual loop author-only, blind/AV UNVERIFIED |
+| **05m Long** | [EN](variants/05m/script.en.txt) `1377155783fc9e122ba9efe8f55760b0c5841e3204360af4a61285307d1f669e` (673 words) | [RU](variants/05m/script.ru.txt) `ebec6e9851232fd081b51c39cc59216e4c561c943962982a10407a73d873890f` (588 words) | **Recommended**, unchanged |
+| 10m Long | [EN](variants/10m/script.en.txt) `b8da692a98c4529a794d39fc6203f48aa99584c203e741dcc875852297377b67` (1362 words) | [RU](variants/10m/script.ru.txt) `5b95cb2af8f03165d912ea3b17a5162f2c7031191ac868a9a3a2252b0953d7f0` (1200 words) | Revised complete candidate; 8.79–10.90 min at assumed 125–155 EN wpm before 10–25s pauses and 10s end screen; TTS UNVERIFIED |
+
+Whitespace count, exact UTF-8 bytes, no measured voice. Original 02m/05m evidence preserved. Baseline commit `d5b98b9f8534772d04b90909fa7b0833681a772d`, old 10m EN `e2f33482e15aa451400e4dc8041a50ef4d1dd3cdc134e60af51823eb537aa825` RU `fa50d1424b7bb552e9bb37b5db12b836824b4dc529619b01d9a2fc6876af22c1` (Git blobs `c39222862a107244e274e5091c9f69e2baa8b69c` / `46a4bc2cff4b4f26a659f95a99f3ab30654f0004`). Current short and 5m blobs and hashes checked:
+
+variants/02m/script.en.txt: SHA-256 `f42978ab0034067d623dd6d4e4d23d251f22439e5ff89d13fabb6bcff84a6506`, Git blob `cb3fa54942b23791b5f3d44d5540f1e0a7ad31b7`, 262 whitespace words
+
+variants/02m/script.ru.txt: SHA-256 `9089b691c8493203a7d6bf1b43dbb4ccd77884d166f01fa16222ffdba01b75e6`, Git blob `0a2514088d7049a441f41b3389e255134869b70c`, 230 whitespace words
+
+variants/05m/script.en.txt: SHA-256 `1377155783fc9e122ba9efe8f55760b0c5841e3204360af4a61285307d1f669e`, Git blob `10399f4ea19ff0a4b50d10904fa3a6025e25560b`, 673 whitespace words
+
+variants/05m/script.ru.txt: SHA-256 `ebec6e9851232fd081b51c39cc59216e4c561c943962982a10407a73d873890f`, Git blob `93da83a85fbe37f5661f4bf799cef60a64924204`, 588 whitespace words
+
+## 10m revised narrative: source-backed two-sided and return decisions
+
+| Criterion | Author score | Concrete basis / limitation / confidence |
+|---|---:|---|
+| Interest and significance | 8 | Thirty-three on powered stern without radio; crew of four faces both evacuation and a second transfer proposal. Known film reduces novelty; fact high, appeal medium |
+| Opening | 8 | Three questions promise discovery, transfer and navigation; two-tanker setup meaningful but several names before bar, medium |
+| Development | 9 | Radar/air identification -> failed beach aid -> replacement mechanic -> transfer beyond nominal capacity -> radio dispute -> contingency at shore. Some ladder descriptions remain similar; medium |
+| Payoff | 9 | Buoy makes beaching unnecessary; station contacted and townspeople assist at dock. Eight bow deaths and one stern loss retained; high on counts, medium on retrospective microsequence |
+| Freshness | 8 | Decision to reject second transfer and contemplate beaching instead of the cinematic headlights; famous movie remains counter-signal; medium |
+| Visual expressivity | 9 | radar contacts, working stern, cramped mechanic, radio, red buoy, mooring hands; concepts only, assets unverified; medium |
+| Natural narration | 8 | Concrete actions replace repeated danger recap; names and numbers in opening risk density; textual assessment, no playback; medium |
+| Verified audience interest | UNVERIFIED | No matched views, CTR, audience response or retention; earlier metadata retained, no score |
+
+**Story spans (semantic, not timestamps):** S01 questions and two ships, S02 silent but powered stern/Sybert, S03 radar/aircraft and beach deployment, S04 substitute crew/boat, S05 bar and smashed compass, S06 engine restarts and burns, S07 searchlight finds wreck, S08 ladder approaches, S09 capacity and losses, S10 radio discussion and planned shore contingency, S11 buoy/contact/assistance, S12 other rescue and physical boat closure. Do not attach prior 10m storyboard/timing to new hashes. 05m packaging retains its exact nominated master; proposed 10m visuals only, no generated assets.
+
+**Comparison:** 02m concentrates on aircraft discovery and full rescue with a causal textual loop. 05m adds competing tanker response and a clear explanation of the transfer and compassless return. 10m now adds the people on the still-powered stern, actual failed shore deployment, substitute engineer and his injuries, capacity contrast and most importantly the dispute about transferring all survivors again. It is materially stronger than the old underlength 10m. It still spends longer in the radar/dispatch block before reaching the bar; the middle from “The survivors lowered a rope-and-wood ladder” through the capacity explanation may lose viewers who already understood the hazard. **05m remains the recommendation** for tighter pacing; 10m is a complete editorial candidate, not measured ten minutes or a verified viewer result. The 02m final explanatory handoff and 05m repeated approach risk remain as described in unchanged assessments below.
+
+**Hard checks:** author source trace P1/P3/P6/P7, EN/RU same actions and counts, 33 on stern = 32 rescued + 1 loss; 8 on bow not rescued; 36 on boat = 32 + 4; other rescue 38 separately. No made-up quotations, timing or character thought. 10m Long loop N_A; current Nuviko supports Long. 02m/05m preserved; no new independent reviewer, runtime registration, TTS, AV, rights, official gate or owner approval. New 10m hashes require a fresh exact-text reader. Existing 02m author two-read record does not transfer to any changed text. Handoff through canonical runtime and exact single selected master only.
+
+---
+
+## Historical assessments (prior 10m superseded; 02m/05m text unchanged)
+
 # Story review — Pendleton rescue (three complete narratives; 10m duration target not yet met)
 EDITORIAL_CANDIDATE_UNREGISTERED — **AUTHORIAL** assessment 2026-11-22, not independent listener. Main `131ef24068d75967b1e43aa88e5f1370f6775054`; direct owner exception. All eight scales per current main editorial; numerical scores describe text judgment, not CTR, observed retention, virality or probability.
 
