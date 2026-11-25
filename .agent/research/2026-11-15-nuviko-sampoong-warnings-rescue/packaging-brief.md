@@ -23,3 +23,8 @@ No thumbnail/image generation. Existing titles and the old 37-scene storyboard a
 ## 2026-11-21 duration-specific update
 
 10m r2 presents *two distinct rescue mechanisms*: a pipe reaches a group in the basement, then an excavator operator spots Choi and rescuers cut concrete and bars to reach him, followed by Park's final rescue and date question. The 05m story is still editorially recommended because it reaches that payoff with fewer structural explanations. All packaging remains a proposal; do not inherit the source storyboard or announce a second production.
+
+
+## 2026-11-25 — factual promise correction for all three variants
+
+Use the verified *delay* of evacuation, not an absolute claim that nobody was ever warned or that all executives left. The earlier “They Left” concept is superseded; a safer alternative is **The Store That Waited Too Long to Evacuate**. The original concept remains historical, not current packaging. Staff action in the final minutes must not be omitted. 05m and 10m now also pay off with Choi's reunion; no promise of firsthand footage. [Current text hashes and spans](story-review.md#2026-11-25--exact-text-revision-r3-late-evacuation--rescue-payoff). Do not generate assets or reuse original storyboard. Approval and actual packaging QA UNVERIFIED.
