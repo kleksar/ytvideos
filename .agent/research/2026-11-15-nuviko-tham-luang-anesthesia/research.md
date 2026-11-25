@@ -1,3 +1,33 @@
+## Current editorial revision — 2026-11-25
+
+Status: **EDITORIAL_CANDIDATE_UNREGISTERED**; three bilingual editorial candidates, author-checked, 05m recommended, independent review and owner approval UNVERIFIED. No production authorization. Canonical main a6023668001421b689a8142cebc0bd436545be6b (#124 merged); baseline PR #113 374f1e401535d05198e27f346379d10f26e1ff53. Root master and original storyboard are unchanged; 02m retained byte-for-byte. 05m and 10m revised substantively, not new stories.
+
+| Version | EN | RU | Words EN / RU | Paragraph pairs |
+|---|---|---|---:|---:|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 286 / 236 | 8 |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 625 / 519 | 14 |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1310 / 1072 | 27 |
+
+Exact SHA-256 (UTF-8, including final newline):
+- `variants/02m/script.en.txt`: `6a9e97d1c87c46bfa6ed5fe5047072bc7156f8fcfdc431f56987d63b348e9db2`
+- `variants/02m/script.ru.txt`: `793361ca38655864f47fa7d17dd356774ff8c249bbd79d225c102fcf96694101`
+- `variants/05m/script.en.txt`: `9bd077f019d1cbbbea4e66e60d87e506e855aa2fbad4840e0dfcaa44dc04a29a`
+- `variants/05m/script.ru.txt`: `270771a655ec2f02dc2996c2ad6aace35030da99b5dba336b124d8dfcf9198c7`
+- `variants/10m/script.en.txt`: `d52151eccb3767f4c3745158f2fddbcd342c1c3158fb1486cf5757eae9f2f5e1`
+- `variants/10m/script.ru.txt`: `08285c5411bd427141a2153acedf42f6ce495d9a33222384c7ab44997be74864`
+
+### New fact evidence and source limits
+- [AFP / Guardian, 16 July 2018](https://www.theguardian.com/news/2018/jul/16/thai-cave-rescue-boys-mourn-after-hearing-that-diver-died): doctors waited before telling the boys about Saman Kunan's death, then the boys wrote messages on his portrait and observed a minute of silence. This supplies the new 05m payoff and the 10m hospital scene.
+- [Reuters / Euronews, 25 July 2018](https://www.euronews.com/2018/07/25/thai-cave-boys-ordained-as-buddhist-novices-to-honour-dead-rescuer): eleven boys and the coach entered temple life, the Christian boy was not ordained, the ceremony fulfilled family promises and honoured Kunan; his widow attended. Do not imply all twelve were ordained.
+- [AP / ABC, 5 August 2018](https://www.abc.net.au/news/2018-08-05/rescued-cave-boys-end-stay-at-buddhist-temple/10074230): the boys ended their temple stay, placed robes before a photograph of Kunan and returned to their families; coach remained longer.
+- Existing source discrepancy 5/6 July: 10m uses early July, not a falsely precise timestamp. Existing attributed Harris recollection remains recollection, not an independently witnessed scene. Pumping made more of the route accessible on foot; EN now agrees with RU. No fabricated speech, thoughts, or claim that the ceremony ended everyone's trauma.
+- 02m remains a complete compressed account; 05m preserves the mechanism and adds the hospital consequence; 10m removes redundant technical and editorial commentary, and develops the documented memorial through the temple ceremony. Shared original evidence below remains applicable except where explicitly corrected.
+
+
+---
+
+## Historical baseline material (superseded where conflicting; original master evidence retained)
+
 # Research update — three complete Tham Luang versions, 2026-11-18
 
 Scope: editorial variants only in existing PR #113, baseline `45ef2af6b77bf5215f0203ffd1482668754e3712`. Root EN/RU and their approved-looking but *unapproved* 44-scene preliminary storyboard remain unchanged. Independent review and runtime unavailable.

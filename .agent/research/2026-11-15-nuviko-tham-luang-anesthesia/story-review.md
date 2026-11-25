@@ -1,3 +1,49 @@
+## Current editorial revision — 2026-11-25
+
+Status: **EDITORIAL_CANDIDATE_UNREGISTERED**; three bilingual editorial candidates, author-checked, 05m recommended, independent review and owner approval UNVERIFIED. No production authorization. Canonical main a6023668001421b689a8142cebc0bd436545be6b (#124 merged); baseline PR #113 374f1e401535d05198e27f346379d10f26e1ff53. Root master and original storyboard are unchanged; 02m retained byte-for-byte. 05m and 10m revised substantively, not new stories.
+
+| Version | EN | RU | Words EN / RU | Paragraph pairs |
+|---|---|---|---:|---:|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 286 / 236 | 8 |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 625 / 519 | 14 |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1310 / 1072 | 27 |
+
+Exact SHA-256 (UTF-8, including final newline):
+- `variants/02m/script.en.txt`: `6a9e97d1c87c46bfa6ed5fe5047072bc7156f8fcfdc431f56987d63b348e9db2`
+- `variants/02m/script.ru.txt`: `793361ca38655864f47fa7d17dd356774ff8c249bbd79d225c102fcf96694101`
+- `variants/05m/script.en.txt`: `9bd077f019d1cbbbea4e66e60d87e506e855aa2fbad4840e0dfcaa44dc04a29a`
+- `variants/05m/script.ru.txt`: `270771a655ec2f02dc2996c2ad6aace35030da99b5dba336b124d8dfcf9198c7`
+- `variants/10m/script.en.txt`: `d52151eccb3767f4c3745158f2fddbcd342c1c3158fb1486cf5757eae9f2f5e1`
+- `variants/10m/script.ru.txt`: `08285c5411bd427141a2153acedf42f6ce495d9a33222384c7ab44997be74864`
+
+### Author comparison (not independent; scores /10)
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest | 8 — survival question; familiar outcome (medium) | 8 — rescue risk and consequence for boys (medium) | 8 — same risk with aftermath; additional time may dilute urgency (medium) |
+| Opening | 8 — clear escape/wait questions (high) | 8 — questions no longer reveal anaesthesia (high) | 8 — adds trained diver's death, without giving solution (high) |
+| Development | 7 — quick jump from obstacles to solution (medium) | 8 — oxygen, rescue decision, stages of extraction (medium) | 8 — alternatives and field medicine add causal detail but slow pre-extraction section (medium) |
+| Payoff | 8 — all thirteen alive, generic final image (high) | 9 — hospital portrait makes loss concrete; short aftermath (medium) | 9 — memorial, ordination, return to families; ends after the rescue result (medium) |
+| Freshness | 5 — widely known story (medium) | 6 — adds hospital tribute, not a novel rescue (medium) | 6 — more documented aftermath, not an exclusive discovery (medium) |
+| Visual potential | 7 — flooded route and extraction, little aftermath (medium) | 8 — contrast cave/hospital portrait (medium) | 8 — rescue, hospital, ceremony and robes; temple access/reference still required (medium) |
+| Oral delivery | 8 — compact but compressed (medium) | 8 — clear questions and concrete finish; technical vocabulary remains (medium) | 8 — removed meta narration, still clinical in middle (medium) |
+| Audience demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+### Story maps and exact paragraph spans (EN/RU matched by paragraph)
+- 02m: unchanged baseline map and hash; eight paragraphs, self-contained Long, no Short loop requirement.
+- 05m: 1 questions; 2–4 entry, search, discovery; 5–7 constraints and death; 8–11 anaesthesia decision and medical risks; 12–13 staged rescue; 14 hospital tribute. Visual intent: discovery/route, rescue team, portrait and silence; no invented gestures.
+- 10m: 1 questions; 2–5 entry/search/discovery; 6–10 obstacles, waiting and loss; 11–17 decision and preparation; 18–22 initial extraction and medical observation; 23–24 final rescue and pump failure; 25–27 hospital, temple and return. Visual intent: show distinct documented stages, memorial objects and families without invented expressions or dialogue. This is an editorial span map, not a completed storyboard or timing receipt.
+
+### Comparative decision
+2→5 adds oxygen constraint, medical tradeoff and the hospital consequence; 5→10 adds drilling/field-care context, pump failure and the documented temple farewell. 10m still risks losing interest in the clinical preparation before the first four emerge. Recommend **05m**: most direct progression from discovery to dilemma to outcome and a human closing image. 02m is a strong compressed alternative, preserved instead of cosmetic rewriting. At 130–165 EN words/minute, approximate speech-only ranges: 02m 1:44–2:12; 05m 3:47–4:48; 10m 7:56–10:05. Pauses and actual delivery unmeasured; labels are editorial targets, not runtime promises. All three proposed Long 16:9, no Short loop required.
+
+### Separate checks
+Author text comparison complete; source caveats recorded; matching paragraph counts and exact hashes checked. No acceptance of runtime, timing, AV, demand, independent review, or production. Changed 05m/10m old timings/reviews invalid; unchanged 02m and root evidence retained. Actual storyboard must be tied to chosen exact script, old 44-scene storyboard belongs to root only. No access to independent reviewer / ytv registration in this session; transfer via canonical context and pins, request fresh blind review before selection. Git-only status is not awaiting_script_approval. Production activity outside GitHub not independently observable; no approval or active-production marker seen in inspected PR metadata/comments.
+
+
+---
+
+## Historical baseline material (superseded where conflicting; original master evidence retained)
+
 # Story review — Tham Luang, three exact editorial alternatives
 
 **EDITORIAL_CANDIDATE_UNREGISTERED / AUTHORIAL REVIEW ONLY.** This section assesses *new exact text bytes*, not the unchanged root narration or its former storyboard. Independent fresh first-listener and bilingual reviewer: **UNVERIFIED**. Owner approval and runtime: **NOT GRANTED / UNREGISTERED**. Main canonical requirements at `67d9ed5dd63adc27250b6a286fdf40544b9a73c0` include merged #124.

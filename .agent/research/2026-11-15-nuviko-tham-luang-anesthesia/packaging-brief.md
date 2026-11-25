@@ -1,3 +1,28 @@
+## Current editorial revision — 2026-11-25
+
+Status: **EDITORIAL_CANDIDATE_UNREGISTERED**; three bilingual editorial candidates, author-checked, 05m recommended, independent review and owner approval UNVERIFIED. No production authorization. Canonical main a6023668001421b689a8142cebc0bd436545be6b (#124 merged); baseline PR #113 374f1e401535d05198e27f346379d10f26e1ff53. Root master and original storyboard are unchanged; 02m retained byte-for-byte. 05m and 10m revised substantively, not new stories.
+
+| Version | EN | RU | Words EN / RU | Paragraph pairs |
+|---|---|---|---:|---:|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 286 / 236 | 8 |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 625 / 519 | 14 |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1310 / 1072 | 27 |
+
+Exact SHA-256 (UTF-8, including final newline):
+- `variants/02m/script.en.txt`: `6a9e97d1c87c46bfa6ed5fe5047072bc7156f8fcfdc431f56987d63b348e9db2`
+- `variants/02m/script.ru.txt`: `793361ca38655864f47fa7d17dd356774ff8c249bbd79d225c102fcf96694101`
+- `variants/05m/script.en.txt`: `9bd077f019d1cbbbea4e66e60d87e506e855aa2fbad4840e0dfcaa44dc04a29a`
+- `variants/05m/script.ru.txt`: `270771a655ec2f02dc2996c2ad6aace35030da99b5dba336b124d8dfcf9198c7`
+- `variants/10m/script.en.txt`: `d52151eccb3767f4c3745158f2fddbcd342c1c3158fb1486cf5757eae9f2f5e1`
+- `variants/10m/script.ru.txt`: `08285c5411bd427141a2153acedf42f6ce495d9a33222384c7ab44997be74864`
+
+Opening promise: how a trapped team could be brought out, without revealing anaesthesia in the initial questions. 05m closes on Kunan's portrait in hospital; 10m develops temple ceremony and robes. Visual references and final packaging/thumbnail for any selected version still need verification; no fabricated quotations or implication of ordination of all twelve. Exact spans in story-review.md; original storyboard is not transferable.
+
+
+---
+
+## Historical baseline material (superseded where conflicting; original master evidence retained)
+
 # Packaging / variant-specific note, 2026-11-18
 
 **Three editorial alternatives** in [README](README.md); provisional **5m Long**. Current title/thumbnail suggestions below are archived preliminary concept options, not assets generated or validated on the new exact script. The phrase “put to sleep” is colloquial; actual method was medically administered anaesthesia with full-face oxygen masks. Any image must not assert a real photographed frame, actual person identity or a screaming patient. Exact visual spans may only be prepared after the chosen master is selected.
