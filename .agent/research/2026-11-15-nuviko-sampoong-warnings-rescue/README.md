@@ -26,7 +26,7 @@ All six files updated for the material omission of the final evacuation attempt.
 | Target | EN words / SHA-256 | RU words / SHA-256 | Paired paragraphs |
 |---|---|---|---|
 | 02m Long | 314 / `5531510a9427f2f03201cbab076b965eca33c18558c990289d4ab76b4877461f` | 243 / `2d9bda848648339d8405776d240cd3054c151ad788247c831284c71183ffea97` | 9 |
-| 05m Long | 721 / `7502dfe5abba857a63920a71a8b705e44e40e15a5e92b51d0159c996e27d0d0e` | 598 / `f0d013b0c5eb46dcc1e97a473396eb52681b5412e29c56b074c971354d8c458d` | 17 |
+| 05m Long | 701 / `05dd22e15bca9e7a55296dde9ec9cd6b8b10a0716dc8b6f4d5e837eecce2473f` | 582 / `11da732aa498db5abf748c1f6cdf59da9aaffa70b7a76e5690430d746c7d7c8a` | 17 |
 | 10m Long | 1481 / `ce763ef1585f8100b907e5eb4e9fefc89f094bb5025bcc169007b250c8854c66` | 1232 / `ebfdcac83dcd1f5fd8983892aaff4e8f3949b3a283343d23c150a6b90ae6edc1` | 26 |
 
 05m recommended provisionally; all three remain standalone Long candidates. Independent review, selected-version storyboard, actual voice time, owner approval and rights UNVERIFIED. No media or production.
