@@ -1,3 +1,19 @@
+# USS Indianapolis / McVay — current three-duration package (2026-11-25)
+
+Baseline: `6e4124400ac9acd50e8f6fb66061f4bfe44560d4`; canonical main read at `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). Existing Draft PR #111 only. Root master EN/RU and original storyboard unchanged. The current 05m is **no longer byte-identical to root**. All six changed hashes invalidate prior variant review/timing/span evidence; old evidence below is historical, not current. Long 16:9 for all three; no Short loop required. `EDITORIAL_CANDIDATE_UNREGISTERED`; no owner approval, independent reviewer or runtime registration. Estimates at 130–160 EN words/minute before pauses and separate end screen, not measured. Existing voice settings unchanged.
+
+| Target | Full EN/RU | Words EN/RU | Estimated EN duration | SHA-256 EN / RU |
+|---|---|---:|---|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 278 / 251 | 1:44–2:08 | `6ed3425fde3b0bf6201597530eedbb716469e26f2e28a9b4183b02983fefaaeb` / `0b2356cd7d142b6854e9f5635cbf8e554b0002557636b55d85fb27881426553d` |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 755 / 664 | 4:43–5:48 | `896c30fc2105b150b794180e89b86eabad65f0286ec0d09fd5c95e76d8510879` / `6fdbc2f9f802b9c125a12c2e27ec849abb17597d2bd2f2682ee5c31b7d483c7f` |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1519 / 1339 | 9:30–11:41 | `c40d4cf112564e229f95afa99aa5e3c597f2ed7262a5e381a275ff9d29926676` / `892a2d5dfb9f209dac498a5f71755c65acd8b7de9bdc3d1a99ac1523b7005503` |
+
+**05m recommended**: best balance of rescue, qualified courtroom evidence and later human/legal resolution. 10m adds reunion, school correspondence and 2023 survivor letters. [Current review](story-review.md) · [Research and evidence](research.md) · [Handoff](handoff.md) · [Packaging](packaging-brief.md). Original root pair and storyboard are historical baseline, not the revised candidates. Three versions prepared and author-checked; independent review and approval remain UNVERIFIED/NOT GIVEN.
+
+---
+
+## Historical material — superseded where inconsistent with the current revision above
+
 # USS Indianapolis / McVay — three complete EN/RU duration versions
 
 **Logline:** A Japanese submarine commander challenged the accusation against the American captain whose cruiser he had sunk; decades later survivors, a student and lawmakers secured a correction that **did not vacate the conviction**. Nuviko History, English historical **Long 16:9** for all three editorial cuts.

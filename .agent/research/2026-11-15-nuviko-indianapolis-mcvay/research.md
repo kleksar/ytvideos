@@ -1,3 +1,22 @@
+# Current factual addendum — 2026-11-25
+
+Baseline: `6e4124400ac9acd50e8f6fb66061f4bfe44560d4`; canonical main read at `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). Existing Draft PR #111 only. Root master EN/RU and original storyboard unchanged. The current 05m is **no longer byte-identical to root**. All six changed hashes invalidate prior variant review/timing/span evidence; old evidence below is historical, not current. Long 16:9 for all three; no Short loop required. `EDITORIAL_CANDIDATE_UNREGISTERED`; no owner approval, independent reviewer or runtime registration. Estimates at 130–160 EN words/minute before pauses and separate end screen, not measured. Existing voice settings unchanged.
+
+| Claim or correction | Evidence and limit |
+|---|---|
+| At first sight Hashimoto could not determine whether the cruiser zigzagged; later did not observe a substantial change but allowed a slight one; distinguished effect on maneuvering from firing method. Do not turn this into categorical courtroom proof that zigzagging could never matter. | [1945 court-martial transcript, NHHC](https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/loss-of-uss-indianapolis-ca-35/investigation-and-court-martial/court-martial.html), indexed consecutive Q/A; full fetch timed out. Later congressional summaries/press accounts are not identical to testimony. |
+| Contemporary press memo describes absent submarine records and interpreters. | [NHHC press memorandum](https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/s/sinking-ussindianapolis/memorandum-to-press-on-scheduled-testimony.html), indexed excerpt; direct page timed out. |
+| 1990 Pearl Harbor encounter, survivor Giles McCoy expressed forgiveness. | [Indianapolis Star republished by Yahoo](https://www.yahoo.com/news/uss-indianapolis-crewman-forgave-japanese-200911658.html), indexed excerpt; direct fetch rate limited. Do not invent dialogue. |
+| Scott wrote to Patsy Mink in 1997; letter entered Congressional Record in 1998. | [Congressional Record, October 10, 1998, p. 25493](https://www.govinfo.gov/content/pkg/GPO-CRECB-1998-pt18/pdf/GPO-CRECB-1998-pt18-1-2.pdf), text extraction/index; page screenshot rejected because PDF exceeds tool limit. |
+| Hashimoto later appealed to Senator Warner, separate from his 1945 courtroom testimony. | [Washington Post, June 6, 2021](https://www.washingtonpost.com/history/2021/06/06/uss-indianapolis-mcvay-hashimoto/); corroborated by American Legion reporting below. |
+| Harold Bray wrote to Kunshiro Kiyozumi in May 2023 and received a reply; last-survivor status refers to the reported correspondence, not current date. | [American Legion, August 2024](https://www.legion.org/information-center/news/honor/2024/august/and-then-there-was-one), full article reproduces correspondence; no invented meeting or inner thoughts. |
+
+Legal outcome: 2001 statement was placed in the record; no vacatur. Preserve earlier evidence below where unchanged. No demand or audience metrics newly verified.
+
+---
+
+## Historical material — superseded where inconsistent with the current revision above
+
 # Audience-first research — USS Indianapolis / Captain McVay
 
 Наблюдение: 2026-11-15. Автор: редакционный агент, не независимый reviewer. Канал: Nuviko History (ChannelSpec active, English illustrated). Формат: Long 16:9; ориентир 3–5 минут, длительность не измерена. Класс исследовательской заявки: STRONG_CANDIDATE (авторская рекомендация, не production gate).

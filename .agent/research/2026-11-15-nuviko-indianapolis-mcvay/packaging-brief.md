@@ -1,3 +1,13 @@
+# Current packaging note — 2026-11-25
+
+Baseline: `6e4124400ac9acd50e8f6fb66061f4bfe44560d4`; canonical main read at `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). Existing Draft PR #111 only. Root master EN/RU and original storyboard unchanged. The current 05m is **no longer byte-identical to root**. All six changed hashes invalidate prior variant review/timing/span evidence; old evidence below is historical, not current. Long 16:9 for all three; no Short loop required. `EDITORIAL_CANDIDATE_UNREGISTERED`; no owner approval, independent reviewer or runtime registration. Estimates at 130–160 EN words/minute before pauses and separate end screen, not measured. Existing voice settings unchanged.
+
+Only a provisional 05m recommendation. Working title hypothesis: **The Enemy Officer Who Asked America to Clear a Captain's Name**. Promise: qualified courtroom evidence and a later appeal, not an automatic acquittal. Visual concept: separate court record and later letter; 10m may include documented survivor correspondence only with verified references/rights. No thumbnail, image, testing or approval. Current hashes and narrative scope: [story review](story-review.md).
+
+---
+
+## Historical material — superseded where inconsistent with the current revision above
+
 # Packaging note for three Indianapolis durations (2026-11-18)
 
 Only **05m Long EN/RU** is provisionally recommended; title and thumbnail concepts below remain unapproved hypotheses for the **unchanged source/05m text**. For 02m, the promise is enemy commander's disputed testimony → crew campaign → 2001 file addition; its brief opening may use the 1945 court file immediately. For 10m, a visual story can additionally depict Adrian Marks's PBY rescue and specialist Glynn Donaho, but only after approved historical visual references; these objects were not present in the 26-span original storyboard. All three promise that the 2001 statement was **added without vacating** the 1945 guilty finding. Do not use title option “Helped Clear” to imply judicial reversal. Actual thumbnails, rights, user choice and A/B testing **UNVERIFIED**.

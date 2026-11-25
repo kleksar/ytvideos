@@ -1,3 +1,48 @@
+# 2026-11-25 — current editorial revision, USS Indianapolis / McVay
+
+Baseline: `6e4124400ac9acd50e8f6fb66061f4bfe44560d4`; canonical main read at `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). Existing Draft PR #111 only. Root master EN/RU and original storyboard unchanged. The current 05m is **no longer byte-identical to root**. All six changed hashes invalidate prior variant review/timing/span evidence; old evidence below is historical, not current. Long 16:9 for all three; no Short loop required. `EDITORIAL_CANDIDATE_UNREGISTERED`; no owner approval, independent reviewer or runtime registration. Estimates at 130–160 EN words/minute before pauses and separate end screen, not measured. Existing voice settings unchanged.
+
+| Target | Full EN/RU | Words EN/RU | Estimated EN duration | SHA-256 EN / RU |
+|---|---|---:|---|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 278 / 251 | 1:44–2:08 | `6ed3425fde3b0bf6201597530eedbb716469e26f2e28a9b4183b02983fefaaeb` / `0b2356cd7d142b6854e9f5635cbf8e554b0002557636b55d85fb27881426553d` |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 755 / 664 | 4:43–5:48 | `896c30fc2105b150b794180e89b86eabad65f0286ec0d09fd5c95e76d8510879` / `6fdbc2f9f802b9c125a12c2e27ec849abb17597d2bd2f2682ee5c31b7d483c7f` |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1519 / 1339 | 9:30–11:41 | `c40d4cf112564e229f95afa99aa5e3c597f2ed7262a5e381a275ff9d29926676` / `892a2d5dfb9f209dac498a5f71755c65acd8b7de9bdc3d1a99ac1523b7005503` |
+
+## Before → after / story maps
+
+- 02m: 331 → 278 EN words. Questions → survival and missed rescue → court's two charges → qualified testimony rather than categorical straight-course assertion → 1999 letter → 2000/2001 distinction. Compact human/legal ending; little room for survivor campaign detail.
+- 05m: 711 → 755 EN words. Preserve the original rescue–trial–campaign structure, correct the claim about Hashimoto and distinguish his later advocacy. Student and veterans pursue a concrete record change; final document does not reverse the conviction. Remove duplicated conviction explanation.
+- 10m: 1,473 → 1,519 EN words. Expanded rescue and courtroom evidence → survivor reconciliation in 1990 → Scott's 1997 letter and 1998 Congressional Record → Hashimoto's 1999 appeal → 2000/2001 action → documented 2023 exchange of letters between last survivors. Replaces general retrospective closing with a specific human consequence.
+
+## Eight criteria — author assessment only
+
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest/significance | 8: unusual enemy witness and later campaign; rescue abbreviated | 8: responsibility after survival, concrete institutional conflict | 8: extends the consequences through generations; legal detail may narrow audience |
+| Opening | 8: direct questions, little time for orientation | 8: stakes and court question established before answer | 8: questions establish promise; deeper setup needs patient listener |
+| Development | 7: compression of intermediate advocacy | 8: rescue → court → later appeal, distinct turning points | 8: 1990 meeting and school letter advance story, second specialist slows the middle |
+| Payoff | 8: file addition without vacating conviction | 9: full legal and personal contrast with concrete 1999 appeal | 9: later correspondence gives a second human consequence, risks feeling like a second ending |
+| Freshness | 7: familiar disaster, less familiar legal aftermath | 8: testimony limits and record distinction | 8: documented survivor reconciliation rather than generic epilogue |
+| Visual expressiveness | 7: constrained by compressed sequence | 8: rescue, court, correspondence and official file | 8: additional letters and meeting; reference/rights verification still required |
+| Spoken narration | 8: compact, direct verbs; legal distinction dense | 8: strongest balance of actions and explanation | 7: institutional/expert passages remain denser, possible overrun |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Confidence medium for text-based judgments; low for audience behavior. No CTR/retention inferred from views. All scores are provisional and not independent feedback.
+
+## Incremental value and recommendation
+
+02→05 adds the survivor/court context and a real later campaign, not a repeated rescue summary. 05→10 adds documented personal reconciliation, a school letter entering the Congressional Record and the 2023 exchange. Potential attention loss at the second naval specialist and after the 2001 institutional payoff. Recommend **05m**, not approved: it completes the legal and human promise without a second extended ending. 10m is a viable alternative but may exceed ten minutes at a slower rate; do not speed the approved voice to force the label.
+
+## Visual intent and hard checks
+
+Text maps for current pairs only, not generated shots: 02m has 9 paired paragraphs (opening/rescue, legal evidence, advocacy, file payoff); 05m has 26 (opening and orientation, rescue, distinct charges and qualified evidence, advocacy and record ending); 10m has 35 (opening, rescue, trial, survivor reunion, letters, institutional result, later correspondence). Map visual intent to each exact paragraph in a fresh storyboard after selection; do not apply the root 26 spans to any changed variant. Preserve original historical evidence. No media, rights, measured timings or audiovisual seam verified.
+
+Complete scripts prepared; paired paragraph counts checked; author factual and semantic reading completed with caveats in research. Primary court transcript exact indexed Q/A consulted; full page fetch timed out. 1998 Congressional Record text indexed, page screenshot unavailable (oversized PDF). Independent blind first listener and bilingual reviewer UNVERIFIED; no reviewer response synthesized. Owner approval NOT GIVEN; no production. Need local ytv runtime and genuine independent session capability; follow current task contract, use canonical context and register selected exact hash before progressing. Next untouched queue entry #112, plus outstanding technical PRs.
+
+---
+
+## Historical material — superseded where inconsistent with the current revision above
+
 # USS Indianapolis / McVay — three finished editorial versions (2026-11-18)
 
 **Status:** `EDITORIAL_CANDIDATE_UNREGISTERED`; **full texts prepared, author text/fact checks completed, independent first listener and bilingual reviewer UNVERIFIED, provisional recommendation 05m, owner approval NOT GIVEN**. Existing Draft PR #111 only; no production, no run/pins/approval change. Baseline branch HEAD `54fbb08ae6f234b67392d1bd3dc7837d2851f7fa`; root masters EN Git blob `347528bce1ad269fa3e5adf1aee1129aa408ece0`, RU `b3884363ebc46f3f2b692b8ba3431e4a409ec7e7`; both preserved exactly. Original 26-spans storyboard belongs to root and the **byte-identical 05m variant only**, not 02m or 10m. No prior software test/reviewer proves narrative success.
