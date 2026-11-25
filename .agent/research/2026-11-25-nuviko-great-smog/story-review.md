@@ -6,14 +6,14 @@ Authorship: ChatGPT, author/editor of these exact scripts; not an independent re
 - variants/02m/script.ru.txt: SHA-256 `d549b9f3e3cbdfe50abe0e910deaf95cda4b6acba698f8eb207271d16d5e3801`
 - variants/05m/script.en.txt: SHA-256 `af1ddb2e307209ff2ccde39e412087cc3b91fb51b02996c89804fc151191a079`
 - variants/05m/script.ru.txt: SHA-256 `e949ffb37c384a6b418abf3a87d981415b18a2584a7aa19ef4e505806b358ae6`
-- variants/10m/script.en.txt: SHA-256 `40461124104809ffef44a7eb7e3264616c89176883b02f27b93268ea69a7325b`
-- variants/10m/script.ru.txt: SHA-256 `b09a0e54e8a25b3b046f39a4f7dbdfc8ff223818dc7539ff86433fcd4c2b5e1e`
+- variants/10m/script.en.txt: SHA-256 `a8de2b72d259587f102e90bbee8512a7e8bd681922fd98b91d4042c640dabc81`
+- variants/10m/script.ru.txt: SHA-256 `c42e67a9e80ca4d7ecf26c85657c615a13e53ba2f7c7d5f808f34d5185da7a01`
 
 | Variant | EN words | RU words | Estimate (assumed effective 135–155 EN wpm; speed setting 1.10 unchanged) |
 |---|---:|---:|---|
 | 02 | 270 | 225 | 1.7–2.0 min voice estimate |
 | 05 | 706 | 594 | 4.6–5.2 min voice estimate; +10s end-screen if produced |
-| 10 | 1489 | 1262 | 9.6–11.0 min voice estimate; +10s end-screen if produced |
+| 10 | 1490 | 1262 | 9.6–11.0 min voice estimate; +10s end-screen if produced |
 No voice test, pause or AV timing. Counts are whitespace tokens; numbers spelled out in EN. Russian is full semantic editorial translation, not a second production voice.
 
 ## 02m — Short — STRONG_CANDIDATE
@@ -69,4 +69,4 @@ Main weakness: after epidemiological payoff the policy history risks feeling lik
 | Independent script review (exact hashes) | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 | Demand/retention | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 
-05m recommended: the doctor, inversion, measured pollution, delayed mortality and concrete intervention form one escalating story without the administrative slowdown of the 10m variant. 02m delivers full answer in a strong compressed arc and is valid alternative. 10m adds a real comparison with 1948 and epidemiological attribution and funding detail, but weaker pace. No duration automatically wins; author verdict only. Text revision pass: avoided a generic death-count opening and made photograph/health payoff correspond; avoided asserting a precise individual death list, immediate blanket coal ban, or same-street coincidence. No independent review available; no official gate. Detailed storyboard/prompts not prepared pending exact text review and actual reference bytes.
+05m recommended: the doctor, inversion, measured pollution, delayed mortality and concrete intervention form one escalating story without the administrative slowdown of the 10m variant. 02m delivers full answer in a strong compressed arc and is valid alternative. 10m adds a real comparison with 1948 and epidemiological attribution and funding detail, but weaker pace. No duration automatically wins; author verdict only. Text revision pass: avoided a generic death-count opening and made photograph/health payoff correspond; avoided asserting a precise individual death list, immediate blanket coal ban, or same-street coincidence. Second author pass (10m EN/RU): distinguished persistent excess mortality from a rising daily rate. Cumulative death toll may grow while daily mortality declines; corrected exact closing sentence and influenza paragraph. Ratings unchanged; new hashes above; no independent review available; no official gate. Detailed storyboard/prompts not prepared pending exact text review and actual reference bytes.
