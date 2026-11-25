@@ -1,0 +1,55 @@
+{
+  "type": "published_sample_reconstruction_not_new_measurement",
+  "source": "https://www.americastestkitchen.com/articles/168-easy-peel-hard-cooked-eggs",
+  "chart": "https://res.cloudinary.com/hksqkdlah/image/upload/c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_340/27239_chart-01",
+  "sample_per_side": 10,
+  "target_smooth_eggs": 6,
+  "cooling_minutes": 5,
+  "ordered_appearance_grades": [
+    "flawless",
+    "minor imperfections",
+    "pitted",
+    "mangled",
+    "torn to core"
+  ],
+  "A": {
+    "method": "cold start, bring to boil, covered off heat ten minutes",
+    "counts": [
+      0,
+      3,
+      2,
+      2,
+      3
+    ],
+    "cumulative": [
+      0,
+      3,
+      5,
+      7,
+      10
+    ]
+  },
+  "B": {
+    "method": "already boiling water; exact schedule for this ten-egg trial not provided",
+    "counts": [
+      9,
+      1,
+      0,
+      0,
+      0
+    ],
+    "cumulative": [
+      9,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "limitations": [
+    "target of six and party setting are fictional framing",
+    "no per-egg ordering, age/size matching or randomization metadata",
+    "counts are reported sample only, not probabilities or edible yield",
+    "no timing comparison, no measured texture parity for the 10-egg groups"
+  ]
+}
