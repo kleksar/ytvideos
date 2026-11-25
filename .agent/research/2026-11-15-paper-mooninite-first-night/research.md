@@ -92,3 +92,12 @@ Unresolved: independent viewers' interest, original billboard cartoon art rights
 ## Exact-quote correction (2026-11-18)
 
 In a first expanded 10m draft, a second exact sentence was wrongly attributed to Mayor Menino. Checking [Boston Magazine, 2013-11-20](https://www.bostonmagazine.com/news/2013/11/20/boston-herald-made-menino-forgiving/), [WBUR/AP, 2013-11-20](https://www.wbur.org/news/2013/11/20/boston-bomb-scare-artist-back-in-the-limelight), and prior owner research verified the core “We're a forgiving city” quotation, not the supplemental sentence. The unsupported exact quote has been removed in both languages; see updated 10m SHA-256 in story-review. No invented quotation retained.
+
+## 2026-11-25: actual performance and legal resolution (05m revision)
+
+- [WBUR, 2007-05-11](https://www.wbur.org/news/2007/05/11/charges-dropped-against-guerrilla-marketers): both artists did service at Spaulding Rehabilitation Center and apologized in court, saying they had not anticipated the reaction; charges dropped. Separate from corporate settlement.
+- [YourArlington, 2013-12-29](https://yourarlington.com/2013/12/first-122913/): pre-event interview documents a three-dimensional replica of the library, private funding and director's justification of professional reputation. No implication the city paid the project directly.
+- [Zebbler Studios project page](https://zebblerstudios.com/boston-library/): participant's account of completed facade projection; includes ten-minute headliner content, not independently watched performance footage. Credits distinguish composer, animation and modeling team.
+- [Berklee interview with Ben Cantil](https://college.berklee.edu/news/first-night-boston-2013-featured-music-berklee-alumn-and-current-faculty-member-ben-cantil): independent institutional publication with participant interview describes his soundtrack work against developing visuals, flexible sections, actual music during countdown into 2014 and final Auld Lang Syne refrain. This corroborates that the event happened; audience response and exact visual sequence UNVERIFIED. No lyrics quoted, no audio or video rights acquired.
+
+The prior 05m ended on the mayor's answer and had 527 words, likely short of target; the revised full text follows the commission through completion. Prior 02m/10m/root preserved. The 10m still has repeated safety exposition and prospective ending; separate revision remains. No new demand metrics, no external runtime or review evidence.

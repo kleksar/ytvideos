@@ -19,3 +19,7 @@ Actual EN S001 asks the closure/agency/return questions before incident immersio
 ## Variant-specific revision — 2026-11-18
 
 Original S001–S028 anchoring is valid only for original/05m. New 02m and 10m begin with similar verified questions but have different proof placement; thumbnails and scene-to-narration spans are **unverified** until a precise master is chosen. Do not reuse old 28 frames against altered narration. Author recommendation is 02m Long, not an approved release plan, tested CTR or license to reproduce the copyrighted cartoon image. No media generated.
+
+## 2026-11-25 alignment (05m candidate)
+
+Previous S001–S028 anchors apply only to unchanged root, not current 05m. New 05m paragraphs 1–4 establish promise/first proof; 8–12 establish delayed explanation and disposition; 13–19 establish commission and actual performance. For A keep the small sign vs disrupted traffic; for B use the library projection as the second scene of the contrast, not an assertion of direct municipal funding. For C no explosive claim remains accurate. Paper-plane motif provisional in final diorama, no actual asset check. No generated image or CTR evidence; rights and exact scene layout UNVERIFIED. Preliminary 05m recommendation, not approval.

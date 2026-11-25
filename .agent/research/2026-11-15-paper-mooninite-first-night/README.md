@@ -7,11 +7,11 @@ Paper Detour · same real event · English narration · Long 16:9.
 | Duration target | Complete scripts | EN words | Actual editorial status |
 |---|---|---:|---|
 | 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 267 | new complete compact Long |
-| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 527 | original exact text copied byte-for-byte; nominal 5m undershoot possible |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 657 | revised; actual completed show and court disposition |
 | 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1411 | new documented expanded Long |
 
-**Preliminary recommendation: 02m Long.** It resolves the commuter's alarm, the ad-agency silence, the criminal outcome and the later commission without a long procedural tail. The original 05m remains unchanged as a strong alternative but could under-run five minutes; 10m contains new sourced detail and a weaker middle. The target duration is **not** a measured audio length, and this recommendation isn't approval.
+**Preliminary recommendation: 05m Long.** The revised middle-length story follows the legal resolution into a concrete completed projection and New Year soundtrack. 02m remains the most compact alternative; 10m repeats some safety/legal exposition and ends at the invitation. Duration is estimated, not measured; recommendation is not approval.
 
 [Full research](research.md) · [three independent author-only scorecards, text SHA-256 and blockers](story-review.md) · [handoff](handoff.md) · [packaging](packaging-brief.md).
 
-The original root [EN](script.en.txt) / [RU](script.ru.txt) are preserved byte-for-byte and duplicated in `variants/05m/`. The existing [storyboard](storyboard.md) is valid only for the exact unchanged root/05m text. There are no scene spans or image prompts for the new 02m/10m. No independent reviewer, owner approval, run, media or publication.
+The original root [EN](script.en.txt) / [RU](script.ru.txt) are preserved byte-for-byte. The previous byte-identical 05m is recoverable at `25490219c65247e8b3a208cf65d8987ecb493d39`; the current 05m is a different exact text. The existing [storyboard](storyboard.md) is valid only for the root. Revised 05m provisional spans and all hashes are in story-review; no variant has a production storyboard. No independent reviewer, owner approval, run, media or publication.

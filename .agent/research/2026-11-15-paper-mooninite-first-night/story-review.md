@@ -7,16 +7,16 @@
 | Target | Full EN | Full RU | EN words | RU words | EN SHA-256 | RU SHA-256 |
 |---|---|---|---:|---:|---|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 267 | 222 | `9f6b3695fc6e1e7b25e9a46fe03371f9985b08e6c7a5cf1514c9049dbe7cff2f` | `69d52d9bd2cfd442571398c4f2f2979fda9129ba23cfd1cc6aec9a5f6ac0537a` |
-| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 527 | 439 | `122c968f1cf44e801b82153a8891af66126c8289e8384b8f5e5a05ad8a03febb` | `247ba7042d70d141dcf0cdc03bf73a4e0ceb22fdbe1423c17bf5d2d65c4ba632` |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 657 | 541 | `e06eb8418371d057c7ab5fca92f90af6d4963583af07ed147e508a0554868fdf` | `6101e330017f84fb2144482df68104f320369a3203e93b45513ad3285425144a` |
 | 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1411 | 1139 | `ce1b9c5760eb4c6f9d901ccdd1b4e2908c5df9972901cbba14028cce0b0d3775` | `8c90f41a42bb46a72bca8fabae626bde909658a80792f402e4a9af25d77a9e1c` |
 
-Target timings, not measured: at assumed 135–155 EN words/min plus natural transitions, 02m about 1.7–2.2 min; 05m 3.4–4.2 min; 10m 9.2–10.9 min. The preserved five-minute version **may under-run**. No TTS/speed manipulation, word-map or MP4 used. The 10-minute version may also need an actual normal-speed recording to confirm target. All three marked Long 16:9; 5/10 cannot be Shorts.
+Target timings, not measured: assumed 135–155 EN words/min, excluding transitions and end screen. 02m: 1.7–2.0 min; revised 05m: 4.2–4.9 min; 10m: 9.1–10.5 min. All three Long 16:9. Actual TTS, effective pace and pauses UNVERIFIED.
 
 ## Story maps and fact evidence
 
 **02m:** two questions → anonymous panel / commuter report → police destroy panel / harmless cartoon → Interference supplied boards → Berdovsky recognized it but was asked to remain quiet → Turner accepts responsibility → arrest / later dropped charges / corporate two-million-dollar settlement → the same artist hired by First Night Boston / documented mayoral answer. Evidence: Boston.com retrospective, WBUR 2007 disposition and WBUR/AP 2013 hiring.
 
-**05m:** baseline 28-scene question-first narrative, full original English/Russian copied exactly. Questions → overpass incident → cartoon reveal → national campaign and delayed company explanation → arrests / community service / settlement and resignation → artist hired for First Night → mayor quote. Strong existing action/meaning map retained in original storyboard; it is **not** a universal variant storyboard.
+**05m:** new question-first version: report → cartoon reveal → agency silence → arrests → actual community service and dismissal → commission / physical library model → soundtrack composed against evolving animation → mayor's answer → completed public projection and New Year music. The original 28-scene root remains an archived baseline only.
 
 **10m:** questions → Sullivan Square report → highway/Orange Line → bomb-squad removal → cartoon identification → named installers and prior placement → additional reported threats, post-9/11 context and disagreement over police response → artist films the incident and agency asks silence → Turner admits responsibility → arrests / strange haircuts press conference → corporate settlement and dropped criminal charges → artist's electronic projection career → privately supported First Night projection mapping on Boston Public Library, prepared 3D model → documented civic decision and mayoral quote. New facts supported by [Boston.com 2017](https://www.boston.com/news/local-news/2017/01/31/looking-back-at-the-boston-mooninite-panic-10-years-later/), [WBUR May 2007](https://www.wbur.org/news/2007/05/11/charges-dropped-against-guerrilla-marketers), [WBUR/AP Nov 2013](https://www.wbur.org/news/2013/11/20/boston-bomb-scare-artist-back-in-the-limelight) and [YourArlington Dec 2013](https://yourarlington.com/2013/12/first-122913/). The latter describes **planned** facade mapping, not verified finished footage.
 
@@ -35,16 +35,16 @@ Target timings, not measured: at assumed 135–155 EN words/min plus natural tra
 - **Hard checks:** author fact mapping provisional; EN/RU semantic pair authored and paragraph order checked, independent translation verification UNVERIFIED; Paper Detour Long supported by channel.json; narrative Short loop N_A; exact audio length UNVERIFIED; independent blind review UNVERIFIED; licensed artwork UNVERIFIED.
 
 ### 05m — author judgement; confidence medium
-- **Interest/significance:** 8/10 — unusual transport shutdown and later re-hiring.
-- **Opening/promise:** 8/10 — three questions with one giving away some of the final reveal.
-- **Development/causality:** 7/10 — sign, response and agent knowledge well-linked; aftermath becomes expository.
-- **Payoff:** 8/10 — same artist and documented mayor quote close the question.
-- **Freshness:** 7/10 — familiar old story, less familiar second career turn.
-- **Visual distinctiveness:** 8/10 — LED sign and public art give a physical contrast.
-- **Spoken clarity/naturalness:** 7/10 — naturally spoken overall but some legal/corporate nouns slow listening.
-- **Verified audience demand:** UNVERIFIED — YouTube public views are not retention.
-- **Weakness:** After the arrest, service / two-million-dollar payment / resignation are stacked before the return of the human protagonist. The unchanged script has just 527 EN words, likely short of nominal five minutes.
-- **Hard checks:** author fact mapping provisional; EN/RU semantic pair authored and paragraph order checked, independent translation verification UNVERIFIED; Paper Detour Long supported by channel.json; narrative Short loop N_A; exact audio length UNVERIFIED; independent blind review UNVERIFIED; licensed artwork UNVERIFIED.
+- **Interest/significance:** 8/10 — a minor installation generates a public emergency, then the same artist returns in a civic commission.
+- **Opening/promise:** 8/10 — three questions set up the sign, the missing explanation and a larger canvas; the first answer arrives in paragraph 4.
+- **Development/causality:** 8/10 — charges and corporate restitution are separate, court apology resolves the criminal line, and the completed commission develops through model and soundtrack preparation.
+- **Payoff:** 9/10 — an actual performed show and musical countdown complete the visual contrast rather than stopping at the invitation.
+- **Freshness:** 7/10 — familiar scare; the composer and completed show add less familiar material.
+- **Visual distinctiveness:** 8/10 — overpass, press, courtroom, model and illuminated library; exact copyrighted character requires rights review.
+- **Spoken clarity/naturalness:** 8/10 — mostly concrete actions and manageable sentences; corporate names and transition to the commission still need a cold reader.
+- **Verified audience demand:** UNVERIFIED — no matched cohort, CTR or retention evidence.
+- **Weakness:** paragraph 10–12 slows the story after the arrest; the 02m remains more efficient if the listener only wants the reversal.
+- **Hard checks:** author source and EN/RU comparison performed; independent review and bilingual review UNVERIFIED; Long supported; Short loop N_A; actual duration/AV/rights UNVERIFIED; no current storyboard or approval.
 
 ### 10m — author judgement; confidence medium
 - **Interest/significance:** 8/10 — wider accountability story alongside the artist's return.
@@ -60,11 +60,11 @@ Target timings, not measured: at assumed 135–155 EN words/min plus natural tra
 
 ## Comparison and recommendation
 
-**02 → 05:** longer text gains a nuanced public-safety response, separate responsible actors, the next-day press conference and settlement/resignation. But repeated consequences delay the protagonist's return, while its measured word count does not establish five full minutes.
+**02 → 05:** the unchanged 02m has the sharpest pace. The revised 05m adds the separate criminal disposition, the physical model, the composer's work and the actual public performance. The court section (paragraphs 10–12) is the likely point of attention loss, but the subsequent action earns the extra time.
 
-**05 → 10:** longer text adds distinct evidence on multi-location threat reports, artist versus police knowledge, criminal charge versus ultimate dismissal, and *why* the artist was suitable for library-scale video mapping. The stretch from criticism through settlement to dismissal is the likely point of losing the viewer: several institutional steps follow the main ad reveal before the new artistic act.
+**05 → 10:** the unchanged 10m gives more context on competing reports, corporate accountability and video mapping; paragraphs 10–11 and 18–19 repeat the distinction between recognizing the cartoon and establishing safety. It still closes on the commission rather than the actual performance. A separate substantive 10m revision remains open; its existing scores/hashes are retained, not transferred to new text.
 
-**Recommendation: 02m Long as an editorial candidate**, not approval. It delivers both visual reveals and finishes the human line without asking a general viewer to retain procedural detail. If a genuinely independent first listener finds this compression too abrupt, reconsider unchanged 05m. Ten minutes has better documented mechanics but weaker pacing; a stronger topic may deserve that length instead. Author judgements do not predict CTR, retention or views.
+**Recommendation: revised 05m Long**, conditional on blind review. It supplies an actual ending rather than merely a prospective appointment and remains within a plausible five-minute narration range. The 02m is a valid fallback if the extra legal context loses the reader. The longer version is not recommended; verified demand is UNVERIFIED.
 
 ## Verified quotation correction
 
@@ -72,7 +72,26 @@ An exact extra sentence attributed to Mayor Thomas Menino in the first 10m draft
 
 ## Mandatory gate status
 
-- All six texts exist with exact hashes. Root source and original scene spans remain intact. New 02m and 10m **have no valid storyboard**: regenerate chosen exact spans/visual intent later, scene count must follow text.
+- All six texts exist with exact hashes. Root source and original scene spans remain intact. All current variants **have no valid production storyboard**; original storyboard remains tied only to exact root bytes. Provisional 05m spans below do not constitute a storyboard or approval.
 - Independent reviewer: **UNVERIFIED**. Fresh session capability could not be confirmed with available host tools; do not invent receipts or score from self-review. Exact scripts, without this review, must be sent to real first-listener. Reviewer may prefer old text or reject the angle.
 - Audience demand / same-author comparison / actual listening / final AV seam / TTS duration / rights: **UNVERIFIED**. Long narrative loop **N_A**. Separate EN/RU author comparison is not independent bilingual PASS.
 - No registered `ytv start` / pinned runtime snapshot in this Git-only work. Local coordinator must inspect existing runs, register **one selected exact script** through canonical stage instructions, attach alternatives/review as supporting artifacts, then seek legitimate independent review and owner decision. Never replace old pins with a PR checkout or claim three productions.
+
+## 2026-11-25 revision — exact baseline 25490219c65247e8b3a208cf65d8987ecb493d39
+
+Original root and prior 05m remain recoverable at that commit: EN SHA-256 `122c968f1cf44e801b82153a8891af66126c8289e8384b8f5e5a05ad8a03febb`, RU `247ba7042d70d141dcf0cdc03bf73a4e0ceb22fdbe1423c17bf5d2d65c4ba632`. Root/storyboard untouched; 02m/10m bytes untouched. Revised 05m 657 EN / 541 RU words, 19 matching paragraphs. Canonical main a6023668001421b689a8142cebc0bd436545be6b (#124 merged). No owner acceptance or active production indicated in PR conversation; external runtime/Codex sessions cannot be inspected here. Git-only candidate, no pins altered. Prior evidence above about the original 05m is historical only.
+
+| 05m provisional narrative span (EN/RU paragraph) | Visual intent (not prompts or approved storyboard) |
+|---|---|
+| 1 | small sign / distant civic landmark, no reveal |
+| 2–3 | passenger report, transport interruption |
+| 4–5 | object identified; generic illustrated panel pending rights |
+| 6–8 | multiple displays, artist filming, delayed explanation |
+| 9–10 | corporate announcement, arrest and press |
+| 11–12 | separate corporate settlement and courtroom disposition |
+| 13–15 | new commission, library model and geometry |
+| 16 | composer arranging adaptable sections |
+| 17 | mayor's documented answer |
+| 18–19 | actual library projection and New Year countdown; paper-plane motif in a diorama, not a historical object |
+
+Evidence: research addendum 2026-11-25. Author-only full bilingual reading; no independent first-listener, audio, measured timing or licensed visual assets. No actual performance footage viewed. Next: 10m repetition/actual ending and blind review of exact alternatives, then owner selection through canonical runtime. No production.
