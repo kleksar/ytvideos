@@ -1,3 +1,9 @@
+# 2026-11-25 packaging note — revised 05m
+
+Historical root concepts below are not approved plans. Revised 05m promises bank and television clue P01, disappearance P05–P06, TV-related lead P08–P09, verdict/victim consequences P10–P15. Prefer non-operational paper bank and newsroom telephone: title candidate "The Bank Robbery That Left a Trail on Television", lettering "A CLUE ON TV". Avoid GPS tracking, single-clue resolution, harmless prank, invented victim likeness, or conflating compensation with recovery. Actual three-concept packaging, source references, rights, assets and QA UNVERIFIED; prepare after selection. Paper plane candidate newsroom desk P08, not narration. Old storyboard remains historical root only.
+
+---
+
 # Packaging brief — honest editorial concepts
 
 Audience: EN general true-story/heist viewers, Paper Detour Long 16:9. First visual proof in S001–S003 is the real bank surrounded by police/hostages; a paper cross-section appears S008–S010. Full payoff S022–S033 explains phone number, tip, convictions and non-harmless hostage reality. **No suggestion criminals were never caught, nobody was threatened, or only toy guns used.** Not a final approved thumbnail or metadata.

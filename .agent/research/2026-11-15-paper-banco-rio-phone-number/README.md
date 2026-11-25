@@ -1,5 +1,21 @@
 # Banco Río — 2 / 5 / 10 min, one historical case
 
+**EDITORIAL_CANDIDATE_UNREGISTERED.** A hostage robbery ended in an unexpected disappearance, but television-related evidence and a separate tip helped bring the case to court; victims' testimony shaped the sentences. Baseline 34efe9ae272704e71dc898700928b310270f44d1; 05m revised, root and 02m/10m retained.
+
+| Target | Complete texts | EN words | State |
+|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 314 | Preserved compact Long |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 647 | Revised; recommended |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1361 | Existing full candidate; substantive pass pending |
+
+05m now delivers judicial findings and victim outcomes, clarifies the phone evidence and begins with explicit questions. [Review](story-review.md) contains exact hashes, maps, eight criteria and blockers; [research](research.md), [handoff](handoff.md), [packaging](packaging-brief.md). Original [storyboard](storyboard.md) is root-only. No approval, timing or production.
+
+---
+
+## Historical README (previous recommendation superseded)
+
+# Banco Río — 2 / 5 / 10 min, one historical case
+
 **EDITORIAL_CANDIDATE_UNREGISTERED.** These six full EN/RU texts already existed at baseline `de7fdb05c8c82476e7219ed10b954358101f2811`. This revision fact-checks and corrects the TV-phone handset evidence in 02m and 10m and indexes the actual six-file comparison, rather than claiming to have invented missing versions. Original root EN/RU and 33-scene storyboard preserved.
 
 | Target | Complete EN / RU | EN words | Status |

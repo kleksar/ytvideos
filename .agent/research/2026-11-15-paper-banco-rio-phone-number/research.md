@@ -67,3 +67,11 @@ Paper wins over Shed on independent chain of consequences not exhausted by premi
 - Trial context and divergent stolen value estimates: https://www.lanacion.com.ar/sociedad/silencio-de-los-acusados-en-el-juicio-por-el-robo-del-siglo-nid1233732/ (2010-02-16). More than 140 boxes, roughly $19m are historical estimates, not a verified count/asset value. Gray-suit defendant's overall sentence included other offences.
 
 **Source-claim boundary:** no direct witness sensations, invented conversations or private feelings. SIM/IMEI is a mechanism derived from trial testimony, not a promise that one call alone convicted the gang. No source evidence equates 10m length with increased viewership. Existing original research remains in force; these are additional entries, not new independent viewer-demand data.
+
+
+## 2026-11-25 — 05m court and victim consequence evidence
+
+- https://www.lanacion.com.ar/sociedad/duras-condenas-por-el-robo-del-siglo-nid1267535/ (22 May 2010): original 9–15 year sentences; judges found a functioning weapon was used and considered lasting harm; witnesses broke down and others required therapy. No claim every weapon was real. Contemporary reporting of judgment, not direct court-record download.
+- https://www.elterritorio.com.ar/amp/noticias/2010/05/23/227212-robo-del-siglo-violencia-y-perdidas-sentimentales-agravaron-las-penas (23 May 2010): sentencing considered lost savings and family heirlooms as harms. No invented testimony.
+- https://www.lanacion.com.ar/seguridad/a-14-anos-del-robo-del-siglo-nid2323525/ (13 Jan 2020; statements via lawyer): anonymous family learned of theft on TV; father already seriously ill; recovery took two years and fifty days, he died before the result. Civil compensation distinct from physical recovery; no causal assertion about death, no invented identity. Do not generalize compensation to every victim without case records.
+- Previous Infoban 2010 phone testimony remains attributed; fresh attempt returned HTTP 403. No claim of independent re-verification or added escape mechanics.

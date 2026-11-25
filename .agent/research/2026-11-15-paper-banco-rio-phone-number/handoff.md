@@ -1,3 +1,11 @@
+# 2026-11-25 handoff — revised 05m
+
+**EDITORIAL_CANDIDATE_UNREGISTERED.** Baseline 34efe9ae272704e71dc898700928b310270f44d1; recommended exact variants/05m/script.en.txt SHA-256 a6e2216f706e8468c1ded7fd7798ede2db572fa3c07b65b072ed9c422161beaf, RU a957a8f1a6332307501fcbb830c3b5b252b9edb05b2b5796961def620426443e. Old review/timing invalid. Original root, storyboard and other four variant files preserved. Current maps/hashes: story-review.md. Next: substantive 10m. At runtime use actual selected exact variant, not old root path by default; register via canonical start/attach-artifact contract, explicit source, real reviewer and owner decision. No local run/session lease or independent review visible in Git-only pass; external sessions/production status, timing, assets/rights and approval UNVERIFIED. No media or schedule changes.
+
+---
+
+## Historical handoff (old path/recommendation not current input)
+
 # 2026-11-19 exact-baseline reconciliation — PR #108
 
 At original PR head `de7fdb05c8c82476e7219ed10b954358101f2811`, all 02/05/10 EN/RU scripts ALREADY existed. Do **not** treat old PR description as proof that they were missing. Root 05m speech remains unchanged; only 02m and 10m phone/SIM chain received a fact-based bilingual correction. [Complete paths and SHA-256](story-review.md). Recommendation: 05m with duration risk; 02m/10m not approved. Original root storyboard remains bound to original root exact bytes, not to modified variant hashes or 05m's differing trailing newline hash.

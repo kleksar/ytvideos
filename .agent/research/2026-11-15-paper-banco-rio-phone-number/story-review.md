@@ -1,3 +1,49 @@
+# Banco Río — 2026-11-25 victim and trial arc revision
+
+**EDITORIAL_CANDIDATE_UNREGISTERED; author-only review.** Canonical main a6023668001421b689a8142cebc0bd436545be6b; #124 merged. Baseline 34efe9ae272704e71dc898700928b310270f44d1. Previous 05m retained an oversimplified phone trace, delayed the opening questions and ended with generic harm. Revised the 05m pair; the original root, compact 02m and 10m historical candidate remain unchanged. No owner approval visible in PR discussion; production/session state outside GitHub UNVERIFIED. The 10m still needs a substantive pass for an overlong procedural middle and generic victim aftermath. Three pairs exist, but review is not closed.
+
+| Target | Exact EN / SHA-256 | Exact RU / SHA-256 | Words EN / RU | State |
+|---|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) `0fbd1ffbdb6e86b527fa8bbf416e175c66d12ea60aa0819212ba7b5aaf77b2c7` | [RU](variants/02m/script.ru.txt) `b2900bc5eb0550e0c600d390a9fa6f01a81a62882e855544279ff878ba89ccf3` | 314 / 272 | Preserved; compact fallback |
+| 05m | [EN](variants/05m/script.en.txt) `a6e2216f706e8468c1ded7fd7798ede2db572fa3c07b65b072ed9c422161beaf` | [RU](variants/05m/script.ru.txt) `a957a8f1a6332307501fcbb830c3b5b252b9edb05b2b5796961def620426443e` | 647 / 545 | Revised; recommended |
+| 10m | [EN](variants/10m/script.en.txt) `658e73b85aa9179c2f3f9dc9e5ae4d139450b54389c5168b0243c280f010402f` | [RU](variants/10m/script.ru.txt) `0933fe535641fc8c7b6f659a3e0ab2221d8f1a0a4122cfd843819d3f292beb0f` | 1361 / 1082 | Preserved; substantive follow-up required |
+
+All Long 16:9 supported by current Paper Detour ChannelSpec. At hypothetical 120–155 English spoken wpm, 05m is 4.2–5.4 minutes before pauses and end screen; no measured timing or speed adjustment. Prior 05m EN/RU blob hashes 6e0e66c0404901a9acdce3551b7408851776f344 / 135c0a2de96d6fc8cf92e904dab2ac5ee665e2b9; baseline retains exact bytes. Old 05m review/timing invalid. Original storyboard remains bound to root only.
+
+## Exact maps
+
+02m: questions → hostage situation → hidden passage discovery → TV number and separate tip → convictions → two-route payoff. Complete compact candidate, forensic explanation compressed and victim consequence mostly a reminder.
+
+05m: matching paragraphs P01–P15, provisional scene groups, not timed storyboard.
+- P01: explicit questions; bank and TV as promised objects.
+- P02–P04: customers, negotiator and captive stakes; separate paper interiors/exterior; no invented reactions.
+- P05–P06: empty bank and broad underground connection; illustrative cutaway without route geometry.
+- P07–P09: physical evidence cannot identify people, newsroom, communications testimony and separate lead. Paper plane candidate on newsroom desk P08, not narrated; actual reference bytes and visibility UNVERIFIED.
+- P10–P11: convictions, court findings on firearm and harm; judicial paper objects, no invented document text.
+- P12–P14: therapy, lost irreplaceable property, family's compensation and distinction from physical recovery; anonymous symbolic objects, no invented likenesses.
+- P15: television returns as both lead and family's source of news; evidence and testimony close the case. Next-video bridge only after selection.
+
+10m: questions → planning and physical escape → rescue → material and phone evidence → trial and consequences. Extended procedural middle and generic final human impact still need a substantive pass. Reduce escape mechanics and add court/victim material, not more logistics.
+
+| Criterion | 02m author | 05m author (new) | 10m author |
+|---|---|---|---|
+| Interest | 8: captive stakes; crowded crime genre, medium | 8: human consequences and civil recovery, familiar event, medium | 8: multiple evidence types, familiar event, medium |
+| Opening | 8: concrete questions, medium | 8: questions first, courtroom outcome promised; third sentence abstract, medium | 7: three questions including operational detail, medium |
+| Development | 8: compressed investigation, medium | 8: P05 discovery leads to identification, then court reframes apparent harmlessness; P09 technical line slows, medium | 6: procedural middle after escape resolution, medium |
+| Payoff | 8: both questions answered, medium | 9: television returns as clue and family's source of news; compensation distinguished from recovery, medium | 7: dual question answered but victim outcome generic, medium |
+| Fresh angle | 6: well-covered event, high | 7: victim testimony and civil compensation add meaning, medium | 6: familiar heist mechanics, high |
+| Visual | 8: bank/phone, unrendered, medium | 8: bank, newsroom, court and family objects, unrendered, medium | 7: procedural diagrams risk overload, medium |
+| Natural speech | 8: dense SIM line, medium | 8: connected sentences; legal distinction may sound formal; not listened to, medium | 7: lengthy technical/legal exposition, medium |
+| Verified demand | UNVERIFIED: no matched data | UNVERIFIED: no matched data | UNVERIFIED: no matched data |
+
+02→05 adds court finding, actual victim experiences and civil compensation. 05→10 adds physical/legal evidence, but interest may drop in procedural escape and material evidence collection. Recommend 05m subject to independent review and duration, not approval or measured audience performance.
+
+Hard checks: new P11–P14 supported by May 2010 court reporting and January 2020 victim interview (research.md). No causation of father's death asserted. The 2010 communications testimony is attributed prior research; fresh retrieval of Infoban returned 403, independent fresh verification UNVERIFIED. EN/RU author read for sequence, uncertainty and outcome; 15 paired paragraphs, Long loop N_A. Rights, independent first-listener/bilingual reviewer, runtime, actual voice timing, storyboard/AV QA and approval UNVERIFIED. No receipt invented. Next: 10m substantive revision.
+
+---
+
+## Historical review — prior exact versions (05m superseded)
+
 # Banco Río — exact triple, factual review correction (2026-11-19)
 
 **EDITORIAL_CANDIDATE_UNREGISTERED; independent reviewer UNVERIFIED.** Important baseline finding: all six 02m/05m/10m texts **already existed** at `de7fdb05c8c82476e7219ed10b954358101f2811`. The owner-required three-duration package was not actually missing. Their older README/PR descriptions did not index or evaluate the six files under the new standard. Preserve all strong story structure: 05m is byte-for-byte unchanged; 02m and 10m retain their original composition, with a **targeted correction** to how a TV phone number led investigators toward other SIMs/handset IDs. Only that passage changes in each bilingual pair. See [research.md](research.md) for contemporary trial evidence.
