@@ -90,6 +90,10 @@ Source bed может уже содержать обработку — фикс�
 обязательна повторная проверка видимого говорящего; receipt сообщает изменённые
 `picture_bound_start_sample`. Смена слова/voice asset требует новой word map.
 
+Зависимости этих opt-in media helpers перечислены в `requirements-events.txt`:
+`python -m pip install -r automation/ffmpeg_montage/requirements-events.txt`.
+Сам compiler `event_map.py` использует только стандартную библиотеку Python.
+
 Перенос существующего выпуска — отдельная миграция с исходными hashes, сравнением
 всех mapped timings и baseline audio. Старые exports сохраняются. Для нового
 рендера adapter конкретного эдита должен действительно читать resolved nodes,
