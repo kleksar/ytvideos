@@ -1,0 +1,7 @@
+# Packaging brief — candidate 05m only
+Variant: 05m EN SHA-256 4762bc81dab226d7b668c0977d5948eccbb3dd8cbc5a697dcad057029699e9ac; RU 22c04597c04f2782905bf443fb6221c8039c0cf65295594c8f491249c70a3956. 
+Possible title: The Last Natural Smallpox Patient Had Helped Vaccinate Others
+Alternative: The Last Natural Case of Smallpox Started With a Ride
+Promise: how a hospital worker became infected and how investigators knew the chain ended; personal reversal after global confirmation. Avoid “the last person with smallpox” without natural qualifier, “he ended smallpox alone,” or fictional miracle.
+Thumbnail idea: period documentary reconstruction, ordinary man outside hospital next to vehicle, no gore; unobstructed expression or silhouetted figure, not a fabricated archive or actual verified likeness. Text if used: “THE LAST NATURAL CASE”. Actual Nuviko visual profile governs; no Paper style, no fake historical participant traveler; use actual references if traveler included and verify rights/identity. No image generated; no final approved cover. First questions correspond to promise; first visible event children being transported near hospital. Main hook his lack of vaccination. Payoff in tracing/no secondary cases, verification and later work.
+Long ending: full story ends before 10s endscreen. Suitable existing related target/availability, intro bytes and safe-area geometry unresolved; no invented target or endscreen asset. No visual/audio timings. 
