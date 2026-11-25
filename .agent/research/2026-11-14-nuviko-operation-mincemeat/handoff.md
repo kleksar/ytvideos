@@ -1,0 +1,18 @@
+# Handoff — select one exact editorial variant; no runtime registered
+
+**PR #89, branch `work/story-drafts/nuviko-operation-mincemeat-long-20261114`**, baseline `ad87ee84dcf2097c3ea9dc8d95bed09a76807b4b`. The six texts and SHA-256 values are in [story-review.md](story-review.md). Owner has not approved a variant; 05m is only the author's recommendation. **Status `EDITORIAL_CANDIDATE_UNREGISTERED`.**
+
+1. In an authorized pinned checkout/store, check existing runs and production status for `nuviko_history` / Operation Mincemeat before any `start`. A GitHub Draft is not a run. Do not replace existing pins with a branch checkout; migrate explicitly if required.
+2. Show owner all three complete EN/RU editions and the comparison. Independent first listener must read exact **EN** candidate without this writer's scores, then full text/EN↔RU; disclose source ledger after its first response. Reviewer must save its own response in current `ytv-script-review-v1` schema. Do not manufacture receipts or PASS.
+3. Once one exact text is selected, use `uv run ytv start --channel nuviko_history --format long --intent 'Operation Mincemeat: approved selected edition'` only under a genuinely authorized local coordinator, or resume an existing run. Attach other editions `--kind script_variant`, review `--kind story_review` per actual task contract, inspect returned IDs and pinned task packet. The written example command has **not** been run.
+4. Real `awaiting_script_approval` and then storyboard require the selected exact hash and the owner's actual decision. The existing original 80-beat [storyboard](storyboard.md) is **NOT** a validated scene map for any new variant, including the substantially revised 10m. Determine scenes from selected narration and measured TTS; honor Nuviko historical visuals, music, 16:9 delivery and separate 10s end screen.
+5. Image generation, paid audio, MP4, external video providers, YouTube upload/publish and branch merge remain unauthorized. `UNVERIFIED`: current local runtime, independent reviewer availability, rights, TTS, actual timings, retention/CTR and host capabilities.
+
+Historical owner feedback (#90) is retained in the unmodified source documents and the historical section of story-review. Neither the previous review nor any old review applies automatically to newly hashed variants.
+
+## 2026-11-19 revised 05m input
+
+Exact target 05m EN UTF-8 LF SHA-256 `027e1b543c4e78b09ab1ad5771f8638bb85af469d305c807ed3cbb13da3db326`, RU `e208c5950f092aa05cbff5e6869cc329ea9fd858fdeacebdf1113f7bc6906382` (780/643 words). Original 02m, 10m and root master/storyboard preserved at prior blob hashes. New **independent** blind read and bilingual review must reference these hashes; no earlier receipt applies. New scene spans/storyboard need selected exact text and voice timing. Review the new fact ledger on urgent coded cables, sealed-envelope extraction and 14 May high-command response; source attribution does not prove a standalone causal outcome. No runtime, existing run reassignment, approval, production or upload performed. Status remains `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+## 2026-11-24 revised 10m
+Baseline `2cb976a03e80c28f5781130d22344ad7da7cbeab`; EN `61037951cbb63d7e2997edd65090048f9bbed85508ece8489b1680c5c5764af5`, RU `32ae78731f59fbe1cfb25574cfccefab63658153f27ffb94b6c0826fcc660d47`; 1573/1283 words, 32 aligned paragraphs. Preserve original source and all 02m/05m bytes. Old 10m review/timing/spans invalid; independent blind read and canonical runtime registration required. Recommended 05m unchanged. No production or approval.
