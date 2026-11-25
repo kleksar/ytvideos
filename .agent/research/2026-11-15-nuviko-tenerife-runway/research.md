@@ -111,3 +111,19 @@ The 05m edition is the existing 636-word narration copied byte-for-byte. The 02m
 **Verification limits:** FAA reports what crews actually said and did; it does not prove why Pan Am passed C3 or reveal van Zanten's internal motives. PBS retrospective rescue account is a lower-tier source than the official CVR, and no new claim is drawn about individual rescue timelines or unverified survivor experiences. The extra 10m details do not imply that such a long version is stronger for a broad audience.
 
 Current three pairs, frozen script commit `53437dfa2f681e4123bab5f9fc25345655b5aee7`: [RU](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/02m/script.ru.txt) · [EN](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/02m/script.en.txt) / [RU](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/05m/script.ru.txt) · [EN](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/05m/script.en.txt) / [RU](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/10m/script.ru.txt) · [EN](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/10m/script.en.txt). The original main/root scripts are unchanged and pins remain unmodified.
+
+
+## 2026-11-25 — 10m revision: surviving crew and rescue
+
+Baseline 6e6558577e13936eb481150002574edc78a2a6f6; canonical main a6023668001421b689a8142cebc0bd436545be6b (#124 merged). The six exact editorial candidates remain one story. The new 10m replaces repeated operational summaries with an earlier missing-clearance intervention and a documented Pan Am cabin/rescue line. Sources inspected: [FAA accident record](https://www.faa.gov/lessons_learned/transport_airplane/accidents/PH-BUF); [Dorothy Kelly oral history, Pan Am Museum podcast episode 17](https://podcast.thepanammuseum.org/1836491/episodes/10152636-episode-17-tenerife-airport-disaster-remembrance); [DOT-40-78, 27 March 1978, PDF pages 18–19](https://rosap.ntl.bts.gov/view/dot/86048/dot_86048_DS1.pdf#page=18).
+
+| New detail | Evidence / limit |
+|---|---|
+| Kelly agreed to work at the front instead of the rear; cruise passengers waiting for news | Kelly oral history, interview opening (transcript lines 163–169); retrospective recollection, no claim that this guaranteed survival |
+| Climbed toward light after regaining consciousness, jumped, directed passengers away | Kelly interview lines 176–184; explicitly attributed as later recollection, no invented inner dialogue or exact height |
+| Kelly helped Grubbs despite head injury and broken arm; Grubbs credited her | DOT-40-78 p. 2 and Kelly interview lines 183–188; no unsupported number of people saved |
+| Bragg, Donovan, Jackson, Johnson assisted evacuation/transport | DOT-40-78 p. 2; no invented quotes or scene-specific survivor totals |
+| First hospital full, Kelly helped nurses, learned cause after meeting crew | Kelly interview lines 274–288; retrospective individual experience, not a universal evacuation chronology |
+| First DOT Award for Heroism to Kelly; four FAA awards at same ceremony, 27 Mar 1978 | DOT-40-78 p. 1, page image inspected; the release's erroneous 573 fatality figure is NOT used; final 583 retained from FAA accident record |
+
+Prior research/versions remain historical evidence. No change to shared rules, root text, approved sources or pins. No new audience measurement. The rescue line illustrates consequences without suggesting it explains the unauthorized takeoff.

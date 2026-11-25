@@ -1,3 +1,51 @@
+# Current editorial audit — 2026-11-25
+
+**EDITORIAL_CANDIDATE_UNREGISTERED.** Baseline `6e6558577e13936eb481150002574edc78a2a6f6`; canonical main `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). Three full Long 16:9 versions; 02m and recommended 05m root/variant preserved byte-for-byte. 10m substantively revised, prior 10m scores, timings and all scene assumptions STALE. Author check only; not an independent receipt. Existing branch documentation conflict remains unrelated to editorial selection.
+
+## Exact complete texts
+
+| Duration | Full EN/RU | Decision |
+|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | preserved |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | recommended; root identical |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | revised; candidate |
+
+| Path | Words (whitespace count) | SHA-256 UTF-8 | Git blob (baseline for unchanged) |
+|---|---:|---|---|
+| variants/02m/script.en.txt | 271 | `a0d23df752923cc5eac50ba6e9212b9cad94bdd62cf5c6e337b570f89f657d06` | `dacffdbb94ac26c7cd3fe7d666941920f7658601` |
+| variants/02m/script.ru.txt | 236 | `20ecd558a808a90f62e62f58eb62480371c8dd4660afb4739f97aae66eda7d98` | `2632ca86700158fa82749c53ae0e5dfe53c0585d` |
+| variants/05m/script.en.txt | 636 | `aa7ccb65b18b111b722774c0fa9134e86cd25fd3acfda09049f307fc2b144f10` | `5e17e15abdea3c4408cd48d67bce8fdbc546a17c` |
+| variants/05m/script.ru.txt | 538 | `1ba8ed87770201695cb202494b58155a7fb5275b97bf3cfd9a63af9927c5afee` | `34fb56a4526f09c67a8c281605c0d27093b553d5` |
+| variants/10m/script.en.txt | 1415 | `506dfa916f67ddc6ab2478f8a345b2885164f6598b46aceb4e6334bdddbeac4e` | new; see exact commit |
+| variants/10m/script.ru.txt | 1165 | `8c228ccdcc73003c702657a85c2f93f3cfb1ff673eb9a39025358bc7efaab483` | new; see exact commit |
+
+Before: 10m 1483 EN / 1213 RU, 27 paragraphs; old blobs `2422ff84f75ec838a154820aa91b71295e9aa37a` / `a23d800515b70d985a63d3ee5b1b99e3feafa134`. After: 1415 EN / 1165 RU, 26 paired paragraphs. At hypothetical 130–165 EN wpm, 10m 8.6–10.9 min before pauses/endscreen; actual duration UNVERIFIED. No padding for a round time.
+
+## Current author-only scores (out of 10; demand not measured)
+
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest/importance | 8: concrete stakes, no rescue line | 8: causal puzzle, clear stakes | 8: same puzzle with a surviving crew member's documented actions |
+| Opening | 8: two clear questions | 8: two questions, quick immersion | 8: third question adds a promised rescue payoff; added cabin setup costs time |
+| Development | 7: compressed clearance/overlap | 9: successive changes in information | 8: earlier missing-clearance intervention, rescue has its own obstacles; still longer clearance explanation |
+| Payoff | 8: answers central question | 8: cause plus safety lesson | 9: answers central question and shows actual rescue and subsequent recognition |
+| Freshness | 7: familiar disaster, specific question | 7: warning-centered angle | 7: familiar crash; survivor account adds a human dimension, not an exclusive discovery |
+| Visual potential | 8: runway and radio | 9: runway geometry and two radio paths | 9: distinct cabin, rescue, hospital and award settings; reconstructions not archival footage |
+| Natural speech | 8: some unavoidable jargon | 8: concrete verbs, compact | 8: replaces abstract summaries with actions; paired prose still needs cold-listener check |
+| Verified audience demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Confidence moderate in source/structure and low in listener retention. 02m→05m adds geometry and clear order of clearance/brakes/overlap. 05m→10m gives the rescue question a complete answer and actual aftermath rather than a summary; paragraphs 9–15 still slow the narrative with procedural details. **Recommend 05m for density**; 10m is a plausible independent human-focused alternative, not a new production or an approved master.
+
+## 10m exact paragraph spans / visual intent (editorial, not storyboard)
+
+1 questions; 2 diversion; 3 Kelly / cabin responsibility; 4 congested apron; 5–6 runway sharing / fog; 7 first-officer missing-clearance intervention (main hook); 8 distinct permissions; 9 missed exit / uncertainty; 10–12 readback / brake release before O.K. / overlapping calls; 13 interference; 14–16 audible question / unsupported motives excluded; 17–18 evasive actions; 19 collision / outcome; 20 Kelly's escape; 21 Grubbs rescue; 22 other crew; 23 hospital / real cause learned; 24 investigation; 25 safety implications; 26 award / closing payoff. Both languages have identical span boundaries. No reuse of old timings or storyboard; exact images and shot timings remain unverified.
+
+Hard checks: author comparison of the six written scripts and new fact ledger in [research](research.md); chronological brake/O.K. distinction retained, missed-exit motive not established, subjective account attributed, Spanish/Dutch findings separated. All are Long so loop N_A; audio duration, independent exact-text review, official receipts, owner approval and production/runtime status UNVERIFIED. Git discussion has no adoption or active work marker; live runtime/Codex state unavailable. Only Git editorial candidates authorized. No MP4, TTS, media, release or merge. Use canonical runtime/pins and independent review for a single selected master; do not reuse prior receipt. Existing dirty conflict not fixed here.
+
+---
+
+## Previous audit — preserved historical evidence, 10m status/hashes superseded above
+
 # Current editorial audit — 2026-11-18, same Tenerife story, three independent full durations
 
 **Status: EDITORIAL_CANDIDATE_UNREGISTERED.** New 02m and 10m EN/RU manuscripts; preserved strongest pre-existing 636-word EN / 538-word RU manuscript as 05m **byte-for-byte** (both variant Git blobs equal root manuscripts). No owner acceptance or production is implied. All audience estimates, voice timings, real AV and independent blind/bilingual review are UNVERIFIED.

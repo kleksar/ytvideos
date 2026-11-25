@@ -6,7 +6,7 @@
 |---|---|---|
 | 02m Long 16:9 | [RU](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/02m/script.ru.txt) · [EN](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/02m/script.en.txt) | Complete compact documentary |
 | **05m Long 16:9** | **[RU](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/05m/script.ru.txt) · [EN](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/05m/script.en.txt)** | **Provisional recommendation** |
-| 10m Long 16:9 | [RU](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/10m/script.ru.txt) · [EN](https://github.com/kleksar/ytvideos/blob/53437dfa2f681e4123bab5f9fc25345655b5aee7/.agent/research/2026-11-15-nuviko-tenerife-runway/variants/10m/script.en.txt) | Complete, less efficient after crash |
+| 10m Long 16:9 | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | Revised 2026-11-25: documented cabin rescue and award; 05m remains preferred for density |
 
 The original 05m EN/RU manuscripts are preserved **byte-for-byte** in variants. All variants use the same [research](research.md). [Story maps, 8-item ratings and exact SHA-256](story-review.md) identify precise strengths, limitations, scene implications and missing evidence. [Handoff](handoff.md) and [packaging](packaging-brief.md) are editorial only.
 
