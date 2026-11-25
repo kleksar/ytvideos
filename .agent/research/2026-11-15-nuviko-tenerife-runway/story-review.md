@@ -113,7 +113,7 @@ Ratings (author, 1–10): **interest/importance 8** (documented catastrophic sta
 
 ## Remaining next action
 
-1. Resolve `#115` conflict on main-docs/hook-patterns **only with a reviewed, minimal, head-aware reconciliation**, not by rewriting global rules to fit the branch. Preserve all existing scripts, root source and active pins.
+1. The follow-up technical reconciliation below withdraws the superseded shared-doc changes. Verify GitHub mergeability and exact-head CI; preserve all existing scripts, root source and active pins.
 2. Obtain genuine blind first-listener and independent bilingual review for exact chosen hashes. If available, reviewer receives scripts **without these scores or writer rationale**; present research only after the initial cold read; let reviewer save their own schema response.
 3. Confirm one master with owner and register/import via canonical local runtime with pinned context (resume existing run if present). Prepare storyboard/spans/prompts only for chosen script. No media/gates until explicit authorization.
 4. Continue next unreviewed existing Long, then Shorts and technical PRs based on fresh inventory. The backlog of 149 open PRs is **not** certified by this one edit.
@@ -193,3 +193,8 @@ These are **not** measured retention, predicted views, CTR, or a certification. 
 - Long narrative loop: **N_A**.
 
 The existing `ytv-write-script` skill and `docs/standards/editorial.md` were inconsistent with the owner's required questions-before-hook order. Those instructions and `hook-patterns.md` are revised **in this same PR** without changing schemas, adding a gate, or reprocessing other pinned runs.
+
+
+## 2026-11-25 — technical follow-up, no narration changes
+
+Baseline `35bc3bba5bd118ef9248a7476c89133ce8bb4986`; inspected current canonical main `eacdee032ea9fc36cc7305ea7a6926bff16cd2fd` (#117 and #124 merged), exact merge base `5d3222c8888c775d2195c8b2949949f2d992e98d`. GitHub reported `mergeable=false`, `mergeable_state=dirty` for the baseline. The two shared-document deltas duplicate/supersede older versions of the questions-first Long rule, density and duration safeguards now governed by main's editorial, hook-patterns and narration standards. Withdraw only those historical branch deltas by restoring their exact merge-base blobs (`213ac8fe3621e272a31480eec6748d18c7c7ec34`, `2562c5ebfbdc5fd795690946b7472c0127e408c8`); this is not a new standard, a migration or an update to main. All six scripts, original master, research, packaging and historical evidence remain untouched. Prior conflict observations above are historical. 05m remains the existing provisional editorial recommendation; independent review, actual duration, owner approval and runtime registration remain UNVERIFIED. Verify actual new head, diff scope, blob identity and CI after publication; do not infer a successful merge or CI from this note.
