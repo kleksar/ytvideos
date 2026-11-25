@@ -1,3 +1,9 @@
+# Goiânia — additional fact audit, 2026-11-25
+
+For revised 02m/05m only; 10m/root unchanged. Primary source reopened: IAEA, *The Radiological Accident in Goiânia* (1988), [report](https://www-pub.iaea.org/MTCD/Publications/PDF/Pub815_web.pdf), printed pp23–27, examined page images. p23: initial illness and erroneous diagnosis; p24: Maria's mother helped care for her and carried contamination back home; p25: Ivo's family meal dated Sept 24, Maria's bus trip with the source; p26: shoulder exposure and bag outside; p27: first meter assumed defective, second confirmed the reading, evacuation. The material, not a whole medical machine, reached the child's table. Distinguish first instrument suspicion from second confirmation. [Official IPEN account](https://www.gov.br/ipen/pt-br/assuntos/clipping-de-noticias/quem-e-o-fisico-que-identificou-o-acidente-com-cesio-137-em-goiania) confirms Maria and Leide died October 23; the other victims died October 27 and 28. No new speculative motive or dialogue. Full research below remains common to three versions; no independent review/demand or runtime claim.
+
+---
+
 # Goiânia 1987 — editorial research / claim boundaries
 
 EDITORIAL_CANDIDATE_UNREGISTERED. Research date 2026-11-15. Channel: Paper Detour, English illustrated Long 16:9. Not a production receipt, no independent review, no channel analytics access.

@@ -1,3 +1,9 @@
+# Current editorial handoff — 2026-11-25
+
+EDITORIAL_CANDIDATE_UNREGISTERED. [05m EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) recommended; 02m rewritten with direct question-answer seam candidate; 10m/root master unchanged. Do not reuse earlier timing/review of 02m or 05m; exact hashes and maps in [story-review](story-review.md). Before any actual registration, check local runtime store, active production and Codex ownership, obtain canonical context/pins and independent review of exact text without author verdict, then source check. Do not replace protected master or existing production, do not generate media or interpret recommendation as approval. Git-only environment cannot inspect local state or produce genuine independent receipt.
+
+## Historical handoff (superseded where alternatives changed)
+
 # Editorial handoff — NOT a registered ytv run
 
 **Proposed owner choice:** [05m EN](variants/05m/script.en.txt) with full [05m RU](variants/05m/script.ru.txt). Alternative [02m](variants/02m/script.ru.txt) and original [10m](variants/10m/script.ru.txt) remain in the same PR. Exact file hashes and relative strengths are in [story-review](story-review.md); recommendation is not approval.

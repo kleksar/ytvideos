@@ -1,3 +1,48 @@
+# Goiânia — current editorial review, 2026-11-25
+
+EDITORIAL_CANDIDATE_UNREGISTERED. Existing Draft PR #116. Baseline `ffe21053d8b4371e52039e346487cd36404b5c8e`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). Only alternative 02m and 05m changed, root master and original 10m preserved exactly. Visible GitHub conversation/reviews disclose no acceptance of the alternatives; local production store, live Codex sessions and runtime pins are inaccessible. Do not treat Git-only work as registered or approved.
+
+| Target | Full EN | Full RU | SHA-256 EN | SHA-256 RU | Words EN/RU |
+|---|---|---|---|---|---|
+| 02m Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 1bfbfbc9dffb0fd15be337d03022bcfce39c8338da7b61c687ff6327de1a8f97 | 8c7ee044cdbd156773d8704d95de3bafeb55b697e2b76e6b05d1604773ffd12a | 288/248 |
+| 05m Long | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 2886b4143f0569fd85cfe5470d38d004f935ee9b76983f29365f1ef61b688a6b | a51110f4fab909dc426461ae406f5e9b6c47ef98fd630260ae75680991284687 | 661/566 |
+| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | defeba790272bd286c7eafcfe0137c6b5797b5900c40b8de5f9c4e15d86b7228 | 954ca5ae3f672354c845c7ef5928dd25569ba7240358c46a104240c0dc425a39 | 1507/1253 |
+
+Estimated spoken EN duration at 140–150 words/min: 02m 1.92–2.06, 05m 4.41–4.72, 10m 10.05–10.76 minutes; Long has separate 10-second end screen. Actual TTS/delivery UNVERIFIED. No runtime timing contract asserted.
+
+## Before → after
+02m: thematic return to dinner without a real speech seam → independent causal story with dated meal, early mistaken diagnosis, Maria's bus trip, shoulder injury, two meters and evacuation, losses and cause before closing question. Opening answers that exact question. 05m: misleading promise of an entire medical machine on the family table and both meters thought faulty → questions refer to material and first meter only; redundant return to meal removed; Maria's mother's contamination during care and return home supplies a new causal beat, exact death date anchors human consequence; concrete clue and aftermath replace generic recap. Original 10m not rewritten: full source history and clinical material, but slower late section.
+
+## Story maps / visual intent
+Paragraph numbers, not shot counts or measured timestamps. No storyboard transferred.
+- 02m (9 EN/RU blocks): 1 table/father's fragments; 2 abandoned clinic/first illness; 3 distribution; 4 Maria bus/worker; 5 first meter; 6 second meter and evacuation; 7 screening/losses; 8 cause/payoff; 9 loop question. Visual return to same table only as candidate.
+- 05m (17 EN/RU blocks): 1 questions; 2–3 glow/meal; 4–7 clinic/illness/spread; 8–9 Maria's mother/resale; 10–11 bag/doctor; 12–13 meters/preventing disposal; 14–15 search/screening; 16–17 consequences/cleanup. No timing inherited.
+- 10m (53 blocks): preserved map and manuscript in historical review below. Exact root and variant Git blobs EN 895ca8beeae0c767795a5fd3b0662cff0a2c044a, RU 672978af43cf03ebbbe0b1b9d94d595414646796.
+
+## Eight editorial criteria, author judgment only
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest/significance | 8 — child and invisible household exposure | 8 — adds cross-household contamination | 8 — same stakes plus wider public response |
+| Opening | 8 — dated father action, danger unfolds | 8 — precise questions and causal promise | 8 — striking glow but denser context |
+| Development | 8 — diagnosis, trip, meters are escalating clues | 9 — mother’s care, resale and second meter build causal chain | 8 — broader context, slower clinical classification |
+| Payoff | 8 — culprit, evacuation and deaths before loop | 9 — Maria’s clue and cleanup give human consequence | 8 — thorough, diluted by late statistics |
+| Freshness | 7 — known disaster, concrete family angle | 8 — clue and onward household spread | 7 — broader conventional chronology |
+| Visual expressiveness | 8 — table, bus, bag, meter | 9 — contrasting households, scrapyard and investigation | 8 — more scenes but abstract clinical categories |
+| Natural/clear speech | 8 — short actions, limited exposition | 8 — concrete actions, names still demand attention | 7 — detailed late clinical exposition |
+| Confirmed demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Confidence moderate on facts/structure (primary source check), low on actual listener response. No retention, CTR or measured demand inferred.
+
+## Hard checks
+Fact audit: IAEA 1988 report printed pp23–27, official IPEN victim dates, see research.md. No invented motives or dialogue. Revised pairs author-read for equivalence and paragraph alignment; no independent reviewer. 05m and 10m Long: questions before immersion and hook; no loop requirement. 02m full story before loop; author textual seam: “How had a fragment of that source reached a child's table?” → “On September twenty-fourth, 1987, in Goiânia, Brazil, a man brought home fragments from his brother's scrapyard.” RU: «Как же частица этого источника оказалась на столе ребёнка?» → «Двадцать четвёртого сентября 1987 года в бразильской Гоянии мужчина принёс домой частички вещества с пункта металлолома своего брата.» The action answers the question; complete answer and losses precede it. Independent two-cycle listening and real AV seam UNVERIFIED. Short format is proposed within Paper Detour ChannelSpec; actual duration/delivery UNVERIFIED. No owner approval or runtime registration. Previous review/timing of changed 02m and 05m is superseded, not reusable. Original 10m evidence remains historical; no fresh independent receipt.
+
+## Comparison and recommendation
+02→05 adds the mother's return home with contamination, resale, further diagnostic detail and the response; it earns the extra time. 05→10 adds the clinical classifications and detailed response but around original paragraphs 41–46 the narrative slows after discovery. **Recommend 05m**, not approval; 02m is a full independent alternative, 10m preserved as original. Next: independent exact-text review before any selection, with canonical runtime context/pins and actual availability; never replace production master automatically. Three versions prepared, author checked, recommended 05m; registered/independent/owner acceptance UNVERIFIED.
+
+---
+
+## Historical review (2026-11-18; superseded for changed alternatives, preserved evidence)
+
 # Goiânia — three full texts, source limits and authorial review (2026-11-18)
 
 **Scope:** existing Draft [PR #116](https://github.com/kleksar/ytvideos/pull/116), baseline `c07051080b9f883139bcadcc8f877d5e8378338a`. Canonical main at reading time `f2dccfdcf6c5156408d53a5f5c555b4783e06b4b`; merged #124 policy applies. Root English/Russian versions at baseline were 1507 EN words and were preserved byte-for-byte; `variants/10m/` reuses those exact blobs. **Git-only `EDITORIAL_CANDIDATE_UNREGISTERED`**; no claimed owner approval, runtime task, reviewer session, TTS or real AV seam.

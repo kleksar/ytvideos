@@ -1,3 +1,9 @@
+# Current packaging brief — 2026-11-25, no rendered assets
+
+05m Long recommended. Promise: a material in an abandoned medical source reaches a child's table; one suspicious meter is checked by another. Do not imply entire machine was on table or both meters were presumed broken. Visual opening questions → blue glow → family meal → source → cross-household spread (including Maria's mother) → bag → two meters → search, human loss and cleanup. 02m Short starts at dated table action, ends after complete cause and consequences on question that opening answers; table return is conceptual, actual AV seam UNVERIFIED. 10m original unchanged. See exact-version [paragraph spans](story-review.md); not a measured storyboard. No old timing or scene count carried onto revised text. Earlier concepts below are hypotheses only and superseded wherever they conflict.
+
+---
+
 # Goiânia editorial packaging by version — no finished media
 
 For the **recommended 05m Long**, the existing blue-glow thumbnail concept first proves Devair's observation; the Leide dinner beat delivers human stakes, and the **two pegged meters** resolves the promised investigation. The stadium establishes scale, not a claim that 112,800 people were irradiated. The original ideas A/B/C are preserved below as hypotheses, not CTR-tested alternatives.
