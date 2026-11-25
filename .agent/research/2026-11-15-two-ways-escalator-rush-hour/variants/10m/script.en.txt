@@ -1,0 +1,49 @@
+At the bottom of a busy underground station, I have a surprisingly difficult choice. Should I leave one side of the escalator clear for walkers, or ask everyone to stand two abreast? Which arrangement moves more people? And does the answer change if I care about one late passenger rather than the whole crowd?
+
+I reach the station just after a train arrives. A queue is growing before the moving staircase. On the right, people stand. On the left, others climb. I can see why that custom feels fair: passengers in a hurry have a way past, while everyone else can rest. But there's a detail I almost miss. There are empty steps between many of the walkers, even while people below are waiting to board.
+
+I need to decide what "faster" means before comparing anything. A passenger can be faster from the first step to the last. A station can be faster at admitting people into the escalator. Those outcomes sound similar, but they can move in opposite directions.
+
+Here is why. The escalator carries steps at a fixed pace. Someone walking adds their own movement, so that individual may reach the top sooner. Yet on a long climb, relatively few people want to keep walking. The walking side may contain gaps. If people stand close together on both sides, more people can step onto the same moving staircase. The speed of the mechanism hasn't changed; its occupied capacity has.
+
+At Holborn station, this was more than a question of getting people upstairs. During upgrade work, Central line trains were not stopping at nearby Tottenham Court Road. Some passengers switched to Holborn, adding pressure to the interchange. Staff sometimes had to hold passengers downstairs until the crowd above had cleared. A faster individual journey would do little to solve that problem.
+
+In late November 2015, London Underground began a three-week trial. Staff asked people to stand on both sides of selected escalators. Researchers counted passengers coming off at the top and watched the crowd in the circulation area. On escalator number five, roughly twelve thousand seven hundred and forty-five passengers were counted in the second week's test periods, when walking was allowed. In the third week, with standing only, the figure was about sixteen thousand two hundred and twenty. These were different weeks of a real station, not the same crowd replayed under laboratory conditions.
+
+The investigators also noticed that the area between the escalators emptied sooner. During the three-week test, the staff reported having to use the special crowd-holding procedure only once, in the first week. Train service also affected these crowds, so I can't assign that entire improvement to the new rule. But it shows why the station was interested in throughput, not simply in the speed of a person walking uphill.
+
+A longer trial followed in April 2016. Press reports published in March 2017 gave two average throughput figures: about one hundred and fifteen passengers per minute for the familiar split arrangement and one hundred and fifty-one for standing only. I use them as illustrative boarding-capacity inputs for my model. I don't have a verified raw series of people stepping on at the bottom, and those figures are not universal capacities.
+
+I can use those rates without pretending to have run a fresh field experiment. First I create a hypothetical queue of four hundred people. They all want to go up. I hold the entrance and the time window equal, and compare two minutes of boarding. I keep the rates constant for the exercise; the modeled crowd is not footage of actual Holborn commuters.
+
+Version A is the familiar arrangement. A person on the left may move upward quickly. I assign the model a boarding capacity of one hundred and fifteen people per minute. After a minute, two hundred and eighty-five of my four hundred are still waiting. After two minutes, two hundred and thirty have boarded, leaving one hundred and seventy in the queue.
+
+Now I rewind. The same four hundred people return to the same starting position. I do not secretly remove the slower travelers or change the escalator. Version B fills both sides with standers. At one hundred and fifty-one boardings per minute, one hundred and fifty-one board in the first minute and three hundred and two in two. Just ninety-eight remain in the modeled queue.
+
+So the second rule admits seventy-two extra people in that two-minute window. If I compare the rates directly, one hundred and fifty-one divided by one hundred and fifteen is approximately one point three one. That's about thirty-one percent greater boarding throughput. This is the counterintuitive result: fewer walking feet can mean more passengers stepping onto the stairs.
+
+But take care with those numbers. I have counted people boarding, not everyone arriving at the ticket hall, and not individual door-to-door travel times. Someone who enters at the last second still has an escalator ride ahead. The model assumes a continuing queue and fixed boarding rates. It also doesn't measure safety, comfort, luggage or mobility. A boarding-rate advantage is useful; it is not proof that every passenger's journey improves.
+
+Now I notice something the first calculation couldn't tell me. Both of my imaginary queues get shorter because I stopped adding passengers. At an interchange, another train can arrive before the previous crowd has gone upstairs. A rule that looks adequate for one burst may leave a growing problem for the next. So I change just one assumption: people keep arriving.
+
+What if the arrivals never stop? I can make a second hypothetical calculation, but I must label it as such. Suppose one hundred and forty new passengers arrive each minute, and a queue is already long enough to keep the escalator supplied. Under A, boarding capacity is one hundred and fifteen, so twenty-five more people arrive than can board each minute. The queue grows. Under B, one hundred and fifty-one can board while one hundred and forty arrive. If a backlog exists, it can shrink by up to eleven people each minute at those fixed rates.
+
+Those arrival numbers are my own assumptions, not observed Holborn counts. Their purpose is to show why the advantage can feel much bigger during a rush: one arrangement may let the entrance backlog grow while the other starts reducing it. Once the queue disappears, those fixed-capacity calculations are no longer the whole story. I cannot keep boarding more people than actually arrive.
+
+Now change the conditions. I arrive at a nearly empty station. There are no people waiting at the bottom. If walking is permitted, I can climb while the escalator carries me. I might reach the top sooner than if I stood still. Since no one is queuing, those missing walking-lane passengers aren't a bottleneck. The crowded-Holborn throughput calculation no longer answers my individual travel-time question.
+
+The length of the escalator matters. In the 2015 pilot paper, the researchers explained why a climb of about twenty-four metres at Holborn was a good candidate for the experiment. A short ascent is a different proposition: more passengers may be willing to walk it. I wouldn't reuse the Holborn rates for that escalator. The same two rules can behave differently because the passengers fill the walking lane differently.
+
+There was another problem that my drawing cannot solve. I can make every tiny commuter stand on command, but London Underground had to persuade real people. During the 2015 pilot, some objected to losing the opportunity to walk for exercise or to save time. Others noticed that the flow from the platforms improved. The researchers reported that by the third week, some regular passengers were deliberately standing on the left. The rule could work in the presence of staff, but that still left a question: would it survive without them?
+
+The longer 2016 experiment tried visual reminders as well as staff. There were footprints on the steps and even a projected figure reminding people of the new arrangement. A walking option remained available on another escalator. On the first day, reporters still saw people walking where they had been asked to stand. The station had to deal with human choices as well as the number of available steps.
+
+The expanded experiment also did not turn into a permanent London-wide rule. Contemporary news reports say escalator maintenance interrupted it before its planned six months were complete. By March 2017, the operator said it had no plan to repeat or expand the scheme more widely. That is a policy outcome, not evidence that the measured busy-hour capacity result was fabricated or reversed.
+
+That brings me back to the question of who wins. My model tells me which entrance handles the assumed crowd better, and the first London pilot supplies actual evidence about congestion. The experiments do not establish a safety benefit: the 2015 investigators had too few reported incidents for a meaningful comparison. Nor do my figures tell me how many minutes any particular rider saved.
+
+If I arrive alone, I look for the quickest permitted route. If I arrive with a crowd behind me, I understand why the station may ask people to fill both sides. And if the station offers a separate walking escalator, I don't have to make the same choice for every traveler. The actual layout and instructions matter as much as my arithmetic.
+
+In my rush-hour model, standing on both sides clears more of the waiting crowd and can even reverse the growth of a continuing queue. In the real station, the trial showed a benefit under heavy load but did not establish a permanent rule. That is the practical result I can take from both tests without confusing one with the other.
+
+Next time I reach a crowded escalator, I'll ask two questions instead of one: am I trying to climb faster, or am I trying to move the whole queue? The stairs are the same. The definition of winning changes.
