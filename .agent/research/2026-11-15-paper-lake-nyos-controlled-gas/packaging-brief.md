@@ -42,3 +42,7 @@ A establishes human significance and the surprising technological second half wi
 ## 2/5/10: scope прежней упаковки (2026-11-15)
 
 Выше — исключительно три концепта для **неизменённого** EN baseline Git blob d6408fcf124077ae9d770712bc3f75fda461597c, не для новой рекомендованной 05m. При выборе иной exact версии в runtime требуются новое подтверждение обещания первой репликой, release metadata и привязанные к её hash визуальные кадры. Одобрения и готовой thumbnail нет.
+
+## 25.11.2026 — новый кандидат 05/10m, не approved
+
+EN SHA-256 05m `0a5e234eb012adec718ae83e06f35a91f2ffc4eb3d258272921d2006d6374cf7`, 10m `bbf3649321face003b8a7d3c7f551d39a1c4a461b4a28283b1b762678a134e7a`. New promise: “How Cameroon’s Deadly Lakes Were Degassed”, physical paper inscription “GAS POWER”. Distinguish Nyos and Monoun by labels; stopped fountain and solar pump at Monoun only. First proof P1–3, controlled release in middle, concrete failure and recovery in final third; 10m additionally tests restored flow against natural supply. No current failure or permanent safety promise. Old baseline concepts retained; native test/CTR/reference files UNVERIFIED.

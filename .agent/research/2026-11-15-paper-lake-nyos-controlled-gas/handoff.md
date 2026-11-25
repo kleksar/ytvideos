@@ -37,3 +37,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 ## Обновление 19 ноября 2026
 
 02m сохранили как самостоятельную сжатую редакцию. Содержательно изменили обе языковые пары 05m/10m на основе документированного пересказа интервью с выжившим Сулейманом Абуобакаром; 10m убрана служебная «final image». Точные новые blobs/SHA-256, оценки и ограничения приведены в story-review.md, источник и границы свидетельства — research.md. Старые 05m/10m reviews и потенциальные scene timings недействительны, root/master и storyboard по-прежнему только для исторического baseline. Новый blind first-listener / bilingual review / owner choice и разрешённый runtime import остаются UNVERIFIED. Не менять production pins.
+
+## Актуальная редакция 25.11.2026
+
+Canonical main a6023668001421b689a8142cebc0bd436545be6b (#124 merged); baseline 7560637e7991eb716c734ce19349de65231e0ddc. 02m сохранена; 05m (772 EN слов) и 10m (1364 EN слов) раскрывают отказ газлифта Моноуна в 2010, солнечную систему 2013 и новый режим балансировки притока Ниоса по исследованию 2020. 10m дополнительно показывает наблюдение после темноты и недостаточную мощность одной установки. Актуальные SHA-256 и сравнение — последний раздел [story-review](story-review.md). 05m рекомендована, независимая проверка/owner approval/runtime/timing UNVERIFIED. Прежние hashes/review/объёмы 05/10m исторические, прежний storyboard только root. Не наследовать spans/pins.
+Передать blind reviewer все три точные пары без оценок; затем source/old version. Сохранить genuine reviewer result, один выбранный master и supporting variants. Не запускать production в Git-only ревизии.

@@ -144,3 +144,37 @@
 **Сравнение:** 02m по-прежнему завершает физическую загадку без справочного хвоста, но почти не показывает долгосрочные последствия; 05m добавляет реальное человеческое последствие, проверку риска вмешательства и необходимость расширять трубы; 10m добавляет факты наблюдений и позднейшую судьбу Сулеймана, но теряет часть внимания между 2005/2008 и появлением дополнительных труб. Предварительно **05m**, не approval. Оценки восьми критериев выше — авторские и привязаны к новым hashes; independent reviewer, bilingual listening, runtime/TTS/MP4 остаются UNVERIFIED. Новые storyboard/spans не созданы и старые не наследуются.
 
 **Progress:** две версии переработаны, 02m сохранена аргументированно → проверены по фактам/смысловым парам автором → 05m рекомендована → нужен независимый review всех точных кандидатов, выбор одного master, новая раскадровка и разрешённая runtime-регистрация. Следующий непроверенный участок очереди — #107 Andes 571 и тех. #77/#78; состояние перечитывать заново.
+
+# 25.11.2026 — актуальная авторская ревизия (заменяет прежние таблицы variants/review, не исторический root review)
+
+Baseline 7560637e7991eb716c734ce19349de65231e0ddc; canonical main a6023668001421b689a8142cebc0bd436545be6b, #124 merged. 02m сохранена: законченный компактный ответ. Root master/47 storyboard unchanged. Старые 05/10m hashes/review/timings не переносятся.
+
+| Exact script | Words before → after | Paragraphs | SHA-256 UTF-8 |
+|---|---:|---:|---|
+| [variants/02m/script.en.txt](variants/02m/script.en.txt) | 269 → 269 | 10 | `afc50c2da9a21fdd92cab62cfeebb3d8153ceb14d77603e8d02bee973fdc07b1` |
+| [variants/02m/script.ru.txt](variants/02m/script.ru.txt) | 239 → 239 | 10 | `0f09dd45b8cf5ebf2718253458c36bcd642578ab3009d7f029f3131932c58577` |
+| [variants/05m/script.en.txt](variants/05m/script.en.txt) | 728 → 772 | 19 | `0a5e234eb012adec718ae83e06f35a91f2ffc4eb3d258272921d2006d6374cf7` |
+| [variants/05m/script.ru.txt](variants/05m/script.ru.txt) | 631 → 678 | 19 | `4f6341ae493d0e65304f7cdfc1476da1a28e9376f707315f25c17751104d7c16` |
+| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1403 → 1364 | 33 | `bbf3649321face003b8a7d3c7f551d39a1c4a461b4a28283b1b762678a134e7a` |
+| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1173 → 1137 | 33 | `99e99a40cd22b5851d91e34e1e2621dc53852a9bb34a259c66166922164aa2fd` |
+
+## Story maps / visual intent (not approved storyboard)
+
+P — exact paragraph index in each corresponding file/hash, complete paragraph span. No measured timing. 02m P1–3: questions, intact houses, hidden gas; P4–5: labelled lake section and feedback, valley; P6–8: recharge and controlled fountain; P9–10: added pipes and answer. 05m P1–3: questions, village and survivor; P4–7: crater, pressure/strata, release; P8–14: recharge, pipe, stability measurements; P15–19: weak lift → Monoun stopped → separate Nyos additions/Monoun solar pump → balancing recharge → survivor and answer. 10m: questions/chemical evidence/pressure and layers → release and witness → 1994 observations → gaslift and stability checks → 2005/2008 predictions → 2009/2010 Monoun stops → 2011/12 Nyos additional pipes → 2013 solar pump and 2014 measurements at Monoun → 2020 Nyos balancing task → Suleman's teaching and resolution. For second half distinguish two labelled paper lakes and use changes in fountain, solar panel, a conceptual balance diagram and illustrative classroom. No visible CO2 outside labelled model, no fake archive. Exact new scene plan after master choice; old 47 scenes only root.
+
+## Eight criteria (author estimates, not independent)
+
+| Критерий | 02m | 05m | 10m | Основания / недостатки / уверенность |
+|---|---:|---:|---:|---|
+| Значимость/интерес | 8 | 8 | 8 | 02m invisible hazard and gaslift; 05m loss of functioning system; 10m measured limitation and survivor's teaching; crowded topic; medium |
+| Начало/обещание | 8 | 8 | 8 | All ask questions first; 02m quick dive, 05m survivor early, 10m longer physical exposition; medium |
+| Развитие | 7 | 8 | 8 | 02m lacks stability checks; 05m new conflict after initial solution; 10m adds actual failure and capacity evidence, risk of science lecture before action; medium |
+| Payoff | 8 | 9 | 9 | 02m same gas powers removal; 05m success weakens lift and new power helps; 10m tests distinguish restored flow from adequate capacity; medium |
+| Свежесть | 5 | 6 | 7 | 02m familiar mechanism; 05m failure angle; 10m measured gap and 2020 changed task; comparative demand not verified; low |
+| Визуальность | 8 | 8 | 8 | 02m cutaway/fountain, 05m stopped flow and panel, 10m classroom and two distinct locations; map labels required; medium |
+| Естественность речи | 8 | 8 | 7 | 02m concise, 05m more concrete actions, 10m geochemistry still dense; listening not performed; low |
+| Подтверждённый спрос | UNVERIFIED | UNVERIFIED | UNVERIFIED | Public signals mixed, no own retention/CTR or measured interest in new angle; low |
+
+02 → 05: tangible failure, renewed recharge and solar solution beyond original mechanism. 05 → 10: early isotope/1994 evidence, 2009 partial failure, 2014 after-dark observation and insufficient capacity, survivor's teaching; probable attention risk between “The lake's depth helps explain the trap” and “A small shift could become a self-amplifying discharge” (physical explanation before next event). **Recommend 05m**, not approval; 02m competitive. EN word counts imply approx 290–356s and 512–630s at hypothetical 130–160 wpm; TTS/pause/end screen unmeasured.
+
+Hard checks: full EN/RU author check, equal paragraph counts, 02m unchanged; sources/limits in research addendum, Nyos and Monoun distinguished; uncertain trigger and no permanent safety claim. Long question-first and payoff author check; Short loop N_A. Independent first listener/bilingual review, production runtime/pins, current equipment, actual storyboard and reference pixels, owner approval and audience measurement UNVERIFIED. EDITORIAL_CANDIDATE_UNREGISTERED. Progress: three variants existed → 05/10m revised → author checks → 05m recommended → independent review/owner selection outstanding. Next #111 and other unaccepted Long, subject to fresh status.
