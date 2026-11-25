@@ -16,6 +16,7 @@ GROUPS = {
 A = ("parents", "grandma_kids", "whole", "grandma", "kids", "grandma_parents")
 B = ("grandma", "grandma_parents", "parents", "whole", "grandma_kids", "kids")
 C = ("parents", "grandma_parents", "whole", "grandma_kids", "grandma", "kids")
+D = ("parents", "grandma", "grandma_parents", "whole", "grandma_kids", "kids")
 
 
 def movements(order):
@@ -38,7 +39,14 @@ def test_all():
     assert min(total for total, _ in scores) == 12
     assert sum(total == 12 for total, _ in scores) == 8
     assert min(total for total, per in scores if per["G"] == 2) == 14
-    return "PASS: 720 orders; A24 B12 C14; min=12 with 8 ties; Grandma-two-crossings minimum=14"
+    best = [per for total, per in scores if total == 12]
+    assert all(per == {"M": 2, "D": 2, "G": 4, "S": 2, "B": 2} for per in best)
+    assert movements(D) == (14, {"M": 4, "D": 4, "G": 2, "S": 2, "B": 2})
+    constrained_best = [per for total, per in scores if total == 14 and per["G"] == 2]
+    assert len(constrained_best) == 16
+    assert constrained_best.count(movements(C)[1]) == 8
+    assert constrained_best.count(movements(D)[1]) == 8
+    return "PASS: 720 orders; A24 B12 C14 D14; 8 global optima all G4; 16 G2 optima split 8/8"
 
 
 if __name__ == "__main__":

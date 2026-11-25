@@ -19,3 +19,7 @@ No release metadata, thumbnails, image generation or asset approvals performed.
 ## New 2/5/10m script revisions (not final release metadata)
 
 The original packaging choices and A24/B12 thumbnail are attached to the **unchanged root** Short only; they are **not approved or automatically valid** for the new variants. In the 02m/05m/10m stories, the honest extra payoff is **C14 when Grandma crosses twice**; a candidate title could be “Half the Moves—But Not for Grandma” only once the exact script and format are approved. Never imply half the real-time duration or that Grandma is a real participant whose health was observed. `05m` and `10m` have a ChannelSpec Long blocker; no new thumbnail, release spec, end-screen link, media or rights grant has been created. A linked-next-video bridge/Short related-video can only be verified against actual authorized existing assets later.
+
+### 2026-11-25 candidate update
+
+For 02m, establish the fictional model before A and visibly include the kids-only fifth shot; show all six C group cards before the 14/G2 tally. For 10m, after the 12 result show the same G4 tally across all eight optimal orders, then C14 and D14 side by side with per-person counts (C: parents 2 each, kids 4 each; D: parents 4 each, kids 2 each; Grandma 2 in both). Do not imply actual measured comfort or use fabricated photographs. This is visual intent only; no images, no approved packaging or release. 05m unchanged and recommended.
