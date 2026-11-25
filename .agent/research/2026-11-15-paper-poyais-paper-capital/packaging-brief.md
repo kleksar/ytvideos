@@ -14,3 +14,7 @@ The original S001–S039 references in concepts 1–3 are tied ONLY to source ma
 ## 2026-11-19 — 05m exact new narrative constraint
 
 The recommended 05m opening asks why a printed capital/official-looking money convinced emigrants, then **earns** the absent-city main hook at the first arrival (P7–P8); Ann Bagster's documented family's loss after Belize is now the human payoff. Concepts should show the contradiction between printed map and real **inhabited** coast, not a magically empty island or invented authentic portrait of Ann. The 1824 newspaper is evidence, not an approved rights-cleared thumbnail image. Any old shot IDs and scene spans apply **only** to untouched root master; all variant art/packaging remains a later task for the owner-selected exact text, no media authorised.
+
+
+## 2026-11-25 — 10m only, exact revised candidate
+Opening promises missing town, later ship and the newspaper lawsuit. P8 is main reveal; P18–P21 support the distinct court outcome; P23 pays off the documents through Ann's testimony. The existing map/coast concept remains honest; never imply the inhabited coast was fictional or the 1824 case was a fraud conviction. Paper plane candidate: document desk in P5 (not historical evidence); actual reference pixels and QA UNVERIFIED. No reuse of old storyboard IDs for revised text; no artwork or production.

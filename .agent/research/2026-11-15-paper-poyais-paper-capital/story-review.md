@@ -160,3 +160,42 @@ Read original endorsed B speech examples exactly: PR #20 `78b375bf0004fdeb45722e
 **Comparison by actual scripts:** 02→05 adds named Bagster family and 1824 contemporaneous reported testimony, realistic Indigenous assistance, emotional cost after the Belize rescue, a coherent path toward legal outcome. 05→10 adds bond market/£200,000 offering, Kennesley/Skene details, historical market decline and the king's financial response; it is more complete but risks losing interest at the financial discussion before departure and in multiple abstract ending recaps. 02 likely moves too quickly from disaster to French trial. 05m is the strongest current **author** recommendation; the 650-word English narration is a **target** of approximately 4–5 minutes depending on pauses and 1.10× voice speed, not measured five minutes. Recommendation is not owner approval or permission for three productions.
 
 **Transfer / independent work:** No canonical run/plan/context/pins accessible in this Git-only host; do not call editorial candidates an official `awaiting_script_approval`. Independent reviewer session capability `sessions.independent` not exposed in current tool registry; no review receipt forged. Before any production, register a new run in authorised repo workspace, check pinned requirements, attach exact selected text + supporting variants and research, request an independent reading against these exact hashes, obtain owner script approval and rebuild storyboard for the selected text. Status: `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+
+---
+## 2026-11-25 — substantive 10m revision (current; older sections historical)
+
+Baseline `448abcedde266b58c1563953024bb173c3b1dd81`; canonical main `a6023668001421b689a8142cebc0bd436545be6b`, #124 merged. EDITORIAL_CANDIDATE_UNREGISTERED. Original master/storyboard and 02m/05m unchanged. Before → after: generic repeated closing summaries and speculative explanations of settlers' uncertainty replaced by the documented Bagster family, aid and the 1824 civil libel action with its mixed verdict and one-shilling damages, distinct from the 1826 French criminal acquittal. Removed disputed third vessel name (conflicting ship identifications); no extra deaths attributed. New 10m 1360 → 1211 EN words, 1100 → 1026 RU words; 23 aligned paragraphs. Estimated 484–581 sec at 125–150 wpm without pauses/end screen, not measured. Recommend 05m for pacing; 10m adds a real legal reversal and stronger human continuity but the civil pleadings after evacuation may slow attention. No approval.
+
+| Target | EN | RU | EN/RU words | SHA-256 EN / RU |
+|---|---|---|---|---|
+| 02m Long | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 243 / 227 | `ed60c7b84f1960b5e5f36b149136570342339b9b85fee141986b5a3c80e8497d` / `de0997b89cdaf65976ae1f71e4bde3bd171530d60db92f994a8ba394d4a2c9eb` |
+| 05m Long | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 650 / 592 | `81b953763fcb26b44db44f15e16a922d6d055b9c630f09274806468d3898291c` / `25fa3b8f2dd7c777afb037ec99bd7133287bfea46298acb8159f109c8ab26fb0` |
+| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1211 / 1026 | `442858eff81242af54f80f3289f2835d5245b6b6074d10c010029cd1a2a8e465` / `e119c6ca210dac9b3ce9ed43ae5d229abec76b62b2a058f88cbc1d497492e6e0` |
+
+### Author scores on the exact current 10m, not independent
+| Criterion | Score | Basis and limitation | Confidence |
+|---|---:|---|---|
+| Significance | 8 | P7/P12/P19: identifiable family's commitment, loss and testimony in plaintiff's own case; no measured audience reaction | medium |
+| Honest opening | 8 | P1 three questions answered by P8, P14, P18–21; court teaser competes with city reveal | medium |
+| Development | 8 | P4–8 paper → sale → arrival; P9–14 camp → illness → evacuation → later ship; P17–21 newspaper → witness → mixed civil verdict → criminal acquittal; P20 legal language still dense | medium |
+| Payoff | 9 | P19–23 surviving testimony gives the opening documents a new meaning; compensation not implied to repay settlers | medium |
+| Freshness | 7 | Specific libel action differs from broad fraud summaries; no independent novelty study | medium-low |
+| Visual meaning | 8 | Actual document/ship/huts/newspaper/court objects support paper staging; reference images and rights unavailable | medium-low |
+| Spoken EN/RU | 8 | Concrete actions; paragraph-level semantic match, no imagined quotes; terms 'pleas' and proper names may need listener check | medium-low |
+| Confirmed demand | UNVERIFIED | Existing research snapshots only, no comparable baseline or CTR/retention | low |
+
+02m retained: author 8/8/8/8/6/8/8/UNVERIFIED (see exact unchanged 02m review above); concise full payoff, weak point rapid passage from evacuation to acquittal. 05m retained: 8/8/8/8/6/8/8/UNVERIFIED (2026-11-19 exact review above), strongest balance of named family and legal outcome, dense later dates. 02→05 adds human stakes and source-specific witness; 05→10 adds two distinct court cases and a mixed verdict, and preserves finance/third-voyage context. Recommend 05m pending blind comparison.
+
+### 10m semantic span / visual intent (not storyboard)
+- P1: three questions; juxtapose map/ship/newspaper in separate paper scenes.
+- P2–P6: British investment setting, veteran, real concession, printed materials, loan; distinguish land from promised capital.
+- P7–P8: Bagster household/shop and deed; first voyage reaches missing city (main hook).
+- P9–P10: real Indigenous assistance, second voyage, illness; no invented gestures or portrait.
+- P11–P13: evacuation, documented deaths after Belize, estimate qualified.
+- P14–P16: later ship redirected; grant repudiation, securities decline.
+- P17–P19: public defence, London newspaper civil action, Bagster witness; no invented verbatim dialogue.
+- P20–P22: mixed civil finding, one shilling, different French criminal outcome and subsequent offers.
+- P23: testimony as surviving document, return without family members; full payoff.
+
+Hard checks: author semantic parity 23/23, new claims source checked from reported hearing, Long supported by current ChannelSpec; loop N_A; older 10m hash/ratings/timing superseded. Original 39-scene storyboard is for root master only, no transfer. New exact storyboard, independent reader/bilingual check, actual TTS/AV, audience evidence, reference pixels, media rights, runtime registrations/pins and owner approval UNVERIFIED. No local production state access; PR body/comments/threads show no acceptance or active production; no changes to any root master. Independent reviewer capability absent; use existing handoff in authorised checkout. Progress: three complete versions → author revised and checked 10m → 05m recommended; independent review outstanding. Next #105 and technical conflicts #77/#78 at fresh heads.
