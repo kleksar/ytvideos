@@ -16,3 +16,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 Baseline PR #109 branch HEAD 42aeb916989c8782ea41335aa202f5c5a3e9f99c; six separate EN/RU full scripts, exact SHA-256 and Git blobs in [story-review.md](story-review.md#2026-11-16-three-length-addendum). Owner proposed #124 revision 7d6bdf7702a2a241a33a21677fce29f26ada9b72 is NOT main (main b1be73fbcd2a87dafe34ad65c479d337a26ebd80).
 
 Original EN blob c728422d1c389d6fc58e044042409c57aced1865, RU 853d16d09874bedaa71a7f281b08012347aea4fd and original 62 scenes UNCHANGED. No new variants have spans/visual prompts or real voice timing. 05m is editorial recommendation, not approved master. New independent first-listener and user choice must precede new exact-hash storyboard and canonical runtime attachment. In authorized local runtime, attach six script_variant files and one story_review, preserve returned IDs and pinned context; no three new runs and no automatic approvals. No TTS, MP4, upload or release permitted. Next incomplete high-priority Long: #106 Tylenol, subject to fresh PR head and production check.
+
+
+## 2026-11-25 current alternatives
+
+Canonical main `a6023668001421b689a8142cebc0bd436545be6b`, #124 merged. Baseline `b189be507f93555bc241d547e2830e231470227c`. All six variant hashes changed; earlier variant reviews and timings do not transfer. Use current story-review exact hashes and paragraph visual intents; no approved master or inherited storyboard. Root EN/RU and 62 scenes preserved; do not automatically select legacy root. The documented local registration and independent review route above remains required; this connector cannot verify live production or execute pinned ytv runtime. 05m editorial recommendation only. No new approval, receipts, provider calls or production.

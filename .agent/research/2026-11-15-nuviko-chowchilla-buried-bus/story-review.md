@@ -110,3 +110,41 @@ Scores are author editorial judgments from 1–10, NOT measured retention, CTR o
 **Recommendation: 05m**, concise enough for one physical mystery plus the failed call and human consequences. 02m remains viable; 10m is complete but editorially weaker after escape. Recommendation not user approval.
 
 **Was → became:** one unchanged original EN/RU master with 62 preliminary scene spans → six new complete alternative texts in three durations plus same shared research. They are not mechanically sliced from that master. Original storyboard and all its timings are tied solely to old EN/RU blobs; no new variant storyboard, inherited rating or approval. Independent reviewer must receive exact raw text before this commentary, can reject all or prefer the original. Official ytv task and independent reviewer capability unavailable here: EDITORIAL_CANDIDATE_UNREGISTERED / UNVERIFIED. Owner must select one exact master; only then generate matching storyboard, register artifacts in runtime, get real review and approval. No production or publication.
+
+
+## 2026-11-25 — appellate reversal and survivor-specific ending
+
+Baseline exact branch HEAD `b189be507f93555bc241d547e2830e231470227c`; canonical main `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). Earlier variant assessments above are historical, superseded for all six changed files. Original root EN/RU and storyboard are not edited; original root's unqualified busy-line account remains historical and must not be selected without a separate review. No approval or live production claim. Current PR comments contain editorial recommendations only, no recorded owner acceptance or active competing revision; local production registry is not accessible, so runtime state remains UNVERIFIED. Scope limited to unapproved editorial alternatives.
+
+**Before → after:** 02m preserves compact escape and ransom payoff but attributes the telephone explanation to retrospective accounts; 05m replaces the generic recovery recap with the legal reversal and Jodi's repeated participation in parole hearings; 10m connects Jodi helping younger children to the original sentencing findings, the 1980 appeal and her later testimony. Removes speculative wealth inference, recap of the escape and the detached park ending. The court record supports Ray and two older children; no uniquely established leader. No new crime-method detail added.
+
+| Exact variant | Words (whitespace count) | Paragraphs | SHA-256 |
+|---|---:|---:|---|
+| variants/02m/script.en.txt | 256 | 7 | `cd9b9957b32079d561bcc63a1dea024e40b6ecc427edce048c04e31511759c1d` |
+| variants/02m/script.ru.txt | 214 | 7 | `cc99ce22cfe8cf6067317693a2b64ab47fcfb117868cab1aa5dfb58fc1e31f43` |
+| variants/05m/script.en.txt | 618 | 16 | `aa4bd04c75320b324c02c5085efa0c4f4a9231b70acebb6fcf99073a41ce63ae` |
+| variants/05m/script.ru.txt | 530 | 16 | `754ec39fb5028d857cc3237e2ab48b4664d65240879a16c3094432c1bdcdcdb3` |
+| variants/10m/script.en.txt | 1353 | 27 | `d5f39050965e203f355b55ee3f7d64f463f894a69e71e5702757dcb81ce4220c` |
+| variants/10m/script.ru.txt | 1100 | 27 | `a0915ab7b82bbf47f4e40f7b26d4165a1d1227b2ed45c0954246d02024c0dc81` |
+
+Approximate EN at 125–155 words/min before pauses/end screen: 02m 1.65–2.05 min; 05m 3.99–4.94 min; 10m 8.73–10.82 min. Actual duration UNVERIFIED.
+
+| Criterion | 02m | 05m | 10m | Specific basis and weakness | Confidence |
+|---|---:|---:|---:|---|---|
+| Viewer value | 8 | 8 | 8 | 02m gives self-rescue and missed demand; 05m/10m reveal how a life sentence could still end in release; disturbing subject, established case | medium |
+| Opening | 8 | 8 | 8 | Questions before July 1976 immersion; 05m explicitly promises legal fight; 10m more abstract aftermath question | medium |
+| Development | 7 | 8 | 8 | 02m compresses escape; 05m moves from escape to investigation to reversal; 10m adds child testimony, celebration, named sentencing findings and divergent adult lives; lengthy initial confinement still risks repetition | medium |
+| Payoff | 8 | 8 | 9 | 02m answers escape and failed ransom; 05m explains parole despite life terms; 10m returns to Jodi and Jennifer and contrasts Marshall's recovery; 05m Jodi enters late | medium |
+| Freshness | 5 | 6 | 6 | Historical rescue widely covered; legal decision offers specificity but CBS/CNN already cover aftermath | medium |
+| Visual contribution | 7 | 8 | 8 | Empty bus, rescue, recovered demand and court document; 10m adds family reunion and public celebration; no rights-verified photos | medium |
+| EN/RU speech | 8 | 8 | 7 | Short attribution fits 02m; 05m uses concrete outcome rather than generic trauma; 10m has dense legal paragraphs 20–24; no listening | low |
+| Demand evidence | UNVERIFIED | UNVERIFIED | UNVERIFIED | Historical research contains below-median comparison; no fresh audience data or own CTR/retention | low |
+
+**Story maps / exact paragraph spans (same EN/RU indices; visual intent only, not approved storyboard):**
+- 02m 1 question; 2–3 disappearance and distinct underground location (empty bus / separate vehicle); 4–5 self-rescue (focus on people); 6 undelivered demand (symbolic telephone and note, no invented call recording); 7 convictions and survivor aftermath.
+- 05m 1 questions; 2–5 disappearance and buried van; 6–10 rescue (group effort); 11–13 no demand, reported phone congestion, investigation (note); 14–15 original sentencing and appellate reversal (document dates, no fake courtroom footage); 16 release dates and Jodi's outcome.
+- 10m 1 questions; 2–5 missing bus and Jodi's reported support of younger children (anonymous reconstruction); 6–14 confinement, escape, people found; 15–19 absent demand becomes evidence and arrests; 20–21 initial court findings and appeal; 22–23 reunion / public celebration contrasted with later sleep difficulty; 24 appellate ruling; 25 Jodi's hearing and releases; 26 other survivors' distinct trajectories; 27 Jodi's death before final release. Do not transfer old 62-scene storyboard, voice timing or approved visuals to these candidates.
+
+**02→05:** the legal reversal gives a new answer rather than a longer list of barriers. **05→10:** specific childhood testimony, court finding naming the same girls, 2018 hearing and different adult outcomes strengthen the personal payoff. Potential attention loss: 10m paragraphs 9–13 repeat the mechanical obstacle sequence; 20–24 move between sentencing and homecoming and require careful delivery. 05m is recommended for causal density; 10m earns more emotional context but is not automatically better. 02m remains viable.
+
+Hard checks: complete six candidate texts and matching paragraph counts AUTHOR-CHECK; documentary question opening and answer before ending AUTHOR-CHECK; separate school bus/van AUTHOR-CHECK; reported busy lines explicitly qualified all durations; physical injury finding distinguished from psychological suffering; 1977 plea / 1978 sentence / 1980 reversal distinguished; Long supported by current ChannelSpec; loop N_A. Source and bilingual semantic self-check only, not independent. New exact-hash reviewer, approved master, runtime registration and pins, rights-verified visuals, actual voice timing and AV/retention remain UNVERIFIED. No production or approvals. Continue local handoff only after genuine independent text-first review; do not overwrite any accepted master. Next: #110 or next still-open unaccepted Long, and outstanding technical #77/#78 subject to current state.
