@@ -1,3 +1,9 @@
+# 2026-11-25 10m narrative update (05m remains recommended)
+
+Revised 10m: P01 promise (disappearance, TV lead and court/public story), P02–05 immersion, P06–08 mystery answer, P10–13 phone and witness evidence, P14–18 court and harm, P19–24 different recovery outcomes, compensation and film-release context. Candidate title: “The Bank Robbery That Left a Trail on Television”; paper lettering “A CLUE ON TV”. Broad bank façade and newsroom phone, with court documents as secondary symbolic objects. Do not imply a live GPS trace, sole clue, harmless prank or recovery of all assets. Paper plane candidate P10; not narrated. Actual three-concept packaging, media refs and QA deferred until exact selection. Previous 05m plan unchanged. Root storyboard applies to root only.
+
+---
+
 # 2026-11-25 packaging note — revised 05m
 
 Historical root concepts below are not approved plans. Revised 05m promises bank and television clue P01, disappearance P05–P06, TV-related lead P08–P09, verdict/victim consequences P10–P15. Prefer non-operational paper bank and newsroom telephone: title candidate "The Bank Robbery That Left a Trail on Television", lettering "A CLUE ON TV". Avoid GPS tracking, single-clue resolution, harmless prank, invented victim likeness, or conflating compensation with recovery. Actual three-concept packaging, source references, rights, assets and QA UNVERIFIED; prepare after selection. Paper plane candidate newsroom desk P08, not narration. Old storyboard remains historical root only.

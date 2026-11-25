@@ -1,3 +1,19 @@
+# 2026-11-25 handoff — revised 10m, preserved 05m recommendation
+
+**EDITORIAL_CANDIDATE_UNREGISTERED.** 2026-11-25 substantive 10m revision; baseline 9bc9deccb375ef850a3140b73aec95a06e488ccf; canonical main a6023668001421b689a8142cebc0bd436545be6b, #124 merged. Removed repeated escape engineering, route logistics and speculative phrasing. Added named prosecutor's recollection, the former partner's testimony and letters admitted as evidence, different original trial classification, later victim outcomes and the film-release context. 02m, 05m, root and root storyboard unchanged. All variants Long 16:9 supported; 05m remains recommended. Author-only; no runtime registration, independent reviewer, measured timing or approval.
+
+| Target | Full EN / RU | Words EN / RU | State |
+|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 314 / 272 | Preserved; compact fallback |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 647 / 545 | Preserved; recommended |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1339 / 1074 | Revised; complete editorial candidate |
+
+Recommended exact EN a6e2216f706e8468c1ded7fd7798ede2db572fa3c07b65b072ed9c422161beaf, RU a957a8f1a6332307501fcbb830c3b5b252b9edb05b2b5796961def620426443e; revised 10m EN 1893bfdc07d40431dde4b53bea8daff0fd817b64fda04f5dc0d0238f04f86f08, RU 14b0cd4a6bef9e2179a18f27256206db4cd2866a90894443a7898a81e708bf91. [Current exact review](story-review.md). No official runtime, active local session/production evidence or independent reviewer available in Git-only environment (local git ls-remote DNS failure, no checkout). Transfer through canonical checkout, verify current session/approval state, start/register actual selected exact file with actual pinned context and attach supporting artifacts per task contract, obtain fresh independent review and explicit owner selection. Do not substitute historical root or change existing pins. Asset, rights, measured duration, end screen pairing and actual scene QA UNVERIFIED. No production.
+
+---
+
+## Historical handoff — prior revision
+
 # 2026-11-25 handoff — revised 05m
 
 **EDITORIAL_CANDIDATE_UNREGISTERED.** Baseline 34efe9ae272704e71dc898700928b310270f44d1; recommended exact variants/05m/script.en.txt SHA-256 a6e2216f706e8468c1ded7fd7798ede2db572fa3c07b65b072ed9c422161beaf, RU a957a8f1a6332307501fcbb830c3b5b252b9edb05b2b5796961def620426443e. Old review/timing invalid. Original root, storyboard and other four variant files preserved. Current maps/hashes: story-review.md. Next: substantive 10m. At runtime use actual selected exact variant, not old root path by default; register via canonical start/attach-artifact contract, explicit source, real reviewer and owner decision. No local run/session lease or independent review visible in Git-only pass; external sessions/production status, timing, assets/rights and approval UNVERIFIED. No media or schedule changes.

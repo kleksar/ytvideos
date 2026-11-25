@@ -1,3 +1,40 @@
+# Banco Río — 2026-11-25 10m testimony and consequences revision
+
+**EDITORIAL_CANDIDATE_UNREGISTERED; author-only.** 2026-11-25 substantive 10m revision; baseline 9bc9deccb375ef850a3140b73aec95a06e488ccf; canonical main a6023668001421b689a8142cebc0bd436545be6b, #124 merged. Removed repeated escape engineering, route logistics and speculative phrasing. Added named prosecutor's recollection, the former partner's testimony and letters admitted as evidence, different original trial classification, later victim outcomes and the film-release context. 02m, 05m, root and root storyboard unchanged. All variants Long 16:9 supported; 05m remains recommended. Author-only; no runtime registration, independent reviewer, measured timing or approval.
+
+| Target | Exact EN SHA-256 | Exact RU SHA-256 | Words EN/RU | Paired paragraphs |
+|---|---|---|---:|---:|
+| 02m | [EN](variants/02m/script.en.txt) `0fbd1ffbdb6e86b527fa8bbf416e175c66d12ea60aa0819212ba7b5aaf77b2c7` | [RU](variants/02m/script.ru.txt) `b2900bc5eb0550e0c600d390a9fa6f01a81a62882e855544279ff878ba89ccf3` | 314 / 272 | 10 |
+| 05m | [EN](variants/05m/script.en.txt) `a6e2216f706e8468c1ded7fd7798ede2db572fa3c07b65b072ed9c422161beaf` | [RU](variants/05m/script.ru.txt) `a957a8f1a6332307501fcbb830c3b5b252b9edb05b2b5796961def620426443e` | 647 / 545 | 15 |
+| 10m | [EN](variants/10m/script.en.txt) `1893bfdc07d40431dde4b53bea8daff0fd817b64fda04f5dc0d0238f04f86f08` | [RU](variants/10m/script.ru.txt) `14b0cd4a6bef9e2179a18f27256206db4cd2866a90894443a7898a81e708bf91` | 1339 / 1074 | 24 |
+
+10m baseline EN/RU SHA-256 658e73b85aa9179c2f3f9dc9e5ae4d139450b54389c5168b0243c280f010402f / 0933fe535641fc8c7b6f659a3e0ab2221d8f1a0a4122cfd843819d3f292beb0f; word counts 1361/1082 → 1339/1074; changed version invalidates prior timing/review. 10m estimate 8.6–11.2 min at hypothetical 120–155 effective spoken wpm; plus natural pauses and 10s end screen, unmeasured. Existing voice speed 1.10 unchanged. If measured duration falls short, do not pad; select 05m or source more substantiated events. Original root/storyboard preserved, no transfer of scene binding.
+
+## Exact story maps and visual intent
+
+- 02m P01–P10: questions → captives/negotiator → discovery → newsroom number and separate tip → convictions → dual answer; compact bank exterior, newsroom, court. Paper plane candidate newsroom paragraph, actual asset UNVERIFIED.
+- 05m P01–P15: P01 questions, P02–04 bank/captives, P05–06 empty bank/illustrative passage, P07–09 investigation/newsroom and tip, P10–11 convictions and firearm finding, P12–14 victim consequences/compensation, P15 television callback. Paper plane candidate P08.
+- 10m P01 questions and third promise (public story versus court). P02–05 bank, hostage stakes and two customer threads; paper bank, ordinary customer objects, vacation luggage as separate illustrative object. P06–08 empty branch, broad discovery, missing boxes; no route map or mechanism detail. P09–11 move from what happened to identification, newsroom, phone records; paper plane candidate P10 on newsroom desk. P12–13 witness and letters; depict closed papers, not invented facsimiles. P14–17 verdict, changed legal classification and distinct proceedings; calendar and courtroom. P18–21 victims' testimony, returned objects and compensation, family at hospital; no invented likeness or cause of death. P22–24 cinema/reported anonymous voices, two uses of television, return to family wait. Each group may expand to multiple scenes after selection; not a timed storyboard. No fictional dialogue, route geometry, actual artwork or invented court documents.
+
+| Criterion | 02m (preserved) | 05m (preserved, recommended) | 10m (revised) |
+|---|---|---|---|
+| Interest | 8: immediate captive stakes, familiar genre, medium | 8: human consequences with dual mystery, medium | 8: investigation becomes court and victim story, familiar crime, medium |
+| Opening | 8: two direct questions, medium | 8: questions and court promise; third sentence abstract, medium | 8: three concrete promises, third asks for court/cinema contrast; early victims add perspective but delay disappearance by several paragraphs, medium |
+| Development | 8: compact answers, phone dense, medium | 8: P05 then P09 then P11 change understanding, medium | 8: P13 letters and P15 legal classification create new turns; P16–17 consecutive sentencing exposition may slow, medium |
+| Payoff | 8: two-route answer, limited victim outcome, medium | 9: TV clue and family's later news connected, medium | 9: P19–24 recovery, civil claim and cinema counterpoint answer third question, medium |
+| Fresh angle | 6: famous crime, high | 7: family consequence, medium | 7: victim accounts and documents deepen an already widely retold event, medium |
+| Visual expressiveness | 8: simple bank/phone contrast, medium | 8: bank/TV/court/family objects, medium | 8: letters, two customers and film context yield varied physical objects; courtroom scenes risk visual repetition, medium |
+| Natural EN/RU speech | 8: dense phone clause; not heard, medium | 8: legal distinction still formal; not heard, medium | 8: concrete witnesses, actions and outcomes; P15 legal vocabulary and P16 names require natural delivery; not heard, medium |
+| Verified viewer demand | UNVERIFIED; no matched data | UNVERIFIED; no matched data | UNVERIFIED; no matched data |
+
+02→05: court finding, lasting impact, specific family and civil compensation. 05→10: original victim threads, prosecutor's recollection, testimony/letters, legally consequential qualification, differential property outcomes and film premiere. It no longer spends the additional duration explaining escape logistics. Likely attention loss at P16–17 where sentencing numbers arrive together, also P20–21 legal compensation details. 05m stays recommended: strongest pacing from disappearance to TV clue and human resolution; 10m delivers a more developed aftermath if the audience accepts a courtroom act. Recommendation is not approval.
+
+Hard checks: exact hash and paragraph pairing; author reads for sequence, attribution and EN/RU equivalence; evidence mapped in shared research. Avoid causal death claim, direct GPS trace, single witness solved whole case, harmless crime, conflating compensation and recovery. Prior Infoban source fresh read UNVERIFIED. Long loop N_A; runtime session/production state outside GitHub, independent reviewer (including bilingual), rights, measured timing, actual assets/AV, audience demand, owner approval UNVERIFIED. No new receipt or official run. Existing root remains untouched. Next: #121 and technical #77/#78 per actual state.
+
+---
+
+## Historical review — exact earlier variants, not current 10m evidence
+
 # Banco Río — 2026-11-25 victim and trial arc revision
 
 **EDITORIAL_CANDIDATE_UNREGISTERED; author-only review.** Canonical main a6023668001421b689a8142cebc0bd436545be6b; #124 merged. Baseline 34efe9ae272704e71dc898700928b310270f44d1. Previous 05m retained an oversimplified phone trace, delayed the opening questions and ended with generic harm. Revised the 05m pair; the original root, compact 02m and 10m historical candidate remain unchanged. No owner approval visible in PR discussion; production/session state outside GitHub UNVERIFIED. The 10m still needs a substantive pass for an overlong procedural middle and generic victim aftermath. Three pairs exist, but review is not closed.

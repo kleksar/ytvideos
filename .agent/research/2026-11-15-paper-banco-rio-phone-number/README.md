@@ -1,3 +1,19 @@
+# Banco Río — exact 2 / 5 / 10 comparison
+
+**EDITORIAL_CANDIDATE_UNREGISTERED.** 2026-11-25 substantive 10m revision; baseline 9bc9deccb375ef850a3140b73aec95a06e488ccf; canonical main a6023668001421b689a8142cebc0bd436545be6b, #124 merged. Removed repeated escape engineering, route logistics and speculative phrasing. Added named prosecutor's recollection, the former partner's testimony and letters admitted as evidence, different original trial classification, later victim outcomes and the film-release context. 02m, 05m, root and root storyboard unchanged. All variants Long 16:9 supported; 05m remains recommended. Author-only; no runtime registration, independent reviewer, measured timing or approval.
+
+| Target | Full EN / RU | Words EN / RU | State |
+|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 314 / 272 | Preserved; compact fallback |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 647 / 545 | Preserved; recommended |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1339 / 1074 | Revised; complete editorial candidate |
+
+[Current review](story-review.md) · [Shared research](research.md) · [Handoff](handoff.md) · [Packaging](packaging-brief.md). Original [storyboard](storyboard.md) applies only to exact root text. The longer variant adds evidence and consequences rather than a second story. Actual 10m narration estimate 8.6–11.2 min at hypothetical effective 120–155 wpm, excluding pauses and 10-second end screen. No speed change.
+
+---
+
+## Historical README — superseded current index
+
 # Banco Río — 2 / 5 / 10 min, one historical case
 
 **EDITORIAL_CANDIDATE_UNREGISTERED.** A hostage robbery ended in an unexpected disappearance, but television-related evidence and a separate tip helped bring the case to court; victims' testimony shaped the sentences. Baseline 34efe9ae272704e71dc898700928b310270f44d1; 05m revised, root and 02m/10m retained.
