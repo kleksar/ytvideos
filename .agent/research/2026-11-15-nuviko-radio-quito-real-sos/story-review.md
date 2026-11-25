@@ -1,3 +1,47 @@
+# Radio Quito 1949 — current editorial review, 25.11.2026
+
+**EDITORIAL_CANDIDATE_UNREGISTERED.** Author review only. Canonical main `a6023668001421b689a8142cebc0bd436545be6b`; #124 merged. Baseline `90f0dd20282bdbdbf126a29787ab9737dada1bb6` (all six exact files and original storyboard remain available at that immutable commit). 02m/05m and root scripts preserved. 10m substantively revised; previous 10m ratings, spans and assumptions are historical, not current evidence. No owner approval, actual production or independent review observed.
+
+| Target | EN and SHA-256 | RU and SHA-256 | Words EN/RU | Paragraphs |
+|---|---|---|---:|---:|
+| 02m Long | [EN](variants/02m/script.en.txt) `a1519dc6277756effcf1118dcbf0ca3d2523897fb7b89dd7d10f0d2addbf295e` | [RU](variants/02m/script.ru.txt) `21d265a766b96be5a86d5539bb2455e9b2cc329079de28fe8e33c0083c1067fe` | 271 / 228 | 9 / 9 |
+| 05m Long | [EN](variants/05m/script.en.txt) `63f5a30989744f63752ca5fd2f6c85b7fc55e2f7515cf170f9314d22be851574` | [RU](variants/05m/script.ru.txt) `5140775263d1ed2aee3a8db0f8617a0ae7da14e1a0dfee72e03eaffc80ec5799` | 577 / 493 | 22 / 22 |
+| 10m Long | [EN](variants/10m/script.en.txt) `d88ae8bbe4486e72aeed2df37cec29855ce07349c2e70ee9db07022ed642bd53` | [RU](variants/10m/script.ru.txt) `000fa5f242f27502344dbde7f1a8f2382d8bd337e8aa80ccb91076e1901a2ac2` | 1216 / 1011 | 29 / 29 |
+
+Long 16:9 for all, supported by Nuviko ChannelSpec; loop N_A. Estimates at 125–150 EN words/min before pauses/10s end-screen, not measured: 02m 1.8–2.2 min, 05m 3.8–4.6 min, 10m 8.1–9.7 мин. Do not stretch artificially; exact 10m depends on measured narration, and 05m may be shorter than target. 
+
+## Current story maps and text-bound visual intent
+
+- 02m: existing 9 paragraphs; question → concert and fictional bulletin → real public response → clarification and real disaster → genuine appeal/limited Laso testimony → human consequences and named musicians. Compact context, little room for later consequences. Visual intent: receiver, station, period street and non-graphic aftermath. Original version unchanged.
+- 05m: existing 22 paragraphs; question → station/newspaper → broadcast and response → real emergency → appeal and rescue obstacles → survivors → lost original recording → legal and institutional consequences → musicians. Existing root/05m storyboard is tied only to the original exact blobs `44123534822b0a048e426d93864b39005b244f9f` and `b26b3cc11bf5c7f77e68ba58e4c0c19f32f9acc9`, not 02m or 10m. More concrete action than 02m; archival explanation repeats briefly.
+- 10m: paragraphs 1–5 questions, period listening and early real response (main hook p5; estimated first minute); p6–10 context of adaptation, participants and household decisions; p11–15 public crisis, true appeal, limits of memory and separate rescue obstacles (central payoff p13–15); p16–19 survivors and uncertainty; p20–23 lost original, acquittal, employment and relocation, resumed broadcasting; p24–28 surviving literary account and its limits, 2016 announced presentation, separate witness perspectives; p29 named musicians as human conclusion. Visual intent: receiver/shared listening, newspaper exterior, concert instruments, non-graphic historical aftermath, hospital exterior, courtroom, book cover as an identified document (rights not checked), modern presentation notice and musicians' instruments. Do not depict the attack mechanics or invent victim/eyewitness speech. No generated media or exact scene timings.
+
+## Eight criteria (author, not independent; 1–10 where supported)
+
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest/significance | 8 — genuine appeal after fiction, concrete human toll | 8 — human consequences and response | 8 — added professional and archival consequences |
+| Opening | 8 — two direct questions | 8 — three direct questions before context | 8 — three questions, real response by p5; no prolonged setup |
+| Development | 7 — large jump from clarification to crisis | 8 — focused crisis and survival | 8 — response, witness perspective, consequences and recovered written account; p24–28 is slower |
+| Payoff | 8 — named musicians and lost recording | 8 — rescue obstacles and named musicians | 9 — explicit answer p13–15, lost original vs later book p24–28, human conclusion p29 |
+| Freshness | 5 — familiar documented incident | 5 — familiar angle | 6 — book and announced Quito publication distinguish the expanded version, still published history |
+| Visual expression | 7 — compact but rapid changes | 8 — strong period objects and human stakes | 8 — contrasting radio and book, legal and career scenes; archival rights unverified |
+| Natural voice | 8 — compact spoken text | 8 — original coherent spoken text | 8 — clear sentences and transitions; a few explanatory archival passages |
+| Demand evidence | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Confidence: medium in textual comparisons, low in audience response and timing; no CTR/retention inference. 02m loses context around the clarification; 05m has a short archive recap; 10m can lose momentum at p24–28 once the immediate human danger is resolved. 2→5 adds named survivors and more context; 5→10 adds the director's work consequences, a concrete surviving literary artifact and its return to Quito's publishing scene. **05m remains recommended for density**, not approval. The 10m is a complete editorial composition but exact duration remains UNVERIFIED; no padding to hit a label.
+
+## Hard checks and remaining
+
+- Current 10m fact claims checked against shared research, including museum biography, Chasqui 2021 abstract and publisher/2016 notice; no assertion of recovered original audio or exact historical death total. Contemporary newspaper re-open returned no readable text, prior evidence preserved with limitation. EN/RU paragraph-aligned; substantive bilingual author comparison performed, independent bilingual/first-listener UNVERIFIED for every exact hash.
+- Original EN/RU and 02m/05m preserved; only 10m review/spans superseded. No TTS, AV, archive asset or end-screen target verification; actual duration and media UNVERIFIED. Real next-video input required, no invented bridge. No production changes.
+- No local authorized checkout or ytv executable observed; no independent reviewer/Codex session capability found in registry. Git-only approval/active production not independently observable; PR discussion and issue search showed no adoption, PR stayed Draft and unchanged since previous revision. Runtime registration with canonical context and exact text hashes, independent review, owner decision and real storyboard remain necessary. Do not import an old pin by checkout.
+- Previous author review below is preserved solely as baseline evidence, not current 10m assessment.
+
+---
+
+## Historical review before the 25.11.2026 revision
+
 # Radio Quito 1949 — ревизия одной истории, 2/5/10 минут
 
 Дата работы: 2026-11-19. **Авторская редакционная проверка, не independent reviewer, не `ytv-script-review-v1`, не script approval.** Git-only `EDITORIAL_CANDIDATE_UNREGISTERED`.
