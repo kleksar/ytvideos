@@ -1,3 +1,36 @@
+## 2026-11-25 — current 10m revision
+
+Baseline `b1ea36724f679ef99077072a7604aebd84f4b58b`; canonical main `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). 02m/05m preserved. The following hashes are recomputed from complete connector UTF-8 text; previous hash values are historical, not evidence for the new 10m. Baseline 10m EN/RU SHA-256 as read: `592e71126a6c0344191f3e08e0ddc459638e144e43ac6219cec76456197156b2` / `a6d556626acd890a94fd1d7ec6b88b64b7ee6e0de024ae98f28b61391929dd77` (differ from historical ledger; raw Git blob identity to be checked by read-back).
+
+| Exact current path | SHA-256 | Words (whitespace) | Paragraphs |
+|---|---|---:|---:|
+| [variants/02m/script.en.txt](variants/02m/script.en.txt) | `75a475ef2a210b1ad7797680517312f279ebaad7459920c4bbb4a7ea1a861a43` | 253 | 17 |
+| [variants/02m/script.ru.txt](variants/02m/script.ru.txt) | `b118a9b45da72d825d04538a3d68da6c797c2dc2a5f1248ab9af5fdfa6a4a2fd` | 219 | 17 |
+| [variants/05m/script.en.txt](variants/05m/script.en.txt) | `b99890eefa24d490d9306a4b61559f56676ad312919008e85ffb3da1d190e42c` | 604 | 15 |
+| [variants/05m/script.ru.txt](variants/05m/script.ru.txt) | `2ed0583d58722f08ee24dd0ca1d0dff3a55ba1511e28f5e9702aac487ad63863` | 486 | 15 |
+| [variants/10m/script.en.txt](variants/10m/script.en.txt) | `80e7f6c01f360912fd0db0edb02fcaea71a75fa429ef0edb0fddd2c308a7024c` | 1316 | 29 |
+| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | `197f4fc9753ecf2176da395c220cc17fffe100949ea0dc1e8bbd27b5bdcacd7f` | 1027 | 29 |
+
+10m 1316 EN words, estimate 8.5–11.0 min at 120–155 effective wpm excluding pauses/end screen; actual timing UNVERIFIED. No old 10m review or storyboard carried over.
+
+**Story map and provisional spans (both languages):** P1–3 questions, funhouse and broken arm (non-graphic paper prop); P4–5 medical mystery and provenance; P6–9 career/death; P10–13 Johnson, paid display, false burial and Kansas transfer (ticket/train); P14–17 Sonney, museum, race, false film publicity; P18–20 storage, Dan's film loan, transfer with wax figures; P21–24 old autopsy, dental clue, Dan and forensic confirmation; P25–29 offers of burial, Olds/Noguchi, press conference, actual funeral (paper hearse/grave). No invented archival document or new storyboard.
+
+| Editorial criterion | 10m author score / confidence | Evidence and weakness |
+|---|---|---|
+| Interest | 8 / medium | False promise becomes actual burial; morbid premise may repel |
+| Beginning | 8 / medium | Questions then broken arm; some question overlap |
+| Development | 8 / medium | Dan's film loan becomes witness link; burial and press conference change stakes; early robbery and race slow clue |
+| Payoff | 9 / medium | April burial answers 1916 false promise instead of recap |
+| Freshness | 7 / medium | Contemporary newspaper and burial decision add an angle to familiar story |
+| Visual function | 8 / medium | Exhibit, ticket, official announcement, hearse; rights not verified |
+| Natural EN/RU | 8 / medium | Concrete actions replace repetitive explanation; names near end add load |
+| Corroborated demand | UNVERIFIED / low | No new matched audience evidence |
+
+Hard checks: question-first, full payoff, standalone narrative, EN/RU meaning and 29 paired paragraphs PASS author; new facts checked within stated source limits in research; Long loop N_A; exact-hash independent reviewer, actual runtime/approval, actual source records, TTS, rights, actual AV and audience UNVERIFIED. Original Short scene spans unchanged; old technical loop connector remains a weakness, no new independent PASS. 02m/05m ratings below remain historical author judgments for unchanged text. 02→05 adds forensic and false-family context; 05→10 adds a distinct burial decision, but extended biographical and ownership stretch delays the museum clue. **05m recommended**, 10m complete alternative. EDITORIAL_CANDIDATE_UNREGISTERED, not approval. Next: #118 current state; #77/#78 separately.
+
+---
+**Previous 2026-11-19 review (10m values superseded; retain as baseline evidence).**
+
 ## Дополнение 2026-11-19 — 2 / 5 / 10 минут одной истории
 
 **Baseline:** PR #120 head `9648f83b42fc0d46a29ad622934bcd76c9168684`; исходные `script.en.txt` Git blob `670e0891c8c07647353dc793b81fd20fd6c40e4f`, `script.ru.txt` blob `1eea171088c6c96cb712357475ca339793667852`. Root тексты и исходная 17-сценовая раскадровка сохранены побайтово. **Изменения:** полный 05m и 10m на двух языках, 02m точная копия Short. Не создан другой сюжет или PR. Exact hash каждой новой версии инвалидирует прежние timing/review/visual spans на *эту* версию.

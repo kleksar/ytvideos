@@ -28,3 +28,5 @@ English target, same material voice as Paper brand, 9:16 central 2:3 crop must b
 10m Long 16:9: title candidate **The Body Displayed for 65 Years — Who Was He?**. Новые проверенные events: неудачи грабежей 1911, музей/1928 footrace, ложная реклама фильма `Narcotic`, 1967 `She Freak`. Показывать ложный «drug addict» исключительно как рекламный вымысел, не исторический факт; никакого invented show dialogue.
 
 All titles/thumbs only candidates. Existing storyboard cannot be applied to Long variants; after owner approval and actual source/rights/refs verification create exact visual spans and image prompts. No TTS, imagegen, render, provider credits or YouTube actions authorized.
+
+2026-11-25 10m: visual intent now resolves the false funeral promise with the actual 1977 funeral; Dan's film loan links witness to exhibition history, medical comparison and April conference lead to hearse/grave. Exact spans/hashes in story-review. Paper reconstruction, no acquired archive image rights. Other packaging unchanged.

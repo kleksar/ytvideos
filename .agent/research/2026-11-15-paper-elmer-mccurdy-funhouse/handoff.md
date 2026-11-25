@@ -8,7 +8,7 @@ Baseline PR #120 HEAD `9648f83b42fc0d46a29ad622934bcd76c9168684`, оригина
 |---|---|---:|---|
 | 02m, Short 9:16 | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 253 | Сильный исходный Short сохранён |
 | **05m, Long 16:9** | **[EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt)** | 604 | **Предварительно рекомендована** |
-| 10m, Long 16:9 | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1369 | Документальная альтернатива с медленным периодом 1928–1967 |
+| 10m, Long 16:9 | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1316 | Расширенная редакция: расследование, пресс-конференция и реальные похороны |
 
 Paper Detour: channel `paper_detour`, EN voice production; 02m Short 9:16 с narrative loop required, 05m/10m Long 16:9 с question-first, оба формата есть в main `channel.json`. 05m предварительно рекомендован по причинному развитию/человеческому payoff, а не по гарантированному удержанию. Хронометраж без фактической озвучки НЕ measured; 05m возможен недобор.
 
@@ -17,3 +17,5 @@ Paper Detour: channel `paper_detour`, EN voice production; 02m Short 9:16 с nar
 **Safe transfer:** открыть официальный checkout, читать actual `AGENTS.md`/stage requirements и frozen pins *существующего* run, если он есть; не заменять checkout-ом pins. Если run отсутствует, отдельная согласованная регистрация по `uv run ytv start --channel paper_detour --format long --intent 'Проверить три редакции Elmer McCurdy из PR #120 и передать один exact master на согласование; без производства'`. После фактического `plan/read_next` прикрепить supporting `script_variant` для всех трёх, `story_review` с реальными IDs/hash; только затем выбрать exact script. Если нет поддерживаемого импорта кандидата, сохранить blocker, не фабриковать state/receipts.
 
 Fresh independent reviewer получает exact текст **без** авторских scores/диагноза, источники после первого чтения; Short EN/RU читает дважды целиком + literal seam, для Long проверяет обещание → погружение → основной hook → последствия. Только reviewer создаёт собственный проверяемый response в имеющейся schema. После его результатов и выбора владельцем — новая storyboard на hash выбранного Long, обязательные visual/rights/crop/voice checks. Не выполнять merge, media/TTS/imagegen/MP4/upload/publication, не менять channel settings или расписание.
+
+2026-11-25: 10m revised from `b1ea36724f679ef99077072a7604aebd84f4b58b`, 02m/05m and original master unchanged. New investigative and burial arc; see [research](research.md) and current exact hashes/spans in [story-review](story-review.md). 1316 EN / 1027 RU words. 05m remains recommended; 10m delays museum clue with early chronology. Runtime, independent review, actual timing, approval UNVERIFIED.

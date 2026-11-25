@@ -92,3 +92,13 @@ The above 2026-11-15 research and demand counter-signals remain unchanged for th
 | Penny minted 1924, Museum of Crime tickets, Dan Sonney identification, Clyde Snow photo/X-ray check; 1977 Guthrie burial | [HISTORY](https://www.history.com/articles/elmer-mccurdy-mummy-dead-outlaw); [R.C. Staab](https://www.rcstaab.com/elmermccurdy) | Museum tickets are **leads**, forensic comparison confirms name; exact discovery day differs in secondary reports, so narration says 1976 only |
 
 **Common demand boundary:** older high-view English Long retellings do not establish English Short 2026 demand, retention or CTR; own analytics unavailable. Original 17-scene storyboard still binds *only* unedited 02m scripts. No factual description above authorizes a new image/production run.
+
+## 2026-11-25 — 10m investigative and burial arc
+
+Canonical main `a6023668001421b689a8142cebc0bd436545be6b`; #124 merged. Added evidence (accessed 2026-11-25):
+
+- [UPI, Muskogee Daily Phoenix, April 14, 1977, p. 4](https://gateway.okhistory.org/ark:/67531/metadc2548643/m1/4/), article near bottom: contemporaneous report of April 13 conference with Noguchi, Snow, Olds and McCalmont, positive ID, historic/current photo comparison, planned Guthrie burial and further visual documentation; 1968 sale with wax figures. OCR read, not the original coroner records. April 13 is the public announcement, not date of first recognition.
+- [Oklahoma Historical Society / Claude Long, April 22, 1977, photograph catalog](https://gateway.okhistory.org/ark:/67531/metadc2490330/), accession 2010.011.B078.0496, Oklahoma Journal April 23: primary catalog metadata confirms actual Guthrie burial. Photo rights and original bytes UNVERIFIED.
+- [R.C. Staab, Elmer's Story](https://www.rcstaab.com/elmermccurdy), Afterlife paragraphs: Joseph Johnson refused sale, false California burial claim and shipment to Kansas; Dan's film loan; old autopsy signs, dental exam coin/tickets; offers of free burial, wait for relatives, Olds/Noguchi, burial. Secondary account, no original court or medical records; no invented dialogue, motive or precise date of initial paid display. [HISTORY](https://www.history.com/articles/elmer-mccurdy-mummy-dead-outlaw), Rediscovered in the Funhouse: horse-drawn hearse, approx 300 attendees (secondary estimate). Omit disputed concrete depth.
+
+The new ending resolves the false burial promise of 1916 with the actual burial in 1977. No new audience evidence. Earlier research remains unchanged.
