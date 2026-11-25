@@ -1,0 +1,229 @@
+{
+  "type": "deterministic editorial model; no measured trips or payment receipts",
+  "currency": "USD",
+  "as_of": "2026-11-25",
+  "fare_cents": 300,
+  "cap_cents": 3500,
+  "cap_days": 7,
+  "initial_eligible_spend_cents": {
+    "card": 0,
+    "phone": 0
+  },
+  "assumptions": [
+    "one full-fare adult; separate qualifying paid subway rides; all within applicable seven-day cap period(s)",
+    "same itinerary, no transfer/express/reduced fares, no previous qualifying spend, successful taps",
+    "physical card and phone wallet with same underlying card count separately"
+  ],
+  "metric": "total fare cents for identical passenger rides",
+  "formula": "C(n)=min(300*n,3500); A=C(n), B=C(ceil(n/2))+C(floor(n/2))",
+  "rides": [
+    {
+      "ride": 1,
+      "day": 1,
+      "A_total_cents": 300,
+      "B_card_rides": 1,
+      "B_phone_rides": 0,
+      "B_total_cents": 300
+    },
+    {
+      "ride": 2,
+      "day": 1,
+      "A_total_cents": 600,
+      "B_card_rides": 1,
+      "B_phone_rides": 1,
+      "B_total_cents": 600
+    },
+    {
+      "ride": 3,
+      "day": 1,
+      "A_total_cents": 900,
+      "B_card_rides": 2,
+      "B_phone_rides": 1,
+      "B_total_cents": 900
+    },
+    {
+      "ride": 4,
+      "day": 1,
+      "A_total_cents": 1200,
+      "B_card_rides": 2,
+      "B_phone_rides": 2,
+      "B_total_cents": 1200
+    },
+    {
+      "ride": 5,
+      "day": 2,
+      "A_total_cents": 1500,
+      "B_card_rides": 3,
+      "B_phone_rides": 2,
+      "B_total_cents": 1500
+    },
+    {
+      "ride": 6,
+      "day": 2,
+      "A_total_cents": 1800,
+      "B_card_rides": 3,
+      "B_phone_rides": 3,
+      "B_total_cents": 1800
+    },
+    {
+      "ride": 7,
+      "day": 2,
+      "A_total_cents": 2100,
+      "B_card_rides": 4,
+      "B_phone_rides": 3,
+      "B_total_cents": 2100
+    },
+    {
+      "ride": 8,
+      "day": 2,
+      "A_total_cents": 2400,
+      "B_card_rides": 4,
+      "B_phone_rides": 4,
+      "B_total_cents": 2400
+    },
+    {
+      "ride": 9,
+      "day": 3,
+      "A_total_cents": 2700,
+      "B_card_rides": 5,
+      "B_phone_rides": 4,
+      "B_total_cents": 2700
+    },
+    {
+      "ride": 10,
+      "day": 3,
+      "A_total_cents": 3000,
+      "B_card_rides": 5,
+      "B_phone_rides": 5,
+      "B_total_cents": 3000
+    },
+    {
+      "ride": 11,
+      "day": 3,
+      "A_total_cents": 3300,
+      "B_card_rides": 6,
+      "B_phone_rides": 5,
+      "B_total_cents": 3300
+    },
+    {
+      "ride": 12,
+      "day": 3,
+      "A_total_cents": 3500,
+      "B_card_rides": 6,
+      "B_phone_rides": 6,
+      "B_total_cents": 3600
+    },
+    {
+      "ride": 13,
+      "day": 4,
+      "A_total_cents": 3500,
+      "B_card_rides": 7,
+      "B_phone_rides": 6,
+      "B_total_cents": 3900
+    },
+    {
+      "ride": 14,
+      "day": 4,
+      "A_total_cents": 3500,
+      "B_card_rides": 7,
+      "B_phone_rides": 7,
+      "B_total_cents": 4200
+    },
+    {
+      "ride": 15,
+      "day": 5,
+      "A_total_cents": 3500,
+      "B_card_rides": 8,
+      "B_phone_rides": 7,
+      "B_total_cents": 4500
+    },
+    {
+      "ride": 16,
+      "day": 5,
+      "A_total_cents": 3500,
+      "B_card_rides": 8,
+      "B_phone_rides": 8,
+      "B_total_cents": 4800
+    },
+    {
+      "ride": 17,
+      "day": 6,
+      "A_total_cents": 3500,
+      "B_card_rides": 9,
+      "B_phone_rides": 8,
+      "B_total_cents": 5100
+    },
+    {
+      "ride": 18,
+      "day": 6,
+      "A_total_cents": 3500,
+      "B_card_rides": 9,
+      "B_phone_rides": 9,
+      "B_total_cents": 5400
+    },
+    {
+      "ride": 19,
+      "day": 7,
+      "A_total_cents": 3500,
+      "B_card_rides": 10,
+      "B_phone_rides": 9,
+      "B_total_cents": 5700
+    },
+    {
+      "ride": 20,
+      "day": 7,
+      "A_total_cents": 3500,
+      "B_card_rides": 10,
+      "B_phone_rides": 10,
+      "B_total_cents": 6000
+    }
+  ],
+  "sensitivity": [
+    {
+      "rides": 8,
+      "A_cents": 2400,
+      "B_cents": 2400
+    },
+    {
+      "rides": 12,
+      "A_cents": 3500,
+      "B_cents": 3600
+    },
+    {
+      "rides": 16,
+      "A_cents": 3500,
+      "B_cents": 4800
+    },
+    {
+      "rides": 20,
+      "A_cents": 3500,
+      "B_cents": 6000
+    },
+    {
+      "rides": 24,
+      "A_cents": 3500,
+      "B_cents": 7000
+    }
+  ],
+  "additional_cases": {
+    "single_switch_after_12": {
+      "A_cents": 3500,
+      "B_cents": 3800,
+      "phone_switch_ride": 13
+    },
+    "two_periods_10_plus_10": {
+      "total_cents": 6000
+    },
+    "eligible_transfer": {
+      "same_method_cents": 300,
+      "switch_to_fresh_method_cents": 600,
+      "conditions": "eligible transfer within 2h; no existing credit on other method"
+    },
+    "two_adults": {
+      "rides_each": 20,
+      "same_method_first_tap_plus_additional_cents": 9500,
+      "separate_methods_cents": 7000,
+      "additional_tap_qualifies": false
+    }
+  }
+}
