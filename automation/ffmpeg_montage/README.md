@@ -50,6 +50,51 @@ QA сравнивает фактический MP4 с contract: decode, timestam
 
 Tests: `python3 -m unittest discover -s automation/ffmpeg_montage/tests`. Синтетические tests не доказывают качество живого ролика или наличие утверждённых fonts на production worker.
 
+## Связанная карта событий для локальных речевых эдитов
+
+`event_map.py` — отдельный opt-in helper для разрешённого локального монтажа.
+Он не меняет runtime, channel profiles или штатный subtitle renderer. Карта
+`schema_version: 1` хранит `clock` (`fps`, `sample_rate`, `total_frames`), `assets`
+с SHA-256, `palette` и `nodes`. Время задаётся целыми audio samples; clock требует
+целое число samples на кадр. Nodes: `phrase`, `caption`, `sfx`, `flash`, `event`.
+
+`phrase` содержит `start`, `duration_samples`, asset и относительные `words`
+(`text`, `start_sample`, `end_sample`). Caption содержит rows с явно заданными
+tokens/colour и ссылку `phrase`. Его строки/цвета/геометрия — параметры конкретного
+согласованного рецепта, не новые defaults. `semantic_caption.py` рисует фиксированные
+смысловые цвета с явно переданными font/style и плавным появлением слов.
+
+Любое время — integer sample либо binding
+`{"ref":"S11","point":"speech_end","quantize":"ceil_frame","offset_samples":0}`.
+Points: `start/end`, `speech_start/speech_end` у phrase, `attack` у sfx. Quantize
+применяется до offset. SFX имеет `attack`, `attack_offset_samples` внутри sample и
+`duration_samples`; начало файла вычисляется от атаки. Flash привязывается к
+`sfx.attack`. Events действия сохраняют свою привязку к картинке.
+
+```bash
+python automation/ffmpeg_montage/event_map.py EVENTS.json --output RESOLVED.json --verify-assets
+python automation/ffmpeg_montage/event_map.py EVENTS.json --shift-samples S11 9600 --save-map EVENTS-shifted.json --output RESOLVED-shifted.json
+```
+
+Вторая команда сдвигает S11 на 0,2 с при 48 kHz и пересчитывает зависимые времена.
+`RESOLVED.json`, SRT и word map — производные; не править их отдельно от EVENTS.
+Compiler отклоняет циклы, неизвестные refs, выход за хронометраж, неверный порядок
+слов и пропущенные caption tokens. Audio fingerprint не зависит от оформления
+сабов: video-only правка может сохранить exact AAC. Fingerprint не является QA.
+
+`event_audio.py` размещает phrase/SFX assets по resolved samples, сохраняет
+заданные music/original beds и переносит music duck с SFX; пересечения используют
+наиболее глубокую огибающую. Нужны явно заданные `beds`, gains и `mix.peak_cap_dbfs`.
+Source bed может уже содержать обработку — фиксировать provenance. Helper не
+разделяет исходный голос и игру и не ретаймит картинку. После сдвига реплики
+обязательна повторная проверка видимого говорящего; receipt сообщает изменённые
+`picture_bound_start_sample`. Смена слова/voice asset требует новой word map.
+
+Перенос существующего выпуска — отдельная миграция с исходными hashes, сравнением
+всех mapped timings и baseline audio. Старые exports сохраняются. Для нового
+рендера adapter конкретного эдита должен действительно читать resolved nodes,
+а не хранить рядом неиспользуемую карту. Это пока не универсальный video renderer.
+
 ## Линейный clock и охват
 
 `automation/helpers/camera_motion.py` задаёт полный линейный frame interval. `camera_filter` и legacy `motion_filter` используют его с1-based `perspective on`; комбинированный pan+zoom интерполирует видимые affine endpoints, не произведение center(t)×scale(t). Legacy source-perspective преобразуется в destination endpoints до интерполяции, чтобы исключить reciprocal acceleration; cubic остаётся пространственной интерполяцией. `montage_trial.py` делегирует этим функциям. ChannelSpec routes Paper Detour, Nuviko History и Two Ways Lab (`illustrated`) входят через общий montage; Nuviko Videos (`music_first`) использует тот же clock через `automation/music_render.py`, его plan допускает только `linear` вместо старого `smoothstep`. Амплитуды, shot lengths и художественные ограничения каналов не меняются.
