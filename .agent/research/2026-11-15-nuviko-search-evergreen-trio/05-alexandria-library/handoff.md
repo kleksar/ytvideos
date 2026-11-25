@@ -1,3 +1,9 @@
+## 2026-11-26 — Alexandria 10m revised
+
+Source-led complete EN/RU pair (1552/1296 words, 19 paired paragraphs). [Current review](story-review.md) holds exact SHA-256, spans, scores and limits; 05m recommendation remains for general search. New primary evidence: Domitian sends copyists to Alexandria; two displaced grammarians later teach Socrates. 02m/05m/root and root storyboard untouched. Old 10m review/timing invalidated, no independent review or approval. All three Long, no loop. EDITORIAL_CANDIDATE_UNREGISTERED; actual local runtime/Codex status cannot be read here, do not overwrite existing runs/pins; authorized host checks run/status/pins, imports/attaches only with canonical route. No media.
+
+---
+
 # 2026-11-18 — Alexandria variants and exact master handoff
 
 New full EN/RU 02m, preserved 05m, new full EN/RU 10m now live at [review](story-review.md), with per-text SHA-256 and provisional **05m Long** recommendation. Root 05m source and old 48-scene storyboard are byte-identical; do not apply that board or its timings to the 02m/10m scripts. All 2/5/10 formats are 16:9 Long, not narrative Shorts. Durations are modeled, not voiced. No source text is approved, no media actions performed.

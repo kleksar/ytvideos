@@ -1,3 +1,34 @@
+# 2026-11-26 — source-led Alexandria 10m revision (author review, not approval)
+
+Baseline ee8635e0291eb0738b1168da5617d380e95f52cd; canonical main 7c779c4b2fd379c85166ae1b164fa53d1ea08843 (#124 merged). EDITORIAL_CANDIDATE_UNREGISTERED. All three formats are Long 16:9. 02m/05m and root scripts/board unchanged. The previous 10m was essentially the 05m script interleaved with repeated explanatory insertions; new independent composition uses a participant's report → Strabo → Domitian's copyists → Socrates's teachers → evidence-ranked answer. No new topic.
+
+| Variant | Full scripts | Words EN/RU | SHA-256 EN | SHA-256 RU |
+|---|---|---:|---|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 310/283 | `ac37acbcd95c15133e8ba478e52a55ee783ce00e8ad1a2c168dbf137f477da29` | `e7fba2ea1a4e1aa884ed6b8dd435fa5625f579979dc44af73ff652f40f7be6ff` |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 851/699 | `70866ea0da27f841828e0ab6d4ef3375f14ad6ef6f89c441e892ea8203f5c146` | `f641323b23dd5063439243884f9e2ff68ffa1cdf4789d84d4da14ad8a930b7d9` |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1552/1296 | `b2e1e28b87ac8046ecaf5f2778bafbf024d27b26c89ef915e64cab73ec5bce4a` | `46e15a7f88f199eb7ec6c49a4c93163afc3f2f9590f3a3c64c4c0e688994b6dc` |
+
+Hashes calculated over fetched UTF-8 text (new files include final LF); Git blob identities before edit: variants/02m/script.en.txt=3bf5f78ee66c9e5233d9d25e3fd4cdb838603f52; variants/02m/script.ru.txt=8a7c2da73ab6e38a3ebe3b684ce070a00e9c7727; variants/05m/script.en.txt=ab9bf2ae8462e0c78183a8c17108f91184f8760d; variants/05m/script.ru.txt=05dd81d0cfd9b0d439472e88a9f618c0644fdef8; variants/10m/script.en.txt=70672b41e24b4ddd77f0aa065aab2f159553e736; variants/10m/script.ru.txt=0794610a5bc7d555658b2ca7d262c4128a155c04. Old 10m 1656/1362 words → 1552/1296, 19 corresponding paragraphs. At 135–165 EN wpm, new 10m is 9.4–11.5 minutes before pauses/end screen; actual duration UNVERIFIED. Do not pad to target.
+
+**Recommendation: 05m Long for general search intent**; it moves directly through the competing accounts, although 10m now supplies a genuinely new human and institutional reversal rather than an annotated expansion. 02m's fast jumps from 145 BC to 391 and the conquest risk confusion. 05m's weakest stretch is general copying after the myth is rejected. 10m's attention risk is P10 (distinguishing Strabo and Suetonius) and P13 (modern scholarly disagreement); P12 supplies specific teachers and P19 pays off P1. No recommendation is approval.
+
+| Criterion | 02m unchanged | 05m unchanged | 10m revised — score, exact evidence, weakness, confidence |
+|---|---:|---:|---|
+| Interest/significance | 7 | 8 | 8 — P1 emperor's later copy mission invites an answer; common search topic; medium |
+| Opening/promise | 8 | 8 | 8 — P1 asks why later scribes came; P2–4 ground copying before P5 fire; extra setup may be slow; medium |
+| Causal development | 7 | 8 | 8 — P5 participant vs P6 later witnesses → P8–9 survival evidence → P11–12 displaced scholars; P10/P13 can feel academic; medium |
+| Payoff | 8 | 8 | 8 — P18 ranks claims, P19 resolves copyist question concretely; no identifiable last culprit; medium |
+| Angle novelty | 5 | 5 | 7 — P9 and P12 give separate human/institutional consequences; not unique historical subject; medium |
+| Visual expression | 7 | 7 | 8 — copyist, communal meal, dispatch, separate sanctuary and teachers; no exact lost library layout; medium |
+| Natural EN/RU narration | 8 | 7 | 8 — specific actors/actions, matched paragraphs; name density in P13; medium |
+| Verified viewer interest | UNVERIFIED | UNVERIFIED | UNVERIFIED — no matched search/audience evidence; low |
+
+**Provisional story spans and visual intent (10m, paragraph indices in both languages, NOT a storyboard or measured timing):** P1 question montage (no invented fire hall); P2–3 Alexandria port, palace and copying; P4 scholars leave (no invented individual); P5–7 fire and two ancient accounts, distinguish buildings/books; P8–10 communal meal and scribes with manuscripts (illustrative, not actual identified artifacts); P11–13 separate sanctuary, two teachers traveling, evidence disagreement; P14 late manuscript tradition; P15–17 scattered copies and deterioration; P18–19 answer and copying callback. Scene count follows eventual exact selected script and measured speech, not old root 48 scenes. P1–19 EN/RU match at paragraph level, author check; source claims/limits linked in research. Prior 10m score/timing/review invalidated; preserved original master/02m/05m evidence below remains valid only on exact unchanged content. Long loop N_A. No native runtime, independent reviewer, TTS, AV, media, owner approval or demand verification; runtime registration must use authorized host with actual pinned context, attach exact variants, obtain legitimate independent reply and present one master. No merge/media.
+
+---
+
+## Historical review (prior 10m evidence superseded; unchanged 02m/05m retained)
+
 # 2026-11-18 — Alexandria same-story 2/5/10m completion (author review only)
 
 **PR #123, editorial candidate, not registered in runtime.** Original root 05m EN/RU unchanged byte-for-byte (source Git blob `ab9bf2ae8462e0c78183a8c17108f91184f8760d` / `05dd81d0cfd9b0d439472e88a9f618c0644fdef8`); original 48-scene storyboard still belongs *only* to root/05m. New 02m and 10m texts do NOT inherit scene spans, timings, approval or visual references. All are English spoken Nuviko History **Long 16:9** including the 2m; no Shorts loop required.

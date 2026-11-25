@@ -1,3 +1,9 @@
+## 2026-11-26 — Alexandria 10m revision
+
+Alexandria's [full variants and review](05-alexandria-library/story-review.md) updated in this existing PR. [02m EN](05-alexandria-library/variants/02m/script.en.txt) / [RU](05-alexandria-library/variants/02m/script.ru.txt), [05m EN](05-alexandria-library/variants/05m/script.en.txt) / [RU](05-alexandria-library/variants/05m/script.ru.txt), [10m EN](05-alexandria-library/variants/10m/script.en.txt) / [RU](05-alexandria-library/variants/10m/script.ru.txt). 05m remains recommended; new 10m 1552 EN words, primary source reversal and named teachers, exact timing UNVERIFIED. Other two stories and all root scripts unchanged. Candidate only; no independent review, registration or approval. Historical counts/links below refer to prior revisions.
+
+---
+
 # 2026-11-18 — all three existing search-first stories have full same-story variant sets
 
 PR #123 remains Draft / Git-only editorial candidate, not script gate. Titanic, Alexandria and Chernobyl now EACH independently have complete 02m/05m/10m EN+RU narration. This supersedes the historical 'Alexandria incomplete' status further below, retained as progress history. No owner-approved script, independent reviewer, runtime run or media exists for this change.

@@ -1,3 +1,9 @@
+## 2026-11-26 — 10m proposal update
+
+Title option: **Why Did Rome Send Scribes to Alexandria After the Fire?** — only as alternative for this complete library-destruction investigation; promise is a recorded copying mission, not intact royal holdings. Thumbnail: scroll-copy desk, harbor motif as context; do not depict a known library hall or fabricated original artifacts. P1 question and P9 first answer, P18–19 full payoff; see [review](story-review.md). 05m existing packaging remains recommended, 02m/05m unchanged. Actual rights/target/Studio/end screen UNVERIFIED.
+
+---
+
 ## 2026-11-18 — variant-specific packaging proposals (not release)
 
 - 02m Long: 'Who Burned the Library of Alexandria?' Claim: three suspect stories have very different evidentiary strength. Do not illustrate mythical single reading hall in flames as fact.
