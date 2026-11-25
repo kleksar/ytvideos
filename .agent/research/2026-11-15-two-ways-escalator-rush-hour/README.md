@@ -8,11 +8,11 @@ Same escalator A/B, three independent complete stories, six texts. Baseline unto
 |---|---|---|---:|---|---|
 | 2m | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 281 | illustrated Short 9:16; longer than usual channel 35–50s | Strong compact explanation; text loop author-only |
 | **5m** | **[RU](variants/05m/script.ru.txt)** | [EN](variants/05m/script.en.txt) | 676 | **Long — UNSUPPORTED by current ChannelSpec** | **Editorial recommendation** |
-| 10m | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1509 | Long — UNSUPPORTED by current ChannelSpec | Complete educational breakdown, less efficient pacing |
+| 10m | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1648 | Long — UNSUPPORTED by current ChannelSpec | Complete educational breakdown, less efficient pacing |
 
 Recommendation **05m**, not owner approval. Long production is explicitly **BLOCKED**: `channels/two_ways_lab/channel.json` has only an operative Short recipe, while `production.formats.long.video.canvas/fps` are null. Do **not** configure Long, start a Long runtime task or change channel parameters under this editorial assignment. Script variants are Git-only **EDITORIAL_CANDIDATE_UNREGISTERED**; actual `uv run ytv start` and independent reviewer unavailable to this GitHub-connected run. Old storyboard spans belong solely to original root EN/RU blob, not to any of the six new scripts. No media assets or existing media approvals affected.
 
-No measured duration: English reading rate assumed roughly 125–155 spoken words/minute plus natural pauses; 281 ≈1.8–2.3 min, 676 ≈4.4–5.4 min, 1509 ≈9.7–12.1 min. RU rates unknown. Channel's normal Short editorial target 35–50s is an additional production-fit concern for 02m, not a reason to hide the longer editorial script. Timing, voice and MP4 all UNVERIFIED.
+No measured duration: English reading rate assumed roughly 125–155 spoken words/minute plus natural pauses; 281 ≈1.8–2.3 min, 676 ≈4.4–5.4 min, 1648 ≈10.6–13.2 min. RU rates unknown. Channel's normal Short editorial target 35–50s is an additional production-fit concern for 02m, not a reason to hide the longer editorial script. Timing, voice and MP4 all UNVERIFIED.
 
 Status for **this one story**: unprocessed 2/5/10 contract → **six exact texts prepared** → **author script/model checks only** → **05m editorial recommendation**, independent listening/bilingual review/runtime unavailable. Do not mark entire PR production-ready or all open PRs reviewed.
 
@@ -30,3 +30,6 @@ Only a prospective, researched editorial candidate, not production-authorized. T
 Read [research](research.md) before adopting the claimed Holborn rates. Read [story-review](story-review.md) for author scores and unverified demand/independent review. [Storyboard](storyboard.md) is preliminary, not a media-production instruction. [Packaging](packaging-brief.md) is only a promise brief. [Handoff](handoff.md) gives the exact migration route.
 
 This candidate must be transferred through the local project host: use current `main`, read the channel packet, run `uv run ytv start --channel two_ways_lab --format short --intent 'editorial candidate: escalator rush-hour comparison'`, ingest the exact EN/RU versions, obtain the real task packet and independent reviewer, and seek explicit script approval before media.
+
+## 2026-11-25 revision
+10m rewritten in EN/RU with concrete 2015 crowd-control and trial events, primary paper checked, 2017 press throughput explicitly treated as modeled input. 02m/05m unchanged. Current hashes and per-version comparison in [story-review](story-review.md). 05m recommendation unchanged; Long unsupported. No production or independent reviewer.

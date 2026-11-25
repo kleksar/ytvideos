@@ -95,3 +95,26 @@ Each rating is author's judgment on the above complete text, **not** verified cl
 
 In a real host, first give a reviewer the exact six script files with version IDs and **no** writer verdict, scores, beat sheet, source annotations or conclusion. Begin with each opening then present full texts, ask what answer they expect, where they would stop, whether the conditions and 400-person simulation are clear, and whether an old shorter version is better. Provide sources and this review only after their blind read. Preserve the authentic response in the existing `ytv-script-review-v1` schema; any changed EN hash needs re-review. Do not backfill a guessed session or falsified PASS.
 
+
+## 2026-11-25 — current exact variant review (supersedes 10m prior assessment)
+
+Baseline `6cce68874948343fbd434e32e86a89215aee15aa`. 02m and 05m unchanged, their earlier text-level assessments retained; old 10m review is historical only. Current main `a6023668001421b689a8142cebc0bd436545be6b`; #124 merged. Exact UTF-8 SHA-256 (verified implementation against abc test vector; counts are whitespace-delimited):
+
+| Version | EN SHA-256 | RU SHA-256 | Words EN/RU |
+|---|---|---|---|
+| [02m](variants/02m/script.en.txt) | `b1e177399f0a34c944dfeb614f8ee8b84d5f569a0876ad016150caac307853f8` | `a830144b8fbcd4a398fe65146cf3850028aeb30321ce56d83caa6dd2cd709a3a` | 281/252 |
+| [05m](variants/05m/script.en.txt) | `12fc29a7b7b0dd9637ad93980934bfd5a0d68fb4d77abec58af70c51789e44a9` | `8cd1283b6ec2086490b9725c150ea0de1a80a61f53d295d4dc3b34bdf2729adc` | 676/574 |
+| [10m](variants/10m/script.en.txt) | `ac114bc15962dfbec825fa5a0a1d8688fe13be23d9f4cea4acae8832c345e8f4` | `01356269b08178ecfee5edf5932bd899a9d6778ed1bf615538d6a11423f13d62` | 1648/1390 |
+
+| Criterion | 02m (unchanged) | 05m (unchanged) | 10m current author assessment |
+|---|---|---|---|
+| Interest | 8 | 8 | 8: real crowd control and personal choice; transit niche; medium |
+| Opening | 8 | 8 | 8: concrete choice and two metrics; long prelude; medium |
+| Development | 7 | 8 | 8: nearby closure → crowd holds → trial → model → continuing arrivals → actual compliance; numbers in p6 may slow; medium |
+| Payoff | 8 | 8 | 8: opposite queue behavior, policy limit and conditional decision; not individual timing; high for math |
+| Freshness | 6 | 6 | 7: staff response and actual first-pilot comparison add value; core topic familiar; medium |
+| Visual storytelling | 8 | 8 | 8: crowd holds, counters, reset, projected reminder; archival reconstruction not footage; medium |
+| Natural speech | 7 | 8 | 8: action-based passages replace recap and abstract policy tail; p6 long numbers; medium |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED: no comparable current audience data; low |
+
+10m 25 paragraph map: p1–4 choice, metrics, mechanism; p5 closure/holding; p6 pilot counts; p7 operational consequence and confound; p8 later press throughput vs assumption; p9–13 matched model, outcome and limitation; p14–16 new arrival condition and contrasting queue trends; p17–18 quiet/short-flight limits; p19–21 behavior, visual reminders and actual discontinuation; p22–25 evidence boundary, conditional choice, conclusion. New facts and sources in research. 02m and 05m maps unchanged. No storyboard transfer. 02m full EN/RU reviewed for existing text; final question → new question is a weak seam, not independent PASS. Source method for 115/151 UNVERIFIED: model inputs rather than verified bottom-count measurements. Long loop N_A; independent reviewer and actual AV/duration UNVERIFIED. Owner approval NOT GRANTED. All changes Git-only candidate. 10m estimated 10.6–13.2 min excluding pauses/end screen. 02→05 adds history and scope; 05→10 adds actual crowd-control observations and attempted implementation, plus demand stress test. p6 numeric history and p9–13 math are consecutive explanations and may slow general audience. **Recommend 05m** for density; 10m now has independent added value but both Long formats remain unsupported. No production change. Transfer via existing handoff; real independent reviewer receives exact files without this verdict.
