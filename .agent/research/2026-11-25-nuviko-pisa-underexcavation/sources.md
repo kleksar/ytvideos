@@ -1,0 +1,2 @@
+# Source and rights checklist
+See research.md for source ledger and links. Text only, no media or third-party footage incorporated. No claimed license for archive photos, figures, news footage, music or competitor videos. Before production verify actual references and permissions, use documented Nuviko profile and approved assets; original narration only. No production sources or credits finalized.
