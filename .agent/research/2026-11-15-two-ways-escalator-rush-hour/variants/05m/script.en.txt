@@ -6,22 +6,22 @@ Those are two different measures. One is my own trip upstairs. The other is the 
 
 The change in perspective matters most on a long, crowded escalator. Walking seems faster because an individual can pass people who stand. But a walking lane doesn't necessarily fill each moving step. Some people are unwilling to walk all the way up, and those who do may leave space around themselves. Meanwhile, a tightly spaced standing line can use both sides.
 
-London's Holborn station offered a real test. After an initial trial in 2015, Transport for London ran a longer standing-on-both-sides experiment in 2016. Staff, signs and floor markings asked passengers to break a deeply familiar habit. The reported results showed that, in very busy conditions, the unusual arrangement could let more passengers board.
+London's Holborn station offered a real test. During the work at nearby Tottenham Court Road, extra passengers came through Holborn. Staff sometimes had to hold people downstairs until the crowd above had cleared. After an initial trial in 2015, Transport for London ran a longer standing-on-both-sides experiment in 2016. Staff, signs and floor markings asked passengers to break a familiar habit. The findings suggested that, in very busy conditions, two standing lanes could increase throughput.
 
-I want to see what that difference would mean to one queue. I choose four hundred waiting commuters and give both rules two minutes. My starting crowd is imaginary. The boarding rates are published comparisons from the Holborn trial, not measurements from a simulation I physically ran.
+I want to see what that difference would mean for one queue. I choose four hundred waiting commuters and give both rules two minutes. The crowd is imaginary. Reports in 2017 gave two average throughput figures for Holborn. I'll treat those figures as fixed boarding capacities in my model; I don't have the original counts of people stepping on at the bottom. This is a calculation, not a new physical experiment.
 
-First, I keep the walking lane. The reported rate is one hundred and fifteen people boarding per minute. After one minute, one hundred and fifteen have stepped onto the escalator. After two, two hundred and thirty have boarded. I still have one hundred and seventy people at the foot of the stairs.
+First, I keep the walking lane. I set the model's boarding capacity to one hundred and fifteen per minute. After one minute, one hundred and fifteen have stepped onto the escalator. After two, two hundred and thirty have boarded. I still have one hundred and seventy people at the foot of the stairs.
 
-Then I reset the entire scene. The same four hundred people wait in the same place. This time everyone stands two abreast. The comparison rate is one hundred and fifty-one boarding per minute. In two minutes, three hundred and two board and ninety-eight remain below.
+Then I reset the entire scene. The same four hundred people wait in the same place. This time everyone stands two abreast. I give this arrangement a modeled capacity of one hundred and fifty-one per minute. In two minutes, three hundred and two board and ninety-eight remain below.
 
 That's seventy-two more people boarding in the same modeled interval. The second rule increases modeled boarding throughput by roughly thirty-one percent. I haven't made anyone walk faster; I've filled more of the available moving staircase.
 
-Notice what I did not measure. Boarding doesn't mean reaching the top within those two minutes. Nor does this simple model capture a train arriving midway, a passenger with luggage, a stopped escalator, or changing preferences. It holds each reported boarding rate constant and assumes the queue stays available. That is why I call it a model.
+Notice what I did not measure. Boarding doesn't mean reaching the top within those two minutes. Nor does this simple model capture a train arriving midway, a passenger with luggage, a stopped escalator, or changing preferences. It holds each assumed boarding rate constant and assumes the queue stays available. That is why I call it a model.
 
 It also doesn't prove that every commuter wins. Imagine arriving alone when there is no queue at all. I can walk up permitted steps faster than I can stand on them. Leaving a walking side might make sense for my individual trip. A lightly used, short escalator may not gain anything from filling two standing lanes. Holborn's result was conditional, not a rule for every station.
 
 There is a second twist in the real story. In April 2016, some riders ignored instructions to stand on both sides. Staff had to encourage the new pattern. By March 2017, Transport for London said it had no plan to extend the scheme more widely. Reports describe maintenance ending the extended trial early; they do not establish that the boarding figures had been disproved.
 
-So I have two answers, depending on what I'm trying to improve. To move a heavily congested queue onto a long escalator, the standing-only arrangement had a measurable advantage at Holborn. To get one unqueued person upstairs quickly, walking can still be faster.
+So I have two answers, depending on what I'm trying to improve. To move a heavily congested queue onto a long escalator, my modeled standing-only arrangement wins; the Holborn trial also reported a throughput advantage under heavy load. To get one unqueued person upstairs quickly, walking can still be faster.
 
 Next time I reach the bottom, I'll look at the queue and the station's rules before I choose a side. The escalator doesn't change speed; the bottleneck around it does.

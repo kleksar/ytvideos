@@ -24,3 +24,7 @@ Current baseline revision `50d04fd1c07a6424791633376d3b78b71fff1894` → subsequ
 
 ## 2026-11-25
 Revised 10m exact EN/RU (see [current review](story-review.md) and [source evidence](research.md)); baseline `6cce68874948343fbd434e32e86a89215aee15aa`. 02m/05m and root preserved. For model, 115/151 are secondary-reported throughput used as illustrative boarding capacity, not verified bottom-landing counts. Independent review must use current hashes; old 10m timings/review invalid. 05m recommendation remains blocked by Long ChannelSpec. No runtime run or approval.
+
+
+## 2026-11-25 — current handoff
+02m/05m EN/RU revised; hashes/maps in [story-review](story-review.md). Baseline `a34dd20ca3d902929c06cb33d96b53a29259df08`. 10m and original root/storyboard unchanged; no old approval/review/timings inherited. In variants 115/151 are reported throughput used as assumed boarding capacity, not verified bottom-landing counts; root wording needs separate review if selected. No sign of adoption in PR discussion or dated queue; actual live local sessions and Studio unavailable. Preserve all master/media/pins. Independent reviewer/runtime/AV UNVERIFIED; Long unsupported. No production authorized.

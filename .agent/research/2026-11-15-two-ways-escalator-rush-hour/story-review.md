@@ -118,3 +118,34 @@ Baseline `6cce68874948343fbd434e32e86a89215aee15aa`. 02m and 05m unchanged, thei
 | Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED: no comparable current audience data; low |
 
 10m 25 paragraph map: p1–4 choice, metrics, mechanism; p5 closure/holding; p6 pilot counts; p7 operational consequence and confound; p8 later press throughput vs assumption; p9–13 matched model, outcome and limitation; p14–16 new arrival condition and contrasting queue trends; p17–18 quiet/short-flight limits; p19–21 behavior, visual reminders and actual discontinuation; p22–25 evidence boundary, conditional choice, conclusion. New facts and sources in research. 02m and 05m maps unchanged. No storyboard transfer. 02m full EN/RU reviewed for existing text; final question → new question is a weak seam, not independent PASS. Source method for 115/151 UNVERIFIED: model inputs rather than verified bottom-count measurements. Long loop N_A; independent reviewer and actual AV/duration UNVERIFIED. Owner approval NOT GRANTED. All changes Git-only candidate. 10m estimated 10.6–13.2 min excluding pauses/end screen. 02→05 adds history and scope; 05→10 adds actual crowd-control observations and attempted implementation, plus demand stress test. p6 numeric history and p9–13 math are consecutive explanations and may slow general audience. **Recommend 05m** for density; 10m now has independent added value but both Long formats remain unsupported. No production change. Transfer via existing handoff; real independent reviewer receives exact files without this verdict.
+
+
+## 2026-11-25 — current 02m/05m correction (supersedes previous scores and hashes for those texts)
+Baseline `a34dd20ca3d902929c06cb33d96b53a29259df08`; main `a6023668001421b689a8142cebc0bd436545be6b` (#124 merged). Old changed-file Git blobs and SHA-256:
+- variants/02m/script.en.txt: `1cff58e1aeffc75c33829b6a710e7642ef94c885` / `b1e177399f0a34c944dfeb614f8ee8b84d5f569a0876ad016150caac307853f8`
+- variants/02m/script.ru.txt: `98903dee836daf4d7d8fea58fe1841b05adc3d31` / `a830144b8fbcd4a398fe65146cf3850028aeb30321ce56d83caa6dd2cd709a3a`
+- variants/05m/script.en.txt: `068f75dd7d53321ecd14616a411eb7cd7fc7352b` / `12fc29a7b7b0dd9637ad93980934bfd5a0d68fb4d77abec58af70c51789e44a9`
+- variants/05m/script.ru.txt: `1a3e20c203aecbe7f76eeceb632b63c73b7187ee` / `8cd1283b6ec2086490b9725c150ea0de1a80a61f53d295d4dc3b34bdf2729adc`
+
+| Version | EN SHA-256 | RU SHA-256 | EN/RU words |
+|---|---|---|---|
+| 02m | `19024197c89363049e9de40424a8ef4b1c30404b06cc3da7d3b0591691ef30dd` | `289853ae6b7c63189b75963b9970cbb59711ca8b9ef6ad4811598f065a27a5df` | 290/261 |
+| 05m | `c8effcb6f960a0c51c59bcbf037df6bf931964b1b6225102cc0a270aef520549` | `8fccc0b24dcd20dcd7bbdec66acd6eb183544539f04864231c2c34fabe027c9e` | 733/628 |
+| 10m unchanged | `ac114bc15962dfbec825fa5a0a1d8688fe13be23d9f4cea4acae8832c345e8f4` | `01356269b08178ecfee5edf5932bd899a9d6778ed1bf615538d6a11423f13d62` | 1648/1390 |
+
+| Criterion | 02m author | 05m author | 10m unchanged |
+|---|---|---|---|
+| Interest | 8 familiar queue and reversal; transit niche, medium | 8 crowd-control stakes, medium | 8 real crowd control and arrival stress test, medium |
+| Opening | 8 concrete A/B question and metric, medium | 8 three questions; slightly long, medium | 8 two metrics, longer prelude, medium |
+| Development | 8 reset, capacity boundary and nonadoption, medium | 8 real holds → trial → model → boundary → policy; caveat block p10–12 slows, medium | 8 pilot and continuing arrivals, dense p6–13, medium |
+| Payoff | 8 explicit B win before seam, high math | 8 separates model and trial, high math | 8 opposite backlog trends, high math |
+| Freshness | 6 familiar etiquette, medium | 6 crowd control makes mechanism concrete, medium | 7 staff and first pilot comparison, medium |
+| Visual storytelling | 8 paired queue, new train; no real footage, medium | 8 holding area, reset, empty station, medium | 8 counters, holds and reminders, medium |
+| Natural speech | 8 direct question and active reset; numeric p4–5 dense, medium | 8 causal setup; technical terms remain, medium | 8 action-based, long numbers p6, medium |
+| Verified demand | UNVERIFIED low | UNVERIFIED low | UNVERIFIED low |
+
+**Maps:** 02m p1–2 choice and metric, p3 reported throughput/assumptions, p4 A, p5 reset B and +72, p6 personal boundary, p7 nonadoption, p8 complete answer, p9 next train and renewed decision. 05m p1–3 promise/metrics, p4 mechanism, p5 actual station problem/trial, p6 modeled inputs, p7–9 A/B/payoff, p10–11 limits and quiet case, p12 policy, p13–14 separate outcomes. 10m p1–25 previous map unchanged; no storyboard inherited.
+
+**Hard checks:** author reviewed both complete languages twice for 02m. Cold opening names options, p8 resolves comparison before restart; last statement EN “I'm back to the same choice.” → “Should I leave one side of the escalator free for walkers, or use both sides for standing?”; RU «я снова оказываюсь перед тем же выбором» → «Оставить одну сторону эскалатора для тех, кто идёт пешком, или поставить людей по обеим сторонам?». Second cycle reintroduces the setup without withholding payoff. Statement-to-question rather than two successive questions; text-only author finding, AV/independent UNVERIFIED. 05/10 loop N_A. Matched EN/RU paragraphs 9/14; math 230/302, 170/98, +72 checked. No measured boarding series, no field experiment, no audience data. Estimates EN at 125–155 wpm excluding extra pauses/end screen: 02m 1.9–2.3 min, 05m 4.7–5.9 min, 10m 10.6–13.2 min; RU unknown. Old timings/reviews for changed hashes invalid, root and 10m unchanged.
+
+02→05 adds concrete station problem, implementation and mechanism; 05→10 adds actual pilot counts and stress-test arrivals, but consecutive numerical explanations p6–13 weaken pace and 10m may overshoot. Recommend 05m for editorial density, 02m for compact candidate; neither recommendation is approval. Long unsupported by ChannelSpec; even 02m exceeds normal 35–50s. Runtime and independent reviewer unavailable in Git-only host, no receipt; EDITORIAL_CANDIDATE_UNREGISTERED. No owner approval, media or production. Independent reviewer must receive all six exact texts before writer analysis, can prefer root or reject all. Next #119 subject to actual state and scope.
