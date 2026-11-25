@@ -8,10 +8,12 @@
 |---|---|---|---|
 | 02m · Long 16:9, 277 EN words | [English](variants/02m/script.en.txt) | [Русский](variants/02m/script.ru.txt) | Complete short documentary; compact final systemic turn |
 | **05m · Long 16:9, 570 EN words** | **[English](variants/05m/script.en.txt)** | **[Русский](variants/05m/script.ru.txt)** | **Recommended; original root EN/RU preserved byte-for-byte** |
-| 10m · Long 16:9, 1221 EN words | [English](variants/10m/script.en.txt) | [Русский](variants/10m/script.ru.txt) | Full documentary; lower momentum after Tyler test, not recommended by default |
+| 10m · Long 16:9, 1262 EN words | [English](variants/10m/script.en.txt) | [Русский](variants/10m/script.ru.txt) | Full documentary; revised chronology and repair-evidence turn, slower before Tyler |
 
 [Individual eight-criterion reviews, exact SHA-256 and comparison](story-review.md) · [One shared research + sourced additions](research.md) · [Handoff](handoff.md) · [Packaging](packaging-brief.md) · [Legacy 05m storyboard](storyboard.json).
 
 **Was → now:** baseline PR HEAD `2efd74a567b064e4ac6011c6832ec4cbc3b71d19` had one complete questions-first EN/RU script and a 26-scene storyboard. Added independent 02m and 10m compositions, copied original exactly as 05m, and compared three actual texts. The 26-scene storyboard is pinned to original root 05m Git blobs only; no false span, timing or approval inheritance.
 
 Next: independent first listener and bilingual review of selected candidate, owner exact-master selection, runtime registration according to canonical context/pins, new storyboard for any revised variant. TTS/MP4, measured duration, audio/video QA and audience behavior **UNVERIFIED**.
+
+2026-11-25: 10m EN/RU substantively revised from `55d20f16d21a9f6981630472234c4357cab5bbba`; earlier cases precede Tyler, and the disputed June repair-test record adds forward development. 02m and original/05m unchanged. Updated assessment in [story-review](story-review.md); recommendation remains 05m.

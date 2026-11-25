@@ -1,10 +1,18 @@
 How could a machine designed to treat cancer deliver a devastating overdose while its console looked almost normal? Why did hospitals keep encountering injuries that engineers called impossible? And what finally allowed someone to prove that the machine itself was at fault?
 
-In 1986, radiation treatment depended on precision. A beam was aimed at a tumor; healthy tissue around it had to be protected. The Therac-25 offered two ways of delivering that beam from a single machine. In one mode, electrons treated tissue nearer the surface. In another, a high-energy beam struck a metal target to produce X-rays for deeper treatment.
+By the mid-1980s, radiation treatment depended on precision. A beam was aimed at a tumor; healthy tissue around it had to be protected. The Therac-25 offered two ways of delivering that beam from a single machine. In one mode, electrons treated tissue nearer the surface. In another, a high-energy beam struck a metal target to produce X-rays for deeper treatment.
 
 Those modes needed different arrangements of parts inside the treatment head. The operator selected the treatment on a terminal, and the computer controlled the equipment. A normal-looking screen did not, by itself, demonstrate that every moving part had reached the right position.
 
-At the East Texas Cancer Center in Tyler, this distinction became catastrophic. On March 21, a man came for another session following surgery for a tumor on his back. The operator had entered the treatment parameters, corrected a mode selection, and started the beam.
+The first known overdose happened in June 1985. A patient in Marietta, Georgia, suffered a serious radiation injury after treatment. The clinic physicist raised the possibility of a machine failure, but the cause was not established at the time.
+
+In July, another patient was injured at a clinic in Hamilton, Ontario. The machine displayed a treatment pause and appeared to show that no dose had been given. The operator attempted the treatment again, following what had become an ordinary response to some warnings. Investigators considered a fault in how the moving treatment head was positioned, but could not confidently reproduce the underlying event.
+
+Independent experts in Canada recommended a separate physical way to verify that position. Changes were made, yet the full independent protection they recommended was not then installed. That mattered later, because a warning on a terminal and a check performed by the same controlling software could fail together.
+
+At a hospital in Yakima, Washington, a patient developed an unusual striped skin injury after treatment late in 1985. The staff investigated other explanations. A later letter from the manufacturer argued that the damage could not have been caused by a malfunction or operator error. Only after a further accident did the clinic reconsider that earlier injury as an overdose.
+
+In Texas, the clinic in Tyler was still using its own Therac-25. On March 21, a man came for another session following surgery for a tumor on his back. The operator had entered the treatment parameters, corrected a mode selection, and started the beam.
 
 The machine stopped with a brief fault, “Malfunction 54.” The display did not explain that the patient might have received a huge dose. The man reported a burning sensation; later, his injuries made it clear that something serious had happened.
 
@@ -22,26 +30,20 @@ The first decisive result did not require a new patient. Hager repeated the fast
 
 That was a turning point, because a failure that occurs once can be dismissed or misunderstood. Hager now had a sequence another physicist could try: enter one mode, move back, change it rapidly, and measure what happened without anybody on the table. He contacted other Therac-25 centers. Other physicists reproduced the fault, according to his later account.
 
-At a clinic in Georgia, a patient had already been severely injured during treatment in 1985. The cause had been disputed. The repeated test gave investigators a way to understand at least one earlier incident that had seemed inexplicable.
+One of the calls reached the clinic in Georgia. In Hager's later account, the physicist there recognized a possible explanation for the injury the previous June. The hospitals could now compare a failure they had actually observed, instead of trying to connect isolated injuries on the basis of symptoms alone.
 
-Yet the history of Therac-25 did not begin in Texas. In June 1985, a patient in Marietta, Georgia, suffered a serious radiation injury after treatment. The clinic physicist raised the possibility of a machine failure, but the cause was not established at the time.
-
-In July, another patient was injured at a clinic in Hamilton, Ontario. The machine displayed a treatment pause and appeared to show that no dose had been given. The operator attempted the treatment again, following what had become an ordinary response to some warnings. Investigators considered a fault in how the moving treatment head was positioned, but could not confidently reproduce the underlying event.
-
-Independent experts in Canada recommended a separate physical way to verify that position. Changes were made, yet the full independent protection they recommended was not then installed. That mattered later, because a warning on a terminal and a check performed by the same controlling software could fail together.
-
-At a hospital in Yakima, Washington, a patient developed an unusual striped skin injury after treatment late in 1985. The staff investigated other explanations. A later letter from the manufacturer argued that the damage could not have been caused by a malfunction or operator error. Only after a further accident did the clinic reconsider that earlier injury as an overdose.
+There was also a clue in the design of the earlier Therac machines. Earlier machines in the family had physical interlocks that could block some dangerous states even if software behaved incorrectly. Therac-25 relied much more on the computer for those decisions. Investigators later found that related software errors had existed in an earlier model, but its hardware protections had prevented the same harm.
 
 The second Yakima accident happened in January 1987. It exposed another problem, different from the rapid keyboard correction in Tyler. A software counter used during machine setup could roll over and briefly make an unsafe condition appear acceptable. Treating all six incidents as the result of one fast typist would miss that separate defect.
 
-The common weakness was broader. Earlier machines in the family had physical interlocks that could block some dangerous states even if software behaved incorrectly. Therac-25 relied much more on the computer for those decisions. Investigators later found that related software errors had existed in an earlier model, but its hardware protections had prevented the same harm.
+In February 1987, American and Canadian regulators called for routine use to stop until lasting corrections were in place. Now the manufacturer had to demonstrate more than a repair for the particular problem Hager had found.
 
-This was also an information problem. The clinics did not initially have a complete picture of one another's injuries. Warning messages could look like routine interruptions, and some fault conditions let an operator try again. A physicist at one hospital was struggling to understand what a patient at another hospital had already experienced.
+At a meeting in March, the clinics and regulators sat down with the manufacturer to examine the six cases together. The users asked for better records of what the machines did and an independent examination of the software. The manufacturer's representative said the corrective tests had been performed, but had not been documented.
 
-The American regulator eventually required a more substantial corrective response. Changes included new software and independent hardware protections, such as a circuit to stop the beam after a single dangerous pulse and a separate way to monitor the position of the treatment head. The manufacturer did not solve every part of the crisis by removing one keyboard shortcut.
+Even the paperwork for the repair produced a new problem. In June, an FDA reviewer examined a table of test results and found that it appeared to show the very fault the changes were meant to prevent. Was the repair wrong, or were the recorded results wrong?
 
-The larger accident investigation, published by Nancy Leveson and Clark Turner in 1993, traced six known massive overdoses between June 1985 and January 1987. They described not just faulty code, but failures in system design, testing, communication and the response to evidence from patients and clinicians. The available records do not support reducing all the accidents to one cause.
+The manufacturer's quality manager subsequently reported that the technician had filled out the form incorrectly. He said witnesses had seen the machine work correctly and that the test would be repeated with corrected records. The discrepancy itself was not evidence of another overdose.
 
-Back in Tyler, Hager's test changed what the staff could demonstrate. An apparently ready console had hidden a dangerous mismatch, and the empty room made that mismatch measurable. By sending the sequence to other clinics, he turned one center's unexplained injuries into a warning that could be checked elsewhere.
+By July the fifth corrective plan included independent hardware capable of interrupting dangerous output, a separate position check, and clearer fault messages. Instead of allowing operators to resume after certain radiation-measurement faults, it required them to enter the treatment parameters again.
 
-The deaths could not be reversed. The lasting result was practical: a safety claim was no longer enough. The equipment had to be tested in the state it could actually reach, including when a skilled operator changed a setting quickly—and protected by something independent of the screen that said it was ready.
+The investigation ultimately documented six known massive overdoses between June 1985 and January 1987, involving different failures. For the two men in Tyler, the corrections came too late. But compare what Hager could do before and after his test: at first he could report what a patient had suffered; afterward, another clinic could examine the equipment and verify the danger without a patient in the room.
