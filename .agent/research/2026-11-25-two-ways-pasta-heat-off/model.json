@@ -1,0 +1,47 @@
+{
+  "kind": "illustrated_replay_and_estimate",
+  "primary_metric": "estimated total cooking energy, normalized conventional A=100, not metered trial values",
+  "source": "https://doi.org/10.1063/5.0230480",
+  "source_sections": [
+    "Fig. 1; introduction; section III B; Table I; section IV; conclusion"
+  ],
+  "starting_state": {
+    "dry_spaghetti_g": 150,
+    "water_l": 1.5,
+    "water_preheat_c": 98,
+    "cooking_start_c": 95,
+    "same_beaker": true,
+    "stirring": "same described schedule; do not invent exact event times",
+    "presoak": false
+  },
+  "A": {
+    "method": "maintain heating",
+    "temperature_c": 95,
+    "cooking_s": 810,
+    "energy_index": 100,
+    "initial_compression_hardness_N": 3.6,
+    "hardness_uncertainty_N": 0.3,
+    "tensile_peak_N": 0.43
+  },
+  "B": {
+    "method": "cover with foil and stop active heating",
+    "end_temperature_c": 80,
+    "cooking_s": 900,
+    "energy_index_approx": 40,
+    "initial_compression_hardness_N": 3.3,
+    "hardness_uncertainty_N": 0.3,
+    "tensile_peak_N": 0.33
+  },
+  "calculation": {
+    "time_delta_s": 90,
+    "estimated_saved_index": 60,
+    "estimated_saved_fraction": 0.6
+  },
+  "endpoint": "study's modified opaque-core criterion, before core vanishes; does not establish equal texture",
+  "limitations": [
+    "Energy estimate from cited prior breakdown and paper conclusion, not measured watt-hours in this trial or a household bill.",
+    "Temperature profile intermediate points not supplied; do not interpolate as measured.",
+    "Texture measurements are not blinded consumer preference.",
+    "No universal outcome: cookware, heat loss, stove, baseline simmer, shape and portion vary."
+  ]
+}

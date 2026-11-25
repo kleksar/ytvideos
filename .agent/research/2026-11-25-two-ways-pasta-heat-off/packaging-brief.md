@@ -1,0 +1,5 @@
+# Packaging proposals (02m recommended, no media)
+EN title: Can You Cook Pasta With the Stove Off?
+Alternative: Stove On vs Off: Which Makes Better Spaghetti?
+RU: Спагетти на выключенной плите — получится ли?
+First event: two identical portions, switches A on and B off, lid only on B, first question audible. Audience is offered A/B before result. Cover concept: two vessels, cyan A left, amber B right, same pasta amount, foil lid B, switch positions distinct; no false electricity readings or fire. Optional outcome card after reveal: approximate energy index 100 / 40 (estimated), then 13:30 / 15:00, then texture contrast. Avoid implying actual split-screen kitchen experiment, equal taste, universal savings or exact dollar values. Use original 2D style, no paper cutouts, no copied figures. Long variant packaging would foreground quality mechanism rather than repeat result. Exact timings not known. Reference bytes not available, no prompt/asset generation; storyboard deferred pending selected exact variant and review. Related video not assigned; no fake click or next-video footage.
