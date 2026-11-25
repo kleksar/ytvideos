@@ -124,3 +124,34 @@
 - **Официальный `uv run ytv start` и gate:** **NOT ENTERED** — в данном хосте отсутствует локальный checkout с исполняемым проектом и persisted `plan_summary/read_next/task_guide/pinned reference_documents`; нет run ID/lease/receipt/approval.
 - **Собственная аудитория:** Studio trends/search terms, CTR/retention UNVERIFIED. vidIQ: 0 credits; публичный YouTube baseline того же автора UNVERIFIED. Никакой видимости в закрытой чужой аналитике.
 - **Графика/тайминги:** это текст; actual визуальные PNG героев и кадры, фактический TTS/AV, thumbnail QA и end screen остаются UNVERIFIED.
+
+
+## 2026-11-25 — reciprocal help replaces recap (current variants)
+
+Baseline 84ab9ef0b75f7d99af1e0f972b3a54170da7a5ed; canonical main a6023668001421b689a8142cebc0bd436545be6b, #124 merged. Original 02m and legacy root/storyboard retained. Previous 05m/10m assessments and timing estimates historical only. **Before:** 05m repeats the rescue chain after the outcome; 10m generalizes friendship then repeats that chain. **After:** documented 2007 medical assistance and reunion complete the relationship established at the river. 10m also removes contested mileage. Sources [F13–F15], no speculative motives or dialogue. Existing core rescue payoff remains before the coda.
+
+| Exact current variant | SHA-256 | Words | Paragraphs |
+|---|---|---:|---:|
+| variants/02m/script.en.txt | `267a4a99d8ab9601638381cee811c1582e122c3ba568b84f8052a3942deb8754` | 320 | 9 |
+| variants/02m/script.ru.txt | `3420179b0c05c07ddc11c52ef4cb04234ec5cdf73db347b920f5ad4bb3966b95` | 279 | 9 |
+| variants/05m/script.en.txt | `c845dbeb7fe9c0018bbce8d9c3a30b5d6eb6053de8a8396154fd1dccaae25e83` | 712 | 15 |
+| variants/05m/script.ru.txt | `61711e942d887bc133346d51e3c212f7614624e3e0f6e465be75130ab956677e` | 601 | 15 |
+| variants/10m/script.en.txt | `46a3cf65f56cba0795278b771ff7df462a2051799f5a113e2707fb605e648059` | 1518 | 29 |
+| variants/10m/script.ru.txt | `cbd89e0a84f04e7f866a6497f6b4cb5786abbd8462b935e8e0247d1bf869fbe6` | 1235 | 29 |
+
+| Editorial criterion | 02m unchanged | 05m revised | 10m revised |
+|---|---|---|---|
+| Interest | 8: rescue of others; familiar event | 8: relationship continues beyond rescue | 8: human stakes and reciprocal action, familiar crash |
+| Opening | 8: clear river question; compressed context | 8: questions establish search and river; multiple promises | 7: three questions, slow lead-in |
+| Development | 7: compressed expedition | 8: failed search, climb, note, airlift, later assistance | 8: family loss, avalanche, expedition, police, surgeon; prolonged early middle |
+| Payoff | 8: all sixteen safe, direct note answer | 9: full rescue then concrete later reversal, no recap | 9: rescue then reunion of clubs whose original match was interrupted |
+| Freshness | 6: known disaster | 7: medical reciprocity is a distinct angle | 7: former opposing player becomes surgeon; familiar first half |
+| Visual | 8: river and aircraft, unrendered | 8: contrast rescue with later reunion; references needed | 8: clinic/reunion/mountains; archive details and rights unverified |
+| Speech | 8: short causal spine | 8: plain verbs, coda adds event | 8: clearer close; early exposition still long |
+| Demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Author judgment only; confidence medium on text structure and source-grounded coda, low on audience reaction, actual pacing and speech. No averaged pass or fake review. Long 16:9 supported by ChannelSpec; loop N_A. Estimated 05m EN 712 words, 10m EN 1518 words; at assumed 135–155 effective wpm before pauses/end screen, 4.6–5.3 and 9.8–11.2 min, not measured. Actual runtime, independent bilingual/first-listener review, audience demand, permissions, AV and owner approval UNVERIFIED.
+
+**Story maps / paragraph span candidates (EN/RU aligned, not storyboard):** 02m unchanged 1–2 river/stranded group, 3–4 crash/search/avalanche, 5–6 trek and ridge, 7–9 exchange/rescue; 05m 1–2 questions/river, 3–8 crash/shelter/search/food/avalanche/bag, 9–10 expedition, 11–14 note/police/helicopters/rescue, 15 medical help/reunion; 10m 1–4 questions/crash, 5–16 injury/loss/shelter/search/food/avalanche/equipment, 17–21 expedition, 22–27 written relay/airlift/losses, 28–29 surgery/reunion. Visual intent: match the two-way exchange, avoid invented readable note, preserve historical separation of hospital/reunion from 1972; no invented footage or exact medical scene. Legacy 46 scenes are not valid for these variant hashes. No detailed storyboard before selection and review.
+
+**Comparison:** 02m remains a complete compact Long without extended aftermath. 05m provides the meaningful rescue dependencies plus short reciprocal outcome; 10m supplies Jugo's 1972 connection and the commemorative game, but the pre-expedition shelter/food passage still risks losing viewers who expect the river. Recommend 05m provisionally. New 05m/10m hashes require fresh neutral reviewer, source check and selected-version storyboard after owner choice; prior reviewer/timing not carried forward. EDITORIAL_CANDIDATE_UNREGISTERED. Next: other open Long including #106/#109 and technical conflict scope; no production or merge.

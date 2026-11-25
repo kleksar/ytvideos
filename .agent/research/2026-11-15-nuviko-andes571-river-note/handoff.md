@@ -23,3 +23,6 @@ Baseline head `1c3e9b786764851a29bbcc764dd59b2ab3e6e7e2`; legacy original EN/RU 
 
 ## 2026-11-19 editorial update
 All six variant scripts now have new exact hashes in story-review.md. The two-way river message and Catalán's police relay are sourced in research.md [F10–F12]. Original root scripts and 46-scene storyboard are unchanged, no version inherits that storyboard. Historical reference to Draft #124 predates its merge: current canonical main owns the three-duration rule. No reviewer, production run or approval was created; independent review required for chosen new hash.
+
+## 2026-11-25 current transfer
+Baseline 84ab9ef0b75f7d99af1e0f972b3a54170da7a5ed; 05m and 10m changed, 02m retained. Verify selected **variant** SHA-256 from latest story-review table (not legacy root). For recommended 05m EN `c845dbeb7fe9c0018bbce8d9c3a30b5d6eb6053de8a8396154fd1dccaae25e83`, RU `61711e942d887bc133346d51e3c212f7614624e3e0f6e465be75130ab956677e`. Use actual local persisted canonical context and neutral independent reviewer for selected exact text. Legacy root and storyboard unchanged; do not transfer old reviews or timings. No approved master, runtime registration or production. All actual reviewer/AV checks UNVERIFIED.

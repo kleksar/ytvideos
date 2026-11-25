@@ -15,3 +15,5 @@ Read [variant-specific review, hashes, comparative rationale](story-review.md). 
 **Preserved unchanged legacy:** [original EN master](script.en.txt) / [original RU](script.ru.txt) / [46-scene provisional storyboard](storyboard.md). Those scene spans and estimates belong only to the original text, **not** to the six new files. No visual assets, run, approval, review receipt or publication created.
 
 2026-11-19 causal revision: all six variant texts now show the physical exchange of paper and pencil, return of the message, and Catalán's ride to police. New hashes and narrative assessments: [story-review](story-review.md); fact evidence [F10–F12](research.md). Legacy root scripts and storyboard unchanged.
+
+2026-11-25: 05m and 10m now end with the verified 2007 medical assistance and reunion instead of repeating the rescue chain; 02m unchanged. See current [review and exact hashes](story-review.md) and [F13–F15](research.md). 05m remains provisionally recommended, no approval.

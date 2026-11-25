@@ -25,3 +25,6 @@ This brief originally refers to the **legacy 27-paragraph text and 46-scene stor
 
 ## 2026-11-19 packaging dependency
 The current six versions establish the directional physical exchange: Catalán sends paper/pencil to the hikers, Parrado sends the written reply back with a stone. Catalán then rides to police; Parrado helps locate the wreck. Do not reverse the direction in new scene or thumbnail prompts, invent legible text, or apply the legacy S020–S024 scene timings to new hashes. Source ledger [F10–F12](research.md).
+
+## 2026-11-25 current dependency
+05m/10m retain the original river promise and fully resolve it before a short verified 2007 coda. Do not advertise a second rescue or imply Canessa performed the surgery. Use exact chosen variant from current story-review; old scene numbers are legacy only. No actual packaging assets or timing evidence.
