@@ -8,9 +8,9 @@
 |---|---|---|---:|---:|---|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 267 | 222 | `9f6b3695fc6e1e7b25e9a46fe03371f9985b08e6c7a5cf1514c9049dbe7cff2f` | `69d52d9bd2cfd442571398c4f2f2979fda9129ba23cfd1cc6aec9a5f6ac0537a` |
 | 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 657 | 541 | `e06eb8418371d057c7ab5fca92f90af6d4963583af07ed147e508a0554868fdf` | `6101e330017f84fb2144482df68104f320369a3203e93b45513ad3285425144a` |
-| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1411 | 1139 | `ce1b9c5760eb4c6f9d901ccdd1b4e2908c5df9972901cbba14028cce0b0d3775` | `8c90f41a42bb46a72bca8fabae626bde909658a80792f402e4a9af25d77a9e1c` |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1208 | 1016 | `12517af8d69c1f83612ccb37a9a0fb55e923f71b0f015ebb377ec3b9d368b039` | `88729433125ad68b1d104044b836af8e8a3cbd4642ad1b3de22bd8d39577b696` |
 
-Target timings, not measured: assumed 135–155 EN words/min, excluding transitions and end screen. 02m: 1.7–2.0 min; revised 05m: 4.2–4.9 min; 10m: 9.1–10.5 min. All three Long 16:9. Actual TTS, effective pace and pauses UNVERIFIED.
+Target timings, not measured: assumed 135–155 EN words/min, excluding transitions and end screen. 02m: 1.7–2.0 min; revised 05m: 4.2–4.9 min; 10m: 7.8–8.9 min. All three Long 16:9. Actual TTS, effective pace and pauses UNVERIFIED.
 
 ## Story maps and fact evidence
 
@@ -95,3 +95,27 @@ Original root and prior 05m remain recoverable at that commit: EN SHA-256 `122c9
 | 18–19 | actual library projection and New Year countdown; paper-plane motif in a diorama, not a historical object |
 
 Evidence: research addendum 2026-11-25. Author-only full bilingual reading; no independent first-listener, audio, measured timing or licensed visual assets. No actual performance footage viewed. Next: 10m repetition/actual ending and blind review of exact alternatives, then owner selection through canonical runtime. No production.
+
+
+## 2026-11-25 — 10m substantive follow-up (supersedes prior 10m review/map)
+
+Baseline exact HEAD `eeb72bef7242640ac9610fd5e822409a2fb16651`; prior 10m EN/RU SHA-256 `ce1b9c5760eb4c6f9d901ccdd1b4e2908c5df9972901cbba14028cce0b0d3775` / `8c90f41a42bb46a72bca8fabae626bde909658a80792f402e4a9af25d77a9e1c`, 1411/1139 words. New 10m 1208/1016 words, 33 matching paragraphs; new exact SHA-256 `12517af8d69c1f83612ccb37a9a0fb55e923f71b0f015ebb377ec3b9d368b039` / `88729433125ad68b1d104044b836af8e8a3cbd4642ad1b3de22bd8d39577b696`. 02m, 05m, original root and storyboard untouched. Canonical main a6023668001421b689a8142cebc0bd436545be6b. No indication of owner acceptance or production in PR discussion; external leases/Codex/runtime state not inspectable. Git-only EDITORIAL_CANDIDATE_UNREGISTERED.
+
+**Story map:** opening questions → commuter report → cartoon reveal → overlapping alerts and installer films → corporate acknowledgment → arrests, press, public mockery and separate corporate and court consequences → collaboration with Cantil and professional projection career → commission → architectural model and planned visual illusion → mayor and artist's documented responses → incomplete visuals constrain soundtrack, late exports → actual countdown and piano refrain. New details supported by research addendum. No audience reaction or exact final projected sequence inferred from the plan.
+
+**Exact 10m author scores (medium confidence):** interest 8 (public disruption and later artistic return); opening 8 (three questions and early reveal); development 8 (duplicate safety explanations removed; preparation now has a deadline and a concrete obstacle); payoff 9 (finished projection and final piano refrain, rather than commission); freshness 7 (less retold collaborative production details); visual distinctiveness 8 (model, animation and sound preparation distinct, final projection not visually reviewed); spoken clarity 8 (action-led middle, some proper names and technical terms remain); audience demand UNVERIFIED (no matched baseline or measured retention). Weakness: after the artist's court appearance, corporate settlement and professional transition may slow attention; the technical model is worth only one explanation. Comparison: 02m keeps efficient reversal; 05m earns its extra time with actual completion; 10m adds separately sourced deadline, collaboration and construction but risks slower first half. **Recommend 05m**, not approval. 10m viable alternative, exact timing unmeasured. Prior 10m scores, timing and spans are historical and not transferable.
+
+| 10m provisional EN/RU paragraph spans | Visual intent |
+|---|---|
+| 1 | Small panel and distant landmark; promise without reveal |
+| 2–4 | Passenger report and transit disruption |
+| 5–7 | Cartoon reveal and campaign origin |
+| 8–11 | Other reports and artist filming |
+| 12–15 | Delayed explanation, arrest and press |
+| 16–19 | Public mockery, company settlement, resignation, courtroom disposition |
+| 20–23 | Artist/composer collaboration, new commission and funding |
+| 24–27 | Library model, planned illusion, civic response |
+| 28–29 | Mayor's documented answer and soundtrack deadline |
+| 30–33 | Late audio work, actual projection and New Year music; paper-plane motif in diorama, not historical fact |
+
+**Hard checks:** author factual ledger and complete bilingual paragraph alignment; independent bilingual and blind first listener UNVERIFIED; actual TTS/AV/rights/visual reference bytes UNVERIFIED; narrative Short loop N_A (Long supported). No production storyboard for revised variants; root scene map remains attached to exact root only. Runtime registration and owner approval UNVERIFIED. Next: independent review and local coordinator checks existing run/pins before transferring one chosen exact master; #108 next editorial queue item. No merge or media.

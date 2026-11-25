@@ -27,3 +27,8 @@ Keep the old storyboard only with unchanged 05m bytes. 02m/10m require fresh sto
 ## 2026-11-25 editorial update (supersedes prior variant recommendation)
 
 Baseline 25490219c65247e8b3a208cf65d8987ecb493d39; prior 05m hashes preserved in story-review and root unchanged. Revised 05m exact hashes EN e06eb8418371d057c7ab5fca92f90af6d4963583af07ed147e508a0554868fdf, RU 6101e330017f84fb2144482df68104f320369a3203e93b45513ad3285425144a. Recommended 05m Long; actual performance corroborated by studio and Berklee participant interview. Old root storyboard and timings do not apply to new 05m. Provisional spans only in story-review. 02m/10m unchanged; all variant storyboard, independent reviewer and actual audio/AV checks UNVERIFIED. Local coordinator must check existing runs and leases, use canonical pinned instructions, send exact alternatives blind and register only owner's chosen master. No production or pin migration performed. Next: 10m repetition and completed ending; blind review.
+
+
+## 2026-11-25 — 10m follow-up
+
+Baseline `eeb72bef7242640ac9610fd5e822409a2fb16651`; old 10m recoverable there. New EN SHA-256 `12517af8d69c1f83612ccb37a9a0fb55e923f71b0f015ebb377ec3b9d368b039`, RU `88729433125ad68b1d104044b836af8e8a3cbd4642ad1b3de22bd8d39577b696`, 1208/1016 words. Actual performance, production deadline and court disposition now in 10m; 05m remains recommended. Previous 10m timing and review stale. 02m/05m and root/storyboard unchanged. See story-review for updated author-only assessments and spans. Independent review/runtime/approval/rights/actual timing UNVERIFIED; no production, no pins changed.

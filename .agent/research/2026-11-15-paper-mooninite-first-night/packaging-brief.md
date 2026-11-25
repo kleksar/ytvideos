@@ -23,3 +23,8 @@ Original S001–S028 anchoring is valid only for original/05m. New 02m and 10m b
 ## 2026-11-25 alignment (05m candidate)
 
 Previous S001–S028 anchors apply only to unchanged root, not current 05m. New 05m paragraphs 1–4 establish promise/first proof; 8–12 establish delayed explanation and disposition; 13–19 establish commission and actual performance. For A keep the small sign vs disrupted traffic; for B use the library projection as the second scene of the contrast, not an assertion of direct municipal funding. For C no explosive claim remains accurate. Paper-plane motif provisional in final diorama, no actual asset check. No generated image or CTR evidence; rights and exact scene layout UNVERIFIED. Preliminary 05m recommendation, not approval.
+
+
+## 2026-11-25 — revised 10m alignment
+
+Exact 10m EN SHA-256 `12517af8d69c1f83612ccb37a9a0fb55e923f71b0f015ebb377ec3b9d368b039`; early proof paragraphs 2–6, delayed explanation and consequences 11–19, completed public projection and music in final paragraphs. B promises the artist's return and now has actual completion. Original scene IDs remain root-only; use new provisional spans in story-review, not old storyboard. 05m remains recommended. Paper plane in final diorama provisional, no visual asset/rights/CTR verified.
