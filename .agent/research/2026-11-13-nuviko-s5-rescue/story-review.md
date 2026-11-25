@@ -1,0 +1,77 @@
+**REVISION B IS CURRENT; ORIGINAL EVALUATION BELOW APPLIES TO BASELINE A ONLY.** For exact current EN/RU text and new loop use `script.*.txt` and the experiment B section at the end. Any A verdict, timing or old text seam MUST NOT be attached to B as independent evidence. This is an unregistered editorial candidate.
+
+# Story review — USS S-5 (Nuviko History Short)
+
+**Status:** Owner script approval NOT_RECEIVED. **Authorial plot/fact check:** PASS with caveats. **Independent first-listener:** UNVERIFIED, not run. **Independent EN/RU review:** UNVERIFIED. **Audience demand/retention:** UNVERIFIED. **Images, TTS, MP4:** NOT_STARTED.
+
+## Viewer contract
+
+Why was a white shirt waving above the sea, and could that signal save 38 sailors trapped in a submarine?
+
+| Phase | Actual narration lines | New thing that changes the story |
+|---|---|---|
+| Hook | S001 white T-shirt above Atlantic | A familiar cloth signals life beneath the waves |
+| Incident | S002–S003 air valve, flood, bottom | Crew trapped inside after failed practice dive |
+| Stakes | S004 battery gas and degraded air | Another real survival threat and diminishing time |
+| Physical choice | S005–S006 force air into rear tanks | Stern breaks surface but bow stays on seabed |
+| New obstacle | S007–S008 no exit, drilling, two ships pass | They become visible, yet cannot escape or attract aid |
+| New solution | S009 copper pipe and white T-shirt | Improvised clear signal only after making a tiny hole |
+| Reversal | S010 merchant ship turns | The distant ship finally sees them |
+| Human moment | S011 reported 'To hell, by compass!' answer | Character and a truthful historical exchange |
+| Payoff | S012 second ship widens hole, 38 escape | Central rescue promise fulfilled before loop |
+| Final sting | S013 towline snaps, empty submarine sinks again | Unexpected loss of vessel but everyone safe |
+| Loop | S014 passing captain sees something strange: → S001 white T-shirt above waves | The end directly introduces what the beginning shows and says |
+
+## Authorial checks and boundaries
+
+- PASS: The event has multiple distinct documented actions, not one technical fact repeated to justify a long narration. Factual sequence based on US Navy DANFS and Naval Undersea Museum, supported by Naval Institute detail.
+- PASS: No invented deaths, submariners swimming from 60m, flying whole vessel, nuclear-era cockpit, mythical Navy quote, or surviving crew inside on second sinking.
+- PASS: 14 EN paragraphs and 14 RU paragraphs correspond to matching scene narration; short text-only semantic loop ends after payoff.
+- CAUTION: Navy sources differ on depth (180 vs 194ft). Script intentionally says almost sixty metres rather than claiming exact measurement.
+- CAUTION: White T-shirt, two missed ships and phrase detail from U.S. Naval Institute retrospective; original article read, contemporary archival transcript not independently checked. Quote should not be treated as authentic audio.
+- HISTORICAL BASELINE A CAUTION: The original 14 scene grid was estimated at 76 seconds; that is not measured voice. Revised B uses a different word count and requires actual TTS timing and scene re-cutting, not automatic 76-second inheritance.
+- UNVERIFIED: Whether a cold first listener wants to keep watching, how easy the timeline is to follow, and whether the final salvage twist improves or weakens the ending.
+- UNVERIFIED: Original traveler PNG bytes, source image licensing, visual geometry, actual voice, English SRT and the MP4 seam.
+
+## Exact text ring — ending → beginning
+
+English, concatenated exactly at the repeat:
+
+> This time, nobody was inside. During the first sinking, a passing captain had turned back after seeing something strange: A white T-shirt was waving above the Atlantic waves. Just beneath it, thirty-eight sailors were trapped inside a submarine.
+
+Русский, дословная склейка:
+
+> На этот раз внутри никого не было. А во время первого затопления капитан проходящего судна развернулся, увидев необычную картину: Над атлантическими волнами развевалась белая футболка. А прямо под ней в подлодке были заперты тридцать восемь моряков.
+
+**Authorial text check: PASS** for a real sentence-to-sentence link, rather than the prior loose thematic callback. The final colon invites the specific scene, which is supplied by the opening; the opening can also stand on its own during a cold view. The final sinking has already resolved without fatalities. **Audio cadence, visual position/crop, subtitles and playback seam remain UNVERIFIED** until actual production. Do not call the full AV loop PASS.
+
+## Independent cold-read test (NOT_RUN)
+
+1. Show only first two sentences of the English narration; ask what question arose and whether the viewer would watch further without revealing the plot.
+2. Show the full English text alone, without this beat table or research. Ask for exact line where interest drops, what changes at each failed attempt, and whether the rescue finishes the initial question.
+3. Ask the reviewer explicitly whether the BA 5390 or Canadian Six synopsis seems preferable for the same English Shorts audience. Allow rejection of USS S-5.
+4. Give the source matrix only after initial verdict. Check that the historic quote and photo guidance are not overstated.
+5. Repeat meaning/fact check with Russian version, independently if possible. If changes are made to EN, update RU and storyboard narration pairs.
+6. If the concept is rejected, return to selection; don't hide lack of appeal behind a reviewer checklist or fabricate CTR.
+
+**Decision:** Prepared for owner review in Draft PR only, not an approved script or production run. Nuviko History remains frozen in main unless explicitly changed.
+
+## 2026-11-13 — Reverse-engineering the sound of generated prose (experiment B)
+
+**Source:** [Russian Wikipedia essay on common generative-text patterns](https://ru.wikipedia.org/wiki/Википедия:Признаки_сгенерированности_текста). This is an essay about encyclopedic writing, not a validated AI detector or a list of forbidden English words. Experiment concerns voice naturalness and narrative specificity, not hiding the use of AI.
+
+**Baseline A:** original complete English and Russian scripts preserved at `experiment/baseline.script.en.txt` and `experiment/baseline.script.ru.txt`; original PR head `f4a2ea364a27bad35ff6ec34e70537935622f9d5`. Before 240 EN words; revised B 248 EN words (word split approximation, not TTS seconds).
+
+**Change of writing, not facts:** replaced narrator judgments (`made a desperate choice`, `situation getting worse`) with concrete actions (gas, pumping aft tanks, drilling steel, flag waving). Cut explanatory doublets. Kept a few short breath-length sentences where the action changes, rather than a mechanical list of three fragments. The quotable historic `To hell, by compass!` is reported by USNI and retained as an attributed, not reconstructed-audio exchange.
+
+**B risk:** less explicit threat language may reduce tension. A reader should check whether the physical gas and blocked exit carry it without a narrator announcing danger. S005 replaces the static modern museum model with period crew operating a real valve (reconstructed visually); Nuviko 2D host isn't mandatory in every shot.
+
+**EN exact B seam:** Earlier, the captain of that passing ship had turned back because he saw something above the water: A white T-shirt fluttered above the Atlantic. Directly below it, thirty-eight sailors were trapped in a sunken submarine.
+
+**RU exact B seam:** А раньше капитан проходившего судна повернул назад, заметив над водой кое-что странное: Над Атлантикой развевалась белая футболка. А прямо под ней, в затонувшей подлодке, были заперты тридцать восемь моряков.
+
+**Checks performed (author):** exact EN/RU lines mapped 1:1 to 14 preliminary scene briefs, all main factual beats held and payoff before loop. **Independent cold-reader A/B preference, reading two complete cycles, bilingual editorial verdict, actual speech cadence and AV join:** UNVERIFIED. Do not relabel this script `awaiting_script_approval` or reuse a review receipt from the A version.
+
+### Blind comparison protocol (NOT RUN)
+
+To a genuinely independent reviewer give A and B in randomized order without the Wikipedia critique or author preferred answer. Ask for the exact point at which they'd swipe away, any forced words, what actions they remember, factual errors, and whether the loop runs naturally twice. Then reveal claim ledger and compare. Owner can accept A, B, a hybrid, or reject both; do not declare B superior based on style-rule counting.
