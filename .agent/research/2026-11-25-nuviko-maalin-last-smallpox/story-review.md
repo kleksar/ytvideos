@@ -1,4 +1,4 @@
-# Author story review — exact revision 1
+# Author story review — exact revision 2 (10m only; 02m/05m unchanged)
 Author: ChatGPT, original editorial text; independent reviewer unavailable. Self-review only. Moderate confidence in relative pacing, no measured retention or audience score. Source main a6023668001421b689a8142cebc0bd436545be6b; #124 merged. 
 | Target | EN | RU | Editorial |
 |---|---|---|---|
@@ -13,9 +13,9 @@ Author: ChatGPT, original editorial text; independent reviewer unavailable. Self
 | [02m/ru](variants/02m/script.ru.txt) | 250 | 7d91d6c07045ba88f6509b2c17160501d2ec49697e35489432250180db71004f |
 | [05m/en](variants/05m/script.en.txt) | 706 | 4762bc81dab226d7b668c0977d5948eccbb3dd8cbc5a697dcad057029699e9ac |
 | [05m/ru](variants/05m/script.ru.txt) | 603 | 22c04597c04f2782905bf443fb6221c8039c0cf65295594c8f491249c70a3956 |
-| [10m/en](variants/10m/script.en.txt) | 1400 | eeae2d7c402121d074d5ff0d8ad28f696c147729f32a8f521955ca577405aa18 |
-| [10m/ru](variants/10m/script.ru.txt) | 1196 | bcef621a005daadb6f9b57c1e6c4bd91c5804241ed338a4f548777b7c86db145 |
-Estimated EN 125–150 spoken wpm, RU 110–135 wpm, assumptions only; Long includes 10s endscreen outside narration, actual pauses/speed at channel voice 1.10× unmeasured. EN estimates: 02m 1.79–2.15 min; 05m 4.71–5.65 min + 10s endscreen; 10m 9.33–11.20 min + 10s endscreen. RU is full semantic editorial translation, not production voice. These are targets not audio durations. No TTS.
+| [10m/en](variants/10m/script.en.txt) | 1403 | 3cea564b1434f50edcd6f692b1baace1ed384e386881a90a516d4b76f9b67a80 |
+| [10m/ru](variants/10m/script.ru.txt) | 1196 | 8be86c5c9f656baed569aed2651b3e771e2ef7e5892aedca01c051ddebea37f5 |
+Estimated EN 125–150 spoken wpm, RU 110–135 wpm, assumptions only; Long includes 10s endscreen outside narration, actual pauses/speed at channel voice 1.10× unmeasured. EN estimates: 02m 1.79–2.15 min; 05m 4.71–5.65 min + 10s endscreen; 10m 9.35–11.22 min + 10s endscreen. RU is full semantic editorial translation, not production voice. These are targets not audio durations. No TTS.
 
 ## 02m Short — STRONG_CANDIDATE
 Opening: “The last known natural case of smallpox began with a driver asking for directions.” Cold understandable, first image driver at hospital; avoid implying archive. Story map: driver → cook rides → prior avoidance → missed tracing → illness/missed diagnoses → mass response → no secondary case → certification/lab distinction → later polio work. Payoff at “Ali recovered. No further cases were linked to him.” Then full global confirmation and later work. 
@@ -61,4 +61,4 @@ Opening three questions: directions, why mass vaccination, later life. Immersion
 Main weakness: audience may disengage before “On October 12 their driver stopped at the hospital” because setup spends too long on programme context. Complete editorial proposal, but not recommended; no invented events to extend it. Questions answered in tracing and closing polio history. Facts author PASS (no exact incompatible contact count); EN/RU author PASS; format compatible; loop N_A Long; rights/timing/independent UNVERIFIED.
 
 ## Comparison and status
-02→05 adds active verification and the late case distinction; 05→10 adds operational background, geography, context for indigenous interruption/reintroduction and meaningful distinction between dose totals and surveillance, but slows the hook. Recommend 05m, not length by default. No independent review, no official script gate. No storyboard until exact selected variant independently checked. No approval or production, no measured retention. Editorial classification not statistical probability. Author revision pass: drafting and wording/fact/translation check; no external reviewer response invented. 
+02→05 adds active verification and the late case distinction; 05→10 adds operational background, geography, context for indigenous interruption/reintroduction and meaningful distinction between dose totals and surveillance, but slows the hook. Recommend 05m, not length by default. No independent review, no official script gate. No storyboard until exact selected variant independently checked. No approval or production, no measured retention. Editorial classification not statistical probability. Author revision passes: initial drafting/wording check, then targeted 10m causal correction at 1c4b50eb0652ef87faec1af026596cce8adea1da (missed recognition did not cause the exposure; quantify mass vaccinations and remove unsupported livestock detail). Rechecked both edited language versions; unchanged REWORK judgment because pace defect remains. No independent reviewer response invented. 
