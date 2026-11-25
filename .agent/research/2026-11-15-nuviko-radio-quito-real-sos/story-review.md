@@ -6,9 +6,9 @@
 |---|---|---|---:|---:|
 | 02m Long | [EN](variants/02m/script.en.txt) `a1519dc6277756effcf1118dcbf0ca3d2523897fb7b89dd7d10f0d2addbf295e` | [RU](variants/02m/script.ru.txt) `21d265a766b96be5a86d5539bb2455e9b2cc329079de28fe8e33c0083c1067fe` | 271 / 228 | 9 / 9 |
 | 05m Long | [EN](variants/05m/script.en.txt) `63f5a30989744f63752ca5fd2f6c85b7fc55e2f7515cf170f9314d22be851574` | [RU](variants/05m/script.ru.txt) `5140775263d1ed2aee3a8db0f8617a0ae7da14e1a0dfee72e03eaffc80ec5799` | 577 / 493 | 22 / 22 |
-| 10m Long | [EN](variants/10m/script.en.txt) `d88ae8bbe4486e72aeed2df37cec29855ce07349c2e70ee9db07022ed642bd53` | [RU](variants/10m/script.ru.txt) `000fa5f242f27502344dbde7f1a8f2382d8bd337e8aa80ccb91076e1901a2ac2` | 1216 / 1011 | 29 / 29 |
+| 10m Long | [EN](variants/10m/script.en.txt) `7d327866b184c82f308b39f9265effa812f021213c784f9cbd5cc06dd4ee14c4` | [RU](variants/10m/script.ru.txt) `f8e699d6a60e571ddbec12e7870ab721fe3769c69366c933f12b4629caa277ad` | 1197 / 995 | 29 / 29 |
 
-Long 16:9 for all, supported by Nuviko ChannelSpec; loop N_A. Estimates at 125–150 EN words/min before pauses/10s end-screen, not measured: 02m 1.8–2.2 min, 05m 3.8–4.6 min, 10m 8.1–9.7 мин. Do not stretch artificially; exact 10m depends on measured narration, and 05m may be shorter than target. 
+Long 16:9 for all, supported by Nuviko ChannelSpec; loop N_A. Estimates at 125–150 EN words/min before pauses/10s end-screen, not measured: 02m 1.8–2.2 min, 05m 3.8–4.6 min, 10m 8.0–9.6 мин. Do not stretch artificially; exact 10m depends on measured narration, and 05m may be shorter than target. 
 
 ## Current story maps and text-bound visual intent
 

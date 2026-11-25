@@ -8,7 +8,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED — Git-only редакционная очер�
 |---|---|---:|---|
 | 2 мин | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | 271 / 228 | Новый полный текст; авторская проверка, независимая — UNVERIFIED |
 | 5 мин | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | 577 / 493 | Сохранён исходный root, предварительная рекомендация |
-| 10 мин | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1216 / 1011 | Переработан 25.11.2026; независимая — UNVERIFIED |
+| 10 мин | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1197 / 995 | Переработан 25.11.2026; независимая — UNVERIFIED |
 
 **Рекомендована 5-минутная редакция**, потому что сохраняет самое сильное развитие: ложная тревога → раскрытие → поджог → реальное SOS → фактически заблокированные пожарные → человеческий исход. Двухминутный вариант сжимает механизм паники; десятиминутный добавляет последствия для работы Паэса и историю книги 1982 года, но после основной развязки литературно-архивная линия замедляет темп. Рекомендация не approval.
 
@@ -20,4 +20,4 @@ EDITORIAL_CANDIDATE_UNREGISTERED — Git-only редакционная очер�
 
 ## 25.11.2026 — current revision
 
-10m baseline `90f0dd20282bdbdbf126a29787ab9737dada1bb6` → revised EN/RU, 1216 / 1011 words, 29 matched paragraphs; estimated 8.1–9.7 мин before pauses/end screen. 02m, 05m, root and original storyboard unchanged. 05m remains provisional recommendation. The new 10m focuses on documented professional consequences and the 1982 written account (not rediscovered original audio); 2016 Quito presentation was announced, occurrence unverified. See [current hashes/review](story-review.md), [research](research.md) and [handoff](handoff.md). Independent reviewer, owner decision, actual duration and runtime registration UNVERIFIED. No media.
+10m baseline `90f0dd20282bdbdbf126a29787ab9737dada1bb6` → revised EN/RU, 1197 / 995 words, 29 matched paragraphs; estimated 8.0–9.6 мин before pauses/end screen. 02m, 05m, root and original storyboard unchanged. 05m remains provisional recommendation. The new 10m focuses on documented professional consequences and the 1982 written account (not rediscovered original audio); 2016 Quito presentation was announced, occurrence unverified. See [current hashes/review](story-review.md), [research](research.md) and [handoff](handoff.md). Independent reviewer, owner decision, actual duration and runtime registration UNVERIFIED. No media.
