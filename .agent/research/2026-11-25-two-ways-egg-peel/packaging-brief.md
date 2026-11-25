@@ -1,0 +1,8 @@
+# Packaging — editorial only
+
+Audience: everyday English-speaking cooks preparing neat eggs; no assumed specialist context. Mood: practical, light, visually obvious contrast; no shock or guaranteed miracle.
+
+Recommended 02m Short: **Cold Water vs Boiling Water: Which Eggs Peel Better?** Alternative: **I Need Six Perfect Eggs. Which Method Wins?** Title must not imply personally conducted experiment. First frame: ten eggs per method as alternative states, cyan A left and amber B right; boiling pot visible, count six needed in opening, accurate reconstruction label. No invented individual peeling order. Payoff: categorized arrays of ten with 0 vs 9 smooth, three spares after goal. Alternative cover: smooth vs pitted egg (illustration, not a photo of actual samples), labels COLD START / HOT START. No pre-reveal zero/nine unless title intentionally uses outcome→cause; choose non-spoiler first.
+5m proposal: **Why Starting Eggs in Boiling Water Can Make Them Easier to Peel**; opening twelve halves / six needed, added tolerance comparison.
+10m proposal: **The Egg-Peeling Test: Appearance, Texture and the Hot Start**; opening dish and texture tradeoff, no misleading universal recipe.
+Actual assets, rights and independent review missing. No detailed storyboard until exact selected hash independently reviewed. Proposed adjacent native Related video E004 toast (same kitchen-method comparison) only if live availability, suitability and permissions confirmed; no fake intro or native setup. For Long, bridge from finished egg comparison to heat and cooking tradeoff, actual intro source/interval unverified and production unsupported.
