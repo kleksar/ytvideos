@@ -1,6 +1,6 @@
 # Packaging — 05m recommended (editorial only)
 
-Exact master candidate SHA-256 c269e17c73e6d89d61f878536e55b48bae0fb03997a4b757a2a2b7e2777f71e1. Verified story: popular doll line, separate failing computer, genuine recovery, subsequent collapse, toy continues. Not a claim doll was dangerous or intentionally scarce.
+Exact master candidate SHA-256 9622865cb57401eae42f15e39b682c84d887c30c40aef8282bd2e0bd97c9986d. Verified story: popular doll line, separate failing computer, genuine recovery, subsequent collapse, toy continues. Not a claim doll was dangerous or intentionally scarce.
 
 | Concept | Title | Cover paper words | First proof / payoff |
 |---|---|---|---|
