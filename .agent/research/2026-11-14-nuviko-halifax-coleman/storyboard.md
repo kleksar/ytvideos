@@ -1,4 +1,4 @@
-> **2026-11-17 version binding:** S001–S014 exact spans, visual intent and estimated timings apply only to original EN blob fb002ba7324f5d3a8de3e826b621def21d4e104a and RU blob 4b83103056ad7901f1a949f7bcf1608d7b349815 (identical to 02m). They DO NOT apply to 05m/10m. Any selected Long requires new text-grounded storyboard, spans and timing after owner choice. Measured TTS and AV seam UNVERIFIED.
+> **2026-11-17 version binding:** S001–S014 exact spans, visual intent and estimated timings apply only to original EN blob fb002ba7324f5d3a8de3e826b621def21d4e104a and RU blob 4b83103056ad7901f1a949f7bcf1608d7b349815 (original root master; formerly identical to 02m). As of 2026-11-26 they DO NOT apply to revised 02m or 05m/10m. Exact prior spans and prompts below are preserved for the original only. Any selected Long requires new text-grounded storyboard, spans and timing after owner choice. Measured TTS and AV seam UNVERIFIED.
 
 # Preliminary storyboard — Nuviko History / Halifax
 

@@ -129,3 +129,38 @@ Only true fresh `sessions.independent` or explicitly permitted independent host 
 **Автор рекомендует 05m Long.** 02m может победить в слепом сравнении; 10m имеет фактическую ценность, но теряет фокус после помощи. Это не approval и не разрешение трёх производств.
 
 Точный дальнейший gate: передать независимому reviewer полные тексты без оценок/авторского вердикта, сохранить подлинный ответ в действующей schema; при новом hash — новый ответ. На host с реальным локальным ytv start/пинами прикрепить варианты и story-review как supporting artifacts с фактическими IDs и получить один exact master. Ни один runtime run, receipt или approval здесь не создавался. Production media запрещены.
+
+## 2026-11-26 — second editorial pass (current)
+
+Baseline d16d5d5c5851c25464ab3f80a114eefb7623f52d; canonical main 7c779c4b2fd379c85166ae1b164fa53d1ea08843 (#124 merged). Original master and original storyboard bytes preserved except the storyboard's explicit binding header. 05m remains byte-identical and recommended. 02m and 10m have new exact texts; previous author judgments and scene/timing evidence for these two variants are historical only. No approval/production indicated in PR discussion, no unresolved threads; local runtime and external Codex activity cannot be inspected, so no runtime gate or claim of verified absence outside GitHub. Git-only editorial candidate; no production.
+
+| Target | EN | RU | EN/RU words | Exact EN SHA-256 | Exact RU SHA-256 |
+|---|---|---|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 220/212 | 870a6693ccd2aa6c2d46b5611756267c577dec36571b61d4bf3c7fd0c269225a | 20f0a2ead5181c81a026e68ff1a0ec3eecf37db10b931d54849719efcc61c2ac |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 608/524 | 88d0e5e34f6e9c6cc9f1d43aa40585a4f8ec61bbb2f4574f68a61496674e63b3 | c416d150f95070f19c6f6214c5ecaf1e38c0b9a027b5fddf80a8fe7245a8df69 |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1230/1041 | 212fd747a09c5b55f136e2b851d7954c1b372304b47f3d620c482c8fbe561540 | b9908d788372f1f220b5231a6631aca700b412ed2455a322ed0f7cf02053af62 |
+
+02m Short: estimated only; 05m/10m Long at 120–150 wpm plus natural pauses; actual TTS UNVERIFIED. 05m retains its original text and comparison evidence; no previous independent result exists. Current 10m length is 1230 EN words; duration is estimated, never measured.
+
+### Before → after / story maps and visual intent
+
+- 02m: original quoted cold hook and closing colon gave a literal join but restarted the whole narration. New cold opening states the warning and death, the historical quote is heard at the actual sending beat, and the closing question has a complete direct answer at the next opening. Payoff stays before the seam. Exact scene spans: P1–P14 in both languages are paired by paragraph; P1 warning at key, P2 collision, P3 fire, P4 spectators, P5 sailor, P6 return, P7 scheduled train, P8 telegram, P9 explosion, P10 confirmed other stops, P11 uncertain No.10, P12 first alarm and later request, P13 relief trains, P14 museum key/question. This is a text-grounded beat map, not approved storyboard. Old S001–S014 remain only for original master; new 02m requires new storyboard or exact span migration, no measured timings.
+- 05m: same original text; questions → harbour/office → warning → return → other stations → explosion → contested train → separate aid call → relief trains → museum artifacts; no revised storyboard claimed.
+- 10m: previously family introduced then left unresolved until after rail reconstruction; several paragraphs restated communication and uncertainty. New two questions promise railway effect AND family's fate. P1–P4 questions, port and family/dress, shift change; P5–P7 collision/fire/sailor; P8–P11 Coleman returns and sends warning, network; P12–P13 blast; P14–P16 family injured, children and soldiers get them to hospital, communications; P17–P21 two incompatible accounts and confirmed other stops; P22–P26 railway alarm, separate aid call, six trains, storm, local and outside help; P27–P30 family outcome, railway recovery, surviving dress and key, final payoff. Exact spans are paired full paragraphs (P01–P30) in current EN/RU; visual intent is action-led, historical reconstruction not archival evidence. No existing storyboard/timing applies to this Long. Do not portray the relief trains as saving the Coleman family or visualize a definitive No.10 stop.
+
+### Author review (current exact texts; independent review UNVERIFIED)
+
+| Criterion | 02m | 05m (unchanged) | 10m |
+|---|---|---|---|
+| Interest/significance | 8 — personal sacrifice and real network consequence | 8 — same plus evidence | 8 — concrete family stakes, independent aid lines |
+| Opening | 8 — direct telegram and death, less distinctive than quote | 8 — two specific questions | 8 — both family and railway questions paid off |
+| Development | 8 — actions progress to two outcomes; short uncertainty interrupts pace | 9 — focused chain | 8 — returns to family at blast, evidence dispute still dense |
+| Payoff | 8 — other stops plus six trains after further call | 9 — differentiated evidence | 9 — family survives, objects reunite, warning's verified effects |
+| Freshness | 7 — familiar warning, honest second effect | 8 — network aftermath | 8 — artifacts tie private and railway stories together |
+| Visual power | 8 — key/rail/ship; no validated images | 8 — network and rescue | 9 — contrasting blue dress, office and rescue; no source image QA |
+| Natural speech | 8 — cold sentence and full question, concise chronology | 8 — some repeated explanation | 8 — actions replace repeated commentary; witness section still formal |
+| Evidence of audience interest | UNVERIFIED — no comparative retention/demand | UNVERIFIED | UNVERIFIED |
+
+Confidence: high for core facts from F1/F2/F3; medium for editorial effect; audience response unmeasured. Author re-read all three language pairs. 02m author EN→EN and RU→RU two complete cycles: final question asks how the railway first learned of danger; opening directly answers that a dispatcher sent the emergency telegram. Cold entry identifies Halifax, the dispatcher and explosion. Both train-stopping and aid payoff occur before the question. Actual AV seam and independent loop UNVERIFIED. Long loop N_A. Paired paragraph counts 02m 14/14, 10m 30/30; key numbers, uncertainty, sequence and separate causal roles preserved. Original exact master retained; no re-use of old approval/timings. Independent first-listener, runtime pins/run, actual demand, production and owner approval UNVERIFIED. No invented reviewer or receipts.
+
+2→5: added evidence conflict and mechanism without distracting family subplot; strongest interest density. 5→10: real family rescue and artifact payoff now form their own through-line rather than epilogue; P17–P20 remain a possible attention loss (two witness accounts in succession). Recommend 05m, not three productions; 10m is a substantive alternative, not automatic improvement. 02m shorter and useful for discovery, not the stronger explanation. Next unprocessed PR: #71 after fresh checks. Follow actual local ytv start/attach-artifact and fresh independent review of exact bytes before selecting a master.

@@ -13,3 +13,6 @@ Audience hypothesis: English historical Shorts users; actual age, region, author
 ## 2026-11-17 — variants packaging boundary
 
 Исходный thumbnail/Short scene map действителен только для original/02m. Для 05m Long предложена композиция с телеграфным ключом, горящим кораблём и рельсами, без ложного обещания «спас 300 пассажиров». Для 10m можно дополнить архивными музейными вещами и последствиями для семьи, но только после выбора master и нового storyboard. Ни один thumbnail/CTR/AV seam не проверен, AI images не генерировались.
+
+## 2026-11-26 — current variant boundary
+Original S001–S014 concepts and exact spans apply only to root original master, not revised 02m. Updated 02m hook is the emergency telegram and the sender's death; quote occurs in P8, key and full question in P14, actual railway payoff P10/P12/P13. For 10m family/dress is introduced P3, rescue P14/P15, objects and payoff P27–P30; concept of two surviving objects may support the family/railway question but no invented photo, no exact Train No.10 rescue. 05m remains recommended; prior long concept remains valid at text-level only. New storyboard required; no generated media or measured CTR.

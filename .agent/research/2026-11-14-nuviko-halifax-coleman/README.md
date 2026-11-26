@@ -5,13 +5,13 @@ EDITORIAL_CANDIDATE_UNREGISTERED — нет официального runtime gat
 
 | Длительность | Полный EN | Полный RU | EN words | Редакционный статус |
 |---|---|---|---:|---|
-| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 211 | исходный Short сохранён без изменений |
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 220 | переработан текстовый стык; оригинальный master сохранён |
 | **05m** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | 608 | **рекомендована Long** |
-| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1204 | законченная Long, менее плотный эпилог |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1230 | переработана семейная линия; Long |
 
-Рекомендована **05m Long**: документирует реальную работу предупреждения, спор о No.10 и последующий отдельный запрос. 10m расширяет проверенную историю семьи/восстановления, но теряет темп после помощи. Это редакционное решение, не выбор master владельцем.
+Рекомендована **05m Long**: документирует реальную работу предупреждения, спор о No.10 и последующий отдельный запрос. 10m раскрывает параллельно судьбу семьи и работу железной дороги; последовательные свидетельства о No.10 могут замедлять середину. Это редакционное решение, не выбор master владельцем.
 
-[Все SHA-256, восемь оценок, story maps и сравнение](story-review.md) · [Research](research.md) · [Handoff](handoff.md) · [Original storyboard, только 02m](storyboard.md). До TTS времена оценочные. Исходные [EN](script.en.txt) и [RU](script.ru.txt) не изменялись.
+[Все SHA-256, восемь оценок, story maps и сравнение](story-review.md) · [Research](research.md) · [Handoff](handoff.md) · [Original storyboard, только исходный master](storyboard.md). До TTS времена оценочные. Исходные [EN](script.en.txt) и [RU](script.ru.txt) не изменялись.
 
 ### Оригинальный README сохранён для provenance
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
@@ -25,3 +25,5 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 [Research: 10 stories, 3 finalists](research.md) · [Author-only review & exact loop](story-review.md) · [14 provisional image prompts / exact EN-RU spans](storyboard.md) · [Packaging concepts](packaging-brief.md) · [Local transfer & blockers](handoff.md).
 
 This is not a run, script gate, independent approval or authorization to make media.
+
+Актуальная редакция 2026-11-26: 02m и 10m изменены, 05m и исходный master неизменны; старые spans/timing не применимы к новым текстам. [Current exact hashes and author review](story-review.md#2026-11-26--second-editorial-pass-current).
