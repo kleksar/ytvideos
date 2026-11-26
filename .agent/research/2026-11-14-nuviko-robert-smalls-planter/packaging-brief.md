@@ -16,3 +16,7 @@ These are editorial concepts, not image assets, performance guarantees or comple
 - **05m / two armies:** вопрос "How Did One Ship Get Past Two Armies?" — вид сбоку на Planter, в глубине Confederate fort, впереди Union warship; начать с вопросов о двух линиях пушек, подтвердить фактами о фортах и Onward, payoff в белой простыне и сдаче. Не обещать морской бой.
 - **10m / two lives:** "He Escaped on a Confederate Ship. Then He Commanded It." — один узнаваемый пароход в двух исторических состояниях; первый факт в рассказе о маскировке, payoff в документированном реальном командовании. Не утверждать, что командование дано сразу после сдачи Onward.
 - Для 05m/10m ещё нужны **три независимые пары title+thumbnail** по Long standard, rights/provenance и проверка фактического визуала выбранного текста. Старые три Short packaging concepts и 14 сцен остаются только для оригинала 02m.
+
+
+## 2026-11-26 — current 10m angle
+Proposed title: "The Family That Escaped on a Confederate Ship" (same event, family separation and postwar return). Promise P1, family stakes P4/P7, collective departure P9, escape payoff P20, documented later family payoff P25–29. Do not imply Charlotte was aboard or depict a specific reunion gesture as historical fact. Prior 10m packaging is historical; 02m/05m unchanged. No approved packaging or storyboard.

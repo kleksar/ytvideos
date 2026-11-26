@@ -97,3 +97,25 @@ Potential rework: if independent blind reader loses interest at S002, cut redund
 **Hard checks по hash:** EN/RU смысловые пары — author comparison PASS (действия/имена/количество/оговорки/развязка); NPS source ledger — author factual checks PASS для заявленных ключевых фактов; 02m Short cold open / textual loop — author-only PASS, actual AV seam UNVERIFIED; 05m/10m questions → immersion → main hook — author check PASS, Short loop N_A; ChannelSpec both formats active — PASS по main; independent first-listener/second reader UNVERIFIED; actual audience interest UNVERIFIED; runtime `ytv-script-review-v1` / `awaiting_script_approval` NOT RUN; measured narration timing, media, approval, publication UNVERIFIED. **Нельзя считать внутренний review независимым.**
 
 **Статус:** не переработан → 3×EN/RU сохранены → факты/языковые пары проверены автором → 05m рекомендована, **EDITORIAL_CANDIDATE_UNREGISTERED**. Перед production нужен официальный exact script gate в реальном pinned run и новый независимый reviewer. Следующий непроверенный участок очереди: PR #94 (actual remote head/status проверить заново).
+
+
+## 2026-11-26 — current 10m family-centered candidate (supersedes earlier 10m evaluation)
+Baseline d131a3e8cd206d4f2e2cd35c3d7e81fafa372a59; canonical main 7c779c4b2fd379c85166ae1b164fa53d1ea08843. Original root and 02m/05m unchanged.
+| Duration | EN SHA-256 | RU SHA-256 |
+|---|---|---|
+| [02m EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | f9bc0cdbb5f2a74314fd6d7aaf3cebf6f12e20218a34295a1c6915d1dc1732b8 | e62c60567d332c3f2a2b6af0d15138933daa00769025e818e1fbad26cb625a5a |
+| [05m EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | 8b775a2b794bc03e24b82e835d544d3801293b4295020c29b0480e4403f209f1 | 937430f6c1e73111a4e9f4032c62dbf8c28e28012aa357785883f720b630c372 |
+| [10m EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | b7128464539c6410e9037a00dd175cf6ec675d74911ee17350414c9f84c6e177 | e84fef36bba30ae0b19459165d9b956ff09bcdcd7e2d592ba2d30d307c291c93 |
+10m 1428/1166 EN/RU whitespace words; estimate 8.7–11.0 min at assumed effective EN 130–165 WPM before extra pauses and 10s end-screen; no TTS. 29 paired paragraphs.
+10m story map / visual intent (editorial spans, not accepted storyboard): P1–3 questions and context (city/coast); P4–5 family and crew (waterfront, family, nonliteral meeting reconstruction); P6–8 officers leave / Charlotte remains / families wait (separate family, waiting vessel); P9–12 embarkation and disguise (crew/passengers, hat); P13–17 guards and mistaken recognition (general harbor); P18–22 second identification and surrender, legal aftermath (white sheet, transport handed over); P23–24 service and house purchase (same ship, home); P25–26 Lavinia wedding (documented house interior, no invented guest gestures); P27–29 Charlotte's postwar move, political coda, family payoff (no literal reenactment of unrecorded reunion). Main hook P6; opening questions answered by P15–16, P20 and P27. Old 10m timing/review superseded; original 14-scene board only unchanged root/02m.
+Author scores: 02m and 05m retain their exact evaluations above (9/8/8/8/7/8/8/U and 9/8/9/9/7/8/8/U). 10m:
+1. Interest/significance 9/10 — shared escape and divided family; US context needed; medium.
+2. Opening 8/10 — unanswered family question gives the late act a purpose, context still takes several paragraphs; medium.
+3. Development 8/10 — extra work, Charlotte's choice, Etiwan, dual recognition, then documented home/wedding/postwar move; some procedural passages remain; medium.
+4. Payoff 9/10 — escape and family outcome answer opening, house wedding concretizes freedom; exact reunion scene unknown and not asserted; medium.
+5. Original angle 8/10 — Hannah and Lavinia have distinct documented trajectories rather than generic biography; familiar escape; medium.
+6. Visual 8/10 — ship/shore contrasts, home and wedding; archival references/rights not checked; low.
+7. Oral clarity 8/10 — concrete decisions replace abstract recap; P20–21 legal/military consequences still explanatory; medium.
+8. Observed demand UNVERIFIED — no matched analytics or CTR/retention inference; low.
+Comparison: 02→05 explains roles and second danger; 05→10 now makes family separation and later shared hometown a resolved second question. 10m still changes pace after P20 at Onward, particularly P21–23. Recommend unchanged **05m** for a compact escape story, 10m for expanded family angle if owner chooses it. Recommendation not approval.
+Hard checks: author-only bilingual comparison, source ledger and exact identities; 29 paired paragraphs structural; Long opening/payoff author-checked, Short loop N_A. 02m textual loop retained at unchanged hash; actual AV seam UNVERIFIED. Main ChannelSpec supports both. Independent first listener, measured duration, demand, runtime, selected Long storyboard and owner approval UNVERIFIED; no media. External runtime/Codex inventory not available; no approval or active editor marker in PR discussion. Next: exact independent review on authorized host, continue backlog.

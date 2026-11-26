@@ -8,9 +8,9 @@ EDITORIAL_CANDIDATE_UNREGISTERED / UNVERIFIED — редакционные пр�
 |---|---|---|---|---|
 | 2m | [script.ru.txt](variants/02m/script.ru.txt) | [script.en.txt](variants/02m/script.en.txt) | 229 слов / Short 9:16 | Полный исходный текст сохранён дословно |
 | **5m** | **[script.ru.txt](variants/05m/script.ru.txt)** | **[script.en.txt](variants/05m/script.en.txt)** | 621 слово / Long 16:9 | **Рекомендована для первого blind review** |
-| 10m | [script.ru.txt](variants/10m/script.ru.txt) | [script.en.txt](variants/10m/script.en.txt) | 1352 слова / Long 16:9 | Полная, но более слабая после кульминации |
+| 10m | [script.ru.txt](variants/10m/script.ru.txt) | [script.en.txt](variants/10m/script.en.txt) | 1428 слов / Long 16:9 | Переработана 2026-11-26: линия Ханны и Лавинии |
 
-**Рекомендация: 5m, не owner approval.** В отличие от 2m, зритель понимает распределение ролей в команде, остановку ради семей и второй риск от орудий USS Onward. В 10m добавлены документированные правовой контекст и дальнейшая карьера Смоллса, но после передачи Planter сюжет меняет жанр с побега на биографию; необходимость десяти минут не доказана.
+**Рекомендация: 5m, не owner approval.** В отличие от 2m, зритель понимает распределение ролей в команде, остановку ради семей и второй риск от орудий USS Onward. 10m теперь раскрывает оставшуюся в Чарлстоне дочь Ханны, свадьбу Лавинии в доме Смоллсов и послевоенный переезд Шарлотты в Бофорт. После передачи Planter темп снижается, поэтому 05m остаётся предпочтительной для компактной истории побега.
 
 Время оценивается по английскому объёму, ориентировочным 130–165 словам/мин с паузами. Конфигурацию speed=1.1 не менять; measured TTS/монтаж **UNVERIFIED**. Профиль `nuviko_history/channel.json` поддерживает short и long; это не разрешение запускать три производства. Одна общая фактология — [research.md](research.md); точные SHA-256, недостатки, story maps и жёсткие проверки — [story-review.md](story-review.md). [Handoff](handoff.md) нужен для регистрации единственного выбранного текста.
 
@@ -29,3 +29,6 @@ An enslaved crew passes the Confederate forts on an armed transport, only to fac
 Full RU: [script.ru.txt](script.ru.txt) · Full English future TTS/SRT master: [script.en.txt](script.en.txt). Evidence [research.md](research.md), editor-only [story-review.md](story-review.md), 14 prospective [storyboard.md](storyboard.md), [packaging-brief.md](packaging-brief.md), [handoff.md](handoff.md).
 
 Author class STRONG_CANDIDATE with audience interest UNVERIFIED. Not a registered run, media or approved script.
+
+
+Current 10m: exact EN SHA-256 `b7128464539c6410e9037a00dd175cf6ec675d74911ee17350414c9f84c6e177`, RU `e84fef36bba30ae0b19459165d9b956ff09bcdcd7e2d592ba2d30d307c291c93`; old 10m review/spans/timings superseded. See [story-review](story-review.md).
