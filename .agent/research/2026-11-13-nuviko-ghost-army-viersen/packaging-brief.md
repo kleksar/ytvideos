@@ -20,3 +20,7 @@ The S001–S018 references above belong to the unchanged original root r1 only. 
 ## r3 provenance (2026-11-20)
 
 The proposed 05m Long script now includes impersonated traffic police, restricted-area signs and residents moved away from the props. A storyboard for a future approved exact 05m hash must include this action and preserve the recovered-map payoff, without treating the archival S001–S018 or their timings as valid. No art, title or thumbnail has been approved.
+
+## r4 — 2026-11-26
+
+02m now provisionally recommended. First image: a truck driver at an apparent American headquarters confronted with unfamiliar MPs (illustrative reconstruction, not an archival image). Opening promise: why did the driver fail to recognize his own unit? Payoff in p5 explains the visit, p7 supplies the larger German map discrepancy, p8 returns to the friendly mistake. Possible title hypothesis: **The Fake Army Fooled Its Own Soldiers**; avoid claiming all American soldiers were fooled, or fabricating the actual captured map. The 05m alternative retains the previous map/strategic promise and civilian clearance. 10m adds a second headquarters visitor and a real 2024 ceremony; verify any archival image/rights before using. All proposed visuals are textual hypotheses only, no accepted thumbnails, AV or measured CTR. r1 storyboard remains strictly archival.
