@@ -1,0 +1,15 @@
+# Packaging brief — Smart-plug paradox, exact 02m editorial recommendation
+
+EDITORIAL_CANDIDATE_UNREGISTERED. No generated assets, source reference PNG bytes, thumbnail, SRT, TTS or MP4. Selected for **author comparison only**: [EN](variants/02m/script.en.txt) SHA-256 `080cf3f772b28606b2e72d39b1eca7ee28803889f37d20d2da40980e66787a12`; [RU](variants/02m/script.ru.txt) `12ca4954154caaaafd98e52b4d716f0eae18b8acf7ea426539cf7e48fae65cf6`.
+
+## Honest packaging and audience contract
+
+Primary English working title: **“The Smart Plug Used MORE Power Than My TV (In a Model)”**. Alternate **“Can a Smart Plug Make Your Electricity Bill Worse?”** (if retained, the model qualifier must appear visibly near result, not hidden behind fake-test language). Russian working translation: «Умная розетка расходует БОЛЬШЕ, чем телевизор? Условный расчёт». None claims actual wattmeter readings, a verified product brand, a real store or measurable bill saving.
+
+First visual idea **only**: same cartoon TV with standby indicator, split A cyan (direct wall socket) / B amber (a connected plug with an off-output icon), viewer asked to pick A/B before result. A reminder that a smart plug itself stays powered is the first change after the question. Retain Two Ways brand: warm 2D illustrated whole frame, navy environment, mint outcome. No paper dioramas, no game HUD. Hero model identity reference bytes must be opened/hashed before storyboard. ImageGen-produced typography overlays only; script-drawn graphic labels/numbers prohibited except sanctioned subtitle pipeline.
+
+First decisive visible proof is a **24-hour chart with 20h unused and 4h active**; the direct-TV standby uses **6 Wh**, plug electronics **17.6 Wh**, conditional +11.6Wh loss. First run is an illustration, not an observed meter. Then explicitly reset to **same 4/20 schedule and same controller**, replace TV with **8W standby receiver**, reveal 160Wh vs 17.6Wh; plug saves 142.4Wh. Must visually distinguish new scenario from original A/B so there is no fake within-run swap. A real product could violate assumption; never silently depict a specific manufacturer.
+
+**02m payoff precedes the end-to-start seam**. Last EN: “But when a smart plug promises savings, I know which question to ask first.” Then opening “Can a smart plug use more electricity than it saves?” The answer already appeared, and closing genuinely asks to revisit it. AV/voice pacing **UNVERIFIED**, no endscreen or 22-second teaser appended. If there is a real relevant published next video after owner approval, check platform identity and use native Related video compatible with loop. Do not link Draft PR to a nonexistent published clip.
+
+Rights: only original proposed script text and math exist. No creative reference/video/voice licensed or fetched as bytes. No storyboard/prompts until a reviewed exact master, then bind every scene, Unicode span and actual reference image SHA to the selected EN hash; do not inherit earlier checkout-scene assets.

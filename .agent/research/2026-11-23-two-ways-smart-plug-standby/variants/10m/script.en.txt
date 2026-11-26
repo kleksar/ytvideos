@@ -1,0 +1,57 @@
+Would adding a smart plug to my television actually lower my electricity use? The TV spends most of the day turned off. The plug is supposed to stop that last trickle of standby power. But what if the thing doing the switching needs more electricity than the television does?
+
+I can picture the decision. There is a little standby light under my dark screen. I could leave the TV as it is, or put a scheduled smart plug behind the cabinet. I want to save electricity without crawling around to pull out the cable. The new device promises convenience. Whether it saves energy is a separate question.
+
+I set up two methods before doing any arithmetic. A means the appliance stays plugged into the wall when unused. B means the same appliance runs through a smart plug that disconnects its output during unused hours. The appliance works normally for the same number of hours in both cases. I compare total energy from the wall over one day, in watt-hours. I will consider money later.
+
+There is no wattmeter footage behind this story. I am building an illustrative model with declared numbers, not reporting measurements of my television, a product on sale, or a real household experiment. The sums can be checked; the assumptions would have to be measured before anyone applied them at home.
+
+First I draw a day in two parts: four hours of use, twenty hours of waiting. During the four active hours the television consumes the same electricity in both methods, so its working consumption cancels. I only need to compare the standby energy A leaves behind with the new controller overhead B introduces.
+
+For the television, I assume just 0.3 watts of standby power. Low standby power is plausible for an efficient modern set, but 0.3 is my chosen model input. Even a published efficiency requirement cannot tell me what the TV in my room actually draws.
+
+In A, twenty hours multiplied by 0.3 watts gives six watt-hours. That six is important: it is all the standby energy a perfect switch could prevent during those twenty hours. If a smart plug itself takes more than six watt-hours per day, it has already lost this particular contest.
+
+Now I add the controller. I assume it draws 0.7 watts while its output is off and 0.9 watts while it supplies the television. Turning the TV off does not turn the smart plug's own electronics off. It still needs power to keep the schedule and respond when the TV should come back on.
+
+For twenty disconnected hours the plug consumes fourteen watt-hours. For four connected hours it consumes another 3.6. Together that makes 17.6 watt-hours each day, on top of the television's common viewing consumption.
+
+I expected B to remove a waste. Instead A uses six watt-hours of standby energy while B spends 17.6 running the switch. B increases consumption by 11.6 watt-hours per day. That is a modest amount, not a terrifying electricity bill. But the direction is the opposite of the promise I was about to believe.
+
+At this point I could announce that smart plugs are a bad idea and stop. That would be the wrong conclusion. I have learned about one imaginary efficient television and one assumed plug. The result depends on what the plug is switching, not on whether the packaging says smart.
+
+So I reset the same comparison and openly change the appliance. Instead of the efficient TV, I put an older audio receiver in the model and assign it eight watts of standby draw. I keep the four active hours, the twenty idle hours and exactly the same plug. I also assume this receiver is safe to disconnect; that must be checked for a real device.
+
+Now A leaves an eight-watt receiver waiting for twenty hours. That is 160 watt-hours. B prevents those 160 watt-hours while the controller still uses 17.6. The receiver uses the same electricity while playing music in either method, so that common part still cancels.
+
+B now saves 142.4 watt-hours per day. The device that failed in the TV example wins convincingly with this receiver. I did not move the finish line. I changed one declared input and ran the same test again. The result is useful precisely because neither method wins for every appliance.
+
+I want a way to decide without having to try a dozen invented devices. The original controller consumes 17.6 watt-hours per day. It gets twenty hours to prevent standby use. Divide 17.6 by twenty: 0.88 watts. For that schedule, A wins below 0.88 watts of appliance standby; B wins above it; at 0.88 they tie.
+
+But hours are part of the rule, too. To see why, I imagine one third appliance with exactly one watt of standby draw. It is a boundary example, not a real product reading. Under my original four-hour-use, twenty-hour-idle schedule, A spends twenty watt-hours waiting. B spends 17.6 on its controller. This time B saves just 2.4 watt-hours.
+
+That is barely a win. What happens if I use this same one-watt appliance for longer? I keep the appliance and plug unchanged and reset only the daily schedule: eight active hours, sixteen idle. A now spends sixteen watt-hours in standby. B's electronics use 0.7 times sixteen plus 0.9 times eight, or 18.4 watt-hours.
+
+The winner flips. With four active hours, B saved 2.4 watt-hours; with eight active hours, B wastes 2.4. There is no faulty arithmetic and no hidden purchase cost. I gave the controller fewer hours to avoid standby consumption and more hours drawing its higher on-state power.
+
+Under the second schedule, the break-even idle draw rises from 0.88 to 1.15 watts, because 18.4 divided by sixteen is 1.15. The efficient television still favors A and the eight-watt receiver still favors B. It is the one-watt borderline device that crosses the boundary. Now I understand why even a correct answer about somebody else's device may not apply to my day.
+
+I have changed the appliance and then the hours. I can test one more thing without inventing a new observation: the controller itself. I return to the efficient 0.3-watt TV and the original four-hour-use schedule. Suppose a different hypothetical smart plug draws only 0.1 watts when its output is off and 0.2 when on.
+
+Its daily overhead would be two watt-hours during the twenty idle hours and 0.8 during the four active hours. Total: 2.8 watt-hours. My TV's standby use was six. Now B saves 3.2 watt-hours. Even the television can make B win when the controller's own draw is low enough. These numbers describe an alternative model, not a product I have tested.
+
+There is a temptation to turn every small energy difference into a dramatic money claim. I should resist it. In the original TV case, an extra 11.6 watt-hours each day adds up to 4.234 kilowatt-hours over 365 days. At an explicitly assumed price of twenty-five cents per kilowatt-hour, that is about one dollar and six cents of extra electricity per year. The point was the reversal, not financial ruin.
+
+For the eight-watt receiver, the original model saved 142.4 watt-hours a day, or 51.976 kilowatt-hours annually. At the same invented tariff, that is about thirteen dollars a year. If I also assume a fifteen-dollar purchase price, the energy-only payback takes a little over a year. That calculation does not account for a failed plug, replacements, changed use, or any other smart-home hardware.
+
+I need to separate three decisions. Does the controller reduce watt-hours under my conditions? If it does, is the amount worth its cost? And, before either question, is a hard power cut appropriate for this appliance? I cannot use a favorable spreadsheet result to answer the safety question.
+
+Some equipment uses standby for updates, network tasks, scheduled recording or display maintenance. Other equipment needs continuous power. Before connecting a real appliance to an automatic switch, I need the instructions for that exact model. I would not interrupt essential medical equipment, a refrigerator or necessary networking just to chase an imaginary saving.
+
+There may be an easier solution, too. The appliance might already have a suitable low-power setting. A normal wall switch could remove standby electricity without keeping a separate controller awake, although I would lose automatic scheduling. Those are alternative choices I can investigate after this A/B test, not secret third competitors inserted halfway through it.
+
+If I were making this purchase for real, I would first check whether switching off is safe, then note the actual idle and active hours. I would measure the appliance in standby and the proposed plug with its output both on and off, using a meter capable of measuring small loads reliably. Only then would I fill in the same two daily totals and, separately, the purchase price.
+
+My original question has a complete but conditional answer. With the low-standby television and the first assumed controller, A wins. With the eight-watt receiver, B wins. With a one-watt device, changing only my schedule changes the winner. With a more efficient controller, even the television can switch sides.
+
+So I am not buying a smart plug just because it is called a saver. I want to know what it will prevent, what it will consume, and whether I should disconnect that appliance at all. The surprising part is not that one particular gadget loses. It is how easily the winner changes when I finally count the electricity used by the switch itself.
