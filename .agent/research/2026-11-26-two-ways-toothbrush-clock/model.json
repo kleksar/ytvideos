@@ -1,0 +1,46 @@
+{
+  "description": "Illustrative comparison using published group-level adjusted mean changes, not an experiment by narrator or measured individual scores",
+  "source": "https://doi.org/10.1902/jop.2004.75.8.1107",
+  "unit": "plaque index points; larger reduction better",
+  "illustrative_equal_start": 3,
+  "observed_baseline_means": {
+    "A": 2.99,
+    "B": 2.98
+  },
+  "methods": {
+    "A": "manual",
+    "B": "specific dual-head battery-powered"
+  },
+  "n": 40,
+  "checkpoints_minutes": [
+    1,
+    3
+  ],
+  "adjusted_mean_reductions": {
+    "A": [
+      0.43,
+      0.62
+    ],
+    "B": [
+      0.61,
+      0.93
+    ]
+  },
+  "derived": {
+    "equal_time_B_minus_A": [
+      0.18,
+      0.31
+    ],
+    "duration_gain_A": 0.19,
+    "duration_gain_B": 0.32,
+    "cross_time_A3_minus_B1": 0.01
+  },
+  "two_minute_score": null,
+  "limits": [
+    "Rounded reported group values, not exact individual post-brushing scores",
+    "Cross-duration numerical proximity is not equivalence",
+    "No interpolated two-minute result",
+    "No extrapolation to other models or clinical outcomes",
+    "General guidance two minutes twice daily from separate ADA source"
+  ]
+}
