@@ -36,3 +36,10 @@ Remaining: legitimate registered run and pinned packet, independent reviewer wit
 **Runtime/reviewer blocker:** GitHub-only editorial access cannot execute the local `uv run ytv start`/saved task context in this tool environment, nor produce pinned task claims, legitimate `ytv-script-review-v1` or an independent first-listener identity. Before any master is accepted, import via real workflow in an authorized checkout, reading canonical run pins, registering supporting variants and review. Give a distinct reviewer the exact texts without this author rating, disclose evidence after first read, save actual response in existing schema. No MP4/TTS/Flow/image-generation/upload/YouTube publication or scheduling occurred.
 
 **Remaining next step:** independent text and bilingual first-listener review → owner choice of exact master → genuine runtime gate → new version-specific storyboard and word alignment if independently authorized. Next untouched queue candidate after this PR: #62 subject to fresh remote verification.
+
+
+## Editorial revision — 2026-11-26 (current, supersedes 2026-11-17)
+
+Baseline `8e3e4f9131f02245f17f58200a3abd83911d02d9`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`, #124 and #117 merged. Original root scripts and their 15-scene storyboard are preserved as historical evidence; revised variants are separate unapproved candidates. No independent runtime lease visibility or reviewer; GitHub PR discussion contains no owner acceptance or active conflicting work. No registered run, no approval.
+
+Current 02m and 10m have new exact text hashes; prior timings, spans and reviews are invalid for them. The root scripts, 05m and storyboard bytes are unchanged. **Historical storyboard belongs to root/baseline 02m only**, never current variants. See current review for paired paragraph visual intent and exact hashes. Recommend unchanged 05m Long; local authorized agent must verify active leases, owner decisions and current canonical context, then use the actual runtime procedure and fresh independent first-listener review on the chosen exact text. No production initiated. Next #62.

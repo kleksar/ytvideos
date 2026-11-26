@@ -25,3 +25,10 @@ Any actual AI draft needs source-asset byte/hash read-back, title/image/crop QA 
 ## Three-length editorial packaging boundary (2026-11-17)
 
 The titles and portrait-thumbnail concepts above belong to unchanged **02m Short** only; they are hypotheses, not approved release assets or measured click-through. Suggested 05m Long promise: **"They Invited 3,000 Wanted People to a Football Party"**. A possible physical paper thumbnail places an invitation in the foreground, the upstairs stairway and a concealed-officer chicken as contrast, but artwork must be created and checked later under actual authorized Long workflow. 10m would require a distinct first-listener-tested promise; do not automatically reuse Short storyboard/image/crop/timings or production approval. [Complete full texts](README.md) and [separate review](story-review.md).
+
+
+## Editorial revision — 2026-11-26 (current, supersedes 2026-11-17)
+
+Baseline `8e3e4f9131f02245f17f58200a3abd83911d02d9`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`, #124 and #117 merged. Original root scripts and their 15-scene storyboard are preserved as historical evidence; revised variants are separate unapproved candidates. No independent runtime lease visibility or reviewer; GitHub PR discussion contains no owner acceptance or active conflicting work. No registered run, no approval.
+
+Current 02m promise: The Football Party That Arrested Its Guests. Opening P1–2 establishes an undercover mascot; no exact concealed-gun placement is required by the new text. Paper thumbnail: mascot and a physical football invitation, no gun emphasis. P7–10 delivers presenter/arrest/bus and aftermath. Historical S001–S015 references apply only to baseline root scripts. 10m alternative promise: The Football Party Where the Surprise Almost Failed (memoir evidence, no claim that the operation failed); early mascot P5, missed cue and recovery P16–17, later surrender P25–26. 05m proposed title and recommendation unchanged. All concepts untested; no generated media, actual CTR or approved release.

@@ -1,4 +1,6 @@
 # Story review — Operation Flagship (1985) / Paper Detour
+
+**Current assessment: see final section dated 2026-11-26. Earlier tables, PASS statements and spans are historical, not evidence for the revised variants.**
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
 
 ## Focused seam revision — 2026-11-14
@@ -110,3 +112,47 @@ The exact old `storyboard.json` has 15 EN/RU scene paragraphs matching **only** 
 **Independent review protocol / blocker:** a genuinely separate reviewer must receive the exact EN opening then entire 02/05/10 text **without** these ratings, story maps or recommendation; allow rejection of the story or preference for 02m. Show research only after first listening/reading, request verbatim dropout points, then a separate exact EN/RU fidelity read. Record the actual original reviewer answer in the existing runtime schema bound to exact master hash; no review tool/session/ytv-script-review-v1 receipt is present here. This is author-only editorial review. A future edit invalidates any exact-version response.
 
 **Status transition:** `not reworked → three full EN/RU versions prepared → author-checked, independent UNVERIFIED → 05m recommended (not approved)`. This does **not** register a run or start production. See handoff; next queued candidate to inspect is PR #62 after checking its current state.
+
+
+## Editorial revision — 2026-11-26 (current, supersedes 2026-11-17)
+
+Baseline `8e3e4f9131f02245f17f58200a3abd83911d02d9`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`, #124 and #117 merged. Original root scripts and their 15-scene storyboard are preserved as historical evidence; revised variants are separate unapproved candidates. No independent runtime lease visibility or reviewer; GitHub PR discussion contains no owner acceptance or active conflicting work. No registered run, no approval.
+
+**Before → after:** 02m had an unfinished sentence, unqualified concealed-gun placement and redundant reintroduction; now a full ending, cold opening identifies an undercover mascot, and the question at the end receives the answer immediately on replay. 10m previously concealed the mascot until paragraph 12, repeated the fictitious-company detail and claimed Hartford was several years earlier (EN) versus one year (RU). New composition introduces Leschorn's mascot proposal in paragraph 5, fixes November 1984, adds returned mail and McKinney's remembered false start to the presentation. These are separate obstacles; the story moves from uncertainty of reaching invitees to uncertainty at the live event. The 05m version remains exactly unchanged because its central Roche line and proportion are effective; see the prior evaluation for preserved exact version.
+
+| Target | EN words | RU words | EN SHA-256 | RU SHA-256 |
+|---|---:|---:|---|---|
+| 02m | 250 | 206 | `7071d9015583a0c6b03eedc9ea72c923b2946552b40c6184d6897333259c674c` | `7af2c468392ab806f33ea0546de9562435a5eb55b842eb916bbe0050dba01528` |
+| 05m | 621 | 541 | `8c1662d2351789d3d77d7352555337201c29f8fafa33ac16956f88e2f7fb7eb7` | `3629e1fcc98f1600d9e32736a3e128a29241a317fcfd9b44750348ba244a50c5` |
+| 10m | 1309 | 1091 | `a2f621be67978f0fa0c12a43f3e155bcd8295d41c07f0c99069dd7ce478f93c6` | `a24c7d8ae3550797c744b825819026bc0d852a30655616267fb605a9692bb64f` |
+
+### Current story maps and visual intent
+- 02m (11 paired paragraphs): P1–2 undercover mascot and staged staff (archival-inspired paper figures, no claim of exact weapon placement); P3–5 letter delivery, prizes, FIST identity (letter, football ticket, sign); P6–8 event and arrest outcome (reception, presenter, bus destination); P9–10 reported count, mistaken identities, guest reaction (court and bus, avoid labels implying conviction); P11 complete payoff and question, return to P1 mascot. Actual visual, sound and subtitle seam UNVERIFIED. Plane proposed near reception P6, not factual part of story.
+- 05m (17 paragraphs): preserved previous map and exact hashes; no storyboard or measured duration.
+- 10m (26 paired paragraphs): P1–3 questions and Roche's address problem (city/stadium, warrant and address); P4–5 prior Hartford operation and Leschorn's mascot proposal (concert invitation, planning and costume); P6–9 fictitious company, offers, calls and undelivered mail (letter, returned envelope, phone); P10–15 personnel, rehearsals, actual party, early arrivals, McKinney (paper diorama); P16–19 remembered missed cue and recovery, arrest and buses (presenter and change of destination; avoid graphic weapons or invented guest reactions); P20–23 count uncertainty, mistaken identities and organizer's rationale (separate reported counts, not proof of conviction or crime reduction); P24–26 guest question, self-surrenders and return to address problem. Plane proposed as a physical decorative object in reception P14–15; not an archival fact. No timing or production storyboard claim.
+
+### Eight author-only criteria for exact current texts
+| Criterion | 02m | 05m (unchanged) | 10m |
+|---|---|---|---|
+| Interest | 8 — odd mascot contrasts with real arrests | 8 — concrete address problem | 8 — mail and presenter obstacles |
+| Opening | 8 — undercover mascot immediately identifies situation; location/date follow | 8 — questions about scale and mascot | 8 — three questions, actual mascot proposal P5 |
+| Development | 8 — invitation, mistaken winners, actual destination | 8 — earlier lure, phone, arrivals, partition | 8 — two separate setbacks, but P10–14 still slow |
+| Payoff | 8 — count and wrong recipients before final question | 8 — count and later surrender | 9 — presenter setback resolved, two callers close search problem |
+| Fresh angle | 7 — familiar absurd visual, less focus on gun | 8 — police search and perceived good luck | 8 — named organizer and emcee's documented recollection |
+| Visual expressiveness | 8 — paper mascot, invite, bus | 8 — props and spatial contrasts | 8 — returned letters and failed announcement, accounting less visual |
+| Spoken naturalness | 8 — complete sentences, FIST may need articulation | 8 — prior evidence, company-name joke slows | 8 — causal human action, legal qualifications slow P20–23 |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+All aesthetic scores are author judgments, confidence medium for text/structure and medium-low for interest/freshness/visuals. Fact confidence high for official invitation, attributed counts and Hartford date; medium for exact recollected failed cue (memoir quoted in retrospective), unknown why it failed and why two callers surrendered. 05m ratings unchanged, not independently measured.
+
+### Hard checks
+- Full separate EN/RU texts and paragraph parity: author-checked 11/11, 17/17, 26/26. 02m and 10m revised hashes invalidate old text reviews/timings; 05m unchanged.
+- 02m entire EN and RU reread as two complete cycles: last question asks who among the greeters would least resemble a federal officer; first sentence answers with the undercover chicken. The prior paragraph already resolves the nonexistent prize. Cold entry needs no prior cycle. No incomplete connective; author text seam PASS, independent UNVERIFIED. Actual AV seam UNVERIFIED.
+- Long questions → immersion → core hook: 05m original; 10m P1 questions, P2–4 search context, P5 mascot and joint planning, P16–17 remembered cue failure and recovery. Hook timing estimated only; no loop required.
+- Facts: author check with attribution/uncertainty, no new motive or invented dialogue. See evidence addendum. 05m prior attributed concealed-gun report remains limited, not visual proof. Real crime reduction, actual spoken timing, audience response, outside bilingual review, independent ytv-script-review-v1 and owner acceptance UNVERIFIED.
+- ChannelSpec supports Short and Long; exact 10m runtime UNVERIFIED. Historic storyboard matches only root EN/RU and baseline 02m, **not current 02m or either Long**. Its evidence remains preserved, not reused.
+
+### Comparison and recommendation
+02→05 adds Roche's search problem, prior concert operation and the staged reception; 05→10 adds Leschorn's role, a quantitative delivery obstacle and a documented failure/recovery at the decisive moment. These improve the additional value of 10m rather than just repeating the setup. P10–14 (personnel/rehearsal/arrival) still delays McKinney, and P20–23 (count and expense) may be too expository for a general audience. **Recommend 05m** for density, not approval; 10m may suit a documentary viewer, and 02m is a viable Short.
+
+`EDITORIAL_CANDIDATE_UNREGISTERED`: three versions prepared → author checked → 05m recommended. Independent review and official runtime/pins/leases UNVERIFIED. No TTS, media, actual duration, approval, merge or publication. Next scoped candidate #62, subject to fresh status.
