@@ -1,0 +1,8 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+Source main 7c779c4b2fd379c85166ae1b164fa53d1ea08843; #124 merged on 2026-11-16. Current main canonical used, no proposed revision imported, no changes to old pins. Latest prior actual draft #439 Two Ways Lab. New channel Paper Detour. Calibration exact #20 B 78b375bf0004fdeb45722e6106f2919f09e82fe1 and #25 B 28862598989045cd02990e654b086afae28fea59; unchanged.
+
+Runtime attempt: uv run ytv start --channel paper_detour --format short --intent 'editorial candidate, no production' -> exit 2 Failed to spawn: ytv (OS error 2). No run/lease/receipt/approval. No available independent-session tool found. Source references for actual paper art unavailable; no media generated.
+
+After real owner choice, fetch exact PR commit/path and verify EN SHA-256 from story-review.md. For an unaccepted candidate, on authorized local checkout execute canonical start in chosen format (recommended long) and read plan_summary/read_next/task_guide/pinned documents; attach supporting variant/research/review artifacts by actual IDs; obtain independent exact reader input/response and proceed under current documented gates. If owner explicitly accepts exact source for production, use documented source-script import route, never fabricate approval. Change of text invalidates review and timing. Use only one selected master; no production from this Git-only recommendation.
+Blockers: runtime registration, independent review, verify published archive (channel videos fetch disabled), measured voice duration, rights clearance, actual refs, detailed storyboard/prompts and final visual/AV review. Current paper profile supports Short and Long. Do not run TTS, image generation, provider operations, render, upload or merge here.
