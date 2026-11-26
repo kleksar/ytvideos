@@ -1,0 +1,5 @@
+# Packaging brief — editorial only
+Recommended 02m script: a12fab8d80d46fb1d0495d19aebe0e1a240a548df8e8e284f6ae0aa2d36a2e4b. No production approval.
+Title A: Same $40 in Tolls. Two Different Rental Bills
+Title B: When a $70 Rental Toll Pass Costs Less
+Audience: US rental travelers comparing fees. Promise: why spreading identical toll charges over more days changes the better deal. First image two price tags $40 ROAD TOLLS and $70 PASS beside a rental counter, cyan A / amber B. First words literally introduce those numbers; model disclaimer and choice before results. Payoff: five identical $8 toll tokens in one calendar cell vs five cells; receipts A $46.95 then $74.75, B $70 in both. Mint only highlights actual winner in each scenario. Text/graphics conceptual; all future labels must follow channel image-generated overlay policy, no programmatic image/text generation performed. Do not suggest a real receipt or guaranteed savings. No actual media or reference bytes retrieved. No detailed storyboard/prompts before independent text review; storyboard scope only chosen exact variant. No invented related video or AV seam.

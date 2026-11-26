@@ -1,0 +1,78 @@
+{
+  "description": "Illustrative calculation, not real booking. USD cents. Same route, tolls, duration and coverage within each A/B case. Taxes, parking, other charges and third-party payment excluded.",
+  "standard_service_fee_cents_per_toll_day": 695,
+  "standard_fee_cap_cents_per_rental_up_to_30_days": 3495,
+  "unlimited_quotes_assumed_cents": {
+    "five_days": 7000,
+    "seven_days": 8400
+  },
+  "toll_total_and_distribution": "Assumed non-discounted charges; five $8 tolls on 1/4/5 days respectively. Other totals are sensitivity cases, not observed routes.",
+  "formula": "A = toll_total + min(695*toll_days,3495); B = quoted all-inclusive fee for the specified rental. All assumed tolls covered.",
+  "cases": [
+    {
+      "name": "five tolls one day",
+      "toll_total_cents": 4000,
+      "toll_days": 1,
+      "standard_cents": 4695,
+      "unlimited_cents": 7000,
+      "winner": "A"
+    },
+    {
+      "name": "five tolls four days",
+      "toll_total_cents": 4000,
+      "toll_days": 4,
+      "standard_cents": 6780,
+      "unlimited_cents": 7000,
+      "winner": "A"
+    },
+    {
+      "name": "five tolls five days",
+      "toll_total_cents": 4000,
+      "toll_days": 5,
+      "standard_cents": 7475,
+      "unlimited_cents": 7000,
+      "winner": "B"
+    },
+    {
+      "name": "30 dollars five days",
+      "toll_total_cents": 3000,
+      "toll_days": 5,
+      "standard_cents": 6475,
+      "unlimited_cents": 7000,
+      "winner": "A"
+    },
+    {
+      "name": "50 dollars two days",
+      "toll_total_cents": 5000,
+      "toll_days": 2,
+      "standard_cents": 6390,
+      "unlimited_cents": 7000,
+      "winner": "A"
+    },
+    {
+      "name": "50 dollars three days",
+      "toll_total_cents": 5000,
+      "toll_days": 3,
+      "standard_cents": 7085,
+      "unlimited_cents": 7000,
+      "winner": "B"
+    },
+    {
+      "name": "45 dollars seven days",
+      "toll_total_cents": 4500,
+      "toll_days": 7,
+      "standard_cents": 7995,
+      "unlimited_cents": 8400,
+      "winner": "A"
+    },
+    {
+      "name": "55 dollars seven days",
+      "toll_total_cents": 5500,
+      "toll_days": 7,
+      "standard_cents": 8995,
+      "unlimited_cents": 8400,
+      "winner": "B"
+    }
+  ],
+  "source": "https://www.budget.com/en/products-services/services/e-toll (Florida terms, observed 2026-11-25)"
+}
