@@ -7,7 +7,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED — нет официального runtime gat
 |---|---|---|---:|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 220 | переработан текстовый стык; оригинальный master сохранён |
 | **05m** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | 608 | **рекомендована Long** |
-| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1230 | переработана семейная линия; Long |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1233 | переработана семейная линия; Long |
 
 Рекомендована **05m Long**: документирует реальную работу предупреждения, спор о No.10 и последующий отдельный запрос. 10m раскрывает параллельно судьбу семьи и работу железной дороги; последовательные свидетельства о No.10 могут замедлять середину. Это редакционное решение, не выбор master владельцем.
 

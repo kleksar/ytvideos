@@ -138,9 +138,9 @@ Baseline d16d5d5c5851c25464ab3f80a114eefb7623f52d; canonical main 7c779c4b2fd379
 |---|---|---|---|---|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 220/212 | 870a6693ccd2aa6c2d46b5611756267c577dec36571b61d4bf3c7fd0c269225a | 20f0a2ead5181c81a026e68ff1a0ec3eecf37db10b931d54849719efcc61c2ac |
 | 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 608/524 | 88d0e5e34f6e9c6cc9f1d43aa40585a4f8ec61bbb2f4574f68a61496674e63b3 | c416d150f95070f19c6f6214c5ecaf1e38c0b9a027b5fddf80a8fe7245a8df69 |
-| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1230/1041 | 212fd747a09c5b55f136e2b851d7954c1b372304b47f3d620c482c8fbe561540 | b9908d788372f1f220b5231a6631aca700b412ed2455a322ed0f7cf02053af62 |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1233/1048 | b944637002a22a7692c25d21078d2ea28a82d49fb0e0b66011f135ed4f4ab736 | acf58fef30135ece0daf51cda197e80a3f9994c7f03c4f16d8d911d82b5a8279 |
 
-02m Short: estimated only; 05m/10m Long at 120–150 wpm plus natural pauses; actual TTS UNVERIFIED. 05m retains its original text and comparison evidence; no previous independent result exists. Current 10m length is 1230 EN words; duration is estimated, never measured.
+02m Short: estimated only; 05m/10m Long at 120–150 wpm plus natural pauses; actual TTS UNVERIFIED. 05m retains its original text and comparison evidence; no previous independent result exists. Current 10m length is 1233 EN words; duration is estimated, never measured.
 
 ### Before → after / story maps and visual intent
 
