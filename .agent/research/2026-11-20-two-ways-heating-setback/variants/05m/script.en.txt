@@ -1,0 +1,33 @@
+When I get home to a cold house, the heater runs hard to warm it up. Does that wipe out everything I saved by turning it down all day? Or would it have cost even more to keep the house warm while nobody was there?
+
+I'm choosing between two schedules for the same house. Schedule A keeps it at twenty degrees Celsius from eight in the morning until four in the afternoon. Schedule B lets the temperature fall toward sixteen while I'm away, then starts heating early enough that I still walk into twenty degrees at four.
+
+The starting temperature is twenty in both cases. The weather, insulation, size of the building and heating equipment are identical. My first score is not the time the heater runs. It's the total heat delivered over those eight hours. This is a calculation, not a claim that I have measured my own gas meter.
+
+First, the tempting argument for A: if the room cools, I'll eventually have to put that heat back. Surely it's better not to let it go?
+
+But the house is losing heat either way. It's warmer than the air outside. While I hold it at twenty, that temperature difference stays large all day. In B, the gap gets smaller as the house cools, and so does the rate of heat loss.
+
+I set the outdoor temperature to five degrees and give the hypothetical building a fixed heat-loss rate and thermal mass. At eight, both houses are twenty. In A, the heater spends the day replacing what escapes through the building.
+
+In B, I turn the target down. The house doesn't instantly jump to sixteen. After one hour it's still about eighteen and a half. After two, a little above seventeen. It only approaches sixteen around the third hour. Once it reaches that floor, the heater occasionally maintains it.
+
+At half past two, I restore the target to twenty. The heater works harder than it did during the setback. The room warms through the afternoon and reaches twenty before I return. The catch-up period is included in the eight-hour total. I haven't allowed B to win by leaving me shivering at four.
+
+Here is the model's result. A consumes 19.2 kilowatt-hours of delivered heat. B consumes 15.64. That's 3.56 less, about nineteen percent of A's heat for this particular eight-hour window. It is not a measured percentage reduction for a whole household's bill.
+
+The moment that changes how I see the result is the warm-up. A big burst of heat near the end can look expensive. Yet A has been paying a smaller bill continuously, every minute, for heat leaking out of an empty house. The meter measures energy over time, not how dramatic the heater sounds when it starts.
+
+I wanted to know whether the basic idea survives outside a spreadsheet. A controlled test in a full-sized research house at the University of Salford provides a useful, but different, comparison. The test chamber was held at five degrees, and the house had a gas boiler.
+
+The baseline schedule turned heating off between occupied periods. Keeping a sixteen-degree setback instead used 71.12 kilowatt-hours of gas and electricity over a day, compared with 69.10 in that baseline. Roughly three percent more cost, not less. So in that particular house, keeping it partly warm was not a free shortcut.
+
+Now for the complication that could change my choice. A gas boiler and a heat pump don't always reward the same schedule. Some heat pumps supply heat efficiently when running steadily, but a sudden demand to catch up can trigger resistance backup heating.
+
+In a second, deliberately simplified calculation, steady heat comes from a heat pump delivering three units of heat for one unit of electricity. Under that assumption, A would need 6.4 kilowatt-hours of electricity. If B could provide all its heat at that same efficiency, it would still win.
+
+But suppose two kilowatt-hours of B's delivered heat come from one-to-one electric backup during recovery. Then B needs about 6.55 kilowatt-hours of electricity, slightly more than A. I have not observed that backup turning on; it is a model showing why the equipment matters.
+
+My choice is conditional, not a universal thermostat command. For the modeled conventional system, B wins on heat used and still meets my return-home target. With a heat pump, I follow the equipment's setback settings and check whether backup heat is being called. Comfort and safety matter too, particularly when someone is actually home.
+
+A loud warm-up is not proof that I wasted the day's saving. The useful question is how much energy the whole schedule consumes, and whether the house is comfortable when I need it.
