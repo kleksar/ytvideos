@@ -1,3 +1,43 @@
+# CURRENT EDITORIAL REVIEW — 2026-11-26 · #39
+
+Baseline `0fd46d9eadb24e0eb6ab99ae96fa9d7ea73f3d9c`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). EDITORIAL_CANDIDATE_UNREGISTERED. Prior evidence below is historical for changed hashes. Writer judgments only.
+
+2026-11-26 revision: 02m removes the dangling relative-clause ending, adds the father's decision after the reported funeral advice and ends with Couney's hug followed by a complete sentence connecting to the opening. 10m replaces repetitive funding/credential exposition with the concrete cost and admission model, Hess's 1922 acknowledgement and 1934 reunion attendance, Lucille's age at return, and the AP-confirmed burial beside her twin; the parallel funeral detail opens and closes her story. 05m retained unchanged for comparison and recommended. No new production storyboard; root storyboard applies only to original root scripts.
+
+| Target | Full scripts | EN/RU words | EN SHA-256 | RU SHA-256 |
+|---|---|---:|---|---|
+| 02m Short | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 277/234 | `f3dbd7d9ecf6bfae1ad9aba809fabb1e4fff61db6318e5f3f0895e38226f5e53` | `7285816a5462ee14aa47bb275792687da40756a3b7ab0c8dd50c630ec0939007` |
+| 05m Long | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 566/482 | `e667ce7a90d1ed94f243f5a799c8bb872b0970383fe4ef32d219273079c5ba4f` | `8de72fa296dafb421576474fd4bdc258cafbcca4f26c596cc82733b370b68be0` |
+| 10m Long | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1253/1042 | `e5a192cbe66f7cbc59461125af0abb6b733a25daea1e4182c8bd68673e928bc3` | `6e8b97e6cb446fb9e5b6aa4940b0a436e539ed1839257a33a4f5399dfe75ee5d` |
+
+Estimated at assumed effective 115–150 EN wpm before 10s Long endscreen: 02m 1.8–2.4 min; 05m 3.8–4.9 min; 10m 8.4–10.9 min. Actual voice pace, pauses and timing UNVERIFIED. ChannelSpec supports short 9:16 and long 16:9; not three production runs.
+
+| Criterion | 02m revised | 05m retained | 10m revised |
+|---|---|---|---|
+| Interest | 8: infant-care paradox and family choice (medium) | 8: human dilemma plus financing (medium) | 8: personal and institutional stakes (medium) |
+| Opening | 8: concrete cold entry, setting follows (medium) | 8: three clear questions, slightly long preamble (medium) | 8: questions, setting and father crisis at paragraph 5–6 (medium) |
+| Development | 8: refusal, father's decision, care and return; compact (medium) | 8: financing/ethics leads back to Lucille (medium) | 8: cost, medical acknowledgement, disputed credentials and reunion add consequences; paras 9–13 still slow (medium) |
+| Payoff | 8: adult return and hug before replay (medium) | 9: adult survivor answers opening with no guarantee (medium) | 9: second father plus burial beside twin resolves initial funeral advice (medium) |
+| Freshness | 7: familiar historical subject, specific father angle (low) | 8: same mechanism and individual arc (medium) | 8: concrete longitudinal family outcome; not unique measured (medium) |
+| Visual | 8: ticket, bundled infant, taxi, adult beside glass (medium) | 8: same plus care and ethics (medium) | 8: Chicago return and cemetery coda; credentials visually less dynamic (medium) |
+| Natural speech | 8: full sentences, no dangling clause; last payment reminder risks redundancy (medium) | 8: natural concrete actions, some qualification exposition (medium) | 8: more concrete verbs and fewer abstract summaries; chronology switches require care (medium) |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+## Meaning-led spans / visual intent (paragraph ranges, not timed shots)
+- 02m P1–3 ticket booth and nursing; P4–6 family crisis and taxi; P7–8 care and grown Lucille; P9–11 adult beside another father, hug, ticket booth visual bridge. Root-only old storyboard invalid for variants.
+- 05m P1–3 questions and exhibit; P4–6 family and taxi; P7–9 nursing and ethical tension; P10–12 reunion; P13–14 closure and later life. Existing 05m hash retained.
+- 10m P1–4 questions, setting, care; P5–7 father and infant; P8–10 care economics and ethical tension; P11–13 Hess, credentials, Chicago families returning (distinct from Lucille); P14–17 care and Coney Island reunion/hug; P18–20 closure, life, burial beside twin. Use paper dioramas; separate locations and dates; no invented archival photos, exact dialogue or outcome of other infant. Paper traveler candidate in public fairground exterior, not in clinical scene; exact chosen scene after script decision. No generated visual asset or timing.
+
+## Hard checks / comparison
+- Author read all six full scripts and checked EN/RU actions, sources, caveats and ending. 02m full-text double-read: standalone payoff precedes the return; EN last full sentence about admission fee → cold opening explains visitors paying; RU same. No unfinished relative clause. Independent semantic review and AV seam UNVERIFIED. Existing root and 05m files untouched. Revised exact 02m/10m old review/timing invalid; root storyboard unchanged and root-only. New claims documented in shared research. No exact dialogue or fabricated result for second child.
+- 02→05 adds ethical tension and treatment economics without distracting from Lucille. 05→10 adds actual historical collaboration and a longitudinal personal resolution, not just facts about equipment. Risk of attention loss remains in P9–13 while the story moves to medical politics and another fair. Recommend 05m as most focused, with 10m an alternative with stronger final callback. No viewer data or timing evidence. No approval.
+- Git-visible comments do not show owner acceptance or active production for #39; external leases, canonical run/pins and independent session unavailable to verify in this host. No official gate or receipt. On authorized runtime, inspect existing run/lease first, preserve pins, attach exact variants, obtain genuine blind review and owner choice; storyboard only for selected master. No TTS, images, MP4, release or merge.
+- Next eligible backlog #62 (existing package second-pass; assess within safe scope), #43/#38 or new deficient Long; #47 duplicate blocker documented on its own PR and must not be revived without owner decision.
+
+---
+
+## Historical evidence (prior hashes, not current review)
+
 # CURRENT EDITORIAL REVIEW · 2026-11-19 · PR #39 · revised 02m
 
 This section supersedes *only* the historic assessment of the 02m variant below. The root EN/RU and 14-scene storyboard are preserved unchanged and now apply **only to that root source**, NOT to revised 02m. The 05m and 10m narratives and their earlier exact-hash assessments are unchanged. All assessments here are the **author's own editorial judgments, not independent reviews, measured demand, owner approval or runtime receipts**.

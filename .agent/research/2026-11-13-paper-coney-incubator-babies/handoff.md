@@ -1,3 +1,11 @@
+## Current revision — 2026-11-26
+
+2026-11-26 revision: 02m removes the dangling relative-clause ending, adds the father's decision after the reported funeral advice and ends with Couney's hug followed by a complete sentence connecting to the opening. 10m replaces repetitive funding/credential exposition with the concrete cost and admission model, Hess's 1922 acknowledgement and 1934 reunion attendance, Lucille's age at return, and the AP-confirmed burial beside her twin; the parallel funeral detail opens and closes her story. 05m retained unchanged for comparison and recommended. No new production storyboard; root storyboard applies only to original root scripts.
+
+Baseline `0fd46d9eadb24e0eb6ab99ae96fa9d7ea73f3d9c`. Full current texts and hashes: [story-review](story-review.md); [research](research.md). 02m/10m revised, 05m retained. Previous sections below are historical for changed hashes. Short opening remains the admission paradox, ending now a complete sentence after the adult encounter. 10m packaging promise is a child's survival and the price of care, not verified survival statistics; last scene is the twin's burial, not a generic summary. Current paragraph visual intent in review, no inherited timings. Root-only historical storyboard. No measured duration, independent review, official runtime, owner choice or media. EDITORIAL_CANDIDATE_UNREGISTERED.
+
+---
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
 
 # Handoff — only editorial hypothesis
