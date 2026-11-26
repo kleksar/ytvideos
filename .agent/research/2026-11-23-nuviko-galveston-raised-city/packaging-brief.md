@@ -1,0 +1,13 @@
+# Packaging brief — editorial only
+
+Bound to proposed 05m English SHA-256 `5c50e894572e87dcf6e31a523a24dfbbec2dc1cfd2d55c5f9c80e506a726bf94` and RU `a316911e797dcd3ee91878a194d060cadd075dfd91218eb4fd230a8a20a92d21`. No actual images, reference bytes, generated frames or thumbnail scores. Principle from canonical thumbnails: readable single relation between subject and unusual consequence; use concrete recognizable action instead of a generic facial expression. Historical reconstruction (photoreal world) not fake archive; 2D traveler only if actual approved reference PNGs can be opened and verified, not required for these concepts. No decorative overlays in scene sources. Nuviko profile, not Paper.
+
+| ID | Title | Thumbnail concept / optional text | First confirmation and final payoff | Misread to prevent |
+|---|---|---|---|---|
+| A (recommended) | The City That Raised Its Houses to Survive a Hurricane | A real early twentieth-century house on timber supports beside an elevated wooden walkway, street below; “RAISE THE CITY” optional if legible | Question “How do you raise a city without emptying it of people?”; occupied homes and fill under houses; 1915 test + ground under feet | Not every house raised, no city levitating, not a claim no deaths |
+| B | Why Ships Sailed Through Galveston | Temporary canal and historically grounded hopper dredge beside relocated houses; no text necessary | Second question, canal and drawbridge, then dredge fill; canal is filled and streets returned | Not ships sailing along a flooded street during hurricane |
+| C | Galveston's Second Hurricane: Did the New Defenses Work? | Seawall and raised town with Gulf beyond, historical subject; optional “1915” | Third question, 1900 loss and two-part defense; 1915 flood still occurred, losses lower | No visual implication that city remained dry or that all lives were saved |
+
+Audience: broad English historical engineering and disaster-history viewers; tone sober, no invented suffering. First visible event proposed: historically plausible occupied raised houses, then low island setting; archival exact details must be checked before prompts. No source footage, hero likeness, map assets or visual rights presumed. Three competing editorial promises, not native A/B result.
+
+Future Long: after full current ending, potential relevant follow-on is another verified Nuviko resilience story; no exact released target and intro clip verified here. Retain dependency, no invented bridge clip or fake clickable elements; native 10s endscreen only after owner selection and actual asset. Detailed storyboard/prompts and timing explicitly deferred until independent exact-text review. 
