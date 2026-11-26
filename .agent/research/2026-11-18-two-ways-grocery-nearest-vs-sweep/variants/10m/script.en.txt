@@ -1,0 +1,69 @@
+Why did I get almost all my groceries near the checkout, then walk back toward the entrance? And why did moving one item make the opposite shopping strategy win?
+
+I wanted a simple answer to a familiar question. When I'm holding a shopping list, should I walk to whichever product is closest, or work through the store in one direction? Both feel sensible. The trouble is that they are optimizing different things, and I won't know which one wins until I count the entire trip.
+
+I built a fictional store on a square grid. This is a simulation, not footage of a real supermarket. The entrance sits at the top left, at zero, zero. The checkout is ten columns to the right. The grid is six rows deep, and every line between adjacent squares is walkable. There are no solid shelf walls, crowds, or one-way aisles in this toy model. I can walk up, down, left, or right. Every move costs one unit. I cannot cut diagonally. Picking an item up takes no extra time, and I am measuring distance, not seconds.
+
+There are five things to buy. Bread is one column right and two rows down from the entrance. Coffee is at column two, row six. Oil is at column four, row three. Pasta is at column five on the top row. Eggs are at column eight on that same row. The checkout is at column ten, row zero.
+
+Why include the checkout? Because I don't stop shopping the instant I touch the last product. I still need to get out. A route that finishes far from the checkout can look cheap on paper until I add that final journey.
+
+Here's method A. At each location, I measure the grid distance to every uncollected item. I go to the closest. Then I repeat from my new location. I never change an earlier decision to improve the total. This is a nearest-next rule.
+
+Method B doesn't look as clever. I visit the items in order of their columns, from left to right, even if the next shelf is not the nearest one. I don't reverse my progress just because another item is closer. The same entrance, items, checkout, movement and scoring apply to both.
+
+Which would you choose before seeing a number?
+
+The first part is identical. Bread is three steps from the entrance. Coffee is eight steps away, and the other products are farther than bread. Both rules send me to bread.
+
+From bread, coffee is five steps away. Oil is four. A saves a step right there and goes to oil.
+
+From oil, pasta is another four steps; the eggs are farther away. A takes the pasta. From pasta, eggs are three steps away. Perfect: the basket is filling up, and I'm approaching checkout. The route so far is three plus four plus four plus three, just fourteen units.
+
+Then I glance at my list. I never picked up coffee.
+
+The coffee is at the bottom left. From the eggs it takes twelve units to reach it. From coffee to checkout, another fourteen. Those two final legs alone cost twenty-six. Add the earlier fourteen and I get forty.
+
+If I had stopped the stopwatch at the eggs, or left the checkout out of the calculation, I might have called A successful. But the promise was to complete the shopping trip, not to feel efficient in the middle.
+
+I reset the exact same map. B collects bread for three units, coffee for five, oil for five, pasta for four, eggs for three, then checkout for two. Three plus five plus five plus four plus three plus two is twenty-two.
+
+The left-to-right sweep wins this first comparison: twenty-two against forty. It saves eighteen distance units, or forty-five percent of A's travel. That's a large difference, but only inside this invented grid. These are not measured meters or real-world minutes.
+
+At first this seems to prove a rule I could use every time: begin near the entrance and clear the sections toward checkout. But one example can't prove that rule. What if the positions change?
+
+I reset the map again, moving only the oil. Originally it was at column four, row three. Now it sits at column six, row three. I haven't moved the entrance, checkout, coffee, bread, pasta, or eggs. I haven't changed either method's rules.
+
+This is a more revealing test than letting one method secretly choose a better route after seeing the result. The rules are frozen; the layout changes.
+
+With A, I collect bread in three units. Now coffee, five units away, is closer than the moved oil, which is farther to the right. So A picks up coffee immediately. From coffee to oil is seven. From oil to pasta is four. From pasta to eggs is three. From eggs to checkout is two. Three plus five plus seven plus four plus three plus two: twenty-four.
+
+Notice what changed in the story. The initial, apparently wasteful choice to travel deeper into the left-hand section means I don't need to come back later. The cart's path now naturally ends on the right.
+
+What happens to B? Its order is set by columns: bread, coffee, pasta, oil, eggs. After coffee, B goes nine units to pasta, then four to the moved oil, then five to eggs, and finally two to checkout. With the first three and five included, B totals twenty-eight.
+
+This time A wins by four. Before, B saved eighteen. Moving a single product turned the loser into the winner without changing its strategy. That's the payoff of the second map: the location of the items, not a universal slogan, determines the advantage.
+
+But I still want to know something else. Did either method find the *shortest possible* route, or did I merely compare two imperfect guesses?
+
+Because there are only five distinct items, I can check every possible order without pretending that a full-size store is easy to solve. Five items give five choices for the first stop, four for the second, then three, two, and one. Multiply those numbers and I get one hundred and twenty possible sequences. For each sequence, I add the distances between stops and the last leg to checkout.
+
+I enumerated all one hundred and twenty sequences on both maps. On the first layout, the shortest total is twenty-two units: bread, coffee, oil, pasta, eggs. That's the same as B. On the shifted layout, the shortest is twenty-four: bread, coffee, oil, pasta, eggs again. That's the same as A this time.
+
+So B is not simply being favored by my choice of comparison on the first map; it actually reaches the shortest length among all orders there. And on the second map A does. But that's evidence for these exact five-item grids, not a proof that either rule works best everywhere.
+
+There's a subtle point in those two optimum routes. The best *item order* happens to stay the same after moving the oil, even though the winning *rule* changes. The left-to-right rule no longer chooses that order because pasta is now left of oil. The nearest-next rule happens to choose it because coffee becomes the closer second stop. The same best route can emerge from different decisions as the map changes.
+
+This makes me question what I was really optimizing at the start. A tries to minimize a distance I can see immediately: from me to the next item. B uses a directional constraint, as though moving toward the exit always matters more than a small local saving. Neither rule actually asks, “What is the best full route from this entrance through all five stops to checkout?”
+
+In my tiny grid I could answer that with a complete search. With more items, the number of possible orders explodes. With six items I'd have seven hundred and twenty sequences. With ten items, over three million. Even that counts only the order of stops, not real obstacles or changing conditions. I'm not proposing that I calculate every supermarket permutation before buying milk.
+
+I can still use what the exercise taught me. Before I chase a nearby item, I should notice whether an awkward outlier is waiting behind me. Before I blindly sweep left to right, I should notice whether that order creates an unnecessary detour. And I should include the way to checkout, not just the last item, in my idea of a finished trip.
+
+The model has a long list of things it doesn't say. It doesn't show how long I spend finding a product, whether a queue blocks an aisle, whether frozen food belongs in the basket last, whether something is out of stock, or whether two people walking at different speeds would change the result. Real shelves aren't transparent lines on a grid. Some paths that look short in a drawing may not exist. I haven't collected measured store data, and I won't pretend these distances were observed in a shopping trip.
+
+I also shouldn't swap the goal after seeing a result. If my goal were the least time instead of least walking distance, waiting and checkout time would matter. If I wanted cold items last, I'd have another constraint. If I couldn't carry everything at once, I'd have a different problem. Those are possible future models, not hidden evidence that one method wins here.
+
+For the particular question I actually asked, both rounds have a complete answer. On the original map, left to right finishes in twenty-two units while nearest-next takes forty. Move the oil two columns and nearest-next takes twenty-four while left to right takes twenty-eight. All five products end up in the basket, and both routes end at the same checkout.
+
+I no longer trust the tempting little victory of finding the closest shelf. I want to see where the entire trip finishes. But of course, when I'm standing at the entrance with a list in my hand, the first question that comes to mind is still: which item is closest?
