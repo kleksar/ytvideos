@@ -1,0 +1,21 @@
+# Packaging brief — Paper Detour / Six Boys, Fifteen Months on ʻAta
+
+**Exactly reviewed editorial master proposal:** `variants/05m/script.en.txt` SHA256 `85d055f2036c515ff8dc745f7789ede01cc4f8b0d91937660b8a371b53dc8430`, full corresponding RU SHA256 `a91d676bed494c031cb44e7df51a85f920e13c8b6eadc3e31e1230f9297ba1b7`. **Five-minute narrative Long** (654 EN words, estimated 4m30–5m05 before actual recorded voice and fixed 10s Long endscreen). No independent review, approval or actual image/audio/film. Other versions have different openings and are NOT covered by this master brief.
+
+## Honest promise, opening, full payoff
+
+- **Audience:** international English-speaking curiosity audience; don't assume familiarity with Tonga, ʻAta, or a Western fiction novel.
+- **Suggested primary title:** **Six Boys Vanished at Sea. 15 Months Later, a Captain Found Them.** 
+- **Alternate A:** **They Survived 15 Months Alone. Then They Were Arrested.** Stronger legal twist but reveals it; actual arrest was *for taking a boat*, not a crime committed on the island.
+- **Alternate B:** **Six Boys Built a Life on a Deserted Island. Nobody Knew They Were Alive.** Human cooperation emphasis; less novel if viewers know the 2020/2026 story.
+- **Thumbnail copy** (paper letters required by Paper profile): **15 MONTHS MISSING**, or separate test **SIX STILL ALIVE**; not both stacked. No imaginary monster, military pursuit or fabricated shark attack.
+- **Main key visual**: six recognizable paper-built teenage figures around a protected small orange fire, rough paper palm-leaf shelter, a steep island silhouette and one small fishing vessel offshore. One complete multilayer physical paper diorama, visible paper fiber, edge thickness, cohesive real light; no photoreal live actors, vector flat shapes, unrelated paper frame, masked parallax or fabricated archive. Human proportions plausible.
+- **Exact 05m opening words:** “What happens when six teenagers set out to sea without a compass and disappear for more than a year?” Then “How did they stay alive, and why did their rescue not quite end the trouble?” Primary initial proof: boat without engine/map/compass, before storm destroys its rudder and sail; don't pretend audience starts on island.
+- **First major hook after compact context:** “Their plan lasted less than a night.” Next beat genuinely pays it off with broken steering and an eight-day drift.
+- **Early-to-late bridge:** stranded on rocks → finding food and former-settlement tools → shared fire shifts → broken leg → daily lookout → distant ship changes course. No generic darkness/lone survivor and no fictitious fights beyond reported arguments.
+- **Complete payoff:** Warner rescues all six, his radio confirms their families held funerals, then *the stolen boat* leads to jail; compensation enables release. End with specific shared tasks—fire duty, gardening, caring for an injured friend—not an unsupported universal scientific conclusion.
+- **Mood:** grounded resourcefulness, no romantic "savage children" contrast. Respect prior Tongan community forcibly displaced during slavery-era raids; not a castaway amusement park.
+- **Scene-only Paper plane Easter egg suggestion:** place a folded white paper plane on a non-historical small paper map **outside** the photographed 1965 scene, perhaps in a present-day desk/map explanation frame, explicitly channel mascot, **not** an object boys possessed. Before assigning shot, resolve actual approved `References/paper_plane_20261112/scene_sample.png` bytes and validate channel SHA256 `36dedf45786bcdfa54fd28c00179b1ea9335ec769d94066beaa0b94c797e933d`. No image or reference byte exists in this PR.
+- **Potential post-approval Long endscreen:** canonical 10s 300 frames with a verified *Public Paper Detour Long* and actual native YouTube elements; destination/introduction not fetched or approved, so `BLOCKED_NEXT_VIDEO_INPUT`. No fake card image/link.
+- **Rights:** Do not reuse actual 1966/1967 broadcast footage or 2026 documentary clips/photos without independently verified license. A screenshot of a clip in a paper-frame scene remains an image requiring rights, not a free exception.
+- **Scope:** three proposed titles, two thumbnail concepts, no rendered art, no guaranteed CTR; final metadata/thumbnail choice after actual review and script approval only.
