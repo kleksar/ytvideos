@@ -76,6 +76,12 @@ def parser():
     claim.add_argument("--session-id", help="Existing host binding for lease tracking; default CODEX_THREAD_ID")
     claim.add_argument("--lease-seconds", type=int, default=900)
     claim.add_argument("--estimated-units", type=int, default=0)
+    budget = sub.add_parser("amend-budget", help="Record an explicit owner decision changing a run budget")
+    budget.add_argument("--run", required=True)
+    budget.add_argument("--max-units", required=True, type=int)
+    budget.add_argument("--expected-version", required=True, type=int)
+    budget.add_argument("--source", required=True, help="Stable reference to the actual owner decision")
+    budget.add_argument("--message", required=True, help="Actual owner decision, including its scope")
     heartbeat = sub.add_parser("heartbeat")
     heartbeat.add_argument("--run", required=True)
     heartbeat.add_argument("--task", required=True)
@@ -213,6 +219,9 @@ def dispatch(service, args):
             args.output.parent.mkdir(parents=True, exist_ok=True)
             args.output.write_text(json.dumps(packet, ensure_ascii=False, indent=2) + "\n")
         return packet
+    if command == "amend-budget":
+        return service.amend_budget(args.run, max_units=args.max_units, expected_version=args.expected_version,
+                                    source=args.source, message=args.message)
     if command == "claim":
         from .session_guard import record_claim
         result = service.claim(args.run, args.task, args.worker, lease_seconds=args.lease_seconds,
