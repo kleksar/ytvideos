@@ -17,3 +17,8 @@ Thumbnail is not used to make unverified claims about all government systems. Pa
 ## 2026-11-17 variant scope notice
 
 All three earlier thumbnail options and S001/S014 references above were written for the **archived root Short/storyboard**. The new 02m and Long variants open with a land-office discovery while retrieving bank-loan paperwork, not a bank clerk announcing death. Before any approved packaging update, match selected exact master; do not depict a false bank-counter conversation or use the old scene numbering as a checked visual span. Preferred 05m promise: `He Was Declared Dead. It Took 18 Years to Undo.` (editorial concept only). No image generated or validated.
+
+
+## Current 2026-11-26 packaging alignment
+
+02m and 05m: paper land-register scene, not bank counter; loan papers at P1–3 (02m) / P1–4 (05m). Vanished folder in 02m P7 and 05m P15; official correction at P8/P16. 10m: named secondary cases in P15–16, restoration P36; design only, not validated frames. Paper traveler placement proposal: unobtrusive paper plane on the loan-office desk in early context; not a historical artifact or verified generated image. Keep the title promise “Declared Dead for 18 Years” limited to the land-record entry. No inherited storyboard spans or image assets for new hashes.

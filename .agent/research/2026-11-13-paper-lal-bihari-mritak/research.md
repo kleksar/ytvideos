@@ -75,3 +75,8 @@ New variants share the above original research. Additional lines and factual bou
 **Audience interest:** no comparable English YouTube baselines, stayed-to-watch, retention, CTR or platform demand measurements obtained for these new variants; `UNVERIFIED`. Source coverage and a Reddit thread are not proof of demand. The editorial hypothesis is that specific failed attempts and the human cost can sustain five minutes, while extended aftermath may dilute ten.
 
 **Preservation:** original research claims and shortlist retained above. No new editorial topic selected; all lengths are one Lal Bihari story.
+
+
+## 2026-11-26 reuse of verified evidence
+
+No new historical assertion introduced. Reuse Open Magazine 2009: business loss and May 1994 vanished file are Bihari's later account; 1988 V. P. Singh was not yet prime minister, 1989 Rajiv Gandhi was not a former prime minister at the time. 2009 Deepchand/Ram Lallak examples now explicitly dated, before returning to the 1980s narrative, with no implication they were encountered before 1994. Remove unverified causal assertion that the kidnapping hurt his campaign and detention-duration precision. The original source ledger remains intact. No new demand evidence.

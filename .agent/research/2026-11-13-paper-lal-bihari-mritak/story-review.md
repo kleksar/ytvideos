@@ -1,3 +1,39 @@
+# 2026-11-26 exact editorial revision — CURRENT
+
+EDITORIAL_CANDIDATE_UNREGISTERED. Main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`; #124 merged. Baseline PR HEAD `602fbaddbdc5a4fd1b14d989bf2cff770ba80703`. Original root and storyboard are historical, unchanged. Previous review below is archival; all three alternative pairs now have new hashes, so previous author checks and any old timing/reviewer evidence do not transfer. No independent reviewer or owner selection, no production authorization. Git discussion had no owner acceptance or open review threads; external run registry/leases not visible (UNVERIFIED), no changes to registered source/pins.
+
+| Duration | Complete pair | EN/RU words | EN SHA-256 | RU SHA-256 |
+|---|---|---:|---|---|
+| 02m Short | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 243/208 | `84a68a0ee000b4a7655a32703a824a3a8224d851c2446cf1096a2283e98f1afb` | `54f1f29856c0a8f289d47becd9d13e4d946beee8d1f5f6a7cd67eee38fd5e31f` |
+| 05m Long | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 555/474 | `10ff06d7ab7b3062212c30f9dc384c1beeab3f819aa5ef4620ef73a455d9656d` | `ef351c3d6796180d5e49fbaee8f0c04b674011d0912dbd3008623793b80f8dbc` |
+| 10m Long | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1217/1016 | `7ca87432450013b2da089f467ea9a4fe013f79ff4d7d6655558ddbd817292f59` | `2fcdab7b526952441b337e657c2628343367d61547c5cdd1a21f56dc21556038` |
+
+## Changes and exact paragraph maps
+
+- 02m P1–3: loan and death record, loss of livelihood (attributed); P4–6: failed pension, association and ballot contradiction; P7–8: attributed missing file and June correction; P9–10: campaign, award and complete payoff before a natural question returning to the loan. This replaces the list of failed tactics and unfinished last clause with a specific late reversal.
+- 05m: retain the strong earlier 1994 climax and opening questions; delete the duplicated election passage before the 1980 association, replace P14 (new index) with historically precise 1988/1989 opponents, remove unsupported mental-state transition, set the missing-file setup to May. P1–7 context/personal cost; P8–13 pension, association, misconduct and legislature; P14–17 election, missing file and correction; P18–19 consequences. No longer implies both opponents were former prime ministers at the time.
+- 10m: keep the common story and chronological core. P1–14 question, land register and association; P15–16 explicitly dated 2009 examples and explanation of why reversal is hard, returning to 1980s at P17; P17–31 failed attempts, legislative and electoral routes; P32–39 approach to June 1994, missing file and resolution; P40–44 aftermath, family paperwork, award, compensation and name. Other victims are now part of the argument before the climax, not a long postscript; film/2023 recap and meta-commentary removed. Remove unproven claim that the kidnapping harmed his own cause, and unneeded detention duration.
+
+## Eight criteria (author-only; confidence medium unless marked otherwise)
+| Criterion | 02m score & reason/weakness | 05m score & reason/weakness | 10m score & reason/weakness |
+|---|---|---|---|
+| Interest/significance | 8 — lost business and late missing file; limited family context | 8 — livelihood and institutions; misconduct can alienate | 8 — other victims show stakes; detour may divide attention |
+| Opening/promise | 8 — loan and death contradiction immediately; little place texture | 8 — clear questions and swift context; third question broad | 8 — questions followed by register context; opening abstract |
+| Development | 8 — attempted pension, ballot and missing file alter situation; short chronology compressed | 8 — no early duplicate election, one escalating chronology; middle police route slows | 8 — other victims explain stakes before climax; time jump P15–17 may interrupt |
+| Payoff | 8 — June order and subsequent advocacy before loop; award brief | 8 — missing file and restoration, association; final recap somewhat redundant | 8 — restoration plus compensation and retained name; quieter final beat |
+| Angle freshness | 7 — land record rather than universal legal death; known story | 7 — institutional mismatch; widely reported | 8 — Ram Lallak's reversal and Deepchand's share add a distinct lens; 2009 cases retrospective |
+| Visual expression | 8 — loan papers, pension, ballot, vanished folder; not actual frames | 8 — household/office, legislature and register; scene count not set | 8 — distinct document and people scenes; visual continuity across flashforward unverified |
+| Spoken clarity | 8 — complete question and concise action; fragment at opening is answer but cold context follows | 8 — direct verbs, corrected chronology; remaining institutional explanation | 8 — reduced archival coda; dates and land terms still demanding |
+| Verified audience demand | UNVERIFIED — no comparable metrics | UNVERIFIED — no comparable metrics | UNVERIFIED — no comparable metrics |
+
+**Recommendation 05m:** 02m now earns its late reversal without a catalogue of tactics; 05m adds family cost, association, the assembly and elections in sequence; 10m adds named, documented examples explaining institutional recurrence, but P15–17 asks a listener to jump from the 1980s to 2009 and back. It also adds a longer middle with police and legislative attempts; this costs attention compared with 05m. No measured retention, duration or CTR. Estimated only, at 120–150 words/min before channel conform; 05m may run shorter than target.
+
+**Hard checks:** no new factual claim beyond shared research; May 1994 file disappearance and business loss explicitly attributed; election years/opponents as in Open Magazine 2009, no unsupported precise discovery date. EN/RU paired by paragraph and claims. Two full author-only passes of the 02m: cold context identifies Bihari/loan/land official; first pass completes restoration and advocacy before the closing question; second starts with the specific purpose of the visit. Literal EN seam: “What had brought him to the land office in the first place?” → “A loan for his weaving business.” RU: “А зачем он вообще пришёл в земельную службу?” → “Кредит для ткацкого дела.” Text-only, independent and AV seam UNVERIFIED. Long opening questions/context/hook retained; no narrative loop required. Main Paper Detour ChannelSpec has short/long. Actual TTS duration, new storyboard, actual paper assets, independent bilingual/first-listener review, runtime context/pins and owner approval UNVERIFIED. No fabricated receipt. Use handoff to obtain real exact-hash reviews before any approval. Existing root storyboard only; no variant inherits spans. Next pending targeted candidate #62 (already has three variants; full substantive re-review not completed here), then #52.
+
+---
+
+# Archived earlier reviews (not current variant evidence)
+
 # Story review — Paper Detour / Lal Bihari
 Review method: original-author text-only checks **before** provisional storyboard. Independent host reviewer, independent bilingual check, real audio, images, MP4: **UNVERIFIED / unavailable**. Official ytv-script-review-v1: NOT_CREATED; not awaiting_script_approval. Exact proposed EN narration is `script.en.txt` (Git blob SHA must be read back after commit); RU in `script.ru.txt`.
 
