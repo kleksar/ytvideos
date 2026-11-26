@@ -1,6 +1,8 @@
-# Preliminary Nuviko History storyboard — Operation Coldfeet 1962 (02m original only)
+# Preliminary Nuviko History storyboard — Operation Coldfeet 1962 (historical original root only)
 
-**Exact master binding:** `variants/02m/script.en.txt` SHA-256 `e0551167b3785c082e0a16bd01b1c5d584075f07b9524ae04ec6918c9cd685a0`, `variants/02m/script.ru.txt` SHA-256 `8617b2c725ba33c35d0eb958a396da2c65a532e8989f9c734e7f0cbe0b76629b`. The unchanged root `script.en.txt` and `script.ru.txt` are byte-identical. **Every 14 EN and 14 RU paragraph spans was compared to the 14 scene rows on 2026-11-17 and matched exactly.** This validates exact paragraph text, not scene density or timing. The rewritten 05m/10m have *no* inherited storyboard; selected Long needs new scenes proportional to its exact sentence/semantic beats. A single 14-scene grid must not be stretched to a long version.
+**2026-11-26:** historical exact spans below refer to unchanged root `script.en.txt`/`script.ru.txt` at baseline `46b7e5f79343c3e604c9284f76e690827f893d92`, not the revised 02m candidate. New variant requires a fresh storyboard, actual scene boundaries and measured timings. No current variant inherits these spans.
+
+**Exact master binding:** original root `script.en.txt` SHA-256 `e0551167b3785c082e0a16bd01b1c5d584075f07b9524ae04ec6918c9cd685a0`, original root `script.ru.txt` SHA-256 `8617b2c725ba33c35d0eb958a396da2c65a532e8989f9c734e7f0cbe0b76629b`. At baseline the root and 02m were byte-identical. **Every 14 EN and 14 RU paragraph spans was compared to the 14 scene rows on 2026-11-17 and matched exactly.** This validates exact paragraph text, not scene density or timing. The rewritten 05m/10m have *no* inherited storyboard; selected Long needs new scenes proportional to its exact sentence/semantic beats. A single 14-scene grid must not be stretched to a long version.
 
 EDITORIAL_CANDIDATE_UNREGISTERED: NOT a production storyboard or measured timing plan.
 

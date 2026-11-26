@@ -1,5 +1,7 @@
 # Packaging brief — Operation Coldfeet / Nuviko History
 
+Baseline scene references below are historical only; current variants use the final section.
+
 Editorial-only English title and thumbnail hypotheses. No generated image, A/B experiment, paid review, CTR data or approval.
 
 1. **How a Bomber Picked Up Two Men Without Landing** — Russian gloss «Как бомбардировщик забрал двух человек, не приземляясь». Directly matches verified extraction of two men; strongest honest promise, proposed primary.
@@ -21,3 +23,6 @@ These remain **hypotheses**, not A/B or CTR evidence. Old S001–S014 visual seq
 - **10m Long alternative:** title hypothesis **The Arctic Mission That Took a Year to Reach—and Minutes to Escape**. The historical planning began in 1961; the three actual pickups were reported completed in roughly six and a half minutes (Leary p. 108). Avoid implying the men remained on the floe for one year. Thumbnail could contrast empty Soviet ice station with plane retrieval but needs a verified period reconstruction. The detailed history of Fulton's tests and two separate station failures adds length at the cost of early momentum.
 
 Exact voice timing, visual checks, source image rights, actual end-screen/native links and any planned next-video intro remain **UNVERIFIED**. No new master packaging is approved.
+
+## Current editorial packaging — 2026-11-26
+02m: moving floe and no landing are the opening promise; show the isolated ice station before the pickup. Payoff: bag and two men aboard, then the question of returning to a moving target. No old S001–S014 binding. 05m hypothesis unchanged. 10m: retain truthful no-landing rescue concept; new payoff is the 2008 painting and family disclosure. Do not claim painting is archival footage or invent family reactions. No actual images, timings, CTR or A/B evidence.

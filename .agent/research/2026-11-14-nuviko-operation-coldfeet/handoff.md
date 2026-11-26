@@ -1,6 +1,8 @@
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
-# Handoff — Operation Coldfeet (Nuviko History Short)
+# Handoff — Operation Coldfeet (Nuviko History)
+
+Historical transfer notes below describe baseline only. Current 2026-11-26 revision supersedes their variant bindings; see final section.
 
 - Channel: `nuviko_history`, **active** in current main ChannelSpec, distinct from musical `nuviko_videos`. English future TTS/SRT master, Russian for owner reading, illustrated narrative Short, mandatory textual loop.
 - Validated starting remote `main`: `cd749ac2559170bdbd761cb447683e1e88260556` tree `d167f3587e19071baad0412c2e408c2fd8be26b2`; **refresh main before local transfer**.
@@ -22,3 +24,6 @@ All three durations are complete on the **same** historical event with full [EN/
 **No production master selected/approved.** For a new authorized run on 05m Long: use the actual read-back HEAD and SHA-256 `a0c55b139ed6e95bfa47e020f1b4c6e35a84039105461c425a2d6ed32921a0d7` at `variants/05m/script.en.txt` and its paired RU. Begin with `uv run ytv status` for an existing run, otherwise use the documented `ytv start --channel nuviko_history --format long --intent 'Operation Coldfeet 1962'` **only upon real production direction**. Read live context, pins and task guides before actual `attach-artifact --kind script_variant` / `--kind story_review` and reviewer input preparation. Do not infer IDs or invent status. If a run is already pinned to Short, follow explicit [migration](../../../docs/migration.md) rather than treating the PR file as a compatible current-run artifact.
 
 Independence boundary: GitHub PR author read and research are NOT independent review, and no `sessions.independent` or other authorized fresh reviewer was available for this work. The exact EN/translation must be sent blind first (without authored scores/beat map), then sources after first reading; only a real response can populate existing reviewer schema. 05m/10m need their own meaning-based storyboard and visual prompts **after owner selects a master**; old 14-scene spans are 02m-only, with scene density not proven under current rules. No external providers, media or publication attempted.
+
+## Current handoff — 2026-11-26
+02m and 10m revised, 05m and root unchanged. Historical storyboard bound to original root only, not any revised variant. Current exact hashes, word counts and scene intents in [story-review](story-review.md). 05m recommendation and exact EN hash above remain unchanged. For a future selected Short use exact `variants/02m/script.en.txt` hash `ba5091107d3606b3eccbe7511461c44cb14fe21de1ffb11972d2c8903942258e` and paired RU, not root. For 10m Long use exact hash `d480ed2cdaaa90ffc39ba86527278f9094416b3ea50d15df84729054ad88f066`. No new runtime, independent reviewer, measurements or production; previous status/lease not accessible. Follow canonical context and explicit migration only when required. No authorization to produce any candidate.

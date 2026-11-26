@@ -1,5 +1,7 @@
 # Story review — Operation Coldfeet 1962
 
+**Historical sections below are baseline evidence, superseded for current variant hashes by the 2026-11-26 section at the end.**
+
 EDITORIAL_CANDIDATE_UNREGISTERED: author-only editorial self-check; no accepted independent ytv-script-review-v1.
 
 ## Focused seam correction — 2026-11-15
@@ -91,3 +93,32 @@ These are hashes of exact bytes, including the final newline. No old review/appr
 ### Reviewer transfer (no fabricated testimony)
 
 A fresh independent reader must get the exact selected EN text **without this table**, then its exact RU partner. For Short, provide two complete consecutive readings and a cold first line, ask for own account of the seam and first likely drop-off. After the blind first response provide historical sources and the original 02m for comparison. Store only an actual independent reviewer response in the existing `ytv-script-review-v1` schema; don't author or imply one here. No new review result exists. When chosen, register one master/variant and story-review with actual `attach-artifact` IDs after reading canonical run context/pins. Until then `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+
+## 2026-11-26 — current revision (supersedes previous variant assessments and bindings)
+Baseline exact PR HEAD `46b7e5f79343c3e604c9284f76e690827f893d92`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged 2026-11-16). Original root EN/RU and historical storyboard preserved byte-for-byte. No owner approval or active production indicated in GitHub PR body/discussion/threads. External runtime leases/other sessions cannot be inspected: UNVERIFIED. No active reviewer request or exact-head CI underway at baseline. Git-only candidates only.
+
+| Edition | EN SHA-256 | RU SHA-256 | EN/RU words |
+|---|---|---|---|
+| 02m | `ba5091107d3606b3eccbe7511461c44cb14fe21de1ffb11972d2c8903942258e` | `9df92e979b70ceb19766866c1c6446b4710c1ca26cd5d9a77aa02274cf1aec33` | 246/208 |
+| 05m | `a0c55b139ed6e95bfa47e020f1b4c6e35a84039105461c425a2d6ed32921a0d7` | `93520cf8394b539d6a842220ae84cf8988c9b81b2e1436f3ae649a7778e53088` | 595/487 |
+| 10m | `d480ed2cdaaa90ffc39ba86527278f9094416b3ea50d15df84729054ad88f066` | `e6e203ad84d87b9959dc82c666228d6f6485005cb9b518e31a05d68cb6777c5e` | 1102/873 |
+
+**02m**: new full version foregrounds the moving station and failed return searches, then cargo first, LeSchack's assisted preparation and Smith's solo predicament, then attributed intelligence outcome. Cold opening explains drift; closing asks why the aircraft could not simply return to its drop point. Read both complete texts twice in sequence; answer is already given before replay, cold entry understandable, literal last question is answered by the first sentence. Author text seam check only, independent and AV UNVERIFIED. The original root and its 14 spans remain historical, not valid for the new 9 paragraphs. Visual intent by paragraph: drifting floe/aircraft → two parachutists → collection → fog then search plane (separate shots) → cargo and two waiting men → LeSchack and separate hoist → Smith alone/tractor and crack → recovery/interior → both aboard and reprise moving floe. No inherited timings.
+
+**05m** unchanged, strongest density: opening questions, underwater research, failed search and changed target, retrieval system, fog, three pickups, attributed intelligence result. No new storyboard or review.
+
+**10m**: the mission proposer now has a role, engineering prehistory moves closer to the actual pickups, and the repeated search becomes a causal thread. The verified 2008 painting and family disclosure are a second human payoff, not a generic final summary. EN/RU corrected exposed photographic film (not necessarily developed). Story spans (paragraphs, not a storyboard): 1–5 questions/why/men/exit; 6–10 device and target/funding/CIA; 11–16 drop, collection, failed return and reacquisition; 17–24 conditions and three retrievals; 25 intelligence result; practical conclusion expressed in earlier actions; 26 family epilogue. Actual storyboard required after selection.
+
+| Criterion (author only, confidence medium unless noted) | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest | 8: moving target and rescue, espionage context remote | 8: human obstacles, indirect geopolitical stakes | 8: more mission history, still institutional |
+| Opening | 8: clear moving-site problem, no runway; outcome not disclosed | 8: precise questions then stakes | 8: questions then Soviet acoustic context, abstract second paragraph |
+| Development | 8: two lost searches, cargo, assisted vs solo recovery | 8: efficient causal chain; two sites cost attention | 8: proposer and failed searches anchor device, April chronology still dense |
+| Payoff | 8: both aboard and attributed research value; loop asks answered question | 8: practical and intelligence result | 9: completed mission plus family disclosure; epilogue may feel separate |
+| Freshness | 7: moving target vs mere trick (low confidence) | 7: navigation and recovery (low) | 8: secret work becomes family history (low) |
+| Visual potential | 8: fog/clear contrast and different physical actions | 8: maps and pickups | 8: painting/relatives and contrasting settings; no actual reference inspection |
+| Natural speech | 8: concrete actions, mechanism compressed | 8: clean prose, some formal terms | 8: less early mechanical exposition, some technical terms remain |
+| Confirmed demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+**Comparison/recommendation:** 02→05 adds why station sought, funding and target changes and fuller physical mechanism. 05→10 adds LeSchack's role, planning/failure sequence and family disclosure. The longest still risks losing attention in the April search and funding paragraphs 8–10 before the parachute drop. Recommend 05m provisionally; 02m a viable alternative, 10m a richer documentary but not necessarily stronger. No observed retention/CTR. Hard checks: complete payoff, author source trace (existing Leary plus DIA and CIA museum), EN/RU parity author checked; long loop N_A, questions/context/hook present; actual durations, independent reviewer, runtime/lease, owner approval, AV, artwork and new exact-hash storyboard UNVERIFIED. Prior review applies only to baseline hashes. Transfer selected exact bytes into actual canonical context/attach-artifact and independent blind review before one approval; no production.
