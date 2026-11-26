@@ -1,0 +1,15 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Local ytv handoff (not a production run)
+
+**Source remote main:** `131ef24068d75967b1e43aa88e5f1370f6775054`, #124 merged; current canonical main docs apply. Do not import proposed policy as separate unmerged revision, alter shared docs/channel status, overwrite someone else's pinned run or change accepted assets.
+
+**Verified inability:** isolated runtime attempt `uv run ytv start --channel two_ways_lab --format short --intent 'Сравнить сборку коробок одному и после обучения помощника'` cannot spawn `ytv` because executable/checked-out application missing: `Failed to spawn: ytv / No such file or directory`. Available GitHub connector can create a text-only Draft editorial PR, not a run. No independent new reviewer session capability observed. Therefore no `plan_summary`, `read_next`, task guide, pinned reference docs, lease, schema reviewer, script gate or owner approval exist. No fabricated execution receipts.
+
+**Exact recommended candidate** `variants/02m/script.en.txt` SHA-256 `2549bcb87693ad6672b4e74f3893aa6227ffd7c7ec49500bfdc9861854bbff18`, RU full companion `34d66e26cf072925ea8b1d70b49df75053bf230d0fd6d78ca4681470f8df5f85`. Other exact hashes in [story-review](story-review.md). 05m and 10m are **editorial-only Long proposals**; no resolved Long recipe in `channels/two_ways_lab/channel.json`. Recommendation is **not** approval.
+
+**To transfer locally after obtaining the authorized checkout:** follow repository setup and current `AGENTS.md`, execute `uv run ytv start --channel two_ways_lab --format short --intent 'Сравнить сборку коробок одному и после обучения помощника'`, inspect actual returned `plan_summary/read_next/task_guide/skill_file/requirement_files/reference_documents` and pin identities. Attach six exact local text files as script_variant supporting artifacts and `story-review.md` as story_review using actual `attach-artifact` CLI and returned IDs (not assumed here). Submit **unannotated exact narration first** to independent `ytv-script-review-v1` reviewer, require full first-read and **two complete Short passes** including EN and RU seam; then show research sources/strongest alternative. Preserve the reviewer's native schema response unchanged. Fresh hash after revision requires a fresh reviewer. Only a selected approved **one exact master** can proceed in ordinary runtime.
+
+**Remaining blockers/limits:** no independent reading, no actual 02m voice duration or AV seam, no verified native hero/environment reference bytes/rights, no fully supported Long recipe, no measured real lesson speeds/real-world validity, no relevant own-channel CTR/retention or 30–90d YouTube signals. The visual planning note `variants/02m/storyboard.md` is constrained to exact 02m hash and **not** a ready-to-generate scene pack.
+
+**Not attempted:** paid tools, vidIQ credits, TTS, imagegen, video generation, MP4, upload, scheduling, publishing, channel status edits, general docs/skills edits, merge or new issue.
