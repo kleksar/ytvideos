@@ -1,0 +1,29 @@
+What happens when a music company tries to protect a CD by changing the computer that plays it? And what if the tool meant to remove that protection makes the problem worse?
+
+In 2005, buying an album still often meant carrying home a plastic case and a silver disc. You put it into your computer, played the songs, perhaps copied them to a portable player. Sony BMG wanted to restrict that last step on some releases.
+
+On certain Windows computers, inserting one of those discs could start an installer. It looked like part of the music experience. Behind it was software with a much more ambitious job: controlling how the computer handled the disc.
+
+On October 31, security researcher Mark Russinovich published the results of a strange investigation. He had been checking his Windows system with a tool designed to expose hidden software. What it revealed led him back to a Sony BMG album.
+
+The protection system was called XCP. It did not simply refuse to make a copy. It installed components that concealed selected files and processes from ordinary Windows listings. This is the technique that gave the scandal its name: a rootkit.
+
+And the hiding rule was not limited to files that belonged to Sony. An unrelated program could give itself the right sort of name and benefit from the same concealment. Software meant to defend a record company's product had offered cover to other software on a customer's machine.
+
+How could a music CD do this? In Windows at the time, an enabled autorun feature could launch a program when a disc was inserted. The music and the installer arrived together. The machine did not need to be attacked through the internet.
+
+Sony BMG had also used a different protection package, MediaMax. Researchers at Princeton examined both systems. They found that MediaMax could install components before the customer accepted its license. Declining the agreement was not always enough to prevent the files from being left behind.
+
+These were two different pieces of software, with different failures. Confusing them makes the story simpler, but less revealing. One hid itself using a rootkit. The other showed how weak the supposed consent step could be.
+
+Now the company had another problem. People who did not want this code on their computers needed to remove it. Sony BMG provided removal methods, but security researchers found serious vulnerabilities in the uninstall tools as well. The repair itself could expose a computer to attack.
+
+That was the second reversal. First a purchased disc had installed a risky protection system. Then trying to take it off created a fresh risk. Consumers could not solve the situation just by deciding not to copy any music.
+
+After the findings became public, Sony BMG stopped producing affected XCP discs and recalled them. In January 2007, the US Federal Trade Commission announced a settlement addressing the company's practices, including clearer notice, consent, removal assistance and exchanges or remedies for qualifying buyers.
+
+The technical details matter because the incident was not simply a dispute about whether people should copy songs. It crossed a different line. Buying a physical album had become a way for someone else to put concealed, difficult-to-remove code on a personal computer.
+
+The CD was an ordinary object. The hidden software was not. And once the removal tool became part of the problem, the question was no longer who owned a copy of a song. It was who controlled the machine.
+
+For a while in 2005, that argument could begin with something as familiar as a silver disc in a plastic case.

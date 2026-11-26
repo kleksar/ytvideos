@@ -1,0 +1,15 @@
+What could a music CD do to your Windows computer in 2005? It could turn an ordinary album into a security problem.
+
+Sony BMG sold some discs with copy-protection software. On Windows computers with autorun enabled, putting one into the drive could launch an installer.
+
+Security researcher Mark Russinovich was checking his own computer with a tool for finding hidden software. Its results did not match the files Windows normally showed him. He traced the difference to a Sony BMG disc.
+
+The program was called XCP. It concealed selected files and running processes. Worse, its hiding rule could be borrowed by unrelated malicious software. A system built to protect songs had created a hiding place for something else.
+
+Researchers then examined MediaMax, a different protection package used on other Sony BMG discs. Some components could install before a customer accepted the license. Clicking Decline did not necessarily leave the computer unchanged.
+
+Getting the software off was another ordeal. The original XCP removal process involved online forms and delayed emails. Later removal tools for both packages used browser controls. Researchers found that a malicious website could exploit those controls to run code. Some controls could remain even after the protection was removed.
+
+Sony BMG recalled affected XCP discs. In January 2007, the US Federal Trade Commission announced a proposed settlement requiring clearer disclosures, permission for installation and remedies for qualifying buyers. This was a settlement, not a criminal conviction.
+
+The problem wasn't whether somebody copied a song. Simply playing a purchased album could bring unwanted software into a personal computer. By the time the discs were recalled, there was a new question worth asking before putting another album in the drive.
