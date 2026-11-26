@@ -1,0 +1,65 @@
+The next time a message appears while I'm working, should I answer immediately or make it wait? I want a straight answer, because I have a familiar problem: one important task, several people trying to reach me, and a day that doesn't stretch when I need it to.
+
+I'm going to build two versions of that day. They will have exactly the same work, messages, and starting clock. Nothing will be sped up for the method I prefer. This is a simplified model, not a recording of a real workplace experiment. If one of its assumptions doesn't fit your life, I'll show what changes when we remove it.
+
+I sit down at time zero. My task requires sixty minutes of actual work. Four ordinary messages arrive, at minutes ten, twenty, thirty-five and fifty. Each takes two minutes to read and answer. When I stop working to reply, I allow another three minutes to get back into the task. I chose that number for the model; I haven't measured anyone's recovery time. The task doesn't move forward during either the answer or the return.
+
+Two methods. A: I respond as soon as each message arrives. B: I finish the sixty minutes of work first, then process the messages in arrival order. I judge the methods by when both the work and the four replies are complete. That's the metric, and it comes before either result.
+
+First, I live through A.
+
+At minute ten, I have ten minutes of useful work behind me. The first alert appears. I stop and answer; now it's minute twelve. I spend the next three minutes getting back to where I was. At minute fifteen, I'm finally working again.
+
+That sounds small, until the second message arrives at twenty. I have completed only five more minutes of my task. I answer to twenty-two, return to my work at twenty-five, and keep going.
+
+At minute thirty-five, the third message arrives. I have twenty-five minutes of real task progress, even though thirty-five minutes have passed. I reply to thirty-seven, settle back in by forty and return to my work.
+
+At fifty, the fourth arrives. Two minutes for the reply, three to settle again. At fifty-five, the notifications are finished. But I've only completed thirty-five of the sixty minutes that the original job requires.
+
+So I keep working for twenty-five more minutes. The job finally finishes at minute eighty. Every sender got a fast answer. I didn't finish the job on time relative to its uninterrupted sixty-minute target.
+
+Now I rewind the same day and try B. I make the message screen quiet and work from zero to sixty. There's no hidden improvement in my speed. I just don't interrupt the work in this model.
+
+At sixty, I have a finished task and a queue of four messages. I reply to the first from sixty to sixty-two, the second until sixty-four, the third until sixty-six and the fourth until sixty-eight. At sixty-eight, everything is done.
+
+A finished everything at eighty. B finished at sixty-eight. A used sixty minutes of task work, eight answering, and twelve returning. B used the same sixty and eight, with no returns. The difference is exactly twelve minutes. No software magic. No claim that every real notification steals three minutes.
+
+If I only tell you that number, it looks like an easy win for B. But I want to look at the person who sent the very first message.
+
+That message arrived at minute ten. Under A, I replied by twelve. Under B, I replied by sixty-two. The sender waited fifty-two minutes instead of two. I haven't deleted that wait; I've moved it away from my calendar and onto theirs.
+
+Now imagine the first message is a request to confirm a meeting before minute twenty-five. I'm not adding a catastrophe or pretending this actually happened. I'm changing a single stated requirement in the model. Four messages still arrive at the same times, and the work still takes an hour. But one reply now has a firm latest time.
+
+A meets the deadline, because the reply goes out at twelve. B fails it, because the reply goes out at sixty-two. So if my rules include that deadline as a requirement, method B is infeasible. Finishing everything twelve minutes faster does not cancel the missed confirmation.
+
+That is the first big change in the story. The quickest final clock is not automatically the best result. My declared goal was total completion time. The deadline adds a constraint I can't hide inside an average.
+
+Maybe you're thinking: couldn't I just look at the first message and decide whether it is urgent? Yes, in real life that could be sensible. But then I'm using a third, hybrid policy: some messages interrupt and others wait. It is not the B policy I just tested. I shouldn't claim its outcome without defining and calculating that new rule too.
+
+What if none of the messages has a deadline? I can restore the original test and ask how sensitive the result is to my three-minute assumption.
+
+First, suppose I switch back to work instantly. No extra recovery time. The four replies still cost eight minutes. Under A, all sixty minutes of work and all eight minutes of messages finish at minute sixty-eight. Under B, they also finish at minute sixty-eight. There is no total-time advantage to batching in this version of the model.
+
+B does still finish the main task at minute sixty. A's task finishes at minute sixty-eight, because even without a recovery penalty the eight minutes of replies sit between pieces of the task. So which number matters depends on what I need finished first: the task itself, every obligation, or someone's answer. Those are different finish lines.
+
+Now I put the return cost back, but raise it to six minutes. Four interruptions add twenty-four minutes instead of twelve. A finishes everything at minute ninety-two. B stays at sixty-eight. I didn't discover a new fact about concentration. I simply doubled a model parameter, and the saving doubled with it.
+
+This also shows how I can check the arithmetic without guessing at a winner. If every interruption happens while the task is active and no arrival overlaps a reply, the completion time for immediate answers is sixty minutes of work, plus four times two minutes of replies, plus four times the return cost. Batch answers are sixty plus eight, with no return penalty. Their difference is four times the return cost. For return costs of zero, three and six minutes, that gives zero, twelve and twenty-four minutes.
+
+Those formulas need their conditions. If messages arrive after the task is finished, or two arrive while I'm already answering one, the event order changes. I'd have to simulate those new arrival times instead of reusing the same four-penalty calculation. The numbers only belong to this schedule.
+
+What if I receive just one ordinary message, at minute ten? With a three-minute return cost, A works for ten, answers for two, reorients for three, then completes the remaining fifty minutes. Everything ends at minute sixty-five. B works to sixty and answers by sixty-two. The gap is only three minutes. It wasn't the word "batching" that created the original twelve-minute gap. It was four separate returns.
+
+What if I receive no messages? Both methods are simply one hour of work. There is nothing to batch. So when somebody claims a certain setting will save me a fixed amount every day, I'd need to know how many messages actually arrive, how long they take, and whether they cause a costly switch for me.
+
+There's another trap here: finishing everything early is not the same as feeling less stressed. A research study that observed workers' email habits found relationships among message patterns, perceived productivity and stress, but did not establish that batching lowers stress for everyone. Another workplace study found that the value of batching varied with the volume of email and whether quick replies were expected. And a separate randomized test of switching off phone notifications did not find a general boost in productivity. Those are different populations and outcomes; none is a measurement of my imaginary twelve-minute saving.
+
+That mix of evidence is useful because it stops me from turning a drawing into a life rule. My illustration can prove its own arithmetic. It cannot prove that my brain, your team, or someone's phone behaves exactly like these equations.
+
+If I were making a real decision, I'd first ask what kind of messages these are. Is anyone relying on a response before a known time? What can safely wait? Do my own interruptions actually slow the task, or am I already stopping every few minutes on my own? Those questions change the inputs, not the arithmetic.
+
+For this one imaginary hour, I now have an honest answer. With four non-urgent messages and a three-minute return cost, I finish everything at sixty-eight by batching, rather than eighty by replying immediately. The advantage is twelve minutes. But if the first message needs an answer by twenty-five, the same faster method misses a real requirement and A is the valid choice.
+
+So the lesson I take isn't "ignore everybody" or "always respond". It's that two people can look at the same clock and mean different things by "faster". I have to choose the finish line and the response deadline before I can name a winner.
+
+And when I sit down to work again, the first decision waiting for me is:
