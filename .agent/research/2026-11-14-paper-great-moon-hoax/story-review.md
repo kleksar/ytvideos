@@ -6,9 +6,9 @@ Baseline `3fd027f8e83fb75f0bce6225c11f20dd5a80f667`, canonical main `7c779c4b2fd
 
 | Variant | Full EN and SHA-256 | Full RU and SHA-256 | Words | Paired paragraphs |
 |---|---|---|---:|---:|
-| 02m | [EN](variants/02m/script.en.txt) `aa35b67c551e9601d9e3855670e4da3d4444b747783ac0c3ab503ef3b5dad85e` | [RU](variants/02m/script.ru.txt) `b41db963ddd0bb8b9b0858d81cfef104a8c2121baa5b1fd31e002661ebc249da` | 244/216 | 11/11 |
+| 02m | [EN](variants/02m/script.en.txt) `16e978c7293189cd3964cf3f2ddb11f8ae649dfe94201613246833922ec03c0c` | [RU](variants/02m/script.ru.txt) `38dc4bcbe5bd3406a7320fafd93b41a6efc4644afcebef80e917029b74e34e27` | 243/218 | 11/11 |
 | 05m | [EN](variants/05m/script.en.txt) `298bfc7cfc4658a7c12a4b78f36b11e765d9d7f37d502484bc5c76e2bae352ad` | [RU](variants/05m/script.ru.txt) `6780ea2439bfb9a72f773e1e6a4538af6ac1fc00345a06a48d1e13533bf9f2c3` | 627/556 | 19/19 |
-| 10m | [EN](variants/10m/script.en.txt) `401505b40893e43da2cee2f8132c7774a61991524450dbfffa0f41b37a03b22c` | [RU](variants/10m/script.ru.txt) `1356b207b45d6fab2e0508e6af1381debf8667c546a286f39dfb50daa7505d89` | 1222/1007 | 36/36 |
+| 10m | [EN](variants/10m/script.en.txt) `7697f09f2aa070ab0e48fca2a61e0b2d2dc4dec5241db4b310d15b825a547d42` | [RU](variants/10m/script.ru.txt) `1356b207b45d6fab2e0508e6af1381debf8667c546a286f39dfb50daa7505d89` | 1222/1007 | 36/36 |
 
 Estimate only at 120–150 spoken EN words/min: 02m 1.6–2.0 minutes; 05m 4.2–5.2 minutes; 10m 8.1–10.2 minutes. No measured audio, visual timings or retention.
 

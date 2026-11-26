@@ -6,7 +6,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED — Git-only материалы, не офиц�
 
 | Длительность | Full EN | Full RU | Words EN/RU | Статус |
 |---|---|---|---:|---|
-| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 244/216 | Revised Short |
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 243/218 | Revised Short |
 | 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 627/556 | **Recommended Long, byte-identical** |
 | 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1222/1007 | Revised Long |
 
