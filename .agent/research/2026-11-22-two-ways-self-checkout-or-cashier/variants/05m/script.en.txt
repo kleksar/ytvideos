@@ -1,0 +1,35 @@
+I stop at the supermarket checkout with eighteen ordinary groceries. The self-checkout line is almost empty. The cashier has a longer queue. The obvious move is to take the shorter line, right?
+
+Before I choose, I want to know what “faster” means. Not how fast the first barcode beeps. I mean the entire time from joining a line to completing payment, with my groceries packed. And I want both methods to handle exactly the same basket.
+
+I can't claim I've measured a real shop. So I build a small illustrated model. On the left is A, a staffed register. On the right is B, a self-checkout. Neither has a different basket, special coupon, age-restricted product, or surprise fault. Those things might happen outside this model, but I won't sneak them into the comparison.
+
+Here are the assumptions, chosen before I see the result. For A, my queue lasts eighty seconds; once I reach the cashier, each item takes three seconds to scan and bag. For B, the queue lasts twenty seconds, while I take seven seconds to scan and bag each item. Payment costs fifteen seconds at either register. This is a simplified timing model, not a study of how fast employees or customers actually work.
+
+Which would I pick? The machine starts with a full minute's advantage. I put my imaginary basket on the B side.
+
+Then I notice the missing part of my guess. I'm not choosing a queue. I'm choosing a queue plus all the work that happens after it.
+
+I reset the scene and calculate A first. I stand in line for eighty seconds. Eighteen items, three seconds each, add fifty-four. Payment adds fifteen. The total is one hundred forty-nine seconds: two minutes twenty-nine.
+
+Now B. The almost-empty line costs only twenty seconds. But eighteen products at seven seconds each cost one hundred twenty-six. Payment adds the same fifteen. That is one hundred sixty-one seconds: two minutes forty-one.
+
+I chose the line that looked fastest and lost twelve seconds. Nothing malfunctioned. Nobody cut in. The difference was already inside the rules: a shorter wait followed by slower handling of the same goods.
+
+Does that make the cashier better? Not so fast. I replace the basket with six ordinary items and reset both lanes. This is a second modeled scenario, not a claim that the first basket magically shrank.
+
+At A, the queue is still eighty seconds. Six items take eighteen, payment fifteen: one hundred thirteen total. At B, the wait is twenty, six items take forty-two, payment fifteen: seventy-seven. Now self-checkout wins by thirty-six seconds.
+
+There is a point where the choice flips. A always spends sixty seconds more waiting. B spends four seconds more per item. Four seconds on fifteen items makes sixty seconds. With exactly fifteen items, both methods take one hundred forty seconds. Fewer than fifteen favors B. More favors A.
+
+That's a useful threshold, but only for these assumed numbers. A store can have two people ahead of me who each have one item, or a single trolley piled high. Queue length is not measured queue time. And if I need an attendant to unlock the self-checkout, even a six-item basket can lose its advantage.
+
+For example, add a modeled forty-five-second assistance delay to that six-item B trip. It becomes one hundred twenty-two seconds. The unchanged staffed route is one hundred thirteen. One interruption reverses that second result. I'm not claiming such a delay is typical; I'm showing exactly how big a disturbance matters.
+
+What if the cashier queue changes instead? With eighteen items and no machine interruption, the cashier's handling and payment take sixty-nine seconds. The machine's full trip takes one hundred sixty-one. If the staffed wait reaches ninety-two seconds, the lanes tie. One second more and the machine wins. So the real decision isn't whether self-checkout is good or bad. It's how long I'll wait, how much I must handle, and what could interrupt me.
+
+Published comparisons have found that self-checkout transactions can take longer even for smaller baskets; other observations show that shorter self-checkout queues can offset slower handling. Those studies do not validate my three- and seven-second assumptions. They explain why I should count both parts instead of trusting the line at a glance.
+
+For this exact eighteen-item model, I take A and leave twelve seconds sooner. For six items without a delay, I take B. And for an actual supermarket, I'd look at the basket, the waiting time, and whether the machine needs help before choosing.
+
+On my next visit, there's the same tempting sight: an almost-empty self-checkout line.

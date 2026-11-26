@@ -1,0 +1,17 @@
+The self-checkout line is almost empty. The cashier has a queue. I have eighteen groceries. Which line gets me out first?
+
+I'm not filming a real store. This is a transparent timing model: the same eighteen ordinary barcode items, the same payment method, and two possible lanes. I reset the clock for each choice.
+
+At the staffed lane, the modeled wait is eighty seconds. At self-checkout, just twenty. That sixty-second head start looks unbeatable. I'd probably pick the machine.
+
+But the line is only the first part of checkout. My model allows three seconds per item with a cashier, including the bagging step, and seven when I scan and bag each item myself. Both lanes then need fifteen seconds for payment. Those are chosen assumptions, not measured store speeds.
+
+First I follow the cashier route. Eighty seconds waiting. Eighteen items at three seconds each: fifty-four more. Fifteen to pay. Total: one hundred forty-nine seconds.
+
+Now I replay the same basket at the machine. Twenty seconds waiting, one hundred twenty-six scanning and bagging, fifteen paying. Total: one hundred sixty-one seconds.
+
+The almost-empty line loses. The cashier gets me out twelve seconds earlier.
+
+But a different basket changes the answer. With just six items, the machine takes seventy-seven seconds, while the cashier takes one hundred thirteen. At fifteen items, they're tied in this model.
+
+So I can't pick a winner by counting people in line. I have to count the work still ahead. On my next shopping trip, I roll the basket toward the registers and look up.
