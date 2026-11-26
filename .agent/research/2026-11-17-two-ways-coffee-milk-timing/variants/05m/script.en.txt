@@ -1,0 +1,35 @@
+I'm looking at two cups of coffee, and the colder one is the cup I leave alone for longer. That sounds backwards, so I'm going to give both cups the same rules and find out exactly what changes.
+
+My problem is simple. I've poured coffee that's too hot to drink, and I have ten minutes before I want it. I also want a little cold milk. Do I add it immediately, to bring the temperature down, or keep it in the fridge and add it when the timer ends?
+
+I call those choices A and B. Before seeing the answer, I'd probably choose A. A splash of fridge-cold milk cools coffee right away. That part is true. But it doesn't tell me the temperature ten minutes later.
+
+This is an illustrated calculation, not footage of a kitchen experiment. I start with coffee at ninety degrees Celsius and milk at five. The milk is fifteen percent of the final drink by mass. The room stays at twenty. And to keep the arithmetic readable, both cups follow the same effective Newton cooling time constant of twenty minutes. That's an assumption, not a measured property of two mugs.
+
+In A, I pour in the milk now. The mixed starting temperature is seventy-seven point two five degrees. A lot cooler already.
+
+In B, I keep the milk in the fridge. The coffee stays at ninety and begins losing heat to the twenty-degree room. So A looks like it's ahead. If I checked the mugs right now, it would be.
+
+But heat doesn't leave a hot drink at a fixed number of degrees every minute. In this model it depends on the gap between the drink and the room. When that gap is large, heat leaves quickly. When the coffee gets closer to room temperature, the rate slows.
+
+That means B, the cup I didn't cool with milk, has more heat to shed during the wait.
+
+Let's let the ten-minute timer run. A, with its milk already mixed in, ends at approximately fifty-four point seven degrees.
+
+B's black coffee ends the wait at around sixty-two point five. That's still noticeably hotter than A, which is exactly what the first few minutes suggested. But B hasn't received its milk yet. I pour in the same cold amount, mix it, and the temperature falls to fifty-three point eight.
+
+Now compare the finished drinks. A: fifty-four point seven. B: fifty-three point eight. B wins the cooling contest by about nine tenths of a degree.
+
+The important moment is the last pour, not the difference halfway through. If I stopped the comparison just before adding B's milk, I'd declare the wrong winner.
+
+Why does that happen? With A, I cool the coffee early and reduce the difference between drink and room. With B, the hotter coffee gives up more heat to the room during the wait, and then the milk cools it again at the end. The ordering matters because heat loss happens between the two actions.
+
+Now I want to test the idea, not just celebrate a number. Suppose I have only two minutes. Under these same assumptions, A and B end about two tenths of a degree apart. After five minutes, about half a degree. At ten, about nine tenths. The longer wait makes the timing effect more visible in this model.
+
+Here's another change. I leave the milk out until it reaches room temperature. When the milk is twenty degrees, the two paths give the same final temperature in the equal-time-constant model. The trick relied on the milk being colder than the room.
+
+And here's the most useful reversal. The coffee isn't always too hot. Some mornings I want it to stay warm until I can drink it. In that case I haven't changed either cup or either timing. I've changed the question. The slightly hotter A is now the winner.
+
+There is a reason I'm careful about saying “in this model.” Real coffee evaporates. Milk changes the volume and can alter how the surface loses heat. The mug stores heat, and a lid changes the cooling rate. Those details don't disappear because my graph looks neat. Classroom experiments and published physics work have examined this puzzle, but their actual temperatures are not my invented mugs' temperatures.
+
+So I get a usable rule, not a magic one-degree guarantee. If my goal is the coolest drink after a wait, keeping cold milk until the end can help. If I'm trying to preserve warmth, adding it earlier can help. The final choice is about what I want when the timer rings, not what feels coldest at the first pour.
