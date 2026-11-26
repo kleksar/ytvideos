@@ -1,3 +1,19 @@
+# Yellow Fleet — editorial revision 2026-11-26 (author only)
+
+EDITORIAL_CANDIDATE_UNREGISTERED. Baseline `77ec678963e20c32c3a38b848a24946da236563b`; current canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). Previous review and original root scripts/storyboard retained as historical evidence only. 05m pair unchanged byte-for-byte. New 02m and 10m hashes invalidate prior review for those variants. No runtime, independent reviewer, owner approval, measured duration, or production.
+
+| Target | EN | RU | EN/RU words | SHA-256 EN | SHA-256 RU |
+|---|---|---|---:|---|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 248/221 | `0e4d24e7675b1e2f5d65578b9f7a38d2468a51f65c0a34a945b7ffa848830953` | `e4246a2506fa95f377477a6f486181870686100780653d4a1e8e136fe8801e64` |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 698/567 | `64656c3c80154448d8b99d6e161960947b13c2d8d3647c864c334efa0043dc80` | `7b34e32eee08bacab1f7b5d2ab044ec48bbccfb55be138ef7bb13043b89ea5ca` |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1451/1196 | `08b29c56bebc12467f69fd29510d378bac28ee5b5e567a3cac161a431f3a378d` | `d33153145f097327f876de48c379970515870ff161daac975ecd0bf2f8351505` |
+
+**Current recommendation remains 05m Long** (unchanged pair). Import only a selected exact master through actual runtime and existing gates. The 02m and 10m prior review is invalidated; the old root storyboard is root-only. New paragraph maps in story-review are editorial intent, not final storyboard. External leases and persisted runs not visible in connector; local coordinator must inspect existing store before any registration, preserve pins and request fresh independent reviewer. No media or owner approval.
+
+---
+
+## Historical handoff at baseline
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
 
 # Portable handoff — Yellow Fleet r1

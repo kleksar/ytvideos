@@ -1,3 +1,46 @@
+# Yellow Fleet — editorial revision 2026-11-26 (author only)
+
+EDITORIAL_CANDIDATE_UNREGISTERED. Baseline `77ec678963e20c32c3a38b848a24946da236563b`; current canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). Previous review and original root scripts/storyboard retained as historical evidence only. 05m pair unchanged byte-for-byte. New 02m and 10m hashes invalidate prior review for those variants. No runtime, independent reviewer, owner approval, measured duration, or production.
+
+| Target | EN | RU | EN/RU words | SHA-256 EN | SHA-256 RU |
+|---|---|---|---:|---|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 248/221 | `0e4d24e7675b1e2f5d65578b9f7a38d2468a51f65c0a34a945b7ffa848830953` | `e4246a2506fa95f377477a6f486181870686100780653d4a1e8e136fe8801e64` |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 698/567 | `64656c3c80154448d8b99d6e161960947b13c2d8d3647c864c334efa0043dc80` | `7b34e32eee08bacab1f7b5d2ab044ec48bbccfb55be138ef7bb13043b89ea5ca` |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1451/1196 | `08b29c56bebc12467f69fd29510d378bac28ee5b5e567a3cac161a431f3a378d` | `d33153145f097327f876de48c379970515870ff161daac975ecd0bf2f8351505` |
+
+## Before → after, maps and evidence
+
+02m: replaced unfinished colon and activity inventory with a concrete football net, maintenance rotation, named medal-holder and grouped-ship consequence. P1 football/net → P2 blockade → P3 sand/time → P4 maintenance → P5 association → P6 keepsake → P7 reduced crews and 1973 loss → P8 powered/towed exits → P9 transition to changed deck. Visual intent: period deck, anchored convoy, dust, maintenance, association, medal, grouped freighters, two departures, return to same football deck. No combat imagery in sport. These are editorial spans (one paragraph per beat, not final image count).
+
+05m: keep full original P1–15: questions → ordinary voyage → trap → delay → maintenance → relief → association → football → Carstens → post → grouped crews → 1973 loss → clearance → departures → community contrast. No new script hash; previous author evidence retained, not new independent approval. Visual intent remains separate; no inherited storyboard.
+
+10m: P1–4 questions/ordinary passage/trap; P5–6 Richmond and accumulating delay; P7–10 maintenance, shared needs, association and blocs; P11–16 Katzler introduced, football, improvised equipment, 1968 games/medal, mail; P17–19 Katzler's delayed arrival and handover, cargo sharing and crew grouping, departure while ship remains; P20–24 renewed conflict, constraint, clearance, obsolescence and powered return; P25–26 witness of Hamburg arrival and Katzler's later reciprocal visits. Visual intent: distinct harbor and deck contexts, small craft, medal, letters, grouped hulls, handover, cargo stores, departure and separate later land reunion; don't imply Katzler captained the homecoming. P17–19 replace generic exposition; P25–27 replaced by specific human outcome. Existing Y1–Y12 plus new Y13 (captain interview, research). No new attack operational details. No new scene count or production storyboard.
+
+## Author comparison (1–10; confidence medium for text, medium for sourced recollection, low for viewer prediction)
+
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest / significance | 8 — startling deck use and eight-year reversal | 8 — community and cost | 8 — captain inherits a stationary ship; still a familiar historical theme |
+| Opening / promise | 8 — concrete net and deck | 8 — six days versus eight years | 8 — questions introduce captain and why only two return; trap P3 |
+| Causal development | 8 — rotating crew → shared needs → grouping → exit | 8 — maintenance, association and later loss | 8 — concrete 1969 handover improves middle; P12–16 still a cluster of recreation/mail |
+| Payoff / consequences | 8 — powered versus towed exit before loop | 9 — compact contrast of ships and community | 9 — captain leaves before ship, later friendship returns in final scene |
+| Angle freshness | 7 — documented football image | 7 — rotation and community | 8 — firsthand captain and later reunion rather than list of facilities |
+| Visual expressiveness | 8 — net, medal, grouped ships | 8 — ships, sport, letters and departure | 9 — handover, shared cargo, arrival and land reunion; more complex visual continuity |
+| Spoken naturalness | 8 — direct action; ending's transition still slightly explicit | 8 — P9–10 is a list risk | 8 — P13–16 still slower; named people require clear pronunciation |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+02→05 adds the concrete formation decision, postal link, clearance and economic context; 05→10 now adds a captain's personal sequence and post-blockade friendship rather than repeated conclusion. Recommend 05m for general audience: faster path from association to renewed danger; 10m P12–16 remains a potential attention dip, but is now a distinct long-form alternative. Recommendation is not approval. Word counts estimate speech only, no measured timing; exact voice and endscreen excluded.
+
+## Hard checks
+
+- 02m full EN and RU read twice in sequence as text by author. Exact EN seam: “Just look at what happened to one of those ships. A cargo ship in the Suez Canal had become a football ground.” RU: «Посмотрите, что стало с одним из этих судов. Грузовое судно в Суэцком канале превратилось в футбольное поле.» The final transition asks for an example of changed deck use; opening supplies it and cold entry stands alone. Full outcome already given in P8; no colon/withheld answer. Author textual check only; independent loop and AV UNVERIFIED.
+- 05m/10m documentary questions → immersion → trap at P3, loop N_A. All pairs compared semantically; no invented quotations. Source recollection is explicitly attributed where relevant; not a verified firsthand recording.
+- Exact historic root and 13 original spans untouched, invalid for every variant. All fresh paragraph maps above are not final storyboard or timings. ChannelSpec supports both formats; actual runtime/pins/leases, independent review and owner approval UNVERIFIED. No official reviewer schema result created. No media. Transfer via documented attach-artifact with exact bytes and canonical context, then fresh independent reviewer and one selected master.
+
+---
+
+## Historical review at baseline (not current for changed hashes)
+
 # Yellow Fleet — three-version editorial review (r2, author only)
 
 **State:** EDITORIAL_CANDIDATE_UNREGISTERED. This is an author desk evaluation of exact texts, not a fresh independent first-listener assessment, not `ytv-script-review-v1`, not `awaiting_script_approval`, and not owner approval. Historical r1 review is preserved below solely for the unchanged ROOT Short; the revised 02m has a new SHA-256 and invalidates the original storyboard. Baseline: PR #50 at `d3c6c2add8cc0dfde82632af868b6d597d29fb32`. Full texts linked in [README](README.md); shared evidence in [research](research.md).

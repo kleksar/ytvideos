@@ -1,3 +1,9 @@
+# Current text-only packaging amendment — 2026-11-26
+
+02m: football pitch on cargo deck with net; P1 immediate proof, P8 two powered exits, P9→P1 textual return. 05m retained: six-day war / eight-year blockage, P3 proof, P14 outcome. 10m: same eight-year premise; P3 trap, P17 captain handover, P24 two powered exits, P26 later friendship. No fabricated war-zone sports action or misleading depiction of Katzler commanding the return. Current title hypotheses and all media/CTR remain unapproved and UNVERIFIED.
+
+---
+
 # Packaging hypotheses r1 — only text, not approved image assets
 
 English Nuviko History narrative Short, tone: curious, human and mildly absurd rather than combat sensationalism.

@@ -100,3 +100,8 @@ The source matrix Y1–Y7 and the original topic selection above are retained. T
 
 
 **r3 fact correction (2026-11-17):** The root archival script's sentence that all other 12 ships were towed conflicts with the IMarEST account (Y8) of one ship, `African Glen`, sunk during 1973 fighting. Revised 02m, 05m and 10m narration restricts towing to surviving freighters. The 02m opening was also altered to say football happened aboard a ship *trapped by war*, not amidst active June 1967 gunfire. Independent review and new scene mapping are pending.
+
+
+## Y13 — second-pass evidence, 2026-11-26
+
+- Magdolin Harmina, interview with Jürgen Katzler, 28 May 2020, https://magazin.zenith.me/de/gesellschaft/die-gelbe-flotte-aegypten (lines 24–26, 45–56, 65–68, 95–97, 115–117, 141–149 in retrieved text). First-person account: ten-day Cairo delay, short handover in June 1969, cargo eggs shared, later grouping of Münsterland, December departure, later visits with French captain. Witthöft describes return aboard Nordwind and people on riverbanks. Paraphrased, no dialogue, no exact crowd count or claim Katzler captained return. The football nets are confirmed by Katzler; do not depict a game in an actual battle. Rechecked IMarEST 14 May 2021 (Y1, Y8–9, Y12): association on Melampus, grouped crews, loss of African Glen in 1973 and two powered departures. No new causal diagnosis for every vessel.
