@@ -1,0 +1,67 @@
+{
+  "kind": "reported_CFD_endpoint_comparison_not_new_simulation",
+  "source": "https://www.sil3x.fr/articles/simulation-thermique-aeraulique-cfd-appartement",
+  "observed": "2026-11-26",
+  "room_m": [
+    8,
+    3.5,
+    3
+  ],
+  "window_m": [
+    1.4,
+    1.4
+  ],
+  "outdoor_C": 22,
+  "initial_model_C_approx": 30,
+  "facade_flow_m_s_approx": 0.9,
+  "fan_diameter_m": 0.3,
+  "duration_s": 3600,
+  "metric": "volume-average indoor air temperature C after 3600s, lower is better",
+  "A": {
+    "position_m": [
+      1,
+      2.5,
+      2.45
+    ],
+    "direction": "outward",
+    "final_C": 24.43
+  },
+  "B": {
+    "position_m": [
+      5,
+      2.5,
+      2.45
+    ],
+    "direction": "outward",
+    "final_C": 26.07
+  },
+  "control": {
+    "final_C": 26.68,
+    "at_15min_C": 26.9,
+    "at_30min_C": 26.72,
+    "bottom_window_final_C": 26.42,
+    "top_room_final_C": 27.5
+  },
+  "near_lower": {
+    "position_m": [
+      1,
+      2.5,
+      1.75
+    ],
+    "final_C": 24.85
+  },
+  "derived_C": {
+    "B_minus_A": 1.64,
+    "control_minus_A": 2.25,
+    "control_minus_B": 0.61,
+    "near_lower_minus_A": 0.42
+  },
+  "arithmetic": "subtract published rounded endpoints; no reconstructed flow field",
+  "limits": [
+    "No inward mode",
+    "No tracer/air age",
+    "No independent physical test or mesh convergence",
+    "No universal optimum",
+    "Different first available readings at 10 s; do not use as equal baseline"
+  ]
+}
