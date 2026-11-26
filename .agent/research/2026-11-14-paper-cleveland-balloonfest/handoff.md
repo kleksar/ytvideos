@@ -1,3 +1,7 @@
+# Current handoff 2026-11-26
+EDITORIAL_CANDIDATE_UNREGISTERED. Current scripts in variants/02m, 05m, 10m. Recommended 05m Long, not approval. Root master and original storyboard are historical only; revised 02m requires new exact spans and eventual measured timing. 05m unchanged; 10m revised. Exact hashes and new paragraph maps in [story-review](story-review.md); shared evidence in [research](research.md). Current main supports Short and Long. Transfer via trusted canonical checkout, recorded context/claim, attach-artifact --kind script_variant for each exact script and --kind story_review for comparison, independent fresh reviewer on exact selected text and owner approval. Do not migrate existing pins by checkout. No runtime store/independent session available here; external active sessions not observable; no approval marker in PR comments or review threads. No media/ref bytes, TTS, actual AV loop, measured timing or production. Next #66 after fresh state/approval checks.
+
+## Historical handoff (prior hashes only)
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 # Handoff — Paper Detour / Cleveland Balloonfest '86

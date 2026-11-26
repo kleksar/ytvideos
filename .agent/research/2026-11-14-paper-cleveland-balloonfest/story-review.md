@@ -1,3 +1,41 @@
+# Current editorial revision — 2026-11-26
+EDITORIAL_CANDIDATE_UNREGISTERED. Canonical main 7c779c4b2fd379c85166ae1b164fa53d1ea08843 (#124 and #117 merged). Baseline 4a6c3b6ebb0581b57427a96c9f25401795b7f1fc; preserved original root master, original storyboard and 05m exact bytes. No approval/production marker in PR #67 discussion/review threads; external Codex/runtime activity not observable. No claim of independent review.
+
+## Exact complete texts and identities
+| Duration | Full texts | EN/RU words | EN SHA-256 | RU SHA-256 |
+|---|---|---:|---|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 252/206 | `438261c92c98c9ff1a7cafcf45f3b3e34cf6a9db30207612a0afb91d4617eb7d` | `f10612f6ede0704d1d1e088a574f65ab06887826d6be418bf5363383688e0b30` |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 598/486 | `4a320891ff850b1fb3e4c2e2302ee57e6cfe7270326f8c88597fcd19ec516b3f` | `be030b32e1f7132bc94fc590a46b8957341609cedb481cf6b518fafd970b5ae9` |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1220/1014 | `199bf310dfcc9262b972be26a9f35ed6035e952fa513e365d4e280416840db38` | `635915a689f054740b1a55916bcdde2f6e2112f1f3ab89d53351e10420582c59` |
+
+Estimated narration at effective 120–145 English words/minute (not measured, variable pauses, Long +10s end screen): 02m 1.7–2.1 min, 05m 4.3–5.2 min, 10m 8.6–10.3 min. Paper short/long supported; no format/profile changes.
+
+## Story maps and visual intent (paragraph spans, not timed scenes)
+02m P1–2 record/Fraser invitation; P3–4 net and early release; P5–6 reversal/road witness; P7–8 already active search and explicit causal limit; P9–10 Canada/count; P11 direct question answered by P1. Portrait paper dioramas: net and skyline → forecast → streets and lake → record count; proposed paper plane near a roof railing in P4, outside narration. All new exact span identities above; original S001–S014 INVALID for new 02m.
+05m P1–3 questions/Fraser/Heining; P4–6 factory, early release; P7–9 road and search; P10–12 downstream consequences and payoff. Unchanged. 16:9, distinct visual compositions with net, forecast, tower, road, lake; plane near tower rooftop P6. No storyboard or measured timings.
+10m P1–3 three questions and location/irreversible release stakes; P4–7 reduced target and net, night repair; P8–10 Jones and Johnson viewpoints, decision; P11–13 two viewpoints converge then reverse; P14–16 airport dispute and search without death causation; P17–18 settlements/Canada; P19–22 actual record, Fraser's second picture and reported retirement of category. 16:9, plane near restaurant window in P11 (not spoken); distinct rooftop/helicopter, road, floating debris, two newspaper-image objects, no real victim depiction. Paper reference bytes absent. No scene count or timings inherited.
+
+## Eight editorial dimensions (author scores, confidence medium unless noted)
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest/significance | 8 — specific record then rescue stakes | 8 — decision under approaching weather | 8 — parallel witness trajectories and durable aftermath |
+| Opening/promise | 8 — concrete event immediately | 8 — two questions clear | 8 — three specific questions, photographer payoff promised |
+| Development | 8 — family witness replaces horse list | 8 — compressed cause/decision chain | 8 — repair and forecast build to dual-view release, P4–7 still dense |
+| Payoff | 8 — exact count and direct answer loop | 8 — success versus dispersal | 9 — photographer lands, Fraser's later newspaper, reported category ending |
+| Fresh angle | 7 — human witness, no inflated causality | 7 — organizers' decision | 8 — same spectacle viewed from window and helicopter then road, two photographs |
+| Visual expressiveness | 8 — paper tower/road/lake | 9 — factory and reversal | 9 — separate vantage points, newspaper motif; visual scores are hypotheses |
+| Natural speech | 8 — short active actions, full closure | 8 — direct transitions; explanatory closing | 8 — concrete witness actions; P14 caveat slows pace |
+| Verified audience interest | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+02→05: Fraser/Heining planning and forecast chain deepen why organizers chose the launch; short best for velocity, but compressed decision rationale. 05→10: new value is parallel eyewitness journeys, repaired net as prior warning, newspaper reaction and reported record-category ending. P4–7 still takes time before release, P14 airport qualification briefly interrupts. Recommend **05m** for causal density; 10m now offers a distinct documentary perspective rather than merely the same consequences. 02m is viable short alternative. Recommendation not approval.
+
+## Hard checks
+- Author read full EN/RU pairs and two consecutive complete copies of 02m: payoff is already given in P10. End “So how did all those balloons end up on Lake Erie in the first place?” → opening “A Cleveland charity released almost one and a half million helium balloons just ahead of a storm.” RU “Так откуда вообще взялось столько шаров на озере Эри?” → “Благотворительная организация в Кливленде выпустила почти полтора миллиона гелиевых шаров прямо перед непогодой.” Direct answer; cold opening stands alone; no unfinished conjunction. Author text seam only, independent/actual AV UNVERIFIED.
+- EN/RU matched paragraph count and numbers/causal qualifications. The fishermen disappeared before release; search obstruction does not demonstrate death causation. Settlements and category retirement attributed secondary; airport closure disputed. See shared research update. No actual listening, visual references, TTS, runtime registration or independent review. New hashes invalidate all earlier observations for changed variants; unchanged 05m observations remain authorial only. No fake receipts.
+- Transfer via canonical start/claim and supported artifact entry (see handoff), one selected exact master, fresh blind reviewer then owner approval; no production authorized.
+
+## Historical evidence (prior hashes only; superseded for current variants)
+
 # Editorial self-review — Cleveland Balloonfest 1986
 EDITORIAL_CANDIDATE_UNREGISTERED: no official ytv script gate; independent review UNVERIFIED.
 
