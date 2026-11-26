@@ -1,0 +1,25 @@
+EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+
+# Handoff — Paper Detour, English illustrated Short
+
+Original checked remote main: `5d3222c8888c775d2195c8b2949949f2d992e98d` (tree `e92a9c5b9ee656aa1448f34264b217ca1d0cbe98`), generated from exact verified main; chapter/source revision 2026-11-14. This directory only contains editorial text. Research includes YouTube source URLs/dates and counter-signals, claims/evidence/uncertainty, and alternate pitches. EN is the future master; RU is owner review translation. Not yet an official run.
+
+**Absent capability:** this host has no checked-out private ytvideos working tree with a functioning `uv run ytv start` runtime packet and cannot produce actual `plan_summary/read_next/task_guide/pinned reference_documents`. There is also no independent `sessions.independent` reviewer available to this writing context. Hence no run ID, lease, actual receipt, approval, verified voice duration, AV seam or official stage transition. Do not silently transplant this PR into `awaiting_script_approval`.
+
+**Local transfer:** in a trusted checkout of the current repository, first inspect `AGENTS.md` and `.agents/skills/ytv-start/SKILL.md`, then execute `uv run ytv start --channel paper_detour --format short --intent 'Evaluate imported editorial candidate: sitcom alibi and phone records'`; read real returned `plan_summary`, `read_next`, `task_guide` and pinned references. Copy the exact `script.en.txt` and `script.ru.txt` and supported research as a new version into that run through the documented `ytv` contract; do not invent artifact IDs or unsupported command flags. Run genuine independent `ytv-script-review-v1` on exact registered EN hash with a complete repeated-text first-listener pass; store its original response verbatim. Obtain explicit owner script approval before any production. Preview loops and timing based on generated TTS; later verify full MP4, not prior text review.
+
+**Scope preserved:** no merge, video production, TTS, image generation, rendering, upload, publication, channel status change or paid provider budget. Requirements from newer main must be reread at import. Prior revisions: one source version; no prior timing/reviewer approval exists. Paper airplane brand element is **outside** spoken narration and must follow current channel recipe only after approval. Actual source/reference image bytes have not been downloaded or represented as verified.
+
+
+## Editorial variants added — 2026-11-16 (not production migration)
+
+Three exact, standalone candidate narrations exist at `variants/02m/`, `variants/05m/`, `variants/10m/` (EN master and full semantic RU each). The 02m files are byte-for-byte identical to the original `script.en.txt` and `script.ru.txt`; all old image/scene spans are tied ONLY to those original exact bytes, **not** to either Long. Five and ten minutes are Long even though 02m may be Short. Current checked ChannelSpec supports both formats; no Long run or receipt has been created.
+
+See [story-review](story-review.md#queue-revision--three-completed-versions-of-the-same-juan-catalan-story-2026-11-16) for six SHA-256, individual checks, story maps and a **non-binding** 05m recommendation. [Shared research](research.md#additional-claims-and-uncertainties-for-the-05m-and-10m-versions--2026-11-16) provides source locations for extension-only statements. Do not misinterpret legacy proof of a 02m text loop as an AV seam proof.
+
+At trusted local import choose precisely ONE owner-approved version: run canonical `ytv start` or resume actual existing run, inspect `plan_summary/read_next/task_guide` and its real pins, attach supporting `script_variant` and `story_review` via the documented API, preserve returned artifact IDs, and get a real independent first-listener receipt for the chosen EN hash before the ordinary script gate. No runtime/lease/approval/reviewer capability was available through this GitHub-only edit. Existing pinned run revisions cannot be silently replaced by this PR. No new storyboard until the exact selected version is confirmed.
+
+
+## 2026-11-19 exact-05m update (editorial only)
+
+Revised candidate: [full EN](variants/05m/script.en.txt) SHA-256 `b9f7352365d0e60e42222af1671d5fbf56ca22841aa9d41ef12d5e808693084d` / [полный RU](variants/05m/script.ru.txt) SHA-256 `7344dd1066290751aee455296bcdfdf06463fd51c62eabf80e1ecbd68e265a8e`. 685 EN / 557 RU words. The earlier 05m exact hash, author checks and any prospective scene timings are **superseded**, not transferable. The 02m original master and 10m variant remain exactly as before, with no promotion to production. Key revised constraint: attorney's later report of Juan dropping a cousin near the murder area is an attributed retrospective account, not a verified judicial finding, and a stadium-area call is not GPS. New 05m must be presented blind to a genuinely independent reviewer (fresh exact hash) after canonical runtime import, along with separate factual/bilingual review. Do not use source footage without rights or reuse the 16-shot Short storyboard for the Long. No run/lease/reviewer/approval or MP4 created.
