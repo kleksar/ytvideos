@@ -1,4 +1,4 @@
-> **Exact-version constraint (editorial revision 2026-11-17):** These fourteen provisional scene narration spans match **only the unmodified original 02m**: EN SHA-256 `cca5ed87ac7c3242f1ffc9f51ac5f77e35640a1fa10f09a0c39aacee1ce8ea02`, RU SHA-256 `90bee66fa4ab173ca5f4bdb2794aa9fe5ae1ba32b7d786dde713d93787a38f1f`. The 05m and 10m scripts have no assigned scene count, prompts, timings or accepted visuals. Their storyboard must follow the chosen exact text and material changes; do not reuse these spans.
+> **Exact-version constraint (editorial revision 2026-11-17):** These fourteen provisional scene narration spans match **only the preserved historical root script.en.txt and script.ru.txt (baseline 02m)**: EN SHA-256 `cca5ed87ac7c3242f1ffc9f51ac5f77e35640a1fa10f09a0c39aacee1ce8ea02`, RU SHA-256 `90bee66fa4ab173ca5f4bdb2794aa9fe5ae1ba32b7d786dde713d93787a38f1f`. The revised 02m, 05m and 10m scripts have no assigned scene count, prompts, timings or accepted visuals. Their storyboard must follow the chosen exact text and material changes; do not reuse these spans.
 
 # Preliminary storyboard: 14 bilingual text-only scenes
 

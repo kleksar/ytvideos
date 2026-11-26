@@ -1,3 +1,8 @@
+## Current alignment — 2026-11-26
+
+02m: school-ad price ticket, check and complete announced-miles payoff before the last question; historical scene labels below are not current. 05m recommended: check/price ticket, no claim of cash transfer; 10m same case plus actual legal comparison. No created assets. Current paragraph maps in story-review. Silent paper-plane candidate near order desk; actual scene assignment follows selected narration. Long requires three concepts after selection. Historical packaging follows.
+
+---
 # Packaging brief — no created assets
 
 **Promise and audience:** an English-speaking general viewer sees a military aircraft carrying the same promotional price grammar as soda reward merch; verified early S001 shows 7M price and S004 explains real 10¢ rule. Full payoff = no contractual jet, 2026 Frontier **airline miles** reward.

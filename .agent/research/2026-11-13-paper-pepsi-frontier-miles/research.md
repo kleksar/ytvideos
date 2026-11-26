@@ -66,3 +66,9 @@ The base research and its comparison of ten themes remain unchanged. Only additi
 | Leonard initially reluctant, then agreed; travel with family useful; admits cannot fly/maintain fighter; 2026 advertisement with civilian jet | People interview Feb 5 2026 https://people.com/man-redeem-7m-soda-points-for-jet-in-2026-super-bowl-ad-sort-of-exclusive-11899862 | His own reported experience, not universal flight guarantee or Pepsi apology |
 
 **Audience interest:** Netflix 2022 documentary and Frontier February 2026 campaign establish cultural visibility, **not** independent evidence of likely YouTube Long retention/CTR. No verified comparable cohort, licensed media or narrator timing. Disclose as UNVERIFIED. This editorial update uses the public primary court record; nothing confidential was transmitted to external search.
+
+
+## Second-pass source verification 2026-11-26
+
+- District opinion, https://law.justia.com/cases/federal/district-courts/FSupp2/88/116/2579076/ , I.A–B: cockpit opens, initial points collection attempt, check drawn on first counsel's account, accompanying letter, coupons and Pepsi's first suit. III.B.1: 1957 Lefkowitz precedent and distinction (catalog; customer's order is offer); III.C.4: subsequent ad changes, no dates inferred. No actual aircraft transfer or bank audit claimed.
+- People interview 2026-02-05 https://people.com/man-redeem-7m-soda-points-for-jet-in-2026-super-bowl-ad-sort-of-exclusive-11899862 : initially declined Frontier, later agreed, children/family travel, inability to fly/maintain jet. Frontier same-day release https://news.flyfrontier.com/a-big-game-moment-comes-full-circle-as-john-leonard-finally-gets-redemption--30-years-after-he-collected-enough-reward-points-for-a-jet/ announces miles, not independent balance confirmation. Historical original opening and loop descriptions above are not the revised text.
