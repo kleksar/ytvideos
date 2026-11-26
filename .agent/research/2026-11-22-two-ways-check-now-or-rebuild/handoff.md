@@ -1,0 +1,18 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Handoff — Two Ways Lab, check now or rebuild
+- Git source remote main: **131ef24068d75967b1e43aa88e5f1370f6775054**. PR #124 merged so current canonical main editorial/writer skill are used. Next slot after new Nuviko Draft PR #364.
+- Six full EN and RU narration texts in variants/02m, variants/05m, variants/10m, one research file, one per-variant eight-criteria story review, and a packaging brief. Exact hashes in story-review.md.
+- Recommended EN 02m hash **c1512f87b799c57089b48c8d0e120f96ed093af232f1f2491472159be4c00036**; alternative versions are not three separate stories or production runs. Not owner-selected master.
+- **Actual runtime blocker:** local command uv run ytv start --channel two_ways_lab --format short --intent 'Редакционная очередь: найти и подготовить три версии одной сильной истории' failed with Failed to spawn: ytv; No such file or directory. Therefore no persistent run, plan_summary, read_next, task_guide or pinned reference_documents. Independent reviewer capability unavailable, so no completed script gate or independent receipt; all independent checks UNVERIFIED.
+- **Format blockers:** current Two Ways ChannelSpec long canvas=null and fps=null; 5/10min scripts are editorial Long proposals, not enabled production. 2m Short above channel typical 35–50-second target; actual duration not recorded. No fictional Long run.
+- **Transfer path:** work from actual runtime repo with uv run ytv start --channel two_ways_lab --format short --intent 'review registered Two Ways editorial candidate', read its true plan and pins, register variants with attach-artifact --kind script_variant and story-review with --kind story_review using real source paths, perform independent first-listener review of the exact chosen text blind to author scores/maps; only then present one exact master to owner. Never create receipts or force unsupported transition.
+- No changed common docs, skills, profiles, status, original episodes, existing PRs, runtime pins, schedules, TTS, image/video providers, MP4, upload or publication.
+
+## Follow-up 2026-11-23 · same original PR #365
+
+**Before:** head `fc683216ce899c8111afa6d427501588e144cc4b`, original 10m EN/RU hashes in archived story-review. **After:** current 10m scripts EN `156c0e2c9d99e4f7d06846884cc0c2debb2663b1e1ff503211a0a76052590867`, RU `85423fe24df840c13f8e78d9033a7c86ac4d1dd1bd3ee752862078e454760cc8`. Both are full standalone first-person scripts of the *same shelf/inspection model*; the unchanged exact 02m and 05m are still intact. See README comparison and research section for new t=2 arithmetic.
+
+New verified author-only insight: stage-five error, under t=1, A37/B38; with checks including final/repair doubled to t=2, A44/B40. The original 10m hypothetical p=1/3 discussion is retained as research but removed from narration. Recommended **02m Short**, despite the additional analytical value of 10m; recommendation is not approval or a third gate. New 10m timing, independent blind-first reviewer, English/Russian listener check, runtime registration and any live performance metrics are UNVERIFIED. Two Ways Long format remains BLOCKED by unchanged ChannelSpec. No scenes/storyboard attached to new hash.
+
+Next: give exact texts, without author's diagnosis/score, to a genuinely independent reader and obtain a real receipt when reviewer capability is available. For actual production, load the real repository/runtime and follow official pinned context; do not use Git-only editorial checkout as a pinned run or fabricate approvals. No media or provider actions were performed in this revision.
