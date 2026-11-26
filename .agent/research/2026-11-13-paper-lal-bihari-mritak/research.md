@@ -80,3 +80,5 @@ New variants share the above original research. Additional lines and factual bou
 ## 2026-11-26 reuse of verified evidence
 
 No new historical assertion introduced. Reuse Open Magazine 2009: business loss and May 1994 vanished file are Bihari's later account; 1988 V. P. Singh was not yet prime minister, 1989 Rajiv Gandhi was not a former prime minister at the time. 2009 Deepchand/Ram Lallak examples now explicitly dated, before returning to the 1980s narrative, with no implication they were encountered before 1994. Remove unverified causal assertion that the kidnapping hurt his campaign and detention-duration precision. The original source ledger remains intact. No new demand evidence.
+
+Final precision check: 02m locates the event in northern India without inventing the physical position of the register; 05m opening refers to the attempted police report, not a completed police investigation. No additional event or claim.

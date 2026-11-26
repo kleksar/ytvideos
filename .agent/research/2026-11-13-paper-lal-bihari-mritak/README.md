@@ -4,8 +4,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED. Baseline 602fbaddbdc5a4fd1b14d989bf2cff770ba80
 
 | Target | Texts | EN/RU words | EN SHA-256 | RU SHA-256 |
 |---|---|---:|---|---|
-| 02m Short | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 243/208 | `84a68a0ee000b4a7655a32703a824a3a8224d851c2446cf1096a2283e98f1afb` | `54f1f29856c0a8f289d47becd9d13e4d946beee8d1f5f6a7cd67eee38fd5e31f` |
-| 05m Long | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 555/474 | `10ff06d7ab7b3062212c30f9dc384c1beeab3f819aa5ef4620ef73a455d9656d` | `ef351c3d6796180d5e49fbaee8f0c04b674011d0912dbd3008623793b80f8dbc` |
+| 02m Short | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 237/210 | `5539ebe638cd779aacfbff3945cb15f336afb0e427e15c2eadd4baebb0090e48` | `20c06f880f5c6586137b6c9d3518ff6a4ea40bfee69bf26b0e792e3ccbd406ef` |
+| 05m Long | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 558/474 | `a4c2a3e5100310dbe139962e5c1c5997a85ea397416b399dcc1151c8770b6b0c` | `ef351c3d6796180d5e49fbaee8f0c04b674011d0912dbd3008623793b80f8dbc` |
 | 10m Long | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1217/1016 | `7ca87432450013b2da089f467ea9a4fe013f79ff4d7d6655558ddbd817292f59` | `2fcdab7b526952441b337e657c2628343367d61547c5cdd1a21f56dc21556038` |
 
 05m recommended (not approved); revised all three pairs. New 02m has missing-file reversal and complete question-answer loop; 05m corrects chronology; 10m brings the dated secondary cases ahead of the climax. See [current review](story-review.md), [handoff](handoff.md), [research](research.md). Historical root and storyboard untouched; no new scene timings or images. All independent/runtime/owner gates UNVERIFIED.
