@@ -15,3 +15,7 @@ No invented dialogue or specific historical source photograph is claimed for the
 **5m alternative:** `How Two Sticks of Gum Became 23 Tons of Candy`. Thumbnail: divided gum / many handkerchief parachutes, no invented individual child depiction. First scene must deliver the visible contrast. Do not imply all tonnage came from one airplane.
 
 Original Short concepts A/B/C above remain available only for the preserved original Short. No release spec changed, no CTR evidence or approval.
+
+## 2026-11-26 — current candidates
+
+Revised 02m: concept B remains applicable, first proof now two sticks explicitly at the start; payoff scale and succession before direct loop question. No prior storyboard applies. Revised 10m: postal mystery, actual late letter and offer to show the chicken location; show only illustrative letter/linen drawings, not fabricated verbatim archival material. 05m unchanged. Recommendation 10m; no title/image approval or native metrics.

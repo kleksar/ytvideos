@@ -2,13 +2,13 @@ EDITORIAL_CANDIDATE_UNREGISTERED — no official runtime script gate, approvals 
 
 # Berlin Candy Bomber — three complete versions (2026-11-17)
 
-**One real story, three finished English narrations plus full meaning-matched Russian editions.** The original Short and its 16 scene spans are preserved exactly. The extended Long versions supply verified new consequences, not copied filler.
+**One real story, three finished English narrations plus full meaning-matched Russian editions.** The original root Short and its 16 scene spans are preserved exactly as historical evidence; revised 02m is separate. The extended Long versions supply verified new consequences, not copied filler.
 
 | Target / format | Full English narration | Full Russian editorial text | Status |
 |---|---|---|---|
-| 2m / Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | Original full Short kept unchanged; text seam authorial, actual AV UNVERIFIED |
+| 2m / Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | Revised 02m (2026-11-26); original root preserved; new storyboard required; text seam authorial, actual AV UNVERIFIED |
 | 5m / Long | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | Full editorial candidate; new safety/distribution pivot |
-| **10m / Long** | **[EN](variants/10m/script.en.txt)** | **[RU](variants/10m/script.ru.txt)** | **Recommended candidate:** Mercedes / mail / 1972 reunion is a second verified payoff |
+| **10m / Long** | **[EN](variants/10m/script.en.txt)** | **[RU](variants/10m/script.ru.txt)** | **Recommended revised candidate:** Mercedes / mail / 1972 reunion, concrete Chicopee cloth evidence |
 
 [One research ledger](research.md) · [Eight criteria per text, full SHA-256, comparison](story-review.md) · [Handoff / blockers](handoff.md). All times estimated, never voice-measured. No independent reviewer, registered run, approval or Long storyboard. Current ChannelSpec supports Long but this Git-only PR does not authorize production.
 
@@ -31,3 +31,5 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 - [handoff.md](handoff.md): exact remote-base SHA, true missing capabilities, transfer method, permission and remaining gates.
 
 The story's verified progression: two sticks of gum shared at an airport fence; a promised wing signal; handmade parachutes; unauthorized drops publicized; higher-level approval and a nationwide volunteer supply chain; about 23 tons cumulatively dropped before the operation ended. Textual loop comes *after* this payoff; audiovisual seam remains **UNVERIFIED**.
+
+Current revision: [story-review](story-review.md#2026-11-26--current-editorial-revision-supersedes-prior-variant-assessments-only). 02m/10m updated, 05m retained, all six full versions above. Old root storyboard only applies to historical root script.

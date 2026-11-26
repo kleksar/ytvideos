@@ -65,3 +65,35 @@ Each score describes actual listed beats, not mechanical 9–10. No weighted tot
 **Status:** original candidate preserved → 3 bilingual variants prepared → authorial fact/structure checks performed → 10m proposed → independent reviewer, runtime registration, selected exact master, new 10m storyboard, actual audio/MP4 **NOT DONE**. Material validation: original 16 exact EN/RU scenes checked; new Long versions have no scenes/timings assigned. External reviewer has not been impersonated.
 
 **Next unprocessed PR:** [#67 Cleveland Balloonfest](https://github.com/kleksar/ytvideos/pull/67) following address-specific technical review of #77/#78 if conflicts become safely actionable. Whole queue is not complete.
+
+## 2026-11-26 — current editorial revision (supersedes prior variant assessments only)
+
+Baseline `14d447b73cb2e88b7d697a2fdae630dd73a7c7e8`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). Original root pair and historical storyboard remain byte-identical; 05m kept as complete strong compact Long, because its questions, permission obstacle, distribution change and succession already form a standalone arc. 02m and 10m revised in the existing branch, not a master switch. Exact SHA-256/word counts and paragraph counts:
+
+| Path | SHA-256 | Words | Paragraphs |
+|---|---|---:|---:|
+| variants/02m/script.en.txt | `1c6ac6118298e470f7b10cd92f96df2d6407da50723f49b389db4f08ea6afb06` | 231 | 11 |
+| variants/02m/script.ru.txt | `1525885b13a2943a91edc8e78a1ef1b5000d5a024a6361fd885389c1a6988847` | 206 | 11 |
+| variants/05m/script.en.txt | `7c4835c8c55c2e381c1e6c44d2f88dee3f855baeb7e04214de3a74aeec0e83e0` | 579 | 19 |
+| variants/05m/script.ru.txt | `1ac8c47633ef3b342b81ceef0b3b0396a0c0f19278ecdce3c21226899542adfc` | 496 | 19 |
+| variants/10m/script.en.txt | `672f1e0f05523cc69a27a395aef3c9192d818fa02e44c42ec7bb5730814cbc27` | 1124 | 34 |
+| variants/10m/script.ru.txt | `d638faf4f99a588783b8bad184fa4de7e355c57a12925147d04dfca25e4a0c48` | 906 | 34 |
+
+**Story maps / visual intent (paragraph spans, not measured timings):** 02m P1–3 gum scarcity/fence/wrappers; P4–6 signal/cloth parcels/children holding them after unloading; P7–8 newspaper/authorization; P9–10 volunteers, parks, cumulative delivery and succession; P11 exact question returns to P1. Visuals: gum and paper, fence, cloth, children with parachutes, newspaper without invented text, parcels and other aircraft; no historical storyboard transfer. 05m P1 questions; P2–6 context/gum/signal; P7–12 making drops and authorization; P13–15 volunteers and relocation; P16–19 scale and succession. Existing story map remains applicable. 10m: opening questions → postwar city and fence → first three parcels, proof of delivery after unloading → mail at base/commander and approval → Chicopee's concrete cloth problem and relocation → Mercedes's letter and mailed answer → operation survives departure → reunion and actual location offered. Visual anchors by sequence: wrappers, three parcels, children displaying parachutes, newspaper, donated linen technical drawings and laundry (illustration, not archive), two secretaries, white chickens, envelope, 1972 letter; exact scene count to be developed for selected hash, no AV or timings claimed.
+
+**Eight criteria (author-only; medium confidence in structure/speech, low in audience response):**
+
+| Criterion | 02m | 05m (unchanged) | 10m |
+|---|---|---|---|
+| Interest | 8 — two sticks for thirty children; gentle stakes | 8 — unauthorized gesture becomes organized effort | 8 — unusual personal request with delayed return |
+| Opening | 8 — concrete scarcity and city immediately legible | 8 — three answerable questions, somewhat broad | 8 — unauthorized drops and postal mystery now accurately framed |
+| Development | 8 — visible proof after unloading, permission pivot, others join | 8 — coherent escalation, supply inventory risk | 9 — concrete cloth problem replaces generic logistics, letters motivate new problem |
+| Payoff | 8 — program survives initiator before loop | 8 — succession is complete but impersonal | 9 — in 1972 she offers to show actual spot and retains reply; retrospective testimony |
+| Freshness | 6 — familiar story, uncommon first-delivery confirmation | 7 — safety/distribution perspective | 8 — unusual linen drawings and individual letter, not new topic |
+| Visual expression | 8 — four pieces, three parcels, newspaper | 8 — fence, volunteers and parks | 9 — drawings on cloth, mail and visible letter, no fabricated exact artifact |
+| Natural speech | 8 — direct actions, no unfinished temporal clause | 8 — slightly abstract supply-chain paragraph | 8 — concrete actions and shorter payoff; contextual early paragraphs still explanatory |
+| Confirmed demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+**Hard checks:** authorial textual pair check: parallel questions, actors, actions, quantities and ending. 02m cold opening stands alone; full story resolves before question; last question receives immediate answer in first sentence (EN and RU read as two consecutive complete cycles by author, no audio). New Short has no valid exact storyboard; old spans and loop assessment belong only to root baseline. Long questions precede immersion/permission hook; no loop required. Source limits: first flight proof and command encounter are museum/retrospective accounts, 1972 return specifically Halvorsen's own account; no invented dialogue. For 05m/10m no measured voice duration; indicative targets only. Independent first listener, exact reviewer receipt, runtime registration, owner approval, audience measurements and AV seam UNVERIFIED. Git-only candidate. Active external Codex sessions/runtime inaccessible; no approval or active production marker observed in PR discussion/metadata; do not infer external inactivity. No protected root master changed. No media/production.
+
+**Comparison:** 2→5 adds distribution logistics and why scale changes locations; 5→10 adds the impossible address, postal exception and the return of the same letter. The concrete linen episode makes the middle less generic, but the early context and supply passage before the first Mercedes letter can still slow attention. **Recommend 10m** for the unique second payoff, 05m as strong alternative if independent reading finds the middle slow. This is not approval. Next #67 after checking actual status.
