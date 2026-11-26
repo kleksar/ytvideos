@@ -1,0 +1,101 @@
+{
+  "schema": "editorial-not-runtime",
+  "observed": "2026-11-24",
+  "currency": "USD",
+  "metric": "direct incremental round-trip transport expenditure",
+  "parking_rate_old": 12,
+  "parking_rate_current": 14,
+  "daily_lot_rate": 19,
+  "garage_rate": 28,
+  "rate_effective": "2026-11-19",
+  "assumptions": {
+    "full_24h_periods": 5,
+    "round_trip_fuel": 8,
+    "tolls": 0,
+    "outbound_ride_all_in": 35,
+    "return_ride_all_in": 40,
+    "alternative_return_ride": 60,
+    "additional_wear_sensitivity": 10,
+    "same_itinerary": true,
+    "availability_required": true,
+    "time_monetized": false,
+    "live_quote": false
+  },
+  "formula": {
+    "A": "days * lot_daily_rate + fuel + tolls + optional additional wear",
+    "B": "outbound all-in fare + return all-in fare",
+    "return_fare_tie": "A - outbound fare"
+  },
+  "cases": [
+    {
+      "case": "old tariff",
+      "A": 68,
+      "B": 75,
+      "winner": "A",
+      "difference": 7
+    },
+    {
+      "case": "current tariff",
+      "A": 78,
+      "B": 75,
+      "winner": "B",
+      "difference": 3
+    },
+    {
+      "case": "four full days",
+      "A": 64,
+      "B": 75,
+      "winner": "A",
+      "difference": 11
+    },
+    {
+      "case": "six full days",
+      "A": 92,
+      "B": 75,
+      "winner": "B",
+      "difference": 17
+    },
+    {
+      "case": "return fare 60",
+      "A": 78,
+      "B": 95,
+      "winner": "A",
+      "difference": 17
+    },
+    {
+      "case": "daily lot fallback",
+      "A": 103,
+      "B": 75,
+      "winner": "B",
+      "difference": 28
+    },
+    {
+      "case": "garage fallback",
+      "A": 148,
+      "B": 75,
+      "winner": "B",
+      "difference": 73
+    },
+    {
+      "case": "daily lot, higher return fare",
+      "A": 103,
+      "B": 95,
+      "winner": "B",
+      "difference": 8
+    },
+    {
+      "case": "additional wear",
+      "A": 88,
+      "B": 75,
+      "winner": "B",
+      "difference": 13
+    }
+  ],
+  "tie_return_base": 43,
+  "tie_return_with_wear": 53,
+  "limitations": [
+    "exact full 24h intervals only; no assumption for partial-day billing",
+    "no actual rides, quotes, driving measurements, occupancy forecast or probabilities",
+    "price-only ranking conditional on feasibility; bus, family drop-off, private lots excluded"
+  ]
+}
