@@ -1,0 +1,140 @@
+{
+  "currency": "USD",
+  "metric": "published reference admission outlay, not realized checkout",
+  "observation_date": "2026-11-25",
+  "assumptions": [
+    "same desired experiences within each A/B run, visitor nonresident of NY state, nonstudent, no other eligibility, all necessary reservations available, prices remain available, no travel or extras",
+    "pass includes fee; basic ferry starts at stated price; actual checkout and extra fees unverified"
+  ],
+  "pass": {
+    "price": 151,
+    "choices": 5,
+    "window_days": 9
+  },
+  "items": {
+    "amnh_exhibit": 43,
+    "amnh_general": 37,
+    "intrepid": 38,
+    "guggenheim": 30,
+    "ferry": 26,
+    "whitney_regular": 30,
+    "whitney_25_or_under": 0,
+    "whitney_free_friday_if_reserved": 0,
+    "circle_line_reference": 55
+  },
+  "cases": [
+    {
+      "name": "base_26",
+      "prices": [
+        43,
+        38,
+        30,
+        26,
+        30
+      ],
+      "A": 151,
+      "B": 167,
+      "winner": "A",
+      "saving": 16
+    },
+    {
+      "name": "base_25",
+      "prices": [
+        43,
+        38,
+        30,
+        26,
+        0
+      ],
+      "A": 151,
+      "B": 137,
+      "winner": "B",
+      "saving": 14
+    },
+    {
+      "name": "free_friday_26",
+      "prices": [
+        43,
+        38,
+        30,
+        26,
+        0
+      ],
+      "A": 151,
+      "B": 137,
+      "winner": "B",
+      "saving": 14
+    },
+    {
+      "name": "general_only_26",
+      "prices": [
+        37,
+        38,
+        30,
+        26,
+        30
+      ],
+      "A": 151,
+      "B": 161,
+      "winner": "A",
+      "saving": 10
+    },
+    {
+      "name": "general_only_25",
+      "prices": [
+        37,
+        38,
+        30,
+        26,
+        0
+      ],
+      "A": 151,
+      "B": 131,
+      "winner": "B",
+      "saving": 20
+    },
+    {
+      "name": "no_ferry_26",
+      "prices": [
+        43,
+        38,
+        30,
+        30
+      ],
+      "A": 151,
+      "B": 141,
+      "winner": "B",
+      "saving": 10
+    },
+    {
+      "name": "six_25",
+      "prices": [
+        43,
+        38,
+        30,
+        26,
+        0,
+        55
+      ],
+      "A": 151,
+      "B": 192,
+      "winner": "A",
+      "saving": 41
+    },
+    {
+      "name": "six_26",
+      "prices": [
+        43,
+        38,
+        30,
+        26,
+        30,
+        55
+      ],
+      "A": 177,
+      "B": 222,
+      "winner": "A",
+      "saving": 45
+    }
+  ]
+}
