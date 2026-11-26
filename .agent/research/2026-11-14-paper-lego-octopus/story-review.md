@@ -92,3 +92,39 @@ Provide a genuinely new reviewer the EN S001 first, ask would they stop scrollin
 **Рекомендация: 05m Long, editorial only.** Эта редакция даёт 1997 → реальный механизм находок → 2020 → 2024 → человека с завершённой целью и последствия, не отвлекаясь на повторное обобщение после кульминации. При независимом отказе или неудовлетворительном сценарном темпе предпочесть переработку либо 02m, не утверждать 10m. Рекомендация НЕ является выбором, approval или разрешением трёх выпусков. Не менять master, channel status, пины, media, публикации.
 
 **Следующая очередь по предыдущему checkpoint:** PR #68 и технические #77/#78 требуют отдельной адресной проверки, а не повторной правки этого текста. Общее количество PR в момент этой ревизии: 114 открытых (две страницы API 100+14), не все проверены по существу.
+
+
+## 2026-11-26 — current editorial revision (supersedes earlier variant assessments only)
+
+Canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`, #124 merged. Baseline `996f704d60941e088ebffbb08e21d0ceece70e75`. Original root EN/RU and 15-scene storyboard are preserved as **historical, not current 02m**. 05m preserved exactly; 02m and 10m rewritten. No owner approval or runtime registration claimed.
+
+| Version | EN SHA-256 | RU SHA-256 | EN/RU words | Format |
+|---|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) `5ef276bbfba2cbaf371cdce57a3b121fab8ad745ae59f1824669f92d69e88fa9` | [RU](variants/02m/script.ru.txt) `b6ab48aea6a790759bcf7478b6214a96325e4af4f3c7da6c0503eb2c0297542c` | 250/235 | Short ~1:45–2:15 |
+| 05m | [EN](variants/05m/script.en.txt) `eb6583e2b59e5cfcb4f73807e3f33be14310a198a563e54312342dc411eb5ff9` | [RU](variants/05m/script.ru.txt) `a5464977209775abcfc23a727f91f173bebe9fd4d70da53012a940072017bc01` | 618/559 | Long ~4:30–5:15 |
+| 10m | [EN](variants/10m/script.en.txt) `ab649756ae292f386705e59754e62d79f59710cae6a59c58a1b50b4265295d5a` | [RU](variants/10m/script.ru.txt) `4893e53f2879a0a569f9fc5154c1cb870aa7e75b6c0b23fad58ea2d6b317e736` | 1274/1099 | Long ~9–10:40 |
+
+**Before → after:** 02m formerly ended on incomplete when/когда plus a repeated opening find. Now cold entry is the two-year search, followed by lost cargo, 18-year gap, physical 2020 dune evidence, 2024 octopus, second find and offshore shark; clear payoff before a question answered by the first line. 10m formerly put the scientific model after the shark climax; now it establishes stakes after the dune and before the teenager's hunt. The last three paragraphs close evidence limits and personal resolution rather than reopening an extended lecture. 05m is the unchanged compact complete version. No new external facts beyond the shared existing ledger; Perran Sands and 789 pieces imported from already evidenced Longs.
+
+| Editorial criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest/significance | 8: concrete two-year hunt; familiar LEGO angle | 8: family plus two types of finds; known story | 8: investigator and family; plastic background can compete |
+| Opening/promise | 8: objective without revealing success; child unnamed | 8: clear questions, then scene; reveals success early | 8: three concrete questions; two introductory paragraphs before accident |
+| Development | 8: 18-year gap then dune as evidence | 8: same evidence with family's actions; buoyancy paragraph dense | 8: international finds, dune and scientific model motivate search; inventory still dense |
+| Payoff | 8: find then offshore shark; question after resolution | 8: personal end and unresolved cargo | 8: science before climax; brief comparison after shark still explanatory |
+| Freshness | 6: Tom Scott overlap; contrast of dune and net | 6: two forms of recovery | 7: material study and temporal evidence, no invented routes |
+| Visual | 8: concrete physical actions and paper cross section | 8: family, dune, net | 8: inventory, maps, cross section; must distinguish possible from observed routes |
+| Narration | 8: complete sentences and direct seam; final question slightly redundant | 8: clear but one awkward cargo sentence | 8: compact closure, technical estimate still interrupts momentum |
+| Demonstrated audience demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+AUTHOR_ONLY confidence medium for textual observations; low for viewer interest. No independent verdict. 02→05 gains named family, route distinctions and source qualifications. 05→10 gains international findings, inventory context and scientific model; paragraphs 14–21 risk a pause in human action. **Recommend 05m**: strongest balance, despite revealing discovery early. 02m is now a viable concise alternate; 10m distinct research-oriented candidate, not required production. No measured duration/CTR/retention.
+
+**Hard checks:** paired paragraph counts 15/16/31; research bounds preserved (unknown opening, routes, separate study, 4,200 cargo count); Long questions/context/hook present; no loop required for Long. 02m read twice in each language author-only: EN ending “Most of the shipment remains unaccounted for. So who would spend two years looking for one little piece of it?” → “A thirteen-year-old boy in Cornwall spent two years searching beaches for a tiny black LEGO octopus.” RU ending “Большую часть груза так и не удалось учесть. Так кто же потратил два года на поиски одной крошечной детали?” → “Тринадцатилетний мальчик из Корнуолла два года искал на пляжах крошечного чёрного осьминога LEGO.” Answer given before return in paragraph 11; cold entry independent. Text seam AUTHOR_CHECK; independent and actual AV seam UNVERIFIED. Original exact-hash storyboard remains historical; new beat/visual intent below, not full storyboard or measured timing.
+
+### Current version scene intents (paragraph spans, EN/RU both; no timing)
+
+- 02m 1–2 child scanning shore; 3–5 intact ship in storm, inventory and octopus; 6–8 first beach finds and years of searching; 9–10 dune cross section, no invented route; 11–12 two beaches and found octopuses; 13–14 shark in net and different discovery sites; 15 return from missing cargo inventory to first shore composition. Paper traveler candidate in dune scene, not confirmed artwork.
+- 05m unchanged 1–3 family/first find; 4–7 cargo and Tracey; 8–10 possible transport, observed dune; 11–13 family, two finds and offshore shark; 14–16 evidence limits and personal resolution. New Long storyboard required; paper traveler candidate at dune.
+- 10m 1–3 family objective; 4–8 intact ship/inventory, unknown opening; 9–13 Tracey collecting/return; 14–17 possible routes and reported geography; 18–21 exposed dune and comparison of other worn bricks with unused ones; 22–25 family and resolution; 26–28 second discovery and shark; 29–31 research map limits and child's hand. Paper traveler candidate at dune. Physical paper layers and reconstructions, no pseudo archival evidence or continuous underwater route.
+
+**Status:** EDITORIAL_CANDIDATE_UNREGISTERED; exact-hash independent reviewer/ytv session unavailable, owner approval, measured timing and AV UNVERIFIED. Follow handoff for canonical pinned context and genuine review; never substitute prior review for revised hashes. Next untouched queue checkpoint #68, verify actual status.

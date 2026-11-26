@@ -85,3 +85,8 @@ Read and cross-checked the following already-public source passages for new clai
 **Event → new evidence → consequence → next question**: (1) 1997 ocean loss → unusually rare octopuses → why are some still found? (2) Tracey's 18-year gap → different pathways and dunes → what triggers delayed appearances? (3) 2020 Perran Sands collapse → pieces can reappear without having travelled just that day → does a specific teenager's search pay off? (4) April 2024 two octopuses → personal goal fulfilled, tide hypothesis → does discovery end offshore? (5) August net-caught shark → not all records are beach finds → what fraction of cargo remains unknown? (6) model on separate bricks → persistent material possible, uncertain individual route → personal answer does not close environmental question. Two distinct story compositions developed; no fictional hazards, quotes or motivations introduced.
 
 **Demand evidence limit:** no proprietary channel analytics or controlled audience retention. Indexed comparable media and Reddit anecdotes from the earlier research are not audience measurement. This update does not claim independent user interest validation.
+
+
+## 2026-11-26 editorial evidence reuse
+
+02m now includes the 2020 Perran Sands dune (Williams & Turner abstract, above) and the family's 789 pieces (ITV/PA, above). 10m moves the distinct Plymouth mass-comparison model before the 2024 discovery; the estimate still applies only to other bricks. No new factual assertion needs a new source beyond the existing ledger; no new external source access claimed. Unknown container opening, individual routes and unaccounted cargo remain explicit.

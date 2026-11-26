@@ -23,3 +23,8 @@ All three require later AI artwork generation only under separate production aut
 - **10m Long — lower editorial priority:** `The 1997 LEGO Spill We're Still Finding`; visual promise: 1997 container, 2020 dune, 2024 octopus/shark arranged as three physical paper snapshots. No fake archive, no number implying verified recovered count. Detailed visual direction awaits owner's exact-script choice and new storyboard.
 
 These are supporting concepts only. Old Short storyboard/publish metadata are not valid measured Long timings. No three parallel productions, run or approval.
+
+
+## 2026-11-26 revised candidate links
+
+Current 02m: promise remains black octopus found after 27 years; opening now shows the boy searching (paragraphs 1–2), proof of unusual inventory 3–5, dune mechanism 9, discovery 11, offshore extension 13, seam 15→1. Do not label discovery as first frame. 10m: 2020 dune and separate materials study precede the 2024 search payoff; visual concept C uses the three documented time/place snapshots and no hypothetical individual route. 05m unchanged and recommended. Historic S001–S015 are not the revised 02m storyboard. Exact variants and span intentions in story-review; no assets or release metadata generated.

@@ -6,11 +6,11 @@ EDITORIAL_CANDIDATE_UNREGISTERED — full 2/5/10m story revisions, NOT official 
 
 | Длительность | Полные тексты | Состояние |
 |---|---|---|
-| 2m | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | исходный Short сохранён bytes; петля спорная, независимый review UNVERIFIED |
+| 2m | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | переработанный Short 26.11; авторская проверка петли, независимый review UNVERIFIED |
 | **5m** | **[RU](variants/05m/script.ru.txt)** · [EN](variants/05m/script.en.txt) | **рекомендован Long**: два поиска, конкретный механизм и проверенный результат |
-| 10m | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | Long кандидат: дополнительная фактура, но слабее после кульминации |
+| 10m | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | переработанный Long: исследование перенесено до кульминации, независимый review UNVERIFIED |
 
-Точные SHA-256, 8 критериев каждой редакции, story maps, hard checks и сравнение — [story-review.md](story-review.md). Общие источники и новые доказательства — [research.md](research.md). Исходные `script.en.txt`/`script.ru.txt` и `storyboard.md` относятся только к версии **02m**, не заменены и не распространяются на Long. Отдельные принятые master/media не изменены. Voice/TTS/MP4, independent review и runtime gate — UNVERIFIED / NOT_STARTED. Рекомендация не approval.
+Точные SHA-256, 8 критериев каждой редакции, story maps, hard checks и сравнение — [story-review.md](story-review.md). Общие источники и новые доказательства — [research.md](research.md). Исходные `script.en.txt`/`script.ru.txt` и `storyboard.md` относятся к историческому исходнику до ревизии 26.11, не заменены и не распространяются на текущую 02m или Long. Отдельные принятые master/media не изменены. Voice/TTS/MP4, independent review и runtime gate — UNVERIFIED / NOT_STARTED. Рекомендация не approval.
 
 ---
 
@@ -25,3 +25,6 @@ Paper Detour / active, English illustrative narrative Short. Editorial-only cand
 Research and true 3-way comparison: research.md. Preliminary exact EN/RU 15-scene match and standalone conceptual AI-image prompts: storyboard.md. Independent-vs-author limitations: story-review.md. Three honest thumbnail/title pairs: packaging-brief.md. Local native workflow, permissions and blockers: handoff.md.
 
 No real ytv start/run, independent script reviewer, owner approval or production. No source reference PNG bytes opened. Merge prohibited.
+
+
+Current variants: baseline `996f704d60941e088ebffbb08e21d0ceece70e75`; 02m/10m revised 2026-11-26, 05m unchanged and recommended. Current maps and exact hashes in the final section of [story-review](story-review.md); earlier text/scene evidence is historical only.
