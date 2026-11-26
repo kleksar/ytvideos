@@ -420,6 +420,39 @@ class Production:
             return run["capabilities"]
         return self.store.mutate(run_id, change)
 
+    def set_audio_allowance(self, run_id, units, *, expected_version, source, message):
+        """Record an owner's task-scoped allowance without widening other tasks' budget."""
+        source = require_text(source, "actual owner decision source")
+        message = require_text(message, "actual owner decision message")
+        if type(units) is not int or units < 0 or type(expected_version) is not int:
+            raise WorkflowError("allowance and expected version must be nonnegative integers")
+        event_id = "audio-budget:" + digest(source)
+        with self.store.transaction() as tx:
+            run = tx.get_run(run_id)
+            old = tx.execute("SELECT run_id,kind,payload FROM events WHERE id=?", (event_id,)).fetchone()
+            decision = {"authority": "local_session", "source": source, "message": message,
+                        "task_id": "audio", "units": units}
+            if old:
+                previous = json.loads(old[2])
+                if old[0] != run_id or old[1] != "budget.audio_allowance" or previous["decision"] != decision:
+                    raise Conflict("budget decision source was already used with different content")
+                return {"run_id": run_id, "version": run["version"], "duplicate": True, **previous}
+            if run["version"] != expected_version:
+                raise Conflict("stale state version; reload status")
+            self._runtime(run)
+            task = self._task(run, "audio")
+            if task["status"] in {"running", "unknown"}:
+                raise Conflict("reconcile the audio lease before changing its allowance")
+            budget = run["budget"]
+            previous_units = budget.get("task_allowances", {}).get("audio", 0)
+            if units < previous_units:
+                raise WorkflowError("reducing an existing allowance is not supported")
+            budget.setdefault("task_allowances", {})["audio"] = units
+            payload = {"decision": decision, "previous_units": previous_units}
+            tx.event(event_id, run_id, "budget.audio_allowance", payload)
+            tx.save(run)
+            return {"run_id": run_id, "version": run["version"], "duplicate": False, **payload}
+
     def claim(self, run_id, task_id, worker, *, lease_seconds=900, estimated_units=0, with_context=False):
         require_text(worker, "worker")
         if not isinstance(estimated_units, int) or estimated_units < 0:
@@ -455,8 +488,10 @@ class Production:
                 run["capabilities"][cap].get("billing") != "included"
                 for cap in task["capabilities"] if cap in provider_capabilities):
             raise WorkflowError("reserve the observed provider cost, or verify an included-billing capability")
+        limit = budget["max_paid_units"] + (budget.get("task_allowances", {}).get("audio", 0)
+                                            if task_id == "audio" else 0)
         if (estimated_units and budget["spent"] + budget["reserved"] + budget["unknown_reserved"]
-                + estimated_units > budget["max_paid_units"]):
+                + estimated_units > limit):
             raise WorkflowError("paid budget exhausted; independent tasks can continue")
         if task["stage"] in {"upload", "configure_release", "schedule", "verify_publication"}:
             self._publication_guard(run, task["stage"])

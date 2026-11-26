@@ -144,7 +144,8 @@ def _next_action(production, run, binding, session):
                 or any(item["state"] == "unavailable" for item in task["capability_checks"])):
             continue
         provider_caps = {"audio.produce", "image.generate", "media.licensed_clip"} & set(saved["capabilities"])
-        available_budget = run["budget"]["max_paid_units"] - sum(run["budget"][key]
+        allowance = run["budget"].get("task_allowances", {}).get("audio", 0) if task["id"] == "audio" else 0
+        available_budget = run["budget"]["max_paid_units"] + allowance - sum(run["budget"][key]
                                                                  for key in ("spent", "reserved", "unknown_reserved"))
         if (provider_caps and task["dispatchable"] and available_budget <= 0
                 and any(run["capabilities"].get(cap, {}).get("billing") != "included" for cap in provider_caps)):
