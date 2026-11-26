@@ -17,3 +17,6 @@ Exact baseline PR #65 head `3a84d3a15f9efb9b7bb87f4a586ca0ac53875aa5`, original 
 5. Preserve 10-second Long native end-screen constraints, video-to-next bridge only when appropriate next public video is actually known. No fictional related-video target, fake shot timing, forced CTA or caption changes here.
 
 Previous original handoff listed environment DNS/checkout failure and no independent reviewer. This run also could not obtain runnable checkout (container DNS: `github.com` unresolved); GitHub connector read/write is available but does not provide the CLI, media assets, independent reviewer host or active runtime leases. Independent reviewer, exact master approval, provider readiness, TTS, measured runtime, real AV seam, visual references and YouTube metrics all **UNVERIFIED**. No production activity is implied by file creation.
+
+
+2026-11-26 supersession: revised 02m and 10m are editorial candidates only; 05m remains byte-identical and recommended. Old 14 spans belong to the root master and original 02m at `a8a573b4300531e3c22789dd260290a11afc2f41`, not revised 02m. New text needs fresh per-meaning storyboard, timing and reviewer. Current canonical main 7c779c4b2fd379c85166ae1b164fa53d1ea08843; no pin migration. See latest review for hashes and registration limits.

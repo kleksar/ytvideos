@@ -77,3 +77,31 @@ These are **subjective author scores**, 1–10, with moderate or low confidence;
 **02 → 05:** gains mechanism for late discovery, public four-hook spectacle, cause of false suspect attention, Geri/Poggi's choice and verifiable provenance. The additional words are not a repeat of the Short. **05 → 10:** gains earlier glass protection context, Kafka and period public culture, international rumours, alias and changed motive/court consequences. These add historical understanding but postpone the eventual Florence reversal and then add history after it. **Recommend 05m as an editorial proposal**: causally complete, tangible person-to-person climax, stronger balance of depth and momentum. A strong 02m remains worth protecting and can be chosen after independent testing; 10m is not auto-approved for its length.
 
 **Next evidence:** independent fresh first-listener gets exact three EN texts with no above scores/diagnoses, chooses between original/05/10 or rejects; supply the source list only *after* first reads. Store original reviewer-owned `ytv-script-review-v1` evidence, no author-written substitute. Newly chosen master gets new storyboard with per-meaning scene coverage and true audio alignment. Previous 14 spans remain 02m-only; they are not proof under merged #174 requirements. Status `EDITORIAL_CANDIDATE_UNREGISTERED`, not `awaiting_script_approval`.
+
+
+## 2026-11-26 substantive revision (main 7c779c4b2fd379c85166ae1b164fa53d1ea08843)
+Baseline PR HEAD `a8a573b4300531e3c22789dd260290a11afc2f41`. Root master and historical storyboard retained byte-for-byte; 05m unchanged. Old review and timings do not apply to new 02m/10m hashes. No owner acceptance or production authorization in PR discussion; runtime leases cannot be independently inspected from Git-only host. No new runtime or receipt.
+
+| Variant | EN SHA-256 / words | RU SHA-256 / words |
+|---|---|---|
+| 02m | `982cc6dd0928412e1c968ea3d757e4bf64c4319009984ba88404b87c8e84cd0c` / 237 | `3860864e52f2ccd4400cc4799c027f1332197f08f9e0d5feffb335400e5cea55` / 208 |
+| 05m | `b314db5261c28dc467a3b179bf5e367806e56a42a2065ce895dd29e516044a37` / 622 | `7caa28232e23c8c4e5c1e6c774b9ca747b14bf6298982c04eb034bf9065fdb1f` / 528 |
+| 10m | `e8193fd983d0f228bd506d90c6c0ad5ff9b01cee3e4ea70b59346b93854701f9` / 1240 | `6fddb65988e737e7780a2227bd9a82ebf95b0f961aeef0128a3eec81c6372bad` / 1031 |
+
+### Author checks and comparison
+02m: 11 paired paragraphs: empty hooks → former glazier → wooden panel → delayed recognition → police interview → missed trunk → Geri offer/payment → claimed motive corrected → authentication → arrest/return → publicity. Cold entry is independent; the payoff precedes the complete last sentence. EN seam “For a while, though, the Louvre had been drawing visitors to something that wasn't there. / In 1911, people went to the Louvre to see four empty hooks.” RU “Но какое-то время Лувр привлекал посетителей тем, чего там не было. / В 1911 году люди приходили в Лувр посмотреть на четыре пустых крючка.” The next sentence concretizes the prior contrast. Author text seam plausible, independent/AV UNVERIFIED. No reuse of historic 14 spans for this revised 11-paragraph text.
+05m: unchanged, earlier exact-hash author review stands; 14 paragraphs give police error → false suspects → Geri/Poggi → return. No Long loop required.
+10m: 21 paired paragraphs. P1 questions; P2–5 context/wooden panel; P6–8 delay and public image distribution; P9–10 missed interview/main hook; P11–12 alternate leads; P13–16 dealer's advertisement, offer, professional verification and arrest; P17–18 contested motive and trial; P19–21 return and changed public attention. New concrete seller/dealer exchange replaces generic repeated failure; contemporary evidence distinguished from later accounts. P18 still interrupts return chronology; P19 signals exhibitions preceded trial. All added facts cross-referenced in research. Author text-only source and meaning checks; exact historical reconstruction, audience interest, timing, independent first-listener and media UNVERIFIED. Long supported, not authorized. 125–140 hypothetical wpm, no measured TTS.
+
+| Criterion | 02m | 05m preserved | 10m |
+|---|---|---|---|
+| Interest | 8, tangible missed trunk, familiar heist (medium) | 8, prior assessment | 8, two contrasting meetings (medium) |
+| Opening | 8, immediate unusual gallery attraction (medium) | 8, prior assessment | 8, precise dealer question, three promises (medium) |
+| Development | 8, payment adds motive tension but two-year jump abrupt (medium) | 8, prior assessment | 8, advertisement and doubtful dealer advance causality; P11–12 still slower (medium) |
+| Payoff | 8, confirmed return before seam (medium) | 9, prior assessment | 9, dealer turns claim into evidence and returned crowd answers opening (medium) |
+| Angle freshness | 7, missed interview (low) | 7, prior assessment | 8, contemporary press and concrete verification (low) |
+| Visual expressiveness | 8, empty hooks/trunk/panel (medium) | 8, prior assessment | 9, prints, postcards, letter and expert meeting (medium; rights unverified) |
+| Oral naturalness | 8, complete sentences, few names (medium) | 8, prior assessment | 8, specific actions, some historical attribution slows speech (medium) |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+2→5 adds the separate suspect inquiry and institutional context; 5→10 adds contemporary reporting on street prints, a false lead and actual dealer verification instead of repeating the missed-trunk irony. Recommend 05m for compact detective narrative; 10m has meaningful added evidence but P11–12 and P17–18 risk pace loss. 02m remains viable, not selected. Maps are editorial spans, not an approved per-meaning storyboard. Historic storyboard belongs only to the unchanged root master/original 02m baseline; fresh plan for revised candidates. Paper plane candidate: print-shop window in 10m P8, gallery crowd in revised 02m P1, never narration/history. Independent reviewer not exposed, real ytv-script-review-v1 absent. Exact chosen script must be reviewed on local registered run after authorized handoff; no approval inferred.
