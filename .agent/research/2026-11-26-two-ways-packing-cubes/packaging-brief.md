@@ -1,0 +1,6 @@
+# Editorial packaging only
+No image generation or media. Audience: carry-on travelers choosing a packing method; practical curious tone. Use channel A cyan / B amber, simple flat illustrated diagrams, high contrast; no Paper aesthetic.
+Concept A (recommended): "Do Compression Cubes Really Fit More Clothes?" Two identical soft bags and a compressed organizer; text "MORE CLOTHES?" not a false savings claim. First 02m question and 05m two zippers confirm; full payoff 22 vs 19 garments and 5 vs 18 pairs.
+Concept B: "The Packing Cube Paradox" picture of a flattened bundle with visible gaps and socks. No invented exact measured arrangement; illustrative graphic only. Opening explicitly presents two methods; payoff explains why two item categories differ.
+Concept C: "Folding vs Compression Cubes: Same Bag, Different Winner" two separate labeled garment/sock counters; no claim of universal winner. A/B choice before result, clear published-test reconstruction.
+Do not use supplier product photography, article screenshots, logos or other video assets without rights. Short preview central 2:3 safe, actual visual QA UNVERIFIED. No thumbnail refs inspected as image bytes; no detailed storyboard before exact review. Long title concepts are editorial only, not connected to runtime.

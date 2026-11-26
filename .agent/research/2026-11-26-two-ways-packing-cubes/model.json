@@ -1,0 +1,127 @@
+{
+  "type": "editorial reconstruction + illustrative geometry, not measured in-house",
+  "source": "https://www.which.co.uk/reviews/cabin-bags/article/how-to-pack-a-suitcase-the-most-space-efficient-way-aUwwz4Y6X3hs",
+  "metric_primary": "garments excluding separately counted socks",
+  "metric_secondary": "pairs of socks",
+  "rows": [
+    {
+      "bag": "large hard case",
+      "A": [
+        47,
+        20
+      ],
+      "B": [
+        46,
+        20
+      ]
+    },
+    {
+      "bag": "large backpack",
+      "A": [
+        40,
+        20
+      ],
+      "B": [
+        35,
+        18
+      ]
+    },
+    {
+      "bag": "small soft holdall",
+      "A": [
+        22,
+        5
+      ],
+      "B": [
+        19,
+        18
+      ]
+    },
+    {
+      "bag": "small wheeled case",
+      "A": [
+        20,
+        2
+      ],
+      "B": [
+        18,
+        10
+      ]
+    }
+  ],
+  "totals": {
+    "A": [
+      129,
+      47
+    ],
+    "B": [
+      118,
+      66
+    ]
+  },
+  "holdall_count_targets": [
+    {
+      "target": [
+        20,
+        5
+      ],
+      "A": true,
+      "B": false
+    },
+    {
+      "target": [
+        19,
+        10
+      ],
+      "A": false,
+      "B": true
+    },
+    {
+      "target": [
+        20,
+        10
+      ],
+      "A": false,
+      "B": false
+    }
+  ],
+  "geometry": {
+    "units": "hypothetical grid cells, not volume",
+    "width": 6,
+    "height": 4,
+    "coordinates": "zero based x,y from top left; width,height",
+    "A": {
+      "first": [
+        0,
+        0,
+        4,
+        3
+      ],
+      "next": [
+        4,
+        0,
+        2,
+        3
+      ],
+      "free_before": 12,
+      "free_after": 6
+    },
+    "B": {
+      "first": [
+        0,
+        1,
+        5,
+        2
+      ],
+      "free_before": 14,
+      "next_size": [
+        2,
+        3
+      ],
+      "rotation_allowed": true,
+      "fit_at_stated_placement": false,
+      "repositioning_may_fit": true
+    },
+    "disclaimer": "Only the shown placement, not an optimization or physical explanation verified for S1."
+  }
+}
