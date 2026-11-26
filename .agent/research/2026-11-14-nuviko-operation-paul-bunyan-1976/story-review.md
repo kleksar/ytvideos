@@ -85,3 +85,41 @@ Ratings apply to these exact file hashes and are author assessment at moderate/l
 
 ### Status and transfer
 `не переработан → три версии подготовлены → авторская проверка и recommendation выполнены → independent reviewer UNVERIFIED`. No independent new session/reviewer adapter observed; GitHub connector is not official ytv session runtime. Local owner/coordinator must fetch this branch, check existing runs and pinned inputs, use documented `uv run ytv start --channel nuviko_history --format long ...` only if a new episode is authorized, attach exact variant/review artifacts, obtain fresh independent reading input/response bound to selected EN SHA-256, and present one exact text to owner. No old runtime pins replaced by checkout; migration required if an existing run exists. Don't start three runs or produce media.
+
+
+## 2026-11-26 — current revision; supersedes prior 10m evaluation only
+Canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`; #124 merged. Immediate baseline `030b8e082ffd0c15f08075ce742ef34950776c21`, old 10m EN blob `39d538d4db78d8796c7050f8c7619edf2ad3b787`, RU blob `b78decd19b7662a0714248fcf0e261e7de88fe94`; historical SHA-256 above. Original masters and 02m/05m byte-identical. No approval or active production indicated by PR metadata/discussion; local runtime/Codex visibility unavailable. No change to production.
+
+| Target | Full EN | Full RU | SHA-256 EN / RU | EN / RU whitespace words |
+|---|---|---|---|---:|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | `cbacb2131ad64f232af4992c69a91842ae947a125e100c71a74a23c84a601700` / `3a6c8547a8b369b7a41db3d87fdc196afafb7917abdfdb421440b0dc9c14116a` | 210 / 165 |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | `09f6450c3ba7f65824e37a06b7fd4126be13b297b336ac16b8bdca1874467ebb` / `4b26bbc9ed0b1fbc6b587aaf19f997d059ae8dc9fa2c2d9eadae5a8654b4e1dd` | 563 / 447 |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | `c8bc66e364214a9f078d57e1eef68afe16aadab26a1f3523673e18e7cdc78afe` / `21f5389f18bc65d8dd3bd90b75b688e5c2ba3629c7ed2bf7fccf035f01fccb51` | 1230 / 1002 |
+
+02m and 05m retain the previous exact-hash assessments above: 02m is compact and the loop returns to the documented cause after payoff; 05m is a stronger short-form causal explanation, not an arbitrary cut. 02m full two-cycle EN/RU reread: both passes cold opening clear, complete felling/memorial before final question, first line answers the cause; author-only. 10m now has 31 aligned paragraphs; at 105–135 wpm estimated 9.1–11.7 min before pauses and Long 10s end-screen. Measured duration UNVERIFIED.
+
+### Current 10m story map and preliminary visual intent
+| EN/RU paragraphs (same ordinal) | Event / new understanding | Visual intent (not approved shots) |
+|---|---|---|
+| 1–5 | questions; shared security area; obstructed sight | conceptual boundary diagram, tree and posts, no exact operational map |
+| 6–9 | work party attacked, deaths, job unresolved | restrained reconstruction, portraits, empty work area; no graphic violence |
+| 10–16 | policymakers face escalation; choose protected return | documents and a broad distant military-presence image, no tactical diagrams |
+| 17–23 | return and felling, no renewed attack | chronological reconstruction, saw/tree and cleared view |
+| 24–28 | unresolved shared-access problem → negotiations → new rules | commission table, dated memorandum, abstract before/after boundary |
+| 29–31 | limits of agreement and remembrance | cleared site, memorial; no claimed archival image unless verified |
+
+### Current comparison — author-only; M moderate, L low confidence
+| Criterion | 02m (unchanged) | 05m (unchanged) | 10m revised |
+|---|---|---|---|
+| Interest | 8 M | 8 M | 8 M: fatal routine task leads to real institutional change; niche geopolitical story |
+| Opening | 8 M | 8 M | 8 M: questions set two payoffs (felling and rules); third question lengthens intro |
+| Development | 7 M | 8 M | 8 M: new problem after felling leads to talks; policy deliberation still slower around paragraphs 11–14 |
+| Payoff | 8 M | 8 M | 9 M: September agreement answers shared-access question; memorial returns to people rather than military spectacle |
+| Novelty | 7 L | 7 L | 8 L: agreements as second payoff less obvious than bomber/tree contrast; no comparative demand data |
+| Visual | 8 M | 8 M | 8 M: distinct before/after boundary, document and memorial; commission portion risks static imagery |
+| Speech | 8 M | 8 M | 8 M: concrete work and negotiated change, some institutional terminology needs careful reading |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Hard checks: 10m EN/RU author aligned 31 paragraphs; facts and limits from existing evidence plus primary memorandum and CRS retrospective in research. Long questions precede context and fatal incident; two linked payoffs delivered, no Long loop required. 02m loop author-only; independent exact hash and AV UNVERIFIED. All formats supported by canonical channel.json. Old 10m review/timing/approval cannot carry to new hash; no approval found or asserted. Original 14-scene storyboard remains tied only to original unchanged 02m. New Long spans above are narrative intent, not production storyboard. Independent first-listener, actual runtime, measured duration, owner selection, media, CTR/retention UNVERIFIED. Local transfer path in handoff; no reviewer result fabricated.
+
+**Recommendation:** 05m remains the tighter introduction to the tree-cutting incident, especially for a cold audience; 10m is now a genuinely useful alternative for a viewer interested in the armistice arrangements rather than a repeated explanation. 02→05 adds the practical reason and policy choice; 05→10 adds shared access, negotiated separation and explicit outcome. Main possible drop-off in 02m aircraft list, 05m Washington decision, 10m policy paragraphs 11–14 and transition to diplomacy after felling (paragraphs 24–26). No measured viewer data. Status: three complete texts/pairs → author checked → 05m recommended; EDITORIAL_CANDIDATE_UNREGISTERED. Next #65 (verify actual state).
