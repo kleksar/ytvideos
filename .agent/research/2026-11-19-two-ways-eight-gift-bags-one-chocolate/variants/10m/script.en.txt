@@ -1,0 +1,49 @@
+I need to hand out eight identical gift bags at a party. At least that's the task in this drawing. One bag is missing a chocolate. I know there's exactly one incomplete bag, but I don't know which one. I can check each bag separately, or I can use the weight of whole groups to rule out several bags at once.
+
+Which method actually finishes sooner? And can the one with fewer weighings still lose?
+
+I'll make the conditions visible before showing any result. This is a mathematical model. I haven't weighed actual bags. Seven bags are exactly 120 grams each. The incomplete bag is exactly 110 grams because the missing chocolate accounts for ten grams. There is no packaging variation or scale error. I use a digital scale that reports the combined weight of whatever I place on it. Both methods begin with eight labeled bags in the same positions. For our first round, the incomplete bag is number six.
+
+Method A is the one I'd use if I were distracted at the kitchen counter. Weigh the first bag. If it's 120 grams, set it aside. Keep going in order. The first reading is normal, and so are the second, third, fourth and fifth. Number six reads 110. I've found the missing chocolate. I never needed to lift number seven or eight.
+
+Six scale readings, six times placing a bag on the platform. That's our first actual result within the model. When I say six placements, I count each bag being moved onto the scale for a test. Removing it is included in that modeled handling action, rather than charged as a separate move. I use the same rule for both methods.
+
+Method B looks less direct, but it takes advantage of what I already know: there is exactly one missing chocolate. If four bags together have their full expected weight, none of those four can be the incomplete one. I can eliminate them without checking each individually.
+
+I reset the positions. First, I put bags one, two, three and four onto the scale. Four times 120 is 480 grams. The screen reads 480. They're all good. The incomplete bag must be somewhere among five, six, seven and eight.
+
+I remove that first group and weigh five and six together. Their expected weight is 240. The reading is 230. I've narrowed the search to those two. Finally, I weigh number five alone. It reads 120. Number six must be the incomplete bag.
+
+That took three readings. It took seven bag placements: four in the first group, two in the second, and one in the last test. So B beats A by three readings, but A beats B by one placement. We have a real tradeoff inside the model, not a trick about making the bags different.
+
+If my only metric is the number of times I have to read the scale, B wins. The first reading cuts the candidates from eight to four, the second from four to two, and the third from two to one. I didn't need to tell the scale which bag was wrong. I only needed the combined total.
+
+But imagine I am actually moving bulky party bags. Moving four together could take longer than reading one result. If I call fewer scale readings the same thing as faster completion, I've silently assumed that reading is expensive and handling is cheap. Let's price both actions openly instead.
+
+In the first timing model, each scale reading takes eight seconds to settle. Placing one bag on the scale, including the modeled removal, costs one second. With method A, I pay for six readings and six placements: 48 plus six, or 54 seconds. With method B, I pay for three readings and seven placements: 24 plus seven, or 31 seconds. Grouping wins by 23.
+
+These are stipulated costs, not stopwatch measurements. The bags and their weights are the same in both trials. The numbers tell us what follows from the rule, not how every real scale behaves.
+
+Now I switch the cost of the two actions. Suppose the digital scale reports immediately in one second, but carrying a bag to and from it takes eight seconds. A costs six for its readings and 48 for its placements, 54 total. B costs three for readings and 56 for placements, 59. I've changed no bag, weight, or hiding position. The supposedly clever grouped method is now five seconds slower.
+
+Here's the exact dividing line. Call the cost of one reading r and the cost of moving one bag p. Method A costs six r plus six p. Method B costs three r plus seven p. Grouping saves three readings but adds one placement, so it is faster exactly when three r is greater than p. If they are equal, the two methods tie. There is no mystery once I name the expensive step.
+
+The hiding position matters too. Our first run put the missing chocolate in bag six. Now I imagine it in bag one, and I reset both methods. A reads 110 immediately and stops after one placement. B still follows its three readings with seven placements. On the eight-second-reading, one-second-placement model, A takes nine seconds and B takes 31. This time the simple method wins decisively.
+
+Try the opposite end. If bags one through seven are complete and only bag eight is light, method A doesn't need an eighth reading. Knowing there is exactly one faulty bag, I can infer the last one after seven normal measurements. That makes A's worst case seven readings, not eight. B still needs three readings and seven placements.
+
+If all eight hiding places are equally likely, A takes one reading when the faulty bag is first, two when it's second, and so on, up to seven if it's seventh or eighth. Add those eight possibilities and divide by eight. The average is 4.375 readings and 4.375 placements. B always takes three readings and seven placements under these exact rules.
+
+Now the averaged answer is different from the answer for bag six. With slow readings and cheap handling, A averages 39.375 modeled seconds, while B stays at 31. Grouping has the lower average, but individual checking still wins for some early positions. With cheap readings and costly handling, A averages 39.375 while B takes 59. A wins on average.
+
+Even those averages have a hidden assumption: each bag is equally likely to be incomplete. If a real packing process tends to miss chocolates near the end of an assembly line, the average would change. I can't claim that distribution without data, so I don't give one here.
+
+What if I double the batch to sixteen bags? With the same split-in-half rule, B needs four readings. The groups contain eight, four, two and one bags: fifteen placements. A can need as many as fifteen readings, because it can infer the sixteenth after fifteen normal ones. Under a uniform hiding position, A averages 8.4375 readings. The reading advantage of B grows, but so can the handling work. For a big, awkward set of parcels, the physical setup starts to matter even more.
+
+There is also a condition no clever arithmetic can remove. The model assumes exactly one missing chocolate and uniform bag weights. Suppose the first seven weigh 120 grams and the last one does too. If I blindly trust the promise that one is short, I will falsely point to bag eight. The grouping method can make the same mistake. A final check, or a rule that allows zero missing chocolates, changes the task and the cost. It isn't fair to pretend we solved that harder task with the earlier measurements.
+
+Or imagine two chocolates are missing from different bags. A search that stops after finding one does not identify them both. A grouping rule designed for one missing bag does not magically certify the rest. The new task needs a new decision tree and a new comparison. Real packaging also varies in weight and real scales have limits; I would have to measure those limits before trusting the result.
+
+So I finish with two answers rather than a fake universal champion. For eight perfectly standardized bags with the missing chocolate in number six, grouping needs three readings to A's six. If reading is slow, it's quicker in our timing model. If moving the bags is the costly part, individual checking is quicker. Across unknown positions, I have to specify the distribution and the metric before choosing.
+
+The real lesson isn't that sorting, searching or grouping always wins. It's that every shortcut saves one kind of work and may add another. Before I start again, I look at the same eight bags and ask what part of the job actually takes time.

@@ -1,0 +1,27 @@
+I've packed eight identical gift bags for a party, at least in my drawing. One has no chocolate inside. I want to find it without opening the whole set. Should I put the bags on the scale one by one, or weigh several together?
+
+Before we pick a side, here are the honest rules. This is an exact arithmetic model, not footage of a physical experiment. A complete bag weighs 120 grams, the incomplete bag weighs 110, and the scale reports the combined weight without errors. I know exactly one chocolate is missing. Every bag starts in the same position for both methods. I'll hide the incomplete one at number six.
+
+I'd be tempted to weigh them individually. I don't need to think ahead, and each result has an obvious meaning. Bag one says 120. So do bags two, three, four and five. Number six says 110. That's method A: six readings, with six individual bag placements. No need to touch bags seven or eight.
+
+Now I put everything back for method B. Instead of asking whether this particular bag is wrong, I ask whether the wrong one is in this half.
+
+I place bags one through four on the scale together. Four complete bags should weigh 480 grams. They do. So the missing chocolate must be in the other four.
+
+I divide those four again. Bags five and six should weigh 240 together. They read 230. Now I have only two suspects. I weigh bag five: 120. It's fine, and number six is the one I need.
+
+If our score is simply the number of scale readings, B wins three to six. That sounds like the end. But watch what happened while I was using the scale. Method A put six bags onto it, once each. Method B put four bags on, took them off, then put two on, and finally one. Seven placements in all.
+
+I gained three fewer readings but spent one extra bag placement. Does that matter? It depends on what each action costs.
+
+Let's give each scale reading eight seconds, as if it takes time to settle, and give each bag placement one second. Method A takes six times nine, or 54 modeled seconds. B takes three readings at eight seconds, plus seven one-second placements: 31 seconds. B wins by 23.
+
+I reset the same case. No chocolate moves. Now imagine a scale that reports a result almost instantly, but the bags are awkward to move. Each reading costs one second and each placement eight. A still costs 54 seconds. B now costs three plus 56, or 59. A wins by five.
+
+That reversal doesn't prove one kitchen method is better. It proves that the first score left out a real kind of work. If one reading costs r seconds and one placement costs p, A costs six r plus six p. B costs three r plus seven p. For this exact bag position, grouping wins only when three r is greater than p.
+
+There's one more catch. The incomplete bag was number six. If it were number one, A would find it in a single reading. B would still take three. If it were the last bag, A could infer that it's bag eight after seven normal readings, while B still takes three.
+
+So I have a clear answer, but not a universal winner. For number six, grouping reduces readings and can save time. For an early bag or expensive handling, individual checks can be better. And if the scale isn't exact, or more than one chocolate is missing, I'd need a different test.
+
+Eight bags, one chocolate, two honest methods. What wins isn't the prettier strategy; it's the one that matches the job I'm actually measuring.
