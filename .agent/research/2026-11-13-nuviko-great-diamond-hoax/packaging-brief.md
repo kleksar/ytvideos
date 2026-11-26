@@ -34,3 +34,8 @@ No storyboard, artwork, final title, thumbnail, audio, measured first proof time
 ### 2026-11-22 · 10m planning update (no images)
 
 For the revised 10m, opening promise is a practical decision about trustworthy evidence: real bag → Tiffany sample → Janin's surface check → King's test of *distribution and depth*. Visual order should follow the actual narration, notably the June 4 horseback field arrival, King's party following claim markers, damaged vs intact anthills, ten-foot empty trench, and final directors' second expedition. Recreate shot list from the exact new 10m hash EN `fefce974e5930fedc17fe62692e449d3c442b2c013a84f15c6fca7ea894cd5dc`; the old 16-shot Short-only storyboard is invalid for it. No visual sources, references, scene images or voice generated. `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+
+## 2026-11-26 current Short packaging (historical S001–S016 pointers above no longer apply)
+
+EN `a06b0f0b3e42e2f188cc01a792a4fb1f96b375ef0bfb4a104481616b8735814a`, RU `4af0d9a8ad71d1185033c21726a524534e9fd0df64a9a89fd097c24164fb22b3`. First proof: two men presenting genuine rough diamonds to a merchant. Promise: how real evidence persuaded investors to buy a fictitious field. Show the sample inspection, field visit and later survey as distinct events; final visual contrast is the cancelled share sale and the first pouch. No claim of a real mine, and no invented sale/amount on screen. Return to the opening bag only after the actual decision; exact frame/audio match remains UNVERIFIED. 05m remains recommended; revised chronology distinguishes London-purchased sample from Arnold's subsequent purchase. 10m unchanged. No artwork, media or visual reference verification performed.

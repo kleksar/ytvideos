@@ -7,13 +7,13 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 
 | Editorial target | Complete RU | Complete EN | Status |
 |---|---|---|---|
-| 2m / Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | Original 2026-11-13 source copied byte-for-byte; natural loop / AV unverified |
+| 2m / Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | Revised 2026-11-26; authorial text loop, independent/AV UNVERIFIED |
 | **5m / Long** | **[RU](variants/05m/script.ru.txt)** | [EN](variants/05m/script.en.txt) | **Authorial recommendation, not approval; independent review unverified** |
 | 10m / Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | Complete but weaker after field discovery; independent review unverified |
 
 **Why 5m:** it explains why authentic gemstones, Tiffany's sample estimate and Janin's field inspection each failed to establish provenance. King uses a different test: intact vs disturbed anthills plus the empty layer underneath. 10m adds legitimate survey/financial history but slows before King and after the collapse. Actual audio duration unknown.
 
-**Source, originals, review:** [research](research.md), [per-variant SHA-256 / 8-criterion reviews / story maps](story-review.md), immutable [original EN](script.en.txt) and [RU](script.ru.txt), [preliminary 02m-only storyboard](storyboard.md), [packaging hypotheses](packaging-brief.md), [handoff](handoff.md).
+**Source, originals, review:** [research](research.md), [per-variant SHA-256 / 8-criterion reviews / story maps](story-review.md), immutable [original EN](script.en.txt) and [RU](script.ru.txt), [historical root-only storyboard](storyboard.md), [packaging hypotheses](packaging-brief.md), [handoff](handoff.md).
 
 **Baseline:** PR #52 pre-revision `b340e3661d230d6c964cc21b5fa52999840c9b08`; variant first commit `ff8c9220618bc2f6d8e87dd1b58b080e751707e7`; no original source/approval/media/pin changed. Do not treat Git PR or authorial recommendation as an official master selection.
 
@@ -23,3 +23,16 @@ No official `ytv start` run, independent reviewer receipt, TTS, image generation
 ### 2026-11-22: 10m investigative-line rewrite
 
 The new [10m EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) pair now follows the **physical evidence chain** (June field visit → King survey team's cold search → disturbed anthills/deep trench → second inspection by directors), rather than extending retrospective explanation after the fraud is revealed. SHA-256 EN `fefce974e5930fedc17fe62692e449d3c442b2c013a84f15c6fca7ea894cd5dc`, RU `0ac9f83ce226b6a19875670c580d3ed15b1604b503e3e89b334d84551524625f` (1293 EN words); exact old root and 02m/05m copies remain untouched. New scores, limits and story map in [story-review](story-review.md#2026-11-22--substantive-10m-second-edition-new-exact-hashes). **05m remains the provisional recommendation**, no approval or production authorization. `EDITORIAL_CANDIDATE_UNREGISTERED`, reviewer/TTS and 10m storyboard UNVERIFIED.
+
+
+## 2026-11-26 — current 02m/05m revision (supersedes earlier candidate pointers)
+
+Baseline `b839e32021492edd5ef952e1725ea4e050e28af7`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). Historical root scripts and S001–S016 storyboard are retained, and 10m is unchanged. Current variants:
+
+| Target | Full texts | SHA-256 EN | SHA-256 RU | Words EN/RU |
+|---|---|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | `a06b0f0b3e42e2f188cc01a792a4fb1f96b375ef0bfb4a104481616b8735814a` | `4af0d9a8ad71d1185033c21726a524534e9fd0df64a9a89fd097c24164fb22b3` | 234/213 |
+| 05m | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | `170ea97a419520e74671f7b08fc5e5aeb2463563ea5436d72510b52fb93928b5` | `d3f20d3c6c4eb9987f72481a677773d6f0c64b74f8a7ee5fb4e789229b9974e1` | 625/531 |
+| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | `fefce974e5930fedc17fe62692e449d3c442b2c013a84f15c6fca7ea894cd5dc` | `0ac9f83ce226b6a19875670c580d3ed15b1604b503e3e89b334d84551524625f` | 1293/1131 |
+
+**Recommendation:** 05m Long (editorial only). The 02m now builds a real evidence chain, ends with a completed corporate decision and a question answered by the cold opening. 05m corrects the acquisition chronology; 10m still supplies the longest investigation and its pace costs. The 02m and 05m previous reviews/spans/timings do not transfer; independent review, actual timings, AV, live lease state and runtime/owner approval UNVERIFIED. Historical storyboard covers root only, not any current variant. No production authorized.

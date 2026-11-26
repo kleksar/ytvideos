@@ -1,4 +1,6 @@
-> **Exact-script dependency, rechecked 2026-11-17:** This S001–S016 preliminary storyboard belongs **only** to unchanged `variants/02m/script.en.txt` SHA-256 `bf7c7b8970faf1a2e7e14c14cd1761de35c5542a9f2409da16853fa7cabf5958` and matching RU `8b3b9c042856f97acee9b7338e299bc06ad12269636293ab4ced044aaacd6bc5`. The original `script.en.txt`/`script.ru.txt` bytes are preserved. **Do not use these spans, scene count, 9:16 shots, timings, or S001/S016 loop for the 05m/10m Long variants.** No Long storyboard exists. Actual audio/AV seam still UNVERIFIED.
+> **HISTORICAL ROOT ONLY — 2026-11-26:** The existing S001–S016 storyboard refers to immutable root scripts, not the revised 02m/05m or current 10m. Old 02m candidate survives at baseline `b839e32021492edd5ef952e1725ea4e050e28af7`. Do not use any of these spans or timing estimates for current variants.
+
+> **Historical exact-script dependency, 2026-11-17:** This S001–S016 preliminary storyboard belongs **only** to unchanged `variants/02m/script.en.txt` SHA-256 `bf7c7b8970faf1a2e7e14c14cd1761de35c5542a9f2409da16853fa7cabf5958` and matching RU `8b3b9c042856f97acee9b7338e299bc06ad12269636293ab4ced044aaacd6bc5`. The original `script.en.txt`/`script.ru.txt` bytes are preserved. **Do not use these spans, scene count, 9:16 shots, timings, or S001/S016 loop for the 05m/10m Long variants.** No Long storyboard exists. Actual audio/AV seam still UNVERIFIED.
 
 # Preliminary storyboard only — Nuviko History Short
 

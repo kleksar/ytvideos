@@ -136,3 +136,37 @@ This section supersedes **only** the historical 10m assessments above. Older 02m
 **Separate hard checks:** original source / protected exact root and 02m/05m bytes intentionally preserved; bilingual paragraphs align action, location, names, numbers, evidence strength and ending (authorial pass, independent **UNVERIFIED**); Long opening follows questions → immersion → main test and does not require a loop; narrative fact checks per source ledger **AUTHORIAL** with uncertainty; ChannelSpec Nuviko History Long 16:9 is supported; target 10 minutes is estimated, actual TTS is **UNVERIFIED**; independent blind reviewer/EN-RU reviewer **UNVERIFIED**; storyboard for new 10m hash **NOT CREATED**, previous 02m storyboard not reused; audio/MP4/AV/audience metrics/approval **UNVERIFIED**. Git-only `EDITORIAL_CANDIDATE_UNREGISTERED` remains, without a receipt or runtime pin.
 
 **Duration comparison:** 02m remains the concise fake-mine paradox with only essential verification; 05m gives the clearest two-expert/one-geologist escalation and full resolution. 10m adds *actual investigative stages and director countercheck*, giving documentary value rather than simply filling space. However, momentum may still drop **after Janin's favorable report and before the train encounter**. Recommend **05m Long** provisionally: its 619 EN words develop the central question with less delay. It is not owner approval; length and pacing must be verified on authorized voice output. A fresh reviewer must receive each exact text unprimed, can prefer 02m, 10m or reject all, and must author its own receipt. Next unresolved work: independent three-version comparison then an old unprocessed Long (e.g. #50), not another cosmetic pass here.
+
+
+## 2026-11-26 — current 02m/05m revision (supersedes earlier candidate pointers)
+
+Baseline `b839e32021492edd5ef952e1725ea4e050e28af7`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). Historical root scripts and S001–S016 storyboard are retained, and 10m is unchanged. Current variants:
+
+| Target | Full texts | SHA-256 EN | SHA-256 RU | Words EN/RU |
+|---|---|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | `a06b0f0b3e42e2f188cc01a792a4fb1f96b375ef0bfb4a104481616b8735814a` | `4af0d9a8ad71d1185033c21726a524534e9fd0df64a9a89fd097c24164fb22b3` | 234/213 |
+| 05m | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | `170ea97a419520e74671f7b08fc5e5aeb2463563ea5436d72510b52fb93928b5` | `d3f20d3c6c4eb9987f72481a677773d6f0c64b74f8a7ee5fb4e789229b9974e1` | 625/531 |
+| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | `fefce974e5930fedc17fe62692e449d3c442b2c013a84f15c6fca7ea894cd5dc` | `0ac9f83ce226b6a19875670c580d3ed15b1604b503e3e89b334d84551524625f` | 1293/1131 |
+
+**Recommendation:** 05m Long (editorial only). The 02m now builds a real evidence chain, ends with a completed corporate decision and a question answered by the cold opening. 05m corrects the acquisition chronology; 10m still supplies the longest investigation and its pace costs. The 02m and 05m previous reviews/spans/timings do not transfer; independent review, actual timings, AV, live lease state and runtime/owner approval UNVERIFIED. Historical storyboard covers root only, not any current variant. No production authorized.
+
+### Exact current story maps / visual intent (paragraph spans, not a storyboard)
+
+02m P1–3: merchant, investors, sample; P4: distinct field inspection and revelation; P5–7: survey motive, disturbed anthills, barren trench; P8–10: returned findings, halted sale, second inspection, dissolution, causal return to pouch. Visual contrast between surface stones and deeper soil; no fake archival label. 05m P1–6: questions, context, pouch/sample; P7–11: corrected purchasing chronology and field inspection; P12–17: survey, physical clues and explanation; P18–20: decision and restitution limit. 10m retains the 2026-11-22 investigation map and unchanged exact hashes.
+
+### Authorial assessment of current complete texts (not independent)
+
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest/significance | 8 — genuine evidence and fictitious asset; stakes emerge after opening | 8 — explains two failed expert checks | 8 — deeper institutional reversal, more names |
+| Opening | 8 — concrete bag, location withheld; less immediate paradox than root | 8 — three specific evidence questions; anthill mentioned early | 8 — audience investment question, early verdict |
+| Development | 8 — field approval, different survey test, second inspection | 8 — corrected purchase order, field evidence, board decision | 8 — more investigative steps, delay before King's arrival |
+| Payoff | 8 — actual sale halted, company dissolved | 9 — provenance answer and limited recovery | 8 — second inspection adds confirmation, closing repeats distinction |
+| Freshness | 7 — evidence-based scam rather than fake gem | 7 — same familiar history with distinct checks | 8 — dealer and board process add angles |
+| Visual expression | 8 — bag, surface and intact/disturbed mounds, trench | 8 — same plus train and company meeting | 8 — wider survey settings, some procedural scenes |
+| Natural speech | 8 — concrete roles/actions; final rhetorical return is deliberate | 8 — generally clear, appraiser names and contrast may slow | 7 — several long explanatory passages, repeated provenance distinctions |
+| Verified audience demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Confidence medium for authorial text observations, medium-high for specific corroborated historical events, none for measured interest. At 02m P3 (valuation) interest may drop without a visible field check; 05m P7–8 (London/second trap) is the slower transition; 10m P12–18 (Janin visit, fees and train encounter) costs time. 02m→05m adds why inspection failed and financial consequences; 05m→10m adds distinct survey trip, dealer leak and directors' recheck, with longer procedural passages. Recommend 05m, not approval. No artificial extension to fill duration: estimated 120–145 spoken EN words/min before actual voice calibration, 10s end-screen for Long per current profile; exact narration/pause duration UNVERIFIED.
+
+Hard checks: authorial claim and semantic-parity check on 02m/05m (same order, sample valuation, date, depth rounded, corporate decision); 10m unchanged historical review remains applicable only to same hash. Short text full double-cycle authorial check: closing question follows the completed outcome and is answered by the first concrete action; cold opening independently identifies actors, evidence and claim. EN seam: “What had persuaded the investors in the first place?” → “Two prospectors showed a San Francisco businessman a bag of genuine diamonds.” RU: «Что же убедило инвесторов с самого начала?» → «Двое старателей показали предпринимателю в Сан-Франциско мешочек с настоящими алмазами.» This is not a new withheld answer. Independent full double-read and actual AV seam UNVERIFIED. Current ChannelSpec supports Short and Long; no new format or profile changes. Runtime registration, approval, reviewer and external leases UNVERIFIED. Prior root/spans remain historical; no new detailed storyboard until selected exact master. No media or software test claimed.

@@ -123,3 +123,14 @@ Re-read Robert Wilson, *The Great Diamond Hoax of 1872*, Smithsonian Magazine (J
 | Board dissolution Nov 25 and newspapers Nov 26; Arnold settled with investor | Smithsonian directors and Arnold later-life paragraphs | No assertion all sums reimbursed, no proof of Slack arrest |
 
 No new demand/retention measurement; remains UNVERIFIED. One shared research preserved; scene and AV assertions not established by this ledger.
+
+
+## 2026-11-26 — 02m/05m chronology and payoff verification
+
+Re-read Robert Wilson, Smithsonian Magazine, June 2004, https://www.smithsonianmag.com/history/the-great-diamond-hoax-of-1872-2630188/ (Roberts office, London purchases, Tiffany appraisal, Janin inspection, Emmons field observations, directors' decision). Access 2026-11-26. Secondary reporting with mediated diary/memoir; original manuscript not independently inspected.
+
+- Roberts informed Ralston after the office visit; later investors sought a share. The short omits exact initial purchase totals and unknown private motives.
+- London purchase preceded the Tiffany appraisal; Arnold returned for more stones after the appraisal. Previous 05m misleadingly compressed this into a single post-appraisal trip by both men. Corrected EN/RU; no new claim about the first pouch's uncertain origin.
+- June 1872 Janin party found stones rapidly, then endorsed the field; later surveyors found actual gems and on the next day observed the disturbed anthill pattern. The trench result is specific to this investigation, not proof of a universal geological rule.
+- King's report preceded the cancellation of the proposed share sale, a second site inspection, and the dissolution vote. 02m now makes those separate verified consequences rather than jumping directly to dissolution. Prior payment is documented; no invented recovery total.
+- 10m facts and historical evidence unchanged. Demand, CTR, retention and independent audience response UNVERIFIED.

@@ -38,3 +38,18 @@ The old S001–S016 preliminary storyboard and all its scene spans belong **only
 ### 2026-11-22 · exact 10m re-edit, superseding previous 10m only
 
 Full [10m EN](variants/10m/script.en.txt) SHA-256 `fefce974e5930fedc17fe62692e449d3c442b2c013a84f15c6fca7ea894cd5dc` and [10m RU](variants/10m/script.ru.txt) SHA-256 `0ac9f83ce226b6a19875670c580d3ed15b1604b503e3e89b334d84551524625f` (1293 EN words) replace the earlier **unapproved 10m candidate**, not original root or 02m/05m. Full research claims and limits are in [research](research.md#2026-11-22-10m-claim-check); story map, eight criteria and changed hashes in [story-review](story-review.md#2026-11-22--substantive-10m-second-edition-new-exact-hashes). Recommended 05m remains unchanged; independent exact-hash comparison, runtime registration, owner approval, audio and Long scene spans not performed. For future local agent, fetch current branch, verify these exact hashes and canonical context/pins, use real `ytv start` only if appropriate and never mistake editorial Git text for official task result. Status `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+
+## 2026-11-26 — current 02m/05m revision (supersedes earlier candidate pointers)
+
+Baseline `b839e32021492edd5ef952e1725ea4e050e28af7`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). Historical root scripts and S001–S016 storyboard are retained, and 10m is unchanged. Current variants:
+
+| Target | Full texts | SHA-256 EN | SHA-256 RU | Words EN/RU |
+|---|---|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | `a06b0f0b3e42e2f188cc01a792a4fb1f96b375ef0bfb4a104481616b8735814a` | `4af0d9a8ad71d1185033c21726a524534e9fd0df64a9a89fd097c24164fb22b3` | 234/213 |
+| 05m | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | `170ea97a419520e74671f7b08fc5e5aeb2463563ea5436d72510b52fb93928b5` | `d3f20d3c6c4eb9987f72481a677773d6f0c64b74f8a7ee5fb4e789229b9974e1` | 625/531 |
+| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | `fefce974e5930fedc17fe62692e449d3c442b2c013a84f15c6fca7ea894cd5dc` | `0ac9f83ce226b6a19875670c580d3ed15b1604b503e3e89b334d84551524625f` | 1293/1131 |
+
+**Recommendation:** 05m Long (editorial only). The 02m now builds a real evidence chain, ends with a completed corporate decision and a question answered by the cold opening. 05m corrects the acquisition chronology; 10m still supplies the longest investigation and its pace costs. The 02m and 05m previous reviews/spans/timings do not transfer; independent review, actual timings, AV, live lease state and runtime/owner approval UNVERIFIED. Historical storyboard covers root only, not any current variant. No production authorized.
+
+Use the current table, not the historical Short command or prior hash. On authorized runtime check existing run/leases/pins first; attach variants and review via existing contract and obtain genuine independent exact-text review and owner choice of one master. No runtime capability in this Git-only pass.
