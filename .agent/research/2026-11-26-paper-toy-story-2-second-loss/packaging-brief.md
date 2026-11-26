@@ -1,0 +1,6 @@
+# Packaging brief (proposal)
+Recommended 05m EN SHA-256 ee04da19e7fb6219dfa189940a15be32e337a29bc97c1bb87b557004705f8917.
+Title A: Pixar Saved Toy Story 2. Then It Started Over.
+Title B: The Computer That Saved Toy Story 2 — Before Pixar Rebuilt It.
+Thumbnail A: full-frame handmade paper Volvo back seat, retro computer held with straps; large rounded paper text SAVED. THEN REMADE. B: paper studio desk, preserved drive and discarded boards, type TWICE LOST? Neither implies literal second deletion or completed film on the computer. No claim actual car photo or exact computer model. No protected character art, logo, film footage or audio absent clearance.
+05m questions link title to home machine and creative rejection; early first event shared project then disappearing files; main escalation false recovery. Payoff: restored project, then intentional overhaul, finished film. 02m starts on buckled computer; 10m introduces original home-video plan and theatrical quality. Paper traveler one restoration-room desk corner, not part of historical narration. Actual asset bytes, typography and reference review pending. Long endscreen 10s after complete payoff; verified related video/actual intro unavailable, exact bridge BLOCKER. No storyboard/prompts, TTS, images or MP4.
