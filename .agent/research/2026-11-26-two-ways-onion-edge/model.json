@@ -1,0 +1,44 @@
+{
+  "kind": "published_comparison_reconstruction",
+  "primary_metric": "relative droplet count, not absolute count or tears",
+  "source": "https://arxiv.org/html/2505.06016v1#S2.SS2",
+  "edge_comparison": {
+    "common": {
+      "sample": "peeled onion halves, Allium cepa; different onions averaged",
+      "blade": "similar steel blade wedge geometry",
+      "cutting_speed_m_per_s": 1.17,
+      "approximate": true
+    },
+    "A": {
+      "edge_tip_radius_um": 0.91,
+      "relative_count_index": 1
+    },
+    "B": {
+      "edge_tip_radius_um": 13.3,
+      "relative_count_index_up_to": 40
+    },
+    "index_rule": "normalize sharp endpoint to 1, multiply by reported upper ratio; no absolute count inferred"
+  },
+  "separate_speed_comparison": {
+    "edge_tip_radius_um_approx": 10.5,
+    "low_m_per_s": 0.44,
+    "high_m_per_s": 2.03,
+    "low_count_index": 1,
+    "high_count_index_approx": 4,
+    "do_not_multiply_with_edge_ratio": true
+  },
+  "independent_mechanics_test": {
+    "skin_on_to_off_peak_fracture_force_ratio_typical": [
+      2,
+      3
+    ],
+    "not_knife_comparison": true
+  },
+  "limits": [
+    "sample variation",
+    "not human tears",
+    "not combined factorial result",
+    "not new measured data",
+    "no actual AV simulation"
+  ]
+}

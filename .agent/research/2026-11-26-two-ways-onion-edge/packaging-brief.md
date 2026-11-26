@@ -1,0 +1,6 @@
+# Packaging — editorial ideas only
+Recommended exact 02m EN SHA-256 6bfe23b2d5b9ea5254f1cd1747502aae8aaf70e10739131e9691ece06b124f3c; RU b6160c0cf0268425829d93492940414dd6a7c48fb70b8aaa1d2622bf80f302b4.
+- Title A: Sharp vs Dull: Which Knife Sprays More Onion Juice? Visual: A cyan left sharp edge and B amber right blunt edge, both over comparable onion halves, macro cutaway. Opening immediately presents choice; payoff count ratio qualified “up to 40×”. No number on opening image if it spoils result.
+- Title B: Why a Dull Knife Makes Onion Juice Fly. Visual: pressure bulge beneath blunt edge and small escaping droplets; first action is edge comparison; answer pressure then rupture.
+- Title C: The Hidden Spray When I Cut an Onion. Visual: zoom from ordinary onion rings to microscopic edge and droplets; same promise resolved by two-stage release and count. More vague than A.
+Avoid “40× fewer tears”, “never cry”, “experiment I did”, and false footage. Audience: English household problem-solving, curious rather than fear-based. Original illustrated A/B visual concept, no external figures or reference bytes. Use actual brand refs after local retrieval. End screen/related video only if exact relevant asset available; no invented intro or links, no extra tail breaking loop. No media or detailed storyboard generated.
