@@ -1,0 +1,63 @@
+Can a checkout line that looks twice as long finish first? Can that better arrangement still make me, one particular shopper, wait longer? And is there any point at which the result disappears?
+
+I want to find out without pretending that I've timed real customers. So I'm building a small, completely specified model of a supermarket. One starting moment. Six shoppers. Two checkout registers. And two rules for who gets served next. The people, their baskets and the cashiers stay the same in both versions.
+
+I'll judge the result in three ways. First, when does the last person finish? That's my main measure of how quickly the whole group is cleared. Second, when do I finish? I'm shopper number six. Third, how much time do we all spend waiting before service, added together? Those clocks measure different things. If I wait until after the result to choose a clock, I can make almost any convenient story sound like a victory.
+
+Here are the invented service times. Shopper one has a large cart requiring five minutes of a cashier's attention. Shoppers two, three, four, five and six each have a small basket requiring one minute. This is not a claim that real carts take exactly those times. It's the particular uneven workload I want to put under a microscope.
+
+Both cashiers are equally fast. Everyone is present at time zero, no one else arrives, and each service takes the same amount of time no matter which cashier handles it. I leave out walking time, payment surprises and cashier breaks for now. If one of those assumptions changes, I will tell you before I use it.
+
+I draw method A on the left. There is one long line feeding both registers. The first waiting customer goes to whichever cashier becomes free next. If both are free together, the customer at the front takes the left one. Nobody gets to skip ahead.
+
+Method B has two shorter, independent lines. I assign shoppers one, three and five to the left; shoppers two, four and six to the right. Once assigned, they stay put. This rule is important. B is not an imaginary supermarket where people know the future and always pick the perfect checkout. It's the ordinary fixed-line arrangement applied to a known order of customers.
+
+Before I move the clock, what would you choose for the entire group? And if you were me, shopper six, would your answer change?
+
+I start with the long shared line. At minute zero the five-minute cart goes left. Shopper two takes the right register. I'm still standing toward the back of the common queue. From my position the arrangement looks awful. A long line, and a large cart blocking half the checkout capacity.
+
+One minute passes. Shopper two is done. Shopper three moves to the right. At minute two, shopper three finishes and shopper four takes over. At minute three, shopper four leaves and shopper five steps up. At minute four, shopper five is done. I finally take the right register.
+
+I finish at minute five. The large cart on the left also finishes at minute five. Every shopper is out at that point. No one had to predict which individual cashier would be fastest. As soon as the right register was available, it got the next waiting basket.
+
+Now I return every person to their exact initial position and apply B's two separate lines. Nothing has changed about the baskets or the workers. The difference is that the people behind the large cart can no longer move to the other cashier.
+
+On the right, shopper two finishes at minute one. Shopper four finishes at two. I reach the cashier immediately afterward and finish at minute three. If I were filming only my face and my watch, I'd call that an easy victory for B. I left two minutes earlier than in the shared line.
+
+But the left half is a different story. Shopper one uses the register until minute five. Shopper three, directly behind, cannot start until five and finishes at six. Shopper five starts at six and finishes at seven.
+
+Look at the right register after I leave. It has no customers from minute three onward. For two of those minutes, the left side is still blocked by shopper one. Then for two more minutes, shoppers three and five are checking out on the left while the right register remains unused. There is work waiting and a cashier with nothing to do. The separate-line rule prevents the two from meeting.
+
+The store's last shopper now leaves at minute seven. With A that happened at minute five. It's a two-minute loss for the group even though B made my individual trip two minutes faster. I didn't misread either timer. I asked them different questions.
+
+There is a second way to see it. In the common line, shoppers one and two start immediately. Shopper three waits one minute, four waits two, five waits three and I wait four. Add those waits: zero plus zero plus one plus two plus three plus four makes ten customer-minutes. Split equally over six people, the average is one minute and forty seconds.
+
+In the separate lines, shoppers one and two again start immediately. But shopper three waits five minutes. Shopper four waits one. Shopper five waits six. I wait two. That makes fourteen customer-minutes, or two minutes and twenty seconds per person on average. I might have won my own race, yet the group waited more.
+
+Notice what I am and am not claiming. The model measures time before service and time when service finishes. It says nothing about how happy a real customer feels in a long-looking line, whether one layout needs more floor space, or whether a worker behaves differently when the line reaches their own counter. Those questions need different evidence.
+
+The shared line also changes service order. The first six customers start in arrival order: one and two, then three, four, five and six. In the split layout, customers two, four and I all get served while people who arrived before us remain stranded behind the large cart. That can feel lucky when I'm the one going early. It can feel very different when I'm shopper five.
+
+But maybe this example was rigged to favor a shared line. I chose one five-minute cart and five tiny baskets. That's a fair objection. So I keep exactly the same order, the same two layouts and the same fixed-line assignments, but shorten the large cart to three minutes.
+
+With method A, the right cashier serves shoppers two, three and four in the first three minutes. Both registers become free at minute three. The remaining shoppers five and six finish at minute four. All six are out by four.
+
+With B, shoppers three and five still have to wait their turn behind shopper one on the left. That line ends at minute five. The right line ends at three. So A still wins, but only by a minute. I personally finish at minute four with A and at three with B.
+
+Now make the first cart take two minutes. In A, the last basket finishes at minute four. In B, the left line also ends at minute four, with the right ending at minute three. For the main group-finish measure, it's a tie. Under that assumption the shape of the line has stopped helping the final customer, even though my personal result still differs.
+
+Finally, let every single basket take exactly one minute. Two identical cashiers can serve two people per minute, so both layouts clear six customers in three minutes. The moment of completion and my own finish time are the same. It would be dishonest to claim the common line wins in that case.
+
+What changed between those runs wasn't the number of customers or workers. It was the imbalance between jobs. With one exceptionally long service, two independent queues can leave the wrong people stranded. When every job is equal and the lines are evenly loaded, that particular trap disappears.
+
+I want one more check, because order matters too. I restore the five-minute service, but give it to shopper five rather than shopper one. Everyone else now takes a minute. In the shared line, both cashiers clear the first four shoppers by minute two. Shopper five starts a long checkout on the left while I use the right register from minute two to three. The slow checkout ends at seven.
+
+In B the first four shoppers also finish by minute two. Shopper five is next in the left line and remains there until minute seven; I finish on the right at minute three. Both layouts now end at minute seven. The large cart didn't disappear. It simply arrived at a point in the ordering where neither system had waiting customers trapped behind it. That's why I won't generalize from one spectacular arrangement.
+
+And there is another limit outside this drawing. In a physical store, customers must notice an open register and walk to it. In some layouts that distance is longer from a common line. Cashiers may speed up or slow down when they have their own visible queues. Real shopping times vary. Under certain realistic delays, separate queues can even beat a shared queue. None of that contradicts my fixed six-customer calculation. It changes the assumptions.
+
+So what should I actually take away when I go shopping? I shouldn't see one long shared queue and automatically assume it is slow. It may protect the whole group against being trapped behind one unusually long checkout. I also shouldn't promise myself that joining that queue will always save my own time. In this model I personally did better in a separate line.
+
+Method A won the original group finish: five minutes instead of seven. Method B won for me: three minutes instead of five. When all the jobs became equal, neither method won. And when I moved the slow cart later in the order, the group finish tied again.
+
+That's the answer to all three questions. The line's appearance alone didn't choose the winner. The result depended on the exact customers, the service order, and, above all, which clock I said I cared about before the race began.
