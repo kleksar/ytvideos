@@ -1,0 +1,73 @@
+I have four USB-C cables and four devices. Every connector fits. Yet after I plug in the last cable, my monitor is still dark.
+
+The obvious answer is to buy another cable. But I'm going to try something cheaper first: change the order in which I use the cables. I want to know whether a device-first habit can waste a capability that another device has no way to replace.
+
+To keep this fair, I'm not filming a real electronics test. This is a labeled, illustrated desk model with an explicit compatibility table. I choose two policies, reset the desk between them, and count the number of devices working after one pass. No swapping before the score. The numbers are counts of model outcomes, not measured charging speeds.
+
+There are four jobs. I want my phone charging, my laptop receiving enough power for the defined job, an external drive transferring files, and a monitor showing a picture. I have one cable per job, but that doesn't mean every one-to-one assignment works.
+
+Think of four cards lying left to right. Card V is a video-capable USB-C cable that also carries the fast data and power required in this scenario. Card H is a high-power cable with no display function. Card D carries the drive's necessary data but not display video. Card B supports ordinary charging. For the example I put them down in the order V, H, D, B.
+
+Here's the compatibility test before anything happens. My phone can charge through V, H, D, or B. My laptop's specified power requirement works through V or H. My drive's data requirement works through V or D. My monitor's video requirement works only through V. I assume the actual computer ports, power bricks, and devices support these functions; otherwise even a good cable might not help. These are stipulated properties of four imaginary labeled cables, not claims about every cable on sale.
+
+At first glance, the phone seems like a good place to begin. It is right beside me. It should be easy. And that's why the first policy looks so reasonable.
+
+Method A means I connect my normal list in order: phone, drive, laptop, monitor. Each time, I scan the row of cables from the left and take the first compatible one that hasn't been used. I do not deliberately save any for later.
+
+Method B means I change only the order of the jobs. I start with the device that has the fewest cable options, then the next fewest, and leave the easiest until last. I still scan the exact same cable row from the left. No extra cables, no different ports, and no second chance.
+
+If you had to choose without seeing the outcome, would you trust the convenient order or the fussy one? I want an answer measured on the same starting desk, not a story about which policy sounds smarter.
+
+Let's do A. My phone is first. All four cables could power it, so the scan grabs V, the first one. The phone charges. One success.
+
+Now the external drive. The V cable is occupied. H cannot do the required data job in this model. D can. I connect D and the drive works. Two successes.
+
+Next is the laptop. V is gone, D is gone, and H is the high-power cable still available. Three successes.
+
+Finally I reach the monitor. The only cable left is B. It can fit into the same-shaped socket, but the picture requires a video path that B does not provide. The screen remains dark. My first-pass score is three working devices out of four.
+
+Notice what did not happen. I didn't break the monitor, forget a cable, or use the wrong socket shape. I used the best cable on the least demanding device. By the time I met the only device that demanded video, that single capability was gone.
+
+I can fix it, though. This is important because the first result could otherwise sound more dramatic than it is. The phone doesn't need V. I unplug V from the phone and B from the monitor, then exchange their assignments. The phone charges on B and the monitor displays on V. Now everything works.
+
+So why even compare these methods? Because I promised a first-pass score with no swaps, not the final result after as many corrections as I like. On a real desk, cables may be tied behind furniture, and undoing a finished connection can be a nuisance. I have not measured that nuisance. I am simply tracking how many connections needed correction in this defined arrangement.
+
+I reset the four cables to V, H, D, B and disconnect every device. No hidden advantage carries forward.
+
+For method B, I write the number of possible cables beside each job. Monitor: one. Drive: two. Laptop: two. Phone: four. The two middle jobs tie, so for this model I choose laptop before drive; either order can still work with H and D available.
+
+The monitor goes first and takes V. That removes the one choice nobody else can replace for it. The laptop then takes H. The drive takes D. The phone takes B. They all work. The score is four out of four.
+
+That is the first payoff. With the same four cables, the order of jobs changed the outcome from three successes to four. This is a tiny version of a much broader problem: matching flexible resources to tasks with different constraints.
+
+But does that make method B the universal winner? Not yet. A fair comparison needs a counterexample, not only the one arrangement where my favorite policy shines.
+
+I leave all four jobs and all four cables unchanged, but rearrange the rack. Now the left-to-right order is B, D, H, V. The method A rule stays exactly the same: phone, drive, laptop, monitor; first unused compatible cable each time.
+
+The phone gets B. The drive ignores the remaining unsuitable charging option and gets D. The laptop gets H. The monitor is left with V. Four working devices. Method A ties method B in this second arrangement, four to four.
+
+That reveals the real weakness of the first experiment. A wasn't automatically bad. Its outcome depended on which cable happened to sit first when the least demanding job arrived. The first result is a counterexample to blind first-fit assignment, not evidence that everyone who plugs in a phone first will fail.
+
+Let's test the other boundary without changing the type of problem. I remove V from the available set and put a second basic cable in its place. There are still four cables on the table. Three devices can use appropriate charging or data cables, but the monitor's video requirement is supported by none.
+
+A cannot light that monitor. B cannot light it either. Even if I search every possible arrangement, there is no video-capable cable to assign. At most three of the four jobs can succeed. A smarter order does not create missing hardware.
+
+This also explains why I cannot turn a compatibility grid into a real-world purchasing recommendation by itself. On actual USB-C devices, the same connector shape can hide differences in supported data, power, and display functions. The laptop or desktop port must support the display feature too; some docks and adapters impose their own requirements. Power delivery also depends on the source and device, not just the label on one lead.
+
+I'm using a tidy table because I want to isolate a decision problem. If the labels are unknown, method B has an extra preliminary task: identify the cable capabilities. That might mean reading markings, checking specifications, or testing connections. I haven't assigned a time cost to that. I cannot claim B always saves minutes.
+
+Now consider another practical objection: why does it matter which assignment happens first if swaps are permitted? It may not. With unlimited swaps and the original four capabilities, either order can end in the same perfect arrangement. The advantage of B is avoiding the specific bad first assignment. That is different from proving it can solve a fundamentally impossible set of requirements.
+
+Think about the desk from the other direction. Instead of asking, “Which cable can my phone use?” I ask, “What happens if I spend this cable here?” Giving V to the phone consumes a possibility shared by four jobs. But it destroys the only remaining possibility for the monitor. Giving B to the phone consumes something the monitor could never use anyway.
+
+A limitation can make a device urgent without making the device itself more important. My phone may matter more to me than the monitor. I can still satisfy it last because it has more acceptable choices. If a task has a true priority deadline, or if two devices cannot operate simultaneously, that would be a different model and might require a different ordering rule.
+
+There's another subtle point. I didn't prove that blindly sorting devices by the number of options always produces the optimal matching in every complicated problem. In a larger set, a greedy choice can block another choice even after I've started with a constrained device. My four-item table was checked specifically; this is not a theorem about all networks of jobs and tools.
+
+What I can verify for this desk is concrete. With V, H, D, B in that order and no replugging, A connects the phone with V and ends three of four. B reserves V for the monitor and reaches four of four. Reversing the cable row lets both methods reach four. Removing video capability means neither can reach four. Each claim follows from the same declared table, with the changed condition stated before its result.
+
+For me the most useful moment is not the dark screen. It's the instant before plugging anything in, when every cable is still free. My phone offers four choices; my monitor offers one. Reading that difference costs no magic, and it tells me which cable I should stop wasting.
+
+On a real desk I would still inspect the actual device and port specifications, and I would never assume a wire can carry video just because both ends fit. But when the capabilities really are known, I can avoid a needless replug by assigning the scarce function first.
+
+The setup is finished, the screen is on, and the extra cable never existed. All I changed was who got the first choice.
