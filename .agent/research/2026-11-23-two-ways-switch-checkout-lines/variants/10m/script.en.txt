@@ -1,0 +1,57 @@
+Why does a checkout line that looks faster sometimes leave me in the store longer? When should I actually change lines? And what if I care less about the average wait than about making it out before a deadline?
+
+I am standing with a small basket. There are two shoppers ahead of me at my register. At the next register, there are four. I choose the shorter line.
+
+Then the person at the other register walks away with a bag. The next shopper moves forward. My line has not finished even its first customer. I catch myself looking for a gap through which I could move.
+
+That feeling is the question for this test. I am not measuring a real supermarket. I am drawing a deterministic model with fixed service times, and asking which of two actions gets me to the exit first. I can change assumptions in later rounds, but I will announce every change. The choices are always the same: A, keep my place; B, leave it and join the end of the other queue.
+
+Before anything starts, I need a clock that belongs to the whole scene, not two separate clocks edited to favor one choice. Both registers open at zero. No new shoppers arrive in the first round. Each cashier handles one customer at a time without interruption. My own basket takes forty-five seconds at either register.
+
+At my register, the first shopper takes ninety seconds, the second sixty. The other cashier has four shoppers, forty seconds each. These are deliberately simple service times, not a claim about how fast any particular store works. I can reproduce every result with a pencil.
+
+At the instant I join, the longer-looking queue already has less time per person. Four times forty is one hundred and sixty seconds. My two shoppers need ninety plus sixty, or one hundred and fifty. So if I were choosing between those positions at the very beginning, staying in my short line would still be faster by ten seconds.
+
+But the uncomfortable moment comes later. At forty seconds, the other cashier finishes one shopper. Mine is still working. At sixty seconds, that cashier is halfway through the second shopper. My first shopper still has thirty seconds left. I have watched clear evidence that the other line is moving.
+
+Pause the two clocks there. Which choice wins if I act now?
+
+I can make the mistake of comparing who has already gone through. The other cashier has served one whole person; mine has served none. But those people are behind me in time. I cannot collect the other line's earlier progress if I join it now. I join behind everyone who is still waiting.
+
+So I count what remains. In my line the current shopper has thirty seconds left and the next shopper needs sixty. Ninety seconds before my turn. Add forty-five for my own purchase: one hundred and thirty-five seconds from this decision point. Add the sixty already elapsed and my finish is one hundred and ninety-five seconds after the initial start. Three minutes and fifteen seconds.
+
+Now reset the drawing to that same sixty-second moment. In the other queue, shopper number two has twenty seconds left. The third and fourth have forty seconds each. That is one hundred seconds before me, plus my forty-five. My checkout finishes at two hundred and five seconds after the original start. Three minutes and twenty-five seconds.
+
+The line that made the first visible move leaves me ten seconds later. My choice isn't between a fast picture and a slow picture. It is between two different amounts of work still in front of me.
+
+I also drew a five-second walk across the aisle. Should I charge those five seconds to the switching option? Not automatically. The other cashier keeps working while I walk. If I reach the end of that line at sixty-five seconds, the cashier still has ninety-five seconds of work before my turn. I wait there until second one hundred and sixty, then pay for forty-five seconds. My exit is still at two hundred and five. Adding five seconds again would count the walk and part of the existing wait twice.
+
+My original line is ten seconds ahead. If anything adds exactly ten seconds to the people before me, the two finish times tie. If an extra delay is longer than ten seconds, switching is the faster option—provided nothing changes next door.
+
+For the next round I explicitly change one condition. The second shopper in my original line needs an additional twenty-five seconds for a price check. I am not claiming a price check occurred in a real shop. I am introducing a known extra task to both possible versions of this model.
+
+If I stay, the extra twenty-five seconds pushes my exit from three fifteen to three forty. If I switch, the price check happens at the register I leave, and I still finish at three twenty-five. Now switching wins by fifteen seconds.
+
+To see why uncertainty matters, I can attach an entirely hypothetical probability to that twenty-five-second delay. Suppose it happens one time in four, and nothing else changes. In those four equally weighted examples, I lose twenty-five extra seconds only once if I stay. That makes the expected extra wait six and a quarter seconds. My expected finish in the model becomes just over three minutes twenty-one seconds. Switching is still three twenty-five. On that invented distribution, staying has the better average.
+
+Now suppose I assign the delay a one-in-two chance instead. The expected extra wait in my line is twelve and a half seconds. My expected finish moves to three minutes twenty-seven and a half seconds. The other register remains at three twenty-five. Now switching has the better expected time.
+
+The exact crossover occurs when my assumed chance of a twenty-five-second delay exceeds forty percent. Ten seconds of disadvantage divided by twenty-five seconds of possible delay. That is arithmetic, not a measured probability of price checks. I don't know that probability for a real register. Anyone who announces that I should always switch based on these numbers is treating a fictional input like evidence.
+
+And an average is not the only possible goal. What if I need to be out of the store by three minutes and thirty seconds?
+
+With no price check, both choices make it. If that twenty-five-second check happens in my original line, staying leaves me at three forty and misses the deadline. Switching leaves at three twenty-five and makes it. Someone who cannot risk being late might reasonably prefer the second line in this particular model, even when the average calculation favors staying. That is a different metric, chosen before seeing the result.
+
+But switching has its own risk. Let's return to the original no-delay round, and change a different condition. I start moving toward the next register at second sixty. The walk takes five seconds. At second sixty-three, before I arrive, another shopper joins that other line with a forty-second basket. This arrival is part of a separate announced scenario; it was absent from the first two rounds.
+
+That new customer is now ahead of me. The four original shoppers finish at second one hundred and sixty. The newcomer finishes at second two hundred. I finish at second two hundred and forty-five: four minutes and five seconds. My original queue would have finished at three fifteen. The move costs me fifty seconds compared with staying.
+
+If the newcomer arrived at second sixty-seven, after I had joined the other queue, they would be behind me instead. They wouldn't change my own completion time. This is why the precise ordering of arrivals matters. It is not enough to count five people in a still image and guess who was first.
+
+What information can I actually use when I stand there? I can count the items I can see, not only the heads. I can notice whether a shopper is scanning or already paying. I can count where I would land after the move. I can notice a person joining ahead of me. None gives an exact time, but each describes remaining work better than the fact that someone else has just left.
+
+I also have to forget the wrong part of the past. My first minute in line is gone whether I move or stay. I shouldn't stay because I feel I have already invested it. I shouldn't leave just because I feel that minute was wasted. At second sixty, both decisions start from the same state. The only fair question is what happens from there.
+
+The bigger surprise is not that one cashier can be fast and the other slow. It's that the line which has just celebrated a finish can still have more work left than mine. I can observe its progress without confusing that progress with a place I own.
+
+So next time my eyes follow someone walking away from the neighboring register, I won't treat that as a command to move. I'll look at the people still there—and at where I would stand among them. The best decision is about the future work in front of me, not the customer who just escaped it.
