@@ -96,7 +96,7 @@ A fresh independent reader must get the exact selected EN text **without this ta
 
 
 ## 2026-11-26 — current revision (supersedes previous variant assessments and bindings)
-Baseline exact PR HEAD `46b7e5f79343c3e604c9284f76e690827f893d92`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged 2026-11-16). Original root EN/RU and historical storyboard preserved byte-for-byte. No owner approval or active production indicated in GitHub PR body/discussion/threads. External runtime leases/other sessions cannot be inspected: UNVERIFIED. No active reviewer request or exact-head CI underway at baseline. Git-only candidates only.
+Baseline exact PR HEAD `46b7e5f79343c3e604c9284f76e690827f893d92`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged 2026-11-16). Original root EN/RU preserved byte-for-byte; historical storyboard scene rows preserved, with binding header updated. No owner approval or active production indicated in GitHub PR body/discussion/threads. External runtime leases/other sessions cannot be inspected: UNVERIFIED. No active reviewer request or exact-head CI underway at baseline. Git-only candidates only.
 
 | Edition | EN SHA-256 | RU SHA-256 | EN/RU words |
 |---|---|---|---|
@@ -108,7 +108,7 @@ Baseline exact PR HEAD `46b7e5f79343c3e604c9284f76e690827f893d92`; canonical mai
 
 **05m** unchanged, strongest density: opening questions, underwater research, failed search and changed target, retrieval system, fog, three pickups, attributed intelligence result. No new storyboard or review.
 
-**10m**: the mission proposer now has a role, engineering prehistory moves closer to the actual pickups, and the repeated search becomes a causal thread. The verified 2008 painting and family disclosure are a second human payoff, not a generic final summary. EN/RU corrected exposed photographic film (not necessarily developed). Story spans (paragraphs, not a storyboard): 1–5 questions/why/men/exit; 6–10 device and target/funding/CIA; 11–16 drop, collection, failed return and reacquisition; 17–24 conditions and three retrievals; 25 intelligence result; practical conclusion expressed in earlier actions; 26 family epilogue. Actual storyboard required after selection.
+**10m**: estimated 7:36–9:11 at 120–145 EN words/min before pauses; actual ten-minute target is UNVERIFIED, do not stretch to force it. The mission proposer now has a role, engineering prehistory moves closer to the actual pickups, and the repeated search becomes a causal thread. The verified 2008 painting and family disclosure are a second human payoff, not a generic final summary. EN/RU corrected exposed photographic film (not necessarily developed). Story spans (paragraphs, not a storyboard): 1–5 questions/why/men/exit; 6–10 device and target/funding/CIA; 11–16 drop, collection, failed return and reacquisition; 17–24 conditions and three retrievals; 25 intelligence result; practical conclusion expressed in earlier actions; 26 family epilogue. Actual storyboard required after selection.
 
 | Criterion (author only, confidence medium unless noted) | 02m | 05m | 10m |
 |---|---|---|---|
