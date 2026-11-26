@@ -1,0 +1,15 @@
+# Packaging brief (proposal only) — five-minute Piltdown version
+
+Selected proposed master: `variants/05m/script.en.txt`, SHA-256 `11d89c9d56315e8b814fd52b7d0dde3624dd63d17b493ab13ccba0c848790eb3`. The scene plan and all promises refer **only to this hash**. Not a final thumbnail, not a production ReleaseSpec.
+
+- **Audience promise:** A famous “ancestor” was an orangutan jaw attached to human skull fragments. The pieces appeared to fit, but microscopic tooth marks and a second fossil site turned the evidence against the claimant.
+- **Truthful EN title candidate A:** “The Ancient Human Who Never Existed” — not an invented person; the subject is an exposed fossil hoax.
+- **Truthful EN title candidate B:** “One Fake Jaw Fooled a Museum for 40 Years” — “fooled a museum” is a broad approximation; early critics did object and that nuance must stay in voice.
+- **Thumbnail concept:** a paper-and-card museum display: large physical brown half-skull in one paper hand, separate dark orangutan jaw in another, magnifying lens revealing a filed tooth; short wide handmade paper letters “FAKE ANCESTOR”. One physical full-frame paper diorama with physical cut edges and authentic contact shadows (Paper PROFILE). Do not falsely depict a genuine archive photo or a real person's face. Artwork/typography references must be real byte assets before generation.
+- **First proof:** opening verbal three questions → physical 1912 gravel excavation and mismatched cranium/jaw → statement on tooth wear. No clickbait that the actor was personally witnessed filing the teeth.
+- **Main hook after immersion:** real scientists challenged the fit; the second supposed find made the claim seem more secure; later the same source became evidence of the fraud.
+- **Payoff:** the filed teeth, fake staining, human+orangutan mix and shared Piltdown I/II orangutan, carefully qualifying Dawson's role. Reveal by 1953 then turn again with 2016 common specimen.
+- **Visual rhythm:** Paper handmade scenes (not a linear list of old photographs): 1912 gravel field → meeting with table display → a two-site chart made from layered card → 1949 chemistry vials with simplified paper labels → 1953 magnification of tool marks → 2016 DNA/CT comparison on physical paper screens. Each future shot must independently justify a composition; no fabricated reference bytes or actual scene timing.
+- **Paper-plane cameo concept:** a small folded pale paper plane on a shelf in the proposed museum display (one shot only), using the verified real reference *when retrieved*. Reference PNG not present/inspected; shot ID not assigned until storyboard.
+- **Story-linked transition:** after the complete payoff, leave potential Long end-screen window. Relevant next *published* Paper video and its authentic moving intro currently UNVERIFIED; cannot claim a thumbnail, intro or clickable card exists. No automatic production.
+- **Rights:** archive pictures and 2016 paper figures were researched, **not licensed** for use. Real rights/provenance check required if replicated. No image/audio/video generated or uploaded.
