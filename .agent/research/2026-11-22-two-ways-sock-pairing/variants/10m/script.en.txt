@@ -1,0 +1,67 @@
+Is it worth sorting forty socks by color before matching them? I have two possible methods, and the one that looks tidier is not always the one that does less work.
+
+Picture my bed after a load of laundry. Forty loose socks. Twenty exact pairs. Five pairs are red, five blue, five yellow, and five green. Within each color, the pairs still have different little marks, so I cannot grab any two red socks and call them a match.
+
+I can go straight to pairing, which I'll call A. Or I can divide the whole pile by color before matching, which is B. I want to know which asks me to examine fewer socks. That is the announced score: identification looks, not minutes on a clock.
+
+This is a model with a written starting order. I didn't film myself doing either method. Both runs use exactly the same forty socks in the same order, and the rules never change midway through a comparison.
+
+With A, I take the first sock from the left. I look at it, then compare it with the remaining socks, one after another. As soon as I find the exact same mark, I remove the pair. I start again with the first sock still on the bed. I never secretly reshuffle the leftovers.
+
+The first sock is green, with the mark for pair twenty. Its match takes thirty-three comparisons to find. Including the original sock, that's thirty-four looks before I have even folded a pair. Next, a red sock needs thirty-one comparisons. I have two pairs, but already sixty-four checks of possible partners, plus the two starting looks.
+
+After that, some searches are much shorter. The pile keeps shrinking. I finish only after removing twenty pairs. The tally is twenty starting-sock looks and two hundred and twenty-one candidate comparisons: two hundred and forty-one looks.
+
+Now I reset the socks to the original order. For B, I start with four empty spaces: red, blue, yellow, and green. I inspect each of the forty socks once, then place it with its color. That uses forty looks before I have a single finished pair.
+
+Inside the red group are ten socks, but only five different marks. I run the same pairing rule within that group. I do it again for blue, yellow, and green. Fourteen comparisons for the red group, twelve for blue, nineteen for yellow, and fifteen for green. That's sixty candidate comparisons, plus twenty starting-sock looks and the forty color looks.
+
+B finishes at one hundred and twenty looks. A needed two hundred and forty-one. On this layout, B saves one hundred and twenty-one looks. Sorting the entire pile first costs something, but it prevents me from repeatedly scanning socks that are obviously the wrong color.
+
+At this point B looks like the easy winner. Then I change the question without changing a single sock.
+
+What if I don't need to clear the bed? I just need a pair to put on before leaving home.
+
+A finds its first pair in thirty-four looks. B has to sort all forty first. The first pair inside its first group costs another eight looks, so B reaches the first match at forty-eight. If my real deadline is to get dressed, A gives me a pair sooner. If my job is to put away all the laundry, B wins this particular comparison.
+
+Those are two different scores. I can't claim that B wins every definition of fastest just because it finishes the entire pile with fewer inspections.
+
+Now I bring back the original goal: clear the whole bed. I keep the original order, but look at smaller sets of complete pairs taken from that inventory.
+
+With one pair, A needs two looks. B needs four. There is nothing useful to sort.
+
+With four selected pairs, A needs thirteen looks and B twenty-one. Sorting still loses. With eight pairs, they tie at forty-six. With ten pairs, A needs sixty and B fifty-six. And with the full twenty, A needs two hundred and forty-one while B needs one hundred and twenty.
+
+Does that mean everyone should start sorting at pair number nine? No. It means the setup cost finally pays for itself at that point in this particular list. Change the order or the kind of socks, and the crossover can move.
+
+Here's a more severe change. I leave all twenty pair marks exactly as they are, and preserve the mixed order, but make every sock black. The colors no longer tell me which mark to search for.
+
+A's tally stays at two hundred and forty-one looks. For B, I still inspect forty socks to sort them. But all forty land in the same black group. Then I have to perform the same twenty starting looks and two hundred and twenty-one comparisons as A. B finishes at two hundred and eighty-one looks. A wins by forty.
+
+This is not the same as owning forty completely interchangeable black socks. If I can pair any two without checking a mark, the problem is much easier. In this test I deliberately keep twenty distinct pairs so that only the usefulness of color changes.
+
+I can also keep all the same marks and give the socks just two useful colors. In the fixed order B now needs one hundred and seventy-one looks. Four colors bring the count back to one hundred and twenty. If each pair gets its own color, B needs eighty.
+
+These are model results, not measurements of a human sorting speed. They demonstrate why categories help: a useful category excludes candidates before I start checking exact matches.
+
+But color isn't the only thing that can change the winner. Suppose the forty socks come out of the dryer already lying next to their partners: first pair together, second pair together, and so on. All four colors still exist. A now needs twenty starting looks and just twenty partner comparisons. Forty looks total.
+
+B still pays forty color looks before pairing, and it still needs those same forty matching looks afterward. Eighty. Same inventory, different starting arrangement, and A wins again.
+
+So I have two big reasons not to turn my result into a universal laundry hack. One is that the color groups may not eliminate any useful candidates. The other is that the pairs may already be easy to find without grouping them.
+
+There is also a problem with my score. A look is not a second, and looking at a color may be easier than reading a tiny mark. Moving socks into four piles takes time as well.
+
+In B I physically place forty socks into color groups before I finish pairing. Those are forty extra placements compared with A's direct path. The model counts the identification looks but not the time for those moves. If one saved look were worth one unit of time, B's advantage of one hundred and twenty-one looks would cover forty extra placements only if each placement cost less than roughly three such units.
+
+For example, pretend every look takes half a second. Then saving one hundred and twenty-one looks represents sixty and a half seconds. If an extra placement takes half a second, the extra handling costs twenty seconds and B still wins the hypothetical timed calculation. But if every placement takes two seconds, those same forty moves cost eighty seconds; A would finish first by nineteen and a half seconds under that different timing assumption.
+
+Neither set of timings was measured. They show why I cannot replace a stopwatch with a count and call it a real speed experiment.
+
+What would I do if I wanted to check this with actual socks? I'd photograph the starting layout, repeat it for both methods, count sorting moves as well as checks, and time several rounds. I'd switch which method goes first so practice doesn't always help the same side. I would report how much the result varies, not just my fastest attempt. That would be a different project from the model on this page.
+
+And there's another boundary: my forty socks include every partner. If one sock is missing, I cannot honestly say that either method successfully paired all twenty. I would have to change the completion goal and record the unmatched sock separately. I won't quietly invent a missing sock halfway through a run just to make the story more dramatic.
+
+What do I take from the model today? If I need one pair immediately, I start looking. If I'm clearing a large, mixed-color pile whose partners are hard to find, grouping by a useful visible feature can cut a lot of checks. If everything looks alike or is already lined up in pairs, I skip the sorting step.
+
+I began with two methods and one bed full of socks. The real choice was never between messy and neat. It was whether the work I spend organizing will save more work than it adds.
