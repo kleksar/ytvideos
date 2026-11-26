@@ -1,0 +1,99 @@
+# Story review — Nuviko History / Berlin Candy Bomber
+
+**Reviewer/method:** authorial editorial inspection of exact clean EN and paired RU text in this folder, on 2026-11-14. **NO** fresh independent session, no actual `sessions.independent` access or `ytv-script-review-v1`, no listener audio. Formal independent first listener: **UNVERIFIED**, official gate: **NOT PASSED**. Not a fabricated independent verdict.
+
+## Separately inspected dimensions
+
+- **Viewer interest — authorial PASS with objection:** opening is a physically understandable puzzle (parachuted chocolate over a blockaded city); the escalation from shared gum and identifiable aircraft to command approval and a national supply chain gives multiple reasons to continue. Strong objection: inspirational story has circulated before and may be familiar. Whether unfamiliar viewers actually continue: **UNVERIFIED**.
+- **Clarity — authorial PASS:** opening understandable cold, 1948 and Berlin blockade context follows promptly. Pilot, children, crew, officers and other crews distinct. `about twenty-three tons` means entire program, not one flight.
+- **Claim accuracy — authorial PASS limited to cross-checked source ledger:** two sticks, wrapper smell and sharing grounded in oral history reports; parachutes / wing signal / initial lack of permission / press discovery / higher approval / operation continued after pilot left / cumulative tonnage backed by museum, PBS and military reporting. No exact invented dialogue, inner motives or life-threatening peril. Visual staging is illustration, not source photography. Source-specific uncertainties in research.md. External confirmation beyond screened materials: **UNVERIFIED**.
+- **Natural oral speech — authorial PASS:** mostly direct actions, a true question that creates the wing-signal issue; varied lengths; removed an expository ending moral and redundant history tail. English intended to stand on its own, Russian translates same facts, quantity, sequence and caveats. Actual spoken performance and listener opinion: **UNVERIFIED**.
+- **Text loop — authorial PASS, independently NOT REVIEWED:** last EN literal: `When his plane rocked its wings,` followed immediately by opening `Chocolate floated down over West Berlin on tiny parachutes made from handkerchiefs.`. Last RU literal: `И когда самолёт покачал крыльями,` followed by `Над Западным Берлином на крошечных парашютах из носовых платков спускался шоколад.`. This is a continuous temporal cause/context clause into a visible effect and returns to the first drop only after the full 23-ton and succession payoff. It is not a held-back answer. The author compared the entire EN narration read twice in sequence and the entire RU translation read twice in sequence, not only the edge lines; narrative backtracking is intelligible but a listener could dislike the flashback. **Independent loop result: UNVERIFIED.** Voice/music/subtitle/MP4 AV seam: **UNVERIFIED**.
+- **Exact EN/RU/scene alignment — authorial PASS:** 16 exact paragraph pairs, 16 provisional S001–S016 spans in storyboard.json. No measured audio; 4–6s is compositional guidance, not SRT timing. Future edit to either narration invalidates corresponding spans, text-loop conclusions and storyboard assumptions.
+
+## Concrete first-listener questions still open
+
+Does the opening buy attention from a cold English viewer rather than seem like generic nostalgic history? Does `That's how his commander found out` land clearly after a photo in a newspaper? At which paragraph is a viewer tempted to leave? Does `The candy drops carried on without him` feel like an actual payoff? Does the last sentence flow naturally into sentence one when heard, or does returning to the first drop sound artificial? Identify one exact unnatural English phrase even if overall understandable. A distinct bilingual reader must check the RU, and true reviewer must first see hook, then exact EN text twice without author verdict, then sources/alternative.
+
+## 2026-11-17 — Complete 02m / 05m / 10m editorial comparison
+
+**Scope and baseline:** PR #68 initial HEAD `4b547e46fcf6f6de2781b1825e436a6c84fc1396`. Original clean English and Russian files `script.en.txt` / `script.ru.txt` remain byte-identical to `variants/02m/`; their original 16 exact storyboard spans and authorial loop review still apply **only** there. This update is a **Git-only editorial proposal**, not approval. The new 05m/10m documents are distinct complete English narration and full RU semantic translations. No production/master/runtime pins were modified.
+
+**Exact script SHA-256 (UTF-8, including final newline), all full texts:**
+
+| Version | Format / EN words | Full English | Full Russian | EN SHA-256 | RU SHA-256 |
+|---|---|---|---|---|---|
+| 02m | Short / 226 | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | `c1c60877f934dca8b3e51861baf95826722e0070465d110a2f747fec9ae96a65` | `309a341098d3be0115d7e25d88a6a68bc32227e8b7b6de6f821cf92e909533b1` |
+| 05m | Long / 579 | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | `7c4835c8c55c2e381c1e6c44d2f88dee3f855baeb7e04214de3a74aeec0e83e0` | `1ac8c47633ef3b342b81ceef0b3b0396a0c0f19278ecdce3c21226899542adfc` |
+| 10m | Long / 1148 | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | `bd423abea5185db38209b1b192f074d1fba54adac524167bcbebd94a8b2c97c0` | `14e16aa5485d2eb55e82cd9696f0ba77317fd51518806473e3f50f890d11b6b3` |
+
+**Estimated duration, not TTS:** Nuviko voice is configured at 1.10×; base conversational delivery (before speed adjustment) and pauses are unknown. Editorial ranges only: 02m ~1.6–2.2m, 05m ~4.2–5.1m, 10m ~8.8–10.2m depending on pauses and read rate. No measured timings or claim that 05m/10m are Shorts. ChannelSpec has illustrated long 16:9; production is still unauthorized. The scripts should be called *targets*, not duration-verified masters.
+
+### Story maps and hard checks
+
+**02m preserved:** immediate chocolate-parachute anomaly → blockade / essential cargo → shared gum/wrappers → aircraft-identification question → wing signal → improvised parachutes → press discovery, no prior authorization → Tunner's approval → American supply chain → ~23-ton cumulative payoff → other pilots take over → flashback clause leading into opening. **Cold entry** clear, explicit payoff before loop. Final literal EN `When his plane rocked its wings,` + first `Chocolate floated down over West Berlin on tiny parachutes made from handkerchiefs.` gives a grammatical temporal seam with flashback; equivalent RU `И когда самолёт покачал крыльями,` + `Над Западным Берлином на крошечных парашютах из носовых платков спускался шоколад.`. This is only **authorial textual** check of complete EN/RU read twice; audio/MP4 seam and true listener response **UNVERIFIED**. Potential cost: flashback after a complete ending may feel like an inserted second opening.
+
+**05m:** Questions: why chocolate during a food airlift? how did a child recognize a plane? what outlived the pilot? → contextual supplies and children → material effect of sharing gum → promised signal → **main hook: the drop was unauthorized and reported** → Tunner permits expansion → volunteers, scale and growing-crowd safety/location change → estimated cumulative tonnage → Halvorsen leaves, operation persists → human-scale closing image of a white parachute. The question about identifying the plane is answered by wing-rocking; the question about succession by other pilots. New safety pivot occupies the middle; no unsupported quotations. **Main risk:** supply-chain paragraph can become inventory if illustrations and narration linger there. No narrative loop needed in Long.
+
+**10m:** Questions include why a girl got candy via ordinary mail → postwar blockade and scarce essentials → fence/gum sharing → wing signal / safe cloth parachute → **main hook: commander learns of unauthorized drops** → official Little Vittles, volunteer logistics and crowd safety → letters → Mercedes's unfindable white chickens → postal exception resolves the child's immediate problem → overall tonnage and transfer to other crews → end of blockade versus airlift → **1972 reunion and original reply letter as delayed human payoff**. Questions answered: scale, authority and the postal delivery. **Main risk:** after the official approval, the volunteer/airlift logistics can flatten tension before Mercedes arrives; avoid adding abstract exposition in production. Long has no loop requirement.
+
+**Pair checks:** both EN and RU narrate matching agent/sequence/quantities/uncertainty; RU translates prose naturally rather than sentence-by-sentence mechanically. The cumulative estimate is expressly **not** a single sortie. Both Long begin with explicit questions before historical immersion and the main permission hook. Mercedes's retrospective testimony remains qualified in research; no invented witnessed dialogue or pilot feelings. 02m unchanged and exact 16 spans verified against storyboard. **Fact support: authorial source cross-check with research.md; independent historical fact review UNVERIFIED. Independent first listener UNVERIFIED. No TTS/MP4/audio or crowd metrics.** 05m/10m require their own storyboard, scene count based on chosen exact text, and new timing/review before anything moves to official runtime.
+
+### Eight editorial criteria (authorial only, 1–10; absent demand data UNVERIFIED)
+
+These are text-specific judgments, not simulated human reviews or predicted retention. Confidence: **medium** for authored reading qualities; **low** for audience response or reconstruction from retrospective testimony.
+
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest / significance | **8/10** — children dividing two sticks while flights bring food; limited historical context | **8/10** — unauthorized drops and safety pivot add stakes beyond charity; risk gentleness lacks peril | **8/10** — Mercedes mail-and-reunion offers a second emotional puzzle; slower approach to it |
+| Opening / promise | **8/10** — falling chocolate is a clear anomaly without a name; no stated roadmap | **8/10** — three answerable questions; first minute informative, questions perhaps one too many | **8/10** — mail mystery promises specific late payoff; scope of three questions ambitious |
+| Development / reason to continue | **7/10** — wing signal, reprimand, escalation are distinct but compressed | **8/10** — signal → first drop → reprimand → new logistics/safety obstacle; crowded middle | **8/10** — permission → volunteers → Mercedes's impossible request → later meeting; long logistics gap |
+| Payoff / consequences | **8/10** — ~23 tons, operation survives founder; return-to-first-drop may distract | **8/10** — scale becomes other pilots continuing after January, full answers, modest personal ending | **9/10** — 1972 letter makes an earlier failed delivery a long-term bond; resting too much on retrospective record |
+| Freshness of angle | **6/10** — widely retold Candy Bomber anecdote, concrete method helps | **7/10** — adds collective labor and crowd safety beyond famous wing signal | **8/10** — postal exception and later reunion are less obvious than standard candy-drop recap |
+| Visual expressiveness | **8/10** — gum/wrappers, wing rock, cloth parachutes, clear physical props | **8/10** — fence to work tables and alternate drop zones give changing geometry | **8/10** — letter/chickens/reunion offer physical visual transitions; re-creating 1972 scene must be labeled reconstruction |
+| Oral clarity / naturalness | **8/10** — concrete English actions, some flashback seam burden | **8/10** — fluid causal speech; technical/collective distribution details risk flattening | **8/10** — story returns to a named child and real letter; dense explanatory middle |
+| Confirmed viewer interest | **UNVERIFIED** — no native comparable viewer data | **UNVERIFIED** — no measured preference between lengths | **UNVERIFIED** — no retention/CTR observation for this script |
+
+Each score describes actual listed beats, not mechanical 9–10. No weighted total disguises non-negotiable checks. The “human reaction” is an editor's hypothesis only; a real independent first listener is still required.
+
+### Comparison of complete texts and recommendation
+
+- **02 → 05:** returns meaningfully to wartime cargo/children, adds why a wing signal mattered and **what unauthorized drops cost operationally**, an approval decision, volunteers preparing safe cloth parcels, changes to drop sites as crowds grow. It takes a clever anomaly and explains how real work scaled the promise. It may lose some viewers in the supply/distribution passage.
+- **05 → 10:** expands the consequences, not by repeating the 23-ton number but with a child whose request was impossible to satisfy from the cockpit, a postal exception, and **an original 1948 letter produced at a 1972 reunion**. It gives a distinct second human arc. Risk: the long explanation of machinery and donors delays Mercedes. If performance cannot make that arc feel immediate, 05m is a stronger backup.
+- **Recommendation: 10m, editorial candidate only.** This case earns its extra time through Mercedes's documented request and later reunion, which genuinely changes the meaning of the original promise. Unlike a post-climax chronology list, the end resolves an earlier personal difficulty. **Not** owner approval, independent review, registered run or permission to generate all three films. 05m is a sensible shorter alternative if a first listener finds the middle slow. 02m retains a compact complete payoff and was not overwritten.
+
+**Status:** original candidate preserved → 3 bilingual variants prepared → authorial fact/structure checks performed → 10m proposed → independent reviewer, runtime registration, selected exact master, new 10m storyboard, actual audio/MP4 **NOT DONE**. Material validation: original 16 exact EN/RU scenes checked; new Long versions have no scenes/timings assigned. External reviewer has not been impersonated.
+
+**Next unprocessed PR:** [#67 Cleveland Balloonfest](https://github.com/kleksar/ytvideos/pull/67) following address-specific technical review of #77/#78 if conflicts become safely actionable. Whole queue is not complete.
+
+## 2026-11-26 — current editorial revision (supersedes prior variant assessments only)
+
+Baseline `14d447b73cb2e88b7d697a2fdae630dd73a7c7e8`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). Original root pair and historical storyboard remain byte-identical; 05m kept as complete strong compact Long, because its questions, permission obstacle, distribution change and succession already form a standalone arc. 02m and 10m revised in the existing branch, not a master switch. Exact SHA-256/word counts and paragraph counts:
+
+| Path | SHA-256 | Words | Paragraphs |
+|---|---|---:|---:|
+| variants/02m/script.en.txt | `1c6ac6118298e470f7b10cd92f96df2d6407da50723f49b389db4f08ea6afb06` | 231 | 11 |
+| variants/02m/script.ru.txt | `1525885b13a2943a91edc8e78a1ef1b5000d5a024a6361fd885389c1a6988847` | 206 | 11 |
+| variants/05m/script.en.txt | `7c4835c8c55c2e381c1e6c44d2f88dee3f855baeb7e04214de3a74aeec0e83e0` | 579 | 19 |
+| variants/05m/script.ru.txt | `1ac8c47633ef3b342b81ceef0b3b0396a0c0f19278ecdce3c21226899542adfc` | 496 | 19 |
+| variants/10m/script.en.txt | `672f1e0f05523cc69a27a395aef3c9192d818fa02e44c42ec7bb5730814cbc27` | 1124 | 34 |
+| variants/10m/script.ru.txt | `d638faf4f99a588783b8bad184fa4de7e355c57a12925147d04dfca25e4a0c48` | 906 | 34 |
+
+**Story maps / visual intent (paragraph spans, not measured timings):** 02m P1–3 gum scarcity/fence/wrappers; P4–6 signal/cloth parcels/children holding them after unloading; P7–8 newspaper/authorization; P9–10 volunteers, parks, cumulative delivery and succession; P11 exact question returns to P1. Visuals: gum and paper, fence, cloth, children with parachutes, newspaper without invented text, parcels and other aircraft; no historical storyboard transfer. 05m P1 questions; P2–6 context/gum/signal; P7–12 making drops and authorization; P13–15 volunteers and relocation; P16–19 scale and succession. Existing story map remains applicable. 10m: opening questions → postwar city and fence → first three parcels, proof of delivery after unloading → mail at base/commander and approval → Chicopee's concrete cloth problem and relocation → Mercedes's letter and mailed answer → operation survives departure → reunion and actual location offered. Visual anchors by sequence: wrappers, three parcels, children displaying parachutes, newspaper, donated linen technical drawings and laundry (illustration, not archive), two secretaries, white chickens, envelope, 1972 letter; exact scene count to be developed for selected hash, no AV or timings claimed.
+
+**Eight criteria (author-only; medium confidence in structure/speech, low in audience response):**
+
+| Criterion | 02m | 05m (unchanged) | 10m |
+|---|---|---|---|
+| Interest | 8 — two sticks for thirty children; gentle stakes | 8 — unauthorized gesture becomes organized effort | 8 — unusual personal request with delayed return |
+| Opening | 8 — concrete scarcity and city immediately legible | 8 — three answerable questions, somewhat broad | 8 — unauthorized drops and postal mystery now accurately framed |
+| Development | 8 — visible proof after unloading, permission pivot, others join | 8 — coherent escalation, supply inventory risk | 9 — concrete cloth problem replaces generic logistics, letters motivate new problem |
+| Payoff | 8 — program survives initiator before loop | 8 — succession is complete but impersonal | 9 — in 1972 she offers to show actual spot and retains reply; retrospective testimony |
+| Freshness | 6 — familiar story, uncommon first-delivery confirmation | 7 — safety/distribution perspective | 8 — unusual linen drawings and individual letter, not new topic |
+| Visual expression | 8 — four pieces, three parcels, newspaper | 8 — fence, volunteers and parks | 9 — drawings on cloth, mail and visible letter, no fabricated exact artifact |
+| Natural speech | 8 — direct actions, no unfinished temporal clause | 8 — slightly abstract supply-chain paragraph | 8 — concrete actions and shorter payoff; contextual early paragraphs still explanatory |
+| Confirmed demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+**Hard checks:** authorial textual pair check: parallel questions, actors, actions, quantities and ending. 02m cold opening stands alone; full story resolves before question; last question receives immediate answer in first sentence (EN and RU read as two consecutive complete cycles by author, no audio). New Short has no valid exact storyboard; old spans and loop assessment belong only to root baseline. Long questions precede immersion/permission hook; no loop required. Source limits: first flight proof and command encounter are museum/retrospective accounts, 1972 return specifically Halvorsen's own account; no invented dialogue. For 05m/10m no measured voice duration; indicative targets only. Independent first listener, exact reviewer receipt, runtime registration, owner approval, audience measurements and AV seam UNVERIFIED. Git-only candidate. Active external Codex sessions/runtime inaccessible; no approval or active production marker observed in PR discussion/metadata; do not infer external inactivity. No protected root master changed. No media/production.
+
+**Comparison:** 2→5 adds distribution logistics and why scale changes locations; 5→10 adds the impossible address, postal exception and the return of the same letter. The concrete linen episode makes the middle less generic, but the early context and supply passage before the first Mercedes letter can still slow attention. **Recommend 10m** for the unique second payoff, 05m as strong alternative if independent reading finds the middle slow. This is not approval. Next #67 after checking actual status.

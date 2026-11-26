@@ -1,0 +1,165 @@
+{
+  "schema": "provisional-storyboard-v1-editorial-only",
+  "channel": "nuviko_history",
+  "format": "short",
+  "narration_language": "en",
+  "translation_language": "ru",
+  "narrative_loop": "required",
+  "material_state": "text-only; no generation, TTS, SRT or measured timing",
+  "visual_recipe": "illustrated: photoreal historical world, whole-frame pan/zoom and direct cuts, no extra overlays",
+  "compositions_note": "Plan approximately 4–6 seconds per composition as working illustration only, NOT timecodes nor an actual voice duration; validate future audio and actual MP4 separately.",
+  "continuity_note": "1948 C-54, Tempelhof fence, child clothing, white square handkerchief parachute. No drawn traveler in this draft, so actual traveler reference PNGs remain to be opened and hash-checked only if future scenes add traveler.",
+  "scenes": [
+    {
+      "id": "S001",
+      "en_span_exact": "Chocolate floated down over West Berlin on tiny parachutes made from handkerchiefs.",
+      "ru_span_exact": "Над Западным Берлином на крошечных парашютах из носовых платков спускался шоколад.",
+      "scene_purpose": "Opening puzzle: candy descending over a battered city",
+      "ai_image_prompt_future_only": "An intimate low-angle 1948 West Berlin street view, a small wrapped candy parcel suspended under a simple white cloth handkerchief parachute drifting near a rooftop, recognizable roofline of postwar Berlin, historically plausible muted natural daylight, photorealistic physical reconstruction, vertical 9:16, no text, no illustration.",
+      "continuity_and_factual_boundary": "Establish 1948 postwar city and handmade cloth parachute design; later final shot echoes this exact spatial direction.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S002",
+      "en_span_exact": "It was 1948. The Soviet blockade had cut West Berlin's land routes.",
+      "ru_span_exact": "Шёл 1948 год. Советская блокада перекрыла наземные пути в Западный Берлин.",
+      "scene_purpose": "Context: city cut off from land deliveries",
+      "ai_image_prompt_future_only": "Wide historical exterior on a railway approach to divided Berlin in 1948 with freight wagons stationary at a border control checkpoint, no invented officers in foreground, cloudy natural morning, subtle bomb damage in distance, photoreal historically plausible Europe, portrait 9:16, no overlays and no modern objects.",
+      "continuity_and_factual_boundary": "1948 West Berlin context; this is a generic reconstruction, not an alleged photograph of a named checkpoint.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S003",
+      "en_span_exact": "American and British aircraft were bringing food and fuel into the city.",
+      "ru_span_exact": "Американские и британские самолёты доставляли в город еду и топливо.",
+      "scene_purpose": "The airlift supplies necessity",
+      "ai_image_prompt_future_only": "Photorealistic 1948 Tempelhof airfield cargo operation, period American C-54 cargo aircraft unloading sacks of flour into a military truck, British transport aircraft indistinctly farther back, realistic propellers and service equipment, natural overcast light, strong foreground-to-background depth, vertical 9:16, no legible invented signs or text.",
+      "continuity_and_factual_boundary": "Use a consistent credible C-54 silhouette in later scenes; never claim a photographed source frame.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S004",
+      "en_span_exact": "American pilot Gail Halvorsen met children watching planes outside Tempelhof airport's fence.",
+      "ru_span_exact": "Американский пилот Гейл Халворсен встретил детей, наблюдавших за самолётами у забора аэропорта Темпельхоф.",
+      "scene_purpose": "People behind the airfield fence",
+      "ai_image_prompt_future_only": "Eye-level photoreal historical reconstruction of a US Air Force officer in 1948 uniform, seen from behind approaching a barbed-wire perimeter fence at Berlin Tempelhof; several German children on the opposite side watching arriving cargo planes; period modest clothing, natural afternoon light, 9:16, no text. Avoid making a specific facial likeness claim.",
+      "continuity_and_factual_boundary": "Man identified in narration as Halvorsen; face obscured to avoid unverified detailed facial reconstruction; 1948 clothes consistent.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S005",
+      "en_span_exact": "He had two sticks of gum. The children shared tiny pieces, and some even sniffed the wrappers.",
+      "ru_span_exact": "У него нашлись две пластинки жвачки. Дети делили их на маленькие кусочки, а некоторые даже нюхали обёртки.",
+      "scene_purpose": "Gum divided into tiny pieces",
+      "ai_image_prompt_future_only": "Photorealistic close-up at a 1948 airfield fence, child's small hands dividing two unbranded sticks of gum into several pieces with simple foil wrappers; other small hands nearby holding torn wrappers, warm natural daylight, shallow depth, age-appropriate period clothing, vertical 9:16, no text, no stylized graphics.",
+      "continuity_and_factual_boundary": "Maintain same wire fence and children's period clothing; fingers and gum physically plausible; no branded lettering.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S006",
+      "en_span_exact": "Halvorsen promised more. But how would they recognize his plane among so many?",
+      "ru_span_exact": "Халворсен пообещал принести ещё. Но как детям узнать его самолёт среди остальных?",
+      "scene_purpose": "The identification problem",
+      "ai_image_prompt_future_only": "Low eye-level view through a 1948 Tempelhof fence toward a procession of visually similar C-54 cargo planes on approach in separate depths, a few children in foreground looking skyward, period runway features, photorealistic documentary-like reconstruction, vertical 9:16, no words, no artificial arrows.",
+      "continuity_and_factual_boundary": "Same children/fence; C-54 visually repeated only as distant aircraft, no invented dialogue.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S007",
+      "en_span_exact": "He told them to look for a plane rocking its wings on approach.",
+      "ru_span_exact": "Он объяснил: при заходе на посадку его самолёт будет покачивать крыльями.",
+      "scene_purpose": "Simple recognition signal",
+      "ai_image_prompt_future_only": "Telephoto view of a single 1948 C-54 transport on final approach over Berlin, wings tilted subtly to one side in a small controlled recognition bank, realistic aircraft aerodynamics and geometry, city distant below, photorealistic natural sky, vertical 9:16, no text.",
+      "continuity_and_factual_boundary": "Wing gesture preview; actual motion is later whole-frame editing, still image is only a concept.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S008",
+      "en_span_exact": "Back at base, he pooled candy with his crew and made little handkerchief parachutes.",
+      "ru_span_exact": "На базе он собрал сладости вместе с экипажем и сделал маленькие парашюты из носовых платков.",
+      "scene_purpose": "Build the makeshift parachutes",
+      "ai_image_prompt_future_only": "Close-up inside a modest US Air Force 1948 barracks room, three uniformed airmen's hands preparing parcels of chocolate and gum with tied cords and folded plain white handkerchiefs on a wooden table, authentic everyday supplies and no modern plastic, natural window light, photographic realism, 9:16, no text.",
+      "continuity_and_factual_boundary": "Parachute uses actual four-corner handkerchief and string, compact candy parcel; continuity with opening parcel.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S009",
+      "en_span_exact": "On his next approach, he rocked his C-54's wings and dropped the packets.",
+      "ru_span_exact": "Во время следующего рейса он покачал крыльями своего C-54 и сбросил свёртки.",
+      "scene_purpose": "First release from the aircraft",
+      "ai_image_prompt_future_only": "Photorealistic exterior side view of a 1948 C-54 cargo airplane descending toward Berlin Tempelhof with a few small white cloth parachutes carrying candy packets below it; realistic aircraft dimensions and safe scale of objects; faint damaged urban roofs beneath, portrait 9:16, period neutral colors, no text.",
+      "continuity_and_factual_boundary": "Same C-54 as earlier, cloth parachutes from S008; first drop is a reconstruction based on testimony.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S010",
+      "en_span_exact": "He kept doing it. More children came, and a Berlin newspaper printed a photo of the drops.",
+      "ru_span_exact": "Он повторял сбросы. Детей собиралось всё больше, и берлинская газета напечатала фотографию этих парашютов.",
+      "scene_purpose": "Cumulative attention and press discovery",
+      "ai_image_prompt_future_only": "In a Berlin 1948 newsstand window, hands of a newspaper reader holding an era-appropriate German newspaper with an indistinct small monochrome image showing a parachute near a transport plane; no legible fabricated article or headline; period street behind, photorealistic natural daylight, vertical 9:16.",
+      "continuity_and_factual_boundary": "The photographed-news event is supported; actual newspaper front-page artwork not known, so illustration is an expressly fictionalized facsimile, no source-paper claim.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S011",
+      "en_span_exact": "That's how his commander found out. Halvorsen hadn't asked permission.",
+      "ru_span_exact": "Так о затее узнал командир. Халворсен ведь не спрашивал разрешения.",
+      "scene_purpose": "Cost of unauthorized drops",
+      "ai_image_prompt_future_only": "Photoreal 1948 US Air Force operations office, an older officer's hands resting on a folded newspaper while a younger lieutenant stands across a wooden desk, period uniform and communication equipment, facial expressions restrained, medium shot, natural interior light, vertical 9:16, no readable invented text.",
+      "continuity_and_factual_boundary": "Do not reconstruct invented words, an alleged documented exchange, or a named office.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S012",
+      "en_span_exact": "His commander was angry. But the general running the airlift approved the idea and let the drops continue.",
+      "ru_span_exact": "Командир рассердился. Но генерал, руководивший воздушным мостом, поддержал идею и разрешил продолжать.",
+      "scene_purpose": "Authority changes the operation",
+      "ai_image_prompt_future_only": "Photoreal 1948 airlift operations headquarters, a senior US Air Force general reviewing a large tabletop logistical map surrounded by period-clad officers, 1940s field telephones and paperwork; restrained purposeful atmosphere, medium-wide 9:16 photographic historical reconstruction, no text.",
+      "continuity_and_factual_boundary": "Narration attributes approval to airlift commander General William Tunner; do not show unverified exact meeting, use representative administrative image.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S013",
+      "en_span_exact": "Other crews joined. Americans sent candy and cloth, and schoolchildren helped make more parachutes.",
+      "ru_span_exact": "Подключились другие экипажи. Из Америки присылали сладости и ткань, а школьники помогали делать новые парашюты.",
+      "scene_purpose": "Collective US school effort",
+      "ai_image_prompt_future_only": "Photorealistic 1948 classroom or community workroom in Chicopee Massachusetts, schoolchildren and adults attaching strings to small square white cloth handkerchief parachutes and chocolate candy packets on a long wooden table, boxes of supplies in background, period dress, warm window light, realistic hands, vertical 9:16, no readable text.",
+      "continuity_and_factual_boundary": "Represent documented Chicopee schoolchildren assembling parachutes; do not invent identifiable participants or actual photo provenance.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S014",
+      "en_span_exact": "By the end of the airlift, about twenty-three tons of sweets and gum had been dropped.",
+      "ru_span_exact": "К концу воздушного моста сбросили около двадцати трёх тонн сладостей и жвачки.",
+      "scene_purpose": "Scale payoff: from two sticks to 23 tons",
+      "ai_image_prompt_future_only": "Wide photoreal 1949 Berlin airport cargo terminal, stacked sealed cartons of confectionery and cloth parachute bundles being handled by period aircrew near a C-54, communicate scale through many ordinary parcels not an impossible single airborne mass, subdued natural sunlight, 9:16, no writing.",
+      "continuity_and_factual_boundary": "23 tons is cumulative total over the operation, NOT visible as one drop, so image is conceptual inventory reconstruction.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S015",
+      "en_span_exact": "Halvorsen went home before the airlift ended. The candy drops carried on without him.",
+      "ru_span_exact": "Халворсен вернулся домой ещё до конца воздушного моста. Но сладости продолжали сбрасывать и без него.",
+      "scene_purpose": "Payoff: operation outlives its founder",
+      "ai_image_prompt_future_only": "Photorealistic 1949 Berlin approach showing a different US transport aircrew unloading or preparing the same small candy parachutes beside a C-54 while another aircraft approaches in distance, winter overcast, 9:16, historically plausible period atmosphere, no text.",
+      "continuity_and_factual_boundary": "Anonymize successor crew; pilot returned January 1949 while airdrops continued, keep same handmade design.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    },
+    {
+      "id": "S016",
+      "en_span_exact": "Back on that first flight, the children were waiting for one small signal. When his plane rocked its wings,",
+      "ru_span_exact": "А в тот самый первый рейс дети ждали лишь одного сигнала. И когда самолёт покачал крыльями,",
+      "scene_purpose": "Seam: return to children watching wings; links to S001",
+      "ai_image_prompt_future_only": "Photoreal 1948 West Berlin Tempelhof fence viewed from behind a small group of children looking up at a C-54 just above city rooftops, one wing slightly tipped as recognition signal; a single unfocused white handkerchief parachute barely entering top edge, vertical 9:16, natural daylight, no text.",
+      "continuity_and_factual_boundary": "Frame attention from plane signal toward where S001 parachute descends; S016->S001 intended direct cut, exact AV seam UNVERIFIED.",
+      "duration": "4–6 seconds provisional composition target; NOT measured"
+    }
+  ],
+  "variant_binding": {
+    "applies_only_to": "variants/02m/script.en.txt + variants/02m/script.ru.txt",
+    "en_sha256": "c1c60877f934dca8b3e51861baf95826722e0070465d110a2f747fec9ae96a65",
+    "ru_sha256": "309a341098d3be0115d7e25d88a6a68bc32227e8b7b6de6f821cf92e909533b1",
+    "status": "original Short exact spans only; 05m and 10m need independent storyboards",
+    "reason": "These 16 scene spans belong to unchanged original 02m; draft composition durations and old author review do not transfer to new Long narrations."
+  }
+}
