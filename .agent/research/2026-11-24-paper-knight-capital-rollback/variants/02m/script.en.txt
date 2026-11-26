@@ -1,0 +1,15 @@
+A trading firm made a computer disaster worse by removing an update from seven machines that had been working.
+
+On August 1, 2012, the American stock trading firm Knight Capital was about to use new software. Its computers took large orders from customers and broke them into smaller orders that could be sent to stock exchanges. Seven of its eight order-routing servers had received the update. One had been missed.
+
+The new software reused an instruction that had once switched on a feature called Power Peg. Knight had stopped using that feature years earlier. But the old code was still there, and changes made in the meantime meant it could no longer keep track of when it had finished an order.
+
+Before the market opened, Knight's system sent ninety-seven emails reporting an error. The messages weren't designed to be alerts, and nobody acted on them.
+
+When trading began, the updated machines understood the instruction. The eighth interpreted it differently and brought Power Peg back to life. It kept sending orders even after the customer's request had been filled.
+
+Knight's staff tried to find the cause. They removed the new software from the seven correctly updated servers. Now more machines could make the same mistake.
+
+In about forty-five minutes, the system produced more than four million completed transactions from just two hundred and twelve customer orders. Knight was left with enormous unwanted stock positions and ultimately lost more than four hundred and sixty million dollars. It needed an emergency investment of four hundred million to keep going.
+
+One missed server started the trouble. What made the failure spread?

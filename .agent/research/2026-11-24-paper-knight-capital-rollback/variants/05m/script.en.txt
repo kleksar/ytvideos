@@ -1,0 +1,29 @@
+How can a computer finish a stock order and still keep buying shares? And why would a trading firm make that problem worse by undoing a software update?
+
+In 2012, Knight Capital handled a substantial part of the trading in American stocks. When a customer wanted to buy or sell shares, one of Knight's programs could divide that request into smaller orders and send them to different trading venues.
+
+Imagine asking a broker to buy one hundred shares. Instead of looking for a seller with all one hundred, its computers might find fifty in one place and fifty in another. After the second purchase, the customer's order is complete. The numbers in this example are imaginary, but that basic job is what Knight's routing software did.
+
+On August 1, Knight was taking part in a new program at the New York Stock Exchange. Its computers needed to recognize a particular kind of incoming order. A new version of the software was supposed to do that.
+
+The deployment had begun several days earlier. A technician put the update on seven servers and missed the eighth. Nobody was required to perform a second check. So eight machines that were supposed to do the same job now disagreed about what an instruction meant.
+
+The difference went back nearly a decade. Knight once used a feature called Power Peg. It had stopped using it in 2003, but the program remained capable of running it. Two years later, Knight changed where it kept track of the number of shares already traded. The old feature wasn't tested after that change.
+
+The new update reused the instruction that had once activated Power Peg. On an updated server, that was fine. On the missed server, the instruction still called the old feature. And when it ran, the feature couldn't properly account for all the shares it had already traded.
+
+There was a chance to discover the problem before the exchange opened. Early orders prompted a separate system to send ninety-seven emails containing an error message. They weren't designed to alert employees to an emergency, and they weren't acted upon.
+
+At the opening bell, the eighth server started producing far more orders than the customers had requested. Other parts of Knight's system could tell that a customer's request had already been filled. But that information wasn't getting back to the program that was still sending orders.
+
+The extra shares didn't simply disappear. Knight had to account for the resulting trades. Among the places they accumulated was a temporary account used for various types of positions. Staff saw the account growing rapidly, but there was more than one possible source for the activity. The monitoring system also became less reliable under the heavy volume of trades.
+
+While the market was still open, the staff tried to fix the software. They removed the update from the seven machines that had received it correctly. That brought back the same old meaning of the instruction on those machines. More incoming orders could now trigger the malfunction.
+
+By the time the episode ended, Knight had accumulated billions of dollars in unwanted positions. In roughly forty-five minutes, just two hundred and twelve customer orders had generated more than four million executions. Shares of numerous companies had moved sharply in price.
+
+Knight ultimately lost more than four hundred and sixty million dollars. Within days, it secured a four-hundred-million-dollar investment to stay in business. That money came at a price: the new investors received securities convertible into roughly seventy-three percent of the company's common shares after issuance.
+
+A year later, Knight merged with another trading firm. The American securities regulator also imposed a twelve-million-dollar penalty in a settlement.
+
+The first server had made the disaster possible. But a simple check of the deployment wasn't the only missing safeguard. The orders could still leave the system long after they no longer matched what the customers wanted. And undoing the update, while those instructions continued to arrive, gave the old software more opportunities to run. The repair had become part of the disaster.
