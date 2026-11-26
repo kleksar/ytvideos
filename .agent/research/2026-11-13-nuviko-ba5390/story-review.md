@@ -1,4 +1,48 @@
-# Story review — BA5390 r4, complete 02m / 05m / 10m editorial alternatives
+# BA5390 — r5 editorial comparison, 2026-11-27
+
+EDITORIAL_CANDIDATE_UNREGISTERED. Author review only. Baseline commit `42219f9b8ffd38cdfcb9ac16438038c8979c62fe`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged 2026-11-16). No owner acceptance or production evidence found in this PR discussion; external sessions/leases not observable. Root EN/RU and 17-scene archive not modified. Three versions prepared → author checked → 05m recommended, not approved.
+
+## Exact current variants
+
+| Target | Full text | EN words / SHA-256 | RU words / SHA-256 | Format / estimate |
+|---|---|---|---|---|
+| 02m | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | 265 / `17a762f7ed2ffb4847a78c6a9dc30ed1bba28d5c4e401aba1339d0990b357d7e` | 230 / `b995137c8cc75920b7701c54167502bd0d00bf99bfba24afa8e67d48e1e5cc87` | Short; unchanged; 1.7–2.1 min before pauses |
+| 05m | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | 717 / `ec1e2c0038f171fe312b8550690b401366f33d15f2f9b370470ab6f5a3d29c60` | 562 / `274c0024672d2a847a31573ba360dbfb6b5479e2a8a9400615ccbe39be9de1ba` | Long; revised r5; 4.6–5.7 min before pauses |
+| 10m | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1359 / `fe662b3c043714483847749ffd30f698fcc3cc3288bdf81c71d86093a58b12db` | 1073 / `c79d9d266c6072b94018978cabe67c29098cd6a0b4bfd39b4b9bd6111661ee1e` | Long; revised r5; 8.8–10.9 min before pauses |
+
+Estimates assume 125–155 effective EN words/min before pauses; channel voice speed stays 1.10x, no additional speed adjustment. Long end screen is a separate 10-second window; actual audio, transition input and timings UNVERIFIED. RU is a semantic review translation, not production timing. Short remains byte-identical because its action arc and causal rewind already deliver a complete two-minute candidate; independent loop remains UNVERIFIED.
+
+## What changed / maps / visual intent
+
+02m unchanged: exterior captain → grip → first officer recovers → failed pull and handoff → landing, survival → wrong fasteners → window exits before return to opening. Historical root S001–S017 is archive-only, not mapped to any variant.
+
+05m r5: P1 questions (survival, who held him, failure); P2 flight roles and normal restraints/service → P3 sudden loss of window and first grip → P4 failed pull → P5 displaced controls / interrupted radio contact and anchored assisting steward → P6 handoff → P7 diversion, first officer's report that he believed captain dead, simultaneous evacuation/rescue → P8 injuries and survival → P9 fastener failure physics → P10 sample selection and self-certification → P11 safety recommendation and return to flying. Visual intent: ordinary cabin/crew; cockpit opening and two-person grip; radio confusion without invented dialogue; handoff; runway and concurrent rescue/egress; window bolts and store sample; final pilot return (not claimed archive imagery). No old timings or storyboard transferred. Added meaningful human reversal and recovery, rather than a double reveal of the same failure before the hook or a repeated independent-inspection moral. P5/P7 establish that the radio problem affected decisions, not just the noise. P7 repairs misleading sequential rescue vs passenger evacuation.
+
+10m r5: P1 questions → P2 repaired window → P3 flight setup → P4–P8 emergency/grip/handoff → P9–P10 landing and simultaneous rescue/egress → P11 recovered window → P12–P13 old sample and stores → P14 visible discrepancy between left/right fastener heads → P15 self-certification → P16 next-night replacement on another aircraft and missed cue → P17 fleet checks/oversight and closed outcome. Visual intent: compare neighboring glass fasteners at the hangar, then a second workbench with different prepared parts (no invented dialogue or thought captions); retain the two-act rescue/investigation structure. Added the primary-report's documented second-night cue; more than a restatement of the first repair. The report's retrospective explanation is attributed, not imagined. P10 corrects simultaneous evacuation/rescue. Detailed scene spans and exact timing remain unbuilt for revised hashes; these are paragraph maps only.
+
+## Author evaluation (not independent, no audience performance inference)
+
+| Criterion | 02m | 05m | 10m | Concrete basis / limitation / confidence |
+|---|---:|---:|---:|---|
+| Interest / significance | 8 | 8 | 8 | 02m paradox and rescue; 05m uncertainty about survival; 10m second opportunity to catch the error. Familiar aviation story, medium. |
+| Opening | 8 | 8 | 8 | 02m cold image intelligible; 05m questions then normal cabin before failure; 10m repair setup makes cause a parallel question. Medium. |
+| Development | 8 | 9 | 8 | 02m compressed transfer; 05m failed pull, communication, handoff and belief captain dead; 10m observable store/installation clues and second night's missed cue, still technical after landing. Medium. |
+| Payoff | 8 | 9 | 9 | 02m resolves survival/fasteners; 05m survival despite reported belief + returns to flying; 10m resolves how missed cues persisted before the flight. High fact, medium engagement. |
+| Angle freshness | 6 | 7 | 8 | Widely retold emergency; 05m actual recovery rather than generic moral; 10m specific second repair differentiates it, medium. |
+| Visual expressiveness | 8 | 8 | 8 | 02m exterior/groove; 05m visible human actions and landing; 10m comparison of heads/second workbench is clearer than abstract checks; no generated images. Medium. |
+| Naturalness / clarity | 8 | 8 | 7 | 02m compact technical end; 05m removed double reveal and repeated sign-off; 10m store and inspection jargon remains. Author-only medium. |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED | No comparable measured CTR/retention, no viewer experiment. |
+
+02→05 adds divided crew tasks, communication obstacle, reported belief and eventual return to flying. 05→10 adds why the earlier repair looked acceptable, visible discrepancy and the next-night cue. Loss of interest in 10m likely begins at P11 (“Investigators recovered the missing windscreen…”): the survival question is answered and technical diagnosis becomes the central problem. 05m risks a smaller drop at P9, but returns to the captain in P11. 02m cannot fully explain those missed cues. Recommendation remains 05m Long; if blind listener wants only rescue, select 02m instead. No guaranteed viewer response.
+
+## Hard checks / limits
+
+- All six exact baseline SHA-256 values matched stored evidence before revision. 02m EN/RU retained; full texts re-read, two cycles text-only, cause→effect seam candidate, not independent or AV PASS.
+- 05m and 10m EN/RU paragraph-level correspondence, dates, roles, outcome and chronology self-checked. No fabricated dialogue. Fact check against AAIB §§1.1, 1.17.4.2(e), 3, 4 and ABC 2023 retrospective for radio paraphrase and later return; see research. Long questions → immersion → failure hook present. Short seam N_A for Long.
+- Old author/independent review/timings for changed hashes invalidated; historical evidence below is retained as history, not transferred. No independent reviewer capability, exact runtime context, reviewer receipt, approvals, active external lease visibility or media; UNVERIFIED. Register selected exact file only through local canonical ytv coordinator; no synthetic completion. Native next-video transition requires a verified eligible target/intro source, not fabricated or attached before approval; packaging notes this dependency.
+- Next: blind first-listener on all current hashes and compare prior versions, then selected-hash runtime/storyboard only with owner approval. Queue: #62 has existing three complete versions; technical #77/#78 conflict separate from narrative work; no branch changes to these.
+
+## Historical review r4 (superseded only for 05m and 10m; exact evidence for 02m retained)
 
 Status: **EDITORIAL_CANDIDATE_UNREGISTERED**. This is author editorial comparison, **not independent review** and not `awaiting_script_approval`. Baseline PR #34 HEAD: `36b37df20314a131cb00c3437feabf0630c4a141`. All original root scripts and the 17-scene storyboard remain unchanged. Variant 02m is now a separately revised Short (new exact EN/RU hashes); the original root is archival and is not replaced. No owner adoption or active run evidenced in PR discussion; other private sessions cannot be exhaustively observed.
 
