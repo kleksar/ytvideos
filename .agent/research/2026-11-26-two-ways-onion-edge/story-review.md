@@ -1,6 +1,6 @@
 # Author review — exact variants
 
-Author: ChatGPT, 2026-11-26. Confidence medium; independent review UNVERIFIED. No audience metric treated as measured retention. Original author reading only, no recorded voice. One author revision: 10m rounded test-tool wording corrected to flat-tipped; no numerical claim changed.
+Author: ChatGPT, 2026-11-26. Confidence medium; independent review UNVERIFIED. No audience metric treated as measured retention. Original author reading only, no recorded voice. One substantive author revision after initial commit 2cbe520b31f285001baa0a374e1607d8357bb0cc: corrected 10m EN flat-punch wording to match RU/source and replaced misleading liquid compression analogy in both languages with pressure buildup. Baseline 10m EN bd679abdc0365848f9da9c8aae3941ff9d4eec28d606bbaa4a969fbd312aace2, RU b59b7742e4e27facc7b13ee1838ec2de5b14384e22032cc4841982d4687399a9. No numerical claim changed; 10m remains REWORK; independent review remains UNVERIFIED.
 
 | Exact path | Words (whitespace) | SHA-256 |
 |---|---:|---|
@@ -8,8 +8,8 @@ Author: ChatGPT, 2026-11-26. Confidence medium; independent review UNVERIFIED. N
 | [variants/02m/script.ru.txt](variants/02m/script.ru.txt) | 248 | `b6160c0cf0268425829d93492940414dd6a7c48fb70b8aaa1d2622bf80f302b4` |
 | [variants/05m/script.en.txt](variants/05m/script.en.txt) | 671 | `57c91e127ceec378c12e409e387ee2fe7327d968090dacad79daf6b89c60d065` |
 | [variants/05m/script.ru.txt](variants/05m/script.ru.txt) | 529 | `36234b4c68c53282c0c3067d6fd5ec8dd9c64e8d653086f24d4a45ea5e68cac1` |
-| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1340 | `bd679abdc0365848f9da9c8aae3941ff9d4eec28d606bbaa4a969fbd312aace2` |
-| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1096 | `b59b7742e4e27facc7b13ee1838ec2de5b14384e22032cc4841982d4687399a9` |
+| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1340 | `9814c1c7a5b6bd591bb1109d00365d57eff29d245846ab03cf17c08e4c42c4d1` |
+| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1098 | `bf749c1e00656b1f052db9b63852263443f123418b15c916d1217e84e85e8929` |
 
 Estimated EN 120–145 wpm plus natural pauses; RU 105–140 wpm plus pauses, not measured. 2m is a target Short; channel customary 35–50 sec, actual fit UNVERIFIED; no speed change. 5/10 editorial Long only, no supported Long production recipe. Counts above include only narration. A duration target is an estimate, not a receipt.
 
