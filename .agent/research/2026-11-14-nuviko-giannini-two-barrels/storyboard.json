@@ -1,0 +1,195 @@
+{
+  "schema": "editorial-storyboard-v1",
+  "status": "PRELIMINARY_UNMEASURED",
+  "channel": "nuviko_history",
+  "format": "short",
+  "script_master": "script.en.txt",
+  "translation": "script.ru.txt",
+  "base_main_sha": "636386783a13b7b11d2173c233b68654f43d9848",
+  "orientation": "9:16",
+  "format_note": "Photoreal environments, 2D Nuviko traveler not inserted. If traveler is later required, actual two accepted PNGs and SHA-256 from brand/VISUAL_PROFILE are mandatory and currently not read as image bytes.",
+  "duration_notice": "Twenty different compositions from 242 English words, target approximately 4–6 seconds per composition; NOT measured voice windows. Recut after real approved TTS and enforce minimum 2 seconds for every production shot; no production assets exist.",
+  "scene_count": 20,
+  "scenes": [
+    {
+      "id": "S001",
+      "en_span": "A banker in San Francisco took deposits over a plank balanced on two barrels. His building was gone.",
+      "ru_span": "В Сан-Франциско банкир принимал вклады за доской, положенной на две бочки. Его здания больше не было.",
+      "semantic_intent": "Immediately display tangible improvised service counter and absence of office",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Plank counter, two barrels, young Giannini, waterfront daylight, no contemporary bank logos",
+      "prompt": "San Francisco 1906, a small improvised bank counter on a North Beach waterfront wharf: one rough wooden plank visibly balanced atop exactly two stout barrels, a banker in simple early-twentieth-century suit behind it, two ordinary depositors approaching, burnt neighborhood skyline far behind, plausible smoke haze. Authentic photographic-quality color historical reconstruction, natural light and contact shadows, 9:16 full-frame, one image, no caption cards, no modern logo or drawn protagonist, no actual archival photograph claim."
+    },
+    {
+      "id": "S002",
+      "en_span": "On April eighteenth, nineteen oh six, an earthquake struck the city.",
+      "ru_span": "18 апреля 1906 года город потрясло землетрясение.",
+      "semantic_intent": "Earthquake and three days of spreading fires; no cinematic invented quake dialogue",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "1906 coastal city geometry; no invented victims or camera footage",
+      "prompt": "Wide photographic reconstruction of San Francisco after April 18 1906: earthquake-damaged masonry street, timber buildings burning several blocks distant, people as small distant silhouettes walking away, original era streetcars/tracks where plausible, restrained realistic color, physical smoke, no invented specific individual death or dialogue, full-bleed 9:16 historical scene."
+    },
+    {
+      "id": "S003",
+      "en_span": "Fires spread through whole neighborhoods for three days.",
+      "ru_span": "Затем три дня горели целые кварталы.",
+      "semantic_intent": "After the earthquake, fire burns through neighborhoods for three days",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "1906 coastal city geometry; no invented victims or camera footage",
+      "prompt": "Photoreal 1906 San Francisco street, charred timber houses and distant flames with believable smoke, people only tiny incidental figures, authentic period silhouettes, no unsupported individual injuries or fabricated quotes, full-frame vertical 9:16 historically informed reconstruction."
+    },
+    {
+      "id": "S004",
+      "en_span": "Amadeo Giannini had opened a small bank called Bank of Italy for people larger banks often overlooked.",
+      "ru_span": "Амадео Джаннини открыл небольшой Bank of Italy для людей, которым крупные банки обычно не уделяли внимания.",
+      "semantic_intent": "Giannini's modest Bank of Italy and underserved customers",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Same Giannini approximate age 36, historic low-rise 1904 bank interior",
+      "prompt": "Interior of humble Bank of Italy in San Francisco circa 1904–1906, one simple teller window and ledger, historically plausible modest furniture, 36-year-old Italian-American banker in dark period suit quietly welcoming a working-class customer, no fake claims of exact face or verified interior layout; photo-real 9:16 historical reconstruction, one complete frame."
+    },
+    {
+      "id": "S005",
+      "en_span": "When the fire threatened his office, Giannini loaded the bank's cash and records into produce wagons.",
+      "ru_span": "Когда огонь подступил к офису, Джаннини погрузил банковские деньги и документы в повозки для овощей и фруктов.",
+      "semantic_intent": "Salvage actual bank cash and records as flames approach",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Same bank counter ledgers and 1906 produce wagons, avoid invented cash sum",
+      "prompt": "Exterior 1906 San Francisco Bank of Italy approximate street facade under threat of distant fire; banker and two assistants moving period money bags and bound ledgers from the building into two horse-drawn fruit-and-vegetable produce wagons. Keep hands, bags and wagon connections physically grounded; no invented exact cash amount, photoreal full-frame 9:16 reconstruction."
+    },
+    {
+      "id": "S006",
+      "en_span": "He hid the valuables under crates of oranges, then took them out to his home in San Mateo.",
+      "ru_span": "Он спрятал ценности под ящиками с апельсинами и вывез их к себе домой в Сан-Матео.",
+      "semantic_intent": "Orange crates conceal wagon loads for move to San Mateo",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Same wagon and crates, rural San Mateo period scenery",
+      "prompt": "Close plausible documentary reconstruction of a 1906 horse-drawn produce wagon departing urban San Francisco toward San Mateo: wooden crates of oranges visibly conceal bundled bank bags deeper in cart, tense but ordinary evacuation, no fictitious chase or robbery; photo-real desaturated natural color, no current buildings, vertical 9:16 single shot."
+    },
+    {
+      "id": "S007",
+      "en_span": "By the time he returned, his bank building was in ruins.",
+      "ru_span": "Когда он вернулся, от здания банка остались руины.",
+      "semantic_intent": "Banking premises burned, saved liquid cash makes reopening feasible",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Burned bank premises, preserve Giannini's 1906 appearance",
+      "prompt": "Banker returns to a scorched brick bank building after the fire, a damaged wall and blackened entrance, in foreground a small undamaged ledger and bank cash pouch suggest assets had already been removed. Historically inspired 1906 photographic scene, no inserted contemporary photograph, full frame 9:16."
+    },
+    {
+      "id": "S008",
+      "en_span": "But he still had money available to lend.",
+      "ru_span": "Но деньги, которые можно было выдавать в кредит, уцелели.",
+      "semantic_intent": "Cash remains available for lending even though banking office was destroyed",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Burned bank premises, preserve Giannini's 1906 appearance",
+      "prompt": "Close-up historically credible bank ledger and rescued modest cash pouch in hands of 1906 banker, ruined building in background, no invented dollar total, realistic light and skin, full 9:16 photographic-style reconstruction."
+    },
+    {
+      "id": "S009",
+      "en_span": "Some other banks had to wait before they could reach the contents of their overheated vaults.",
+      "ru_span": "Некоторым другим банкам пришлось ждать, пока остынут сейфы и удастся добраться до их содержимого.",
+      "semantic_intent": "Contrast delayed access to hot vaults at some other institutions",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Generic bank facade not confused with Giannini's; no named bank logos",
+      "prompt": "Another generic early-1900s bank's fire-heated metal safe inside smoke-darkened walls, employees outside looking at still-sealed steel door; show inaccessible vault contents, not an invented person or exact historical bank. Realistic reconstruction of post-1906 fires, 9:16 vertical, no stylized graphic overlay."
+    },
+    {
+      "id": "S010",
+      "en_span": "Giannini set up a temporary counter on a waterfront wharf.",
+      "ru_span": "Джаннини устроил временную стойку у причала.",
+      "semantic_intent": "Physical wharf counter: plank and two barrels, not a full surviving office",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Wharf, two barrels with plank, Giannini and period cash bags consistent with S001",
+      "prompt": "North Beach waterfront wharf in days after the 1906 quake, rough plank resting across exactly two barrels serves as banker Amadeo Giannini's desk, small bags of coin and hand ledgers, modest customers waiting, period wooden wharf structures. One photographic-quality color reconstruction, same proportions of plank and barrels as S001, no painted border or added subtitles, 9:16."
+    },
+    {
+      "id": "S011",
+      "en_span": "There was no proper desk, just that plank and two barrels.",
+      "ru_span": "Настоящего стола не было — только доска на двух бочках.",
+      "semantic_intent": "Physical desk is a plank balanced on exactly two barrels",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Wharf, two barrels with plank, Giannini and period cash bags consistent with S001",
+      "prompt": "On a San Francisco North Beach wooden wharf in 1906 after fires, a single board balanced on two stout barrels supports ledger and cash pouch, banker partially visible, exact two-barrel desk geometry and lighting coordinated with original S001, visually grounded photographic full-frame 9:16 reconstruction."
+    },
+    {
+      "id": "S012",
+      "en_span": "People needed money to rebuild shops and homes. He started making loans on a handshake.",
+      "ru_span": "Горожанам нужны были деньги, чтобы восстановить дома и лавки. Он начал давать кредиты под честное слово, после рукопожатия.",
+      "semantic_intent": "Handshake loans for rebuilding small homes and shops",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Wharf counter and small business borrowers, modest gestures reconstructed",
+      "prompt": "At the same makeshift wharf counter, banker extends an open hand toward a shopkeeper in 1906 practical clothes after discussing a loan, no fabricated quote or written note; charred city roofs in soft background. Historial reconstruction in realistic natural cinematic colors, 9:16, hands and counter grounded."
+    },
+    {
+      "id": "S013",
+      "en_span": "He also lent money to ship captains",
+      "ru_span": "Он также одолжил деньги капитанам судов,",
+      "semantic_intent": "Lending to ship captains for Pacific Northwest construction lumber",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "1906 steam/sail cargo ships and timber cargo, realistic West Coast water",
+      "prompt": "San Francisco Bay 1906: banker in period clothes speaks to captain of modest cargo steamship at quay near stacks of lumber, a route that later brought lumber from Oregon and Washington; no fabricated gesture of money being paid in this frame. Single photoreal vertical 9:16 composition with historically plausible ship and dock."
+    },
+    {
+      "id": "S014",
+      "en_span": "so they could buy lumber in Oregon and Washington and sail it back.",
+      "ru_span": "чтобы те купили лес в Орегоне и Вашингтоне и привезли его обратно.",
+      "semantic_intent": "Captains fetch building lumber from Oregon and Washington",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "1906 steam/sail cargo ships and timber cargo, realistic West Coast water",
+      "prompt": "1906 cargo steamship departing Pacific Northwest timber quay carrying stacked lumber toward San Francisco reconstruction, accurate hull-water connection and period cargo gear, no invented signs or labels, naturally colored full-bleed vertical 9:16 photographic scene."
+    },
+    {
+      "id": "S015",
+      "en_span": "He invited neighbors to deposit their savings, too.",
+      "ru_span": "Джаннини приглашал соседей приносить свои сбережения.",
+      "semantic_intent": "Neighbors deposit savings, which help lending capacity",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Same wharf desk and neighborhood people with modest saving sacks",
+      "prompt": "Same wharf improvised bank counter, two local residents place small cloth money pouches and bank ledger on wooden plank, banker records deposits, damaged 1906 San Francisco neighborhood distant, face and hand continuity with S008. Color photographic reenactment, 9:16 full-bleed, no banknotes with fake contemporary symbols."
+    },
+    {
+      "id": "S016",
+      "en_span": "Those deposits helped keep his little bank working.",
+      "ru_span": "Эти вклады помогали маленькому банку продолжать работу.",
+      "semantic_intent": "Bank can keep working with new community deposits",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Same wharf desk and neighborhood people with modest saving sacks",
+      "prompt": "1906 makeshift wharf bank desk ledger showing ordinary deposits (written numbers not readable), small canvas coin pouches, original same two-barrel plank counter and banker's hands, restrained tactile historical full 9:16 photoreal reconstructed scene, no graph or signs."
+    },
+    {
+      "id": "S017",
+      "en_span": "Over the years, Giannini opened branches far beyond San Francisco.",
+      "ru_span": "Со временем Джаннини открыл отделения далеко за пределами Сан-Франциско.",
+      "semantic_intent": "Branches spread through California",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Years-later montage via one photoreal California branch street, label not required",
+      "prompt": "One historically plausible early twentieth-century California small-town Bank of Italy branch exterior with customers and period transport, architecture and dress consistent with an expanding pre-1930 California bank, photo-real 9:16, no invented dates, precisely legible lettering not required."
+    },
+    {
+      "id": "S018",
+      "en_span": "In nineteen thirty, Bank of Italy became Bank of America.",
+      "ru_span": "В 1930 году Bank of Italy стал Bank of America.",
+      "semantic_intent": "1930 renaming and 1949 scale as factual resolution",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Period 1930–1949 facade historical re-creation; typography avoid invented exact signage",
+      "prompt": "Period-appropriate 1930 to 1949 Bank of America branch with modest line of customers, an older businessman in ordinary 1940s attire near curb; historically reconstructed scale, not suggesting actual photograph or exact 1949 building; photoreal natural 9:16, any signage accurate at broad brand-name level only."
+    },
+    {
+      "id": "S019",
+      "en_span": "By nineteen forty-nine, it had more than five hundred branches.",
+      "ru_span": "К 1949 году у банка было больше пятисот отделений.",
+      "semantic_intent": "By 1949 branch network has grown beyond 500 sites",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Period 1930–1949 facade historical re-creation; typography avoid invented exact signage",
+      "prompt": "Plausible late-1940s California Bank of America office exterior, era-appropriate clothing and cars, one branch symbolizes network growth narrated as more than 500, no exact archival identity claimed, single image natural historical 9:16 photographic reconstruction."
+    },
+    {
+      "id": "S020",
+      "en_span": "When people came to deposit money right after the fires, what did Giannini have for a counter?",
+      "ru_span": "А когда люди приходили с деньгами сразу после пожаров, что у Джаннини было вместо банковской стойки?",
+      "semantic_intent": "Return to original desk question, composition prepares S001 cold opening",
+      "duration_guidance_seconds": "4–6 approximate; not measured, recut after actual narration",
+      "continuity": "Recreate S001 plank perspective to support future visual seam, not actual checked MP4",
+      "prompt": "Back at the San Francisco 1906 waterfront: open view of same two barrels and wooden plank counter used in S001, camera close enough to recognize geometry and bank activity, with distant early fire haze, period passers-by. Full-frame single photoreal reconstruction, same action geography as S001 for a proposed loop, no actual verified AV seam."
+    }
+  ]
+}

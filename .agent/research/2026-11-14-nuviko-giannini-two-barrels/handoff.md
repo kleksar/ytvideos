@@ -1,0 +1,19 @@
+# Current 2026-11-21 transfer note for 10m (PR #82)
+
+Baseline `260dbc4f8a829da0695e65afa948869093025767` → exact proposed current 10m EN `71105f99b5b76b9be9eb5e4c0a9f0d99c54eb4a25ba90f9a0918118cf47d7261`, RU `27b64682fbfb57d12f12b734830435cb2e6b870c87873a8c77e92ceedc7d60da`; full files at `variants/10m/script.en.txt` and `variants/10m/script.ru.txt`. The new 10m replaces abstract liquidity repeats with a second sourced action chain in 1907; old 10m evidence and storyboard associations are STALE. 02m/05m/root manuscript and root storyboard protected. Recommendation remains 05m Long, not approval. **EDITORIAL_CANDIDATE_UNREGISTERED / UNVERIFIED**.
+
+Only the owner-selected exact script may be registered into official existing run/pinned context; use status/resume first and explicit migration if relevant, independent unprimed first-listener plus bilingual review and original receipt, then owner approval and new version/hash-bound storyboard. No media/TTS/render/YouTube work is authorized.
+
+---
+
+EDITORIAL_CANDIDATE_UNREGISTERED; original Git-only PR branch retained.
+
+# Transfer — Giannini 1906: exact three variants
+
+- Baseline head before editorial: `cbf7b307b68d0d8db8a6417c6920ca7f9f5a982e`, root original EN Git blob `3ec5d6c7b266fd21f52b6644631fd6514083d78d`, RU blob `dd57569800bb323de9332972f95c16395a2e0722`. Root text is not modified. `variants/02m` has been substantively rewritten on 2026-11-20: EN SHA-256 `510071c68cb39df6a744bc45546ba3ce75acfc03602210c959fe2a7b02cc65bc`, RU `01fb5c13fff313f1ac41b7ea60c2b25775ca4535ff4d89a9584a121494c5ecf0`; previously exact-copy 02m and original root SHA/blob remain in story-review. All six current hashes appear there.
+- Canonical main during this pass: `7f6c9fb4ce98535aeb11de0973ae9f2459886e23`. Current verified main HEAD `17e14e451a06704c880f9b8fe606b3411ac06dee` on 2026-11-20; main channel.json supports `short` and `long` for `nuviko_history`, English narration. Never replace pins of existing production run by this checkout. Explicit migration only.
+- Recommended 05m English Long is editorial advice, NOT selected as an approved master. Validated only by authorial textual comparison and public research. Earlier 02m forced-question loop was editorial FAIL; revised 02m now offers a causal author textual join (independent repeated reading/AV seam UNVERIFIED). 10m is a complete but slower alternative.
+- Old S001–S020 `storyboard.json` remains a *preliminary 9:16 Short* mapping ONLY to original root EN/RU bytes; revised 02m and both Long versions have no version-bound image prompts/spans/timings. Do not call it ready for 05m/10m or copy old approval.
+- Exact missing capabilities: no locally observed ytv run/store CLI in current connector host, no genuine independent session reviewer/receipt. No `ytv-script-review-v1`, run ID, `awaiting_script_approval`, or owner approval. Public audience/retention data unavailable. Script timings before TTS are estimates.
+- Transfer via an authorized local workspace: inspect existing runs first (`ytv status/resume/next/plan`) and pins. If none, create an authorized `uv run ytv start --channel nuviko_history --format long --intent 'Review Giannini Bank of Italy 1906 exact editorial source'`; read actual task guide/context. Register candidate texts and research with supported `attach-artifact` route. Give unprimed reviewer selected exact scripts WITHOUT author ratings first; source ledger only after first reading. Preserve their actual original schema and result for exact SHA. Only one owner-selected master can reach the script gate.
+- For an approved Long script, construct a new 16:9 storyboard on exact chosen hash; obtain actual Nuviko traveler reference PNGs and verify accepted hashes if used. Rights, visuals, music, TTS, captions, 10-second end screen, MP4 and release checks remain NOT_STARTED. No media providers or publication authorized by this PR.
