@@ -1,0 +1,39 @@
+Would I reach the fourth floor faster by taking the stairs, even though the elevator is the faster machine?
+
+I arrive at a lobby with two routes to exactly the same landing. A is the staircase. B is an elevator. The decision looks obvious until I notice that the elevator isn't here.
+
+I want to know which route delivers me sooner, not which one moves faster after it starts. So I set up a transparent model. This is not footage of an experiment, and the numbers are assumptions anyone can replace. I start both clocks at the entrance and stop them when I reach the fourth-floor landing.
+
+For the stairs, I assign sixteen seconds per floor at a consistent walking pace. Four floors take sixty-four seconds. I'm not sprinting and I'm not counting a break.
+
+For the elevator, I separate four parts that tend to get hidden in the word “fast”: wait for the car, open and close the doors, ride, and step out.
+
+In the first run, I set the wait to forty-eight seconds. The door operation takes seven, the ride fourteen, and the exit four. So B takes seventy-three seconds.
+
+A takes sixty-four. Stairs win by nine seconds. My moving speed on the stairs never beat the elevator's moving speed. The lift lost while it was somewhere else in the building.
+
+That result gives me a question I can actually test inside the model: how much waiting can the elevator afford?
+
+First I remove the wait. All the other elevator steps add up to twenty-five seconds. The stairs need sixty-four. That leaves thirty-nine seconds. If the wait equals thirty-nine, both routes tie. At forty, stairs win by one second. At thirty-eight, the lift wins by one.
+
+This is more useful than declaring that one method is always better. The result depends on a number I often don't know when I enter a real lobby.
+
+I now give B a much shorter wait of twelve seconds, without changing anything else. Its total becomes thirty-seven. It beats A by twenty-seven seconds. I didn't make the elevator faster and I didn't slow down the stairs. I only changed when its doors were available.
+
+But a short wait isn't the whole story. Suppose the car stops for someone on the second floor. I add eighteen seconds for that stop, still leaving the same destination and the same walking pace. With the twelve-second wait, the elevator now takes fifty-five seconds. It still wins, but only by nine.
+
+If I restore the forty-eight-second wait and add that stop, B takes ninety-one seconds. The stairs win by twenty-seven. The stop matters, but the initial wait matters more in this example.
+
+There's another twist. What if my destination isn't the fourth floor? I can't just reuse the fourteen-second ride for every height. For a second, explicitly simplified version of the model, I assign three and a half seconds of elevator travel per floor, plus eleven seconds for the doors and getting out. Stairs still cost sixteen seconds per floor.
+
+With that slower first wait of forty-eight seconds, one floor is an easy win for the stairs: sixteen versus sixty-two and a half seconds. At four floors I get the original sixty-four versus seventy-three. At five floors it's eighty seconds by stairs, but seventy-six and a half by lift. Now B just wins.
+
+So the number of floors can flip my decision even when the wait stays unchanged. At eight floors the calculated gap grows much larger in the elevator's favor. That doesn't mean eight flights of stairs are unsafe or safe for any particular person. My model measures arrival time, not effort, health or accessibility.
+
+The basic idea has been investigated outside drawings. In one small Canadian hospital study, four staff members made fourteen trips by stairs and elevator. Across those trips, the stairs took about ten minutes in total, while two elevator banks took roughly twenty and twenty-five. The researchers attributed most of the difference to waiting. That's a real observation in one setting, not proof that every elevator loses.
+
+The models and the hospital observation point to the same question: where does the clock start? If I only time the car after its doors close, I ignore the time that may decide the race.
+
+My result is conditional. With the assumed four-floor journey, A wins by nine seconds when B waits forty-eight; B wins by twenty-seven when the wait is twelve. The precise tipping point is thirty-nine seconds. I don't know the real wait, but at least I now know which number matters.
+
+And the next time I face those two routes in a lobby, I have a much better version of the same question: would I reach the fourth floor faster by taking the stairs?
