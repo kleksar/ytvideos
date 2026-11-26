@@ -1,0 +1,59 @@
+How can washing exactly the same clothes take twenty-five minutes longer just because I pick a different basket first? Why does changing one drying time reverse the result? And could both methods lose once I have four baskets?
+
+I want the last towel and the last shirt dry as early as possible. I have one washer and one dryer, and I can run them at the same time. I could start with the shortest wash, which sounds efficient. Or start with the load that needs the longest drying time, to get that slow job moving.
+
+Let's call those A and B. A always chooses the remaining load with the shortest wash cycle. B chooses the remaining load with the longest dryer cycle. I use the same loads, cycle times and machines for both. Every load must finish washing before its turn in the dryer, and a washed basket can wait until the dryer opens. There is no secret second machine or extra person doing transfers.
+
+Everything here is a scheduling model with chosen numbers. I haven't measured my own appliances. I'm comparing the minute when everything is dry. If I wanted the first clean shirt instead, that would be a different race.
+
+I start with two loads. Shirts take twenty minutes to wash and forty-five to dry. Towels take fifty to wash and seventy to dry.
+
+Method A puts the shirts in the washer first. At minute twenty, they go to the dryer. The towels go into the washer at the same moment. At minute sixty-five the shirts are dry. The towels are still washing for five more minutes. At seventy the towels enter the dryer, then finish at minute one-forty.
+
+Now I reset the schedule. Method B puts towels first because seventy minutes of drying is longer than forty-five. Washing them takes fifty minutes. They start drying at fifty and finish at one-twenty. Meanwhile, the shirts wash from fifty to seventy. They're ready to dry at seventy, but the dryer is busy for fifty more minutes. When the shirts finally get their turn, they run until one-sixty-five.
+
+A finishes in one hundred forty minutes. B takes one hundred sixty-five. Those twenty-five extra minutes aren't more laundry, or a slower machine. They come from when the dryer became available to the next basket.
+
+But the opposite slogan, always wash the quickest load first, can fail too. Keep everything identical except the shirts' drying time. Suppose the shirts are very light and need only ten minutes in the dryer. Again, this is an input in my model, not a promise about real fabrics.
+
+With A, the shirts wash from zero to twenty and dry from twenty to thirty. The towels finish washing at seventy. The dryer sits empty between thirty and seventy, then works on towels until one-forty. Nothing finishes sooner overall than in the original A schedule.
+
+With B, the towels wash to fifty and dry until one-twenty. The shirts wash from fifty to seventy, then wait. But now their dryer cycle takes only ten minutes. The whole job ends at one-thirty.
+
+B wins by ten minutes. I didn't change the rules. The loads are still identical on both sides of this comparison. Only one duration, shirt drying, changed from the first experiment. The winning rule switched.
+
+There's a useful boundary here. If the shirts need exactly twenty minutes to dry, A finishes at one-forty and B also finishes at one-forty. Below twenty, B wins for this pair of loads. Above twenty and up to fifty, A stays at one-forty while B gets progressively later. The break-even number isn't a magic laundry setting. It belongs to the times in this one example.
+
+Now there's another trap. The fastest way to finish every basket isn't necessarily the fastest way to get the one thing I need. Suppose I have to wear one of those shirts in an hour. In the ten-minute-drying case, A delivers dry shirts at minute thirty. B doesn't deliver the shirts until minute one-thirty, even though B finishes the entire laundry job ten minutes earlier.
+
+So if my goal is to get dressed and leave, A wins the useful race. If my goal is to clear both baskets completely, B wins the specified total-time race. Neither answer is a contradiction. I have changed what I'm measuring. A comparison that never says its metric can manufacture a winner out of almost anything.
+
+I move to three baskets. The original shirts need twenty minutes washing and forty-five drying. Towels still need fifty and seventy. The new blanket needs thirty-five minutes washing and sixty drying. Both methods now sort all three loads by their own stated rule.
+
+A goes shirts, blanket, towels. The shirts start the dryer at twenty and finish at sixty-five. The blanket washes from twenty to fifty-five, waits ten minutes, then dries until one-twenty-five. The towels wash from fifty-five to one-oh-five, wait for the blanket, and finally dry from one-twenty-five to one-ninety-five.
+
+B goes towels, blanket, shirts. Towels enter the dryer at fifty and finish at one-twenty. The blanket waits from eighty-five to one-twenty, then dries until one-eighty. The shirts finished washing at one-oh-five. They wait through the blanket's turn and finish drying at two-twenty-five.
+
+A wins by thirty minutes. I can explain that without a big formula. The three dryer cycles total one hundred seventy-five minutes. In this version, once the dryer starts, it keeps working without a gap. Under A it starts at minute twenty, so it finishes at one-ninety-five. Under B it starts at fifty, so it finishes at two-twenty-five. The first fifty minutes of a schedule can decide the last half hour.
+
+Now change the shirts' drying time to ten minutes again, while keeping the blanket. I might expect B to win, because B won the two-load version under that exact change. But here A finishes at one-eighty-five, and B finishes at one-ninety. A wins by five.
+
+The third load changes which waiting period matters. Under A, the quick shirts finish drying at thirty. The blanket isn't washed until fifty-five, so the dryer waits twenty-five minutes. Yet that gap costs less than B's fifty-minute wait before its first drying cycle. Under B, the dryer gets going late and stays busy until one-ninety. I cannot take a result from two baskets and treat it as a law for three.
+
+For the biggest check, I add a fourth basket: synthetics taking forty minutes to wash and ten to dry. All original three loads return to their original drying times. That means shirts twenty and forty-five; blanket thirty-five and sixty; towels fifty and seventy; synthetics forty and ten. Both methods see exactly those four loads.
+
+A, which sorts by the shortest wash, chooses shirts, blanket, synthetics, towels. The dryer finishes shirts at sixty-five, blanket at one-twenty-five, then synthetics at one-thirty-five. But the towels are still in the washer until one-forty-five. The dryer sits idle for ten minutes, and the towels take the final slot until two-fifteen.
+
+B, which sorts by the longest drying time, chooses towels, blanket, shirts, synthetics. Its first drying job doesn't start until fifty. Then those jobs form a queue. The last synthetic load comes out at two-thirty-five. A beats B by twenty minutes.
+
+Here is the second surprise. Those two rules are not the only possible orders. I checked the twenty-four different arrangements of four loads with the same two-machine model. Shirts, blanket, towels, synthetics finishes at two-oh-five. That's ten minutes better than A and thirty better than B. Both of my supposedly sensible shortcuts lost to an order that saved the very short dryer job for last.
+
+That extra check isn't a third method competing for the episode's A/B crown. It's a check on what the crown means. A beat B in this four-load example. It didn't become the best order among all possibilities. A rule can win a head-to-head and still be improvable.
+
+There's a general idea behind that result. When a load is very quick in the washer, starting it early can get the dryer moving. When a load is very quick in the dryer but slow in the washer, saving it for late can prevent an empty dryer gap. Scheduling researchers have a rule for this exact two-machine problem, but I don't need a technical name to see the bottleneck: a washer finishes something, and the dryer either has room or doesn't.
+
+Real laundry brings messier choices. Different fabrics require different temperatures and care, not every load belongs in the dryer, a sensor may change cycle length, and I might be away when a machine beeps. A basket may be too large to fit, and a short cycle may not clean it properly. The model assumes fixed times, compatible loads, immediate transfers and room for wet baskets to wait. It compares total finishing time, not energy, cost, wrinkles or fabric damage.
+
+So what did A and B teach me? In two loads, the shortest wash wins twenty-five minutes in the original case, then loses ten when the shirts dry faster. A third load can flip the answer again. With four loads, A beats B, but a different order beats both.
+
+Before I press Start, I can make a better decision by checking both cycle times and noticing when the dryer will be free. The fastest-looking first basket doesn't tell me when the last towel will be dry. That's the part of laundry day I was trying to win.

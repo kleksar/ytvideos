@@ -1,0 +1,33 @@
+Can two laundry days with exactly the same clothes finish half an hour apart because I chose a different first basket? And what happens if I add one more basket without changing either machine?
+
+I have one washer and one dryer in this illustrated model. They can work at the same time, but each machine handles only one load. Wet laundry is allowed to wait between them. I move a load as soon as its machine is available, and I ignore the few seconds needed to open a door. These are chosen example times, not measurements from my home.
+
+I'm testing two easy rules. A means I wash the quickest load first. B means I give priority to whatever needs the longest time in the dryer. I want the last piece of laundry dry as early as possible. The time when the first T-shirt comes out doesn't decide the winner.
+
+I have shirts, a blanket and towels. Shirts need twenty minutes in the washer and forty-five in the dryer. The blanket takes thirty-five and sixty. Towels take fifty and seventy.
+
+Before I show the clocks, choose A or B. The shorter wash sounds useful because I can get the dryer running quickly. The longer dry sounds useful because I want the slowest job out of the way. Both arguments make sense. Only the full schedule tells me what they cost.
+
+With A, I start the shirts. At minute twenty, they leave the washer for the dryer. I immediately put the blanket in the washer. The shirts keep drying while the blanket washes.
+
+At minute fifty-five, the blanket is washed. But the shirts still have ten minutes left in the dryer, so the blanket waits. I don't leave the washer idle: the towels start their fifty-minute wash.
+
+At minute sixty-five, the shirts are dry and the blanket takes over the dryer. It stays there until minute one-twenty-five. The towels finished washing at one-oh-five, so they have spent twenty minutes waiting wet. They finally enter the dryer at one-twenty-five, and the last towel is dry at minute one-ninety-five.
+
+Now I reset everything. Same three baskets. Same washer and dryer. Method B starts with the towels because seventy minutes is the longest drying cycle.
+
+The towels wash until fifty, then tumble until one-twenty. Meanwhile, the blanket washes from fifty to eighty-five. It waits thirty-five minutes for the dryer. The shirts wash from eighty-five to one-oh-five. Those shirts are now clean, but they're stuck behind the blanket. The blanket dries from one-twenty to one-eighty. Then the shirts finally get the dryer until minute two-twenty-five.
+
+A finishes at one-ninety-five. B finishes at two-twenty-five. That's a thirty-minute difference without saving a single minute of washing or drying.
+
+Here's what I missed when I looked only at the baskets. In both schedules, once the dryer starts, it never has an empty gap. All three loads add up to one hundred seventy-five minutes of dryer time. A gets that machine working at minute twenty. B doesn't start it until minute fifty. Twenty plus one-seventy-five is one-ninety-five. Fifty plus one-seventy-five is two-twenty-five. The initial delay follows me all the way to the end.
+
+It would be tempting to say that A is always the better rule. I tried a smaller version of this same model with just the shirts and towels. With the original times, A finishes at minute one-forty, B at one-sixty-five. But when I change the shirts' drying time from forty-five minutes to just ten, B finishes at one-thirty and A at one-forty. The winner flips.
+
+Now put the blanket back, keeping that ten-minute shirt drying time. A goes shirts, blanket, towels and finishes at one-eighty-five. B goes towels, blanket, shirts and finishes at one-ninety. The third basket flips the answer again.
+
+Why? Under A, the dryer is briefly idle after those very quick shirts, while the blanket finishes washing. Under B, the towels take a long time to reach the dryer in the first place. Adding another load changes which delay matters most. The result for two loads cannot just be copied onto three.
+
+I have to be careful about what this comparison means. It assumes all the clothes are safe to tumble dry, that each basket fits its chosen machine and that I know the cycle times. It ignores electricity use, fabric care, pauses when I'm not home, and automatic sensors that change drying time. It's an exact result for the stated schedule, not a universal laundry tip.
+
+What I can take into my next laundry day is a better question. I shouldn't just ask which wash is shortest or which dryer cycle is longest. I should trace when the dryer can start, and whether each washed basket will find it busy. That's where thirty minutes disappeared in this model.
