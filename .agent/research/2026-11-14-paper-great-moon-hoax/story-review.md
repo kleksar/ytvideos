@@ -1,5 +1,47 @@
 # Story-review: Great Moon Hoax
 
+## 2026-11-26 — current revision (supersedes historical variant assessments below)
+
+Baseline `3fd027f8e83fb75f0bce6225c11f20dd5a80f667`, canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). Original root masters and all original storyboard spans remain unchanged; 05m byte-identical; 02m and 10m rewritten. No approval, production or independent review observed in the PR discussion, no open review threads. External runtime/Codex activity cannot be inspected from this connector; Git-only candidates only. No new run or production.
+
+| Variant | Full EN and SHA-256 | Full RU and SHA-256 | Words | Paired paragraphs |
+|---|---|---|---:|---:|
+| 02m | [EN](variants/02m/script.en.txt) `aa35b67c551e9601d9e3855670e4da3d4444b747783ac0c3ab503ef3b5dad85e` | [RU](variants/02m/script.ru.txt) `b41db963ddd0bb8b9b0858d81cfef104a8c2121baa5b1fd31e002661ebc249da` | 244/216 | 11/11 |
+| 05m | [EN](variants/05m/script.en.txt) `298bfc7cfc4658a7c12a4b78f36b11e765d9d7f37d502484bc5c76e2bae352ad` | [RU](variants/05m/script.ru.txt) `6780ea2439bfb9a72f773e1e6a4538af6ac1fc00345a06a48d1e13533bf9f2c3` | 627/556 | 19/19 |
+| 10m | [EN](variants/10m/script.en.txt) `401505b40893e43da2cee2f8132c7774a61991524450dbfffa0f41b37a03b22c` | [RU](variants/10m/script.ru.txt) `1356b207b45d6fab2e0508e6af1381debf8667c546a286f39dfb50daa7505d89` | 1222/1007 | 36/36 |
+
+Estimate only at 120–150 spoken EN words/min: 02m 1.6–2.0 minutes; 05m 4.2–5.2 minutes; 10m 8.1–10.2 minutes. No measured audio, visual timings or retention.
+
+### Story maps / visual intent (paragraph spans, not timed storyboard)
+- 02m P1–3 newspaper claim/real Herschel versus fake chain; P4–6 fake instrument/animal escalation/winged beings; P7 rival press challenges before end; P8 false fire; P9 Locke's contemporary denial versus later acknowledgment; P10–11 separate printed pictures, payoff, next cycle. Show contemporary paper as text-only, creatures only in clearly marked editorial reconstructions or separate prints, not authenticated original newspaper illustrations. P6 paper plane can be an unobtrusive nonhistorical visual Easter egg. Original exact storyboard applies only to the root script, not these eleven paragraphs.
+- 05m P1–6 questions/one-cent press/real expedition/false credentials; P7–11 apparatus and escalating creatures; P12–15 simultaneous criticism and fictional fire; P16–19 authorship, continued copies, printed payoff. Preserve original text and its strengths; no actual storyboard for this Long.
+- 10m P1–10 questions, real expedition, borrowed authority/optics; P11–16 imagined observations and missing images; P17–25 skeptical editors, fictitious accident, author denial; P26–29 parody and actual pamphlets/prints, distinct from original columns; P30–33 reaction, authorship, satire; P34–36 two physical objects resolve original questions. Paper treatment: text-only column vs later separate lithograph and illustrated pamphlet; actual archive assets/rights not verified. A paper plane may be tucked into the editorial press-table composition at P15, not depicted as historical fact. All three maps are textual; number of timed shots remains unverified.
+
+### Eight criteria, separate author-only ratings, medium confidence (demand unverified)
+| Criterion | 02m | 05m (unchanged) | 10m |
+|---|---|---|---|
+| Interest / significance | 8: challenge before ending, absurd claims; little human depth | 8: contemporary dispute and continued circulation | 8: physical transformation of story and real astronomer reaction, niche audience |
+| Opening | 8: direct complete statement immediately establishes source | 8: two specific questions | 8: three concrete questions; P2–P5 may feel slow |
+| Development | 8: pressure from rival papers before fake fire | 8: borrowed authority→apparatus→criticism→false fire | 8: text-only premise pays off in actual illustrated editions; P30–33 slows after object discovery |
+| Payoff | 8: denial and later admission, real prints vs fictional discoveries, closed before repeat | 8: both questions answered, paper image conclusion | 9: final contrast of newspaper and illustrated pamphlet answers the third question literally |
+| Freshness | 7: known hoax, more precise print distinction | 8: criticism while installments still running | 8: original articles lacked the famous illustrations, distinct object-focused angle |
+| Visual potential | 8: paper text, telescope and separate prints; little action | 9: real vs false apparatus, competing press | 9: text columns vs woodcut/colored lithographs; rights/assets still missing |
+| Speech / clarity | 8: full cold sentence, less list-like | 8: natural causal sequence; Board of Longitude passage technical | 8: concrete objects replace summary; Locke/Dick require attention |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+### Hard checks
+- EN/RU: complete paired narratives, same claims and caveats; paragraph counts paired. Author-only textual read-through, not independent listening.
+- 02m full text read in both languages twice consecutively; cold entry states newspaper, date and claim without prior context; answer reached before repeat at P10/P11. Final question EN: “So what was the remarkable news that started it all?” → first complete sentence “In 1835, a New York newspaper announced that people with bat wings lived on the Moon.” RU “Так с какой же удивительной новости всё началось?” → “В 1835 году нью-йоркская газета объявила, что на Луне живут люди с крыльями летучих мышей.” Question answered on repeat, not a dangling phrase. Actual AV seam UNVERIFIED; independent two-cycle review UNVERIFIED. Long loop N_A.
+- Longs: questions → factual immersion → main hook (05m false credentials and apparatus, 10m P11–16) → complete answers. 10m factual additions in shared research; no assumed universal belief, fabricated motives, or original illustrated articles. 05m unchanged author checks remain, not independent approval.
+- New text hashes invalidate prior timing/loop/review evidence for revised candidates; original master/storyboard only preserved as historical evidence. No independent session/receipt, pinned runtime, real TTS, MP4, AV, viewer-interest/CTR or owner approval: UNVERIFIED. Register the owner-selected exact candidate through canonical runtime and get authentic independent response before script gate.
+
+### Comparison
+02→05 adds credible chain (including abolished institution), detailed mechanism of simultaneous skeptical and believing coverage, and Locke's explanation; 05→10 adds historically documented distinction between unillustrated original columns and later pamphlets/lithographs, international reprints and Herschel's reported reaction. 10m P30–33 still risks attention loss after the illustrated-object reveal in P28–29; 05m keeps the newspaper dispute tight. Recommend **05m Long** for general audience; 10m credible for book-history angle; 02m a viable short. Recommendation is author-only, not production permission. Current status: three complete variants → author checks recorded → 05m recommended; independent and official gate UNVERIFIED. Next #70 after fresh protection and remote checks; technical #77/#78 separate. Entire queue not complete.
+
+---
+
+## Historical records — old hashes / assessments (not current)
+
 **Статус:** EDITORIAL_CANDIDATE_UNREGISTERED — independent reviewer и official script gate **UNVERIFIED**, а не PASS. Метод ниже — только авторская ручная текстовая сверка; это не ytv-script-review-v1 и не вывод первого независимого зрителя.
 
 ## Интерес
