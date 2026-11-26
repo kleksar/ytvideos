@@ -1,0 +1,31 @@
+If I cut a cake into three exactly equal pieces, is there any way for two of my friends to get a good deal while I get a bad one? And can a smaller piece actually make the result fairer?
+
+Imagine I'm at a table with Max and Lee. I have a long cake with a chocolate section, a vanilla section and a strawberry section. We're not conducting a real taste test. I'm assigning each of us preferences in a model, so I can reset the cake and compare the same starting conditions.
+
+I can use two methods. In A, I make equal-sized servings, then Max chooses, Lee chooses, and I get whatever remains. In B, I'll let us adjust the cuts according to what we each like. Which method would you choose?
+
+Before cutting, I need to decide what counts as winning. I'm going to give each of us a budget of twenty-four taste points for the whole cake. Whoever receives the smallest fraction of their personal total is the person whose result I want to improve. My target is at least eight points for everyone.
+
+The cake is twelve units long. I value each unit of chocolate at two, vanilla at three and strawberry at one. Max's favorite is chocolate, which is worth four per unit to him. The other two flavors are worth one each. Lee values the flavors at three, two and one. Add up their values across the whole cake and all three totals are twenty-four.
+
+I draw two lines so the servings are the same size. Max gets his favorite and scores sixteen. Lee gets vanilla and scores eight. I get strawberry and score four. Changing the order doesn't solve the central problem: none of us gives strawberry more than four.
+
+Let's reset. This time I propose a piece that's worth exactly a third of the cake to me. That's the four units of chocolate. Max sees sixteen points in that piece, twice his target. He trims it until it contains just two units of chocolate. Now he sees eight. Lee sees six, so he doesn't trim any further.
+
+Max takes the piece because he was the last person to reduce it. His discarded two units of chocolate are still on the table. They haven't been thrown away.
+
+I'm left to share ten units of cake with Lee. I value this remainder at twenty points. I'll cut it into two pieces worth ten each to me. One has two units of chocolate and two of vanilla. The other has two units of vanilla and four of strawberry.
+
+Lee sees ten points in the first piece and eight in the second, so he takes the first. I take the other. For me it doesn't matter which he picks, because I made them equal by my own preferences.
+
+Now the lowest score has gone from four to eight. Everyone gets at least a third by their own measure.
+
+But look at Max. His little chocolate piece is worth eight to him. He would value Lee's mixed piece at ten. He still has a reason to want someone else's plate. This method delivers a minimum share, not a promise that nobody envies anyone.
+
+There's another catch. Suppose Lee loves strawberry instead. I change just his preferences to one point per unit of chocolate, one for vanilla and four for strawberry. His whole cake is still worth twenty-four.
+
+If I use A, Max takes chocolate again, Lee now takes strawberry, and I get vanilla. The scores are sixteen, sixteen and twelve. If I use B, Max still trims his piece to eight. Lee passes and later chooses the strawberry-rich piece. I get ten and Max still gets eight.
+
+In that second situation the simplest cuts give the better minimum: twelve instead of eight. So B provides a useful safety net when we have conflicting preferences, but it doesn't maximize everyone's worst outcome in every possible situation.
+
+If I know we each like a different flavor, I'll happily make three equal slices. If we're fighting over the same section, I'd rather have a rule that accounts for what we actually value. I still have to agree with my friends on what fairness means before I pick up the knife.
