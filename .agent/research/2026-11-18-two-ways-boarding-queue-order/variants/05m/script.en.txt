@@ -1,0 +1,31 @@
+Why does an orderly boarding queue sometimes move so slowly? And why can a better seating order become a worse plan before I even reach the door?
+
+I want to compare two ways of boarding the same airplane. I am not claiming to have timed a real flight. My test uses eight illustrated passengers, four rows, a window and an aisle seat in each row, and one narrow aisle. Every passenger has one bag and a fixed ticket.
+
+I set the score before I start: elapsed time from the first boarding instruction until the last passenger sits. To keep the calculation reproducible, my little cabin admits one passenger at a time. Each needs fourteen seconds to walk, put away a bag, and sit. If someone already in an aisle seat has to stand for the window passenger, that adds nine seconds. These are declared model inputs, not measured airport averages.
+
+I call method A back-to-front. Row four goes first, then three, two, and one. Inside a row, people follow the order they arrived at the gate. To make that unambiguous, I write the exact queue down. Row four: window, aisle. Row three: aisle, window. Row two: aisle, window. Row one: window, aisle.
+
+With row four, nothing goes wrong. The window passenger sits, the aisle passenger follows. Then I reach row three. The aisle passenger is already seated when the person at the window turns up. That first passenger must stand aside. The same thing happens in row two. Row one is fine.
+
+Two avoidable interruptions, even though I have filled every row from the back. Back-to-front doesn't tell me which seat in a row should be filled first. That missing detail matters.
+
+For method B, I reset the entire scene. Nobody is still seated from the first run. I send the window passengers from rows four through one, followed by aisle passengers from four through one. No one has to climb past a seated neighbor. Eight people take fourteen seconds each: one hundred and twelve seconds. A adds two nine-second interruptions: one hundred and thirty.
+
+B wins by eighteen seconds under the rules I announced.
+
+If I ended there, my conclusion would sound like a travel hack: board windows first. But I haven't counted the job of forming the queue. I have acted as if the two groups were magically ready.
+
+So I repeat the calculation with a gate preparation cost. Suppose A is ready immediately, while B takes twenty seconds to sort the same eight people into its window and aisle groups. That twenty seconds is an explicit assumption, not a claim about any airline.
+
+A still takes one hundred and thirty seconds. B now takes one hundred and thirty-two. The supposedly better seating method loses by two seconds. Its advantage inside the cabin was real in the model. It just wasn't large enough to pay for organizing the line.
+
+There is another catch. What if the two troublesome rows in method A already had their window passengers first? With the same eight people and the same serial rule, A would finish in one hundred and twelve seconds too. So my example does not prove that every back-to-front queue is slower. It proves that seat order and setup time can change the winner.
+
+Real boarding is harder than this. A traveler stores a bag while somebody else may move farther down the aisle. A bulky case can hold up people behind. Families may want to stay together; priority passengers may board before either comparison begins. I haven't modeled those effects, and I won't turn my little clock into a claim about the duration of a commercial flight.
+
+There is a useful real-world clue. Airlines and researchers have studied window-middle-aisle boarding. United announced a form of it in 2023 and said its tests indicated savings of up to two minutes. That's a statement about United's tests, not a validation of my invented eighteen-second result.
+
+My model's payoff isn't that method B always wins. It is the reason the obvious answer fails: there are two separate bottlenecks. I can reduce the standing and squeezing inside the cabin, but I may spend the saving getting everyone into the right order at the gate.
+
+Next time I see two different boarding instructions, I won't judge them by how neat the line looks. I want to know what work the line prevents, and what work it creates. Which gets me into my seat sooner?
