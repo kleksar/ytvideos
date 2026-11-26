@@ -1,0 +1,53 @@
+Is a shower always the lower-water choice? Where is the exact point at which a bath becomes better? And what would I need to know before using that answer in my own home?
+
+I have always thought of a bath as an enormous amount of water sitting in one place. A shower looks smaller. The water disappears down the drain almost as soon as it falls, so it is easy for me to stop noticing it. But the drain is not a measuring cup. Water that disappears has still passed through the meter.
+
+I want to compare two ways of doing the same everyday job: getting washed. A is a shower, B is a bath. I'm building a transparent model here, not pretending I ran a real experiment or tested how clean either method leaves me.
+
+I have to decide what winning means before seeing a result. My metric is the total volume of water drawn from the supply for one wash. I won't award points for speed, warmth, relaxation, electricity, or how well soap rinses off. Those things may matter in real life; this comparison doesn't measure them.
+
+To make the first round reproducible, I write down two inputs. B is a bath filled with thirty US gallons. That's about a hundred and fourteen litres. A uses a showerhead delivering two and a half gallons each minute. Both are plausible published reference figures, not measurements of my own bathroom. They're numbers I've deliberately chosen for the model.
+
+Both sides start with one person and the same task. I give A eight minutes with the water running. B fills its tub once. B needs thirty gallons, while A uses two and a half times eight: twenty gallons. If I only cared about this result, I would be finished. A saved ten gallons.
+
+This is why the familiar advice to take a shower instead of a bath often makes sense. Portland's municipal water guidance describes an average shower as about eight minutes and seventeen gallons, compared with roughly thirty gallons for an average bath. That is a general observation, not a measurement of my imaginary bathroom. My modeled shower happens to use twenty because I chose a different flow.
+
+Now I try to break my own result. I leave everything alone except one thing: the time A keeps running.
+
+At ten minutes, A reaches twenty-five gallons. Still ahead. At twelve, it's thirty. A draw. At fifteen, the shower has used thirty-seven and a half gallons. I haven't upgraded the bath, bought anything, or increased its fill. And yet B now uses seven and a half gallons less than A.
+
+The reason is visible without a complicated chart. B is a fixed fill. Sitting in it longer doesn't automatically add more water. A is a running tap. Every extra minute sends another two and a half gallons down the drain.
+
+I can calculate the precise boundary: thirty divided by two and a half equals twelve minutes. Below twelve, A draws less water. Above twelve, B draws less. At twelve, neither wins. This is an answer, but only for the conditions I wrote down.
+
+I could make a serious mistake by repeating the twelve-minute rule in every bathroom. My own bathtub might be smaller or larger. I might fill it halfway. So I reset the model and change only the amount in B.
+
+This time B uses twenty-four gallons for a shallower fill. I'm not claiming every shallow bath needs twenty-four gallons. It is an explicit new assumption. At eight minutes, the original shower uses twenty, so A still wins, but by only four. At ten minutes, A uses twenty-five, and B wins by one.
+
+The new crossover is twenty-four divided by two and a half: nine point six minutes, or nine minutes and thirty-six seconds. Nothing dramatic happened inside the bathtub. The result shifted because I put less water in it.
+
+Then I give the shower its own improvement. The US EPA's WaterSense label limits showerhead flow to no more than two gallons a minute. I choose that exact flow as another model input, and restore B to its original thirty-gallon fill.
+
+Fifteen minutes under A now takes thirty gallons. That's a tie. At twelve minutes it takes twenty-four, so A wins by six. The boundary against the thirty-gallon bath is now fifteen minutes, not twelve.
+
+But the label doesn't guarantee victory. If I compare this same two-gallon showerhead against the shallow twenty-four-gallon bath instead, the boundary goes back to twelve minutes. Same showerhead, different fill level, different conclusion.
+
+At this point I notice something else I nearly hid. What counts as a fifteen-minute shower? If I spend fifteen minutes in the bathroom but turn the water off while shampooing, the actual running time might be much shorter.
+
+Suppose it flows for only eight of those fifteen minutes. At the original two-and-a-half-gallon rate, I use twenty gallons, not thirty-seven and a half. The result changes without changing the fixture or how long I was getting ready. The water bill doesn't care how long I stood on the bathroom mat. It cares how long water flowed.
+
+And what about the cold water I let run while waiting for the shower to warm? Water sent down the drain before the wash is still water drawn from the supply.
+
+For a separate sensitivity test, I assume two gallons go down the drain during warm-up, then the original shower runs for eight minutes. The total is twenty-two gallons, not twenty. Against a thirty-gallon bath, A still wins. But the break-even running time becomes eleven point two minutes, because two gallons have already been used before the main wash.
+
+I must be equally fair to B. Filling a bath can waste water while someone adjusts its temperature too. I cannot add a penalty to A and assume B always avoids it. This is a hypothetical model variation, not an observation about which bathroom really wastes more during warm-up.
+
+Even repeated use changes the scale without changing the logic. One hundred original eight-minute showers consume two thousand gallons under these fixed assumptions. One hundred thirty-gallon baths use three thousand. A difference of one thousand. Now repeat one hundred fifteen-minute showers at the original flow: that is three thousand seven hundred and fifty gallons. The direction of the difference reverses. The multiplication is certain; the idea that a person repeats exactly the same routine a hundred times is only an assumption.
+
+How would I find the numbers for my actual home? I could catch water from the shower in a marked container for a known amount of time and turn the result into flow per minute. If a container held one and a quarter gallons after thirty seconds, that would mean a steady rate of two and a half gallons per minute. This is an example of a possible measurement, not a measurement I secretly made.
+
+I would also count the minutes the water actually runs, including warm-up and rinsing, instead of timing my whole bathroom visit. For the tub I'd need to know the volume at the level I actually fill, rather than its advertised capacity to the brim. Calibrated fill marks or a reliable meter could provide that input. Until I have it, even a perfect shower measurement can't decide the comparison.
+
+One last limit matters. Less water is not automatically the same as less heating energy, less money, or a more comfortable wash. Water temperature, heating equipment, utility rates, and personal needs are outside this single-metric model. I'd need additional inputs and perhaps a different test to answer those questions.
+
+I began thinking I had to choose between two fixtures. I ended up comparing a fixed volume in a tub with a flow multiplied by running time. No fixture owns the winning label. If I want to use less water, I first check how much I fill the bath, how fast the shower flows, and how long I leave it on.
