@@ -1,0 +1,65 @@
+Eight invitations, eight blank envelopes, one desk. I have to finish them before I leave. But there are two very different meanings of the word "finish." Do I need one sealed invitation as quickly as possible? Or do I need all eight sealed before I walk out? And why can the method that wins the first race lose the second by almost two minutes?
+
+I'm going to compare two ways of doing exactly the same job. In A, I write a name, insert its card, seal the envelope, and only then begin the next invitation. In B, I write every name first, insert all eight cards second, and seal the whole pile last.
+
+I want the comparison to be fair, so I need to lock the starting conditions. It's the same person and the same eight identical invitations each time. Nobody helps me. No new envelope appears halfway through. My main measure is the time until the last envelope is sealed. I'll also keep a separate clock for the first usable invitation. Both clocks start when I sit down.
+
+These numbers are deliberately invented for a simple visual model; I haven't conducted a timed home experiment. Writing each name takes ten seconds. Putting a card inside takes six. Sealing the envelope takes four. That is twenty seconds of useful work per invitation, regardless of the method.
+
+There's one extra cost. Changing the desk from writing to inserting, from inserting to sealing, or back to writing takes five seconds. In my drawing that means clearing one group of objects and bringing the next group within reach. It's a fixed assumption, not a measured fact about an actual desk.
+
+Before I press play, I think A will feel faster. Every little cycle leaves something finished. With B I'll be staring at a growing pile of half-finished work. But feeling productive and finishing the whole order aren't always the same thing.
+
+Let's follow A through the first card.
+
+I pick up the pen and write a name. Ten seconds. I put the pen away, arrange an envelope, and take five seconds to change setup. Six seconds to insert the card. Another five to switch to sealing. Four to close the envelope. My first invitation is ready after thirty seconds.
+
+One guest could come to the door right now and I could hand it over. I have a real finished item, not a signed envelope still lying open. That matters if the job is urgent and small.
+
+Then I reach for the next card. I have to move from the sealing setup back to writing. That's a third switch before this card begins. I write the next name, switch again, insert, switch, seal. Now the clock says one minute five seconds. The second invitation is ready.
+
+The third finishes at one minute forty. The fourth at two minutes fifteen. So A keeps delivering an envelope roughly every thirty-five seconds after the first. On an illustrated scoreboard, its finished pile grows steadily: one, two, three, four. This is exactly why it looks like the winning method halfway through.
+
+But here's a question I couldn't answer just by staring at that finished pile. How much of the time went into the invitations themselves, and how much went into rearranging the desk?
+
+For each card I use twenty seconds of productive work. With eight cards, that's one hundred and sixty seconds. Inside every card I switch from writing to inserting, then from inserting to sealing. Two switches per card means sixteen. Between eight completed cards I return to writing seven times. That's twenty-three switches in total.
+
+At five seconds each, the switches take one hundred and fifteen seconds. I spend almost two minutes just changing tasks. Add that to the actual work and A finishes every envelope in two hundred and seventy-five seconds, or four minutes thirty-five.
+
+Now I reset everything. All eight envelopes are blank again and the same assumptions are still fixed. This isn't a trick where I give B a better pen or easier names. I change only the order in which the work happens.
+
+With B, I write name after name. After the eighth, eighty seconds have passed. I haven't sealed anything. If I were judging the desk by its finished envelopes, I would call this a disaster.
+
+I change the desk once, for five seconds. Now I insert eight cards, six seconds each. That takes forty-eight seconds. At two minutes thirteen, every card has its name and its envelope, but not a single envelope is sealed. An impatient guest still cannot leave with a finished invitation.
+
+I change the setup one last time, another five seconds. Then I begin sealing. The first envelope closes at two minutes twenty-two. The second, four seconds later. Then the third and the fourth. A has been delivering finished cards for more than a minute and a half by this point.
+
+At two minutes thirty-four, B has sealed four envelopes, while A has also finished four. For an instant, the piles are level.
+
+Four seconds later B closes its fifth. A is still working toward its fifth. Now the method that looked completely stuck has moved ahead.
+
+At two minutes fifty, B seals the eighth and final envelope. A reaches its fifth at that exact time. It still has three more to finish. The winner for the full-stack deadline is B, two minutes fifty against four minutes thirty-five. That's a difference of one minute forty-five.
+
+The mechanism is not mysterious. The useful work was one hundred and sixty seconds in both races. B changed setups only twice, for ten seconds total. A changed setups twenty-three times, for one hundred and fifteen. The extra one hundred and five seconds explains the whole gap. Nothing in the actual invitation became magically faster.
+
+Now look at the other clock. Suppose a guest is leaving in sixty seconds and only needs one invitation. B will still be writing names at that point; the first B envelope won't be ready until two minutes twenty-two. A finished one at thirty seconds. For that deadline, A is plainly better.
+
+Suppose instead I'm leaving in three minutes with a bag that needs every invitation. B finishes all eight by two minutes fifty. A has only five ready by the three-minute mark. The right choice flips without changing the materials, the worker, or the job. What changed is the requirement.
+
+I can look a little closer at why these times separate. In A, the first usable invitation appears after one writing stage, one inserting stage, one sealing stage, and two changes. In B, the first sealed invitation has to wait until all eight names and all eight insertions are finished, plus two changes. That delay is built into B's order. For a single urgent item it isn't a small inconvenience; it's the deciding factor.
+
+Does that mean B is always better whenever I have more than one card? Only under the assumptions I chose, and only if the clock stops on the last envelope. What if the five-second setup cost disappears? Then I have exactly one hundred and sixty seconds of work either way. A and B tie for the entire pile, although A still delivers the first invitation much earlier.
+
+Or imagine the setup change costs just one second. A needs twenty-three of them and finishes in one hundred and eighty-three seconds. B needs two and finishes in one hundred and sixty-two. B still wins the whole pile, but by twenty-one seconds rather than one hundred and five. The setup cost controls how dramatic the total-time advantage looks.
+
+The stack size matters too. For a single invitation, both methods are identical and take thirty seconds. If I reset to four invitations, the same rules give A two minutes fifteen and B one minute thirty. With eight, the difference is one minute forty-five. Those are separate model cases, not secretly changed inputs during the original race. Repeating a small unnecessary change becomes expensive when the number of cards grows.
+
+I should also be careful about what this model doesn't include. Maybe switching between tasks is almost effortless on a real desk. Maybe putting eight cards into envelopes at once is awkward. Maybe one name is hard to spell. Maybe I make a mistake and need to redo a card. I didn't measure any of those events, so I can't slip them into the numbers later to force a preferred winner.
+
+And if I had a second worker helping with the envelopes, the whole scheduling problem would change. That's not this comparison. Here one person does every operation, in either order, at the same defined pace.
+
+The interesting result is the tension between two kinds of progress. A puts finished work into my hand early, which is useful when I need one thing now or want to check a complete example. B keeps work unfinished for much longer, yet finishes the complete order sooner when switching has a cost. One big pile of partly done invitations is not automatically a failure, and one shiny finished envelope is not automatically a fast overall job.
+
+So here's my decision. If one guest is waiting for a card, I finish that card with A. If the real goal is to seal all eight for one departure, and my workstation changes cost about what this model says, I group the work with B. I don't pretend those toy seconds are a recommendation for every family.
+
+Next time I have a stack of envelopes on the table, I won't start by asking which routine looks busiest. I'll ask what must be ready first. That's the question these eight invitations were hiding.
