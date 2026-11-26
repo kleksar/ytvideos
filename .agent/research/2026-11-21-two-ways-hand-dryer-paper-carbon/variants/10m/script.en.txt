@@ -1,0 +1,75 @@
+I'm in a public restroom looking at two perfectly ordinary ways to dry my hands. I can pull paper towels from a dispenser, or I can put my hands beneath an electric dryer.
+
+Which one creates less carbon pollution? I want to choose before I show the result. At first glance, the paper makes a visible pile of rubbish. The dryer makes noise and hot air, but no paper in the bin. Neither image tells me much about where its emissions came from.
+
+The problem with this question is that there isn't one universal answer for every building. So I'm going to do something more useful than guess. I'll put the two methods into one clearly labeled calculation, run it twice with identical rules, and see what makes the result change.
+
+My metric is carbon dioxide equivalent over five years in one public restroom. Carbon dioxide equivalent is a way of adding the warming effects of different greenhouse gases into one number. I'm not measuring the room. I'm borrowing parameters described in a published study and doing a reproducible model.
+
+Here is the starting state. Each visit ends with one pair of dry hands. Option A uses three disposable virgin-paper towels. Option B uses one electric dryer for twenty-one seconds. The restroom operates 250 days each year, for five years. The number of uses per day is the only input I will vary between the first two runs.
+
+There is an important limit before anybody crowns a winner. My paper side counts manufacturing emissions for fresh towels. My air side counts manufacturing the dryer and electricity while it runs. The paper delivery truck, bin collection, disposal, dryer repair, standby power and many other life-cycle steps are not all on this scoreboard. This is a partial carbon model, not a complete claim about which real option is greener. I want to learn what the fixed and repeating costs do.
+
+Let's start with the object that seems to leave no waste. A dryer has to be built. The study cites 113 kilograms of carbon dioxide equivalent for manufacturing a particular state-of-the-art plastic dryer. I add that full amount to the five-year ledger on day one.
+
+Now I press the button. The modeled dryer draws 1,600 watts. It runs for twenty-one seconds per visit. Converting watts and seconds gives about 0.0093 kilowatt-hours for one pair of hands. The paper uses a historical electricity factor of 296 grams of carbon dioxide equivalent per kilowatt-hour, based on an earlier European grid mix. Multiply, and I get about 2.76 grams of electricity-related emissions each time.
+
+The number 296 is not today's universal power-grid value. It's a parameter from the study. A hospital on a cleaner grid and a roadside bathroom powered by a different mix would not get the same electricity result. Keeping it fixed here is how I make the initial comparison fair.
+
+Now the paper dispenser. The published model cites about 5.96 grams of manufacturing emissions for one virgin-paper towel. Three towels therefore give 17.88 grams per visitor, before disposal or delivery. Every person pulls a fresh set, so that component has no shared machine manufacturing charge in this particular ledger.
+
+I could compare just one visit, but that would be misleading. Charging a single visitor with the entire carbon cost of a machine designed for years of use would make almost any shared appliance look terrible. I need to choose how many pairs of hands it serves.
+
+First, five uses per working day. It's a small restroom at the end of a quiet corridor. That is only an illustration, not a claim I visited or measured such a place. Over 250 days and five years, the room sees 6,250 dries.
+
+I multiply 6,250 by the paper factor. The result is 111.75 kilograms of paper-manufacturing emissions over the five years.
+
+The dryer already costs 113 kilograms to manufacture. Each of those 6,250 visits adds 2.76 grams of modeled electricity emissions. After I include that running energy, the dryer comes to about 130.27 kilograms.
+
+On this narrow scorecard, paper is lower by roughly eighteen and a half kilograms. I expected the constantly discarded material to lose. Instead, the machine's initial manufacturing cost was too large to distribute over so few visitors.
+
+Now I start over, not with a different machine or paper brand, but with a different number of visitors. Fifty uses each working day, still for five years. That is 62,500 dries.
+
+The paper total is 1,117.5 kilograms, because every dry requires three newly manufactured towels. That's ten times the paper use in the quiet restroom.
+
+The dryer doesn't need to be manufactured ten times. Its production stays at 113 kilograms. It does need ten times the electricity. But that only brings the modeled five-year total to about 285.67 kilograms.
+
+This time the dryer is far lower, by roughly 832 kilograms. The two options exchanged places even though their per-visit instructions never changed.
+
+The crucial difference is how they scale. The dryer has a large fixed manufacturing contribution and a comparatively small per-use energy contribution. The paper option has a new manufacturing contribution every time. If I stop the visitor counter, the paper stops adding to this ledger. The dryer has already been made.
+
+Can I find the exact turning point for these assumptions? Yes. The paper adds 17.88 grams per dry. The dryer's electricity adds about 2.76 grams per dry, but the machine also starts with a 113,000-gram manufacturing bill. For 1,250 open days, the difference in the repeating amounts pays back that fixed bill at about six uses per day.
+
+At five, paper is lower in this partial model. At seven, the dryer is lower. But the sixth visit is not a magical threshold for every public restroom. It is the output of these chosen inputs, and I can demonstrate that by changing them one at a time.
+
+First, watch what happens when I take two paper towels rather than three. I have not changed the dryer at all. Paper manufacturing per visit falls to 11.92 grams. The point where the dryer overtakes paper moves from roughly six to roughly ten daily uses. One fewer sheet per pair of hands changes the score considerably.
+
+That creates a temptation to tell people to use exactly two towels. But dry hands remain the required result. If two sheets don't actually do the job, I cannot pretend they achieve the same output. A fair comparison doesn't get to change the definition of success merely to make the arithmetic look good.
+
+Second, imagine the dryer runs longer. My original twenty-one seconds is a study parameter, not a guarantee for everyone's hands or every machine. A slower dryer used for forty-two seconds consumes twice as much operating electricity under the same power rating. Its manufacturing doesn't double. That raises the per-use part of the total and pushes the crossover toward busier restrooms.
+
+Third, consider the electric grid. The original calculation used 296 grams per kilowatt-hour, an older European reference. A cleaner grid would reduce the dryer's running emissions. A dirtier one would increase them. In a particular building, the actual supply matters more than a global slogan.
+
+Fourth, look at the five-year time horizon. My model charges the entire manufacturing footprint of the dryer to those five years. If a real machine lasts longer and remains functional, the same manufacturing contribution can support more dries. If it fails early, the reverse can happen. Lifespan isn't just an engineering detail. It's part of the carbon arithmetic.
+
+There's also a subtle difference between a busy room and a room open for many days. Fifty uses on each of 250 days is not automatically the same annual pattern as a seasonal building. The model fixes its number of operating days on purpose. Changing both days and daily visits together would make it impossible to say which factor caused the difference.
+
+At this point I have a useful mechanism, but I still haven't answered every environmental question. Where does the used paper go? Landfill and incineration do not have the same consequences. How far does waste travel? Was the paper made from virgin fiber or recycled material? These were not counted equally in my narrow two-column calculation. They cannot be smuggled in at the end as if already measured.
+
+The fuller published study did examine waste treatment and transport, and found that results could change with those scenarios. It also estimated a financial crossover: under its cost assumptions, installing a dryer became cheaper at around fifty-seven daily restroom uses. That is a different metric from carbon emissions. Fifty-seven is not a correction to my carbon threshold of six, and I must not blend the two.
+
+Why would the financial crossover be so much higher? Buying and installing a dryer costs money upfront. Buying each paper towel is a recurring expense. The prices of equipment, electricity, towels and waste disposal are not carbon-emissions factors. They belong in a separate budget equation. The shape of the problem is similar, but the units and the resulting decision are different.
+
+I can also separate environmental impact from hygiene. A paper-towel dispenser and a dryer may move moisture and microbes differently, but an environmental score does not answer whether one spreads more disease. A review of twenty-three relevant hygiene studies found inconsistent results and insufficient evidence for a broad health claim about the methods. I am not turning a carbon calculation into medical advice.
+
+Now compare this modest model with broader life-cycle evidence. A study published in 2015 compared a conventional electric dryer with recycled roll towels and concluded that the dryer did better in three of four impact categories under its specific conditions. That's not the same dryer, the same towel material, or the same boundary as my quick calculation.
+
+More recently, a 2026 life-cycle update from CE Delft concluded that electric dryers generally had the lowest environmental impact among the hand-drying systems it evaluated. It emphasized efficient machines with short drying times and cleaner electricity. For paper, it pointed to the number of sheets and how they are produced. That broader result deserves more weight for an overall environmental decision than my deliberately incomplete carbon ledger.
+
+So why keep the small comparison at all? Because it exposes the reason a simple rule can break. One machine has an up-front burden spread across repeated uses. Paper has a continuing material burden. Visitor count, usage time, number of sheets and local energy supply determine the shape of that tradeoff. The small model is a diagnostic tool, not a substitute for a life-cycle assessment.
+
+If I were really selecting equipment for a building, I'd collect the actual daily visitor count, check how many sheets people need to dry their hands, read the dryer's wattage, measure or obtain its real run time, and find the local electricity and waste assumptions. I'd compare equivalent drying quality first. Then I'd calculate emissions and financial cost separately, and consult a full life-cycle assessment before making a universal environmental claim.
+
+For a very quiet room, I would not promise that the sleek machine automatically wins. For a busy room, I would not assume the visible paper pile tells the whole story either. The useful payoff is that I know which inputs to test before choosing.
+
+I walked in looking for a winner between two machines and materials. What changed my mind wasn't the appearance of the bin. It was realizing that the busiest part of the restroom might be the number that matters most.
