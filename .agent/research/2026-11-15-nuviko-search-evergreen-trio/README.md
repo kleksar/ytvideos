@@ -1,3 +1,9 @@
+## 2026-11-26 — Titanic 05m/10m revision
+
+[Complete EN/RU variants, exact hashes and author review](02-titanic-empty-lifeboats/story-review.md): 02m retained; 05m (770 EN words) now explicitly answers who ordered the first lowering and marks counts as estimates; 10m (1503 EN words) connects Lowe and Poingdestre's deck work to actual passenger transfers/rescue. 05m remains recommended for causal density. [02m RU](02-titanic-empty-lifeboats/variants/02m/script.ru.txt) / [EN](02-titanic-empty-lifeboats/variants/02m/script.en.txt), [05m RU](02-titanic-empty-lifeboats/variants/05m/script.ru.txt) / [EN](02-titanic-empty-lifeboats/variants/05m/script.en.txt), [10m RU](02-titanic-empty-lifeboats/variants/10m/script.ru.txt) / [EN](02-titanic-empty-lifeboats/variants/10m/script.en.txt). Historical counts below refer to earlier versions. All root scripts and other stories unchanged. Git-only candidate, no independent review/approval/runtime. Next: existing Chernobyl variants.
+
+---
+
 ## 2026-11-26 — Alexandria 10m revision
 
 Alexandria's [full variants and review](05-alexandria-library/story-review.md) updated in this existing PR. [02m EN](05-alexandria-library/variants/02m/script.en.txt) / [RU](05-alexandria-library/variants/02m/script.ru.txt), [05m EN](05-alexandria-library/variants/05m/script.en.txt) / [RU](05-alexandria-library/variants/05m/script.ru.txt), [10m EN](05-alexandria-library/variants/10m/script.en.txt) / [RU](05-alexandria-library/variants/10m/script.ru.txt). 05m remains recommended; new 10m 1552 EN words, primary source reversal and named teachers, exact timing UNVERIFIED. Other two stories and all root scripts unchanged. Candidate only; no independent review, registration or approval. Historical counts/links below refer to prior revisions.
