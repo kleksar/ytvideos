@@ -122,9 +122,9 @@ Baseline `8e3e4f9131f02245f17f58200a3abd83911d02d9`; canonical main `7c779c4b2fd
 
 | Target | EN words | RU words | EN SHA-256 | RU SHA-256 |
 |---|---:|---:|---|---|
-| 02m | 250 | 206 | `7071d9015583a0c6b03eedc9ea72c923b2946552b40c6184d6897333259c674c` | `7af2c468392ab806f33ea0546de9562435a5eb55b842eb916bbe0050dba01528` |
+| 02m | 253 | 208 | `856a1f3a99e8edf5298a4b0c88ca6c222f2272c24c3044593d5b2439600eeb1c` | `14b2bf4434ad278f7c01a4f174fd6fadb3f067b89e34757378549497cf6f24e3` |
 | 05m | 621 | 541 | `8c1662d2351789d3d77d7352555337201c29f8fafa33ac16956f88e2f7fb7eb7` | `3629e1fcc98f1600d9e32736a3e128a29241a317fcfd9b44750348ba244a50c5` |
-| 10m | 1309 | 1091 | `a2f621be67978f0fa0c12a43f3e155bcd8295d41c07f0c99069dd7ce478f93c6` | `a24c7d8ae3550797c744b825819026bc0d852a30655616267fb605a9692bb64f` |
+| 10m | 1303 | 1096 | `a3f82341fb4d4076beb410f3793dd5a4337ac4245e4d72cd1df363c95ab2549e` | `612331b71803e935cbbe6939f3d88c6fb0425ce6ce30397b4a2a69aa3b4e990b` |
 
 ### Current story maps and visual intent
 - 02m (11 paired paragraphs): P1–2 undercover mascot and staged staff (archival-inspired paper figures, no claim of exact weapon placement); P3–5 letter delivery, prizes, FIST identity (letter, football ticket, sign); P6–8 event and arrest outcome (reception, presenter, bus destination); P9–10 reported count, mistaken identities, guest reaction (court and bus, avoid labels implying conviction); P11 complete payoff and question, return to P1 mascot. Actual visual, sound and subtitle seam UNVERIFIED. Plane proposed near reception P6, not factual part of story.
@@ -156,3 +156,5 @@ All aesthetic scores are author judgments, confidence medium for text/structure 
 02→05 adds Roche's search problem, prior concert operation and the staged reception; 05→10 adds Leschorn's role, a quantitative delivery obstacle and a documented failure/recovery at the decisive moment. These improve the additional value of 10m rather than just repeating the setup. P10–14 (personnel/rehearsal/arrival) still delays McKinney, and P20–23 (count and expense) may be too expository for a general audience. **Recommend 05m** for density, not approval; 10m may suit a documentary viewer, and 02m is a viable Short.
 
 `EDITORIAL_CANDIDATE_UNREGISTERED`: three versions prepared → author checked → 05m recommended. Independent review and official runtime/pins/leases UNVERIFIED. No TTS, media, actual duration, approval, merge or publication. Next scoped candidate #62, subject to fresh status.
+
+Final author pass in same revision: restored explicit small-group separation in 02m; in 10m moved early arrivals before the actual mascot appearance, named the agreed cue, and distinguished later telephone contacts from an observed surrender or established motive. Reread revised paired texts, no changed scores. Historical storyboard paths now point to unchanged root texts with the same hashes and scenes.

@@ -4,13 +4,13 @@ EDITORIAL_CANDIDATE_UNREGISTERED — complete three-length editorial package, NO
 
 | Target / format | Full EN | Full RU | EN words | Editorial outcome |
 |---|---|---|---:|---|
-| 02m · Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 250 | Revised; author text-loop check, AV unverified |
+| 02m · Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 253 | Revised; author text-loop check, AV unverified |
 | **05m · Long** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | 621 | **Recommended; NOT approved** |
-| 10m · Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1309 | Revised; returned mail and presenter setback; slower middle |
+| 10m · Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1303 | Revised; returned mail and presenter setback; slower middle |
 
 **Logline:** a wanted-person roundup becomes a free football-ticket party; the guest route upstairs leads to arrests while invitations keep bringing people inside. **Why 05m:** Roche's search problem, forwarded invitations, staged phone service, rehearsal under pressure, upstairs division and aftermath materially deepen the core mechanism. The 10m text adds verifiable personnel/chronology/cost details but loses momentum during successive fake-company explanations and later accounting. This is editorial judgment, not measured retention.
 
-**New review / status:** [three-story maps, source checks, exact SHA-256, eight independent editorial criteria per duration and hard checks](story-review.md#three-length-editorial-revision--2026-11-17). One [common evidence ledger](research.md#expanded-02m05m10m-evidence-audit--2026-11-17). Existing 15-scene [storyboard](storyboard.json) is historical, bound ONLY to the original root scripts / baseline 02m; it is invalid for the revised 02m and both Long alternatives. Current script readiness: author-check complete; independent first-listener and bilingual reviewer UNVERIFIED; owner approval not received; 05/10m scene prompts not produced.
+**New review / status:** [three-story maps, source checks, exact SHA-256, eight author-rated editorial criteria per duration and hard checks](story-review.md#editorial-revision--2026-11-26-current-supersedes-2026-11-17). One [common evidence ledger](research.md#expanded-02m05m10m-evidence-audit--2026-11-17). Existing 15-scene [storyboard](storyboard.json) is historical, bound ONLY to the original root scripts / baseline 02m; it is invalid for the revised 02m and both Long alternatives. Current script readiness: author-check complete; independent first-listener and bilingual reviewer UNVERIFIED; owner approval not received; 05/10m scene prompts not produced.
 
 ---
 
