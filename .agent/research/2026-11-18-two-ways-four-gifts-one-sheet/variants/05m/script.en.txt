@@ -1,0 +1,27 @@
+I have four gifts to wrap and one sheet of paper. From one direction, it looks as if I have enough for only three. Turning the cutting plan solves that problem. But here's the part I didn't expect: with a different-shaped sheet of exactly the same area, the opposite cutting plan wins.
+
+First I need rules that don't change halfway through the comparison. This is an illustrated cutting model, not video of a physical wrapping experiment. All four gift boxes are identical. I've already measured the flat pattern that would cover each one, including the allowance for folding, and I'm treating it as a rigid rectangle 25 by 35 centimeters. The available sheet is 60 by 90 centimeters. I can rotate a pattern by 90 degrees, but I can't shrink it, overlap another pattern, or patch it together from scraps. The score is the number of complete patterns. I need four.
+
+I have two proposed methods. A puts the 35-centimeter side across the 60-centimeter width of the sheet and repeats the same orientation in rows. B turns every pattern, with the 25-centimeter side across. I'll reset to the untouched sheet for each method. Which one would you pick?
+
+I draw plan A. It seems sensible: put the long edge across, then keep cutting down the roll. But 35 plus another 35 is 70, wider than my 60-centimeter sheet. I can only fit one pattern in a row. The other direction is better: three rows of 25 use 75 of the 90 centimeters. A fourth row would need 100. So A gives me three intact pieces. The last gift is still waiting.
+
+Before moving to B, I check something that can be deceptive. There is lots of paper left around those three rectangles, but it sits in strips. Total leftover area doesn't tell me that a fourth full 25-by-35 rectangle fits the fixed A grid. I don't get to put tiny scraps together and call them a wrapper.
+
+Now I reset the sheet and turn the patterns. In B, 25 plus 25 is 50: two pieces fit across the width, with 10 centimeters left at the side. Along the length, 35 plus 35 is 70, with 20 centimeters remaining. Two columns times two rows gives four complete patterns. All four gifts get a sheet. It's the same area of paper, the same dimensions of gift and the same no-patching rule.
+
+A covers three. B covers four. The result isn't a faster pair of scissors or better folding skill. It's the arrangement. The sheet's 60-centimeter width is the bottleneck in A. In B, two short edges can pass through that bottleneck together.
+
+So should I always turn the pattern this way? No. Here comes the counterexample. Suppose I still have the same four identical gifts, but the shop sells me a sheet 45 by 120 centimeters. That's 5,400 square centimeters, exactly the same total area as 60 by 90. I have not suddenly bought more paper; I have changed its shape.
+
+Try A again. One 35-centimeter edge fits across 45, and four rows of 25 fit along 120. This time A gives four complete wrappers.
+
+Try B. One 25-centimeter edge fits across 45, because two would need 50. Three rows of 35 fit along 120; four would need 140. B gives only three. The winner has flipped, even though the total area hasn't changed.
+
+That is why an area calculation alone can't decide how many gifts I'll wrap. The rectangle has to fit in two directions at once. A piece of paper can contain enough square centimeters and still be the wrong shape for a particular cutting plan.
+
+This also tells me what not to promise. I haven't proved that one of these simple grids is the best possible arrangement when mixed rotations or irregular cuts are allowed. I compared two specific repeatable methods. And I haven't tested the real folding, tape, patterns or box corners. Those measurements could change the required 25-by-35 template before the comparison even begins.
+
+My result for the original four gifts is still clear: on the 60-by-90 sheet, B wins four to three. On the equally large but narrower 45-by-120 sheet, A wins four to three. If I'm actually wrapping presents, I start with the true measured pattern and sketch both directions. It's a better first move than discovering the shortage after the third cut.
+
+Because before I cut, the useful question isn't just how much paper I've got. It's how those four gifts fit on one sheet:
