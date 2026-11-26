@@ -1,3 +1,41 @@
+# Current editorial review — 2026-11-26
+
+> **2026-11-26 revision:** current candidates are the six files under `variants/`. Prior review, timings, packaging and scene spans are historical only. Root EN/RU and original storyboard remain untouched, bound only to their original texts; do not apply to new hashes. No independent reviewer, owner approval, runtime registration, measured timing or AV seam is claimed. `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+Baseline `5c5c9ff774dee5428f796ee9f9272e7b9ba32ca0`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`. #124 merged. Author assessment only, independent reviewer unavailable.
+
+| File | SHA-256 | Words | Baseline SHA-256 |
+|---|---|---:|---|
+| [variants/02m/script.en.txt](variants/02m/script.en.txt) | `917fbf8b04936ddfc59f0f1a69c422c9f4e7420e2bc5ea32ebebf6717d744e4e` | 240 | `2e20a92482de5045b83a25739dbdd8fe76505b26d126e0451018a4206c70b6df` |
+| [variants/02m/script.ru.txt](variants/02m/script.ru.txt) | `a63bc8e6728a38fa3abef440c86aa16a7789e690b516eaceec8275a72e111268` | 208 | `012732bb6e3228b577d026a5706e8ab801e42bca193b9c5be972affb3bcf4df2` |
+| [variants/05m/script.en.txt](variants/05m/script.en.txt) | `7ad8af86ca6305a308dfa9f102e6efe0cee678d280133c1e8e00daab41ddce90` | 700 | `65006ccadbf9b31b430eb77cecec45a8069725c8561302cdc96fb4530e305f28` |
+| [variants/05m/script.ru.txt](variants/05m/script.ru.txt) | `21ecda47b1ce929fbac002c3d2c4abd861d292b59c9e99a6ef28cd48a5401bea` | 590 | `63ffa34c4de5207f914ed5143450884cd3c86c70bc59bb878fb03a40e5d00fa8` |
+| [variants/10m/script.en.txt](variants/10m/script.en.txt) | `96ee32e6fc72f94a2c09c79adc2fe221a3ae81b3ea94f020a8487de69cb5ee79` | 1466 | `8ee9073ed37ef6f298a2b5234d9e7f24f8a1507a03dd2b182ec5b6fbb8857390` |
+| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | `a9a4e9c8696ea5d01390c27edc5efaebb5e5159219535b8dd2d69a749984284b` | 1220 | `13516c4003f6ca59e0c0e9638530b1ab43cf7e8a7bab64e623f3c525d52b4f74` |
+
+| Criterion /10 | 02m | 05m | 10m | Basis and limits |
+|---|---:|---:|---:|---|
+| Interest | 8 | 8 | 8 | Unexpected conversation; political object and pursuit; detective gift adds unusual consequence |
+| Opening | 8 | 8 | 8 | Short starts concretely; both Long questions answered; 10m three questions impose more setup |
+| Development | 7 | 8 | 8 | Short skips library; 05m competing accounts, recovery and pursuit; 10m has public-opinion digression |
+| Payoff | 8 | 8 | 9 | Recovery, press trick, return; 10m personal link to Kerr after pursuit |
+| Freshness | 7 | 7 | 8 | Famous heist; fragment research published 2025 not just repetition |
+| Visual expression | 8 | 8 | 8 | Broken stone, car, repaired object; do not depict disputed account as certain |
+| Spoken language | 8 | 8 | 7 | Short direct; 05m source caveat compact; 10m conservation passage still expository |
+| Demonstrated audience demand | UNVERIFIED | UNVERIFIED | UNVERIFIED | No suitable audience data |
+
+Confidence: medium in relative editorial judgment; high in Hansard decision and published research; lower in recalled encounter, explicitly attributed. No averaged score including unverified demand.
+
+**Story maps (paragraphs, not timed storyboard):** 02m 1–3 conversation and stone significance; 4–5 encounter and separated pieces; 6–9 recovery and press misdirection; 10–11 return and replay cue. 05m 1–3 questions and historical stake; 4–8 failed attempt, break, source conflict and repair; 9–11 watchman/library/recovery and non-prosecution; 12–15 police diversion; 16–17 return and physical fracture. 10m 1–3 questions and context; 4–10 two pieces and investigation approaches; 11–15 inquiry/public argument/recovery; 16–21 police diversion; subsequent paragraphs repair provenance/Kerr gift, return/conservation and final consequence. Visual intent: paper stone, split pieces, library, separate vehicles, later fragments; contrasting accounts must not be presented as a single verified depiction. Build precise storyboard only after owner chooses exact text.
+
+**Hard checks:** same story all three; EN/RU paired meaning manually compared; questions answered in Long; Short complete payoff before final return cue, text seam connects custody today to opening encounter; real AV UNVERIFIED. Estimates based on word counts, not measured TTS. All prior timings/reviews/approvals inapplicable to changed hashes. Exact runtime pins untouched. No independent receipt, no production. External active leases UNVERIFIED; no owner acceptance visible in reviewed PR. 
+
+**Comparison:** 02→05 adds human investigation, separate pieces, source caveat and why authorities did not prosecute. 05→10 adds public controversy, archival fragment provenance and Kerr's gift. 10m risks losing attention in the King George VI paragraph and conservation equipment explanation after pursuit; fragment gift supplies genuine consequence. Recommend **05m** for tighter pace, 10m if provenance is primary interest; 02m for compression. Not owner approval. Next: #62, then technical conflict review #77/#78; do not merge.
+
+---
+
+## Historical review (superseded for changed texts)
+
 # Three-variant editorial review — Stone of Destiny, 2026-11-17
 
 State: **EDITORIAL_CANDIDATE_UNREGISTERED**. Author self-review only, not independent review, TTS timing, retained audience data, approval, or production. Baseline commit `904407730fdb82d703d0b19a16e81542a465b411`. Old root narration and its first-generation review are retained below as historical evidence, **not transferred** to rewritten Long hashes.

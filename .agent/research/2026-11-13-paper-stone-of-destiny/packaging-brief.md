@@ -1,3 +1,9 @@
+> **2026-11-26 revision:** current candidates are the six files under `variants/`. Prior review, timings, packaging and scene spans are historical only. Root EN/RU and original storyboard remain untouched, bound only to their original texts; do not apply to new hashes. No independent reviewer, owner approval, runtime registration, measured timing or AV seam is claimed. `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+Current promise: the stolen stone breaks; the students and later police both escape discovery; the stone eventually returns. For 10m only, later fragment gift to detective is an additional payoff. Do not assert disputed door sequence or show the wrong pair as a verified event. Avoid reveal of both police cars in thumbnail; no new image or visual approval.
+
+---
+
 > **05m editorial update 2026-11-20:** The selected Long promise is strengthened by the physical test that the 152kg stone fits inside a Jaguar's boot; 05:17/05:20 departures and the reporter choice now pay off the opening question. This is a scene concept only, not a generated thumbnail or proof of a Long storyboard. Exact new script hashes live in [story-review](story-review.md).
 
 > **Revision 2026-11-17:** All titles and the S001/S005 thumbnail promise below were authored for preserved original 02m Short only. The **05m Long** is an editorial recommendation with a different promise: *How four students removed a royal stone, and why police later tricked reporters with the wrong car*. No verified Long thumbnail, 320×180 crop or A/B test exists. Do not reuse the old Short's montage/cover as approval or claim planned artwork is produced. Selected hash, new storyboard and visuals require their own later review.

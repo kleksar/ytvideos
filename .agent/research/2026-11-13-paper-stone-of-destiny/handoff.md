@@ -1,3 +1,9 @@
+> **2026-11-26 revision:** current candidates are the six files under `variants/`. Prior review, timings, packaging and scene spans are historical only. Root EN/RU and original storyboard remain untouched, bound only to their original texts; do not apply to new hashes. No independent reviewer, owner approval, runtime registration, measured timing or AV seam is claimed. `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+Transfer only after exact candidate selection and canonical runtime registration/migration where applicable. Independent reviewer must receive exact EN/RU without author verdict, then research. New scene spans required; Short textual loop only, actual seam unknown. Paper Short and Long supported; no production request. Prior handoff below historical.
+
+---
+
 ## 05m substantive transfer-scene revision (2026-11-20)
 
 Existing Draft PR #37 only: baseline `60cdbbdf7331a2c6c2d63c3b18a2df06febd3714` → revision prepared for same branch. Original 02m and 10m EN/RU untouched. The 05m replaces two consecutive explanations of the same reporters/interception problem with police choice to test the Jaguar boot, timed departure at 05:17 and 05:20, observed journalists following the limousine and rendezvous at Newcastle. Source: Glasgow Police Museum police-transfer account in common research. Exact 05m SHA-256 EN `65006ccadbf9b31b430eb77cecec45a8069725c8561302cdc96fb4530e305f28` / RU `63ffa34c4de5207f914ed5143450884cd3c86c70bc59bb878fb03a40e5d00fa8`. Old 05m checks/estimate are superseded; fresh independent review, TTS, scene coverage and run registration remain UNVERIFIED. No approvals or pins changed.

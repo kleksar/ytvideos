@@ -1,3 +1,13 @@
+## 2026-11-26 — conflicting accounts and fragment provenance (current)
+
+Baseline 5c5c9ff774dee5428f796ee9f9272e7b9ba32ca0; main 7c779c4b2fd379c85166ae1b164fa53d1ea08843. Existing research below remains historical evidence, not a reason to erase conflicting sources.
+
+- [University of Glasgow, account republished from BBC Scotland](https://webvhpool.gla.ac.uk/explore/avenue/ourpast/thedaringcaptureofthestoneofdestiny/): participants' later account, initial unsuccessful attempt, two cars, Hamilton and Matheson in the car during police encounter, two pieces concealed separately. The [Glasgow Police Museum](https://www.policemuseum.org.uk/crime-casebook/interesting-cases/the-stone-of-destiny-1950/) places Matheson and Vernon in the car and Hamilton/Stuart at the door. These cannot be combined as one verified sequence. Short uses attributed recollection, Long explains disagreement. No invented dialogue, motives or exact concealment timing.
+- [Hansard, 19 April 1951](https://api.parliament.uk/historic-hansard/commons/1951/apr/19/coronation-stone): three suspected people admitted their own involvement; decision not to prosecute in public interest. No claim of innocence, immunity or agreement with thieves.
+- [Sally Foster, Antiquaries Journal, 2025](https://www.cambridge.org/core/journals/antiquaries-journal/article/life-in-pieces-lessons-in-the-value-of-fragments-from-the-secret-lives-of-the-stone-of-sconedestiny/18B44DDBE1332FBC4613298A5A6C9D05), [University of Stirling](https://www.stir.ac.uk/news/2025/november-2025-news/new-stone-of-destiny-fragments-uncovered-by-stirling-researcher/), [The Times](https://www.thetimes.com/uk/scotland/article/detective-who-hunted-for-stone-of-destiny-after-raid-was-given-a-fragment-fsjhgl5dm): Gray numbered 34 fragments, others existed; one reached Australia; Kerr's 1973 statement records Gray's gift, suggested 1956 date uncertain. No evidence of collusion or replica inferred. Adds human consequence in 10m rather than retelling pursuit. Museum account remains source for press diversion, not independent corroboration.
+
+---
+
 # Editorial research — Stone of Destiny (Christmas 1950)
 Date researched: 2026-11-13. Channel: Paper Detour, English Short. Scope: isolated candidate, not an official ytv run. Full screen paper art is only a future plan.
 

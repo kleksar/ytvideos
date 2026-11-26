@@ -1,3 +1,9 @@
+> **2026-11-26 revision:** current candidates are the six files under `variants/`. Prior review, timings, packaging and scene spans are historical only. Root EN/RU and original storyboard remain untouched, bound only to their original texts; do not apply to new hashes. No independent reviewer, owner approval, runtime registration, measured timing or AV seam is claimed. `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+Current comparison: [02m EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt), [05m EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt), [10m EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt). Recommend 05m, see [review](story-review.md). New evidence and fact conflict: [research](research.md).
+
+---
+
 EDITORIAL_CANDIDATE_UNREGISTERED — complete editorial options; no runtime script gate, independent approval or production.
 
 # Stone of Destiny · three self-contained narration variants (EN + full RU)
