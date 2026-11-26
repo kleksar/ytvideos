@@ -1,0 +1,69 @@
+# Story review — Cardiff Giant, exact editorial versions (2026-11-22)
+
+**EDITORIAL_CANDIDATE_UNREGISTERED**. Reviewer: author self-review only; no independently isolated session, no `ytv-script-review-v1`, no runtime/receipt, and no measured video results. Scores are editorial judgments **not** CTR, retention, success probability, watch rate, or approval. Initial author pass 2026-11-22; subsequent substantive rewrite of 10m on the same date, still author-only. Author confidence medium on dramaturgy, high on core documented facts; all demand unknown. No reviewer score fabricated.
+
+## Six complete texts, immutable per-file SHA-256 and estimated duration
+
+| Target | Format | EN / SHA-256 (UTF-8 with final LF) | RU / SHA-256 | Words EN / RU | Duration hypothesis |
+|---|---|---|---|---|---|
+| 02m | short | [English](variants/02m/script.en.txt) `41b085c904f24e27f58950f8f0b5113ae4505477f5b78d9307ffe267f0a805e5` | [Русский](variants/02m/script.ru.txt) `c409195f3cedf288a45e8ade31f0f166bb96d7a830568a2c395054860cee8a41` | 296 / 237 | ~1:45–2:10 assuming 145–170 EN words/min plus modest pauses; actual voice 1.10× unmeasured |
+| **05m** | **long** | [English](variants/05m/script.en.txt) `e31f337f7d6fcb41a73361580fc6cebd93ee9971f90a39d2bee7957984d1fe79` | [Русский](variants/05m/script.ru.txt) `b11842c443d3f0311975f89de1097e770d6f9c5b6c75b333ea4d7f6a56e0cfb1` | 682 / 572 | ~4:15–5:00 given 140–165 EN wpm and pauses, **not** a measured five minutes |
+| 10m | long | [English](variants/10m/script.en.txt) `b89a023534401af8f571390d7c64bc1c28de6d3998e21df0eaad170486e32d3a` | [Русский](variants/10m/script.ru.txt) `fd15a4dada33f006b83dcabf829a20cecac5b98d919598c7c8e33bb743cc171c` | 1,292 / 1,072 | ~8:30–10:30 at an assumed 130–155 EN wpm with modest pauses; Lawrence 1.10× actual timing **UNVERIFIED**, target not proven |
+
+All three texts are separately finished narratives, not placeholders/master cutdowns. Translation pairs carry actions, people, numbers, cause, skepticism, Barnum, court caveat, exposed fakery and museum ending. Word counts represent whitespace token counts (English and morphologically denser Russian not time-equivalent). Source scripts are clean narration: no references inside speech.
+
+## Version-by-version story map / strongest weak point
+
+- **02m**: opening “In 1869, two men dug a well...” → first visible stone foot → paid tent → secret creation/planting → gypsum skepticism → Barnum's rival replica → injunction failure → both fakes → museum → last sentence returns to farmer choosing the digging spot. Payoff before the last sentence. **Main flaw:** jumps from Barnum to legal conflict and confession quickly; audience may understand but not feel the competing showmen's economics. Short loop EN literal last→first: “And that business began when a farmer chose a very particular spot and hired two men to dig a well. In 1869, two men dug a well in New York and found a ten-foot stone giant.” RU: “А началось оно с того, что фермер выбрал место и нанял двух рабочих копать колодец. В 1869 году двое рабочих копали колодец в штате Нью-Йорк и наткнулись на десятифутового каменного великана.” Intentional cause→effect timeline seam, not merely shared noun, but author notes slightly repetitive chronology; actual AV and independent full twice-read **UNVERIFIED**.
+- **05m**: opening “How can one fake giant end up taking another fake giant to court?” → ordinary well / surprise → queue / paid ticket → flashback to Hull's manufactured object → scientific pushback vs continuing demand → Barnum's offer refused → his competing copy and larger crowd → owners seek legal stop and fail → confessions → original becomes historic museum artifact. **Main flaw:** first question discloses double-fake premise; retention relies on *how rivalry unfolds*, not surprise that the object was false. Long intro question and immersion are deliberately brief before main hook; no fake Short loop.
+- **10m revised**: two opening questions → Emmons/Nichols uncover stone foot → Newell opens ticket tent → Hull's Iowa gypsum / surface-aging / transport / 1868 burial → unsuspecting diggers give the planted object persuasive witnesses → investors take it on tour → gypsum/Marsh objections fail to end curiosity → Barnum is refused a stake → he makes a copy and parades it → his exhibit wins crowds → original investors seek injunction and fail → carvers identified / Hull admits involvement (different reported dates explicitly not collapsed) → original's claim fails but object endures as museum artifact → modern heavy-stone move echoes the first transport. **Weakest point:** gypsum/transport is the longest early stretch before Barnum; after the court, the explanation of continued fascination still risks losing interest. More concrete competition and less unrelated historic aftermath than baseline.
+
+## Eight standard criteria, individually anchored; author / 2026-11-22
+
+Scores are 1–10 editorial judgments unless UNVERIFIED. `STRONG_CANDIDATE` requires interest, development and payoff each ≥8. All anchors are exact line or event within the linked version or exact observed public metadata.
+
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest / significance | **8** — paying crowd for a fake then paying for another | **9** — court trying to stop a fake copy of a fake; rivalry drives choices | **8** — the authentic *first fake* loses paying crowds to Barnum's later copy; action rather than pure hoax trivia |
+| Opening / promise | **8** — “two men dug a well ... ten-foot stone giant” | **9** — “How can one fake giant end up taking another fake giant to court?” | **8** — two explicit questions promise paid deception and the failed court attempt; diggers arrive before the principal rivalry |
+| Development / reason to stay | **7** — gypsum, Barnum and court come in rapid succession with little resistance | **9** — refused buyout → sculpted copy → rival ticket buyers → attempted injunction | **8** — innocent diggers establish apparent proof → geology contradicts → investors reject Barnum → his copy wins audience → legal attempt fails; early stone-making span risks delay |
+| Payoff / completion | **8** — “Both giants were fakes”; real artifact reaches museum | **9** — legal bid fails, men who made the first are identified, authentic exhibit is authentic *fraud artifact* | **8** — failed injunction plus exposed fabrication resolve the rivalry; museum retains the actual first sculpture, not an ancient body |
+| Freshness of angle | **8** — fake of a fake, not only 1869 hoax | **8** — lawsuit and business rivalry rather than “people believed a giant” | **8** — the investors lose control of the *business model* they built around a lie; still a widely retold subject |
+| Visual expressiveness | **9** — excavation, giant under canvas, two ticket booths | **9** — plaster layers/rail wagon/two New York exhibits/maps | **9** — foot in soil, tent admission, gypsum carving, rail shipment, Broadway horse parade, competing ticket booths, museum hoist |
+| Natural spoken clarity | **8** — everyday verbs, but legal implication compressed | **8** — mostly normal EN/RU speech; injunction given context, occasional museum explanation | **8** — ordinary verbs and actors replace author commentary; a few material/court explanations remain lengthy for audio |
+| Demand confirmation | **UNVERIFIED** — indexed videos not audience fit proof | **UNVERIFIED** — no matched channel baseline, recent 30–90 day signal, own analytics or comments | **UNVERIFIED** — indexed views cannot establish recent demand, matched Paper baseline, CTR or retention |
+
+**Classification:** 02m **REWORK** (development 7; independent twice-read/AV loop UNVERIFIED); 05m **STRONG_CANDIDATE**, still recommended; 10m **REVISED_EDITORIAL_CANDIDATE** (development and speech 8 on author re-read, but longer than 05m and pacing not independently tested). Author confidence medium on 05m ranking, medium-low on actual 02m loop and 10m voice timing; audience demand unknown. No owner approval or automatic 9–10.
+
+## Conditional checks, exact version basis
+
+| Check | 02m | 05m | 10m |
+|---|---|---|---|
+| Core factual chronology / material / payoffs, author vs sources in research | PASS (author-only) | PASS (author-only) | PASS (author-only; removed the 1877 sequel, avoided uncertain courtroom quotation and kept reported admission/confession chronology separate) |
+| EN/RU substantial semantic alignment, author reading | PASS | PASS | PASS |
+| Paper ChannelSpec format compatibility | PASS: short, narrative loop applies | PASS: long exists | PASS: long exists |
+| Short verbal seam | Author PASS for designed time-causal connection; independent twice-read UNVERIFIED | N_A | N_A |
+| AV seam / exact spoken timing / future storyboard spans | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Source photos, image likeness and audio/music rights | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Independent first listener on exact scripts, schema response | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** |
+| Confirmed recent demand, user-channel CTR / retention | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** |
+
+## Incremental-value comparison (latest 10m versus baseline)
+
+02m (296 EN words) supplies the paid discovery, Barnum's copy, court failure and museum payoff, but moves through the sale/court mechanism too quickly; its time-causal verbal loop still needs a full independent repeat. 05m (682 words, unchanged and recommended) adds the consequential decisions: purposeful burial, expert objections, refusal to sell, Barnum's rival exhibition and actual injunction result. Its most vulnerable point is the short stretch after the court ruling, before the museum payoff.
+
+**Revised 10m (1,292 EN words)** adds why independent diggers made the staged excavation seem persuasive, how the gypsum and physical transport reveal planning, why scientific objections did not end ticket sales, and why the original investors could own the first carving without controlling a competing claim. The 2023 museum move provides a concrete physical echo of the first thousand-mile transport. Unlike baseline, it does **not** append Hull's later unrelated Colorado hoax or a broken-knees anecdote after the legal climax. **Potential loss:** from the gypsum carving through the buried-object explanation (before the investors' dilemma), then the sentence beginning “Consider what the original investors were left with” after confession. The longer arc is better connected but may still not earn its extra estimated minutes; no real listener data.
+
+**Recommendation remains 05m Long**: the rivalry reaches its resolution without a long manufacturing prelude. Revised 10m should be blind-reviewed as a separate alternative, not presumed better because more words were written. No version is approved for production.
+
+## Substantive revision / exact baseline / evidence (2026-11-22)
+
+- Branch head before change: `70dcb2013cd5074ef55608c92e58d0ea66cb2916`. Prior 10m EN `6e8023e28563ddc6c11f5c8b587109cf9ab8fc2a02d87e64785a16b7da6ee581`, RU `adb15ed1a0d20f6ace1047a988c70023a940dae49de909292925acfd919c5326`. Retain these historical hashes as a comparison record; scripts now linked above are **new**, and all old author-review judgments about those old bytes are superseded.
+- Before → after: 1,685 → 1,292 EN words; archival/curatorial epilogue and Hull's later second hoax removed; the staged discovery is explained as a real surprise for unbriefed workers; ticket revenue, gypsum objections, refused investment, rival advertisement/crowd, attempted injunction and public exposure form one cause-and-effect chain. Both complete EN and RU reauthored; unchanged 02m/05m blobs and original shared research retained.
+- Evidence mapping (no invented dialogue): discovery, paid tent and Barnum refusal [Smithsonian Magazine, 2017](https://www.smithsonianmag.com/smart-news/cardiff-giant-was-just-big-hoax-180965274/); transport and museum/Broadway details [Ksepka, Scientific American curator account, 2023](https://www.scientificamerican.com/article/5-of-the-greatest-natural-history-hoaxes-of-all-time/), previously recorded in common research (full page not newly retrievable in this revision); Marsh's geological objection, December 1869 failed injunction and 2 February 1870 stonecutters' exposé [Live Science, 2016](https://www.livescience.com/55787-cardiff-giant.html). Chronology does not collapse Hull's reported December admission with the February paper.
+- **Author hard checks on new bytes**: EN/RU substantive alignment PASS (sequential actions, numerical amounts, Marsh, court uncertainty, museum); Long question → immersion → main Barnum obstacle PASS; no required Short loop for 10m; final payoff PASS; factual claim mapping AUTHOR PASS with cited limitations; actual timing, independent reviewer, true listening and media/rights remain **UNVERIFIED**. No old storyboard/timings attach to the new 10m hash.
+- Source status: `EDITORIAL_CANDIDATE_UNREGISTERED`. No `ytv` run/pins, independent reviewer or `ytv-script-review-v1`; no assertion of completed script gate. Storyboard applies to no new 10m text.
+
+## Independent review handoff (not performed)
+
+Give a fresh reviewer **only** exact selected `variants/05m/script.en.txt` and RU, with no preceding scores, beat map or verdict. First ask what opening promises; then full-text read and exact line where interest weakens, what happens after the hook and payoff. **Only after first read** give the facts/sources and the genuinely strong rival radioactive-boy-scout angle. Let reviewer reject the topic. Reviewer must generate its own actual `ytv-script-review-v1` response by supported runtime schema and save it; coordinator cannot write one on its behalf. A future script-byte revision invalidates this review state and provisional visuals. For 02m, independent reader must read entire EN/RU twice in sequence and evaluate literal seam separately.
