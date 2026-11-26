@@ -1,0 +1,51 @@
+I'm standing at the front door, about to leave home for eight hours. Do I keep the heating at twenty degrees so I don't have to reheat the room, or do I let the temperature fall and bring it back up before returning? Two methods, one room, and one surprisingly complicated answer. Before we start, choose A for constant heating or B for a timed setback.
+
+People often tell me the heater will use an enormous amount of energy bringing a cold room back up to temperature. That feels reasonable: I can imagine it working flat out at the end. What I don't see is the constant loss of warmth while the empty room stays heated all day. So I want to measure both sides of that choice, not just the dramatic final warm-up.
+
+There is no real experiment hidden in this video. I use an openly defined mathematical model. The outdoor temperature is always five degrees Celsius. Inside is twenty at the start and must be twenty again when I reach the door at hour eight. The building and the heating efficiency are initially identical in A and B. I assume one evenly heated space with no solar gain, cooking heat or open windows. That keeps the first comparison fair.
+
+The model has two parameters. The room loses one hundred and twenty watts per degree of difference between inside and outside. It also needs three kilowatt-hours of energy to warm its effective thermal mass by one degree. That mass represents walls, furniture and other things storing warmth, not just the air. Neither figure is a measurement from my own home, and neither is a heating recommendation.
+
+Now I try A. I set the thermostat to twenty and leave. Twenty inside and five outside means a fifteen-degree gap. At one hundred and twenty watts per degree, the room loses one thousand eight hundred watts of heat. The heater keeps replacing it. That is one point eight kilowatt-hours every hour, or fourteen point four kilowatt-hours over the full eight.
+
+Nothing in the room looks different during A. The whole point is that its temperature barely changes. But the heat keeps leaking. Four hours into my absence, seven point two kilowatt-hours have been supplied. The remaining four hours demand another seven point two. At the end I open the door, and the thermometer reads twenty.
+
+For B, I switch the modeled heating off for six hours. At the beginning the room loses heat faster, because the indoor-outdoor gap is large. As the room cools, that gap shrinks and the rate of heat loss drops. It doesn't suddenly jump to five degrees. The thermal mass stores heat and releases it over time. At hour six, the room is approximately sixteen point eight degrees.
+
+B now faces its real challenge. The room has to reach twenty by hour eight, not sometime after I arrive. I assume an available heater output of approximately six point four kilowatts for the final two hours. With the model's heat loss included, that recovers the target exactly at the deadline. The total useful heat delivered in B is approximately twelve point eight kilowatt-hours.
+
+I place the numbers side by side. A: fourteen point four. B: twelve point eight. The difference is about one point six kilowatt-hours of heat, or nearly eleven percent of this modeled eight-hour interval. Since both versions finish at twenty degrees, I haven't made B look cheaper by leaving me cold at the end.
+
+The mechanism is more important than the percentage. A replaces continuous heat losses while the room remains warm. B lets the room become cooler, which reduces those losses. Reheating merely restores heat that has actually escaped. The extra power needed during recovery doesn't automatically mean extra total energy. Energy is power accumulated over time, and B uses high power for only two hours.
+
+I can even test the logic without trusting the final numbers. When a room begins and ends at the same temperature, its modeled stored heat is the same. In a closed accounting system, the total heat the heater supplied equals the heat that escaped during those hours. Compare the temperature paths: A is a flat line at twenty. B descends for six hours, then rises back to twenty. The area between those lines corresponds to heat losses that B avoided.
+
+But the skeptical viewer has a good objection. I chose this building. What happens if the house is different?
+
+First I cut the heat-loss rate in half, to sixty watts per degree, and leave its thermal capacity unchanged. During the six hours without heating, the room stays much warmer: around eighteen point three degrees. The new A uses seven point two kilowatt-hours, and the new B about six point eight. The saving is only around four tenths of a kilowatt-hour. Better insulation doesn't make B wrong; it makes the benefit smaller, because the building wasn't throwing away so much warmth in the first place.
+
+Then I try a leakier building, at two hundred and forty watts per degree. Now six hours of cooling leads to roughly fourteen point three degrees indoors. Under the same idealized comparison, A supplies twenty-eight point eight kilowatt-hours, while B supplies about twenty-three. The theoretical saving becomes about five point eight. But the heater must now deliver about eleven and a half kilowatts in the last two hours to reach twenty. That may be beyond its capacity, and the temperature drop may be unsafe or unpleasant. A large modeled saving doesn't automatically make a schedule practical.
+
+That brings up a fairness problem. If my actual system cannot produce the recovery power, then B cannot meet the agreed finish at hour eight. I have to start the warm-up earlier, choose a shallower setback, or admit that this version is infeasible. I cannot simply ignore the colder return and declare victory. The model tells me what it demands; it doesn't promise my equipment can provide it.
+
+There's another objection, and it may reverse the winner. So far I counted useful heat delivered to the room. A meter charges for electricity or fuel entering the heating system, not for the heat arriving in my walls. With the same fixed efficiency, less heat delivered means less purchased energy. But some real systems change their efficiency as they operate.
+
+Imagine a heat pump that delivers three units of room heat per unit of electricity throughout A. Then A's fourteen point four kilowatt-hours of heat require four point eight kilowatt-hours of electricity. If B works at that same efficiency, it needs only about four point three. But suppose the fast recovery in B operates at an average efficiency of two. Then B needs about six point four kilowatt-hours of electricity. A now wins on electrical input despite losing on delivered heat. Those efficiencies are invented examples; I have not measured a heat pump.
+
+A system could also trigger backup resistance heating, changing the electricity calculation again. Slow underfloor heating may need hours to warm a concrete slab. A boiler has its own return temperatures and control behavior. So "set the thermostat back" is not a universal instruction for every heat source. The machine and the building together decide whether this particular schedule can work.
+
+Even before I look at bills, I need to ask who lives here. B's modeled temperature passes below eighteen degrees. A genuinely empty and suitable space might tolerate that briefly, but a vulnerable occupant, pets, exposed pipes, or damp-prone construction can impose stricter limits. I haven't measured moisture risk or indoor air quality. Comfort and safety are constraints, not small print erased by a lower energy total.
+
+Now change another variable: electricity prices. The physical heat losses don't know whether electricity is cheap at noon or expensive in the evening. But a bill does. If B concentrates heating into an expensive period, it could cost more even while delivering less heat. A tariff with cheap recovery hours might favor B more. Without an hourly price schedule and a known efficiency curve, a promise of currency savings would be fabricated.
+
+A real comparison would also have to separate the room thermostat from a boiler water-temperature control. The first sets the room temperature I want. The second affects how the boiler operates. Adjusting them as though they were the same switch would change two variables at once and spoil a fair A/B test.
+
+So how could I check my own home without pretending this model is a measurement? I would read the manufacturer's heating guidance, choose safe programmed schedules, and record meter values and the temperature at my actual return time. I'd compare days with similar outdoor conditions, because one colder day can easily outweigh a small efficiency gain. I would also note whether a heat pump activated backup heating. Anything requiring internal equipment changes belongs to a qualified technician.
+
+And I'd avoid a common trap when reading the result. A saving of almost eleven percent over this single eight-hour model is not an eleven-percent reduction in annual bills. Heating runs at other times, hot water may share the same fuel, the outdoor temperature changes, and my model deliberately ignores real-world gains and losses. A model is strongest when its limits are as visible as its answer.
+
+So I have two genuine results, not one slogan. Under fixed efficiency and identical start and finish temperatures, B reduces delivered heat because a cooler home loses less. Under different equipment efficiency, A can use less purchased electricity, and a slow or undersized heater may not manage B at all. The decision has to include real equipment, comfort and the deadline.
+
+I haven't found a magic thermostat setting that wins for everyone. I've found the questions I should ask while putting on my coat: how much heat leaks out when nobody needs it, and can my system safely replace what is lost before I come back?
+
+Tomorrow morning, at the same doorway, I will still have two choices. This time, I know what I need to measure before making one.
