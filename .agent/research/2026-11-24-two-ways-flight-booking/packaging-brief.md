@@ -1,0 +1,7 @@
+# Packaging — 02m proposed master
+Exact EN SHA-256: d9a972c32b40bec7f1f8e361f84d60d5d50cf2c63a5b18bed61a70a16e85eddf; RU: f76ec2c74c520e908388ae6e20525bfc69fa533bc5ce1b48a8bb16c299382b10. Not an approved script.
+Audience: adults planning travel with friends, English. A/B first, not a booking hack guarantee.
+Title A: Four Plane Tickets: One Booking or Two?
+Title B: Same Flight, Two Bookings — Which Costs Less?
+Thumbnail concept: four identical generic boarding-pass silhouettes, two color-coded reservation piles, one checkout decision, no airline logo or real confirmation data. A cyan left, B amber right; mint result only after reveal. First frame: same four traveler tokens and same plane icon on both sides; no price winner until after explicit pick. Exact first line “I'm buying four tickets for the same flight.” Then method choice and explicit model. Payoff: $860 vs $700 in stable test, then $860 vs $890 if second price rises; don't promise guaranteed savings. 
+No detailed storyboard/prompts, real PNGs, timings or links to next episode intro: independent review unavailable and actual hero refs not inspected. Later choose relevant exact related video only after verifying accessible actual intro and current publication state; no fake link or tail breaking loop. Follow channel's scene card and visual rules; all non-subtitle lettering generated, not programmatically typed onto visuals; exact numbers must be checked. No media generation authorized.
