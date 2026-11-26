@@ -130,3 +130,10 @@ The revised 10m removes generic source commentary from spoken narration and adds
 | Rail line promptly repaired and 1862 raid did not sustain strategic disruption; the original General survives in Kennesaw | G2 / G3 / G4, already in common research | High, institutional history; no overstated claim that it caused zero temporary disruption |
 
 No new viewer performance data, independent audio evidence, photographs or new factual quotes were obtained. The 02m/05m evidence remains unchanged.
+
+
+## 2026-11-26 — new factual evidence for revised 02m and 10m
+
+- G8: [U.S. Army News Service, July 11, 2024](https://www.army.mil/article/277857/bravery_remembered_civil_war_raiders_recognized_for_great_locomotive_chase): July 3 White House ceremony, posthumous Medals of Honor for George D. Wilson and Philip G. Shadrach; Theresa Chandler and Gerald Taylor received them. Families intended museum donations; completion is NOT established. 162 years is calendar-year difference (2024−1862); ceremony followed the April anniversary. [Army Shadrach profile](https://www.army.mil/medalofhonor/shadrach/) corroborates recipient, chase and execution history. High confidence in award and date; omit exact Shadrach kinship and imagined reactions.
+- G9: [Southern Museum visitor information](https://southernmuseum.org/visit/): General with tender approximately 50,300 lb (roughly 22.8 metric tonnes), returned to service after war, on permanent display since 1972 near the theft location. High confidence museum self-description; rounding in EN/RU is deliberate. No claim about visiting personally.
+- Existing G1–G7 and [VA Andrews Raiders account](https://cem.va.gov/history/Andrews-Raiders.asp) support pursuit and earlier outcome. Retained historical claims are not new facts; no new exact chase timing beyond previously documented estimates. No independent audience measurement.

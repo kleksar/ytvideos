@@ -1,3 +1,9 @@
+# Current packaging guidance — 2026-11-26
+
+Editorial candidates only. 05m recommended (unchanged). Revised 02m promises the improbable pursuit, explains its outcome before looping back; museum weight can be visual context, not a second hook. Revised 10m promises the communication/pursuit puzzle and earns the later human consequence through Wilson's introduction. The 2024 ceremony is an actual documented event, not an imagined scene or licensed footage. Do not claim the railway was permanently destroyed or museum donation completed. No production titles, thumbnails or media authorized. See [exact candidate hashes and spans](story-review.md). Historical packaging below refers to baseline e2bf1e2f295f24fc9a9ad4244d2c33acbf2a3db1 and may not be applied to changed hashes.
+
+---
+
 # Packaging brief — Great Locomotive Chase (unapproved)
 
 Nuviko History · EN narrative Short · historical railway pursuit with consequential human ending. No thumbnail asset, CTR measurement, image or MP4 exists.
