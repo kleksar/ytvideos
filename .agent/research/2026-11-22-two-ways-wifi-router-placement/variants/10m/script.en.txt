@@ -1,0 +1,55 @@
+Where should I put my Wi-Fi router if I work from home: in the center of the apartment, or closer to my desk? And what does “better coverage” mean when one room is used far more often than the others?
+
+I have a familiar problem in mind. The television is happy in the living room, a phone works near the hallway, but the laptop at the end of the apartment is the one I need for work. Moving the router toward that laptop might fix one problem and create two others. I don't want to call either choice a winner until I know what I am counting.
+
+So I sketch a fictional apartment. This isn't footage of my actual connection, and I haven't measured a signal. The drawing is a test of a decision rule. Its great advantage is that I can keep every input visible and check every point myself. Its great weakness is that a circle on paper is not a radio wave.
+
+Here are my two choices. A puts the one router on an open shelf in the middle. B puts that same router on another open shelf by my desk. Both shelves are equally high. No extra hardware, no change in power, no second access point. For this first comparison, the layout, the device positions and even the imagined obstacles stay the same. I move only the router.
+
+I need a scoreboard before I reveal a result. My metric is successful device-use sessions. When I try to use a device, that session earns one point if the device lies within five grid units of the router. Anything farther away earns zero. A location used three times can earn three points. This is deliberately a toy threshold, not a promise of broadband speed. No real building material has been assigned a fictional attenuation number.
+
+I draw a rectangle twelve units across and eight units high. The router positions are A at six across, four up, and B at two across, six up. My desk is at the far upper-left edge, zero across and seven up. One bedroom is at two and six. The television is at six and four. The kitchen is at ten and four. The other bedroom is at nine and seven. My phone is at six and seven.
+
+These coordinates aren't something a viewer has to memorize. They simply stop me from moving dots after I see the outcome. Six device places; two fixed router shelves; one identical rule. Now I can compare A and B without changing the question halfway through.
+
+Picture a lazy Sunday. I check each of the six locations once. I open my laptop briefly, use the phone, watch the TV, and check devices in the rooms. There are six attempted uses. Which shelf would you choose, A in the center or B near the desk?
+
+I draw the circle around A. The TV is practically on top of the router in the drawing. Both bedrooms fit, as do the phone and kitchen. Five successful uses. The office desk is outside, in the corner. A reaches most locations but fails the one that started this whole question.
+
+I move the circle to B. The office desk comes inside it. The nearby bedroom is covered. The TV and phone also fit. But the kitchen and the far bedroom are out. Four successful uses. A wins Sunday, five to four, by the metric I declared.
+
+That result makes sense. A central placement generally gives more balanced distances, and hardware makers often recommend an open location away from obstructions. But the model still leaves me with a dead desk. “Most rooms reached” and “I can complete my work” aren't the same sentence.
+
+Now it's Monday. I keep both shelves and every device dot exactly where they are. This time, the laptop at the desk is needed for three separate sessions. Other locations still get one attempt each. There are eight attempts in all. I'm not increasing the modeled radio range to rescue the office, and I'm not giving B a better router.
+
+For A, those three laptop sessions all fail the same distance test. Its other five locations are still covered, so A scores five. For B, the three laptop sessions all pass. Its nearby bedroom, TV and phone add three more passes; kitchen and far bedroom still fail. B scores six.
+
+The side shelf wins this imaginary workday, six to five. On Sunday it lost. The router itself did not change; the drawing did not change; even the distance limit did not change. Only my pattern of use changed.
+
+There is a precise crossover. If I add just one extra laptop session to the quiet-day schedule, both shelves score five. If I add a second extra session, B scores six and becomes the winner. The turning point isn't a magic frequency setting. It's two additional attempts in the one location that A misses and B reaches.
+
+This explains the appeal of counting sessions rather than only counting rooms. A room with a smart speaker that sends a tiny occasional request and an office with repeated calls may matter differently to me. I shouldn't pretend those invented session counts are real user analytics. In an actual home, I'd observe which places are important before deciding how to score them.
+
+But maybe the whole result depends on my made-up radius of five units. I should test that rather than hiding it. First I tighten the distance rule to four units, applying it to A and B equally. Now A reaches the TV, kitchen and phone: three places. B reaches the desk and nearby bedroom: two.
+
+On a one-use day, A wins three to two. On the same three-laptop-session workday, A still scores three, while B gets those three laptop sessions plus the bedroom, for four. B still wins the workday. The numbers changed, but the reason for the reversal did not.
+
+Next I relax the rule to seven units. The central shelf finally reaches all six places, including the office desk. B still misses the kitchen and far bedroom. On Sunday, A scores six against B's four. During the workday, A scores eight against B's six. This time the side shelf cannot reverse the result, because the office is no longer a weakness for the center.
+
+That matters. My earlier conclusion was never “the office shelf is better for working from home.” It was narrower: under a particular drawn range and layout, the center misses a frequently used desk and the side shelf doesn't. If the router can already reach that desk from the middle, this specific argument for moving it vanishes.
+
+There is another change I can make without touching the router. Suppose I shift my desk three grid squares toward the center of the plan. The laptop now sits at three across and seven up. It falls within five units of both router shelves. Everything else stays fixed.
+
+Under the original five-unit rule, A now reaches all six locations. B still reaches four. During the eight-use workday, A gets eight successful sessions and B gets six. So moving the desk, rather than moving the router, reverses the outcome again.
+
+I wouldn't tell anyone to rearrange a real bedroom based on a square-grid calculation. I use that extra case because it exposes the true dependency: the first result was about one particular location being just outside a threshold. When that location changes, the story changes.
+
+And the threshold is the largest simplification of all. Real Wi-Fi doesn't switch cleanly from perfect service to zero service at an imaginary circle. Walls, cabinets, nearby networks, router antennas, the frequency band and the client device all affect the connection. A device might show a connected icon while a call still stutters. My drawing makes none of those performance claims.
+
+So how would I make the decision outside the model? I'd first identify the spot that actually fails: the desk, the bedroom, or perhaps the kitchen. I'd record what matters there, such as a stable call rather than a speed-test headline. I'd compare the two feasible shelf locations with the same device, at similar times and under similar network load. If moving the router isn't allowed by the modem and cable route, that is a real constraint, not a reason to invent a result.
+
+If neither feasible shelf gives the rooms I need acceptable service, the question becomes whether I need a better path, an additional access point or a wired connection. That is a different experiment. It shouldn't be smuggled into an A-versus-B result as a third unannounced contestant.
+
+The six-dot model taught me something useful without pretending to measure physics. A central shelf can win when each room counts once. A desk-side shelf can win when the only spot the center misses is used repeatedly. Better range can put the center ahead again. So can moving the desk.
+
+My final choice isn't the shelf with the prettiest circle. It's whichever feasible position actually serves the places I use, verified with real devices. Until I test those locations, the model has an answer to its own numbers, not to my apartment's Wi-Fi.

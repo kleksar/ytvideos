@@ -1,0 +1,20 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Actual source/runtime handoff — Two Ways Lab router placement
+
+Source remote main 131ef24068d75967b1e43aa88e5f1370f6775054. #124 was verified MERGED, current main docs canonical; original policy proposed revision 7d6bdf7702a2a241a33a21677fce29f26ada9b72 is historical and not a separate runtime pin. New branch based only on main. Single new story directory .agent/research/2026-11-22-two-ways-wifi-router-placement; no shared docs, skills, channel profile, release queue or protected story PR touched.
+
+**Actual blocked runtime capability:** attempted uv run ytv start --channel two_ways_lab --format short in this host; failed to spawn executable ytv (os error 2). Consequently no real plan_summary/read_next/task_guide/pinned reference_documents, run, lease, receipt or official script gate. Current deferred tool registry yielded no independent session/spawn_agent capability; independent first listener not performed. Git-only editorial exception applies. Do not fabricate successful commands. An existing run, if found in local production store, must be resumed with pins, not duplicated.
+
+All six exact script identities (UTF-8 SHA-256, no final newline):
+- 02m EN fcc72d15bca64e40a9745f72826d517b356f3b38d3b4a392b4d39e657e31e242; RU c0a241884550d7b562d428a7094151cbb063fd2df18bf366a06f6a3cdc1918df
+- 05m EN 1b723124d77c30f83d27819bfef0f2919c3313accc8ee85f8555000cf6484eaa; RU 709f1b460ce419b4c4a6766ebd5dd8fa18c56a5fbc1dc5f767f07a8f4d532789
+- 10m EN 40e87273c20081b5e71abc9d854a32ee256adb580477e78c70151e48ed08a210; RU 7c16ae826b551a9a0a00dd2be4d6d7d7880a6bfb2b7d94ec4de5e6f9ed8f7cae
+
+README lists full texts and relative paths. Scripts are complete; no script is an approved source. 02m is preferred **editorially**, not chosen by owner. No real media/reference files or provider handles have been created, no cost incurred. Counts and geometry checked by deterministic Python in isolated session, not by Wi-Fi measurement. Explicitly experimental interest hypothesis: fresh placement questions exist, but relevant YouTube analytics, CTR/retention and comparable A/B Short demand UNVERIFIED. No paid vidIQ invoked; actual shared credit balance not checked in this run.
+
+**Production blockers:** actual ytv runtime unavailable, independent reviewer unavailable, authentic creator approval absent, nominal channel Short 35–50s vs 02m editorial timing needs validation, real TTS/AV seam/voice/visual QA unmeasured, rights and bytes of images/brand references uninspected. Two Ways Lab Long settings canvas/fps/end_screen null, Long recipe unsupported: 05m and 10m editorial proposals only, not Long production. 10m also REWORK editorial.
+
+**Local recovery:** in working repository/runtime with the existing real store, read canonical main requirements and check existing run first. If none, run uv run ytv start --channel two_ways_lab --format short --intent 'Center vs desk-side router modeled successful-use sessions: three bilingual editorial variants' BEFORE any new runtime research; follow genuine plan_summary, read_next, task_guide and pinned reference_documents. Register actual variant and story review paths with documented attach-artifact --kind script_variant and --kind story_review using real --source and returned IDs; do not synthesize IDs. In a new independent session provide 02m exact EN and RU with no author scores/beat map, obtain genuine first-listener conclusion and full two-cycle loop evaluation; give research afterward for factual checks. If rejected, leave Draft or rework in same branch, not fake gate. After owner picks a single compatible script, import exact bytes/hash via legitimate approval route. If working with an already accepted source use documented source-script origin path, not a second editorial gate. Existing pins need explicit migration. Build detailed storyboard/prompts only for exact selected text; no transport of old spans/timings.
+
+After pushing review remote branch HEAD, changed-file diff, actual Draft state and exact HEAD CI statuses. A successful Git write is NOT production authorization.
