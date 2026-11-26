@@ -80,3 +80,16 @@ The 05m and 10m texts expand *this* story, not three different plots. The follow
 ## 2026-11-19 — source-bound 05m shelter episode
 
 [ABC News, 2 October 2022, memoir-based report](https://www.abc.net.au/news/2022-10-02/the-girl-who-fell-3km-into-the-amazon-and-survived/101413154), rechecked on 2026-11-19: Juliane found a petrol container in the unoccupied shelter; larvae had infested an arm wound; remembering her father's kerosene use on a family dog's wound, she applied petrol to help remove them and experienced severe pain. This was previously evidenced in the common 10m claim ledger and is now restored as a distinct obstacle in 05m. No exact day for the boat or shelter is asserted because witness accounts differ. **Historical conduct, not medical advice**; not a claim that petrol safely treated infection, nor independent medical documentation. Source derives from survivor testimony, not a clinical record.
+
+
+## 2026-11-26 — evidence for substantive 10m revision
+
+| Claim | Source / passage | Limits |
+|---|---|---|
+| Panguana was founded in 1968 by Maria and Hans-Wilhelm, and named after the undulated tinamou | [Panguana research station](https://panguana.de/ueber-uns/die-forschungsstation/), Geschichte and opening; [foundation overview](https://panguana.de/) | Institutional history; no invented scientific activity by teenage Juliane |
+| Familiar tinamou call after crash; hoatzins indicated larger water before her eyes resolved it | [Guardian first-person interview, 2024](https://www.theguardian.com/lifeandstyle/article/2024/aug/06/a-bolt-of-lightning-struck-my-plane-and-i-plunged-3000m-into-a-rainforest), paragraphs on forest calls and river | Retrospective testimony, not navigation precision. Sound alone did not establish exact location. |
+| Vulture call preceded discovery of three bodies; painted toenails excluded Maria; rescuers initially mistook Juliane for a legendary figure | [ABC, 2 Oct 2022](https://www.abc.net.au/news/2022-10-02/the-girl-who-fell-3km-into-the-amazon-and-survived/101413154), memoir-based paragraphs on fourth day and encounter with men | No invented dialogue, exact day of discovery or shelter; reported perception attributed to Juliane. |
+| Rescue conversation and news that the wreckage was not yet located; later confirmation of Maria's death | Guardian 2024, rescue and hospital journey paragraphs | Source accounts differ on shelter chronology and initial waking; use “by the next morning”, “eventually” rather than choosing an unsupported precise date. |
+| Bat research, leadership in 2000 and foundation in 2014, conservation and work with Indigenous neighbours | ABC 2022, final paragraphs; [Panguana overview](https://panguana.de/), [foundation purposes](https://panguana.de/ueber-uns/die-stiftung/) | Historical role, no invented attribution of motive, exact present-day protected area or new clinical claims. |
+
+The existing Short facts are retained, except the Spanish explanation already evidenced above is made explicit, and the question/answer closes a text seam after completed rescue. No new medical instruction; the longer version refers only generally to the historical wound ordeal. No current audience measurement.

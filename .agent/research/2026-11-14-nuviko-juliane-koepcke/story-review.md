@@ -1,91 +1,43 @@
-# Story review — Juliane Koepcke (1971), full three-length package
+# Story review — Juliane Koepcke, current 2026-11-26 revision
 
-Status: **EDITORIAL_CANDIDATE_UNREGISTERED**. Date of revision: 2026-11-17. Authorial editorial assessment, **NOT** independent first-listener feedback, registered ytv-script-review-v1, measured retention, voice timings or owner approval. The applicable canonical 2/5/10 policy is on main after merged PR #124; documentary Long opening requirement is on main after merged #117.
+**EDITORIAL_CANDIDATE_UNREGISTERED**. Author assessment only; no independent reviewer, actual duration, audience analytics, registered runtime or approval. Baseline `c58e07c562b5ce5bd95f42c316e936df03ced6a0`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`. Source and old hashes remain recoverable at the baseline. Exact candidate files:
 
-## Exact files and immutable SHA-256 of UTF-8 narration bytes
+| Target | EN | RU | Words EN/RU | SHA-256 EN | SHA-256 RU |
+|---|---|---|---:|---|---|
+| 02m | [Full EN](variants/02m/script.en.txt) | [Full RU](variants/02m/script.ru.txt) | 289/245 | `a024abb9009c3933c6d8c8111b56d58937fc598bd00bf0ab378b234664c0782a` | `94fbbe652fe82b19cffcdf0745cc6ca4c5df448cd137a3bfc65bd40bd0ca6d1a` |
+| 05m | [Full EN](variants/05m/script.en.txt) | [Full RU](variants/05m/script.ru.txt) | 717/590 | `c2f746ad3e1db2f7e93b23933f0930b40cdaf6bc573b093628260004fb5fc311` | `93530a8cd2196a33c2b990346837ae62842995640376922347a2ce722c30ddc6` |
+| 10m | [Full EN](variants/10m/script.en.txt) | [Full RU](variants/10m/script.ru.txt) | 1455/1223 | `d363fd526d43dc904954007fa3aa03f0d1aad539b79c8850640e800296523118` | `d16c52781a0cc8e983932226fcb72ee7121d94f0c3f082454422301e63a637aa` |
 
-| Version | EN script | EN SHA-256 | RU script | RU SHA-256 | EN words | Estimated narration time (not measured) |
-|---|---|---|---|---|---:|---|
-| 02m | [Full EN](variants/02m/script.en.txt) | `b13bd78664370f0592f1b7b5508753f16584f4b098d45ab8a108abe5a1b3811d` | [Full RU](variants/02m/script.ru.txt) | `bbf9cd7e89dc0d868cb3cb047dad401580d2f043c3f16ee2e4cb692ec967805b` | 244 | ~1.6–2.2 min |
-| 05m | [Full EN](variants/05m/script.en.txt) | `c2f746ad3e1db2f7e93b23933f0930b40cdaf6bc573b093628260004fb5fc311` | [Full RU](variants/05m/script.ru.txt) | `93530a8cd2196a33c2b990346837ae62842995640376922347a2ce722c30ddc6` | 717 | ~4.6–6.0 min plus pauses (estimated) |
-| 10m | [Full EN](variants/10m/script.en.txt) | `04fa648735c3ad7a7c151ee39582140c532e87d0aa53470946b433d25fe794e4` | [Full RU](variants/10m/script.ru.txt) | `8bd0ead794410799ee02811a1a6b4ad6bf02b9577205d9fdceb9b99cb1b238b9` | 1327 | ~8.8–11.4 min |
+Estimated English narration assuming 120–155 spoken words/min, no measured TTS: 02m 1.9–2.4 min; 05m 4.6–6.0 min; 10m 9.4–12.1 min. Pauses and Long 10s end screen extra; voice speed not changed. Paragraph counts EN/RU 16/16/17/17/31/31; paragraph grouping is editorial, not shot count.
 
-Estimates assume roughly 120–155 spoken English words/minute plus short dramatic pauses; **not** an ElevenLabs measurement. The active channel profile sets voice speed to 1.10×, not changed by this PR. The 10-second Long end screen is a production requirement, not recorded narration; exact film timing remains UNVERIFIED.
+## Current story maps and hard checks
 
-## Version 02m — full story map, ending, limitations
+**02m Short:** P1 cold hook/answer and proposed stream visual → P2–4 crash, impaired vision, missing mother → P5–7 parental rule versus canopy → P8–10 one shoe, food and widening water → P11–13 visible boat but empty shelter, men and Spanish → P14–15 full rescue/loss and later life → P16 question leading directly to P1. New literal EN seam: “What had she heard down on the forest floor that gave her a way out?” → “Running water. That was the sound that led seventeen-year-old Juliane Koepcke out of the Amazon after she fell from an airplane.” RU: “Какой же звук она услышала внизу, под кронами, и благодаря ему нашла выход?” → “Журчание воды. Именно этот звук помог семнадцатилетней Юлиане Кёпке выбраться из Амазонии после падения с самолёта.” Author two-cycle text read (both languages): direct question/answer, cold entry self-contained, full payoff before seam, thematic-only restart objection addressed. AV seam and independent review UNVERIFIED. Original root preview storyboard remains bound to the previous root bytes only; no current storyboard/timing.
 
-**Opening/hook:** “Seventeen-year-old Juliane Koepcke heard running water after falling from an airplane into the Amazon.” The crash and sensory clue are immediately legible without introductory questions (Short rule).
-**Story map:** Christmas flight with Maria → fall strapped to seats → broken collarbone, impaired sight and missing mother → father's water lesson → tiny stream → aircraft search above obscuring canopy → one-shoe navigation and sweets → widening river/current → empty boat and shelter → men arrive → rescue after eleven days; mother did not survive → Juliane later becomes a biologist → sound of water returns as final bridge.
-**Payoff:** people, safety and honest loss; avoids pretending the stream cushioned the fall. The entire original EN/RU was retained **byte for byte** because it already has a coherent causal chain and sourced details. Source originals `script.en.txt` and `script.ru.txt` remain unchanged. Its compact beats may feel like a list at the shoe/sweets/river sequence.
+**05m Long:** P1 questions → P2–3 family background and trip → P3–6 crash, injuries, mother, water rule → P7–11 foot/food/air search/other victims/current → P12–14 empty shelter and historical wound ordeal, local men → P15–17 rescue, mother, father, conservation and water answer. Exact unchanged text from 2026-11-19: retain because every new beat turns the journey and the payoff is not buried in an extended biography. Long loop N_A; no new scene plan/measurement. Existing evidence retained below.
 
-| Editorial criterion | Score / confidence | Evidence and weakness |
-|---|---|---|
-| Interest / significance | 8/10, medium | Sole eventual survivor and eleven days in a hidden forest are substantial human stakes; a widely retold story, not fresh discovery |
-| Opening | 8/10, medium | Fall plus audible stream in first sentence; the immediate answer to why sound matters comes later |
-| Development / reason to continue | 7/10, medium | Father’s lesson, invisible search aircraft and empty shelter escalate; shoe/sweets may run together too quickly |
-| Payoff | 8/10, high for text | Rescue is resolved, then real death of mother and later career; epilogue risks lowering urgency |
-| Angle freshness | 6/10, medium | Water-sound/navigation angle beyond obvious “survived fall”; story has many existing retellings |
-| Visual expressiveness | 8/10, medium | Seat wreck, canopy, shod foot, river and empty boat allow clear distinct frames; imagery ungenerated |
-| Natural voice / clarity | 7/10, medium | Concrete actions; literal return to full name at the loop can sound restarted |
-| Verified audience demand | **UNVERIFIED**, not scored | No comparable YouTube performance baseline, CTR, retention or first-listener observation |
+**10m Long:** P1 questions about aircraft, rescue and return → P2–5 Panguana origin, tinamou, schooling and delayed Christmas trip → P6–8 crash hook, unknown fall mechanism, injuries → P9–11 familiar bird sounds, missing mother, decision → P12–14 stream, shoe, food and invisible search → P15–17 hoatzins, vultures and painted toenails as concrete recognition rather than repeated ambient sound → P18–20 hunger, river and wildlife as negative evidence → P21–24 boat, empty shelter, wound obstacle, reported misunderstanding resolved in Spanish → P25–26 rescue and continued search for Maria, father reunion and loss → P27–31 Germany, return, bat studies, 2000 leadership, 2014 foundation, Panguana bird payoff. Visual intent follows these exact spans, not a production storyboard. Fall physics uncertainty retained; shelter day unspecified. The three opening questions resolve in P14/P24–26/P27–31. Long loop N_A.
 
-**Short-specific hard check (authorial only):** full EN and RU read in order twice. Complete rescue appears before reset; cold opening is self-contained. EN end “the clue that led her to people had been a sound.” → “Seventeen-year-old Juliane Koepcke heard running water...” RU end “дорогу к людям ей подсказал звук.” → “Семнадцатилетняя Юлиана Кёпке услышала журчание воды...” The causal connection is meaningful but the name and recapitulation can sound like a restart: **TEXT SEAM RESERVATION**, not independent PASS. Actual audiovisual seam **UNVERIFIED**.
+## Eight criteria (author-only, confidence and exact basis)
 
-## Version 05m — full story map and decision
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest / significance | 8 medium — P2–4 fall and missing mother; familiar story | 8 medium — P10–14 bodies and delayed rescue | 8 medium — P15–16 signals from birds change what she learns; same familiar event |
+| Opening | 8 medium — P1 answers the seam and identifies event; repeating sound intentionally | 8 medium — P1 three bounded questions, P3 crash | 8 medium — P1 survival route and return, P2–6 grounded immersion; station naming may slow |
+| Development | 8 medium — P11–12 clear false arrival, then rescue; walking compressed | 8 medium — P12–14 deserted shelter to obstacle to people; river stretch P11 still slow | 9 medium — P15–16 evidence about river/mother, P24 misunderstanding resolved; P18–20 travel may dip |
+| Payoff | 8 high text — P14 full rescue and loss before P16 | 8 high text — P15–17 safety and learned knowledge | 9 medium — P25–26 loss, P28–31 concrete continuation of station; emotional impact untested |
+| Freshness | 6 medium — sound angle, widely retold | 7 medium — family knowledge and human rescue | 8 medium — specific bird identity and station name return, not speculative aerodynamics |
+| Visual expressiveness | 8 medium — P1 tiny water, P7 canopy, P11 boat; images not made | 8 medium — distinct victims/shelter beats; no actual frames | 8 medium — distinguish tinamou, hoatzin, vulture, station and boat; wildlife reconstruction needs exact references |
+| Natural voice / clarity | 8 medium — concrete short sentences; P14–15 dense | 8 medium — actions connect; literary P4 remains | 8 medium — concrete clues replace repeated summary; P28–29 institutional vocabulary may sound report-like |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 
-**Question-first promise:** find a way out after falling; why aircraft searching overhead failed; what sound opened a path. All three have answers before the ending.
-**Immersion:** family science station and graduation/Christmas trip → main hook: near-landing breakup, fall in row of seats → shock and lost glasses/mother → choice between wandering and father's stream rule → one-shoe progress, rain and finite sweets → hidden rescue planes → discovery of other passengers (not Maria) → food ends as water widens → empty boat/shelter without people → arm infection and painful historical petrol episode → arrival of workers and Spanish exchange → safety, mother’s death, reunion with father → career and natural consequence of learned forest knowledge.
-**Payoff:** understanding *how she found people*, not an invented physical mechanism for surviving the fall. Extra value over 02m: mother/father's prior journey, real encounter with three victims, discovery of human use of the river, reunion with father. Maintains a single forward question instead of a technical essay on impossible aerodynamics.
+**Comparison:** 02→05 adds family travel, other passengers and a consequential delay at the shelter. 05→10 adds a different auditory thread (station bird, larger river, vulture and mother's identification), encounter misunderstanding and named conservation outcomes. 02m may lose viewers at P8–10 compressed travel; 05m P11 river montage; 10m P27–29 after rescue, even though the station question provides a second payoff. **Recommend 05m**, unchanged: strongest density and balance for a general listener, not a prediction of measured retention. The 10m version adds genuinely different documented material and is not merely five minutes repeated.
 
-| Editorial criterion | Score / confidence | Evidence and weakness |
-|---|---|---|
-| Interest / significance | 8/10, medium | Competing rescue modes — aircraft versus her chosen river — clarify stakes; no tested audience |
-| Opening | 8/10, medium | Three answerable questions immediately define expected outcome; more explanatory than a Short cold open |
-| Development / reason to continue | 8/10, medium | Broken sight → water choice → blocked search → bodies → dwindling food → empty shelter → painful documented wound/larvae action before human rescue; river travel still risks dragging |
-| Payoff | 8/10, high for text | Spanish conversation and rescue answer the question; parental lesson closes human line; no rescue miracle invented |
-| Angle freshness | 7/10, medium | Foregrounds sound and ecology, rather than pseudo-explaining the high-altitude fall |
-| Visual expressiveness | 8/10, medium | Panguana, storm, obstructed search, foot, other seats, empty shelter are distinct visuals; no image read-back |
-| Natural voice / clarity | 8/10, medium | Actions now connect the empty shelter to arrival; distinguish father's kerosene from Juliane's petrol in spoken review; “the row of seats had not delivered her to safety” remains a literary line to test |
-| Verified audience demand | **UNVERIFIED**, not scored | Independent first-listener attention and real viewing signals absent |
+**Hard checks:** author read EN/RU in full and matched paragraph pairs, key dates/numbers, uncertainties and outcome. The new Short was read twice in each language including seam; independent and AV checks UNVERIFIED. 05m/10m long supported by canonical ChannelSpec; production/runtime pins UNVERIFIED. Public claims in shared research, no invented fall mechanism, dialogue or medical instruction. Storyboard bound solely to historical root EN/RU `b13bd78664370f0592f1b7b5508753f16584f4b098d45ab8a108abe5a1b3811d` / `bbf9cd7e89dc0d868cb3cb047dad401580d2f043c3f16ee2e4cb692ec967805b` (Git blobs `3707db03642a81b339f417fcdc5b960c21312480` / `5375feba26c32e73c06c85abe56901cdcabd50fa`); new Short and both Longs need selected-version storyboard. No current timings/approval transferable. New exact reviewer must receive plain unannotated scripts before sources; use real ytv-script-review-v1 and original response only. No access to independent session capability or local checkout in GitHub workflow. Canonical transfer via existing run status/context or documented start, attach script_variant/story_review and one owner selection; no production here.
 
-**Hard checks (authorial):** EN/RU actions, 1971, 3,000 metres, 92 people, 11 days, uncertainty and ending are aligned. Question → immersion → main hook → causal development → climax and consequence present. ChannelSpec `long` present on observed main; runtime/pinned checkout not independently available. Long loop **N_A**. No old scene/timing reused.
+## Historical evidence — baseline, not a current verdict for changed hashes
 
-## Version 10m — full story map and limits
-
-**Question-first promise:** how she survived/found a way; why aircraft could not see her; what guidance allowed navigation. The fall mechanics are explicitly **unknown**, so the first question receives a bounded answer rather than a fabricated scientific explanation.
-**Immersion:** parents’ research/Panguana and Juliane's familiarity with rainforest sounds → graduation/Christmas travel → main hook: storm breakup just before landing → unknown physics of fall → injuries, first failed attempt to stand → father’s water guidance → one-shoe travel, rain-soaked food and only sweets → futile aerial search and known forest calls → bodies of other passengers and unresolved search for Maria → river travel and wildlife away from settlement → boat and empty shelter → wound treatment as historical event (not advice) → Spanish explanation to local workers → rescue → delayed confirmation of mother’s death, father reunion → public scrutiny, Germany and biology → conservation/Panguana → return to auditory/navigation clue.
-**Payoff:** causally explains a journey, then explains its human cost and longer-term connection to that rainforest. Extra over 05m: school/research context, failed standing, storm uncertainty, inedible cake, wildlife as negative evidence, wound difficulty, aftermath of attention and conservation.
-
-| Editorial criterion | Score / confidence | Evidence and weakness |
-|---|---|---|
-| Interest / significance | 8/10, medium | Adds genuine documented decisions and cost; not a separate fresh plot |
-| Opening | 8/10, medium | Question-first and bounded uncertainty on fall; first question can make some viewers expect mechanics |
-| Development / reason to continue | 7/10, medium | Search aircraft, bodies, food and boat create escalations; several middle river paragraphs cover similar movement |
-| Payoff | 8/10, high for text | Rescue and aftermath, mother's fate, ecological work; the ending recalls the stream without denying grief |
-| Angle freshness | 7/10, medium | Adds adult career and survivor perspective; familiar headline remains unchanged |
-| Visual expressiveness | 8/10, medium | Forest sounds, storm and water stages enable sequences, but visually repeated river views need new storyboard |
-| Natural voice / clarity | 7/10, medium | Concrete chronology and no invented dialogue; long middle risks repetitive rhythm |
-| Verified audience demand | **UNVERIFIED**, not scored | Comparable videos/first-listener/retention not measured |
-
-**Hard checks (authorial):** English/Russian same story and uncertainties. Additional claims evidenced in shared research. Question-first documentary Long, main crash hook follows family context; payoff complete. Long loop **N_A**. A production run and long storyboard do not exist.
-
-## Direct comparison of exact complete texts
-
-| Transition | Actual additional value | Precise place attention may drop |
-|---|---|---|
-| 02m → 05m | Missing mother and other passengers gain breathing room; search planes cannot see her → river route; a deserted shelter still leaves an infected wound and a difficult action before rescuers arrive | After “The sweets dwindled” the river march remains a possible attention dip |
-| 05m → 10m | Family field station and education become clear causal preparation; failed standing and inaccessible food explain choices; later public attention and return to research give human consequence | After reunion and movement to Germany, the question “will she get out?” is already settled; final sections become a second, weaker epilogue |
-
-**Recommendation: 05m** for one selected Long. It delivers the clearest chain of actions and obstacles while keeping the mother/father/rescue line intact. A shorter 02m may outperform it for Shorts but the text seam remains unverified; a longer 10m needs a genuinely engaging scene plan or tighter aftermath. This is not a claim of expected view count or measured retention, and is **not** owner approval.
-
-## Version integrity, blockers and review ownership
-
-- Source 02m matches existing root EN/RU Git blobs `3707db03642a81b339f417fcdc5b960c21312480` / `5375feba26c32e73c06c85abe56901cdcabd50fa`; original 16-scene storyboard applies only to those exact EN/RU SHA-256 hashes. Preserve original review and scene evidence for unchanged version; no transfer to 05m/10m.
-- EN/RU pair checked for order, names, numbers and uncertainty by **author** only. Exact independent bilingual/reviewer verdict: **UNVERIFIED**; no identity, ID, receipts or independent findings fabricated.
-- Reviewer input, if capability becomes available: new session gets unannotated exact EN/RU scripts first (Short twice), no ratings/beat map/selection; asks for paraphrase, attention-drop lines, naturalness and Short seam. Only **after** first reaction supply sources and original 02m comparison. Persist reviewer’s original schema answer without editing it. Any script change invalidates its prior review by hash.
-- A Git-only PR is not `ytv start`, `awaiting_script_approval` or a production pin. On actual checkout, use canonical runtime profile/context and `script_variant` + `story_review` artifact mechanism with original evidence; approval only by owner for one exact hash. Live runtime/reviewer unavailable **here**; don't fabricate IDs.
-- TTS/MP4/image/AV seam, voice speed result, actual duration, CTR/retention, runtime receipts and true independent taste test all **UNVERIFIED**. No media tasks authorized.
-
+The previous story-review is preserved at [baseline](https://github.com/kleksar/ytvideos/blob/c58e07c562b5ce5bd95f42c316e936df03ced6a0/.agent/research/2026-11-14-nuviko-juliane-koepcke/story-review.md). The 05m remains byte-identical; retain its exact previously recorded ratings and evidence. Previous 02m/10m review, timing assumptions and spans apply only to their former hashes.
 
 ## 2026-11-19 — exact 05m substantive revision
 

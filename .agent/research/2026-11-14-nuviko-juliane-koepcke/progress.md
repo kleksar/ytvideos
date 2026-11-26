@@ -17,3 +17,18 @@ Exact script hashes: 02m EN `b13bd78664370f0592f1b7b5508753f16584f4b098d45ab8a10
 ### 2026-11-19 — 05m editorial rework
 
 Baseline HEAD `63e3adcc3a2f7be659575c088574074c43eff066` → new script EN `c2f746ad3e1db2f7e93b23933f0930b40cdaf6bc573b093628260004fb5fc311` / RU `93530a8cd2196a33c2b990346837ae62842995640376922347a2ce722c30ddc6`. Was: unoccupied hut → rescuers. Now: empty hut → infected wound, fuel and painful historical attempt → rescuers. Source ABC 2022 rechecked; shared research updated; bilingual script, reviews, README, packaging, handoff synchronized. Existing 02m/10m and source master untouched. Status: three complete variants, 05m author-revised and provisionally recommended, not owner approved. Blockers: independent reviewer/receipt, scene timing for exact text, true runtime run/approval, actual TTS/MP4. Next unrelated technical review #77/#78.
+
+
+## 2026-11-26 — revision of 02m and 10m; current candidate
+
+Baseline `c58e07c562b5ce5bd95f42c316e936df03ced6a0`, canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). 05m remains byte-identical and recommended. Original root scripts and storyboard are preserved as historical exact evidence, NOT the storyboard of the revised 02m. The other two candidate pairs were revised; new exact SHA-256 and spans are in story-review.md. No owner approval or production action. No external runtime / Codex session visibility; no owner acceptance or production evidence in available PR discussion. Independent reviewer capability not found in available host tools; no fabricated review. Exact runtime pins must be checked at handoff.
+
+Was → now: 02m thematic restart → direct answer after full rescue; 10m repeated travel and generic aftermath → documented bird cues, recognition of other passenger, rescue encounter and concrete conservation work. Exact package:
+
+| Target | EN | RU | Words EN/RU | SHA-256 EN | SHA-256 RU |
+|---|---|---|---:|---|---|
+| 02m | [Full EN](variants/02m/script.en.txt) | [Full RU](variants/02m/script.ru.txt) | 289/245 | `a024abb9009c3933c6d8c8111b56d58937fc598bd00bf0ab378b234664c0782a` | `94fbbe652fe82b19cffcdf0745cc6ca4c5df448cd137a3bfc65bd40bd0ca6d1a` |
+| 05m | [Full EN](variants/05m/script.en.txt) | [Full RU](variants/05m/script.ru.txt) | 717/590 | `c2f746ad3e1db2f7e93b23933f0930b40cdaf6bc573b093628260004fb5fc311` | `93530a8cd2196a33c2b990346837ae62842995640376922347a2ce722c30ddc6` |
+| 10m | [Full EN](variants/10m/script.en.txt) | [Full RU](variants/10m/script.ru.txt) | 1455/1223 | `d363fd526d43dc904954007fa3aa03f0d1aad539b79c8850640e800296523118` | `d16c52781a0cc8e983932226fcb72ee7121d94f0c3f082454422301e63a637aa` |
+
+Status: three complete texts in each language → author checks/comparison → 05m recommended; runtime/reviewer/owner/AV/demand UNVERIFIED. Root and original storyboard preserved. Next narrative #69; technical #77/#78 separately. No merge, main, production or media action.
