@@ -1,0 +1,47 @@
+I get home after a hot day and open a window. Outside, the evening air has finally cooled down. Inside, the room still holds the heat from the afternoon. I have one fan, and I want to make the whole apartment cooler before I go to bed. Should I leave the fan close to the window, or send air towards it from the other side of the room? And if the room does cool down, how do I know the fan made the difference?
+
+For this comparison, I'm using a published computer simulation of a single-window studio. I haven't reproduced that calculation or performed the experiment myself. I can, however, follow the reported conditions and compare the results. There are two candidate fan positions and a useful third case in which I don't turn a fan on at all.
+
+Picture a room eight metres long, three and a half metres wide and three metres high, with internal partitions. There is one square window, roughly a metre and forty centimetres on each side. Inside, the air and the building start out hot, around thirty degrees Celsius. Outside, the temperature is twenty-two. Air is also moving along the face of the building at roughly one metre per second.
+
+The fan has a diameter of thirty centimetres. In this computer model it is represented by the pressure it produces at different flows rather than by drawing each spinning blade. I don't have to change that representation between the two trials. In both positions the fan faces towards the opening, and its centre is two metres forty-five above the floor. A is one metre away from the window. B is five metres away. Everything else stays under the same modelling rules.
+
+My finish line is sixty minutes after the simulation begins. My score is the average temperature of the air in the room at that point. Lower wins. I won't give either side an advantage for making one corner exceptionally cool. Nor will I pretend that measuring the temperature tells me exactly how much fresh air has entered.
+
+Before I show the result, pick A or B.
+
+I'll start with no fan. If I open a window at one end of a room, I might picture the cool air entering and driving all the warm air away. But where would the warm air leave? There's no second opening in this model. Fortunately, air doesn't need to take turns moving through a wide opening. Two streams can cross different parts of it at the same time.
+
+Warmer air generally has a lower density than cooler air at the same pressure. The temperature difference between the room and outdoors helps drive the exchange. The outside wind also affects the flow. In the reference calculation, the cooler layer spreads through the lower part of the room. Warmer air remains near the ceiling. The whole room isn't cooling at the same rate.
+
+At fifteen minutes the average is twenty-six point nine degrees. At thirty it's twenty-six point seven two. At sixty it's twenty-six point six eight. Most of the change in the first hour came early. Waiting another half hour after the first thirty minutes only makes a small difference in this particular reference case.
+
+At the end, the probe near the bottom of the window is at twenty-six point four two degrees. The probe high in the room is at twenty-seven point five. If I measured only one point, I could report a different result without changing anything about how the room actually behaves.
+
+The walls help explain why the drop slows down. The air can exchange heat with the outside quickly, but the walls are still warm. Once the nearby air cools, the walls continue giving heat to it. The average air temperature is therefore a moving target, not a direct reading of how much heat remains in the whole apartment.
+
+Now I switch on B, at the back of the room. This is the arrangement that seems as though it ought to move the most air through the interior. Its stream has to travel several metres before reaching the window. Along the way it mixes with the surrounding air. The different layers become less distinct.
+
+There's a catch at the window. Air passing through the plane of the opening doesn't necessarily keep travelling away from the building. The stream expands, encounters outdoor airflow and loses speed. In the simulated flow patterns, part of it curls back near the facade. Some of the same air can cross the opening again. Cooler air can still enter, but I can't count all the movement at the opening as a permanent replacement of indoor air.
+
+That matters because this apartment has only one opening. For sustained flow out, air has to come back in somewhere. The fan isn't sealing the window, so there are free sections beside the outward stream. I can have inward and outward movement at once. A single number for net flow could be close to zero while a substantial exchange is happening in both directions. And adding all the crossings without knowing where the air came from can overstate the amount of new air.
+
+After the hour, B finishes at twenty-six point zero seven degrees. I subtract that from the open-window result of twenty-six point six eight. The improvement is zero point six one degrees. There is an improvement, and the temperature is more uniform. It just isn't the large drop I might have expected from all that mixing.
+
+Now I move the same fan to A. I haven't changed the height or the direction. I haven't opened another window. I have reduced the distance the fan stream must travel before reaching the opening. The model shows stronger cooling of the interior, with less warm air collecting high in the room.
+
+At sixty minutes the average is twenty-four point four three degrees. The difference between the two fan positions is one point six four degrees. Against the open-window reference, the gain from the displayed temperatures is two point two five degrees. That's a much bigger change than B produced.
+
+The researchers also simulated the fan near the window at a lower height, about one metre seventy-five above the floor. That version ends at twenty-four point eight five. The higher near position is cooler by zero point four two degrees. It's interesting, but the distinction is small compared with the uncertainty in this model. I can't turn that into a precise universal instruction for mounting a fan at home.
+
+One thing I wouldn't calculate from the fan's advertised airflow is how long it takes to replace every bit of air in the apartment. Such a calculation assumes that the air crossing the fan has somewhere to go and that none of it comes back. Neither assumption is established here. To find out the actual rate of fresh air renewal, I'd need further information, for example a way of following a harmless tracer in the air and seeing how quickly its concentration changes.
+
+If I want to compare the two placements in my own home, I can plan a modest temperature test instead. I'd choose evenings with similar outdoor conditions, start with similar room temperatures, use the same fan setting and keep the window opening unchanged. I'd record several indoor temperatures at the same locations, not hold the thermometer in the fan stream. I'd record the outside temperature as well. Repeating the comparison would be more informative than moving the fan halfway through one cooling session, because the first placement would already have changed the starting conditions for the second.
+
+That is a proposed test, not another set of results. And the room's heat stored in walls, furniture and other surfaces would still be difficult to match between evenings.
+
+Finally, I have to decide what I actually want. If I just want to feel a breeze at my desk, the placement that feels best may be different from the one that cools the whole apartment. If I want outdoor air to replace indoor air, temperature alone is insufficient to evaluate that too.
+
+There is no result here for blowing the fan inwards, for a second open window, or for a day when the outside air is hotter. Even the direction of the wind matters. This isn't a method for guaranteeing a safe indoor temperature during extreme heat.
+
+But for the original question, with one window and cooler air outdoors, the comparison has a clear answer. After the same hour, A reaches about twenty-four and a half degrees while B remains just above twenty-six. The fan at the back mixes the room better, but the one closer to the opening cools it more. Before I buy a bigger fan, I have a simpler choice to investigate: where I put the one I already own.
