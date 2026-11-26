@@ -17,3 +17,7 @@ Unresolved: independent `sessions.independent` review, official runtime registra
 ## 2026-11-20 substantive follow-up
 
 05m and 10m EN/RU were revised to correct the false implication that the entire Belvedere Lake wire act was officially authorized. The prosecutor's conditional free show is documented; Petit later said the request concerned a tiny juggling show, and separately described a bigger lake event (research F10). The 10m now contains the reported child/guy-line jolt and Petit's recovery from a 1987 retrospective (F11), rather than repeating the tower result. Original root text, 02m, and unaffected evidence stay intact. Writer still recommends **05m Long**, not approval. Exact current SHA-256 and updated assessments are at the top of [story-review.md](story-review.md); script-specific scene timing and independent review remain unverified.
+
+## 2026-11-26 current second pass
+
+02m and 10m revised, 05m retained and recommended. Short now distinguishes the free-show settlement from the actual park performance; Long has a concrete setup obstruction, credited photographic collaborator, attributed emotional consequence and lifetime pass as ending. [Current hashes, comparisons and paragraph maps](story-review.md); older 02m/10m evidence is stale. Exact duration and independent review remain UNVERIFIED. Root source unchanged.

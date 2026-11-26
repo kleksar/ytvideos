@@ -1,8 +1,43 @@
 # Story review — The Walk / Philippe Petit (editorial-only)
+
+## CURRENT — 2026-11-26, second-pass editorial review
+
+Baseline `1e525cd96bfbaefa0d911b9cb7229981aba28645`, remote canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). EDITORIAL_CANDIDATE_UNREGISTERED. No owner selection, approval, reviewer receipt or production. Prior 02m and 10m assessments below are historical and STALE for new hashes; 05m is byte-identical and its 2026-11-20 evidence is retained. Root source is unchanged.
+
+| Target | Full EN | Full RU | Words EN/RU | SHA-256 EN / RU |
+|---|---|---|---:|---|
+| 02m Short revised | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 248/198 | `8d8330337ab7fc367a8ae05bb0b5940a5155ad09c8f537ddc1e67eee95478dac` / `5e5b78ff4a738e16b19a9ad62e7241641f224dcc435824a41231793895e7a6fc` |
+| 05m Long retained / recommended | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 658/535 | `746bff59093c562a0bfbb55d873d9a99ec8f8351154c8cd5dff81414e94a38d7` / `d1347371d67576be3adcc48eecf64e755feb48937137adaf8a66a8888541c5e5` |
+| 10m Long revised | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1399/1138 | `e77f6e4eb1cb81e145922fcf77ebc635a319f7ac546bf4787047f18a6c4b6dfa` / `3a80576a337c76318520bfa0ce37ccce1cf5cafe2856e0d9c0f0ca92eb760323` |
+
+Before → after: 02m asserted that the negotiated condition was specifically a high-wire act and ended at an invitation; it now states only the common verified free-show condition and shows the actual later lake performance. Its question returns to the wait without withholding that answer. 10m repeated the disputed crossing count and abstract rigging risks; it now uses the reported misplaced arrow as a concrete obstruction, Petit's attributed recollection of his frightening first step, Blondeau's photographic contribution, and Petit's own account of his embarrassment and Allix's advice after the park incident. The lifetime pass now closes the access/arrest arc. 05m is retained because it answers its three opening questions and depicts the actual park performance with the narrower-request claim clearly attributed, without the longer second climax.
+
+Story maps and preliminary visual intent (paragraph spans, not timed storyboard):
+- 02m P1–2 police/height and no permission; P3 two roofs and overnight work; P4 crossing/return; P5 police arrival and continuing act; P6 arrest; P7 street and legal reversal; P8 lake show; P9 complete payoff and return question. Park bench cameo proposal only.
+- 05m P1–8 questions, two-roof logistics and dawn; P9–15 crossing, officers, continuing performance; P16–17 custody, public reaction, prosecutor; P18–19 documented lake act and attributed difference in requested scale. Distinct city/park dioramas; no new storyboard.
+- 10m opening questions and Manhattan witnesses → previous walks, helpers and equipment → misplaced arrow and impending dawn → first step and attributed fear → return crossings, Daniels and police → arrest and Blondeau photographs → negotiated free show and attributed scale disagreement → reported park imbalance and recovery → attributed response to reporters → lifetime observation-deck pass. In the actual selected text, visualize setup obstacle and press/public aftermath as separate beats; no safety technique tutorial, no new shot count or timings. Paper-plane in park only, reference bytes and visual QA not verified.
+
+Eight author criteria (score / confidence / concrete limitation), exact current texts:
+| Criterion | 02m | 05m (unchanged) | 10m |
+|---|---|---|---|
+| Interest and significance | 8 medium: arrest paradox, actual show | 8 medium: logistics and legal reversal | 8 medium: performance and two contrasting public reactions |
+| Opening | 8 medium: cold performer/police setup; location next sentence | 8 medium: three questions, somewhat long | 8 medium: questions and crowd before preparation |
+| Development | 8 medium: crossing, officers, custody, actual park | 8 medium: each setup obstacle leads to next action | 8 medium: concrete arrow obstruction and fear replace generic risk; lengthy preparation remains |
+| Payoff | 8 medium: actual second show, no overclaim about terms | 8 medium: park event and qualified retrospective | 9 medium: emotional aftermath and access reversal; later memory is not independent proof |
+| Angle freshness | 6 low: well-known event, police angle | 7 low: police and negotiated scope | 8 low: collaborator and performer response; famous underlying story |
+| Visual expression | 8 medium: two roofs and contrasting park | 8 medium: distinct stages; paper motion untested | 8 medium: crowd, photograph, park, pass; no visual assets inspected |
+| Natural spoken clarity | 8 medium: complete actions and question; last question may sound deliberate | 8 medium: direct actions; concluding summary partly repeats | 8 medium: concrete actions, no repeated count at end; historical attribution still adds load |
+| Confirmed viewer demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+02→05 adds the logistical mechanism, Daniels' perspective, and the explicitly attributed difference between requested and actual show. 05→10 adds concrete obstacles, collaborators, the artist's recollections and consequences; the preparations before stepping out and second incident after the arrest still split the central promise. Recommend **05m**, author judgment only; 02m viable if short is desired, no production instruction. Duration estimates only; no observed retention/CTR, TTS or AV.
+
+Hard checks: 02m cold start names the police and performer, complete payoff before repetition. Literal EN boundary: “But what could the officers do about the first one while the performer was still in the air? The police had to wait until a high-wire performer finished his show.” RU: “А что могли сделать полицейские во время первого, пока канатоходец оставался в воздухе? Полицейским пришлось дождаться, пока канатоходец закончит представление.” Author reads of whole pair and repeated boundary only; independent review and actual AV seam UNVERIFIED. 05m/10m Long loop N_A. EN/RU order and claim qualifiers author checked, no independent bilingual verdict. F5/F8/F9/F10/F11 and added F12 support changed claims; F10 not freshly accessible (HTTP 429), retained only as attributed prior evidence. No invented dialogue or risk estimates. No new storyboard; previous changed-text evidence not transferable. Runtime store, external production leases, independent sessions and owner approval UNVERIFIED/NOT_RECEIVED; no fake receipts. Next use canonical pinned context and exact chosen master, attach alternatives as supporting artifacts, obtain actual independent review and owner choice. No media, merge or publication.
+
+
 Date: 2026-11-17, revised 2026-11-20. Writer: Git-only queue revision. Status: **EDITORIAL_CANDIDATE_UNREGISTERED; independent first-listener review UNVERIFIED; owner approval NOT_GIVEN**.
 
 
-## CURRENT 2026-11-20 revision — exact texts (supersedes older 05m/10m hashes and scores below)
+## HISTORICAL 2026-11-20 revision — exact texts (supersedes older 05m/10m hashes and scores below)
 
 **Baseline for this pass:** PR #49 at `ce714af7b7372b995109acd6cbd1ba6dbc02c1e5`, which had six texts and recommended 05m. Root original master and storyboard absence remain unchanged. The 02m Short is preserved byte-for-byte. The older 2026-11-17 tables below are **historical and STALE for changed 05m/10m**; do not transfer their hashes, editorial assessments, timings or review to the new bytes.
 
