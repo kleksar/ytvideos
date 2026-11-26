@@ -1,0 +1,17 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Git-only editorial handoff — Two Ways Lab pizza
+
+- Checked upstream source: `kleksar/ytvideos`, remote `main` = `b7121f44d39bc576df05e07db48a94c23f240e44` at initial reading 2026-11-19. Revalidate base and concurrently opened PRs **again** before creating remote branch/PR.
+- #124 policy proposal already **merged**, so used current main `docs/standards/editorial.md` and `.agents/skills/ytv-write-script/SKILL.md`, not stale proposed revision. No general docs, skills, channel status or pre-existing accepted files modified.
+- Intended new story folder: `.agent/research/2026-11-19-two-ways-pizza-value-menu/`; exact 6 full EN/RU texts and SHA-256 are in `story-review.md`. One shared factual/math research.
+- Recommended editorial master **02m EN** at SHA-256 `8442626910938589e2c38f6a9aa4fc0df8a7d6947a5df26b2fdd62770b0ae930`. Alternate languages/lengths are proposals; do **not** create three runs or put all versions into TTS.
+- **Unavailable official runtime:** attempted `uv run ytv start --channel two_ways_lab --format short ...` in local session; process failed `Failed to spawn: ytv; No such file or directory (os error 2)`; GitHub connector is available, but it is not the local production runtime and cannot create native saved `plan_summary`, `read_next`, `task_guide`, `pinned reference_documents` or approvals. No run/lease/receipt invented.
+- **Independent reviewer:** no actual separate reviewer response or `ytv-script-review-v1` receipt recorded; exact-text first-listener/loop status `UNVERIFIED`. Author grades in story-review are not independent.
+- **Audience:** limited index-level evidence; no watch-through/real comments, same-author baseline, own CTR or retention. vidIQ balance observed 0 on 2026-11-19 and no paid queries dispatched. Audience interest `UNVERIFIED`.
+- **Format:** 02m proposed Short exceeds channel's normal 35–50 s target and requires approval of applicable supported length. 05m/10m are independently finished editorial Long drafts but channel Long production recipe is not configured; production blocker remains. Do not silently enable Long.
+- **Copyright/visual:** no media/real reference images; no rights inferred. Actual Two Ways brand reference bytes must be located and validated by hash before any image work. No storyboard prompts created because independent review has not yet passed.
+
+**Local continuation:** check actual repository and existing runs; start real `uv run ytv start --channel two_ways_lab --format short --intent 'Two Ways pizza value — selected exact script from editorial PR'` before new production steps; read actual saved plan/reading packet and pinned documents; register alternative scripts via canonical `attach-artifact --kind script_variant`, review via `--kind story_review` with real paths/IDs; submit full 02m EN exact text to independent session without author's beat map/grades, and obtain its real receipt. If reviewer identifies weak hook/loop, revise the real script, recompute SHA, re-review, then ask for the usual exact master approval. Production cannot start merely because a Draft PR exists. When full script is verified, create preproduction plans for **only** the chosen variant/hash; scene bytes, audio and measured timings are subsequent work, not included here.
+
+**No merge**, approval, TTS, image/video providers, MP4, uploads, release scheduling or PR cleanup. This Draft PR is editorial candidate only.
