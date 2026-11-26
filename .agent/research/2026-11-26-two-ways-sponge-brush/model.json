@@ -1,0 +1,53 @@
+{
+  "schema": "editorial-reconstruction",
+  "measured_by": "published study, not channel",
+  "source": "https://doi.org/10.1016/j.ijfoodmicro.2020.108928",
+  "metric": "grams of water retained after subtracting dry mass",
+  "initial": {
+    "dry": true,
+    "common_water_exposure": true,
+    "drain": true
+  },
+  "observations": {
+    "brush": {
+      "types": 3,
+      "after_drain_approx_g": 5,
+      "after_4_5h_upper_exclusive_g": 0.25
+    },
+    "sponge_unsqueezed": {
+      "types": 3,
+      "after_drain_approx_range_g": [
+        80,
+        180
+      ],
+      "after_24h_approx_range_g": [
+        40,
+        120
+      ]
+    },
+    "sponge_squeezed": {
+      "removed_percent_lower_exclusive": 85,
+      "after_4_5h_upper_exclusive_g": 10,
+      "after_24h_only_largest_residual_g": 1.5
+    }
+  },
+  "separate_bacterial_comparison": {
+    "source": "same paper section 3.3",
+    "brush_day3": "below detection",
+    "two_of_three_sponge_types_day7": "detected"
+  },
+  "followup": {
+    "source": "https://doi.org/10.1111/jam.15621",
+    "hanging_used_brush_n": 11,
+    "bag_used_brush_n": 10,
+    "hanging": "significant decline",
+    "bag": "no decline observed"
+  },
+  "limitations": [
+    "No interpolation",
+    "No simulated microbes or home culture",
+    "Different experiments",
+    "No dish cleaning effectiveness or illness risk measured",
+    "No cross-study rank"
+  ]
+}

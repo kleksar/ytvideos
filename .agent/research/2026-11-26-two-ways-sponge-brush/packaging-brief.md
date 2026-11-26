@@ -1,0 +1,5 @@
+# Packaging — recommended 02m only
+
+Title candidates: "Sponge or Brush: What Stays Wet Overnight?" / "The Dish Sponge vs the Brush". No claim of sterile tool or disease prevention.
+Thumbnail concept: split sink; cyan A squeezed? **No**, initial panel both dry sponge and brush with same pile of dishes, amber B brush. A/B visible. Option 2: two scales showing wet sponge and brush, "STILL WET?" (generated text only if production). Exact first state: same initial dry tools, no pre-announced winner. Hook: first two narration paragraphs; score declared before numbers. Payoff: brush dries faster, squeeze narrows gap, damp storage removes drying advantage. Avoid dirty cartoon pathogens or misleading sick person, no fake experiment video.
+Long variants title promise extends only to explanation of hygiene measurements; no disease risk claim. Actual thumbnail assets/rights, channel reference bytes, timings not available. No prompts/production until exact script independently reviewed; retain scene planning dependency. No actual related-video intro input; native Related target to be chosen from verified channel releases.

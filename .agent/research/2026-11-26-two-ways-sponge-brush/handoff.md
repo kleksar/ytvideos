@@ -1,0 +1,7 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+Source main 7c779c4b2fd379c85166ae1b164fa53d1ea08843; #124 merged 2026-11-16 (not a proposed policy). Scope: new editorial Git queue only, no changes to docs/skills or ChannelSpec. No runtime run/lease/receipt/approval. Available host lacks working repository checkout/ytv entrypoint (uv run --no-project ytv --help failed to spawn ytv); no session reviewer tool found in direct/deferred inventory. No pinned plan_summary/read_next/task_guide generated. No TTS/media/provider calls or publication.
+
+Local transfer after verified runtime available: clone/fetch immutable PR head, verify file hashes in story-review, choose one compatible Short variant only after fresh independent review using actual helper and two-cycle input, start new saved run using actual intent, read pinned context, attach supporting research and all variants/story_review via canonical contract, run exact script gate; do not import as owner-approved source unless real owner instruction. Do not change pins of existing runs. Long 05/10 editorial only, exact blocker ChannelSpec Long canvas/fps/end screen null; separate explicit production configuration decision needed. No detailed storyboard before independent review; exact hero reference bytes not present/verified. Actual read timings, AV seam, rights and live release statuses UNVERIFIED. 
+
+Recommended 02m, provisional text loop borderline, independent review must decide. No production authorization. 
