@@ -1,0 +1,51 @@
+Could two charging stops get me home faster than one? What happens if the second charger is slower than the first? I want to find out not only which route wins, but whether I can change where I charge to rescue a losing plan.
+
+I'm plugged in at a fast charger with twenty percent left. Home is two hundred and eighty kilometers away. There's another charger on the same road, a hundred and sixty kilometers ahead. I could stop there, or I could charge enough now to drive straight home.
+
+This is a simulation with invented numbers, not a road test. In my model a full battery covers four hundred kilometers at a constant hundred kilometers an hour. I use forty percentage points on the first leg and thirty on the last. I want at least twenty percent at the second station if I stop there, and exactly twenty at home.
+
+Both chargers are unoccupied at first, there's no detour, and each session costs five minutes for getting in, connecting, disconnecting and leaving. I'll compare the entire time from this station to my driveway. Driving takes two hours and forty-eight minutes in either case.
+
+I need seventy points of charge on the road. Since I want to arrive with twenty, I can charge to ninety here, drive past the next charger and go straight home. That's A.
+
+Or I can charge just enough to reach the other station with twenty percent, plug in again, and charge just enough for the rest of the journey plus the reserve. That's B. Pick which plan gets me home first before I start the clock.
+
+The key is that charging speed is not constant. A real electric car can reduce the power it accepts as the battery fills. For this model I'm using three deliberately simple bands. From twenty to sixty percent I gain two points per minute. From sixty to eighty I gain one. From eighty to a hundred I gain half a point. These are inputs I've chosen, not measured rates.
+
+I start A by charging to sixty. That takes twenty minutes. I could leave for the second station now, but I stay plugged in to skip it.
+
+Another twenty minutes brings me to eighty. The last ten points take twenty minutes too, as long as the first forty. I leave at ninety after an hour of charging and five minutes of overhead.
+
+I pass the second station with fifty percent and reach home with twenty. My total time is three hours and fifty-three minutes.
+
+Now I reset the clock and battery. With B, I unplug at sixty and leave after twenty-five minutes including overhead. After the first leg I pull into the second station with twenty percent left. I need thirty points for the road and twenty to spare.
+
+Back in the fast charging band, I reach fifty in fifteen minutes. Add five for the stop and I drive home. Three hours and thirty-three minutes in total, with the same twenty percent remaining.
+
+B wins by twenty minutes. Both methods added seventy points to the same battery. A spent sixty minutes adding them; B spent thirty-five. Making an extra stop cost five minutes but avoided twenty-five minutes of charging. That's the source of the saving.
+
+What if I reach the second station and the plugs are occupied? Twenty minutes of waiting would erase the entire saving; twenty-five would put me five minutes behind A.
+
+Even without a queue, a charger that's half as fast in the needed range cuts my lead to five minutes. Add a ten-minute wait and I lose. I could abandon B, but I haven't tried changing how much energy I buy at each station.
+
+I reset the queue to zero. Now the second charger adds only eight points every ten minutes. If I leave the first station at sixty percent as before, I arrive at the second with twenty and need thirty more. That takes thirty-seven and a half minutes. With the first twenty minutes of charging and ten minutes for the two stops, B spends sixty-seven and a half minutes off the road. A spends sixty-five. One stop wins.
+
+This time I try staying at the first charger a little longer. I charge all the way to eighty percent, taking forty minutes. I reach the second station with forty percent left. Now I need only ten more points. At the slower charger that takes twelve and a half minutes. Including both stops, I spend sixty-two and a half minutes off the road. I arrive with the same reserve, two and a half minutes ahead of A.
+
+Why did that work? The extra twenty points at the first station took twenty minutes. Buying those same points at the second would have taken twenty-five. I moved that part of the charging session to the faster station and gained five minutes without driving any differently.
+
+Would staying even longer help? From eighty onward, the first charger in this model adds just half a point a minute. That's slower than the second. So once I reach eighty, there is no time advantage in moving any more charging back to the first station, as long as I still make both stops. If the second station has a three-minute queue, even my improved two-stop plan loses by half a minute. I have to compare the best feasible version of each plan, not just the first one I tried.
+
+I restore the original charging speeds and plan a thirty-minute lunch break at the first station. I assume the break includes the charger overhead, so the stop and lunch overlap. A still takes sixty-five minutes. B as originally planned takes thirty at the first stop and twenty at the second.
+
+But I have five extra minutes at the first station anyway. I can use them to charge from sixty to sixty-five, then buy five fewer points at the second. The second stop now takes seventeen and a half minutes. B spends forty-seven and a half minutes stopped, saving seventeen and a half against A.
+
+What if I need sixty-five minutes for lunch instead? I can finish A's entire charge during that break. B cannot beat that time: any actual second stop adds time after the same break. I'd charge to ninety and skip it.
+
+There's another case I care about: the second charger isn't available. I discover that before leaving the first. With sixty percent I could reach its location with twenty, but not continue another hundred and twenty kilometers while maintaining my reserve. B is no longer a valid plan. I either need a verified alternative charger or enough energy to skip this one. I don't call an incomplete trip a faster trip.
+
+What if each leg needs five more percentage points of energy than expected? A must leave with a full battery to arrive with twenty. That means eighty-five minutes stopped. With B I leave the first charger at sixty-five and the second at fifty-five, spending fifty-two and a half minutes stopped. B saves thirty-two and a half minutes, provided both chargers are available. If consumption rose enough to require more than a full battery for A, the one-stop plan would be impossible.
+
+Real charging curves, traffic, consumption and station conditions vary. These battery percentages are model inputs, not recommendations. I'd check my car's planner, battery estimate, compatible alternatives and reserve before leaving.
+
+The biggest surprise was the slow second charger. My first two-stop plan lost, but by moving twenty points of charge to the first station I turned it into a narrow win. Next time I plan a journey, I'll compare where I can charge quickly enough to make another stop worthwhile, instead of deciding how many times to stop before I look at the charging curves.
