@@ -1,0 +1,21 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+# Nuviko History — The Great Escape: The Tunnel Worked. Fifty Were Murdered.
+
+**RU логлайн:** В марте 1944 года пленные лётчики союзников построили под нацистским лагерем три тоннеля, чтобы освободить двести человек. Через «Гарри» выбрались 76, но немцы поймали 73, а 50 из задержанных убили по приказу Гитлера. Как узкий выход, десятки часов подготовки и охота за людьми превратили инженерный успех в трагедию? Это история не только о тоннеле, но и о том, что произошло после побега.
+
+**Editorial recommendation:** **5-minute Long**. Three standalone complete narrations, six full exact EN/RU texts. 2m is also a complete Long (not a fake Short loop); 10m is complete but needs a tighter late sequence. Each is distinct content, not a plan or truncation.
+
+| Target | Full English narration | Полный русский текст | Editorial result |
+|---|---|---|---|
+| **2 min Long** | [Full EN](https://github.com/kleksar/ytvideos/blob/story/nuviko-great-escape-two-endings-20261119/.agent/research/2026-11-19-nuviko-great-escape-two-endings/variants/02m/script.en.txt) | [Полный RU](https://github.com/kleksar/ytvideos/blob/story/nuviko-great-escape-two-endings-20261119/.agent/research/2026-11-19-nuviko-great-escape-two-endings/variants/02m/script.ru.txt) | STRONG_CANDIDATE — complete |
+| **5 min Long** | [Full EN](https://github.com/kleksar/ytvideos/blob/story/nuviko-great-escape-two-endings-20261119/.agent/research/2026-11-19-nuviko-great-escape-two-endings/variants/05m/script.en.txt) | [Полный RU](https://github.com/kleksar/ytvideos/blob/story/nuviko-great-escape-two-endings-20261119/.agent/research/2026-11-19-nuviko-great-escape-two-endings/variants/05m/script.ru.txt) | **STRONG_CANDIDATE / RECOMMENDED** |
+| **10 min Long** | [Full EN](https://github.com/kleksar/ytvideos/blob/story/nuviko-great-escape-two-endings-20261119/.agent/research/2026-11-19-nuviko-great-escape-two-endings/variants/10m/script.en.txt) | [Полный RU](https://github.com/kleksar/ytvideos/blob/story/nuviko-great-escape-two-endings-20261119/.agent/research/2026-11-19-nuviko-great-escape-two-endings/variants/10m/script.ru.txt) | REWORK — complete; slower epilogue |
+
+[Research: 11 screened subjects, three serious finalists, source and indexed YouTube evidence](https://github.com/kleksar/ytvideos/blob/story/nuviko-great-escape-two-endings-20261119/.agent/research/2026-11-19-nuviko-great-escape-two-endings/research.md) · [Six individual eight-criterion reviews and exact SHA-256](https://github.com/kleksar/ytvideos/blob/story/nuviko-great-escape-two-endings-20261119/.agent/research/2026-11-19-nuviko-great-escape-two-endings/story-review.md) · [Promise/open/payoff and honest packaging](https://github.com/kleksar/ytvideos/blob/story/nuviko-great-escape-two-endings-20261119/.agent/research/2026-11-19-nuviko-great-escape-two-endings/packaging-brief.md) · [Runtime/independent-review handoff](https://github.com/kleksar/ytvideos/blob/story/nuviko-great-escape-two-endings-20261119/.agent/research/2026-11-19-nuviko-great-escape-two-endings/handoff.md).
+
+**Why 5m:** 2m reaches the complete human ending but compresses the construction and manhunt. 5m adds consequential turns—Tom discovered, Harry's exposed end, improvised rope signals, blackout and the separate outcome after the camp. 10m adds logistics/cinema aftermath but dilutes the post-recapture resolution.
+
+**Strongest rival:** Operation Anthropoid, whose moral and human stakes could outperform this topic; Tunnel 57 is a further serious rival. This selection is an editorial hypothesis. A short published on 2026-10-21 elsewhere already used the 76/3 angle; novelty and comparable audience demand are **not established**. Real YouTube comments, comparable same-author baselines, CTR and retention remain **UNVERIFIED**.
+
+**Scope / status:** from actually checked remote main `65c1b56f76462f5e74a9a29fc440c35d257eec23`, under already merged #124 canonical standards. This host lacks usable persisted `ytv start` + genuine independent reviewer; no official run, receipt, acceptance or production approval. All lengths' exact UTF-8 hashes are in `story-review.md`. Actual recorded time, rights/reference bytes and hash-bound detailed storyboard remain unresolved. Full handoff lists the safe local path. No merge/media/upload/scheduling or shared docs/profile changes.
