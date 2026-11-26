@@ -1,0 +1,35 @@
+Which subway car gets me out of the station first? The closest door, or the door beside my exit at the other end? And what if the train arrives before I finish walking?
+
+I reach the platform with the entrance right behind me. I'm going to another station where the staircase I need is near the far end of the train. I could stand here and wait. Or I could start moving down the platform now.
+
+I'll compare the two choices using a deliberately simple model. I'm not claiming I've measured any subway system. The platform is one hundred and eighty metres long. The train stops in the same place in both versions. I walk at one and a half metres per second. The train ride lasts exactly five minutes, and the destination stairs are at the far end.
+
+Method A is simple: I board at the entrance. At my destination, I have to walk all one hundred and eighty metres to the stairs. That takes one hundred and twenty seconds.
+
+Method B looks clever. Before the train arrives, I walk one hundred and fifty metres toward the last car. When I get off, I'm only thirty metres from the stairs. Twenty seconds of walking instead of two whole minutes.
+
+But B has a hidden cost. Walking to that car takes one hundred seconds. Am I really saving time, or just moving my walk to another station?
+
+Let's make the first train a little way off. It's due at two minutes and thirty seconds, and leaves fifteen seconds later. I can reach the better door in one minute and forty seconds. So I walk there, then wait. There's no extra train to catch and no sprint for the doors.
+
+I follow the whole journey on two clocks. With A, I stand near the entrance until departure, ride for five minutes, then walk for two minutes. From the moment I enter the platform to the staircase, that's nine minutes and forty-five seconds.
+
+With B, I spend one minute and forty seconds walking before the train comes. But that walk happens while I would otherwise be waiting. I catch the exact same train, ride the same five minutes, and walk twenty seconds at the other end. My clock stops at eight minutes and five seconds.
+
+B saves one minute and forty seconds. There is no magic shortcut through the station. In either case I walk a total of one hundred and eighty metres. I simply used my waiting time for the part of that walk that could be done early.
+
+Now comes the important test. Suppose I step onto that same platform on a different day. The train is already approaching. It arrives in one minute and departs fifteen seconds later. Nothing else has changed: not the station, not the two doors, not my speed.
+
+A boards immediately. Its clock ends at eight minutes and fifteen seconds: seventy-five seconds before departure, five minutes on the train and two minutes after it.
+
+If I stubbornly follow B, I haven't covered the full one hundred and fifty metres before the doors close. I don't board. In this model the next train departs four minutes after the first one. B now arrives at the stairs in ten minutes and thirty-five seconds. Its final twenty-second walk cannot recover four minutes lost on the platform.
+
+A wins that second round by two minutes and twenty seconds.
+
+This isn't proof that the first car is usually best, or that the last car is usually best. The decisive question is whether the walking can fit into time I already have before departure. In my simplified numbers, I need one hundred seconds merely to reach that target position, plus a sensible boarding margin. If the countdown is shorter, the plan is wrong before I take a step.
+
+And I need to know which end actually contains my exit. It might be the front, the middle or the back. A different destination, a changed platform entrance, luggage, crowds, a lift route or an unreliable countdown changes the decision. I'm not modelling any of those here.
+
+So my choice is conditional. When I have plenty of safe time and know my exit, I can move toward the useful car while waiting. When the train is close, I board where I safely can. In this four-minute-service case, missing the train to save the short walk isn't a win. A shorter service interval would need its own calculation.
+
+Before I walk down the platform, I look at the departure time. That's the part of this journey the car number can't tell me.
