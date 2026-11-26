@@ -1,3 +1,9 @@
+## 2026-11-26 — revised 10m visual intent
+
+Exact revised EN SHA-256 `a2ab56d1e5ddae71ae91aeccffe51dd513b549fc1447c61065a488bdcd6042fc`. Questions first; establish prior failed turbine trial then stable display vs hidden control margin. Use accurate reference-based diagrams only; show evacuation via radio/buses and later report dates, not invented family footage. Original board bound to root only. No actual image, timing, CTR or media. Existing 02m/05m proposals unchanged. Title promise remains shutdown paradox, not evacuation documentary.
+
+---
+
 # Search-first packaging (not public metadata) — Chernobyl
 
 Query primary: `why did chernobyl explode when they pressed az-5`. Supporting: `chernobyl control rods graphite tip`, `chernobyl positive void coefficient explained`. Neither search volume nor competition verified. 3 distinct preliminary English Long title+thumbnail directions:

@@ -1,3 +1,34 @@
+## 2026-11-26 — Chernobyl 10m separate candidate
+
+Baseline `ff8e3e4eaa90a7dec0624b258c3d43f3e760748d`, canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`. EDITORIAL_CANDIDATE_UNREGISTERED. 02m and 05m unchanged; original root 10m EN/RU and storyboard retained exactly as historical baseline (EN blob `42b6a90e10d0eeb2f3eab510750f1adc16ea92ca`, RU `167d21cdbab775724ebffcc34e5f522870fc636d`). Revised 10m at variants/10m only, not a replacement of root/approval/pins. All Long 16:9. Timing estimate only: 552s at 165 wpm before pauses. Earlier material below is historical, not current candidate identity.
+
+| Target (Long) | Full EN / RU | EN/RU words | SHA-256 EN / RU |
+|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | 353/303 | `7cdda66390719561cd9e15c9b278d4897ec59c2a25630efd3f460778077d9d88` / `b1f2a0612ec42a3c1037d28c7b8b148e61c3a75d12b6736cf1b9681aa3d94f47` |
+| 05m recommended | [EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | 899/743 | `8721362cead27ae726fc6ecf5d75af7d40eeef10aa45d5b4b23c29669a74bdf3` / `26612966bdcb2363d316f239eabf01b719626826d3cc58df51f9891ed93a596b` |
+| 10m | [EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | 1519/1155 | `a2ab56d1e5ddae71ae91aeccffe51dd513b549fc1447c61065a488bdcd6042fc` / `4ee977c3ca5986973d2b07f67fe78984f860cadded2e86a8f5f9b037a003ae43` |
+
+### Updated story maps and criteria
+
+02m: questions → test aim → power fall and hidden margin → two mechanisms → uncertain reason for shutdown → destruction, evacuation and answer. 05m: questions → grid delay and recovery → hidden control margin → two mechanisms → AZ-5 → warning and redesign. 10m: questions → previous failed electrical test and poor coordination → apparently stable power hides control margin (main hook) → two physical mechanisms → shutdown and destruction → evacuation announced as temporary → first report, changed 1992 assessment and earlier warning → redesign and final answer. Visual spans (editorial blocks, not timed shots): test preparation / plant; recovery / display; hidden margin / instrumentation; water and rods / reference cutaway; shutdown / clearly marked reconstruction; evacuation / radio and buses; review / document dates and warning; final / safety system. Exact original board belongs only to root.
+
+| Criterion | 02m | 05m | Revised 10m |
+|---|---|---|---|
+| Interest | 8 · strong contradiction, compressed context | 8 · clear operator dilemma | 8 · prior test and evacuated families add stakes; crowded niche |
+| Opening | 8 · concrete question | 8 · adds knowledge question | 8 · two questions then prior failed test; hook at hidden margin |
+| Development | 7 · dense unfamiliar terms | 8 · two mechanisms, warning | 8 · concrete failed test and changed account; physics still dense |
+| Payoff | 8 · explains paradox | 9 · explains mechanism and prior warning | 9 · evacuation and revised assessment replace repeated summary; final answers question |
+| Distinctiveness | 5 · familiar topic | 6 · hidden margin | 7 · contrast temporary announcement and later institutional correction, still familiar topic |
+| Visual | 7 · quick cutaway | 8 · contrasting readings | 8 · additional buses and report dates; reference accuracy not verified |
+| Speech | 7 · terminology dense | 8 · direct questions | 8 · less repeated explanation, more actions; not listened to |
+| Verified demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Author scores, confidence medium except demand low. 2→5 adds causal context, 5→10 adds prior electrical trial, concrete public consequences and revision of attribution. In the longer candidate the uninterrupted water/rod explanation from “To see why” to “The effect depended” can still lose a general viewer. Recommend 05m for search intent; new 10m has independent documentary value. No invented retention, no measured timings. Author source and bilingual comparison only; independent reviewer, runtime/active native sessions, approval, real audio and visual accuracy UNVERIFIED. No Shorts loop (Long). All three stories now have candidates; no claim entire PR meets official gate. Next: review remaining open Long/technical backlog.
+
+---
+
+Historical review follows (old scores and hashes apply only to old text).
+
 # Chernobyl AZ-5 — review of three standalone durations (2026-11-18)
 
 **Status:** `EDITORIAL_CANDIDATE_UNREGISTERED` · one historical event · exact 02m/05m/10m EN+RU; author-only review, **not** independent `ytv-script-review-v1`, owner selection, approval, or production. Baseline before edits: `7d4ce6b016132ce57a788b35773dfb7fc2d779fa`. The root EN/RU and their original storyboard have **not** changed.

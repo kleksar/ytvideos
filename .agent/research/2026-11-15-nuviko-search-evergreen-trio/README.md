@@ -1,3 +1,9 @@
+## 2026-11-26 — Chernobyl 10m revised
+
+[Complete review and six hashes](10-chernobyl-az5/story-review.md). [02m RU](10-chernobyl-az5/variants/02m/script.ru.txt) / [EN](10-chernobyl-az5/variants/02m/script.en.txt), [05m RU](10-chernobyl-az5/variants/05m/script.ru.txt) / [EN](10-chernobyl-az5/variants/05m/script.en.txt), [10m RU](10-chernobyl-az5/variants/10m/script.ru.txt) / [EN](10-chernobyl-az5/variants/10m/script.en.txt). New 10m separate candidate, root and storyboard unchanged; 05m still recommended. Adds previous failed test, concrete evacuation and 1992 reassessment. All three stories now text candidates, not approved or registered. Next: other existing Long and technical PRs. Historical entries below refer to previous revisions.
+
+---
+
 ## 2026-11-26 — Titanic 05m/10m revision
 
 [Complete EN/RU variants, exact hashes and author review](02-titanic-empty-lifeboats/story-review.md): 02m retained; 05m (770 EN words) now explicitly answers who ordered the first lowering and marks counts as estimates; 10m (1503 EN words) connects Lowe and Poingdestre's deck work to actual passenger transfers/rescue. 05m remains recommended for causal density. [02m RU](02-titanic-empty-lifeboats/variants/02m/script.ru.txt) / [EN](02-titanic-empty-lifeboats/variants/02m/script.en.txt), [05m RU](02-titanic-empty-lifeboats/variants/05m/script.ru.txt) / [EN](02-titanic-empty-lifeboats/variants/05m/script.en.txt), [10m RU](02-titanic-empty-lifeboats/variants/10m/script.ru.txt) / [EN](02-titanic-empty-lifeboats/variants/10m/script.en.txt). Historical counts below refer to earlier versions. All root scripts and other stories unchanged. Git-only candidate, no independent review/approval/runtime. Next: existing Chernobyl variants.
