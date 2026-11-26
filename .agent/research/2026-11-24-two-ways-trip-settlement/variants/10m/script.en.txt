@@ -1,0 +1,57 @@
+I've just got back from a weekend with three friends, and I have four receipts to settle. The strange part is that the friend who paid for the groceries might have to send money to two people and receive money from a third. Can I eliminate those extra transfers without making anyone pay more? And if we finish settling up before someone spots a mistake on a receipt, can I fix it without undoing the payments?
+
+I'll build a model of that weekend rather than pretending I've tested four real bank accounts. I want to find out how many separate payments it takes to settle the trip. I'm not measuring bank processing times, fees or whether the friends are happy with the original split. For the first run I assume we have agreed to split everything equally, we use the same currency, and every person can pay any of the others.
+
+Here are my four receipts. I paid a hundred and sixty dollars for our accommodation. Maya paid a hundred and twenty for the rental car. Leo picked up eighty dollars of groceries, and Nina paid forty for snacks. Nobody has reimbursed anyone yet.
+
+I could settle the money between each pair of friends, method A. If I owe someone and they owe me, I cancel those two amounts and send only the difference. Or I could work out each person's final balance for the whole trip, method B, and arrange payments between people with opposite balances. Which method would you use?
+
+I start with A. Our accommodation costs forty dollars per person, and each share of the car costs thirty. Maya owes me forty, but I owe her thirty. We cross out the common thirty and she sends me ten.
+
+I do the same with Leo and Nina. After allowing for the groceries Leo bought, he sends me twenty. Nina sends me thirty after allowing for her snacks. I've received sixty, but look at Leo: his name is still on two other arrows.
+
+He owes Maya ten after their car and grocery bills are offset. Nina owes Maya twenty and also owes Leo ten. Those three payments bring the total to six. A hundred dollars moves through the group. Each of us has spent exactly a hundred on the trip.
+
+There's something odd about Leo's account. He spent eighty on our trip. Now he has to send thirty and get ten back. If Nina could send that ten to one of the people Leo owes instead, Leo wouldn't need to handle that extra money. The original calculation wasn't wrong. I'm beginning to see a different way to settle the same trip.
+
+I reset all the transfers. In B, I stop looking at pairs and start with the total cost. My receipt and Maya's come to two hundred and eighty, Leo's brings that to three hundred and sixty, and Nina's makes four hundred. Our agreement says each of us should cover a hundred dollars.
+
+I put one balance beside each name. I paid sixty above my share, so I need sixty back. Maya paid twenty above hers. Leo paid twenty less than his share and Nina paid sixty less.
+
+There are two amounts to receive and two to send. In this case they match perfectly. I can ask Nina to send me sixty and ask Leo to send Maya twenty. I check the four results: a hundred and sixty minus sixty, a hundred and twenty minus twenty, eighty plus twenty, and forty plus sixty. Everyone finishes at a hundred dollars.
+
+Two payments instead of six, and only eighty dollars moves. The twenty-dollar difference in money moved is not twenty dollars of savings on the holiday. It's money that no longer needs to pass through an extra person's account.
+
+Could I reduce the count to one? No. Nina and Leo both owe money, and a single ordinary transfer has only one sender. Both of them have to pay. Two is the minimum for this particular set of balances, not a promise about every group.
+
+Now I want to test a condition I quietly relied on. Suppose Nina cannot send money directly to me, but all other routes are available. The receipts haven't changed. Two transfers would require each of the two debtors to pay exactly one creditor. The amounts match in only one way, and the sixty-dollar route from Nina to me is unavailable.
+
+I can still settle up. Nina sends Maya sixty, Leo sends Maya twenty, and Maya sends me sixty. She keeps twenty. Three transfers, a hundred and forty dollars moving, and the same final costs. Maya has become the intermediary that the shortcut was supposed to eliminate. A's original six transfers also used the forbidden route, so I won't compare that old count with the new three. This separate trial shows why the two-payment result depends on available routes.
+
+I restore every route and reset to the original unpaid receipts. Now imagine I check the receipts with Nina before sending anything. We notice that the snacks were for Nina and me only. That's a different agreement. I keep the accommodation, rental car and groceries shared by all four. Only the forty-dollar receipt changes.
+
+Each person's share of those first three bills is ninety dollars. Nina and I each add twenty dollars for the snacks. Maya and Leo add nothing.
+
+I have paid a hundred and sixty and should have spent a hundred and ten, so I need fifty back. Maya paid a hundred and twenty and should have spent ninety, so she needs thirty. Leo paid eighty and should have spent ninety, so he owes ten. Nina paid forty and should have spent a hundred and ten, so she owes seventy.
+
+If I blindly send the original two payments, my own cost would be ten dollars too low and Maya's ten dollars too high. Leo would pay ten too much, while Nina would pay ten too little. The shortcut doesn't know that the input agreement was wrong.
+
+I recalculate A. Maya still sends me ten and Leo still sends me twenty. Nina now sends me twenty, not thirty. Leo still sends Maya ten. Nina sends Maya thirty and Leo twenty. Six payments remain, but now a hundred and ten dollars moves.
+
+In B, I ask Nina to send me fifty, then send Maya twenty. Leo sends Maya ten. That's three payments and eighty dollars moved. I cannot settle those balances with two transfers: both debtors would have to make exactly one payment each, but neither of their amounts matches either of the two credits. The third payment is necessary under our rules.
+
+Now for a more awkward situation. I reset again to the original agreement and let Leo send Maya twenty, just as in the first B plan. Before Nina sends anything, we correct the snack receipt. Leo should have paid only ten, so he's become someone who needs money back. Maya has already received twenty and now needs another ten. I need fifty. Nina still owes seventy.
+
+Instead of telling Leo to pay again or asking Maya to undo the transfer, I have Nina pay the three people now owed money: fifty to me, ten to Maya and ten to Leo. Including Leo's completed payment, that's four transfers. We didn't need to return a payment just to restore the ledger to its initial state.
+
+What if Nina has already sent me sixty as well? In this separate trial the old settlement is completely finished. All four of us have spent a hundred. The corrected agreement says Nina and I should have spent a hundred and ten each. Maya and Leo should have spent only ninety.
+
+I owe ten and Nina owes ten. Maya and Leo each need ten back. I can send Leo ten and Nina can send Maya ten. Two additional payments after the original two. Now Maya and Leo have each received their extra ten, and Nina and I have paid the missing ten. I haven't cancelled a single completed transfer.
+
+The same correction takes two additional payments if all six original A payments already happened. That makes eight altogether with A, or four with B. If we caught the mistake before sending anything, B would have needed three. These are separate histories. I can't erase completed transactions just to make the counter look smaller.
+
+My model has clear limits. It assumes everybody accepts the new routes and can actually send the money. If someone wants a receipt for a direct reimbursement, has a payment restriction, or disputes a shared cost, I have to deal with that before treating the shorter route as settled. Fewer transfers do not establish faster settlement or lower fees. And I don't combine different currencies unless we have already agreed on the conversion and what everyone owes.
+
+The receipts tell me what the holiday cost and what each of us agreed to cover. The payment record tells me how much money has already moved. If I change the first, I have to account for the second before asking anybody to pay.
+
+I would use the group balances when we agree on them, and keep the original record available for anyone who wants to check the calculation. The holiday still cost four hundred dollars. After the correction, Maya and Leo cover ninety each, Nina and I cover a hundred and ten each. That's the result I wanted, even when I spotted the mistake after paying.
