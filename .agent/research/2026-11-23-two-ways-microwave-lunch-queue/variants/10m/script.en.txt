@@ -1,0 +1,61 @@
+Four lunches. One office microwave. I can cut the average time to hot food by more than half just by changing the order. But what if that clever move makes one colleague miss lunch entirely?
+
+I want to find out whether there's a better compromise. Not by buying another microwave or making anyone's food cook faster. Just by deciding who gets the next turn.
+
+First I need a fair test. In my model, four people arrive at the same moment with prepared containers. One needs ten minutes of heating, two need two minutes each, and one needs one minute. I picked those times for an arithmetic example. I haven't measured real food, and these numbers are not reheating instructions.
+
+Only one cycle can run at a time. Once I press Start, I can't pause it to put someone else in. For now, swapping containers takes no time. I'll measure the minutes from each person's arrival until their own meal is ready, then average those four numbers. That's the score, not the total heating time.
+
+On my counter I draw two possible queues. A keeps the order people happened to form: ten, two, two, one. B invites everyone to put their shortest cycles first: one, two, two, ten. I need everyone's agreement before changing a real queue, but in this model I can reset the clock and compare.
+
+Which queue would you choose?
+
+I run A first. The long container occupies the microwave for ten straight minutes. Five minutes pass, and all four people are still waiting. At minute ten the first lunch comes out. The next two are ready at minutes twelve and fourteen. The one-minute lunch finally finishes at fifteen.
+
+The four people have waited ten, twelve, fourteen and fifteen minutes for food. Their times add up to fifty-one person-minutes. Dividing by four gives an average of twelve minutes forty-five seconds. The appliance itself was working for only fifteen minutes; fifty-one is the sum of four people's individual clocks, not the power bill.
+
+I reset everything and run B. The one-minute lunch is ready at minute one. The two two-minute lunches finish at minutes three and five. The ten-minute lunch comes out at fifteen. At minute five, three people are ready to eat. Under A, none were.
+
+Now the personal clocks total one plus three plus five plus fifteen: twenty-four minutes. That's six minutes per person on average. The same microwave still finishes its last job at minute fifteen. Nothing got heated faster. The short meals simply stopped waiting behind the long one.
+
+On my declared score, B wins by six minutes forty-five seconds per person. It looks like the end of the comparison. Then I look at the owner of the ten-minute lunch.
+
+Under A, that person's food is ready at ten. Under B, it's ready at fifteen. The group average improves, but one person loses five minutes. If their break ends at minute eleven, they miss it under B. Those five minutes aren't an abstract percentage to the person who has to leave.
+
+Here is the new question I want to solve: can I give the short lunches a head start and still have the long meal ready by minute eleven?
+
+I reset the same four model lunches again. I'm not adding a new person or changing the heating times. I just ask whether the long-meal owner would agree to one small change: let the one-minute container go first, then take the ten-minute turn, followed by the two remaining two-minute lunches.
+
+I put the one-minute meal in. It comes out at minute one. Next is the long meal. It runs uninterrupted from minute one to minute eleven. The two other lunches finish at thirteen and fifteen. Everybody is served by the same final minute.
+
+This negotiated order gives personal completion times of one, eleven, thirteen and fifteen. Add them and I get forty. Divide by four: ten minutes on average.
+
+That's two minutes forty-five seconds better than the original queue A. It doesn't beat B's six-minute average. But unlike B, it meets the long-meal owner's minute-eleven deadline exactly. I have found a third feasible result without inventing a faster machine.
+
+Look at who paid for it. Compared with A, the person with the one-minute lunch gets food fourteen minutes earlier. The long-meal owner waits one extra minute. Each two-minute lunch also finishes one minute later. The group saves eleven person-minutes in total: fourteen gained for one person, three lost across the others.
+
+That last detail matters. This is a compromise, not a free improvement for everybody. It works only if the people involved accept the trade. In a real office I would ask; I wouldn't use a spreadsheet as permission to cut the line.
+
+But was that arrangement a lucky guess? I want to check whether another order could reduce the average even more while meeting that eleven-minute deadline.
+
+The long lunch needs ten full minutes. To finish it by minute eleven, I can put at most one minute of work before it. There are only two possibilities: the ten-minute lunch goes first, or the one-minute lunch goes before it. If I put either two-minute lunch first, the long meal would end no earlier than minute twelve and miss the deadline.
+
+Suppose the long meal goes first. Then, to avoid unnecessary waiting afterward, I can put the one-minute lunch next, followed by the two two-minute meals. The completion times become ten, eleven, thirteen and fifteen. That's forty-nine person-minutes, or twelve minutes fifteen seconds on average. It's a little better than the accidental original A, but worse than my one-minute-then-long compromise.
+
+If the one-minute meal goes before the long one, I have no room for any other container ahead of the ten-minute cycle. The remaining two-minute meals follow. That's the forty-minute total I just calculated. Under these assumptions, I can't find a lower average that also gets the long lunch ready by eleven. The order one, ten, two, two wins this constrained version of the problem.
+
+Now I change just one thing: the long-meal owner's break ends at minute ten, not eleven.
+
+My compromise no longer works. The long meal ends at eleven, one minute too late. To finish by ten, the ten-minute cycle must start immediately. After that I can still place one, two, two, which gives the twelve-minute-fifteen-second average. If the deadline were earlier than minute ten, even putting the long meal first couldn't satisfy it.
+
+One minute of difference in somebody's deadline changes which order I'm allowed to choose. I haven't changed the original average-time metric. I've added a requirement that some orders must meet before I compare their averages.
+
+There's another limit. My tidy queues only exist because everybody arrives together. Imagine the ten-minute owner turns up alone and starts at noon. The others arrive five minutes later. At that moment the microwave is already halfway through a cycle. My rule says I can't stop it. I can't rewind time and give the one-minute meal the first turn.
+
+Once that first cycle ends at minute ten, I can still let the one-minute meal go next, followed by the two two-minute meals. They finish at eleven, thirteen and fifteen. But those three people arrived at minute five, so their own times to ready food are six, eight and ten minutes. The long-meal owner waited ten from arrival. The new average from each person's actual arrival would be eight minutes thirty seconds. I must not compare it directly with the six-minute average from B: the arrival conditions are different.
+
+And if I don't know the heating durations, I can't promise these exact schedules at all. A container expected to take one minute may need longer. Real food follows its actual safe heating requirements, not my invented labels. Handling time and permission to change the queue are separate inputs too.
+
+So I have three useful answers, not one rule to impose on my colleagues. If all four agree to minimize average time and there are no deadlines, B finishes the average lunch in six minutes. If the long-meal owner needs food by minute eleven, I can still improve on A: one, ten, two, two gives a ten-minute average and meets that deadline. If their limit is minute ten, the long cycle has to start first.
+
+The machine hasn't saved a single minute of heating. The people decide how to share the waiting. Now, before I move anyone's lunch, I know exactly what I need to ask: what are we trying to make faster, and who absolutely has to be ready on time?

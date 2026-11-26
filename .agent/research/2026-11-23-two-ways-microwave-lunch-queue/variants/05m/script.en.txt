@@ -1,0 +1,35 @@
+Which lunch should enter the office microwave first? Four people are waiting, and one meal takes far longer to heat than the others. The answer depends on what I mean by a fair result.
+
+I set up a small thought experiment. I have one microwave, four already prepared lunches and four people who arrive at the same instant. One meal has a ten-minute heating time, two have two-minute times, and one takes a minute. I chose those times for the model. I haven't tested any food, and they aren't recommendations about safe reheating.
+
+Here are the two choices. In A, I preserve the queue as it happened to form. The ten-minute meal is at the front, followed by two, two and one. In B, I ask people to use the microwave in ascending order of heating time: one, two, two, ten. No one can interrupt a running cycle. The microwave stays busy until all four are done; I ignore the seconds it might take to swap containers, equally in both cases.
+
+I announce the score before calculating it. I want the average time from everybody's arrival until their own food is ready. Not the total amount of heating, and not the time when the very last meal is done. Which rule would you choose?
+
+First, A. I put in the ten-minute meal. At minute five, nobody has finished. At minute ten, one person can eat. The second meal ends at minute twelve; the third, minute fourteen; the final one-minute meal is ready at minute fifteen.
+
+Their individual completion times are ten, twelve, fourteen and fifteen minutes. Added together, that's fifty-one minutes of accumulated time to lunch, divided among four people. The average is twelve minutes and forty-five seconds.
+
+Now I reset the same four lunches and the same starting clock. Only the order changes.
+
+In B, the one-minute meal comes out at minute one. The first two-minute meal is ready at minute three. The next is ready at minute five. Then I run the ten-minute meal without interruption, finishing at minute fifteen.
+
+The four completion times are one, three, five and fifteen minutes. Their sum is twenty-four, so the average is six minutes.
+
+That's the first twist. Moving one long meal to the back saves the group six minutes and forty-five seconds per person on average, despite saving absolutely no microwave time. The machine ran for fifteen minutes under both rules. It's the distribution of waiting that changed.
+
+And here's something easy to miss: the ten-minute meal itself doesn't become faster or slower. It still needs ten minutes. But its owner waits another five minutes to start, and receives lunch at minute fifteen instead of ten. The short meals gain enormously, while one person loses.
+
+If I only show the average, I could pretend everybody benefits. That would be false.
+
+Suppose this is a workplace with staggered breaks. The owner of the long meal must leave the break room eleven minutes after we start. Under A, their food is ready at minute ten, just inside the limit. Under B, it isn't ready until minute fifteen. Changing the order might improve the four-person average and still make that individual miss their meal.
+
+So I keep the original question precise. If my target is average completion time and everybody is equally important, B wins for these inputs. If the target is meeting the ten-minute meal owner's eleven-minute deadline, A meets that deadline and B fails it. I haven't changed the numbers to force a surprise; I've changed the question.
+
+Why does placing short meals first cut the average? Consider just the ten-minute and one-minute meals. Long then short means lunch is ready at minutes ten and eleven. Reverse them and the short meal is ready at minute one, while the long meal shifts from minute ten to eleven. One person moves ten minutes earlier and the other moves one minute later. The combined time falls by nine minutes. This is why short jobs tend to help the average when everyone starts waiting together.
+
+But our four-meal example has people with different needs. A real lunchroom has people arriving at different times. Heating estimates can be wrong. And no spreadsheet tells me whether cutting in line is acceptable to the person already waiting.
+
+My practical result is therefore narrower than 'always let the shortest meal go first.' When a group agrees to minimize average time to food, I can show why B is faster on average. Before I reorganize a real queue, I need to ask about deadlines and consent.
+
+For these four hypothetical lunches, I can now answer both versions of the question: B wins the average, A protects the earliest deadline. Which one matters depends on the people using the microwave.

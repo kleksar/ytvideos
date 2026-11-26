@@ -1,0 +1,19 @@
+Who should go first at the only microwave in my office? Four people have lunches waiting.
+
+In my simple model, all four people arrive together. One meal needs ten minutes of heating, two need two minutes each, and the last needs one minute. Those are invented model inputs, not cooking instructions or measurements.
+
+I compare two rules. A keeps the original queue: ten, two, two, one. B lets the shortest heating time go first: one, two, two, ten. I count from when everyone joins the queue to when each meal is ready. Lower average time wins.
+
+Pick A or B before I show the numbers.
+
+With A, the first person eats after ten minutes. The other meals are ready after twelve, fourteen and fifteen. Everyone is finally served at minute fifteen. The average person waits twelve minutes and forty-five seconds for a hot meal.
+
+Now B. The one-minute meal is ready at minute one. The next two are ready at minutes three and five. The long meal finishes at minute fifteen. Three people have lunch ready before A has finished even one.
+
+The average with B is six minutes. That's six minutes and forty-five seconds less than A. And both methods still finish the entire queue at minute fifteen.
+
+So B wins the average, but look at the person with the ten-minute meal. Under A, they're ready at minute ten. Under B, minute fifteen. If their break ends at minute eleven, B makes them late while A doesn't.
+
+I haven't found a universal rule for lunchroom manners. I've found two different goals. For the quickest average, I put short meals first. If someone's deadline matters more, I discuss that before reordering anyone.
+
+Now I'm back at the counter, looking at those four lunches. Before anyone presses Start, I still have to ask:
