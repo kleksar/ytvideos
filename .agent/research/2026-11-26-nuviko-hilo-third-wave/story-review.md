@@ -7,9 +7,9 @@ Author: current editorial writer, not independent reviewer. Confidence moderate 
 | [variants/02m/script.en.txt](variants/02m/script.en.txt) | 243 | `670deba731221cef8f23d1bbe9efec6b8de1126f9b53d4e6d356ef54dad0a9fa` |
 | [variants/02m/script.ru.txt](variants/02m/script.ru.txt) | 214 | `e7d91564d3f8c115d83eedda786b5bef69178862fa99917f0ace92c96b2f6c10` |
 | [variants/05m/script.en.txt](variants/05m/script.en.txt) | 666 | `cd9bfe7e9160098848da6617bac3b947ac36b9b4169ea1359ec300835e7b7b7c` |
-| [variants/05m/script.ru.txt](variants/05m/script.ru.txt) | 550 | `32e1f7c4a58a8ae1468d7133500df596f7035ec07d1bc26f57319401bad7d16e` |
-| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1385 | `f06d0a3f9e8d5fdc6ece6440a7c8ec6a5e853e2bcae4009063eb33e21b7fbae8` |
-| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1185 | `4af0eb7c97419d7bd4303314befc8ecf559180f0d10c6fd227169c9c0d139c94` |
+| [variants/05m/script.ru.txt](variants/05m/script.ru.txt) | 551 | `96875252e8f9042ac5d8a07d43836291992f4e49e87bfbba6d808b5b9200e201` |
+| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1385 | `1ca4f9cf01764e0bc89307dfabe81e2927e1bb1abd35f452b44031b0bb9f5a97` |
+| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1184 | `dd946d017832c7529bded45d357b5f2efca90df90b0052b78f8adf2b873aa636` |
 
 ## 02m — Short — STRONG_CANDIDATE
 - Interest 8: the already-evacuated teenager returns based on reassuring news; personal decision with modern relevance.
@@ -39,12 +39,12 @@ Author: current editorial writer, not independent reviewer. Confidence moderate 
 - Interest 8: same family and clock plus Ito's survival and coastal decisions.
 - Opening 8: questions cover transport, warning and scientific evidence; early tectonic context delays family.
 - Development 7: independent structure adds 1946, physical mechanism, geographic differences, Japan counterpoint and rebuilding, but after Carol survives the remaining episodes compete for attention.
-- Payoff 9: 15-hour lead time contrasted with when to return; clock and actual reforms.
+- Payoff 9: 15-hour ocean transit contrasted with when to return; clock and actual reforms.
 - Novelty 8: same waves compared with Onagawa without claiming controlled experiment.
 - Visual 9: geography, prior bridge, physical observations and rebuilt greenbelt.
 - Natural voice 8: explanatory paragraph distinguishing observations is necessary but may sound like a lecture.
 - Audience demand UNVERIFIED.
-- Biggest issue: tail after survival is more educational than dramatic. Do not commission by default; if specifically selected, reviewer should test whether Ito/Onagawa earn the extra time. No further author pass claimed.
+- Biggest issue: tail after survival is more educational than dramatic. Do not commission by default; if specifically selected, reviewer should test whether Ito/Onagawa earn the extra time. One targeted author factual/translation correction after initial commit: distinguish 15-hour wave travel from actual official warning, avoid an unsupported extra sister, clarify RU location. Ratings unchanged; exact revised hashes above; independent review still UNVERIFIED.
 - Long loop N_A; real linked-ending target/intro pending.
 
 ## Individual gates
