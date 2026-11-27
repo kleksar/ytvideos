@@ -1,0 +1,19 @@
+# Editorial packaging hypotheses (no artwork)
+
+Variant: 05m EN SHA-256 dc0b1790e183168b55a3e494b75cfa0912d658c6cd129ad77d9a3dc031838a6d; RU 49b3599d6fee6ede7764ea10b79bc1517d960a50e8f1929b03e4e41e9a75725c. Exact approved script, thumbnails, media, title/description release schema and viewer test do not exist. Three conceptual alternatives for Long, primary A. Target: general English-speaking history viewers. Nuviko photoreal historical environments / people, muted natural colors, no Paper diorama, no fake archival claims. No host necessary; if used later, only approved 2D traveler as an external narrator, with actual reference PNGs verified.
+
+A — title: "The Cholera Pump Was Shut. The Mystery Wasn't Over"
+Description: In 1854, John Snow investigated a cholera outbreak in London's Soho district. The cases that didn't fit, a distant delivery of water and a local clergyman's investigation reveal a more complete story than the famous removed pump handle.
+Thumbnail concept: large period hand pump with absent handle, one bottle in foreground, Soho street behind; no embedded text needed. Contradiction/action, documentary detective genre. First confirmation: opening questions and popular Broad Street pump. Full payoff: physical route found by later inquiry and the decline preceded removal. Avoid implying authorities destroyed the well or doctor removed it personally.
+
+B — title: "The Bottle That Led John Snow Beyond Soho"
+Description: Two women far from Broad Street fell ill after drinking its water. John Snow's interviews and Henry Whitehead's later inquiries show how the source of an outbreak could be investigated before a laboratory diagnosis of the water.
+Thumbnail concept: upright clear glass bottle prominent against softly separated period street and house entrance; human hands only as functional delivery detail; no exact undocumented bottle design asserted. The first question mentions a bottle delivered miles away; full answer in Hampstead scene and contaminated-water route. Avoid implying bottle alone proved all transmissions or a deliberate poisoning.
+
+C — title: "Why This Brewery Escaped London's Cholera Outbreak"
+Description: A brewery and workhouse near Broad Street used other water supplies. Their experience, a nearby factory and two distant cases helped John Snow investigate the source of the 1854 outbreak.
+Thumbnail concept: period brewery entrance and nearby public pump with strong near/far contrast; no alcohol-health claim or cheerful treatment of tragedy. First line promises the brewery; middle explains other water supplies. Full payoff includes the factory and physical route. Avoid implying beer cures or prevents cholera.
+
+Prefer A for story-wide payoff and question beyond the known ending. B provides a single concrete object, C the contrast from the first line. These are hypotheses, not tested CTR. Research basis: canonical thumbnail standard's dominant object / relation, title-image complementary promise, first confirmation and payoff. Practitioner-specific example comparison and actual thumbnail reference assets not verified; before packaging finish required reading and reference selection. Do not create images now. Endscreen: Long reserves 10s after full ending; possible thematic next story #462 on medical evidence (Draft, not a released target). No real approved intro clip or public target verified, so bridge/clip selection and clickable destination remain production blockers. No invented teaser, link or rendered media.
+
+Revision: the 05m packaging still refers to the exact unchanged recommended hashes above. Do not automatically reuse for revised 02m or 10m; the 10m payoff now emphasizes Whitehead's attempted refutation and the external excavation. Short opening uses reported delivery/deaths, not proven individual causal chain. No separate production storyboard or measured timings.
