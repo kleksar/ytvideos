@@ -33,3 +33,6 @@ The 12-slice scenario in 10m is arithmetic with declared assumed input: 2×3=6, 
 
 ## Promise
 A vs B, two identical wrapped wheat bread groups and two clocks. Visible mold endpoint vs measured firmness. Answer by the end, no universal winner. First frame shows identical bags on counter/fridge with both options identifiable; no hero reference images asserted. Practical decision: use near-term portion following storage directions, cold if mold is limiting and no freezer, freeze fresh surplus. No tasting or handling mold for entertainment.
+
+## 2026-11-27 editorial revision — baseline fec31bf66c09d3fb766763d65f2e10044eb9a3a1
+Rechecked https://www.mdpi.com/2304-8158/10/1/76 §§3.2, 3.4. Added specific visual observations: bread box first visible growth days 4–6, primarily underside, damp accumulation with limited air circulation; microperforated PE-layered paper bag RH 80.5%, visible growth days 5–6, greatest moisture loss. These are observations for those particular containers, not a forecast. Sourdough clarification: no visible growth before day 10; room plastic bag spoilage at the end of the window or later (day 13 reported), not a ten-day guarantee. No new experiment, no invented daily data. Long now changes container, then loaf, then hygiene before applying the portion decision.

@@ -57,5 +57,31 @@
     "later_slices": 6,
     "alternate_one_per_day_quantity_horizon": 12,
     "not_safety_prediction": true
+  },
+  "additional_published_observations": {
+    "source_section": "Alpers et al. Foods 2021 §§3.2,3.4",
+    "bread_box_room": {
+      "visible_mold_first_reported_day_range": [
+        4,
+        6
+      ],
+      "relative_humidity_percent": 89,
+      "position": "primarily underside; damp accumulation observed"
+    },
+    "microperforated_pe_layered_paper_room": {
+      "visible_mold_first_reported_day_range": [
+        5,
+        6
+      ],
+      "relative_humidity_percent": 80.5,
+      "moisture_loss": "highest of tested storage methods"
+    },
+    "sourdough_room_bag": {
+      "visible_mold": "not reported before day 10; spoilage around day 10 or later (day 13 reported)"
+    },
+    "limitations": [
+      "Specific containers, not all commercial designs.",
+      "No extrapolated curves, safety dates, or home measurements."
+    ]
   }
 }
