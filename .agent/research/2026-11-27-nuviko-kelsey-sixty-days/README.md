@@ -6,11 +6,11 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Target | EN | RU | Editorial status |
 |---|---|---|---|
-| 2 min Long | [295 words](variants/02m/script.en.txt) | [271 words](variants/02m/script.ru.txt) | STRONG_CANDIDATE |
-| 5 min Long | [714 words](variants/05m/script.en.txt) | [633 words](variants/05m/script.ru.txt) | STRONG_CANDIDATE |
-| 10 min Long | [1459 words](variants/10m/script.en.txt) | [1271 words](variants/10m/script.ru.txt) | REWORK |
+| 2 min Long | [295 words](variants/02m/script.en.txt) | [271 words](variants/02m/script.ru.txt) | STRONG_CANDIDATE (preserved) |
+| 5 min Long | [708 words](variants/05m/script.en.txt) | [625 words](variants/05m/script.ru.txt) | STRONG_CANDIDATE (recommended) |
+| 10 min Long | [1352 words](variants/10m/script.en.txt) | [1174 words](variants/10m/script.ru.txt) | STRONG_CANDIDATE (lower preference) |
 
-Recommendation: **5 min Long**, with an actual second turn (the investigational supply), plus institutional resistance and the 1998 distinction. 2 min is a viable tighter alternative; 10 min adds earlier law and international evidence but has slower pacing. Target lengths are estimates, not measured narration. All six texts complete, editorial only. No production authorization.
+Recommendation: **5 min Long**, with an actual second turn (the investigational supply), plus institutional resistance and the 1998 distinction. 2 min is a viable tighter alternative; 10 min now adds the initial limited investigator list, Taussig meeting, full distribution list and recovery work, but the flashback and reform section slow the pacing. 02m preserved byte-for-byte; 05m/10m substantively revised, independent review pending. Target lengths are estimates, not measured narration. All six texts complete, editorial only. No production authorization.
 
 [Research](research.md) · [Story review and hashes](story-review.md) · [Packaging brief](packaging-brief.md) · [Handoff](handoff.md)
 
