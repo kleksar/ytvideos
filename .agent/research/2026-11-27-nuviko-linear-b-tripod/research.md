@@ -65,3 +65,17 @@ Question: how can a proposed reading of an unknown language be checked? Opening 
 Long opening questions answered: unknown language by relational analysis; change in theory by recurring Greek readings; pots by independent records. In 10m, corpus access and handwritten model add context to what counts as a test. No current claim of complete understanding of Linear A.
 
 Adjacent-video bridge candidate #420 Antikythera (another artifact with recoverable information), only if actual episode/clip exists and is owner-authorized; present availability unverified. No invented clip, runtime or teaser; reserve 10s of each Long for real end screen after narrative payoff.
+
+## 2026-11-27 — revision of 10m only
+
+Baseline: `25decb3ea6ddc07c167315c0340d1b29767e4a65`; original EN SHA-256 `2ce379edd4b7e651b23f0d56abbb8ce0158cb6c6d86f1611c6cdd846e1392b47`, RU `8e19970fba6e8c1afd21290b9740680769a3bcd151cdcb83ca6edef53c317aee`. The original 02m/05m remain intact. This revision adds distinct events rather than extending the grid analogy. New evidence checked 2026-11-27:
+
+| Added or corrected claim | Exact public evidence and limitation |
+|---|---|
+| 1936 exhibition meeting; 1940 article at age 18 and architecture training; 1948 withdrawal from Myres publication over classification; Bennett scheme; 1950 report intended to be last, then full-time work | [Cambridge Faculty of Classics, The Life of Michael Ventris](https://www.classics.cam.ac.uk/research/projects/mycep/decipherment/ventris), paragraphs beginning “His interest in Linear B began”, “Ventris wrote to Evans”, “Ventris finished his architectural degree”, “While this may be partly true”, “In 1950 Ventris sent”. No invented dialogue, psychological reason for withdrawal, or assumption that he had never returned to architecture. |
+| Kober's handwritten slips kept in cigarette cartons | [University of Cincinnati archives, Alice Kober Collection](https://classics.uc.edu/humanities/classics/archives), Abstract. Filing as a comparison aid is editorial explanation, not a claim that all surviving cards were stored this way. |
+| Chadwick's first letter suggests pu, allowing Pylos reading; Ventris asks for joint publication | [Cambridge Ventris–Chadwick correspondence](https://www.classics.cam.ac.uk/research/projects/mycep/archive/correspondence), July 13 1952 letter and reply. Exact same-day chronology not claimed; archive explicitly notes uncertainty over dates. |
+| In April 1955 Chadwick describes joining fragment to horse tablet Ca 895, i-qo corresponds to horse; June 7 postcard written in Linear B about submitted manuscript | Same archive, headings “Letter from Chadwick, April 7 April 1955” and “Chadwick’s Linear B postcard, June 7 1955”. No invented wording or claim of exactly when postcard was received; archival descriptions checked, images/rights not cleared. |
+| Blegen's letter and copy, 1953 phone call | [Chadwick, chapter 6](https://www.cambridge.org/core/books/abs/decipherment-of-linear-b/decipherment-and-the-critics/02E5F5DE5204E1DBC5D591D9CD13D1F7), chapter summary. No invented call dialogue. |
+
+The horse tablet provides a second test, not an assertion that every reading is settled. The 10m closing ties the schoolboy's question to the documented postcard; pots remain the central payoff. The older source ledger and demand evidence remain historical evidence for unchanged versions. No media or audience measurement.

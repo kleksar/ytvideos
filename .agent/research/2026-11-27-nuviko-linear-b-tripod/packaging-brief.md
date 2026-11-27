@@ -9,3 +9,8 @@ Exact variant SHA-256: 757d245bb03dbb7d784c1e5a0b23c23582e4c799bb80e10fc2db3a26e
 | C | Two Pots That Helped Solve an Ancient Mystery | two historically plausible tripod vessels as visual focus, smaller tablet with genuine detail; no treasure or sensational fake inscription | viewer sees why quantity and shape independently match the proposed readings |
 
 All titles refer to an external test or decipherment; “proved” in A refers to powerful corroboration, not complete certainty of all readings. If title overstates sole proof, prefer “The Clay Tablet That Confirmed a Lost Language Was Greek.” No extra readable text needed. Respect Nuviko profile: photoreal historical world, optional 2D traveler outside events only with both actual pinned PNGs; no Paper style, no arbitrary glyph overlays. Traveler unnecessary here. Artifact image and grid exact source references still require local provenance/rights and visual inspection at production stage. First actual video frame and payoff must be reviewed against final thumbnail before publication. No generated assets, no CTR promise.
+
+
+## Revised 10m editorial-only alternative
+
+05m packaging and exact EN hash above are unchanged. For 10m EN `7dbfd769f68597d1afc35ae7f7671e8286cee2027bcb8a6bd8980e232ee13873`, test the same tripod promise with the school exhibition as early human context; the second physical confirmation is Ca 895, not a replacement for the tripod payoff. Use actual archival references after rights/visual review; no fabricated glyphs, museum footage or postcard text. No artwork or thumbnail QA exists for this alternative.

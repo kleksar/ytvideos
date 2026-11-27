@@ -11,3 +11,7 @@ Local continuation: fetch this Draft branch, check actual HEAD/diff, checkout in
 No production, TTS, image/video provider, MP4, upload, schedule or merge. Actual artifact rights, pronunciation, runtime, independent review, end-screen source/availability and timing are UNVERIFIED. Detailed storyboard/prompts deferred until recommended text is independently reviewed; no reference bytes or timings invented. Candidate visual anchor: PY Ta 641, Cambridge process PDF p5; authentic grid p3–4. Select only approved actual references.
 
 Editorial direction is not release authorization. Reconcile with current main and any pins before local transfer.
+
+## Revision read-back target
+
+Baseline 25decb3ea6ddc07c167315c0340d1b29767e4a65; 02m/05m preserve original hashes, including recommended 05m. Revised 10m EN SHA-256 `7dbfd769f68597d1afc35ae7f7671e8286cee2027bcb8a6bd8980e232ee13873`, RU `e40573f572a6d6c3dbbc2a4454a9ebed39fa761ffbb034f500e0dddbfacb5251`; no reuse of prior review or timing for those two files. Editorial story spans in story-review.md; no storyboard, generated assets, exact timing, or production master change. External runtime/lease/independent sessions remain UNVERIFIED. Do not register or approve from this note.
