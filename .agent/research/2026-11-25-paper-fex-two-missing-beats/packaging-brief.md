@@ -1,0 +1,11 @@
+# Editorial packaging concepts only — 05m preferred
+
+Variant: variants/05m/script.en.txt SHA-256 3470cd8af39ec81b2860e505bbd5214889c6d0733b1942a6a0e5e4ad2dd9ed0a (RU paired in story-review.md). No generated files or media references. 
+A: title “They Found the Band. Then They Had to Find the Song Again.” Thumbnail: large handmade paper cassette and second cassette slightly behind; title lettering “WRONG TAPE?” (means wrong performance, not false band attribution). First questions and Darius cassette answer initial premise; second tape and two drum hits answer promise; final album closes human story.
+B: title “The Internet Solved This Song Twice” / thumbnail “TWO MISSING BEATS” with two paper drum-hit markers beside the recovered cassette; diagram is illustrative, never actual measured signal. Opening questions; payoff two beats plus frequency difference and album.
+C: title “17 Years to Name a Song — One More Tape to Find” / thumbnail “FOUND... AGAIN?” with small newspaper and larger labelled tape. Avoid “nobody heard it”, “master found”, “all evidence solved”, or implied audio playback. Prefer A; B more technically specific and requires literal beat evidence, C risks treating two searches as same duration.
+
+Paper: physical handmade paper/card diorama, full-frame layered depth but no separate animation layers, no photo people, coherent objects/era, readable short paper lettering, no decorative border. Concrete paper plane placement candidate: beside the paper archive folder when Phret/FEX name overlap is shown, not part of narration. Exact scene assignment and references after independent review; actual brand assets not retrieved. No third-party cover art, photos, lyrics, or music until cleared. End screen 10s reserved on long; no fabricated target or live link. Select genuine relevant approved/public video from verified channel later, with owner/runtime contract.
+
+
+2026-11-27: 05m packaging exact hash unchanged. No automatic transfer of packaging or storyboard to revised 10m; its editorial beat map is in story-review.md. If selected later, use documented newspaper → missing drummer → cassette evidence sequence, no song playback promise, and rebind to its own exact hash.
