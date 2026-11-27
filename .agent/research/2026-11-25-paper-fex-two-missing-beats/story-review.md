@@ -62,3 +62,65 @@ Story map: questions → home recording and early online era → searchable audi
 Author fact review PASS for supported core; see R1–R8, no claim of actual source master, exact date, listener's private thought or broadcast route. English/Russian semantic equivalence author PASS (cross-read same sequence, quantities, caveats, final outcome; names adapted, title retained); independent translation UNVERIFIED. Formats PASS for intended Short/Long in current ChannelSpec; actual runtime registration/word-map/timing UNVERIFIED. Rights UNVERIFIED (no music, lyrics, archive assets or artwork licensed for use; narration only; title and facts not source reproduction). Independent review UNVERIFIED all six; no official script gate. Long loop not applicable; AV checks UNVERIFIED. 
 
 2→5 adds the failed radio replay, why the archive is useful and separate audio clues; not merely more names. 5→10 adds cassette distribution, search organization, speed mechanism, surviving copy vs master, later restoration and incomplete radio trail, but loses momentum in the explanatory blocks. Recommend 05m because the second mystery deserves time to be understood, not because long is preferred. 02m is a viable stronger-paced alternative; 10m REWORK for density. No score is CTR, retention or probability. No detailed storyboard/prompts until exact selected script checked independently.
+
+
+## 2026-11-27 — current exact 10m revision (supersedes prior 10m assessment only)
+
+Baseline f8029ba84aa56866551e6ce728858c3627f4f9f6; source main 7c779c4b2fd379c85166ae1b164fa53d1ea08843 (#124 merged). Existing author-only candidate; no approval, production, or new runtime. 02m/05m bytes and their earlier author evidence retained. Old 10m timing and review invalidated. New full-text author comparison; independent first listener/bilingual review UNVERIFIED, no session capability exposed. External live leases and private Studio unobserved; no visible GitHub approval/review/comments on this PR before edit.
+
+| Exact file | Words | SHA-256 |
+|---|---:|---|
+| variants/02m/script.en.txt | 262 | 952c3818cec5f79e81c231ffe813a3fc1af7b3540982a46155f0a39623d56394 |
+| variants/02m/script.ru.txt | 223 | c399e2daccdbe1005b516e2d38340da2db8ccebbfdf77cd9a1ccaba9f9bbf0d5 |
+| variants/05m/script.en.txt | 651 | 3470cd8af39ec81b2860e505bbd5214889c6d0733b1942a6a0e5e4ad2dd9ed0a |
+| variants/05m/script.ru.txt | 534 | 247ce4b95e3df508b1a4ebe35ea2390cb060170affa60b5a6dfeeeb49cbfc9f4 |
+| variants/10m/script.en.txt | 1339 | c9d0c22e02e3ab25eb11a5a9ce40164e69a5724775ed7cc3cbd0156ad263245d |
+| variants/10m/script.ru.txt | 1153 | 35609e7181e6a90ade60485039ffca8040c5e280926babb8dc459bf39eaf863d |
+
+Estimated EN 10m narration 9.23–10.71 minutes at prior assumed effective pace, plus separate 10s end screen; not measured.
+
+| Criterion | 02m (retained) | 05m (retained) | revised 10m | 10m basis / weakness |
+|---|---:|---:|---:|---|
+| Interest/significance | 8 | 9 | 8 | Two recoveries and reunion via another newspaper; music without licensed playback remains risk. |
+| Opening | 8 | 8 | 8 | Three answerable questions, immediate Darius track list; third question telegraphs two beats. |
+| Development | 8 | 9 | 8 | Failed replay → sound constraints → archive → two contacts → alternate take → missing drummer → physical evidence; reunion temporarily diverts from tape. |
+| Payoff | 9 | 9 | 9 | Beat/dip clue pays off and Darius cassette closes album; provenance caveat preserved. |
+| Freshness | 8 | 8 | 9 | Real second newspaper reversal and restoration using old DX7. |
+| Visual | 8 | 9 | 9 | Track list, archive, trio and missing drum kit, box, conceptual comparison, restored album; no measured graph. |
+| Natural clarity | 8 | 8 | 8 | Concrete action replaces abstract definitions; paragraphs 19–21 still technical. |
+| Demand | UNVERIFIED | UNVERIFIED | UNVERIFIED | No matched audience baseline, CTR or retention. |
+
+Confidence high for R4/R7 facts, medium for indexed R10 and narrative scores; low for audience. Author fact check: no exact broadcast date or claim cassette was master; new claims mapped in research. EN/RU author cross-read aligned events and uncertainty. No independent review. Author 02m literal two-cycle loop rechecked: completed album payoff, final question answered by initial paradox; actual AV seam UNVERIFIED. 05/10 Long loop N/A. Actual durations, word maps, rights and exact storyboard UNVERIFIED. No visual generation.
+
+### 10m paired editorial spans and visual intent
+| Paragraph | EN anchor | RU anchor | intent |
+|---:|---|---|---|
+| 1 | Why did it take seventeen years of… | Почему семнадцать лет поисков в интернете потребовалось,… | Questions; cassette/notes |
+| 2 | In the mid-eighties, a teenager named Darius… | В середине восьмидесятых подросток по имени Дариус… | Darius and question mark |
+| 3 | He later transferred his tapes to a… | Позже он перенёс записи с кассет на… | Digitizing and forums |
+| 4 | In 2019, a Brazilian listener helped the… | В 2019 году бразильский слушатель помог познакомить… | Worldwide collaboration |
+| 5 | One sensible place to look was the… | Логично было обратиться на радиостанцию. Дариус помнил… | Failed radio replay |
+| 6 | If even a presenter from the station… | Если даже ведущий той радиостанции не узнал… | Instrument and date constraint |
+| 7 | They also noticed a narrow dip near… | Они заметили и узкий провал в районе… | Frequency clue setup |
+| 8 | The breakthrough came when the researchers changed… | Прорыв случился, когда исследователи начали искать в… | Hörfest documents |
+| 9 | The volunteers tracked their leads in shared… | Добровольцы записывали зацепки в общие таблицы. Вместо… | Name overlap |
+| 10 | That led him to Michael Hädrich, who… | Так он вышел на Михаэля Хедриха, который… | Two contact paths |
+| 11 | Michael sent back recordings. One track was… | Михаэль прислал записи. Одна композиция называлась Subways… | Song title and consent |
+| 12 | FEX had sold demo cassettes at concerts… | До того как музыканты разошлись, FEX продавала… | Old demo distribution |
+| 13 | But there was a problem with the… | Но с файлом, который получил Марейн, была… | Different studio take |
+| 14 | Three days after the announcement, Michael, Ture… | Через три дня после объявления Михаэль, Туре… | Trio performance and missing drummer |
+| 15 | His old drums were still stored in… | Его старые барабаны всё ещё хранились на… | Reunion and new recording |
+| 16 | Over Christmas, he and his daughter found… | На Рождество он вместе с дочерью нашёл… | Physical tape discovery |
+| 17 | Michael remembered that he and Ture used… | Михаэль вспомнил, что они с Туре часто… | Speed comparison |
+| 18 | The recordings matched. His tape contained two… | Записи совпали. На кассете Михаэля в начале… | Two hits and frequency evidence |
+| 19 | The extra beats could be heard before… | Дополнительные удары звучали ещё до того места,… | Analog copy, not master |
+| 20 | The recovered performance appeared on streaming services… | Найденное исполнение появилось на стриминговых сервисах в… | Separate releases, second source |
+| 21 | There was still a gap in the… | В расследовании всё ещё оставался пробел. В… | Broadcast gap, dated uncertainty |
+| 22 | The recovery went beyond one song. The… | Находки не ограничились одной песней. Лейбл собрал… | Restoration and wider album |
+| 23 | The album contains the studio performance that… | В альбом вошло студийное исполнение, которое привело… | Darius tape and artwork |
+| 24 | The boy who had put a question… | Мальчик, поставивший вопросительный знак напротив песни, сохранил… | Human payoff |
+
+Each row is an editorial beat, not a timed shot or approved storyboard. Paper cassette objects and newspaper cutouts are illustrative; no fabricated actual waveform or archive replica. Paper plane candidate at archive overlap per unchanged packaging. 02m/05m maps above remain valid for their hashes.
+
+### Recommendation
+2→5 adds failed replay, search constraints and archive method, then complete physical-tape and album payoff. 5→10 adds the four-member reunion, parallel contact and archival restoration, making the second discovery more personal; the mastering and broadcast-log passages (19–21) still slow the path to the album. 05m remains strongest: enough investigative logic, quicker payoff. 10m is a complete revised candidate, not independent PASS or approval. Exact master selection and registration remain for authorized host.
