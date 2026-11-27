@@ -28,5 +28,52 @@
     "A": 860,
     "B": 887
   },
-  "limits": "means of reported samples; not mass balance, personal exposure estimate, individual LDL prediction, or comparison of taste/cost/heart attacks; no new experiment; no dose recommendation"
+  "limits": "means of reported samples; not mass balance, personal exposure estimate, individual LDL prediction, or comparison of taste/cost/heart attacks; no new experiment; no dose recommendation",
+  "secondary_context": {
+    "source": "https://doi.org/10.1016/j.numecd.2025.103933",
+    "metric": "cafestol only; not total extracted lipids",
+    "brewing_machine_n": 11,
+    "brewing_machine_median_mg_L": 176,
+    "brewing_machine_range_mg_L": [
+      24,
+      444
+    ],
+    "paper_home_n": 5,
+    "paper_home_median_mg_L": 12,
+    "liquid_machine_n": 3,
+    "liquid_machine_median_mg_L": 8,
+    "liquid_machine_range_mg_L": [
+      2,
+      343
+    ],
+    "illustrative_volume_L": 0.15,
+    "calculated_machine_range_mg": [
+      3.6,
+      66.6
+    ],
+    "cloth_sample": {
+      "cafestol_mg_L": [
+        939,
+        28
+      ],
+      "kahweol_mg_L": [
+        678,
+        21
+      ]
+    },
+    "hypothetical_arithmetic": {
+      "label": "invented example, not measured coffees",
+      "A": {
+        "volume_L": 0.03,
+        "concentration_mg_L": 300,
+        "amount_mg": 9
+      },
+      "B": {
+        "volume_L": 0.15,
+        "concentration_mg_L": 60,
+        "amount_mg": 9
+      }
+    },
+    "limits": "separate observational samples; no causal comparison of machine types or universal cloth/paper ranking"
+  }
 }
