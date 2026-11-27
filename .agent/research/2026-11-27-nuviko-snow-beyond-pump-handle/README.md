@@ -6,11 +6,11 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Variant | EN | RU | Words EN/RU | Author classification |
 |---|---|---|---:|---|
-| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 308 / 267 | Short; STRONG_CANDIDATE |
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 304 / 273 | Short; CANDIDATE_REVISED |
 | 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 717 / 626 | Long; STRONG_CANDIDATE (recommended) |
-| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1494 / 1311 | Long; REWORK |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1415 / 1262 | Long; CANDIDATE_REVISED |
 
-Recommendation: 05m Long. Full standalone answers in every version. The 10m version adds the separate South London comparison, but its statistical detour is more demanding. The short is useful for discovery, not a trailer.
+Recommendation: 05m Long. Full standalone answers in every version. The 10m revised version adds failed inspections, earlier parallel South London evidence and Whitehead's own attempt to disprove Snow; the numerical comparison remains more demanding. The 02m revised opening avoids claiming the bottle's exact causality was proven. The short is useful for discovery, not a trailer.
 
 - [Research](research.md)
 - [Exact text review and duration comparison](story-review.md)
