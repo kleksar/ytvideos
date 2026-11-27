@@ -1,12 +1,12 @@
 # Story review — exact authored drafts
 
-EDITORIAL_CANDIDATE_UNREGISTERED; author: current text-writing assistant, not an independent reviewer. Confidence medium for editorial judgment; factual core supported by F1–F4, full primary memoir unavailable. 0 additional revision passes after author draft/read-through; no independent review or measured timing. Recommended 05m. 02m is deliberately Long (16:9), not Short; loop N/A all three. Exact media/end-screen QA UNVERIFIED.
+EDITORIAL_CANDIDATE_UNREGISTERED; author: current text-writing assistant, not an independent reviewer. Confidence medium for editorial judgment; factual core supported by F1–F4, full primary memoir unavailable. 1 author revision after the initial draft: distinguished expedition leader from ship captain, made the date question explicitly about ship release, removed two redundant/weakly supported lines in 10m; no change to selected story; no independent review or measured timing. Recommended 05m. 02m is deliberately Long (16:9), not Short; loop N/A all three. Exact media/end-screen QA UNVERIFIED.
 
 | Target / format | RU | EN | EN words | Editorial status |
 |---|---|---|---:|---|
-| 02m / Long 16:9 | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 297 | STRONG_CANDIDATE |
-| 05m / Long 16:9 | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 727 | STRONG_CANDIDATE — recommended |
-| 10m / Long 16:9 | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1444 | REWORK |
+| 02m / Long 16:9 | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 298 | STRONG_CANDIDATE |
+| 05m / Long 16:9 | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 731 | STRONG_CANDIDATE — recommended |
+| 10m / Long 16:9 | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1417 | REWORK |
 
 ## Exact text identity and timing
 
@@ -14,15 +14,15 @@ Whitespace-separated word count; EN estimated effective delivery 125–155 wpm (
 
 | Variant/language | Words | Estimated spoken minutes (125–155 wpm) | SHA-256 |
 |---|---:|---:|---|
-| [02m/en](variants/02m/script.en.txt) | 297 | 1.92–2.38 | 95fc6b3e5283ec7912d91dd07659ff9168e9a2b73a436157bc97b58216c91517 |
-| [02m/ru](variants/02m/script.ru.txt) | 251 | 1.62–2.01 | 1664b456dfda24ca66fc8951d7720759b75c288a881c30184c918786c81400f7 |
-| [05m/en](variants/05m/script.en.txt) | 727 | 4.69–5.82 | 4cc8000a7292529e432794f8325236dbe32f7d4fecd48dc3e787769384466cc9 |
-| [05m/ru](variants/05m/script.ru.txt) | 602 | 3.88–4.82 | 99d4c750ed5080481e9642959a09eb2b9ad4e95aee69995b555d1ce6ae455768 |
-| [10m/en](variants/10m/script.en.txt) | 1444 | 9.32–11.55 | 5ce26c87fb084a152bcae4c8f8e304fec7e98265fb596d339f4f425e5bd9bbf3 |
-| [10m/ru](variants/10m/script.ru.txt) | 1155 | 7.45–9.24 | 08db10836ee5e90dc0b361ca3072959351a1265ab3eedeed29b14d7b21392d4c |
+| [02m/en](variants/02m/script.en.txt) | 298 | 1.92–2.38 | a9f38ef7ceaa3adfa8755d14d8666ce67228b51072c549945a0ae68a99b69394 |
+| [02m/ru](variants/02m/script.ru.txt) | 251 | 1.62–2.01 | f208183dc995339264e9fa5745ecf853ca53c076f3df12a237c9ffc3b230bd6f |
+| [05m/en](variants/05m/script.en.txt) | 731 | 4.72–5.85 | 740df3fea7075c1e202f393933839233baf3af70648b8f02cd5c19320ed6b0a2 |
+| [05m/ru](variants/05m/script.ru.txt) | 609 | 3.93–4.87 | 89dd1961bb940f9da2e77da6d573ed3ee35bb1eb7c149fdcd7c07044ddfc2e00 |
+| [10m/en](variants/10m/script.en.txt) | 1417 | 9.14–11.34 | 8c51534d23fbca49d678b51e0efb123e9c9d05b53d4d4d284155b97cd9f1d432 |
+| [10m/ru](variants/10m/script.ru.txt) | 1139 | 7.35–9.11 | 5bcbd41fb92c497a7050f77c6203600ab3eb015acd6fc0cb487009c24250f129 |
 
 ## 02m — STRONG_CANDIDATE
-Opening: Why would a captain let the sea freeze around his ship?
+Opening: Why would an explorer let the sea freeze around his ship?
 
 | Criterion | Score | Basis |
 |---|---:|---|
@@ -32,10 +32,10 @@ Opening: Why would a captain let the sea freeze around his ship?
 | Payoff | 9 | August 13 and scientific result answer both questions |
 | Angle freshness | 8 | Engineered drift vs generic polar disaster |
 | Visual potential | 8 | Rounded hull, tracks, two kayaks, date; no archive assumed |
-| Spoken naturalness | 8 | Short clauses, but opening attributes choice to captain rather than scientific leader; collective expedition agency is clear |
+| Spoken naturalness | 8 | Short clauses and clear agency; several major time jumps remain |
 | Audience demand | UNVERIFIED | Indexed metadata, real Reddit questions, no matched baseline or own retention |
 
-Main weakness: compressed transitions, scientific leader/captain distinction at opening.
+Main weakness: compressed transitions from record to winter and rescue.
 
 Checks: factual core PASS (author/source comparison; original full memoir UNVERIFIED), EN/RU meaning PASS (author comparison), Long format compatible PASS (ChannelSpec; exact timing UNVERIFIED), loop N/A (Long), rights UNVERIFIED (actual archive/intro assets not inspected), independent review UNVERIFIED. Overall runtime gate not passed. Scores are editorial opinions, not CTR/retention predictions.
 
@@ -53,7 +53,7 @@ Opening: Why would an explorer build a ship specifically to get trapped in the A
 | Spoken naturalness | 8 | Plain actions; transition from winter to kayaks a little compressed |
 | Audience demand | UNVERIFIED | Indexed metadata, real Reddit questions, no matched baseline or own retention |
 
-Main weakness: risk of audience confusing same day with two arrivals; narration specifies release, not landfall.
+Main weakness: winter to kayak transition remains compact; question and payoff now distinguish ice release from port arrival.
 
 Checks: factual core PASS (author/source comparison; original full memoir UNVERIFIED), EN/RU meaning PASS (author comparison), Long format compatible PASS (ChannelSpec; exact timing UNVERIFIED), loop N/A (Long), rights UNVERIFIED (actual archive/intro assets not inspected), independent review UNVERIFIED. Overall runtime gate not passed. Scores are editorial opinions, not CTR/retention predictions.
 

@@ -6,9 +6,9 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 | Target / format | RU | EN | EN words | Editorial status |
 |---|---|---|---:|---|
-| 02m / Long 16:9 | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 297 | STRONG_CANDIDATE |
-| 05m / Long 16:9 | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 727 | STRONG_CANDIDATE — recommended |
-| 10m / Long 16:9 | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1444 | REWORK |
+| 02m / Long 16:9 | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 298 | STRONG_CANDIDATE |
+| 05m / Long 16:9 | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 731 | STRONG_CANDIDATE — recommended |
+| 10m / Long 16:9 | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1417 | REWORK |
 
 Recommendation: 05m. Two independent routes and the same-day return/release resolve the experiment and human story together. Audience demand is UNVERIFIED; no production approval.
 

@@ -1,6 +1,6 @@
 EDITORIAL_CANDIDATE_UNREGISTERED
 
-Source main: 7c779c4b2fd379c85166ae1b164fa53d1ea08843; #124 merged, use canonical main. New branch from exact main. No existing runtime pins altered. Full six text candidates plus source ledger, comparison and packaging; 05m EN proposed master 4cc8000a7292529e432794f8325236dbe32f7d4fecd48dc3e787769384466cc9. No official script gate or approvals.
+Source main: 7c779c4b2fd379c85166ae1b164fa53d1ea08843; #124 merged, use canonical main. New branch from exact main. No existing runtime pins altered. Full six text candidates plus source ledger, comparison and packaging; 05m EN proposed master 740df3fea7075c1e202f393933839233baf3af70648b8f02cd5c19320ed6b0a2. No official script gate or approvals.
 
 Capabilities unavailable: connected local checkout / ytv workspace and persisted state not accessible in current host; no executable local ytv installation observed. Independent model session spawning not exposed by direct tools or discovered registry. No reviewer receipt, claim, run ID or script completion invented. No paid calls, TTS, image generation, MP4, upload or scheduling. Actual source/media rights, archive and linked end-screen intro bytes not checked, no production storyboard yet. Public YouTube search cannot establish private schedule duplicates or matched audience baseline.
 
