@@ -8,7 +8,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 |---|---|---|---:|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 264/240 | STRONG_CANDIDATE — recommended; Short |
 | 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 711/570 | STRONG_CANDIDATE; Long blocked |
-| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1596/1315 | COMPLETE_CANDIDATE — weaker pacing; Long blocked |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1191/997 | COMPLETE_CANDIDATE — weaker pacing; Long blocked |
 
 Recommend 02m: strong second-stage payoff and practical decision. 05m adds power sensitivity and cost. 10m adds same-lid larger-batch speed/energy tradeoff and smaller/larger fill totals, with weaker pacing after the holding result. Demand UNVERIFIED. Long production blocked.
 
