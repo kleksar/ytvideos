@@ -8,9 +8,9 @@ RU logline: Суд запретил Kodak выпускать моменталь�
 |---|---|---|---:|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 292/240 | STRONG_CANDIDATE |
 | 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 737/626 | STRONG_CANDIDATE — recommended |
-| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1501/1268 | REWORK |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1482/1222 | CANDIDATE_REVISED |
 
-Recommended: **05m Long**. Former supplier, technological change, buyer's dependency, consumer and patent settlements are distinct causal beats. Audience demand UNVERIFIED. 10m REWORK, more verified details but less direct. 
+Recommended: **05m Long**. Former supplier, technological change, buyer's dependency, consumer and patent settlements are distinct causal beats. Audience demand UNVERIFIED. 10m substantively revised: real consumer plaintiffs and court intervention replace generic rejection and excess accounting; engineering detail still delays the consumer arc. Both longer variants standalone; 05m still recommended. 
 
 [Research](research.md) · [Story review and hashes](story-review.md) · [Packaging](packaging-brief.md) · [Handoff](handoff.md)
 
