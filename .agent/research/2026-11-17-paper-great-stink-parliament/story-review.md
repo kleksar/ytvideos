@@ -64,23 +64,23 @@ Estimated spoken lengths only: 02m 278/135–150 EN words/minute = 1:51–2:04 b
 2026-11-27 second authorial pass, baseline [`9be5070396c1342c53dc89f265c76e92b20240c0`](https://github.com/kleksar/ytvideos/tree/9be5070396c1342c53dc89f265c76e92b20240c0/.agent/research/2026-11-17-paper-great-stink-parliament). Original 10m EN/RU blobs and SHA-256 retained there; 02m and 05m unchanged. Main observed `7c779c4b2fd379c85166ae1b164fa53d1ea08843`; #124 merged. Prior 10m score, timing estimate and scene intent are historical only.
 
 - Promise: Parliament's 18-day decision and the wrong-air/right-water paradox.
-- Earlier main hook: P4–5 curtains and Mangles's June 18 question (old P22–24).
+- Earlier main hook: P5–6 curtains and Mangles's June 18 question (old P22–24).
 - New material: Snow's adjacent-house water-company comparison; the competing sewer proposals and tide/finance dispute, Disraeli's guarantee proposal, Crossness opening, and Old Ford as the final return to the disease question. These are sourced events, not inferred personal thoughts. No invented quotes. 
-- The remaining slower section is P9–13, particularly the water-company comparison and transition back to the board. It earns its place as proof of the medical reversal but requires attention to names and statistics.
+- The remaining slower section is P9–14, particularly the water-company comparison and transition back to the board. It earns its place as proof of the medical reversal but requires attention to names and statistics.
 - Final consequence: the new network helped separate sewage from water; neither immediate universal safety nor sole causation is claimed.
 
 | Editorial criterion | EN | RU |
 |---|---|---|
 | Interest/significance | 8 — Mangles asks about members' health in a building by the river; public-health outcome | 8 — «что правительство делает для защиты здоровья членов парламента» establishes a human stake |
-| Opening | 9 — P1 asks concrete questions; P4–5 deliver Westminster and the parliamentary action early | 9 — «почему понадобилось невыносимое зловоние» answered by P4–5, not a long background lecture |
+| Opening | 9 — P1 asks concrete questions; P5–6 deliver Westminster and the parliamentary action early | 9 — «почему понадобилось невыносимое зловоние» answered by P5–6, not a long background lecture |
 | Causal development | 8 — debate → water evidence → route and financing impasse → July bill → construction → 1866 | 8 — «прилив принесёт отходы обратно» gives a specific reason for deadlock; company comparison is slower |
-| Payoff | 9 — P22–26 return from physical construction to Old Ford and the original health question | 9 — «благодаря воде этот закон оставался важен» resolves air/water contrast; retains limits |
+| Payoff | 9 — P27–31 return from physical construction to Old Ford and the original health question | 9 — «благодаря воде этот закон оставался важен» resolves air/water contrast; retains limits |
 | Freshness | 8 — parliamentary transcript and matched-street observational comparison add documentary detail to familiar subject | 8 — distinct political/medical parallel rather than sewer trivia |
 | Visual expressiveness | 9 — curtains, adjacent houses with two water networks, returned tide, Crossness engines, Old Ford | 9 — concrete paper diorama concepts, not approved media |
-| Natural speech | 8 — observable verbs and restrained close; proper names/statistic still dense in P11–13 | 8 — «соседи могли получать воду от разных поставщиков» concrete, names need measured voice |
+| Natural speech | 8 — observable verbs and restrained close; proper names/statistic still dense in P12–14 | 8 — «соседи могли получать воду от разных поставщиков» concrete, names need measured voice |
 | Verified viewer interest | UNVERIFIED — no exact-cut data | UNVERIFIED — no separate audience evidence |
 
-Confidence: medium-high on documented facts (primary Hansard and Snow, institutional history); medium on pacing and translation; low on viewer response. Authorial review only, not independent. Word counts 1577/1276; EN estimate 10.5–11.7 minutes before pauses at 135–150 wpm, actual configured voice duration UNVERIFIED.
+Confidence: medium-high on documented facts (primary Hansard and Snow, institutional history); medium on pacing and translation; low on viewer response. Authorial review only, not independent. Word counts 1577/1276; EN estimate 10.5–11.7 minutes before pauses at 135–150 wpm, actual configured voice duration UNVERIFIED. This estimate exceeds ten minutes at 135–150 wpm; exact voice timing is a remaining duration-fit blocker, not a PASS. Do not accelerate the approved voice or pad/cut without review.
 
 ### Paired editorial spans for revised 10m (exact new hashes)
 
@@ -125,7 +125,7 @@ Each row is one paired paragraph, in order, visual intent only. No timed storybo
 | Move | What new value genuinely appears | Cost of extra time |
 |---|---|---|
 | 02 → 05 | Distinguishes Snow's 1854 water evidence from contemporary beliefs; the unfunded 1855 warning makes Parliament's 1858 behavior a real political reversal; explains how interceptors and pumps work; 1866 outbreak gives independent epidemiological evidence | Longer context; chief action becomes less immediate |
-| 05 → 10 | Adds documentary June parliamentary exchange, Snow's water-company observation, concrete financing conflict and proposed guarantee, opening of Crossness and Old Ford evidence | P9–13 shifts attention from Parliament to epidemiology; more names and one statistic, slower than 05m |
+| 05 → 10 | Adds documentary June parliamentary exchange, Snow's water-company observation, concrete financing conflict and proposed guarantee, opening of Crossness and Old Ford evidence | P9–14 shifts attention from Parliament to epidemiology; more names and one statistic, slower than 05m |
 
 **Recommendation: 05m EN Long.** 02m should remain available if factual clarity/pace after voice test favors it. 10m is a substantively revised editorial alternative; 05m still wins on concentration. Do not send any version to production without the required gates. No selected master approved by owner, all duration estimates provisional.
 
