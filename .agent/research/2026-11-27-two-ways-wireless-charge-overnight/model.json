@@ -1,0 +1,64 @@
+{
+  "schema": "editorial-model-v1",
+  "not_runtime_artifact": true,
+  "source": "https://www.ifixit.com/News/94409/wireless-charging-trading-efficiency-for-convenience",
+  "source_date": "2024-04-18",
+  "comparison": {
+    "phone": "iPhone 15 Pro",
+    "adapter": "same iFixit 65W GaN adapter",
+    "start_percent": 0,
+    "end_percent": 100,
+    "connected_hours": 7,
+    "disconnected_hours": 17,
+    "adaptive_charging": false
+  },
+  "A": {
+    "method": "USB-C cable",
+    "charge_wh": 18.25,
+    "charge_minutes": 130,
+    "post_full_w": 1.1,
+    "idle_w": 0,
+    "overnight_wh_rounded": 23.6,
+    "day_wh_rounded": 23.6
+  },
+  "B": {
+    "method": "Apple 15W MagSafe",
+    "charge_wh": 23.33,
+    "charge_minutes_approx": 125,
+    "post_full_w": 1.5,
+    "idle_w": 0.2,
+    "overnight_wh_rounded": 30.73,
+    "day_wh_rounded": 34.13
+  },
+  "calculations": {
+    "extra_charge_wh": 5.08,
+    "extra_charge_percent": 27.835616438356166,
+    "savings_fraction_percent": 21.774539219888556,
+    "extra_day_wh": 10.530000000000001,
+    "extra_day_percent": 44.61864406779661,
+    "annual_a_kwh": 8.614,
+    "annual_b_kwh": 12.457450000000001,
+    "annual_extra_kwh": 3.8434500000000003,
+    "assumed_price_usd_per_kwh": [
+      0.15,
+      0.3,
+      0.6
+    ],
+    "annual_extra_usd": [
+      0.5765175,
+      1.153035,
+      2.30607
+    ],
+    "morning_disconnect_extra_wh": 7.129999999999999
+  },
+  "sensitivity": {
+    "different_nonmagnetic_pad_off_center_charge_wh": 33.93,
+    "not_isolated_alignment_effect": true
+  },
+  "limits": [
+    "Daily totals extrapolate rounded test values; not direct daily measurements.",
+    "Zero is no measurable draw reported in that setup, not universal physical zero.",
+    "No measured battery lifespan or replacement cost.",
+    "No extrapolation to partial recharges or all chargers."
+  ]
+}
