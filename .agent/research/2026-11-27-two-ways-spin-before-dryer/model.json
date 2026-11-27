@@ -1,0 +1,123 @@
+{
+  "status": "published-measurement replay; not our experiment",
+  "source": "https://servicedocumentatie.atagbenelux.com/docs/edm117cwit_gba_en.pdf",
+  "source_location": "printed p.46 / PDF zero-based page 45, typical consumption table, EN 61121, storage dry",
+  "metric": "dryer program duration in minutes from each dryer start",
+  "secondary": "dryer program electricity kWh",
+  "input": {
+    "load_label_kg": 7,
+    "A_rpm": 800,
+    "B_rpm": 1400,
+    "program": "Storage dry"
+  },
+  "rows": [
+    {
+      "rpm": 800,
+      "load_kg": 7,
+      "water_l": 5,
+      "minutes": 130,
+      "kWh": 4.98
+    },
+    {
+      "rpm": 1000,
+      "load_kg": 7,
+      "water_l": 4.7,
+      "minutes": 120,
+      "kWh": 4.21
+    },
+    {
+      "rpm": 1200,
+      "load_kg": 7,
+      "water_l": 4.2,
+      "minutes": 110,
+      "kWh": 4.02
+    },
+    {
+      "rpm": 1400,
+      "load_kg": 7,
+      "water_l": 3.5,
+      "minutes": 100,
+      "kWh": 3.66
+    },
+    {
+      "rpm": 1600,
+      "load_kg": 7,
+      "water_l": 3.4,
+      "minutes": 98,
+      "kWh": 3.64
+    },
+    {
+      "rpm": 800,
+      "load_kg": 6,
+      "water_l": 4.3,
+      "minutes": 115,
+      "kWh": 4.38
+    },
+    {
+      "rpm": 1400,
+      "load_kg": 6,
+      "water_l": 3.1,
+      "minutes": 85,
+      "kWh": 3.18
+    },
+    {
+      "rpm": 800,
+      "load_kg": 8,
+      "water_l": 5.6,
+      "minutes": 150,
+      "kWh": 5.46
+    },
+    {
+      "rpm": 1400,
+      "load_kg": 8,
+      "water_l": 4,
+      "minutes": 120,
+      "kWh": 3.97
+    }
+  ],
+  "other_table": {
+    "source": "https://manuzoid.com/manuals/rLpp4-Siemens%20iQ300%20Tumble%20dryer%20SIWATHERM%20Operat.%20Install.Instruct.%20Program%20table",
+    "location": "Consumption values table, printed p.11, cottons cupboard dry",
+    "rows": [
+      {
+        "rpm": 800,
+        "load_kg": 9,
+        "minutes": 181,
+        "kWh": 2.48
+      },
+      {
+        "rpm": 1400,
+        "load_kg": 9,
+        "minutes": 133,
+        "kWh": 1.72
+      },
+      {
+        "rpm": 800,
+        "load_kg": 4.5,
+        "minutes": 112,
+        "kWh": 1.41
+      },
+      {
+        "rpm": 1400,
+        "load_kg": 4.5,
+        "minutes": 82,
+        "kWh": 0.98
+      }
+    ]
+  },
+  "derived": {
+    "dryer_minutes_saved": 30,
+    "dryer_kWh_saved": 1.32,
+    "water_l_difference": 1.5,
+    "relative_time_saved": 0.23076923076923078,
+    "relative_energy_saved": 0.2650602409638554,
+    "extra_1600_minutes_saved": 2,
+    "extra_1600_kWh_saved": 0.02,
+    "net_time_formula": "30 - extra washer minutes",
+    "net_energy_formula": "1.32 - extra washer kWh",
+    "illustrative_flat_price_usd_per_kWh": 0.25,
+    "illustrative_extra_washer_kWh": 0.2,
+    "illustrative_load_count": 100
+  },
+  "limitations": "No washer time/energy data; equal test-load condition is the editorial comparison, not a claim of paired trial design. No distribution/error bars, intermediate drying trace, actual user appliance or textile safety outcome. Model clocks depict published endpoints only."
+}
