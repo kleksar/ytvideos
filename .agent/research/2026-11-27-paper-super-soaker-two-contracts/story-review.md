@@ -1,3 +1,66 @@
+# Current authorial second pass — 2026-11-27
+
+EDITORIAL_CANDIDATE_UNREGISTERED. Baseline 6dfb84d3ff5d8c1a50f3a4d0fd2372d957705929; canonical main 7c779c4b2fd379c85166ae1b164fa53d1ea08843 (#124 merged). Six complete texts; 02m/05m byte-identical; 10m revised. Authorial, not independent. Fact/meaning confidence medium; audience and pace low-medium.
+
+| File | Words | Exact SHA-256 |
+|---|---:|---|
+| [02m EN](variants/02m/script.en.txt) | 248 | 41a210f2d13ea4019cb36fcad97f58fff7d3248fad02dd35779e84c934e67fa4 |
+| [02m RU](variants/02m/script.ru.txt) | 231 | 3ee91b86099918aef6653eb8448564b9c15a021b20f12baf002f54e0877f7549 |
+| [05m EN](variants/05m/script.en.txt) | 663 | abdefc43bf1c431f3d94aee8e654072d1a40e2f58264a06b72c91990cde241bc |
+| [05m RU](variants/05m/script.ru.txt) | 570 | 4354aa7261cd025e9e5a8b5d02bd4f89020e7bfe699ebf79cd84e7f138c7ab87 |
+| [10m EN](variants/10m/script.en.txt) | 1190 | 4646a98fb6507b28e467ed50258cb437b6028d2ca4aa5dc6043cbf63321840ad |
+| [10m RU](variants/10m/script.ru.txt) | 1042 | 43ddb7d85bf0e11a6e9c583fe5e575a5de593c56b7047fbefa01a00af120779e |
+
+| Criterion | 02m preserved | 05m preserved | 10m new |
+|---|---|---|---|
+| Interest | 8 familiar toys, correction; abrupt legal turn | 9 commercial obstacle and legal reversal | 8 model-plane failure and actual hurdles; legal theme still niche |
+| Opening | 8 clear award distinction | 8 specific questions, early experiment | 9 questions followed by bathroom in paras 2–3, rather than extended biography |
+| Development | 8 quote, pitch, two licenses | 9 missing sample forces rebuild; two disputes | 8 failed product, closed displays, rebuild, demonstration, enforcement; legal stretch remains |
+| Payoff | 8 settlement and original goal | 9 distinct amounts and original goal | 9 award and both-dispute settlement, two documented honors; no personal cash claim |
+| Freshness | 8 Nerf correction | 8 origin + contracts | 8 failed airplane and physical redesign, not exclusive claims |
+| Visual | 8 bathroom, suitcase, toy shelves | 8 quote, demonstration, contracts | 9 dismantled prototype, model airplane, private rooms, pool-party ad; rights unknown |
+| Naturalness | 8 clear but repetitive last question | 8 plain chronology, legal opening long | 8 concrete actions replace duplicated explanations, legal terms remain |
+| Audience evidence | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Recommend **05m**: 02m gives complete answer but the missing sample and license matter more than its short version allows. 05m has the commercial barriers and both legal claims with less delay. 10m adds independent documentary value through the failed model airplane, closed display rooms, physical redesign and marketing; slowdown at paragraphs 17–21 (coverage, separate forums and dates). Equal authorial known-criterion mean for 05m/10m does not make them equally appropriate. 05m has tighter payoff. Independent reader may prefer another version or reject all.
+
+## Exact 10m editorial spans (whole corresponding paragraph, no measured timings)
+
+| Span | EN first words | RU first words | Beat and visual intent |
+|---|---|---|---|
+| 1 | Why did an engineer working on a | Почему инженер, работавший над экспедицией к Юпитеру, | Three opening questions |
+| 2 | In 1982, Lonnie Johnson worked at NASA's | В 1982 году Лонни Джонсон работал в | JPL and private experiment; paper sink |
+| 3 | The stream coming out of one nozzle | Струя из одной насадки оказалась настолько сильной, | Specific experiment and motive, per inventor |
+| 4 | He had been building things since childhood. | Он что-то мастерил с детства. В 1968 | Condensed background; robot |
+| 5 | Johnson returned to active duty in the | Джонсон вернулся на действительную службу в ВВС. | Basement prototype, daughter's trial |
+| 6 | Johnson went to a plastics manufacturer with | Джонсон обратился к производителю пластмассовых изделий с | Main hook: unaffordable quote |
+| 7 | He decided to find a company that | Он решил найти компанию, которая будет выпускать | Disclosure risk and commercial learning; retrospective account |
+| 8 | In 1986, he received his first water | В 1986 году он получил первый патент | Concrete setback; dismantled sample |
+| 9 | Another of his inventions did reach shops. | Другое его изобретение всё-таки появилось в магазинах. | New related setback; model airplane, no invented scene |
+| 10 | In 1989, Johnson tried again at the | В 1989 году Джонсон предпринял ещё одну | Closed display rooms; specific obstacle |
+| 11 | He met Al Davis, a vice president | Он познакомился с Элом Дэвисом, вице-президентом Larami, | Davis suggests visit; no invented dialogue |
+| 12 | Johnson went home and spent a couple | Джонсон вернулся домой и за пару недель | Rebuild and visible change; inventor's estimate |
+| 13 | According to Johnson's account, Larami's president Myung | По его рассказу, в переговорной находились президент | Suitcase demonstration, paper-plane decorative cameo only |
+| 14 | Larami licensed the invention, and the Power | Larami получила лицензию на изобретение, и в | Rebrand and documented ad; reconstruction only |
+| 15 | The Super Soaker became a hit, with | Super Soaker стал хитом: объём продаж превысил | Sales and patent enforcement, attributed |
+| 16 | Hasbro eventually bought Larami. And Johnson's patent | Позже Hasbro купила Larami. А разработки Джонсона, | Hasbro acquisition and Nerf N-Strike |
+| 17 | For shoppers, the two products might have | Для покупателей эти игрушки могли находиться в | Two agreement objects |
+| 18 | This distinction became particularly important in 2013. | Это различие стало особенно важным в 2013 | Disputed scope, not allegation of zero earlier royalties |
+| 19 | In February 2013, Johnson Research filed a | В феврале 2013 года Johnson Research подала | Separate forums and timeline |
+| 20 | The Nerf hearing took place in August. | Слушание по Nerf состоялось в августе. Двадцать | Award payoff |
+| 21 | The decision didn't end the matter. Hasbro | Решение не поставило точку в деле. Hasbro | Challenge and differing later reported amount |
+| 22 | There was still the separate lawsuit about | Оставался ещё отдельный иск о водяных игрушках. | Both disputes settled; agreed payment not cumulative |
+| 23 | Neither the early sales figure nor the | Ни цифра продаж игрушки, ни сумма арбитражного | Income caveat and return to energy research |
+| 24 | In 2015, the Super Soaker was inducted | В 2015 году Super Soaker включили в | Two documented honors; completed original motive |
+
+Questions → concrete experiment → main commercial hook in paragraph 6 → failures → deal → separate disputes → outcome and honors. Whole-frame paper dioramas; paper-plane planned in paragraph 13 conference room only as decorative cameo, not a fact. No detailed storyboard or archival assets. Old 10m evidence no longer applies. Prior 02m/05m maps unchanged below.
+
+Hard checks: full six texts read; unchanged Short read twice, complete answer before last question, direct semantic seam, somewhat repetitive; independent seam and AV UNVERIFIED. 10m/05m Long loop N_A. New 10m EN/RU paragraph meaning, dates, figures and caveats checked by author against A/F/G/D; no invented quotes. 10m 1190 words, estimate 8.09–9.74 min including pauses and endscreen at assumed 130–155 wpm, actual timing unknown. Short/Long declared supported by ChannelSpec; runtime registration, owner approval, independent review, live lease state, rights, actual media/voice and audience UNVERIFIED. Independent session unavailable; use authorized local host canonical context, exact hash and unannotated text first, sources after initial reading. Do not reuse prior 10m review or replace pinned master.
+
+---
+
+## Historical first-pass review (02m and 05m evidence unchanged, 10m superseded)
+
 # Author review — exact six texts
 Author: current editorial assistant, not independent reviewer. Confidence medium for facts and EN/RU meaning; low-medium for audience and pacing. No audio or independent session. Authorial text judgement only, not CTR/retention or probability. One substantive revision after initial draft to tighten 2/5/10 and keep corporate award distinct from personal income. These are exact final editorial bytes.
 
