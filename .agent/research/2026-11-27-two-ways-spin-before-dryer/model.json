@@ -117,7 +117,24 @@
     "net_energy_formula": "1.32 - extra washer kWh",
     "illustrative_flat_price_usd_per_kWh": 0.25,
     "illustrative_extra_washer_kWh": 0.2,
-    "illustrative_load_count": 100
+    "illustrative_load_count": 100,
+    "fallback_1200_vs_800": {
+      "dryer_minutes_saved": 20,
+      "dryer_kWh_saved": 0.96
+    },
+    "step_1400_vs_1200": {
+      "dryer_minutes_saved": 10,
+      "dryer_kWh_saved": 0.36
+    },
+    "illustrative_cross_machine": {
+      "extra_washer_minutes": 40,
+      "extra_washer_kWh": 0.8,
+      "ETNA_7kg_net_minutes": -10,
+      "Siemens_9kg_net_minutes": 8,
+      "ETNA_7kg_net_kWh": 0.52,
+      "Siemens_9kg_net_kWh": -0.04,
+      "note": "Hypothetical common incremental washer inputs; separate dryer/load examples, no pooled measurement."
+    }
   },
   "limitations": "No washer time/energy data; equal test-load condition is the editorial comparison, not a claim of paired trial design. No distribution/error bars, intermediate drying trace, actual user appliance or textile safety outcome. Model clocks depict published endpoints only."
 }
