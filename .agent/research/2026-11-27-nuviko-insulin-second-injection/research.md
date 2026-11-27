@@ -1,0 +1,62 @@
+# Shared research — 27 November 2026
+
+## Decision and remote duplicate check
+Source main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`; #124 merged 2026-11-16, canonical main policy applies. Read main AGENTS, documentation index, writer skill/story PR section, editorial, narration, workflow, development, task contract, Nuviko profile/AGENTS/README/brand; approved exact #20/#25 B EN/RU calibrate action rather than formula. #13, #88 rejected; #46 and #25 protected. Remote 461 PR titles all states, issue endpoint pages contain PRs only; releases empty; channel video directory checked. #461 Paper latest story; #460 Two Ways, #459 Nuviko. Next Nuviko. No title match for insulin/Banting/Thompson; #450 Penicillin distinct (antibiotic supply rather than hormone replacement). Title scan does not prove every nested file/content absent. No change to protected PRs.
+
+Ten distinct initial ideas considered; actual title scan/desk comparison, not full research of eliminated ideas.
+
+| Topic | Initial appeal and decision |
+|---|---|
+| Leonard Thompson | Second attempt changes measurable outcome; continued need for treatment. Finalist. |
+| John Snow Broad Street | Map, pump, unexpected unaffected groups; common simplistic ending needs correction. Finalist. |
+| Danish rescue 1943 | People moved across water to safety; compelling human stakes but need bounded personal thread. Finalist. |
+| Gemini VIII | Rotating capsule and recovery; #23 duplicate. |
+| Shackleton | Survival and rescue; #97 and channel video 049 duplicate. |
+| Champollion/Rosetta | Deciphering a script; overlap with #453 Linear B angle. |
+| Alaska earthquake 1964 | Local physical consequences; needs angle distinct from existing tsunami topics. |
+| Camp Century ice core | Hidden base reveals ancient environment; unclear bounded narrative. |
+| Terracotta Army discovery | Immediate visual payoff; diffuse causal story. |
+| Vela incident | Unresolved cause weakens promised definitive payoff. |
+
+## Three finalists (audience: English-speaking curious general viewer, not specialized medical audience)
+- Insulin: opening “What changed between the first and second insulin injections given to Leonard Thompson?” Real hospital record, not a made-up awakening. First attempt modest biochemical effect, second meaningful clinical change, interruption exposes lifelong need. Payoff another thirteen years. Objection: familiar milestone / medical detail may slow story, and YouTube evidence is weak. Novelty is the first-versus-second and February contrast, not claim discovery is new to audience.
+- John Snow: opening “Why were the men at a brewery spared when cholera struck the streets around them?” CDC archived epidemiology case describes brewery workers' beer/water circumstances and water-source investigation: https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section2.html . Follow cases → water-source exceptions → evidence for transmission, not pump-handle mythology. Strongest alternative: visible detective mechanism, and recent discussion; however the frequently retold single-handle ending requires additional outbreak chronology and careful corrective framing. 
+- Denmark 1943: opening “How did thousands of people reach Sweden when their arrests were imminent?” Network mobilization, flight across water and incomplete outcome: approximately 7,200 Jews and 700 non-Jewish relatives rescued to Sweden, about 500 captured, not universal rescue. USHMM https://encyclopedia.ushmm.org/content/en/article/rescue-in-denmark and https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/danish-jews-escape . Objection: broad aggregate can flatten individual agency and complexity; needs a documented single perspective.
+- Decision: insulin's first/second/withdrawal/resumption progression and personal endpoint best support one coherent story at multiple lengths. John Snow has a stronger recent discussion signal; preference is editorial, not demonstrated demand.
+
+## Audience evidence — 2026-11-27 observation, public search-index snapshots
+Metadata only; no playback, no transcript viewed, no YouTube comments accessible, no CTR/retention/growth, duration and format unverified unless genre noted. Index dates differ; counts are not live. Language based on title/channel where known, audio unverified. No own analytics, no paid credits used. Baseline = same-author same-series or approximately same-date where available; not statistically sufficient.
+
+| Finalist | Video / author | Published | Indexed views / snapshot age | Language, genre, limits |
+|---|---|---|---|---|
+| Insulin | [Insulin Discovery 1921](https://www.youtube.com/watch?v=TOKlH7C41M8), Endocrine Society | 2017-01-12 | 13,898 / ~3w | EN title, historical discovery series |
+| Insulin | [Radio-Canada Info](https://www.youtube.com/watch?v=IzGHTwu5DDQ) | 2021-11-12 | 8,556 / ~2m | French broadcaster; audio unknown, news/history |
+| Insulin | [Media India Group](https://www.youtube.com/watch?v=TPu_j-TxeCE) | 2026-01-10 | 85 / ~2m | EN metadata, commemorative item; counter-signal |
+| Insulin | [Toronto Medical Historical Club](https://www.youtube.com/watch?v=hFpDOp6oDHg) | 2022-05-12 | 140 / ~5m | EN metadata, lecture; different genre |
+| Snow | [MBBS VPASS](https://www.youtube.com/watch?v=HiWgxwokUP0) | 2020-11-11 | 7,411 | EN metadata, educational review |
+| Snow | [Westminster City Council](https://www.youtube.com/watch?v=qYcTJr2jybI) | 2018-07-20 | 693 | EN metadata, interview/local history |
+| Denmark | [Yad Vashem](https://www.youtube.com/watch?v=6zZCSch_72U) | 2010-08-02 | 35,950 / ~2m | museum education, audio language unknown |
+| Denmark | [tvberlin](https://www.youtube.com/watch?v=TZKYFJvD08M) | 2023-10-10 | 355 | DE metadata, embassy exhibition news |
+
+Insulin baseline partial: Endocrine Society [Thyroxine Discovery 1914](https://www.youtube.com/watch?v=Ruxtw1wlej4) 2017-01-12, 4,537 views (~1m index); [Nuclear Receptor 1980s](https://www.youtube.com/watch?v=dgM9Oh-q8ws) 2,135 views (~5m index), same discovery series, date/length not reliably matched for second. The first insulin item exceeds these two snapshots, but the sample is tiny and dates/format/length not controlled. No matched ordinary-result baseline for other authors or finalists; no proof of comparative interest. The low-view insulin examples are significant counter-signals; 2026 item not in last 90 days. 
+
+Actual viewer questions/comments from publicly indexed Reddit discussions (not YouTube comments; votes not views):
+- https://www.reddit.com/r/diabetes/comments/rzqodf (2022-01-09, indexed 337 votes): anniversary question about plans, responses about daily insulin. https://www.reddit.com/r/diabetes_t1/comments/s1fdwr (2022-01-11, indexed 405 votes): discussion of first unsuccessful injection and additional 13 years; disagreement over describing treatment as defying death. Evergreen personal stake. https://www.reddit.com/r/midlyinteresting/comments/1nx5gka (2025-10-03, indexed 1,584 votes): circulated dramatic version; do not repeat unverified coma, parents, sudden awakening or quotes. No confirmed 30–90-day audience signal for insulin.
+- Snow: https://www.reddit.com/r/VictorianEra/comments/1y0s4cm/the_1854_broad_street_cholera_outbreak_70_men_at/ (2026-11-20, indexed 126 votes) discussion of pump-handle simplification, Whitehead and possibly self-promotional video; https://www.reddit.com/r/london/comments/s33jkh (2022) question about whether handle removal ended epidemic. Fresh versus evergreen separated. 
+- Denmark: https://www.reddit.com/r/TheWayWeWere/comments/dmh8pj (2019-10) viewer question about settling in Sweden, jobs and return; https://www.reddit.com/r/WW2HolocaustHistory/comments/1xawvkr/october_1943_the_fishing_boat_flottilas_that/ (2026-10-20, indexed 36 votes), recent but small. 
+- All demand labels UNVERIFIED, no ranking by views/subscribers or age ratios. No claim audience prefers insulin; test as editorial hypothesis.
+
+## Claim ledger
+Read 2026-11-27. Core primary publication [Banting, Best, Collip, Campbell, Fletcher, “Pancreatic Extracts in the Treatment of Diabetes Mellitus,” CMAJ March 1922, pp. 141–146](https://pmc.ncbi.nlm.nih.gov/articles/PMC1524425/) / [PDF](https://pmc.ncbi.nlm.nih.gov/articles/instance/1524425/pdf/canmedaj00414-0043.pdf). Text and table extraction read; screenshot attempts pages 1–3 encountered reCAPTCHA, so actual table image/layout UNVERIFIED, no recreated image passed off as archive.
+- Leonard case pp.144–145: 65 lb (29.48 kg), teenage patient, restricted ~450 calories from January 4; undernutrition, listlessness, prior restriction without evident benefit. Age varies between records; no exact age in scripts. General physiology explanation descriptive historical context, not treatment instructions.
+- Jan 11 initial extract: modest glucose decrease (~25%), no clinical improvement. Jan 23 refined extract: urinary glucose Jan 22 148.5g, Jan 24 8.7g (table I). These are 24h urinary amounts, NOT blood glucose or dosage. No change in prescribed diet noted in report. Ketone/acetone bodies disappeared on effective treatment; stronger and more active reported. No coma, resurrection, quotation, reaction or dramatic timing invented. 
+- Feb 5–15 no extract, large amounts glucose/trace acetone bodies returned; subsequent injections reduced glucose loss and removed acetone bodies. No cause of interruption stated in script, no claim deliberate trial. This is observed longitudinal evidence, not modern randomized trial. Clinical paper reports further patients. No cure.
+- [Lewis & Brubaker, JCI 2021](https://www.jci.org/articles/view/142239), sections early work, clinical use, commercialization: Macleod facilities, Banting/Best dog experiments, repeated glucose measurements, Collip refining, clinical sequence, Leonard lived another 13 years, early patients Teddy Ryder (1922 treatment, lived to 76) and Elizabeth Hughes (died 1981), spring 1922 supply shortage, university/Connaught and Lilly arrangement, nominal patent assignments and distribution/royalty arrangements, Nobel sharing. Avoid retrospective precise dates where review typo or conflict exists. 
+- [UMass Chan](https://www.umassmed.edu/dcoe/diabetes-education/patient-resources/first-insulin-injection/): January 11/23 dates, initial ineffective vs purified preparation. No unsupported acute reaction or invented bedside scene used.
+- [Macleod Nobel lecture](https://www.nobelprize.org/prizes/medicine/1923/macleod/lecture/) and [Banting Nobel lecture](https://www.nobelprize.org/prizes/medicine/1923/banting/lecture/): isolation/irritation/purification, role of Best and Connaught in larger-scale production; historically situated accounts. 
+- [Historia Medica](https://historiamedica.org/timeline/first-use-of-insulin-in-a-patient/): prior pancreatic extract attempts, including Zülzer. Avoid “first ever injection into a human.” 
+- [UNESCO memory of the world](https://www.unesco.org/en/memory-world/discovery-insulin-and-its-worldwide-impact): archive context, not a license. Rights to chart images, portraits and photographs UNVERIFIED; only original narration, potential future reconstruction with labeled evidence, no actual media.
+- No dosage, medical instruction, cure claim, price/availability claim for present day. No inference of causality from exact glucose values alone. Exact day-of-injection urinary total not presented as immediate post-injection measurement; comparison Jan 22 and 24 explicit.
+
+## Story value
+2m: failed attempt → improved preparation → measurements → interruption → outcome. 5m: adds background, team roles and production obstacle as consequence of continuing need. 10m: adds prior history, evidence problem, different early patients, manufacturing and ownership/credit context. No new speculative event. Opening questions answered respectively at failed attempt/new preparation, dietary constraint, and supply paragraphs. No cliffhanger for a missing version.
