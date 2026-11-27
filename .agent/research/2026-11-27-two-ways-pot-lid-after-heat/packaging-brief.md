@@ -8,3 +8,5 @@ Recommended 02m Short, exact EN SHA-256 5d45432e4274df5e9dab20cb3b122c23f30c4571
 | 3 | Why Covering a Hot Pot Matters / 900 g vs 8 g | open/covered pots and water-loss endpoint icons | source test loss; no invented rate or footage |
 
 Curious, practical tone. No fake danger. First frame confirms pot choice, no intro delay. Final frame returns to opening after completed answer. Related video kitchen efficiency candidate only after verified publication/real intro availability; no fake bridge. No generated assets, detailed prompts or storyboard before fresh independent review and real channel reference access.
+
+10m editorial-only revised angle (not selected): speed vs lid, then the holding meter and fill comparison. Exact 10m EN 73e36dc2dfd85b5df048b98ae448cc234de4d5e6bce4306c912b90d21c2ada29; keep the two pots/stages visibly separate. No universal dinner savings. The selected 02m brief/hash above is unchanged; no new artwork or production.
