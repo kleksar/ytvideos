@@ -1,0 +1,6 @@
+# Packaging — recommended 02m
+Three truthful concept options (no art generated):
+1. **Do I Need to Wait for Warm Water?** Sink with A cyan cool stream and B amber warm stream, same soap; first visible event is narrator at the kitchen tap before lunch; exact opening as in 02m. Promise: whether waiting yields a cleaning advantage and its conditional water cost. Answer: no established bacterial advantage; same complete routine, avoid modeled extra flow if comfortable.
+2. **Cold vs Warm: Which Wash Wins?** Two identical hands and dots, a question mark not winner stamp. Must show uncertainty immediately after normalized illustrative counts; never depict bacteria as actually measured in home sink.
+3. **The Water I Waste Before Washing My Hands** Meter and a one-litre bottle; qualify discard scenario, no universal waste claim. First frame still offers choice and main bacterial metric, final gives conditional 1.27 L estimate.
+Recommended #1. A cyan, B amber, payoff mint in channel style; not a render or storyboard. No actual reference bytes checked, no typography generated. Detailed storyboard and prompts deferred until independent reviewer sees exact recommended EN/RU and owner/runtime selection. Related video target and real intro not verified; avoid extra Short tail.
