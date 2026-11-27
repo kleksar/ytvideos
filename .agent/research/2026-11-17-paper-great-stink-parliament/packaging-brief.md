@@ -29,3 +29,5 @@ Use channel `channels/paper_detour/PROFILE.md`, `brand/PAPER_PLANE.md`, typograp
 ## Immediate review and acceptance limits
 
 Title and thumbnail concepts are hypotheses; mobile readability, exact crops and any CTR effect are **UNVERIFIED**. Independent listener, EN/RU pair, on-screen labels/rights, real voice timing, end-screen and MP4 remain **UNVERIFIED**. Do not produce or schedule without separate owner script approval and permitted runtime stages. Final Long end-screen is a later production task, not a falsely prefilled 10s video artifact.
+
+2026-11-27: this brief is still for the unchanged exact 05m master only. Revised 10m EN `b8e27fb3899bc40648141120b4f12e207a21f58a12ff8c8cf9b2cb01feebdf56`, RU `2ce540a88b8c6b04bf887ab73c9280d8140ad9f440cd403ef8618482e2c2ddc6` has its own paragraph-level visual intent in story-review.md; no 05m storyboard, timing, prompts or approvals transfer. 10m candidate remains not recommended for production.

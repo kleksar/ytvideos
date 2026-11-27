@@ -10,7 +10,7 @@ Created as a **Git-only editorial candidate**, not an official script-gated `ytv
 - Previous latest story PR: #157 Two Ways; next in rotation Paper. Avoid duplicates #47 1904 marathon, #65 Mona Lisa, #73 windshield, and protected accepted #25 Larry and #46 Apollo.
 - Research, provenance and real comparables: `research.md`; no "watched video" assertion.
 - Exact full scripts: `variants/{02m,05m,10m}/script.{en,ru}.txt` — blob and UTF-8 SHA-256 hashes in `story-review.md`.
-- Editorial recommended master: `variants/05m/script.en.txt` SHA-256 `51c3e265c86d47cf62a7006553cbe5aa033bffe70b1d1e13d7bfd1a2f41ae8c4`; 02m strong, 10m complete but **REWORK**. English is production language, Russian is full meaning-preserving review. Production **not approved**.
+- Editorial recommended master: `variants/05m/script.en.txt` SHA-256 `51c3e265c86d47cf62a7006553cbe5aa033bffe70b1d1e13d7bfd1a2f41ae8c4`; 02m strong, 10m complete and **CANDIDATE_REVISED** (not recommended over 05m). English is production language, Russian is full meaning-preserving review. Production **not approved**.
 - `packaging-brief.md` links exact 05m promise, first proof and payoff. Detailed storyboard/prompt spec withheld until exact master passes review; no old spans/timings transferred.
 
 ## Safe local import route (not executed)
@@ -25,3 +25,5 @@ Created as a **Git-only editorial candidate**, not an official script-gated `ytv
 ## Open items / accountable status
 
 `web.search` and GitHub connector observed available; current story demand is only an editorial hypothesis. Confirmed blockers: locally runnable `ytv` runtime absent; independent reviewer session/result absent; owner exact script approval absent; actual Paper reference bytes and rights unavailable; TTS/AV duration, full MP4, music/archival licenses and YouTube analytics unverified. No general docs/skills, ChannelSpec, active release or production state changed. CI results only count at the **exact remote final HEAD** when actually concluded.
+
+2026-11-27 editorial revision: `9be5070396c1342c53dc89f265c76e92b20240c0` baseline; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`; revised 10m EN `b8e27fb3899bc40648141120b4f12e207a21f58a12ff8c8cf9b2cb01feebdf56`, RU `2ce540a88b8c6b04bf887ab73c9280d8140ad9f440cd403ef8618482e2c2ddc6`. Previous 10m review/estimates do not transfer; no timed storyboard exists. 02m/05m unchanged. GitHub PR comments/threads empty and Draft at preflight; external runtime/active sessions could not be verified here. Do not overwrite a locally accepted master or create another run if discovered during import.
