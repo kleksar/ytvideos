@@ -1,3 +1,75 @@
+# Current authorial review — 2026-11-27, second editorial pass
+
+EDITORIAL_CANDIDATE_UNREGISTERED. Baseline exact commit `4e5e98b46017f0d030cc4f36175c607d6f73a148`, original 10m EN blob `40851f9670321fc96b570382c23c40b1b9437e33`, RU blob `964dc1e10ddae5c1841ac41aff61509ac7e0470c`, SHA-256 `b4e72ea246bce046b1c5fb0940ab1c40f4a4fe58eab287620c9e74745b84fd02` / `e62013470b3a6d07036a86f85bb5f2e167837538d3227e15d51c4b97d1686c43`. All prior evidence below is preserved as historical; only unchanged 02m/05m evidence remains applicable. Canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`; #124 merged. No owner approval or production permission. PR 462 Draft; baseline CI 46046301014 completed success. No independent session; no external lease visibility. Remote comments and unresolved review threads were empty at baseline.
+
+## Exact current texts
+
+| Path | Whitespace words | SHA-256 UTF-8 including LF |
+|---|---:|---|
+| variants/02m/script.en.txt | 286 | `0528737b52c64e46272e4d7b9033b0647c66da6d9b5ae3dbbd073f0e0de67316` |
+| variants/02m/script.ru.txt | 248 | `a5175c8010085da228542acf01c246542f2d4aa6b6e6fe18591c78065b5a982c` |
+| variants/05m/script.en.txt | 753 | `8170e3772ce368b09d48e30d82884de87d3c594de927b8b0d1bf3061fea38647` |
+| variants/05m/script.ru.txt | 612 | `7daff7e10939e9aa64ad811be28e79eb90b57c927d7b50b80d8810b4baefadc0` |
+| variants/10m/script.en.txt | 1289 | `bf38f2f981000c64d282ddbcbc70316df8a87ca91e20a2ac7f4def7290c6d307` |
+| variants/10m/script.ru.txt | 1111 | `c963708f85206e912876353591ce7443d02ed1dba00f9cdfdf06f1ae44bac71d` |
+
+## Before → after and assessment
+
+10m was 1507/1249 EN/RU words; now 1289/1111. The failed injection moves from paragraph 14 to paragraph 4, including the documented abscess. The February interruption leads into a documented July shortage and real funding decisions, then Elizabeth's letters connect unstable batch potency to patient experience. Removes repeated measurement explanations, generic production exposition and award coda; preserves all three clinical turns, 148.5 versus 8.7 g, uncertainty about interruption, patent distinction, Leonard's thirteen years. The shorter four files are unchanged by blob and hash: they already deliver complete arcs and the extra events belong to the 10m treatment of this same story. 
+
+| Criterion | 02m (unchanged) | 05m (unchanged) | 10m (revised) |
+|---|---|---|---|
+| Interest | 8 — human stakes, limited context | 9 — clear failure and repeatable effect | 8 — Clarke and Hughes add consequence; Leonard absent in middle |
+| Opening | 8 — two questions and ward | 8 — three questions and immediate ward | 9 — concrete questions and failed injection in P4 instead of P14 |
+| Development | 8 — chart and interruption | 9 — clear causal sequence and scale | 9 — clinical result → shortage → equipment → variable potency |
+| Payoff | 9 — thirteen years | 9 — why repeated care mattered | 9 — patient's years explain necessity of reliable supply |
+| Freshness | 8 — first/second/February angle | 8 — specific chart and supply | 8 — letters and July funding distinguish from discovery summaries |
+| Visual potential | 8 — ward, bottle, record | 8 — lab, record, factories | 9 — ward, train, equipment, correspondence; actual rights/likeness unverified |
+| Naturalness | 8 — compact; physiology dense | 8 — one patent paragraph slows | 8 — action-driven, but P17–21 shifts away from Leonard |
+| Demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+Confidence high on central clinical evidence; medium on historical additional claims (retrospective and letter transcription), medium on authorial assessment, low on audience. Means excluding demand 8.14 / 8.43 / 8.57. Recommend 05m despite 10m's higher rubric mean: it follows Leonard more continuously; at the third question's answer, 10m P17–21 spends several paragraphs away from him. 02m is a complete compact Long, not a Short. 5m adds research and production stakes; 10m adds real patient consequences and supply decisions, no filler. All are estimates at profile voice speed; no measured timing or guarantees. 
+
+## 10m exact paired editorial spans / visual intent
+
+One paired paragraph per span (not a shot count, not a storyboard, no generated visuals). Bound only to the new 10m hashes above. 02m/05m retain previous map; all future detailed storyboard, timing and visual QA bind to one exact approved master. No graphic overlays or recreated fake archive; Nuviko world and actual references only if selected later.
+
+| Beat | EN paragraph | RU paragraph | Narrative function / visual intent |
+|---|---:|---:|---|
+| 1 | 1 | 1 | Three questions; hospital/supply promise |
+| 2 | 2 | 2 | Toronto ward; weight and diet |
+| 3 | 3 | 3 | Food versus insulin; explain glucose/ketones with real objects not chart overlay |
+| 4 | 4 | 4 | Jan 11 failed injection; no invented patient reaction |
+| 5 | 5 | 5 | Laboratory success versus patient setback |
+| 6 | 6 | 6 | Earlier extract attempts; extraction problem |
+| 7 | 7 | 7 | Toronto team; repeated measurements |
+| 8 | 8 | 8 | Collip purification; no recipe/dose |
+| 9 | 9 | 9 | Jan 23 new extract; record before/after |
+| 10 | 10 | 10 | Jan 22/24 urinary glucose and patient improvement; no fake archive chart |
+| 11 | 11 | 11 | Clinical change; duration question |
+| 12 | 12 | 12 | February interruption and return; no invented reason |
+| 13 | 13 | 13 | Replacement, not cure; need continued supply |
+| 14 | 14 | 14 | March publication, May shortage and agreement |
+| 15 | 15 | 15 | Clarke surgery and limited supply; historical reconstruction, no graphic procedure |
+| 16 | 16 | 16 | Indianapolis equipment and return; recovery |
+| 17 | 17 | 17 | Funding request, New York donation |
+| 18 | 18 | 18 | Transition to variable potency and Hughes letters |
+| 19 | 19 | 19 | Hughes and nurse; letter about diet/study |
+| 20 | 20 | 20 | September letter; variable batch potency, no dosing instructions |
+| 21 | 21 | 21 | Factories; stable production |
+| 22 | 22 | 22 | Patent assignment versus manufacture cost |
+| 23 | 23 | 23 | Other patients' years; not universal access |
+| 24 | 24 | 24 | Leonard's 1935 outcome and repeated need |
+| 25 | 25 | 25 | Final human payoff; no fabricated post-discharge scene |
+
+## Hard checks and limits
+
+Author-only factual check against shared research (new claim ledger below in research.md), full EN/RU pairing and opening/payoff check performed. No historical dosage or medical directions. 02m/05m preserved; 10m is complete revised editorial candidate, not approval. Long supported by Nuviko ChannelSpec, loop N/A. All actual timing, audio, AV, independent first-listener/bilingual reviewer, rights and authentic image assets, detailed storyboard, runtime pins/registration, owner approval and audience response UNVERIFIED. Do not carry any baseline 10m review/approval/timing to current hash. Transfer via existing handoff and canonical runtime; fresh reviewer receives exact text first. No media/production or merge. Next unreviewed backlog: #51 subject to current head and protection checks; #62 already contains a three-version package, requires separate second-pass assessment, not automatic rewrite.
+
+---
+
+## Historical baseline review (exact previous hashes; not current 10m)
+
 # Individual author review — exact revisions
 
 Author: GPT-6.2, 2026-11-27. Confidence medium in editorial judgment, high in central clinical evidence, lower in comparative audience/visual judgment; no independent session or actual listener. Read each EN/RU text as a standalone narration, check counterparts and dates/units; author-only pass. One drafting/revision cycle with deliberate deletion of dramatic unverified coma/awakening, exact age, cause of interruption, absolute “first injection ever,” and patent price confusion. No reviewer impersonation. All six finalized editorial texts, not official gate.
