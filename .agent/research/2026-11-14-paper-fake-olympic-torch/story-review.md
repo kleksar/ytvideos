@@ -73,3 +73,43 @@ Scale 1–10, except demand is `UNVERIFIED` because public coverage is not obser
 **Storyboard binding:** old `storyboard.json` S001–S014 and estimated spans remain ONLY for `script.en.txt` / `script.ru.txt` and their byte-identical `variants/02m/` copies. The 05m and 10m scripts have no scene timing, final visual prompts, approvals or MP4. Each newly selected exact hash needs fresh scene map/visual intent, measured TTS and authentic independent review.
 
 **Status:** not reworked → three complete versions prepared → **author text checked** → **05m recommended**; independent review/runtime approval pending. Git-only `EDITORIAL_CANDIDATE_UNREGISTERED`. Transfer using canonical `ytv start`/context/pins/receipt/attachment flow and only one selected exact master. No production, merge, third-party generation or publication authorized.
+
+## 2026-11-27 editorial revision
+
+Baseline `a14e4950807e9bd8394565426e0e88a78f92a0bd`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843` (#124 merged). EDITORIAL_CANDIDATE_UNREGISTERED. Original root scripts, old storyboard and 05m pair preserved. Only 02m and 10m variants changed; older pointers and assessments of those variants are historical. No approval, media, runtime lease or independent reviewer receipt inferred.
+
+| Duration | EN | RU | Words EN/RU | Decision |
+|---|---|---|---:|---|
+| 2 min | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 249/194 | Revised; author seam checked |
+| 5 min | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 602/495 | Recommended; preserved |
+| 10 min | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1210/950 | Revised; target timing unverified |
+
+05m remains preferred: its failed first attempt, replacement, police escort, official welcome and correction provide consecutive developments. 02m now answers the event before restarting and adds the exam payoff. 10m adds the authentic relay handover, the preparations of real runners, mayor's return indoors, Larkin's reported link to Marsden, and later documentary return; removes repetitive conclusion/2000 detour. At 140–160 spoken words/minute, actual 10m timing remains UNVERIFIED (and may fall short); no padding. No production started.
+
+### Exact script hashes
+- `variants/02m/script.en.txt`: SHA-256 `542f3f8f69ecde19470692a056dedaadd87c12f3921c543306ca72fefc6abf96` (baseline SHA-256 `fb7ad8670bcbcf0964dec2643199f538c507e57d40bb79d5607e2ec99c890e93`)
+- `variants/02m/script.ru.txt`: SHA-256 `b03ebbb78bb7d7c879ea05728d011dea827665cca991f3f9d99b7ac30e1b362e` (baseline SHA-256 `f788cd831f4c1dedba5f0e34ca424d802d330a4dce639d26e586eaa4f062417a`)
+- `variants/05m/script.en.txt`: SHA-256 `48043547108fbce6865d59381e40096fae13b61375471f30481aae1a749e151f` (baseline SHA-256 `48043547108fbce6865d59381e40096fae13b61375471f30481aae1a749e151f`)
+- `variants/05m/script.ru.txt`: SHA-256 `d8f7ccd439a1b89de41477521569492d28d4a70f7a06a45a5595e4d568610321` (baseline SHA-256 `d8f7ccd439a1b89de41477521569492d28d4a70f7a06a45a5595e4d568610321`)
+- `variants/10m/script.en.txt`: SHA-256 `93fdd109c06111030c1a230555bd5b93c934a6eeda3187f720f7be69849c533d` (baseline SHA-256 `739fbd0f78fcc03ade2c3195e37aec10aeac47160028b6dcdd8e246d70339124`)
+- `variants/10m/script.ru.txt`: SHA-256 `f58641b3bda22911832a2bbf94ca66b2c3f7bff86d4379108ac632a67faf5024` (baseline SHA-256 `5ad7e0bb88cb03bbb59e9319f9119b30959d47dc3e41c06f5bb99efc06fa191c`)
+
+### Author assessment (not independent)
+| Criterion | 02m | 05m preserved | 10m |
+|---|---|---|---|
+| Interest | 8: police escort and unexpected student outcome | 8: failed first attempt becomes credible | 8: parallel real relay gives more context |
+| Opening | 8: cold contradiction clear | 8: questions promise causal answer | 8: questions followed by actual ceremony preparations |
+| Development | 8: failure, replacement, mayor, correction | 9: continuous action | 8: training and handover add stakes; slower setup |
+| Payoff | 8: authentic relay resumes, exam failure | 9: actual flame and personal consequence | 8: organiser acquaintance and subsequent life add consequence |
+| Angle | 7: known hoax, personal ending | 8: institutional credibility | 8: contrast genuine participants and student |
+| Visual | 8: tie, torch, crowd, mayor, exam | 9: distinct actions | 8: parallel runners and period scene changes |
+| Natural speech | 8: short concrete actions | 8: clear, some explanatory lines | 7: some reflective connective prose and source qualifications |
+| Confirmed demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+Confidence medium for author textual judgment; low for predicted viewer interest; no independent scores or measurements. 2→5 adds preparation/failed escort detail and full civic sequence; 5→10 adds authentic runner perspective and afterlife but risks attention loss around opening background and post-exam paragraphs. Prefer 05m, not approval.
+
+### Story map / visual intent (paragraphs)
+- 02m: 1 civic arrival; 2 real relay context; 3 prop; 4–5 initial failure; 6 police escort; 7–8 mayor and departure; 9 correction and true runner; 10–11 college response and completed payoff, followed by question returning to cold opening. Full EN/RU read twice, textual seam author checked: final question about previous day is answered by opening scene, not merely repeated arrival. AV UNVERIFIED.
+- 05m: original exact review/map above remains valid for same hash. No Short loop required for Long.
+- 10m: 1 opening questions; 2–3 official runners and planned welcome; 4–9 students, motive and prop; 10–15 first failed attempt/substitute; 16–19 crowd/actual relay; 20–22 mayor; 23–27 departure, organiser, correction and true runner; 28–32 aftermath, lost prop and later documentary. Use separate paper scenes for athletes, civic reception and college; new storyboard not produced or approved. No Long loop required.
+
+Hard checks: full EN/RU pairs and source qualification author checked; changed versions require fresh independent review. No measured duration, actual AV seam, registered run, reviewer result, owner approval, production, or demand verification. Existing root storyboard is historical only. Protected source bytes unmodified. Next candidate: inspect #80/#79 and backlog for untouched narratives; #62 requires separate assessment, #47 has previously recorded duplicate blocker. Inventory 332 open PRs, not claimed reviewed individually.
