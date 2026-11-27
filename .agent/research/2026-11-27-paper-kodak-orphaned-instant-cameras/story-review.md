@@ -6,7 +6,7 @@ Author: story-queue assistant, 2026-11-27. Initial drafting followed by a substa
 |---|---|---|---:|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 292/240 | STRONG_CANDIDATE |
 | 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 737/626 | STRONG_CANDIDATE — recommended |
-| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1482/1222 | CANDIDATE_REVISED |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1472/1215 | CANDIDATE_REVISED |
 
 | File | SHA-256 | Words |
 |---|---|---:|
@@ -14,8 +14,8 @@ Author: story-queue assistant, 2026-11-27. Initial drafting followed by a substa
 | variants/02m/script.ru.txt | `e80780b6a961a67ddfac3d505b386d11bbe2d7be652568a62e3a0b4a929adbad` | 240 |
 | variants/05m/script.en.txt | `46877cccb3ae4a8ab8ac077b15361b1965bdad24cd3218160a7d5dabb77d7b8f` | 737 |
 | variants/05m/script.ru.txt | `2532997b386d4fc43ba559768723d99e1b21293b19aa8b40ad6bc21592553ba3` | 626 |
-| variants/10m/script.en.txt | `2813c2fea8dee886acac0f1b59ecbbd0b29361940e11bb1d8346d2cc836589f0` | 1482 |
-| variants/10m/script.ru.txt | `4dbe6433b7b4dd15424c2cbd923dfc61781aeeb3eb31d4c227ab33377bcff5ab` | 1222 |
+| variants/10m/script.en.txt | `9b54cfb18edead0e5960da294a559f42a65b6d16739b702e8ca1fd5acfa2493e` | 1472 |
+| variants/10m/script.ru.txt | `e1ea9e85b686e4a3ba66ad248f52e1402e0835d580b3710537227e34cd9a51e0` | 1215 |
 
 ## Scores and evidence
 | Criterion | 2m | 5m | 10m |
@@ -35,7 +35,7 @@ Author: story-queue assistant, 2026-11-27. Initial drafting followed by a substa
 Illustrated Paper ChannelSpec supports both Short and Long. 02m short, 05m and 10m long, no format change. EN planning 130–155 spoken words/min, RU 120–145; not measured at channel voice/speed. Estimates exclude 10s Long end-screen and pauses; keep an additional 3–7 seconds for speech pauses as planning allowance, verify actual audio and end card locally. Russian is a semantic review translation, not a production voice selection.
 - 02m: EN 1.88–2.25 min; RU 1.66–2.00 min.
 - 05m: EN 4.75–5.67 min; RU 4.32–5.22 min.
-- 10m: EN 9.56–11.40 min; RU 8.43–10.18 min.
+- 10m: EN 9.50–11.32 min; RU 8.38–10.13 min.
 
 ## Checks
 | Check | 02m | 05m | 10m |
@@ -73,7 +73,7 @@ Each span is the entire matching numbered paragraph of the exact hashes above. A
 | 12 | Kodak concentrated on its own camera and film.… | Kodak сосредоточилась на собственной камере и плёнке. На… | Two Kodak camera prototypes and film packs |
 | 13 | For a buyer, the decision extended beyond the… | Для покупателя выбор не ограничивался ценой фотоаппарата. Каждая… | Buyer returns to shop for compatible film |
 | 14 | Polaroid sued on April twenty-sixth, 1976. The dispute… | Двадцать шестого апреля 1976 года Polaroid подала иск.… | Patent suit filed; docket and calendar |
-| 15 | The trial alone occupied seventy-five days. While the… | Только судебное слушание заняло семьдесят пять дней. Пока… | Growing camera sales while court case continues |
+| 15 | While the companies argued over their inventions, Kodak… | Пока компании спорили об изобретениях, Kodak продолжала продавать… | Growing camera sales while court case continues |
 | 16 | On October eleventh, 1985, the district court ruled… | Одиннадцатого октября 1985 года окружной суд постановил, что… | Court order and effective date; US market |
 | 17 | There was no need for a court official… | Сотруднику суда не нужно было обходить все дома… | Empty shop shelf and intact shutter |
 | 18 | Kodak announced an exchange program. Camera owners could… | Kodak объявила программу обмена. Владельцы могли зарегистрироваться по… | Exchange choices on counter; stock and disc camera |
