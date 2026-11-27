@@ -9,3 +9,5 @@ No generated media, no actual reference bytes. The opening is two illustrations 
 | C | 100% Battery, Two Different Electricity Bills / 100% заряда, два разных счёта | Both at 100%, meter comparison; annual example explicitly conditional, not a universal bill. |
 
 No assertion that wireless destroys batteries, drains charge faster, or raises household electricity bill by 45%. No real YouTube related target until verified published and authorized; possible standby theme if available, otherwise dependency. Short native related without extra tail. Long packaging concept only, no production profile. Detailed scene cards/prompts deferred; exact references unavailable and independent review not passed.
+
+Revised 10m editorial-only: same primary promise; after modeled daily bill show morning switch-off and separately labeled nonmagnetic sensitivity. Temperature is a separate reported observation, not a battery lifespan or savings claim. No change to exact recommended 02m title or linked SHA; no new storyboard.

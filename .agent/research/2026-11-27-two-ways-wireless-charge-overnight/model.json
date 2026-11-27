@@ -53,7 +53,18 @@
   },
   "sensitivity": {
     "different_nonmagnetic_pad_off_center_charge_wh": 33.93,
-    "not_isolated_alignment_effect": true
+    "not_isolated_alignment_effect": true,
+    "morning_switch_off_annual_extra_usd_at_0_30": 0.7807349999999998,
+    "immediate_disconnect_annual_extra_usd_at_0_30": 0.55626,
+    "different_nonmagnetic_pad_modeled_day_wh": 57.93,
+    "different_nonmagnetic_pad_modeled_idle_wh": 10,
+    "different_nonmagnetic_pad_annual_extra_usd_at_0_30_vs_A": 3.7591349999999992,
+    "source_temperature_observations_c": {
+      "wired_peak_approx": 30,
+      "magnetic_peak_approached": 40,
+      "off_center_much_of_charge_above": 40
+    },
+    "no_battery_lifetime_test": true
   },
   "limits": [
     "Daily totals extrapolate rounded test values; not direct daily measurements.",
