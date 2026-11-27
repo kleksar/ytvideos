@@ -66,3 +66,12 @@ Fresh 30–90 day interest: one Oct 2 2026 thread https://www.reddit.com/r/oswal
 2m compact documentary Long: questions → 1927 series → 1928 contract reversal → sound cartoon → 2005/06 contract problem and multi-rights solution → Epic Mickey. 5m Long: expands the parallel production and the negotiations, ends with game and archival recovery. 10m Long: adds Alice context, parties in original contract, fee proposal, staff departure, concrete animation production, failed distribution, continued Universal films, sports transition and preservation. The first hook of each asks what football and the rabbit have in common; the 1928 contract is the first substantive reversal, not a delayed introduction. All are Long by explicit editorial format selection, not Shorts; narrative loop not applicable. Channel supports both, but Long is a better fit for the question-led documentary arc, including the compact cut. Reserve 10s end screen separately under ChannelSpec; no target verified.
 
 Author's research and writing only. Independent review and runtime unverified. No media generation, rights clearance, upload, or publication.
+
+## 2026-11-27 revision evidence (10m only)
+
+- S8: AFI Catalog, Trolley Troubles, HISTORY lines 44–49, https://catalog.afi.com/Film/107691-TROLLEY-TROUBLES (read 2026-11-27). Poor Papa initially rejected, later released 11 June 1928; Trolley Troubles debuted 1927. Do not infer motives for rejection. AFI's retrospective fee account differs from S4's proposed increase; keep S4 explicitly attributed, not a verified contract. 
+- S1 lines 70–71 and S3 lines 487–501 re-read: reciprocal highlights, Sunday promotion, Michaels's own stated desire to stay with the crew, first TV broadcast on NBC 1971 and joking about becoming trivia. Paraphrase; no invented cash amount or literal barter. 
+- S5 museum interview 2010-11-29, lines 20–29: thirteen surviving films known to Spector at that point, pencil tests and specific detachable-ear/tail gags; this is his account of resources then, not a current survival count. Fictional brothers kept explicitly fictional. 
+- S6 lines 16–30: restored film premiere 12 Dec 2015, online catalogue, preservation copies; separate archival event, no claim that deal caused discovery. S2 centenary short retained from common research. Rights unchanged.
+
+Revised 10m replaces repeated contractual explanations with these events; 02m and 05m retained. No new audience claim.
