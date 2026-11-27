@@ -1,62 +1,35 @@
-# Story review
+# Story review — 2026-11-27 revision
 
-Author: current drafting assistant, 2026-11-27; moderate confidence in narrative judgments, not viewer analytics. Exact scripts, one story, new work; baseline N_A. #20/#25 principles used, no copied story. One author revision: removed unsupported household-scale language, clarified economics and timing wording. No independent reviewer capability in current host; no fabricated response.
+EDITORIAL_CANDIDATE_UNREGISTERED. Author assessment, moderate confidence for craft and retrospective facts; no audience measurement. Baseline f6461d87055ba9ef49ca2670ab5c0fe23222a6c5; canonical main 7c779c4b2fd379c85166ae1b164fa53d1ea08843 (#124 merged). Prior review belongs to baseline bytes only. No owner acceptance or production evidence in PR discussion/threads; external store/leases and Studio UNVERIFIED. No official runtime or independent session observed.
 
-| File | Words (whitespace estimate) | SHA-256 |
-|---|---:|---|
-| 02m/en | 287 | 2e8cecd4dce171b5899e52e8f63174d531731fdf1a26aace67891e4dd54d2b24 |
-| 02m/ru | 232 | ab6a467b59aaccfc560ae8803900f5b095ddbe5436d1088bcc15bb252b800a22 |
-| 05m/en | 683 | 1722ae11e9cb2431362e9c1919cea73d93db753788c2185112782215cc9aa7f7 |
-| 05m/ru | 590 | 47c936327176234751afa2d262477c048d11505c5c14f82f5efcff0619bc47aa |
-| 10m/en | 1482 | 91f25e207e6be4e0b827f7aa2d9a9e308cf17386568e141376c48eb96666f317 |
-| 10m/ru | 1212 | 1fe0010097d312022256da722a9155273942e05d85f45921f6bc3ccbacffad90 |
+| Full script | Words | Current SHA-256 | Baseline SHA-256 |
+|---|---:|---|---|
+| [02m/en](variants/02m/script.en.txt) | 301 | `306e2c2250902101f81e85ad6fd381ab5d97a12632adced63205c927a9f54d6a` | `2e8cecd4dce171b5899e52e8f63174d531731fdf1a26aace67891e4dd54d2b24` |
+| [02m/ru](variants/02m/script.ru.txt) | 241 | `a1d19f2d2c167cff612b07fd9889132583370c6023e611677caca6ad4f1a2c95` | `ab6a467b59aaccfc560ae8803900f5b095ddbe5436d1088bcc15bb252b800a22` |
+| [05m/en](variants/05m/script.en.txt) | 686 | `baf94e6df68ca0b99a8c7e7ec7139b3ad531093d2e434a44706522a3da129885` | `1722ae11e9cb2431362e9c1919cea73d93db753788c2185112782215cc9aa7f7` |
+| [05m/ru](variants/05m/script.ru.txt) | 594 | `db79dee0dd85a6bc9aece83e6dae54f87d7bd1b0387ad4880aaaa0b2e91f5082` | `47c936327176234751afa2d262477c048d11505c5c14f82f5efcff0619bc47aa` |
+| [10m/en](variants/10m/script.en.txt) | 1446 | `68b731a4c53a2cc3c4fa197fa89eedefdb1ab3d076c2d0360fa6b65f63376ae4` | `91f25e207e6be4e0b827f7aa2d9a9e308cf17386568e141376c48eb96666f317` |
+| [10m/ru](variants/10m/script.ru.txt) | 1183 | `680421d135ee3208a91b422ff439b751611b1bb645ad4031fe13416121c497cf` | `1fe0010097d312022256da722a9155273942e05d85f45921f6bc3ccbacffad90` |
 
-EN is master, RU complete meaning-equivalent editorial translation. Duration estimates based on illustrative effective EN pace 130–155 words/min, channel voice speed 1.10 remains pinned; no measured pace, no TTS. 2m Short must fit platform max and loop; 5/10 Long add 10s end screen. Actual durations UNVERIFIED. 10m length may need adjustment after timing; do not accelerate to target.
+Estimated EN duration at illustrative 130–155 words/min before pauses: 02m 1.9–2.3 min, 05m 4.4–5.3 min, 10m 9.3–11.1 min. Long adds 10s end screen; channel voice speed 1.10 unchanged. Actual timing UNVERIFIED. No forced speed.
 
-## 02m — STRONG_CANDIDATE
-Map: coin jam teaser → fictitious GE assignment → construction costs → real bar test → money jam payoff → custom chip and actual retail order → question leading to opening answer. 
-| Criterion | Score | Evidence |
-|---|---:|---|
-| Interest | 8 | “The first Pong machine stopped accepting money because its coin box was full” — commercial success appears as failure. |
-| Opening | 9 | immediately understandable without knowing Atari's history |
-| Development | 8 | “General Electric hadn't ordered anything” changes the assignment's meaning; bar then supplies actual demand |
-| Payoff | 8 | “a real order for a hundred and fifty thousand units” resolves invented customer |
-| Freshness | 7 | famous coin-box anecdote, paired with invented order and actual order |
-| Visual | 9 | square ball, physical coins, cabinet, smaller chip and carton of home units |
-| Natural speech | 8 | simple actions; phrase “commercially practical” is less spoken |
-| Demand | UNVERIFIED | public metadata only, no matched baseline |
-Main weakness: transition from jam to retail compresses competition and the home market. Author text checks: facts PASS with caveats in research; EN/RU PASS author comparison; format compatible PASS, measured duration UNVERIFIED; rights UNVERIFIED; independent UNVERIFIED.
-Loop alternatives: (1) opening coin jam / closing explicit cause question (selected); (2) opening fictitious customer / ending real retail order, thematic only; (3) opening bar repair / ending another breakdown, potential confusing chronology. Full EN/RU author text read twice, not audio. Selected last → first: “Why did that machine stop accepting money? The first Pong machine stopped accepting money because its coin box was full.” RU: “Почему же тот автомат перестал принимать деньги? Первый автомат Pong перестал принимать деньги, потому что его ёмкость для монет переполнилась.” Answer is disclosed in first cycle; semantic connection PASS (author), repetition of 'money' is slightly mechanical; independent loop and AV seam UNVERIFIED.
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest | 8 — failure from paid demand | 8 — two commercial reversals | 8 — engineer becomes manufacturer |
+| Opening | 8 — immediate coin jam, answer partly disclosed | 8 — invented customer / viable game / home promise | 8 — questions clear, earlier computer history delays hero |
+| Development | 8 — imaginary customer to actual receipts | 9 — failed Sears demo changes expected result | 8 — licensing resistance, hires, chip without distribution, failed toy show |
+| Payoff | 8 — real retail order, first evidence in bar | 9 — repair followed by order and manufacturing | 8 — engineer's career arc, real customer, return to jam |
+| Freshness | 7 — familiar anecdote | 8 — less familiar retail demo | 8 — first workers and toy show |
+| Visual expression | 8 — board, coins and home console | 9 — contrasting repair situations | 8 — workbench, training boards, toy stand and retail; some abstract economics |
+| Natural voice | 8 — direct verbs, less mechanical closing | 8 — original mostly retained; legal aside dense | 8 — shorter scan explanation, attributed actions replace repeated summary |
+| Demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 
-## 05m — STRONG_CANDIDATE, recommended
-Map: questions on fake client, manufacturing and living room → Computer Space and Alcorn background → costly home prototype, fictional assignment → quantified bar result and repair → pricing/competition → real home IC solution and retailer rejection → demonstration interference resolved → order and manufacturing, payoff contrasts.
-| Criterion | Score | Evidence |
-|---|---:|---|
-| Interest | 9 | two different failures that change the company's commercial prospects |
-| Opening | 8 | three concrete questions; early context introduces prior game quickly |
-| Development | 9 | “The game didn't appear” at the Sears demo creates a second problem after first success |
-| Payoff | 9 | real order and delivery challenge answer how this exercise entered homes |
-| Freshness | 8 | familiar origin but paired with less familiar demonstration and second commercial test |
-| Visual | 9 | old TV, cabinet coin jam, physical prototype, signal interference, chip and retail distribution |
-| Natural speech | 8 | mostly concrete actions, “Magnavox challenged Atari” transition could slow general audience |
-| Demand | UNVERIFIED | no measured audience baseline |
-Main weakness: brief legal aside not independently sourced to court records; deliberately no legal classification. Facts PASS author within source limits, translation PASS author, format compatible PASS, duration/rights/independent UNVERIFIED; loop N_A Long. Opening questions answered at assignment reveal, repair/pricing, retail order respectively.
+## Story maps and editorial visual intent (groups, not shot counts)
+- 02m: P1 coin jam → P2–4 engineer/TV/imaginary order (bench, schematic, monitor) → P5–6 bar and recalled weekly receipts (cabinet/coins) → P7–8 smaller chip and real Sears order (home device/retail) → P9 question about first evidence of paid demand. End→start answers the question by showing first paid-demand signal; cold entry is intelligible. Prior loop check invalidated; author text seam assessment only, independent double-cycle reading and AV UNVERIFIED.
+- 05m: P1 three questions → P2–4 previous game, engineer, assignment → P5–7 practical design and invented contract → P8–10 bar, benchmark and jam → P11–12 commercialization and chip → P13–15 buyer, failed demo, order → P16 contrast and payoff. Retained composition and second turning point; corrected unsupported discovery timing and approximate order only. Weakness: P11 legal aside briefly breaks human line. No loop required.
+- 10m: questions → earlier hardware and Computer Space → engineer and cost constraints (one short scanning explanation) → fake contract → bar and coin jam → resistance to manufacturing, assembly-school graduates, training two technicians (new visible actions) → economics/competition → working chip but no case/distribution → Quinn and Chicago demo → toy-show failure as separate retail hurdle → order, financing and human payoff. Weakness: prior hardware context and competition still slow the pace. No detailed storyboard or timing attached to unreviewed bytes.
 
-## 10m — REWORK
-Map: opening questions → economics of early games and stand-alone hardware → design cost tradeoffs → fake contract → bar and coin mechanism → margin and competition limits → chip redesign → distribution, demonstration and capital → commercial success and later cartridges. 
-| Criterion | Score | Evidence |
-|---|---:|---|
-| Interest | 8 | explains how a coin-operated market could become economical |
-| Opening | 8 | concrete questions; prior-game context has meaningful stakes |
-| Development | 7 | screen scanning and electronics cost section slows progress to fictional assignment |
-| Payoff | 8 | “A made-up order had become a real retail order” completes theme |
-| Freshness | 8 | contrasts commercial design constraints with retail adoption rather than first-game myth |
-| Visual | 8 | circuitry and price comparisons are drawable but can become repetitive |
-| Natural speech | 7 | paragraphs on picture generation and hardware are explanatory and more demanding |
-| Demand | UNVERIFIED | no matching long-form baseline |
-Main weakness: technical detour dilutes narrative, may be better for engineering audience. Facts PASS author within caveats (simplified circuitry), translation PASS author, format compatible PASS, duration/rights/independent UNVERIFIED, loop N_A. Opening answers at fake order, circuit section, bar/commercial resolution.
+Facts: new episodes supported by H; exact discovery unsupported and removed; approximate order with conflicting recollections in research. Author language pair checks: identical paragraph counts (9/9, 16/16, 30/30); new claims aligned. Format: Paper Short/Long supported by ChannelSpec; actual timing, independent review, demand, rights, visuals, runtime/approval UNVERIFIED. Long loop N_A. No measured audience claims. Prior review retained in Git history at baseline.
 
-## Comparison and production limits
-2m gives complete compact arc. 5m adds prior failed commercial ambition, actual benchmark, competing products, second demo failure and order. Those events change audience expectation; strongest reason to choose 5m. 10m adds engineering economics, distribution and financing and broader market shift, but adds less narrative tension per minute; REWORK not recommended. Interest/development/payoff all >=8 for 2m and 5m. These ratings are editorial, not retention/CTR or acceptance.
-No independent receipt, no official run, no measured audio or AV loop, no asset rights or actual reference bytes, no verified next-video intro or public target; defer storyboard until independent review exact recommended version. No production authorized.
-
+## Comparison
+2m delivers the complete compact commercial arc; compression skips the second failed demo. 5m adds the second reversal with minimal technical overhead and remains recommended. 10m adds decisions that changed Atari from design/licensing to manufacturing and then consumer distribution; more narrative value than scanning explanations, but early Computer Space background and manufacturing economics still dilute the human through-line. 10m remains an editorial candidate requiring pacing review, not mandatory production. 05m is not owner approval. All durations prepared and author-assessed; independent checks pending. No assets, runtime registration or publication.

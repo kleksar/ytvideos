@@ -52,3 +52,7 @@ All accessible A–F opened/read on 2026-11-27. Source types differentiated; ret
 
 Narrative chain: C/B prior expensive computer → B/C false order → B/C/A arcade test and jam → B/A pricing/imitators/dispute → A/F custom home IC → E/F sporting buyer → E demo interference → E/F 150k order, financing and market entry. The next test is not proof of current demand. No specific imagined motions or dialogue.
 
+
+## Revision evidence — 2026-11-27
+H. https://paperzz.com/doc/9455749/oral-history-of-allan--al--alcorn — transcript of Computer History Museum interview X4596.2008, April 26 and May 23 2008, read at lines 659–699 and 972–1049. Alcorn recalls licensing plan, resistance to manufacturing, recruitment from an assembly school and training two technicians; also working home chip before case/distribution, Quinn's familiarity with Odyssey and no purchases at the toy show. Attributed recollections, not independently verified dialogue. This interview recalls 200,000 units; D/E/F report 150,000. Use approximate 150,000 with discrepancy recorded, never claim shipment or sales count. The toy show and technical demo are distinct hurdles, no precise timing of the show relative to the demo asserted.
+B reread: 2000 Alcorn interview, lines 13–16 and 21–22, does not establish exact moment he discovered the fictitious contract. Remove timing claims in all language pairs. Weekly receipts are retrospective estimates, not audited accounts.

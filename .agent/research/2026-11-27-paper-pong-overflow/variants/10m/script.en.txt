@@ -1,7 +1,5 @@
 Why did Atari's boss invent a contract with a huge corporation? How did his engineer build a television game without a modern game processor? And why did a breakdown in a California bar help create a market for a product that many retailers didn't know how to sell?
 
-To understand what was strange about Pong, it helps to look at the game that Atari's founders had made before it.
-
 Nolan Bushnell had worked at an amusement park and had also played games on computers at college. In an arcade, each machine had to earn enough money to justify its cost. At the time, a computer powerful enough to play games was expensive. Even if the software was good, there was little point in putting thousands of dollars of equipment behind a coin slot.
 
 When smaller computers became available, Bushnell considered a system in which one computer would serve several screens. The idea was to spread its cost across several paying customers. But the computer struggled to keep up with the games as they were being played. Each screen needed its own electronics to help produce the moving pictures.
@@ -14,11 +12,7 @@ Then, in 1972, Bushnell and Dabney formed Atari. They brought in an engineer who
 
 Bushnell told Alcorn that General Electric had contracted Atari to build a game for consumers. He described what would appear on the screen. A ball would move between two paddles. The players would operate knobs, the machine would keep score, and there would be sound.
 
-The description made the game appear straightforward. Making it happen was something else.
-
-A television picture is built from lines drawn across the screen. At any given moment, the electronics have to determine whether to light up a part of the picture. To put a stationary square on the screen, a circuit can make the picture bright at particular positions. To make that square move, those positions have to change from one picture to the next.
-
-Alcorn used dedicated circuitry to produce motion. He didn't have the kind of affordable memory that a modern designer would use to store an entire picture. And every additional component had a cost.
+There was no cheap memory to store the whole picture. Alcorn had to make circuits control when the screen lit up as the television drew each line. Changing those positions made the ball move. Each new feature meant buying more electronic parts.
 
 One trade-off was the ball itself. A square was much simpler to generate than a circle. There was a similar choice over the score display. Alcorn recalled replacing a five-dollar component with simpler circuitry worth about three dollars. It made the numbers less elegant, but they still told the players who was winning.
 
@@ -28,7 +22,7 @@ And the screen was an ordinary black-and-white television that Alcorn had bought
 
 These choices made sense for a product that had to be cheap. Yet after about three months, Alcorn still needed more than seventy integrated circuits. Just the electronic parts were already expensive for a small home game, before adding everything else the customer would need.
 
-Then Alcorn learned what the project really was. There was no order from General Electric. Bushnell had chosen the simplest game he could think of to give the new engineer a chance to learn the technology. The impressive customer had been invented.
+There was never an order from General Electric. Bushnell had chosen the simplest game he could think of to give the new engineer a chance to learn the technology. The impressive customer had been invented.
 
 But the exercise was playable, and Atari decided to test it where the money could be counted. Dabney assembled a cabinet and the team installed the game at Andy Capp's, a bar in Sunnyvale.
 
@@ -40,9 +34,11 @@ Alcorn remembered being told that twenty-five dollars per week would be a good r
 
 Then came a report that the machine had stopped working.
 
-When Alcorn went to investigate, it wasn't a fault in the circuits that he had spent months designing. The quarters had filled the coin receptacle and jammed the mechanism. Different recollections put the repair call at different times after installation, but the central detail is the same. The game's paying customers had filled the machine beyond its capacity.
+When Alcorn went to investigate, it wasn't a fault in the circuits that he had spent months designing. The quarters had filled the coin receptacle and jammed the mechanism.
 
-There was now a commercial reason to build more of them. Atari began manufacturing Pong for amusement operators. Alcorn later estimated a cost of around five hundred dollars for the earliest machines and a selling price of around twelve hundred. That gap wasn't pure profit; a company still had overhead and other expenses. But buyers had a reason to pay for a machine that could take money week after week.
+There was a reason to build more machines, but Atari had started out intending to sell game designs to established manufacturers. Alcorn remembered sitting with the founders in the same bar while Bushnell argued that they should make the machines themselves. Alcorn and Dabney initially resisted the idea. The small team had to learn how to run a factory.
+
+Atari went ahead anyway. In Alcorn's recollection, a school that had assembled circuit boards for them sent over a group of graduates. Atari hired them. Alcorn began teaching two of the new workers to diagnose faulty boards. The engineer who had been hired to design a game now had to teach other people how to build it. Alcorn later estimated a cost of around five hundred dollars for the earliest machines and a selling price of around twelve hundred. That gap wasn't pure profit; a company still had overhead and other expenses. But buyers had a reason to pay for a machine that could take money week after week.
 
 Pong also had a limitation from Atari's point of view. A competitor didn't have to come up with a completely new game to compete with it. Other manufacturers put similar games into their own cabinets. And Atari had not invented the general concept of electronic table tennis. Ralph Baer's work had already led to the Magnavox Odyssey home system. Bushnell had seen a demonstration of it. Magnavox challenged Atari's use of the earlier technology, and Atari reached a settlement rather than going to trial.
 
@@ -50,16 +46,14 @@ The arcade boom was valuable, but the idea of a game in the living room hadn't g
 
 Harold Lee, Bob Brown and Alcorn worked on reducing the game logic to a custom integrated circuit. It was a way to get away from assembling the large collection of separate components that had made Alcorn's original assignment unsuitable for the home.
 
-Now Atari had another problem: how to sell a consumer product. Its arcade customers were operators, not families shopping for Christmas. It tried toy retailers and different departments at Sears. The response was discouraging.
+According to Alcorn, when the first home-game chip worked, they didn't even have a case for the device or an arrangement to distribute it. Atari knew how to sell to arcade operators. Selling to families meant finding an entirely different kind of customer.
 
-But one of the buyers who understood it was Tom Quinn, who handled sporting goods at Sears. Table tennis equipment was part of his business. A television version could be another kind of game for the same family recreation room.
+Atari found Tom Quinn, who bought sporting goods for Sears. He was already familiar with the Odyssey home game. He saw where a product like Pong could fit in the store.
 
 At a demonstration for Sears executives in Chicago, Alcorn connected the prototype to a television. The game failed to appear on the screen. This time, a broadcast signal from an antenna on the building was interfering with the signal the prototype used. Alcorn opened the machine, adjusted it and got the demonstration working.
 
-The executives had now seen the electronics inside. Atari also had to explain how the bulky collection of connections they had seen could become a compact consumer product. The custom chip was central to that promise.
+The problem of retail distribution went beyond the demo. Atari wanted the freedom to sell through other retailers. Alcorn recalled a New York toy trade show where buyers examined Pong but placed no orders. Sears turned out to be the partner willing to back the product.
 
-Ultimately Sears ordered a hundred and fifty thousand home Pong units for the Christmas season of 1975. That meant more than getting a working circuit onto a conference-room table. Atari needed facilities, workers and capital to deliver at that scale. The company obtained financing, and the game sold successfully under Sears' Tele-Games label.
+Ultimately Sears ordered about a hundred and fifty thousand home Pong units for the Christmas season of 1975. That meant more than getting a working circuit onto a conference-room table. Atari needed facilities, workers and capital to deliver at that scale. The company obtained financing, and the game sold successfully under Sears' Tele-Games label.
 
-The next year, the market was already moving beyond machines that could play only their built-in games. New systems offered interchangeable cartridges. Atari would eventually compete there too.
-
-But that later business depended on a lesson Atari had learned in a bar. There was a market not just among engineers who understood computers, but among people who wanted to play a game together. A complicated system had become a simple contest. A made-up order had become a real retail order. And the first prototype had done something no design exercise could promise: it had stopped working because strangers kept paying to use it.
+Alcorn had set out to design a cheap game for a customer who did not exist. Three years later, the company had a real customer that wanted enough machines to fill a production line. The same engineer had gone from adapting a television on a workbench to helping build a consumer business. The first machine, the one that had jammed with quarters in a bar, had given Atari something that no imaginary contract could: evidence that people would actually pay to play.
