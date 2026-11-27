@@ -1,0 +1,32 @@
+{
+  "type": "illustrated_model_not_new_measurement",
+  "source": "https://doi.org/10.1161/01.atv.11.3.586",
+  "same_brew": {
+    "coarse_grounds_g": 25,
+    "water_ml": 500,
+    "steep_min": 10,
+    "serving_ml": 150
+  },
+  "primary_metric": "total extracted coffee lipids in an equal serving",
+  "A": {
+    "transfer": "decant without paper",
+    "reported_lipid_mg_L": 1000,
+    "calculated_mg": 150
+  },
+  "B": {
+    "transfer": "through commercial white paper filter",
+    "reported_lipid_mg_L": 20,
+    "calculated_mg": 3
+  },
+  "calculated": {
+    "difference_mg": 147,
+    "reduction_percent": 98,
+    "concentration_ratio_A_to_B": 50
+  },
+  "calculation": "concentration mg/L * 0.15 L; 1 - 20/1000 = 0.98",
+  "caffeine_mg_L": {
+    "A": 860,
+    "B": 887
+  },
+  "limits": "means of reported samples; not mass balance, personal exposure estimate, individual LDL prediction, or comparison of taste/cost/heart attacks; no new experiment; no dose recommendation"
+}
