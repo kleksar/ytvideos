@@ -27,3 +27,14 @@ PR #83 expected baseline HEAD `c0a95a92af7207844e53bc4e9c28839063b2b228`; revise
 ## 2026-11-20 — 05m editorial revision handoff
 
 Baseline HEAD 61aaaf6415a1c1806ace95fda2a41744103a7898; revised full [EN](variants/05m/script.en.txt) SHA-256 8240391e9b2dd63613707f00c0d93dde78182f76d8c733c8d2529e5eec4f1df8, [RU](variants/05m/script.ru.txt) 949809b81a1614aceab4a37da69ccfa68ed03d020dd061ce6a1494870cc7b8c2, 660 / 580 words in 19 corresponding paragraphs. Previous 05m hashes d3f3fa7e9e5edb23badabd60d171014fea49df43aa0a5a30dedcf70066ea0baa / 9eb431b821788aec4f81c3b5699d9e2bca14beb297aee64b879770aebb2e2d62 are superseded. New direct P13–P15 museum evidence is mapped in common research. New 05m adds Leonard Mochel delivering May to her grandmother and an actual 1915 postal official demand for explanation; keeps prohibition outcome uncertain and flags Oklahoma inquiry as proposal, not trip. 02m, 10m and root masters/storyboard remain intact, with old scene spans and approvals inapplicable to this 05m. Rebuild 16:9 storyboard and word timing only for one exact owner-selected Long script. EDITORIAL_CANDIDATE_UNREGISTERED: no authorized local ytv runtime/pins, independent reviewer, verified TTS/MP4 or owner approval. Existing run, if any, must be migrated explicitly; no checkout-based pin overwrite.
+
+
+## 2026-11-27 current handoff (supersedes prior selection/hash and timing)
+
+| Target | Complete EN | Complete RU | Words EN/RU | SHA-256 EN / RU |
+|---|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 292/255 | `b2a582dd16aab556383965d74a9e7e406501ddf6ba197e0787138b000b6fb92f` / `2de75ed222a947d24281cdfc50d2493f4ea428bef4073d502143b15af5adc372` |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 732/634 | `b3d08f6748d4620b32cc2045c9ec6b38b4321524cb803a2353d3f9c0770f007c` / `a2c15441b565100e0986601cfc8117c0c6ae7e8114bcb4b96324dc8fb11d09e9` |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1497/1262 | `2c1187743cae2f125919c3d50c8d1765ab58e7f5a12ba430c257e67fcbc04c60` / `a4ec7055e80e227da31906ffb66116b4345567638c5240071ee1148659c6b5e9` |
+
+Choose one exact version only after direct newspaper facsimile check (LOC returned 403), independent reviewer and owner decision. 05m is provisional recommendation; authorized checkout: register via canonical `uv run ytv start --channel paper_detour --format long --intent 'Evaluate revised May Pierstorff source-conflict candidate'` and read actual pins and packets, not performed here. Existing run if any must be explicitly migrated, never replace pins. Old storyboard only historical, no new scene timing or approval; refer to exact paired editorial paragraph anchors in story-review. Current status EDITORIAL_CANDIDATE_UNREGISTERED, independent reviewer and leases UNVERIFIED; no authorized shared runtime available here.
