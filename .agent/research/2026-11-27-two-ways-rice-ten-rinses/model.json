@@ -77,5 +77,30 @@
     "not a household measurement",
     "not food safety or taste ranking",
     "not a universal winner"
-  ]
+  ],
+  "separate_cooked_rice_study": {
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5338010/",
+    "table": "Table 1",
+    "intervention": "hot-water wash AFTER cooking; distinct from F1 raw washes",
+    "metric_unit": "g·s",
+    "mean_stickiness": {
+      "Khao_Niao": {
+        "before": 75.4,
+        "after": 10.3
+      },
+      "Swarna": {
+        "before": 2.7,
+        "after": 0.6
+      }
+    },
+    "relative_loss_range_percent": [
+      65,
+      86
+    ],
+    "recovered_solids_mg_per_initial_g_approx": [
+      15,
+      55
+    ],
+    "limits": "Do not mix these values or units with Figure 1 of F1; association with amylose is not a single-factor causal guarantee."
+  }
 }
