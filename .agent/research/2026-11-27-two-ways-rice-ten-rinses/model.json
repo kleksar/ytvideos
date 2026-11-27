@@ -1,0 +1,81 @@
+{
+  "kind": "reconstruction_of_published_measurements",
+  "source": "https://doi.org/10.1016/j.foodchem.2018.07.172",
+  "accepted_manuscript": "https://media.catboy.camp/papers/rice_washing.pdf",
+  "metric": "instrumental stickiness (figure axis units not printed); lower only for goal of separated grains",
+  "same_initial_state": "within each variety: 10 g from same commercial variety, same final cooking ratio, same 30 min steam procedure",
+  "treatments": {
+    "A": {
+      "washes": 0,
+      "wash_water_ml_approx": 0,
+      "stir_seconds_approx": 0
+    },
+    "B": {
+      "washes": 10,
+      "wash_water_ml_approx": 800,
+      "stir_seconds_approx": 200
+    },
+    "context": {
+      "washes": 3,
+      "wash_water_ml_approx": 240,
+      "stir_seconds_approx": 60
+    }
+  },
+  "formula": "washes * approx 80 mL, washes * approx 20 s; excludes draining/filling",
+  "figure_1_approx_means": {
+    "order": [
+      "W0",
+      "W3",
+      "W10"
+    ],
+    "glutinous": [
+      40,
+      45,
+      47
+    ],
+    "medium": [
+      26,
+      18,
+      18
+    ],
+    "jasmine": [
+      28,
+      30,
+      19
+    ]
+  },
+  "table_1_pooled_stickiness": {
+    "W0": {
+      "mean": 31.4,
+      "sd": 8.4
+    },
+    "W3": {
+      "mean": 31,
+      "sd": 12.9
+    },
+    "W10": {
+      "mean": 28,
+      "sd": 14.9
+    }
+  },
+  "statistical_result": "washing main effect not significant for hardness or stickiness; rice variety × washing treatment interaction for stickiness p<0.01; no pairwise significance or equivalence asserted",
+  "cooking_ratio_rice_to_water": {
+    "glutinous": "1:1.3",
+    "medium": "1:1.6",
+    "jasmine": "1:1.6"
+  },
+  "probe": {
+    "sample_g": 0.5,
+    "diameter_mm": 35,
+    "speed_mm_per_s": 1,
+    "compression_percent": 40,
+    "tests_per_sample": 4
+  },
+  "limitations": [
+    "approximate graph values only; no invented error bars",
+    "no turbidity measurement",
+    "not a household measurement",
+    "not food safety or taste ranking",
+    "not a universal winner"
+  ]
+}
