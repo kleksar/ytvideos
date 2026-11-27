@@ -4,3 +4,5 @@ Three truthful concept options (no art generated):
 2. **Cold vs Warm: Which Wash Wins?** Two identical hands and dots, a question mark not winner stamp. Must show uncertainty immediately after normalized illustrative counts; never depict bacteria as actually measured in home sink.
 3. **The Water I Waste Before Washing My Hands** Meter and a one-litre bottle; qualify discard scenario, no universal waste claim. First frame still offers choice and main bacterial metric, final gives conditional 1.27 L estimate.
 Recommended #1. A cyan, B amber, payoff mint in channel style; not a render or storyboard. No actual reference bytes checked, no typography generated. Detailed storyboard and prompts deferred until independent reviewer sees exact recommended EN/RU and owner/runtime selection. Related video target and real intro not verified; avoid extra Short tail.
+
+10m alternate editorial visual intent: first normalized lab reveal p5, separate waiting meter p8, tap-off comparison p15, pipe fill and jug p17–19. Label model and proposed measurement; no actual household trial. Recommended 02m brief unchanged. No storyboard reuse across hashes.

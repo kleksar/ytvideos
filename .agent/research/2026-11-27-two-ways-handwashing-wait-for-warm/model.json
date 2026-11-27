@@ -55,5 +55,13 @@
     "formula": "m*cp*dT/3.6",
     "heat_wh": 26.769444444444446,
     "excludes": "heater efficiency, losses, supply conditions and tariffs"
+  },
+  "separate_lather_flow": {
+    "kind": "hypothetical comparison independent of A/B temperature wait",
+    "flow_l_min": 3.8,
+    "lather_seconds": 20,
+    "extra_l_if_left_running": 1.2666666666666666,
+    "extra_l_if_closed": 0,
+    "scope": "same full scrub; if both A/B close tap, identical saving cancels in difference; no measurement"
   }
 }
