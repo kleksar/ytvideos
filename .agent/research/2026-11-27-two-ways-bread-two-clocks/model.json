@@ -1,0 +1,61 @@
+{
+  "kind": "published_experiment_reconstruction",
+  "source": "https://doi.org/10.3390/foods10010076",
+  "not_home_measurement": true,
+  "inputs": {
+    "bread": "pan wheat; same manufacturing batch",
+    "bag": "LDPE identical 250 × 350 × 0.09 mm",
+    "loaves_per_container": 2,
+    "daily_sample_cm": 1.25,
+    "window_days": 10,
+    "room_c": 21.9,
+    "room_sd_c": 0.5,
+    "fridge_c": 8.2,
+    "fridge_sd_c": 0.2
+  },
+  "metrics": {
+    "visible_mold_first_reported_day": {
+      "A": [
+        4,
+        5
+      ],
+      "B": null,
+      "B_censor": "not detected by visual or plate count through day 10"
+    },
+    "firmness_percent_own_day0_at_day10": {
+      "wheat": {
+        "A": 390,
+        "B": 424
+      },
+      "mixed_rye_wheat_sourdough": {
+        "A": 330,
+        "B": 398
+      }
+    },
+    "relative_humidity_percent": {
+      "A": 89.9,
+      "B": 91.3
+    }
+  },
+  "derived": {
+    "wheat_A_multiple": 3.9,
+    "wheat_B_multiple": 4.24,
+    "sourdough_A_multiple": 3.3,
+    "sourdough_B_multiple": 3.98
+  },
+  "limitations": [
+    "No day-by-day interpolation, probability of safety, or home shelf-life prediction.",
+    "The warm wheat loaf was moldy before the day-10 firmness measurement; later texture can be affected by spoilage.",
+    "Fridge temperature is experimental, not recommended setting.",
+    "Freezer not tested. No overall winner across metrics."
+  ],
+  "planning_example": {
+    "slices": 12,
+    "near_term_days": 3,
+    "slices_per_day": 2,
+    "near_term_slices": 6,
+    "later_slices": 6,
+    "alternate_one_per_day_quantity_horizon": 12,
+    "not_safety_prediction": true
+  }
+}
