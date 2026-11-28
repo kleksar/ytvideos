@@ -1,0 +1,9 @@
+EDITORIAL_CANDIDATE_UNREGISTERED
+
+Source main: 7c779c4b2fd379c85166ae1b164fa53d1ea08843. PR #124 merged; canonical main used, no proposed policy substitution. New editorial-only branch work/story-drafts/nuviko-hela-genome-agreement-20261128; no existing runtime pins modified. Exact scripts and hashes in story-review.md.
+
+Capabilities: this host has GitHub remote text access but no accessible local ytv project checkout/configured runtime workspace or verified independent model session/spawn tool. No actual start/plan_summary/read_next/task_guide receipt, no run ID/lease, independent reviewer ID, approval, or official gate. No paid providers, TTS, image/video generation, audio, MP4, upload or schedule operations.
+
+Local transfer: fetch this branch into an isolated checkout, read README/research/story-review and verify SHA-256 for chosen version. For a new official story use canonical `uv run ytv start --channel nuviko_history --format long --intent "..."` from the real project workspace before official workflow research, read returned plan_summary/read_next/task_guide/pinned references; use short only if 02m selected. Coordinator must follow current task contract for registering exact artifacts; no fake accepted-source decision. Independent reviewer first sees exact EN and RU texts without author scores or beat map, sources after first reading; record actual schema response, any material change requires fresh review. Preserve separate script approval and media approval. If owner explicitly accepts exact script for production, coordinator follows documented source import route instead, not fabricated review.
+
+05m suggested; 10m pacing weakness and exact duration unverified. Rights and actual next-video source, visual references and storyboard unresolved. No detailed prompts until recommended exact text reviewed. Current files constitute full six-text editorial packet, not full production package.

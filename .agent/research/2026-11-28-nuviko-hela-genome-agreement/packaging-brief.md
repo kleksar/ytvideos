@@ -1,0 +1,9 @@
+# Packaging brief — recommended 05m
+
+Exact proposed EN SHA-256 f7edbc2567455699c68f147a6845a97774e8b82c18d250551d42dc60ccf3f2ca. Editorial concepts only, not thumbnails, no media bytes or measured CTR.
+
+1. **Why Scientists Took Henrietta Lacks's DNA Data Offline** — computer monitor with an abstract sequence window (not real family DNA), a file access state going from public to restricted; no false medical document. First spoken questions promise why 1951 tissue affected descendants and why data was removed. Full payoff: controlled access and two family seats, not a halt to cancer research.
+2. **Her Cells Changed Medicine. Then Her Family Got a Say.** — paired period-appropriate lab culture and modern meeting-room seats; no invented image of named relatives. First visual confirmation after questions: hospital/lab tissue transfer; eventual payoff is participation in access review.
+3. **The DNA Database That Had to Change** — public data representation and six unoccupied chairs with two visually distinguished by composition, not labels or false documentary reconstruction. Promise: how the data-access procedure changed; no implication that two seats meant a majority or veto.
+
+Recommend concept 1: strongest precise promise and counter-intuitive action. Main hook after immersion: digital sequence release and potential implications for living relatives. Historical photoreal Nuviko environment; no traveler unless actual two canonical PNG references can be opened and validated. No fake screenshot, no real private genotypes, no existing film footage or logos without clearance. Exact illustration decisions, continuity, shot timing and prompts deferred until independent review. Long story fully resolves before end screen. Relevant actual next-video intro and native target not verified; handoff dependency, no fabricated teaser or CTA. No image generation.
