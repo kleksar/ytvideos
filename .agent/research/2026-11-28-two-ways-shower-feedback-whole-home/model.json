@@ -1,0 +1,48 @@
+{
+  "status": "illustrative normalized household budget, not new measurement",
+  "source": "https://doi.org/10.1017/bpp.2024.25",
+  "metric": "L/household/day",
+  "baseline": {
+    "shower": 163,
+    "other": 333,
+    "total": 496
+  },
+  "A": {
+    "shower": 163,
+    "other": 333,
+    "total": 496,
+    "note": "baseline reference, not exact observed control"
+  },
+  "B": {
+    "shower": 126,
+    "other": 346.5,
+    "total": 472.5
+  },
+  "effect": {
+    "shower": -37,
+    "other": 13.5,
+    "total": -23.5
+  },
+  "net_pct": 4.737903225806452,
+  "offset_pct": 36.486486486486484,
+  "conditional_30_days": {
+    "net": 705,
+    "shower_only": 1110,
+    "offset": 405
+  },
+  "sensitivity": [
+    {
+      "other_increase": 0,
+      "net": 37
+    },
+    {
+      "other_increase": 13.5,
+      "net": 23.5
+    },
+    {
+      "other_increase": 37,
+      "net": 0
+    }
+  ],
+  "secondary_per_shower_saved": 5.54
+}
