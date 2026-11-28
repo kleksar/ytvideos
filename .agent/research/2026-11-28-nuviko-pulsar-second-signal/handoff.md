@@ -8,7 +8,7 @@ Local transfer: fetch branch into an isolated checkout/worktree, verify six exac
 - 02m/ru: `7c9d6fb82751e4171c06adc29715de185cd2d13467a816c247929332571ef5cd`
 - 05m/en: `a44296b695844f8601e5f43790630dd540bfe606a23ccc01b3fd3699a3ea0cb1`
 - 05m/ru: `9a36fff5c2cda93a6fdf20482afbe199929b3db89ce93bfb88d912097e6e8df0`
-- 10m/en: `5af8142af3f2387a09c151d4dc1b38c55fd4f309b42d8ad07744408411e8f94b`
-- 10m/ru: `37d08eb9767955aabdb9efe339428118168a2f2ed4ab28637fc853ba83216f35`
+- 10m/en: `10ffb3bcdb12cd5e81513ede07924988a4ab567d76cebdd088e70349ff6b472c`
+- 10m/ru: `5cbbd3aa97a924e366f90fbe28fb527522e030090baf990512fa2a5f4dd2d0d5`
 
 Revision baseline `f34cd962f67350392f5016d3bb939b2ba2b93a6f`; 10m prior evidence superseded by new exact text, 02m and 05m unchanged. Do not attach previous 10m storyboard/timing/review to revised hash. No trusted runtime or independent review available in current host, external production/lease status UNVERIFIED.

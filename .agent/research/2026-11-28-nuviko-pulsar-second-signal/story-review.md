@@ -6,7 +6,7 @@ Author: ChatGPT editorial agent. Confidence in central historical facts: high; e
 |---|---|---|---|---|
 | 02m | Short | [EN](variants/02m/script.en.txt), 300 words | [RU](variants/02m/script.ru.txt), 250 words | 116–133 s |
 | 05m | Long | [EN](variants/05m/script.en.txt), 757 words | [RU](variants/05m/script.ru.txt), 576 words | 293–346 s |
-| 10m | Long | [EN](variants/10m/script.en.txt), 1490 words | [RU](variants/10m/script.ru.txt), 1208 words | 577–672 s |
+| 10m | Long | [EN](variants/10m/script.en.txt), 1500 words | [RU](variants/10m/script.ru.txt), 1212 words | 581–677 s |
 
 Timing range: hypothetical 135–155 English words/min; upper end adds 10 s Long endscreen; pauses and actual 1.10x voice not measured, so all timing UNVERIFIED. RU is editorial translation, not a separate audio master. 
 
@@ -16,8 +16,8 @@ Timing range: hypothetical 135–155 English words/min; upper end adds 10 s Long
 - 02m/ru: `7c9d6fb82751e4171c06adc29715de185cd2d13467a816c247929332571ef5cd`
 - 05m/en: `a44296b695844f8601e5f43790630dd540bfe606a23ccc01b3fd3699a3ea0cb1`
 - 05m/ru: `9a36fff5c2cda93a6fdf20482afbe199929b3db89ce93bfb88d912097e6e8df0`
-- 10m/en: `5af8142af3f2387a09c151d4dc1b38c55fd4f309b42d8ad07744408411e8f94b`
-- 10m/ru: `37d08eb9767955aabdb9efe339428118168a2f2ed4ab28637fc853ba83216f35`
+- 10m/en: `10ffb3bcdb12cd5e81513ede07924988a4ab567d76cebdd088e70349ff6b472c`
+- 10m/ru: `5cbbd3aa97a924e366f90fbe28fb527522e030090baf990512fa2a5f4dd2d0d5`
 
 ## Individual scores
 
@@ -58,11 +58,11 @@ Timing range: hypothetical 135–155 English words/min; upper end adds 10 s Long
 
 ## 2026-11-28 queue revision
 
-Baseline commit `f34cd962f67350392f5016d3bb939b2ba2b93a6f`, canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`; #124 merged. Previous 10m SHA-256 EN `fc0f51d310997b6e6855bfadb3b1329770e76b5c79cca80110afb287211111b3`, RU `ce16951fdd2f0d69410579abec3a4dba2e0db63a9899f9effe9056333b92eec0`; exact baseline paths unchanged. 02m and 05m hashes preserved and checked. Counts use whitespace-separated tokens; new 10m 1490/1208 EN/RU, estimated 577–672 s. No runtime, actual audio, owner approval or independent session; external leases UNVERIFIED. PR metadata and discussion showed open Draft, no review or acceptance; no claim of external production absence. No storyboard exists for the new hash. Author textual parity and factual check only. The 02m loop was re-read twice and remains question→answer after completed payoff; actual AV UNVERIFIED. All three formats supported by current ChannelSpec. Next: independent review and actual timing; queue next unresolved Long, not repeat this revision without new defect.
+Baseline commit `f34cd962f67350392f5016d3bb939b2ba2b93a6f`, canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`; #124 merged. Previous 10m SHA-256 EN `fc0f51d310997b6e6855bfadb3b1329770e76b5c79cca80110afb287211111b3`, RU `ce16951fdd2f0d69410579abec3a4dba2e0db63a9899f9effe9056333b92eec0`; exact baseline paths unchanged. 02m and 05m hashes preserved and checked. Counts use whitespace-separated tokens; new 10m 1500/1212 EN/RU, estimated 581–677 s. No runtime, actual audio, owner approval or independent session; external leases UNVERIFIED. PR metadata and discussion showed open Draft, no review or acceptance; no claim of external production absence. No storyboard exists for the new hash. Author textual parity and factual check only. The 02m loop was re-read twice and remains question→answer after completed payoff; actual AV UNVERIFIED. All three formats supported by current ChannelSpec. Next: independent review and actual timing; queue next unresolved Long, not repeat this revision without new defect.
 
 ### 10m exact paired narrative spans (editorial, not storyboard)
 
-EN SHA-256 `5af8142af3f2387a09c151d4dc1b38c55fd4f309b42d8ad07744408411e8f94b`; RU SHA-256 `37d08eb9767955aabdb9efe339428118168a2f2ed4ab28637fc853ba83216f35`. P denotes full paragraph in respective file, 1-based; one intent per aligned span, not a required shot count.
+EN SHA-256 `10ffb3bcdb12cd5e81513ede07924988a4ab567d76cebdd088e70349ff6b472c`; RU SHA-256 `5cbbd3aa97a924e366f90fbe28fb527522e030090baf990512fa2a5f4dd2d0d5`. P denotes full paragraph in respective file, 1-based; one intent per aligned span, not a required shot count.
 
 | EN | RU | Visual intent |
 |---|---|---|
@@ -91,3 +91,5 @@ EN SHA-256 `5af8142af3f2387a09c151d4dc1b38c55fd4f309b42d8ad07744408411e8f94b`; R
 | P23 | P23 | Several directions / timing comparison |
 | P24 | P24 | Navigation result |
 | P25 | P25 | Scholarship plan / chart payoff |
+
+Final parity pass: clarified opening promise (demonstration, not replacement of GPS); exact approximate cable length in both languages; second-source evidence is a plausibility judgment, not proof against every artificial origin. Hashes above refer to the final text, not intermediate 70bdeb6fc4d0d3730cb5d700f8112f1c9679cfd8.
