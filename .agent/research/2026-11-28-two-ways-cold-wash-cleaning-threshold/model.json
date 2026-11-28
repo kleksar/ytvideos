@@ -1,0 +1,173 @@
+{
+  "basis": "Josephy et al., 2015; December 2014 measurements; pp. 3,6,7,9; model decisions not measurements",
+  "source": "https://storage.topten.eu/source/files/EEDAL15_Barbara_Josephy_Cold_Wash.pdf",
+  "score_rule": {
+    "operator": ">",
+    "target": 1.03,
+    "note": "editorial strict rule; study discusses 4% verification tolerance, not a regulatory-failure claim"
+  },
+  "rounds": [
+    {
+      "id": "T1",
+      "machine": "good",
+      "detergent": "good",
+      "load": "half",
+      "pretreatment": true,
+      "A": {
+        "program_c": 20,
+        "index": 1.032,
+        "kwh_per_kg": 0.07,
+        "minutes": 144
+      },
+      "B": {
+        "program_c": 40,
+        "index": 1.112,
+        "kwh_per_kg": 0.178,
+        "minutes": 178
+      }
+    },
+    {
+      "id": "T2",
+      "machine": "good",
+      "detergent": "good",
+      "load": "half",
+      "pretreatment": false,
+      "A": {
+        "program_c": 20,
+        "index": 0.994,
+        "kwh_per_kg": 0.081,
+        "minutes": 141
+      },
+      "B": {
+        "program_c": 40,
+        "index": 1.109,
+        "kwh_per_kg": 0.173,
+        "minutes": 174
+      }
+    },
+    {
+      "id": "T5",
+      "machine": "good",
+      "detergent": "sufficient",
+      "load": "half",
+      "pretreatment": false,
+      "A": {
+        "program_c": 20,
+        "index": 0.918,
+        "kwh_per_kg": 0.074,
+        "minutes": 150
+      },
+      "B": {
+        "program_c": 40,
+        "index": 1.012,
+        "kwh_per_kg": 0.168,
+        "minutes": 163
+      }
+    },
+    {
+      "id": "T3",
+      "machine": "good",
+      "detergent": "medium",
+      "load": "half",
+      "pretreatment": false,
+      "A": {
+        "program_c": 20,
+        "index": 0.97,
+        "kwh_per_kg": 0.081,
+        "minutes": 144
+      },
+      "B": {
+        "program_c": 40,
+        "index": 1.085,
+        "kwh_per_kg": 0.177,
+        "minutes": 164
+      }
+    },
+    {
+      "id": "T4",
+      "machine": "good",
+      "detergent": "medium",
+      "load": "full",
+      "pretreatment": false,
+      "A": {
+        "program_c": 20,
+        "index": 0.921,
+        "kwh_per_kg": 0.04,
+        "minutes": 151
+      },
+      "B": {
+        "program_c": 40,
+        "index": 1.009,
+        "kwh_per_kg": 0.121,
+        "minutes": 165
+      }
+    },
+    {
+      "id": "T8",
+      "machine": "sufficient",
+      "detergent": "sufficient",
+      "load": "half",
+      "pretreatment": true,
+      "A": {
+        "program_c": 20,
+        "index": 0.896,
+        "kwh_per_kg": 0.063,
+        "minutes": 92
+      },
+      "B": {
+        "program_c": 40,
+        "index": 0.999,
+        "kwh_per_kg": 0.191,
+        "minutes": 127
+      }
+    },
+    {
+      "id": "T9",
+      "machine": "sufficient",
+      "detergent": "sufficient",
+      "load": "half",
+      "pretreatment": false,
+      "A": {
+        "program_c": 20,
+        "index": 0.811,
+        "kwh_per_kg": 0.056,
+        "minutes": 90
+      },
+      "B": {
+        "program_c": 40,
+        "index": 0.928,
+        "kwh_per_kg": 0.184,
+        "minutes": 132
+      }
+    }
+  ],
+  "hypothetical": {
+    "kg": 4,
+    "usd_per_kwh": 0.3,
+    "loads_per_week": 3,
+    "weeks": 52,
+    "rewash_assumption": "same energy each cycle; no cleaning evidence for repeat"
+  },
+  "derived": {
+    "T1_winner": "A",
+    "T2_winner": "B",
+    "T1_electricity_reduction_percent": 60.67415730337078,
+    "T1_minutes_saved": 34,
+    "example_A_kwh": 0.28,
+    "example_B_kwh": 0.712,
+    "example_A_usd": 0.084,
+    "example_B_usd": 0.21359999999999998,
+    "annual_kwh_saved": 67.392,
+    "annual_usd_saved": 20.217599999999997,
+    "rewash_two_A_kwh": 0.56,
+    "rewash_three_A_kwh": 0.8400000000000001,
+    "rewash_A_then_B_kwh": 0.992,
+    "repeat_warm_energy_break_even_fraction": 0.6067415730337078,
+    "repeat_warm_time_break_even_fraction": 0.19101123595505617,
+    "repeat_warm_one_in_ten_average_kwh": 0.3512,
+    "repeat_warm_one_in_five_average_minutes": 179.6,
+    "repeat_two_A_minutes": 288,
+    "threshold_099_T2_winner": "A",
+    "threshold_112_T1_T2_winner": "NONE"
+  }
+}
