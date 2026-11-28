@@ -6,7 +6,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 - **Policy:** PR #124 was confirmed **merged**, so docs/standards/editorial.md from remote main (not a proposed revision) governs the three versions. No shared docs/skills/ChannelSpec changes.
 - **Story identity:** Johnstown Flood, South Fork Dam, Pennsylvania, 1889-05-31. Existing PR search checked Johnstown and competing duplicates; do not attach this script to a separate story without fresh checks.
 - **Language/channel:** Paper Detour EN production, RU editor translation, illustrated Long 16:9. The 02m/05m/10m files are complete narrative scripts; there are no invented runtime IDs.
-- **Exact recommended script:** `.agent/research/2026-11-17-paper-johnstown-flood/variants/05m/script.en.txt`, SHA256 `783570e5f1deca6a39f8e33fffb8e8b69446c42288483b93c702620322b50106`. RU corresponding SHA256 `ca3b3cb9d6ae8afabcf2e31312188401ee04a647fc9fb6564e19469cda68b5cf`. All six exact hashes in `story-review.md`. Long 10m is REWORK, not silently accepted. 05m recommendation is author opinion only.
+- **Exact recommended script:** `.agent/research/2026-11-17-paper-johnstown-flood/variants/05m/script.en.txt`, SHA256 `783570e5f1deca6a39f8e33fffb8e8b69446c42288483b93c702620322b50106`. RU corresponding SHA256 `ca3b3cb9d6ae8afabcf2e31312188401ee04a647fc9fb6564e19469cda68b5cf`. All six exact hashes in `story-review.md`. Long 10m is now REVISED_CANDIDATE (author-only), not accepted. 05m recommendation is author opinion only.
 
 ## Actual blockers and implications
 1. **Local production runtime was not available in this connector-only environment:** no checked-out project/DB with a working `uv run ytv start`; cannot truthfully read this new run's `plan_summary`, `read_next`, `task_guide` or pinned `reference_documents`. Therefore no official research/script gate, run ID, lease, receipt, or user approval exists. The owner's Git-only editorial exception authorizes this candidate but **not** a production task.
@@ -25,3 +25,6 @@ For a later accepted master, make detailed storyboard/prompts only for that exac
 
 ## Concurrency and traceability
 Before writing this PR, remote main and concurrently created/closed Drafts must be rechecked; if new conflict appears, stop or rebase new work without force-push. After create, read back branch SHA and diff and check actual CI statuses at that SHA. `queued` / `in_progress` are not success. No other story PR closed, merged, rebased or rewritten.
+
+## Revision 2026-11-28
+Baseline `7ee1936257c661ed50efbb5534d1b68080811d79`; current canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`. Exact revised 10m EN `402d109814acbf2db992f9e95fcd7fa25af5939c41c643810cd6995b3d11096a` / RU `c0c7da0cd52a8aae4a702abdc3c9d7867958a709f84fe851aa0dcbb6d59b5708`. 02m/05m unchanged; recommended 05m hash unchanged. Git-only text revision; no runtime capability or external lease registry observed, no known owner acceptance/production in PR body, conversation or review threads at preflight. Old 10m timing/review evidence invalidated; new paragraph map is editorial only. Follow existing local import procedure; no migration of preexisting pins.
