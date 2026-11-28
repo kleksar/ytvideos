@@ -8,7 +8,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 |---|---|---|---|
 | 2 min | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | STRONG_CANDIDATE |
 | 5 min | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | STRONG_CANDIDATE; recommended |
-| 10 min | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | REWORK; density/timing |
+| 10 min | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | STRONG_CANDIDATE; longer, not recommended |
 
 Recommended: 5 min Long. It retains the pilot, printing obstacle, inventor's reversal, first UPC purchase, reciprocal adoption problem, price-tag objection and clear identity/price payoff. Audience demand UNVERIFIED, not predicted CTR.
 

@@ -1,6 +1,6 @@
 EDITORIAL_CANDIDATE_UNREGISTERED
 
-Source main 7c779c4b2fd379c85166ae1b164fa53d1ea08843; #124 merged (original proposal 7d6bdf7702a2a241a33a21677fce29f26ada9b72, not treated as independent main). Current canonical policy used. New story, no baseline master replaced and no runtime pins migrated. Variant hashes in story-review; immutable PR commit/readback to be verified remotely.
+Source main 7c779c4b2fd379c85166ae1b164fa53d1ea08843; #124 merged (original proposal 7d6bdf7702a2a241a33a21677fce29f26ada9b72, not treated as independent main). Current canonical policy used. New story, no baseline master replaced and no runtime pins migrated. Variant hashes in story-review; baseline PR #473 commit 49f0109545f40629e77531b3d6a47e2866a4a8a6; 10m author revision replaces only its two texts and supporting review/status. 02m and 05m texts unchanged; no earlier independent review or timing to carry forward.
 
 Capability limitations: current environment has no trusted ytvideos local checkout and runtime store; git remote CLI could not resolve host. GitHub connector supports remote file/object reads and writes, not official ytv CLI. Direct and deferred tools inspected, no fresh independent model session available; GitHub reviewer-request endpoints are not that capability. No fabricated run, claim, lease, receipt, reviewer result or approval. No paid calls, media, TTS, imagegen, video generation, upload or schedule changes.
 
