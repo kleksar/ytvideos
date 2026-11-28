@@ -83,8 +83,8 @@ Timing estimates assume conversational EN narration and pauses, **not** measured
 |---|---:|---|
 | Значимость и интерес | 9 | The opening asks how to move whales without their known breathing place; Carroll and local workers supply a distinct human line. |
 | Начало | 9 | Paragraphs 2–4 establish the hunter, shrinking hole and concrete refusal to move; a viewer gets the main obstacle before the media backstory. |
-| Развитие и причина остаться | 9 | P4 refusal → P5 camera → P8 loss → P9–12 technique and guidance → P14–16 ridge and failed machinery → P18–21 collaboration and channel. |
-| Payoff | 9 | P21–24 connect the last hand-cut hole to the ship's passage and answer the survival question without claiming recovery or tracking. |
+| Развитие и причина остаться | 9 | P4 refusal → P5 camera → P8 loss → P9–12 technique and guidance → P14–16 ridge and failed machinery → P18–20 collaboration and channel. |
+| Payoff | 9 | P20–23 connect the last hand-cut hole to the ship's passage and answer the survival question without claiming recovery or tracking. |
 | Свежесть угла | 8 | Marie Carroll's dual involvement in media and ship coordination makes the local family visible; the broad event is familiar through a feature film. |
 | Визуальная выразительность | 9 | Slab pushed under adjacent ice, portable lights, two work fronts meeting; actual media not verified. |
 | Естественность речи | 8 | The explanation of why whales remain near their known hole is concrete; paragraphs 14–17 still slow down with engineering/diplomacy. |
@@ -98,7 +98,7 @@ Timing estimates assume conversational EN narration and pauses, **not** measured
 |---|---:|---|
 | Значимость и интерес | 9 | «киты не хотели покидать знакомое место» makes the problem specific rather than generic danger. |
 | Начало | 9 | Named hunter, shrinking opening and concrete obstacle by fourth paragraph. |
-| Развитие и причина остаться | 9 | Пятый абзац — телекамера; восьмой — потеря кита; девятый–двенадцатый — новый способ вести животных; четырнадцатый–двадцать первый — преграда и совместное решение. |
+| Развитие и причина остаться | 9 | Пятый абзац — телекамера; восьмой — потеря кита; девятый–двенадцатый — новый способ вести животных; четырнадцатый–двадцатый — преграда и совместное решение. |
 | Payoff | 9 | «соединить цепочку полыней ... с каналом» explains the rescue's verifiable result; later survival is unknown. |
 | Свежесть угла | 8 | Линия семьи Кэрролл даёт живую перспективу без выдуманного диалога. |
 | Визуальная выразительность | 9 | Глыба под соседним льдом, фонари, проход ледокола; no rendered frames. |
