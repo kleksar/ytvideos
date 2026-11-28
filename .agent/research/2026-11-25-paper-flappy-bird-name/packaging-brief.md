@@ -7,3 +7,7 @@ Recommended 05m English Long, script SHA-256 0e1d82ec626abe924349cdb4d8228108589
 3. “Why He Pulled the World’s Top Free Game” / “22 HOURS” — paper phone, download arrow ending at removal notice, clock; clear choice and deadline. Opening first question then Feb 8 announcement; interview explanation and actual removal fulfill it. No claim of forfeited audited daily revenue or secret lawsuit.
 
 Apply contrast / dominant relation / text complements image per thumbnails.md and Paper THUMBNAIL_PLAYBOOK, no numeric CTR promise. Exact output assets / rights / actual reference IDs / 320×180 QA / actual related intro / endscreen slot verification deferred. Long endscreen needs actual next-video input and existing authorized link, not a fabricated clip. No publication.
+
+## 10m revised alternative only
+
+10m exact EN/RU hashes 6ca866e00d434c480cc66c6df5b829625c3d97a6734e85ddbf6ac2877a89e001 / e559eb3773f8f9ce2cc2f8a1746746fa7a2d1d01528660a8c2b375b25671365c. If this alternative is later chosen, the third concept confirms the decision at P4; the reset promise resolves at P10–11; the main same-name promise resolves at P20–25 with three screens instead of the recommended 05m two-phone ending. Avoid implying any completed high-price sale or that the entire original revenue stopped. Existing 05m brief and its script hash unchanged. Paper plane planned at P11 auction/reset desk, not narration. No media or exact target.
