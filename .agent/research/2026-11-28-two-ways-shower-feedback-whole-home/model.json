@@ -1,0 +1,88 @@
+{
+  "status": "illustrative normalized household budget, not new measurement",
+  "source": "https://doi.org/10.1017/bpp.2024.25",
+  "metric": "L/household/day",
+  "baseline": {
+    "shower": 163,
+    "other": 333,
+    "total": 496
+  },
+  "A": {
+    "shower": 163,
+    "other": 333,
+    "total": 496,
+    "note": "baseline reference, not exact observed control"
+  },
+  "B": {
+    "shower": 126,
+    "other": 346.5,
+    "total": 472.5
+  },
+  "effect": {
+    "shower": -37,
+    "other": 13.5,
+    "total": -23.5
+  },
+  "net_pct": 4.737903225806452,
+  "offset_pct": 36.486486486486484,
+  "conditional_30_days": {
+    "net": 705,
+    "shower_only": 1110,
+    "offset": 405
+  },
+  "sensitivity": [
+    {
+      "other_increase": 0,
+      "net": 37
+    },
+    {
+      "other_increase": 13.5,
+      "net": 23.5
+    },
+    {
+      "other_increase": 37,
+      "net": 0
+    }
+  ],
+  "secondary_per_shower_saved": 5.54,
+  "observed_group_means_table3": {
+    "units": "L/household/day",
+    "source": "Table 3, printed p. 328",
+    "treatment": {
+      "before": {
+        "total": 494.72,
+        "shower": 160.1,
+        "other": 334.62
+      },
+      "after": {
+        "total": 476.05,
+        "shower": 123.78,
+        "other": 352.27
+      }
+    },
+    "control": {
+      "before": {
+        "total": 497.32,
+        "shower": 166.88,
+        "other": 330.44
+      },
+      "after": {
+        "total": 502.15,
+        "shower": 167.61,
+        "other": 334.54
+      }
+    },
+    "raw_total_changes": {
+      "treatment": -18.67,
+      "control": 4.83,
+      "difference": -23.5
+    },
+    "note": "Observed group means; descriptive difference, distinct from adjusted regression estimates. Not individual homes."
+  },
+  "adjusted_effect_table4": {
+    "total": -23.511,
+    "shower": -37.048,
+    "other": 13.537,
+    "source": "Table 4, printed p. 329"
+  }
+}
