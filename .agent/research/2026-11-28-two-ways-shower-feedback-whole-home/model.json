@@ -44,5 +44,45 @@
       "net": 0
     }
   ],
-  "secondary_per_shower_saved": 5.54
+  "secondary_per_shower_saved": 5.54,
+  "observed_group_means_table3": {
+    "units": "L/household/day",
+    "source": "Table 3, printed p. 328",
+    "treatment": {
+      "before": {
+        "total": 494.72,
+        "shower": 160.1,
+        "other": 334.62
+      },
+      "after": {
+        "total": 476.05,
+        "shower": 123.78,
+        "other": 352.27
+      }
+    },
+    "control": {
+      "before": {
+        "total": 497.32,
+        "shower": 166.88,
+        "other": 330.44
+      },
+      "after": {
+        "total": 502.15,
+        "shower": 167.61,
+        "other": 334.54
+      }
+    },
+    "raw_total_changes": {
+      "treatment": -18.67,
+      "control": 4.83,
+      "difference": -23.5
+    },
+    "note": "Observed group means; descriptive difference, distinct from adjusted regression estimates. Not individual homes."
+  },
+  "adjusted_effect_table4": {
+    "total": -23.511,
+    "shower": -37.048,
+    "other": 13.537,
+    "source": "Table 4, printed p. 329"
+  }
 }
