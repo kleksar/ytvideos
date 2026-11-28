@@ -8,8 +8,8 @@ Author: ChatGPT, single editorial session, 2026-11-25. Confidence moderate-high 
 | [variants/02m/script.ru.txt](variants/02m/script.ru.txt) | 227 | `58c5c72501c00d07533792b61c64f63677c2ea45abae425a8f3fce68fe326184` |
 | [variants/05m/script.en.txt](variants/05m/script.en.txt) | 683 | `7195fd52da0b7adcccafee38cb1c8d91abe8fab52c28878452b8395af33f6f46` |
 | [variants/05m/script.ru.txt](variants/05m/script.ru.txt) | 552 | `4afd9d0dcee39129bece5afb6f563e4e09ec7d1e739b9c1dc7618af59042ee6d` |
-| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1439 | `1b42f28057764ccc721de750d2be61d6090600f4336126306867f8fe39d7e0fe` |
-| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1140 | `65f5242ac2e4ff0c6a735605264e2d286ca76373f4847a6d0d5261f9a068478a` |
+| [variants/10m/script.en.txt](variants/10m/script.en.txt) | 1381 | `0b1cdf52e097492de1389d175f64ff9126794679f522944094606a9d17a67d87` |
+| [variants/10m/script.ru.txt](variants/10m/script.ru.txt) | 1107 | `2329c9fce35f6926d837d8b1dffc346bc2cbfef15abeb962138c0c4133cb6c17` |
 
 Estimated delivery: English 125–155 spoken words/minute (assumption, not measured; channel voice speed 1.10 applied only by runtime, not a proposal to change it); RU editorial translation 115–145 wpm assumption. Reserve ~10 sec Long end screen and natural pauses; exact timings depend on actual voice/pauses, and selected version can require authorized pacing edit. All three are standalone narrative drafts, two-minute Short and Long 5/10 both supported by Nuviko ChannelSpec. 
 
@@ -47,22 +47,56 @@ Story map: questions → facility and human routine → declining oxygen → ext
 
 Main defect: three opening questions and explanation of photosynthesis can slow pacing; compared with short the extra length earns the test design and known-sink check. No unsupported direct quote or hidden causal claim. 
 
-## 10m — REWORK (complete text, not recommended)
+## 10m — REVISED_CANDIDATE (not recommended)
 
-Story map: questions → design and boundary/energy → pizza and carbon cycle → health impact/first oxygen → leakage inference → soil microbiology and glass light → stoichiometric clue → concrete chemistry → matched drill experiment, depth profiles, isotopes → repeat addition, outcome, laboratory. Additional information beyond 05m: material versus energy closure, crew account of pizza and physician arithmetic, light transmission, distinction fraction/pressure, approximate gas stoichiometry, sampling date and depth method, isotope rationale and uncertainty.
+2026-11-28 author review. Baseline `7830e866d535cefdf0b70f7e49b339d39d0f8341`; prior exact EN hash `1b42f28057764ccc721de750d2be61d6090600f4336126306867f8fe39d7e0fe`, RU `65f5242ac2e4ff0c6a735605264e2d286ca76373f4847a6d0d5261f9a068478a`; unchanged shorter texts preserve earlier evidence. Current canonical main 7c779c4b2fd379c85166ae1b164fa53d1ea08843. 1381 EN / 1107 RU words. EN estimated 545–673s including 10s end screen, excluding extra pauses. Actual timing UNVERIFIED.
 
-| Criterion | Score | Exact basis |
+Questions → entry/farm → oxygen decline P5 → health/intervention → crew cultivation response → low leaks → rich soil and reduced light → second gas discrepancy → two hypotheses → inside/outside cores → mineral and isotope evidence → second oxygen addition → exit → publication. Retains pizza, doctor arithmetic, paired samples and second intervention; adds actual crew efforts, two competing explanations, measured study estimates; removes long facility exposition before stakes. 
+
+| Criterion | Score | Exact basis / weakness |
 |---|---:|---|
-| Interest / significance | 8 | Actual life-support failure, informative space-habitat relevance. |
-| Opening | 8 | Three specific questions, early construction; main oxygen hook after six setup paragraphs may feel slow. |
-| Development | 7 | “For a simple case of respiration…” through carbonate chemistry is a fairly long technical explanation before sample action. |
-| Payoff | 9 | Physical inside/outside comparison and independent carbon signature, survival and precise scope. |
-| Freshness | 8 | Investigation method and energy/material distinction add real substance. |
-| Visual potential | 8 | Concrete sample details strong; isotope discussion harder to illustrate without overlays. |
-| Natural speech | 7 | “Carbon occurs in forms with slightly different atomic masses” is accessible but academic rhythm in context. |
-| Audience demand | UNVERIFIED | No matched long-format baseline. |
+| Interest / significance | 9 | P5 and P6, actual oxygen decline and physician arithmetic, without inventing imprisonment. |
+| Opening | 9 | P1 questions and P2–4 actual entry/food; oxygen decline P5 rather than P9. |
+| Development | 8 | P8 crew intervention, P14 competing explanations, P16 sample action. P17–20 remains dense. |
+| Payoff | 9 | P18 mineral, P21 two processes and P22–23 repeat supply and survival. |
+| Freshness | 8 | P8 cultivation response, P14 diagnostic alternatives; established topic. |
+| Visual potential | 9 | Physical soil, crops, and cores; isotope comparison needs careful conceptual treatment. |
+| Natural speech | 8 | P6, P8 actions; P19–20 still relatively scientific. |
+| Audience demand | UNVERIFIED | No matched viewer baseline or new analytics. |
 
-Main defect: several successive explanation paragraphs after intervention reduce dramatic momentum. Do not pad; a future revision could reorder the core drilling ahead of some mechanistic exposition, then recheck exact factual sequence and hash. 
+Confidence moderate-high on sourced mechanism, moderate on attention/voice. Not independent review. No timing, storyboard or approval inherited for changed pair. Long loop N_A.
+
+### 10m paired spans (editorial visual intent, not storyboard)
+
+Applies only to EN `0b1cdf52e097492de1389d175f64ff9126794679f522944094606a9d17a67d87` / RU `2329c9fce35f6926d837d8b1dffc346bc2cbfef15abeb962138c0c4133cb6c17`. No actual references, rights or shot timing established.
+
+| Span | EN / RU paragraph | Intent |
+|---|---|---|
+| 1 | P1 / P1 | Questions/glass habitat |
+| 2 | P2 / P2 | Entry and steel liner |
+| 3 | P3 / P3 | Pizza ingredients |
+| 4 | P4 / P4 | Farm/air cycle |
+| 5 | P5 / P5 | Oxygen decline |
+| 6 | P6 / P6 | Crew fatigue and calls |
+| 7 | P7 / P7 | Outside oxygen |
+| 8 | P8 / P8 | Biomass and soil cultivation |
+| 9 | P9 / P9 | Leak tests |
+| 10 | P10 / P10 | Prepared soil |
+| 11 | P11 / P11 | Microbial activity |
+| 12 | P12 / P12 | Roof light |
+| 13 | P13 / P13 | Gas discrepancy |
+| 14 | P14 / P14 | Two explanations |
+| 15 | P15 / P15 | Concrete hypothesis |
+| 16 | P16 / P16 | Paired cores |
+| 17 | P17 / P17 | Depth comparison |
+| 18 | P18 / P18 | Mineral reaction |
+| 19 | P19 / P19 | Uptake estimate |
+| 20 | P20 / P20 | Carbon forms |
+| 21 | P21 / P21 | Two processes/uncertainty |
+| 22 | P22 / P22 | Second oxygen supply |
+| 23 | P23 / P23 | Exit and later publication |
+| 24 | P24 / P24 | Present facility |
+| 25 | P25 / P25 | Ground/walls |
 
 ## Verification matrix
 
@@ -82,4 +116,16 @@ Author pass is not official gate. Independent fresh model session unavailable in
 
 ## Comparative recommendation
 
-Five minutes is the best balance: 2m already resolves the mystery, 5m adds the reason ordinary respiration alone did not match readings, the control group and second intervention. Ten minutes adds true detail but the middle becomes a lesson rather than sustained human-action story; development 7 rules out STRONG_CANDIDATE regardless of other scores. Author recommendation 05m only, no choice/approval by owner. Word-count estimate does not establish exact duration. One authored draft per variant plus a focused text revision of causal wording (oxygen vs CO2), no independent review performed.
+| Criterion | 02m | 05m | 10m revised |
+|---|---:|---:|---:|
+| Interest | 9 | 9 | 9 |
+| Opening | 9 | 8 | 9 |
+| Development | 8 | 9 | 8 |
+| Payoff | 9 | 9 | 9 |
+| Freshness | 8 | 8 | 8 |
+| Visual | 9 | 9 | 9 |
+| Speech | 8 | 8 | 8 |
+| Demand | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Mean (seven scored) | 8.57 | 8.57 | 8.57 |
+
+02m retains full answer and survival before recap question; author two-cycle reading of both complete texts: opening gives the answer to the final question, delivery may still sound like a restart; actual AV seam and independent reviewer UNVERIFIED. 05m earns time with gas accounting, paired cores and repeat supply without a long scientific sequence. 10m adds actual cultivation decisions, competing hypotheses and evidence magnitude but P17–20 taxes attention, so 05m still recommended. No owner approval or official run, no production. External leases and actual duration UNVERIFIED.
