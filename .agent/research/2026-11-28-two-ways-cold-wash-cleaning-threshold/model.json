@@ -101,6 +101,44 @@
         "kwh_per_kg": 0.121,
         "minutes": 165
       }
+    },
+    {
+      "id": "T8",
+      "machine": "sufficient",
+      "detergent": "sufficient",
+      "load": "half",
+      "pretreatment": true,
+      "A": {
+        "program_c": 20,
+        "index": 0.896,
+        "kwh_per_kg": 0.063,
+        "minutes": 92
+      },
+      "B": {
+        "program_c": 40,
+        "index": 0.999,
+        "kwh_per_kg": 0.191,
+        "minutes": 127
+      }
+    },
+    {
+      "id": "T9",
+      "machine": "sufficient",
+      "detergent": "sufficient",
+      "load": "half",
+      "pretreatment": false,
+      "A": {
+        "program_c": 20,
+        "index": 0.811,
+        "kwh_per_kg": 0.056,
+        "minutes": 90
+      },
+      "B": {
+        "program_c": 40,
+        "index": 0.928,
+        "kwh_per_kg": 0.184,
+        "minutes": 132
+      }
     }
   ],
   "hypothetical": {
@@ -123,6 +161,13 @@
     "annual_usd_saved": 20.217599999999997,
     "rewash_two_A_kwh": 0.56,
     "rewash_three_A_kwh": 0.8400000000000001,
-    "rewash_A_then_B_kwh": 0.992
+    "rewash_A_then_B_kwh": 0.992,
+    "repeat_warm_energy_break_even_fraction": 0.6067415730337078,
+    "repeat_warm_time_break_even_fraction": 0.19101123595505617,
+    "repeat_warm_one_in_ten_average_kwh": 0.3512,
+    "repeat_warm_one_in_five_average_minutes": 179.6,
+    "repeat_two_A_minutes": 288,
+    "threshold_099_T2_winner": "A",
+    "threshold_112_T1_T2_winner": "NONE"
   }
 }
