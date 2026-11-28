@@ -1,0 +1,12 @@
+# Proposed Long packaging — 05m only
+Master candidate EN SHA-256 dbdd555daf4832b1948903c2e25b22a2a3d7f724d1bf622571aa7c2018019ec2. Text-only editorial concepts, not generated or approved images. Current Nuviko VISUAL_PROFILE: natural muted photoreal environment, 2D traveller only if actual two accepted reference PNGs supplied; avoid host here until actual references are opened. No overlays in reconstructed film except authorized subtitles. Thumbnail art can use concise text as an optional concept. No fake archival photograph. Facts checked against research. Detailed storyboard deferred.
+
+| ID | EN title | Thumbnail idea | Early confirmation | Full answer / risk |
+|---|---|---|---|---|
+| C1 (recommended) | The Watch That Had to Be Built Twice | Two similar silver watches on opposite sides of a dark workshop bench, one foreground dominant, no text; distinct hands only if historically supported, no implied literal simultaneous scene | opening watch question; first small watch and H4 change of scale | copy K1 praised by Cook; avoid implying original destroyed |
+| C2 | How a Watch Could Locate a Ship | Watch dial in ship cabin foreground and open sea horizon in background; optional "WHERE ARE WE?" | compass cannot locate longitude, noon/reference time example | H1 headland then H4 and K1; avoid implying GPS or a watch alone without observation |
+| C3 | He Proved His Watch Worked. Why Wasn't That Enough? | H4 and a single restrained period document on a desk, no fake legible signatures/amounts | 1761 trial and captain's request | Barbados success and two-stage conditions then replication; avoid falsely claiming no reward or conspiracy |
+
+Different promises: replication (C1), mechanism (C2), institutional conflict (C3). Apply thumbnail standard: one dominant recognizable object, contextual contrast, title adds meaning rather than repeats; no quantitative CTR claim. This preliminary packaging note is not a final thumbnail_plan or actual asset. Before packaging task read exact thumbnail evidence/practitioner notes and actual references, source rights, resolve native endscreen with real relevant video and clip. No selected real target/intro yet. 
+
+Revision note: this 05m brief remains tied to unchanged master hash above. 10m's new Cook/St Helena payoff is not asserted covered by this brief; re-evaluate promise, early confirmation and storyboard if 10m chosen. No media or approvals altered.
