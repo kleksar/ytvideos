@@ -8,3 +8,5 @@ Master candidate EN SHA-256 dbdd555daf4832b1948903c2e25b22a2a3d7f724d1bf622571aa
 | C3 | He Proved His Watch Worked. Why Wasn't That Enough? | H4 and a single restrained period document on a desk, no fake legible signatures/amounts | 1761 trial and captain's request | Barbados success and two-stage conditions then replication; avoid falsely claiming no reward or conspiracy |
 
 Different promises: replication (C1), mechanism (C2), institutional conflict (C3). Apply thumbnail standard: one dominant recognizable object, contextual contrast, title adds meaning rather than repeats; no quantitative CTR claim. This preliminary packaging note is not a final thumbnail_plan or actual asset. Before packaging task read exact thumbnail evidence/practitioner notes and actual references, source rights, resolve native endscreen with real relevant video and clip. No selected real target/intro yet. 
+
+Revision note: this 05m brief remains tied to unchanged master hash above. 10m's new Cook/St Helena payoff is not asserted covered by this brief; re-evaluate promise, early confirmation and storyboard if 10m chosen. No media or approvals altered.

@@ -7,8 +7,8 @@
 | [02m/script.ru.txt](variants/02m/script.ru.txt) | RU | 228 | `d4078e3be8d90a7da8a6d8782d44927ef5002eea274f7addf6b845d187a2b9a3` |
 | [05m/script.en.txt](variants/05m/script.en.txt) | EN | 682 | `dbdd555daf4832b1948903c2e25b22a2a3d7f724d1bf622571aa7c2018019ec2` |
 | [05m/script.ru.txt](variants/05m/script.ru.txt) | RU | 598 | `661b950bf42513d3643931913f1825191789013004a4d74dc1e46319836522fd` |
-| [10m/script.en.txt](variants/10m/script.en.txt) | EN | 1327 | `027cfcb12553673a18b61d7c849c7980bd630cc7ba8923f7072d45e3176e0dc3` |
-| [10m/script.ru.txt](variants/10m/script.ru.txt) | RU | 1145 | `aeb769975c9faa70553bf6a98506c2f46f3b5011dbd1e93adb92c5361adb705e` |
+| [10m/script.en.txt](variants/10m/script.en.txt) | EN | 1471 | `4973af232a8beab340ae66a4b2b1e72693a5664cd32938e444bbd1c525e21a49` |
+| [10m/script.ru.txt](variants/10m/script.ru.txt) | RU | 1290 | `fb0b142d72b19e48181eb322050ee642ccce4b9905fef8a2dc9dc8b80d04bbfd` |
 
 Estimated effective English narration range 125–150 words/min, not measured, configured voice speed 1.10x applied once in actual production, not here. Allow 10s endscreen and natural pauses; exact duration may require editorial pacing review, not speeding up words. RU word count is a separate reading aid, not a production timing claim.
 
@@ -40,21 +40,76 @@ Main weakness: loses H1 headland and rival method; risk the first astronomy sent
 
 Main weakness: legal paragraph may be where a listener disengages; visual clarity required. Confidence medium; self-assessment only. Facts: author PASS on stated claim ledger, independent corroboration/reviewer UNVERIFIED. EN/RU equivalence: author PASS on same causal events and material qualifications. Format: PASS against current ChannelSpec, not pinned run. Rights: UNVERIFIED, no media chosen; loop: N/A Long; independent review: UNVERIFIED. Endscreen source and actual native target UNVERIFIED. No approval.
 
-## 10m — REWORK
+## 10m — REVISED_CANDIDATE
 | Criterion | Score / concrete basis |
 |---|---|
-| Interest/significance | 8 — human engineering persistence and real navigation stakes |
-| Opening | 8 — questions, then coastal scenario |
-| Development | 8 — adds error magnitude and lunar alternative; extended middle risks delay |
-| Payoff | 9 — copied instrument works, mass adoption distinguished |
-| Freshness | 8 — same replication lens with competing astronomy |
-| Visual expression | 8 — more astronomy scenes, but abstract board conflict |
-| Natural speech | 7 — some long explanatory passages and dispute caveat sound essay-like |
-| Audience evidence | UNVERIFIED — research has indexed videos and qualitative questions but no comparable creator baseline |
+| Interest/significance | 9 — H1 correction and Cook's decision bookend practical navigation stakes |
+| Opening | 9 — questions P1, coastal context P2, actual headland correction P3 |
+| Development | 9 — P10–14 engineering, P15–22 dispute and replication, P25–28 real limitations and payoff |
+| Payoff | 9 — actual St Helena landfall and comparison P27–28; P30 returns to first decision |
+| Freshness | 8 — same replication lens plus documented stale-rate calculation and complementary methods |
+| Visual expression | 9 — headlands, H4/K1, sealed box, Wales observations, island approach; board still abstract |
+| Natural speech | 8 — shorter setup, no defensive essay commentary; P17–20 and P25–26 remain dense |
+| Audience evidence | UNVERIFIED — no comparable creator baseline or actual channel analytics |
 
-Main weakness: lengthy pre-H1 setup and lunar/committee exposition; 5m higher density. Confidence medium; self-assessment only. Facts: author PASS on stated claim ledger, independent corroboration/reviewer UNVERIFIED. EN/RU equivalence: author PASS on same causal events and material qualifications. Format: PASS against current ChannelSpec, not pinned run. Rights: UNVERIFIED, no media chosen; loop: N/A Long; independent review: UNVERIFIED. Endscreen source and actual native target UNVERIFIED. No approval.
+Author ChatGPT, confidence medium, not independent. Facts and EN/RU meaning author PASS against revised ledger; P25 conditional estimate using old rate, P28 Cook's reported comparison of longitude differences, not absolute whole-voyage error. Format PASS against current ChannelSpec, not pinned runtime; loop N_A Long. Exact duration/AV, independent reviewer, rights, actual native endscreen/target UNVERIFIED. Estimated English speech 588–706 s + 10s endscreen; pauses unmeasured. Do not manipulate voice speed to hit duration.
 
-## Comparison
-02m (~264 EN words) gives complete causal answer but removes H1 and the astronomical competitor. 05m (~682) earns added time through a specific wrong headland, nineteenth-year dead end, small watch, two real trials and the Board's demand; recommended. 10m (~1327) adds error magnitude, lunar-distance method, independent Barbados reference, formal testing dispute and development funding. These clarify the practical problem but slow the story; REWORK, not rejected whole package. No invented scene timing or automatic 9–10. 
-Exact selected 05m EN hash: dbdd555daf4832b1948903c2e25b22a2a3d7f724d1bf622571aa7c2018019ec2.
-No independent session available. No detailed storyboard/prompts before independent review and actual reference read. Recommendation is not script gate approval.
+## Revision and comparison
+Baseline commit `c7950f663b4ff8ff2290fb0e41cf15980862c0d4`; original 10m EN `027cfcb12553673a18b61d7c849c7980bd630cc7ba8923f7072d45e3176e0dc3`, RU `aeb769975c9faa70553bf6a98506c2f46f3b5011dbd1e93adb92c5361adb705e` (SHA-256, paths above). Prior 10m review and timings superseded for changed bytes; baseline remains in Git history. 02m/05m preserved byte-for-byte: each independently resolves the question of longitude and repeatability. 02m P2 dense; 05m P13–14 legal terms potential attention drop. 10m before: H1 payoff P11, prolonged setup, lunar detour and abstract commentary, Cook reduced to praise. After: P3 H1 result, press campaign, sealed box, K1 inscription, Cook/Wales rate limitation, direct course and island landfall with concrete comparison. 02 → 05 earns H1, H3 and Madeira; 05 → 10 earns real voyage test, calibration and complementary methods. Possible 10m attention loss P17–20 (Barbados/legal terms), P25–26 (conditional calculation), but latter earns its place by explaining actual use. Recommend **05m** for general-history audience: complete payoff and higher event density. Exact 05m EN unchanged: `dbdd555daf4832b1948903c2e25b22a2a3d7f724d1bf622571aa7c2018019ec2`. Revised 10m is distinct editorial alternative, not accepted master.
+
+## Story maps (exact manifest; paragraph spans EN/RU)
+Editorial visual intent only, not detailed storyboard or measured timing. Actual references and rights pending.
+
+| Version | Paired spans | Intent |
+|---|---|---|
+| 02m | P1–3 | Questions, noon/reference clock and obstacle |
+| 02m | P4–6 | Carpenter, H4, Madeira and second trial |
+| 02m | P7–8 | Repeatability condition and K1 voyage |
+| 02m | P9–10 | Compensation and proof |
+| 05m | P1–4 | Captain question, compass/noon, rolling ship |
+| 05m | P5–7 | Reward, headlands, H2/H3 dead end |
+| 05m | P8–10 | Jefferys watch, H4 and Madeira |
+| 05m | P11–15 | Second trial, payment dispute and test |
+| 05m | P16–20 | K1 voyage, compensation, cost and close |
+| 10m | P1–3 | Questions, context, real H1 correction |
+| 10m | P4–9 | Mechanism, earlier work, trial context |
+| 10m | P10–14 | Funding, failed clocks, H4 and Madeira |
+| 10m | P15–20 | Public dispute, lunar method, Barbados and new law |
+| 10m | P21–24 | H4 test, identifiable copy, expedition and compensation |
+| 10m | P25–28 | Rate limitation, direct course and result |
+| 10m | P29–30 | Cost and return to first voyage |
+
+| 10m paired span | Visual intent |
+|---|---|
+| P1 | Opening questions, watch and sea. |
+| P2 | Hypothetical coastal navigation. |
+| P3 | H1 correction; distinct headlands, no invented rescue. |
+| P4 | Noon and reference clock; illustrative example. |
+| P5 | Two-minute hypothetical error, equator only. |
+| P6 | Flashback to land clock and workshop. |
+| P7 | Halley refers Harrison to Graham. |
+| P8 | H1 opposed balances. |
+| P9 | Trial context and ship transfer, no replay of hook. |
+| P10 | Funding and promise. |
+| P11 | H2 flaw, H3 long effort. |
+| P12 | Jefferys small watch. |
+| P13 | H4 and fast balance; authentic object geometry. |
+| P14 | William's Madeira prediction and captain's request. |
+| P15 | Press and astronomy; no fabricated headlines. |
+| P16 | Lunar observations and tables; distinct from Jupiter method. |
+| P17 | Barbados independent reference. |
+| P18 | Accuracy threshold met. |
+| P19 | Two-stage payment. |
+| P20 | Dispute and new act. |
+| P21 | Sealed box and Greenwich test; no sabotage implication. |
+| P22 | K1 and H4 comparison; exact inscription reference required. |
+| P23 | K1 voyage and cost. |
+| P24 | H5 and parliamentary compensation. |
+| P25 | Wales observations; old-rate conditional calculation. |
+| P26 | Compare old versus recent rate; not perfect accuracy. |
+| P27 | Direct course and documented landfall. |
+| P28 | Actual comparison of longitude differences; not overall voyage error. |
+| P29 | Later designs; no invented price trajectory. |
+| P30 | Payoff H1 to K1; no exclusive watch-only claim. |
+
+No independent session or runtime registration available. Detailed storyboard deferred; no prior storyboard asserted reusable. Recommendation is not approval.
