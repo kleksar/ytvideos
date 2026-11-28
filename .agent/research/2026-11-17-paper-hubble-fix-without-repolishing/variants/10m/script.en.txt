@@ -1,63 +1,43 @@
-How could a telescope pass its tests, reach space and produce blurry pictures? What would engineers have to remove to repair its vision? And how do astronauts fix a mirror without ever touching the glass?
+How could a telescope pass its tests, reach space and send back blurry pictures? What would NASA have to give up to restore its vision? And how could astronauts repair a mirror they couldn't remove?
 
-Hubble was built to see beyond the distortion of Earth's atmosphere. Air constantly changes the path of starlight for telescopes on the ground. Put an observatory above that air and a much clearer view becomes possible. Hubble's 2.4-meter primary mirror was supposed to gather light and direct it through smaller optics to cameras and spectrographs.
+In April 1990, Discovery carried the Hubble Space Telescope into orbit. With a mirror nearly eight feet across, it could collect light that had never been disturbed by Earth's atmosphere. Astronomers were waiting for pictures in which faint objects would stand out clearly against the black sky.
 
-In April 1990, the shuttle Discovery carried the telescope to orbit. Engineers checked its equipment; astronomers began looking at the first pictures. They expected sharp stars. Instead, light spread into fuzzy halos around bright points. Dim objects could disappear in the glare. Hubble could still perform some science, but it was falling short of its central promise.
+Instead, the bright stars came back with fuzzy halos around them. Hubble could still do some science, but light that should have been concentrated in a point was spreading across its images. The very thing NASA had put the telescope in space to achieve was compromised.
 
-The fault might have been inside a camera. It might have been elsewhere in the optics. Scientists compared images from two separate cameras. Both displayed the same kind of distortion. That was an important clue: they shared the mirrors before the light reached their detectors.
+There were two cameras aboard Hubble. If one had been defective, the engineers might have been able to blame the camera. But both produced similar distortion. They shared the mirrors that collected the light. On June twenty-seventh, NASA announced the problem.
 
-On June twenty-seventh, NASA publicly acknowledged the problem. Investigators went back through the manufacturing records and the equipment that had certified Hubble's optics.
+The primary mirror was smooth, but its outer edge was about 2.2 microns too flat. The light reflected near the center came to a different focus from the light reflected near the edge. The telescope could be adjusted, but there was no single position that brought all that light together.
 
-A mirror can be almost perfectly smooth and still have the wrong curve. The outer edge of Hubble's primary mirror was roughly 2.2 microns too flat. A micron is a thousandth of a millimeter. That tiny shape error was enough for the center and outer edge to send light toward different focal points. When a camera made one part sharp, the other part remained blurred.
+The investigation led back to the factory. The people polishing the mirror had relied on a device that was supposed to tell them when the surface was right. In that device, a lens was out of position by 1.3 millimeters. The mirror had been shaped to satisfy a faulty measuring instrument. NASA now had a precise description of the error, but its huge piece of glass was already in orbit.
 
-Why had the mirror passed its tests? The team found the measuring instrument that had guided the polishing process. It was called a null corrector. One lens in that device had been set with a spacing error of 1.3 millimeters. The test gave a misleading result, so the mirror was ground to the wrong shape.
+At the Jet Propulsion Laboratory in California, John Trauger was leading the development of a second wide-field camera. It was originally intended as an upgrade or replacement for the one already aboard Hubble. Now an optical specialist, Aden Meinel, suggested that the team might use this new instrument to compensate for the damaged telescope's vision.
 
-This was not damage caused by the launch. The mistake had been built in on Earth, with the help of the device meant to detect it.
+Trauger and optical engineer Norm Page worked with their model of the camera. Hubble's primary mirror was too shallow at its edge. They found that they could introduce the opposite error in four much smaller mirrors inside their own instrument. Each of the four cameras within the new device would get one corrective mirror. In effect, they could build a camera that was deliberately wrong in exactly the way that made the telescope right.
 
-Knowing the cause was one problem solved. Actually repairing the mirror, already hundreds of kilometers above Earth inside a working telescope, was another. Astronauts could not simply take out that large glass disk and polish a new surface during a spacewalk.
+There was an important consequence. NASA would not have to send a new primary mirror into space. It could send the new camera, WFPC2. But changing its little mirrors affected the rest of the instrument, and the replacement had to be ready for the first planned servicing mission in 1993. The camera already under construction suddenly had a very different job.
 
-Engineers changed the question. If one piece of glass sent light toward the wrong focus, could a second optical system send it back toward the right one?
+The camera could only correct the light entering its own detectors. Three other scientific instruments still received distorted light from the same primary mirror. A team at NASA's Goddard Space Flight Center developed a separate device called COSTAR, with small mirrors that could be deployed to redirect the light into those instruments.
 
-The answer resembled how eyeglasses improve vision. Glasses do not alter the eye itself; they change the path light takes into it. Hubble needed a carefully calculated inverse correction, only its instruments were much more varied than a person's eyes.
+There was nowhere vacant to put it. Hubble's High Speed Photometer occupied one of the instrument bays. To restore the other instruments, the astronauts would remove the photometer and install COSTAR in its place. One scientific capability had to be sacrificed to recover several others.
 
-At NASA's Jet Propulsion Laboratory, engineers were already building an upgraded wide-field camera, WFPC2. They didn't have to start with a blank sheet. But they had to redesign it around the flaw now measured in the primary mirror. Four small corrective mirrors were built into the new camera. Their shape counteracted the distortion from Hubble's large mirror before light reached its detectors.
+The California team also had to make sure the astronauts could install their new camera safely. The seven crew members visited the laboratory to learn how to fit it into the telescope. It would slide into a bay, with electrical connectors hidden at the back. Once the camera was going in, the crew could not reach those connectors directly.
 
-The original mirror would remain wrong. The replacement camera would make its images right.
+And the instrument was awkward to handle. It weighed more than six hundred pounds on Earth, and although the astronauts would not feel that weight in orbit, they would still have to control its movement. One exposed mirror sat at the end of a short arm outside the casing. A collision with that mirror could spoil the alignment of the entire instrument. During development, an astronaut examining a model actually bumped that part.
 
-But Hubble carried other scientific instruments, too. The Faint Object Camera and two spectrographs still relied on the same damaged optical path. Installing the corrected wide-field camera would not fix their observations. A different solution was necessary.
+In December 1993, Endeavour arrived at Hubble. Its robotic arm caught the telescope and secured it in the cargo bay. Before the crew got to the camera, they had other work to do. They ran into difficulty shutting the doors of a gyroscope compartment, then discovered that one of the old solar arrays was too distorted to fold away. Kathryn Thornton released the damaged array, and the crew fitted its replacement.
 
-Engineers built COSTAR: a package of small, deployable mirrors that would redirect light into those three original instruments. It would give them a corrected path without replacing every instrument. But there was no empty slot waiting inside the telescope. COSTAR had to take the place of the High Speed Photometer.
+Those problems were separate from the flawed mirror, but they made it clear that a successful optical design was only one part of the mission. The telescope had to survive the work and keep pointing steadily after the shuttle left.
 
-That was a real cost. One existing instrument would be removed so that three others could work as intended. Meanwhile, WFPC2 would correct its own images through a separate set of mirrors. A simplified story about one pair of space glasses leaves out this engineering choice.
+Then Jeffrey Hoffman and Story Musgrave removed the original wide-field camera. They guided the replacement into its bay. The crew also exchanged the photometer for COSTAR. Across five spacewalks, they completed more than thirty-five hours of work on the telescope. The two optical corrections were now inside Hubble, but no one had yet seen the pictures they would produce.
 
-NASA had originally planned to service Hubble in orbit. It had accessible instrument bays and replacement equipment in development. But after the mirror problem, a scheduled maintenance mission became a public test of whether the whole observatory could be saved.
+Endeavour returned to Earth on December thirteenth. Five days later, the first raw data from the new camera arrived. At the Space Telescope Science Institute, the astronomers saw a focused star. The halo that had spoiled the early pictures was no longer the dominant feature.
 
-The new camera team worked to a shortened deadline. Astronauts trained to exchange hardware while wearing bulky suits and stiff gloves. They also had a list of ordinary maintenance jobs: gyroscopes, electronics and solar arrays. Successful optics alone would not help if the telescope could not point steadily at its target.
+When NASA released the new pictures in January, the change was particularly obvious in the galaxy M100. The old camera had recorded a blurred central region; the new one separated its structure much more clearly. On the following day, the camera team presented results at a meeting of the American Astronomical Society. Trauger later recalled that the audience got to its feet and applauded.
 
-In December 1993, seven astronauts launched aboard Endeavour. The shuttle caught Hubble with its robotic arm and secured it in the cargo bay. The telescope was now a workshop, hundreds of kilometers above Earth.
+Now that the telescope could distinguish objects that its earlier pictures had blurred together, astronomers could try something far more ambitious. In December 1995, they pointed the camera at a tiny patch of sky that appeared almost empty. Instead of moving on to a more obvious target, they kept collecting exposures over many days.
 
-The first spacewalk involved gyroscope hardware that helped keep Hubble precisely pointed. Astronauts Jeffrey Hoffman and Story Musgrave replaced equipment, then had trouble getting the compartment doors closed. The work took longer than expected, an early reminder that nothing about an orbital repair is as simple as the diagram.
+When those exposures were combined, the apparent darkness gave way to thousands of galaxies. The picture became known as the Hubble Deep Field. The repair had made more than a beautiful photograph possible: it had restored the ability to resolve extraordinarily faint and distant objects.
 
-Then another real problem appeared. One old solar array was bent and twisted. When the astronauts tried to retract it, it would not fold correctly. The damaged wing could not be packed away. Kathryn Thornton released the array on the next spacewalk while the shuttle maneuvered away, and a replacement array was installed.
+By 2009, newer instruments had corrective optics of their own. COSTAR could finally be removed, and the space it occupied could be used for another scientific instrument. It came back to Earth, along with the camera that had helped save Hubble.
 
-The solar-array trouble was separate from the mirror flaw. But old arrays had also caused small vibrations as temperatures changed between sunlight and shadow. Replacing them improved more than the appearance of Hubble's hardware. It helped its ability to hold a steady view.
-
-The crew next removed the original wide-field camera. They installed WFPC2 with its built-in correction. They also removed the High Speed Photometer and placed COSTAR into that space. The carefully designed corrective optics now had to survive an actual installation, not just laboratory testing.
-
-The mission required five spacewalks totaling more than thirty-five hours. As they finished and released the telescope, the crew could say the physical work was complete. Nobody yet had the observation that would prove the fix.
-
-The answer arrived on December eighteenth. Astronomers at the Space Telescope Science Institute gathered around a monitor. They examined a new image from WFPC2. A star that once would have carried a broad halo now appeared clearly focused.
-
-An image of spiral galaxy M100 supplied an even more dramatic comparison. The old camera had shown a soft, smeared center. The corrected camera resolved much more of the structure. The result mattered because it was an observation of the same kind of object, made through the same unchanged primary mirror. The difference came from what happened after its light was reflected.
-
-But the camera's real scientific opportunity was still ahead.
-
-In December 1995, scientists pointed Hubble at a patch of sky that appeared almost empty. They gathered hundreds of exposures with WFPC2 over several days. The accumulated image became the Hubble Deep Field. The dark patch was filled with thousands of remote galaxies, some seen across immense stretches of cosmic time.
-
-The Deep Field was not a photograph of the repair. It was the kind of observation the repaired telescope could now make: gather faint light and retain enough detail to distinguish objects far beyond nearby bright stars. The payoff to the engineering work was not only a sharper star; it was a much deeper view of the universe.
-
-Years later, newer Hubble instruments were built with their own optical corrections. The separate COSTAR package was no longer needed. In 2009, astronauts removed it and brought it back to Earth. It became a museum piece.
-
-And the giant primary mirror? It stayed in Hubble, still carrying the curve polished into it before the launch.
-
-The telescope's rescue was possible because the engineers knew the error accurately enough to cancel its effects. They didn't repair the old glass. They repaired the journey of the light, and the same flawed mirror went on helping reveal galaxies that had seemed hidden in a dark patch of sky.
+The one piece of hardware that had started the entire crisis was still in place. Its shape had never been corrected. The same glass that had blurred the first photographs had, with the help of those other mirrors, collected the light of thousands of galaxies nobody could see in that tiny patch of sky before.
