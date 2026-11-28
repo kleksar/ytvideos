@@ -24,7 +24,7 @@ Timing is an estimate, not a measurement: 02m EN ~120s at 130 wpm, RU ~119s at 1
 | Natural speech | 8 — plain first-person choices; numeric paragraph slightly dense | 8 — conversational timing and deliberate reset | 7 — second reference and exact 127.965 decimal are dense for speech |
 | Demand evidence | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 
-02m mean 8.43/10 (7 scored), STRONG_CANDIDATE. Main weakness: precise volume/energy sentence is number-dense; graphic support needed. RU "включённым нагревом" is a little more technical than EN but clear; same threshold and conclusion.
+02m mean 8.29/10 (7 scored), STRONG_CANDIDATE. Main weakness: precise volume/energy sentence is number-dense; graphic support needed. RU "включённым нагревом" is a little more technical than EN but clear; same threshold and conclusion.
 05m mean 8.29, STRONG_CANDIDATE editorial; Long blocked. Main weakness: second block explaining acceptance limits slows the comparison; it does add the other two test settings and a practical choice. RU "контрольного объёма" carries the reference meaning without introducing a new fact.
 10m mean 7.71, REWORK (additional value present but weaker verbal rhythm); Long blocked. Main weakness: the nineteen-and-a-half-minute reference and five-gram branch require viewers to hold multiple denominators. RU is a full meaning-equivalent adaptation, not a literal gloss. Do not discard useful extra evidence or declare 10m stronger by length.
 
@@ -45,4 +45,4 @@ Checks:
 | Independent exact-text review | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 | Official script gate / approval | not run | not run | not run |
 
-One author drafting pass plus checking calculations and reading exact wording; no independent reviewer claims. Recommendation 02m because it resolves the whole question and reversal with least repetition. 05m adds a genuinely useful timing choice but no enabled production recipe; 10m adds relevant rows but demands more attention. These are complete editorial texts, not measured duration or production approval. Detailed storyboard/prompts wait for exact independent review and selected master.
+One author drafting pass plus checking calculations and exact wording. Author reread the complete EN and RU 02m texts in drafting and remote read-back, and checked the last-to-first question/answer; no independent reviewer claims. The two shorter variants tie numerically; 02m wins on economy of narration, not on its mean score. Recommendation 02m because it resolves the whole question and reversal with least repetition. 05m adds a genuinely useful timing choice but no enabled production recipe; 10m adds relevant rows but demands more attention. These are complete editorial texts, not measured duration or production approval. Detailed storyboard/prompts wait for exact independent review and selected master.
