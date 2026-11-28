@@ -8,9 +8,9 @@ EDITORIAL_CANDIDATE_UNREGISTERED. Editorial author: GPT-6, 2026-11-17; **not** i
 |---|---|---|---|---|---:|
 | 02m | [script.en.txt](variants/02m/script.en.txt) | `ef3bbef6322762aea23a072af9460d61b792b9b7509e33f9b72a52db924df0b9` / `5bf1208c96de40676101c9941ced5d7cf4446add` | [script.ru.txt](variants/02m/script.ru.txt) | `c67f8df7d1244e4cdaddeba96f00c8e3a6eb8304afc548d95a8a0b4e80369053` / `825d6aa3dad523e2ad505d577d0273d45c9e05cc` | 267 |
 | 05m | [script.en.txt](variants/05m/script.en.txt) | `5f3f27006344f286475c3326746c587d3807a0950e939a17806333bb38883789` / `8589c39283db755314ba9c8f1964bb2550f2cabb` | [script.ru.txt](variants/05m/script.ru.txt) | `6a47370c0f7534a1c1be8e6918804051876fd5988bb2a9416bc979404c7718f0` / `d1f6c803a6922a78e4a82d36282e206b28a7fa63` | 661 |
-| 10m | [script.en.txt](variants/10m/script.en.txt) | `29cba653640ef14a286d344dc4c64624a92994e7b0c9bc7d7e4cdcd6ad544cd3` / `e049b1474e3025e999e53c1842f6640a5d9f0e4d` | [script.ru.txt](variants/10m/script.ru.txt) | `8939a782e68363306458f5a86979ea2d87c17ed66914b113ff982c75b98660ef` / `b48e347032c2a9c63d2395fa1a4e6c3bcf85809c` | 1515 |
+| 10m | [script.en.txt](variants/10m/script.en.txt) | `1fa7d74fac28c6b11250c85978250f0be3cdfa3ebd2be2dac707d69f9cc8ca65` / `a19431d3cace7f4731f56ecd75858e29ff36f627` | [script.ru.txt](variants/10m/script.ru.txt) | `1a4a793c43baf09d0d2ba6cac4b408d82365c13d4db72c446a05f056016b3494` / `2b5e125fde6173f166ba942b732efc1cf147700b` | 1354 |
 
-Durations are editorial targets. At an **unverified** effective English narration range of 135–165 wpm, plus natural pauses, 2m ~1:40–2:15, 5m ~4:10–5:15, 10m ~9:20–11:30 (including approximate Long end window; actual timing only with TTS/assembly). Voice speed for this channel must remain pinned 1.10×; no voice or MP4 tested. Russian word counts: 231/547/1195; not English timing proxies.
+Durations are editorial targets. At an **unverified** effective English narration range of 135–165 wpm, plus natural pauses, 2m ~1:40–2:15, 5m ~4:10–5:15, 10m revised: approximately 8.2–10.0 min of speech plus pauses and 10s end window (including approximate Long end window; actual timing only with TTS/assembly). Voice speed for this channel must remain pinned 1.10×; no voice or MP4 tested. Russian word counts: 231/547/1039; not English timing proxies.
 
 ## Story maps: distinct *complete* retellings, one fact base
 
@@ -18,7 +18,7 @@ Durations are editorial targets. At an **unverified** effective English narratio
 
 **05m** — Questions: how to find them and build a real exit? → collapse and limited rations under Urzúa → seventeen-day silence and note → supply line and Camp Hope → A/B/C attempts, broken bit, medical/NASA advisory → Oct 9 hole needing inspection → rescuer/first Ávalos → repeated ascents, last Urzúa → explicit distinction between connection and escape. Full payoff, no dependence on other versions. Format Long 16:9.
 
-**10m** — Question + paper note framed from start → cave-in and a search that cannot precisely locate people → rationing and failed exploratory holes → note and first visual confirmation → supply/logistics/families → three approaches with mechanical setbacks → medical, NASA advisory and Phoenix safety → Oct 9 breakthrough but inspections → detailed 33-ride operation and return of last rescuer → end of entrapment, not end of long-term impact. Full payoff. Weakest section is extended organizational exposition in the middle; extra detail is supported but not necessarily valuable for ten whole minutes. Format Long 16:9.
+**10m** — questions → refuge/rations → note (P4) → first family calls → named driller Hart and broken hammers → supply/medical support → Ticona's daughter's birth → separate capsule/shaft → breakthrough, reinforcement and planned extraction order → Ávalos → Ticona → Urzúa and last rescuers → distinct-hole payoff. Long 16:9.
 
 ## Eight separate editorial criteria per exact version
 
@@ -54,29 +54,29 @@ Ratings below are **authorial judgment** on the exact EN+RU pair, not measuremen
 
 **Main weakness:** the NASA advisory passage is relevant but risks breaking dramatic rhythm if rendered as authority rather than helping the trapped miners. Author confidence: medium-high on causal action, medium on clarity, low on measured duration/audience. Eligible STRONG_CANDIDATE: interest 9, development 9, payoff 9.
 
-### 10m — REWORK (complete but not editorially preferred)
+### 10m — REWORK, substantively revised 2026-11-28 (author only)
 
 | Criterion | Score | Exact anchor and concrete basis |
 |---|---|---|
-| Interest/significance | 9 | A note after 17 days and a total of 69 days trapped still compelling at full historical scale |
-| Opening | 8 | Note in opening gives context and the second problem; lengthy question chain may delay first concrete scene |
-| Development/reason to stay | 8 | Detailed uncertainties of missed drill holes, equipment repair, supply, capsule safety; good causal links but slower than 5m |
-| Payoff | 9 | Urzúa last, last *rescuer* afterward, 22h37m of capsule cycles, all 33 out |
-| Fresh angle | 7 | Clear line from search to extraction, but long form competes most directly with 2026 NatGeo three-part film |
-| Visual expressiveness | 8 | Full visual escalation possible; repeated rigs and bores may look similar in illustrated production |
-| Spoken naturalness/clarity | 7 | Several explanatory passages about engineering/medical logistics feel essay-like when spoken |
-| Verified audience interest | UNVERIFIED | No same-author format/age baseline or viewer response for this duration |
+| Interest/significance | 9 | P12–13: Ticona becomes a father while still trapped; P20 resolves his waiting |
+| Opening | 8 | Questions at P1 establish the mismatch; P4 delivers the note after concrete rationing, but familiar outcome reduces surprise |
+| Development/reason to stay | 9 | P8–10: a named drill operator confronts a broken tool; P12 adds a separate family event; P16–17 establish why breakout is not extraction |
+| Payoff | 9 | P18 first ascent, P20 Ticona, P21 Urzúa and return of rescuers; P22 distinguishes separate shafts |
+| Fresh angle | 8 | Connects the daughter’s birth with the supply link rather than repeating the rescue chronology |
+| Visual expressiveness | 8 | Note, phone cabin, damaged equipment, magnets, two routes and capsule; no actual archival or reference asset verified |
+| Spoken naturalness/clarity | 8 | Concrete subjects/actions replace the old analogies; P14–17 still dense with engineering/medical logistics |
+| Verified audience interest | UNVERIFIED | No comparable channel-specific measured response |
 
-**Main weakness:** middle exposition between discovering the note and getting to October 9 risks losing listeners even though every event is sourced. Author confidence medium on facts, medium-low on pacing, low on audience outcome. Not a rejected *topic*: full version exists, but 10m is REWORK relative to 5m. No automatic inflated 9–10.
+Main weakness: P14–17 still slow the family thread; opening is clear but outcome familiar. Confidence high for the dated birth/sequence and named mechanical setback, medium for pacing, low for demand. Neither this revision nor old text has independent approval.
 
 ## Length comparison on completed narration
 
 | Transition | Genuine added viewer value | Cost / likely attention drop |
 |---|---|---|
 | 2 → 5m | Concrete rationing; why first hole was not a way out; parallel Plan A/B/C with Plan B breakdown; NASA role bounded; safe-shaft inspection and repeated capsule cycles | Possible slowdown around medical/NASA advisory and drilling-plan labels |
-| 5 → 10m | The mechanics of missing the refuge, first camera contact, family recognition, detailed tool-recovery and checks, 22h37m cycles and last rescuer | Context now occupies longer stretches than action; engineering details repeat similar spatial problem; documentary competitors offer richer filmed material |
+| 5 → 10m | First family telephone calls, Hart's broken tools and retrieval, Ticona’s daughter Esperanza and his penultimate ascent; inspection and planned rescue ordering | P14–17 interrupt the family thread; 05m still gives the cleanest compact sequence |
 
-**Recommendation:** 05m Long, not simply longest text. 02m also strong as compact choice. 10m complete but requires an independent verdict and possibly substantive rewrite; do not declare 10m quality gate PASS. **No approved production master**; recommending a script is not owner approval.
+**Recommendation:** 05m Long, not simply longest text. 02m also strong as compact choice. 10m substantively revised but still requires an independent verdict; do not declare 10m quality gate PASS. **No approved production master**; recommending a script is not owner approval.
 
 ## Separate checks / production boundaries
 
@@ -92,4 +92,38 @@ Ratings below are **authorial judgment** on the exact EN+RU pair, not measuremen
 | Independent reviewer (`ytv-script-review-v1`) | UNVERIFIED | UNVERIFIED | UNVERIFIED | No separate review capability or genuine independent verdict; cannot self-certify |
 | Runtime run / approvals | NOT REGISTERED | NOT REGISTERED | NOT REGISTERED | `uv run ytv start` unavailable in Git-only execution environment; requires local checkout/runtime + pinned packet |
 
-Two authorial refinement passes maximum; no independent pass claimed. SHA-256 means exact UTF-8 bytes; any substantive edit invalidates these hashes and requires fresh review. Source evidence ≠ measured CTR, audience interest or release authority.
+Historical review above preserves unchanged 02m/05m assessments; all old 10m ratings/timing assumptions superseded by the revision below. Two authorial refinement passes maximum; no independent pass claimed. SHA-256 means exact UTF-8 bytes; any substantive edit invalidates these hashes and requires fresh review. Source evidence ≠ measured CTR, audience interest or release authority.
+
+
+## Revision 2026-11-28 — baseline and exact paired paragraph spans
+
+Baseline commit `90bfda34d7cba09ba1562a547744fe0bea065588`, same paths as above; old EN SHA-256 `29cba653640ef14a286d344dc4c64624a92994e7b0c9bc7d7e4cdcd6ad544cd3` / blob `e049b1474e3025e999e53c1842f6640a5d9f0e4d`; old RU SHA-256 `8939a782e68363306458f5a86979ea2d87c17ed66914b113ff982c75b98660ef` / blob `b48e347032c2a9c63d2395fa1a4e6c3bcf85809c`. Current canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`, #124 merged. No previous 10m timing or review is valid for the new text. 02m and 05m remain byte-identical: compact answer and strong changing-task structure respectively. The 05m metaphor at the end should be visualized as two distinct routes (not a single hole widened); no accepted master is claimed. Full text cross-read, Long supported; no Shorts loop. Reviewer and runtime external leases remain UNVERIFIED (no independent-session tool or local coordinator store observed). No measured timing, actual visual references or storyboard approved.
+
+P1–P22 refer to corresponding complete paragraphs in both exact 10m files above. Visual intent only; not a storyboard or measured timing.
+
+| EN/RU paragraph | Visual intent / new information |
+|---|---|
+| P1 / P1 | Two openings and human scale; questions |
+| P2 / P2 | Mine exterior / cut-off route |
+| P3 / P3 | Shared ration and surface drill |
+| P4 / P4 | Note retrieved, proof of life |
+| P5 / P5 | Narrow shaft versus person |
+| P6 / P6 | Supply tube and camera |
+| P7 / P7 | Family telephone connection |
+| P8 / P8 | Hart and parallel drilling |
+| P9 / P9 | Damaged metal component |
+| P10 / P10 | Retrieval and replacement; interruption |
+| P11 / P11 | Medical supply and advisory |
+| P12 / P12 | News of birth, video link |
+| P13 / P13 | Distance between father and hospital |
+| P14 / P14 | Capsule beside larger route |
+| P15 / P15 | Breakthrough, machine operator |
+| P16 / P16 | Inspection and reinforced upper section |
+| P17 / P17 | Planned evacuation order |
+| P18 / P18 | First rescuer and Ávalos ascent |
+| P19 / P19 | Repeated cycles and hospital |
+| P20 / P20 | Ticona's return; hospital connection |
+| P21 / P21 | Urzúa last miner and rescuers |
+| P22 / P22 | Separate routes, resolved promise |
+
+Progress: three complete pairs existed → 10m substantively reworked, 02m/05m preserved → author cross-read and facts checked → 05m remains recommended; exact independent review, rights, actual voice length and runtime handoff outstanding. Next: #469, after fresh head/owner/lease check.

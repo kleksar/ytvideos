@@ -21,3 +21,6 @@ Do not create image assets during editorial stage. Future three AI concepts only
 ## Metadata limits
 
 English production channel. Natural delivery, not hyperbolic "buried alive and doomed" prediction. Description can state August 5 collapse, August 22 note, October 13 full extraction with source links; choose detail after owner approves a master. Never claim 2026 NatGeo footage is included. Target runtime is estimate until voice and MP4. End-screen and its actual next-video link need supported production schedule, not guessed at editorial stage.
+
+
+Revision note (2026-11-28): 05m text/hash and recommendation unchanged. Revised 10m is an alternative only, with the added father/daughter and broken-drill lines. If later selected, confirm the same two-hole promise at P1–5 and payoff P20–22 on its own exact hashes in story-review; do not reuse 05m timing or storyboard. Depict separate shafts; no claimed photo/video assets.

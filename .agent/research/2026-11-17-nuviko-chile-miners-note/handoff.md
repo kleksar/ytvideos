@@ -12,7 +12,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED
 
 ## Exact existing editorial package
 
-All six full scripts in `variants/{02m,05m,10m}/script.{en,ru}.txt` (see [story-review](story-review.md) for exact SHA-256 **and Git blob SHA**). English is production narration; Russian is complete semantic editorial counterpart. Long 16:9 for all three. Single shared [research](research.md), review, [packaging brief](packaging-brief.md), this handoff, [README](README.md). Two minutes strong, five minutes recommended, ten complete but REWORK for excess technical exposition.
+All six full scripts in `variants/{02m,05m,10m}/script.{en,ru}.txt` (see [story-review](story-review.md) for exact SHA-256 **and Git blob SHA**). English is production narration; Russian is complete semantic editorial counterpart. Long 16:9 for all three. Single shared [research](research.md), review, [packaging brief](packaging-brief.md), this handoff, [README](README.md). Two minutes strong, five minutes recommended, ten substantively revised but REWORK relative to the stronger 05m, with separate family and drilling storylines.
 
 ## Runtime and reviewer capability (observed blocker)
 
@@ -32,3 +32,6 @@ GitHub connector is available and was used to read all canonical docs and write 
 12-screened → three competing cases → Chile selected on *changing problems*; United 232 strongest alternative. NatGeo premiered documentary Sept 25/26 2026: recent publisher attention, not independent YouTube CTR/retention evidence. Video titles/views from publicly indexed metadata only; no footage, transcripts or viewer comments watched. Same-author ordinary baseline and own channel analytics absent. No vidIQ credits spent. Rights: only original text; media/reference bytes have not been copied.
 
 One editorial author self-check and a small factual wording correction ("search hole" instead of "first hole") made before hashes were finalized; **not** a separate independent review or full production PASS. Substantive edits require fresh review and hash updates. Exact Git commit/PR/CI state to be recorded only after real remote write/read-back; do not treat queued/in-progress as success.
+
+
+Revision 2026-11-28: existing PR #170, no new PR. Baseline `90bfda34d7cba09ba1562a547744fe0bea065588`; canonical main `7c779c4b2fd379c85166ae1b164fa53d1ea08843`. No Git evidence of production/approval in PR body or comments/threads; external coordinator database/leases not accessible, so UNVERIFIED. Exact 10m hashes/spans in story-review supersede the old 10m author review and timing; 02m/05m evidence and 05m packaging remain unchanged. Detailed storyboard must follow independently reviewed exact chosen text, not these paragraph intents.
