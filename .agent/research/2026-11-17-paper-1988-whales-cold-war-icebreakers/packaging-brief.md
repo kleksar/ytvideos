@@ -17,3 +17,5 @@
 **Story-linked ending:** Paper Long requires real related-video intro and 10s end-screen; this is NOT delivered. Need select a verified suitable *published Paper* long, retrieve actual permitted intro audio/video, fit 10s and YouTube element safe space on local approval path. No placeholder fabricated footage or ReleaseSpec.
 
 **Rights/media:** historical first-person interviews support text ideas; their videos/photos not copied. No TTS, MP4, title publication, thumbnail files, tags or schedule written outside this note.
+
+2026-11-28: preferred 05m and its exact SHA unchanged; these three packaging proposals still apply only to that selected candidate. Revised 10m has its own visual intent map in story-review, not a transferred storyboard. If 10m is later selected, recheck promise and first evidence against its exact hash before production.
