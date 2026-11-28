@@ -6,7 +6,7 @@
 |---|---|---|---|
 | 02m | [EN](variants/02m/script.en.txt) (290 words) | [RU](variants/02m/script.ru.txt) (256 words) | STRONG_CANDIDATE |
 | 05m | [EN](variants/05m/script.en.txt) (732 words) | [RU](variants/05m/script.ru.txt) (637 words) | STRONG_CANDIDATE — recommended |
-| 10m | [EN](variants/10m/script.en.txt) (1323 words) | [RU](variants/10m/script.ru.txt) (1116 words) | COMPLETE_CANDIDATE — author reviewed |
+| 10m | [EN](variants/10m/script.en.txt) (1323 words) | [RU](variants/10m/script.ru.txt) (1119 words) | COMPLETE_CANDIDATE — author reviewed |
 
 ## Exact text identities (UTF-8 LF including terminal newline)
 
@@ -16,8 +16,8 @@
 | `variants/02m/script.ru.txt` | `664719eec2e3a42151396bab8043e89e54c4a66c90652b807966f2d3570815c0` |
 | `variants/05m/script.en.txt` | `f7edbc2567455699c68f147a6845a97774e8b82c18d250551d42dc60ccf3f2ca` |
 | `variants/05m/script.ru.txt` | `bc87b57cf06deee3644bedc374a7e73156428b4fff2ac2888d8c51910f6f6cb3` |
-| `variants/10m/script.en.txt` | `c6e8f89913fd68644ade864040fd981156e1255e75e41e77b02ea172ef1626e3` |
-| `variants/10m/script.ru.txt` | `9c0d82f23471318ebc5f012f492fc5d461a2bd8e0accbe3925dc6bf8147c2c7d` |
+| `variants/10m/script.en.txt` | `c2e8b390faf05b68c206e54f5b0ec051195fdf099ad16a70dcc35c9604ae63ba` |
+| `variants/10m/script.ru.txt` | `b2477b95628bb3a214a666a02e48884e18354ad138af7885c6c14f65060bc7c0` |
 
 ## Criteria
 
