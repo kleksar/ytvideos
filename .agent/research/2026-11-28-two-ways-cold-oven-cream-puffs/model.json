@@ -1,0 +1,113 @@
+{
+  "type": "published-trial comparison; not a newly performed experiment",
+  "source": "https://www.jstage.jst.go.jp/article/cookeryscience1968/20/3/20_221/_pdf/-char/en",
+  "oven": {
+    "model": "NE-8400",
+    "dial_c": 205,
+    "preheat_min": 10,
+    "switched_off_rest_min": 10,
+    "portions": 6
+  },
+  "decision": {
+    "min_mean_volume_ratio": 0.9,
+    "max_top_color_difference_nbs": 3,
+    "metric": "minimum relative electrical energy among matched rows satisfying both constraints",
+    "strict_sensitivity_min_volume_ratio": 0.95
+  },
+  "large": {
+    "portion_g": 25,
+    "A": {
+      "powered_bake_min": 18,
+      "mean_volume_ml": 134.7,
+      "energy_index": 100,
+      "elapsed_min_excluding_handling": 38
+    },
+    "B": [
+      {
+        "powered_bake_min": 21,
+        "mean_volume_ml": 124.8,
+        "color_difference": 0.91,
+        "energy_index": 77,
+        "elapsed_min_excluding_handling": 31
+      },
+      {
+        "powered_bake_min": 22.5,
+        "mean_volume_ml": 126.7,
+        "color_difference": 0.78,
+        "energy_index": 84
+      },
+      {
+        "powered_bake_min": 24,
+        "mean_volume_ml": 124.3,
+        "color_difference": 1.85,
+        "energy_index": 89
+      }
+    ]
+  },
+  "alternate_reference": {
+    "A": {
+      "powered_bake_min": 19.5,
+      "mean_volume_ml": 140.6
+    },
+    "B": [
+      {
+        "powered_bake_min": 21,
+        "mean_volume_ml": 124.8,
+        "color_difference": 1.62,
+        "energy_index": 74
+      },
+      {
+        "powered_bake_min": 22.5,
+        "mean_volume_ml": 126.7,
+        "color_difference": 1.59,
+        "energy_index": 80
+      }
+    ]
+  },
+  "small": {
+    "portion_g": 5,
+    "volume_scope": "sum of six puffs",
+    "A": {
+      "powered_bake_min": 10,
+      "group_volume_ml": 155.2,
+      "energy_index": 100
+    },
+    "B": [
+      {
+        "powered_bake_min": 14,
+        "group_volume_ml": 136.4,
+        "color_difference": 1.29,
+        "energy_index": 77
+      },
+      {
+        "powered_bake_min": 15,
+        "group_volume_ml": 142.8,
+        "color_difference": 0.68,
+        "energy_index": 81
+      },
+      {
+        "powered_bake_min": 16,
+        "group_volume_ml": 133.1,
+        "color_difference": 2.16,
+        "energy_index": 87
+      }
+    ]
+  },
+  "results": {
+    "large_B21_volume_ratio": 0.9265033407572384,
+    "large_energy_reduction": 0.23,
+    "elapsed_delta_min": 7,
+    "strict_threshold_ml": 127.96499999999999,
+    "strict_winner": "A among matched options",
+    "alternate_B22_5_ratio": 0.9011379800853485,
+    "small_B14_ratio": 0.8788659793814434,
+    "small_B15_ratio": 0.9201030927835053
+  },
+  "limitations": [
+    "Energy indices are normalized published ratios, not absolute kWh.",
+    "Volume and top color are limited proxies, not taste, food safety or filling capacity.",
+    "Mean comparison, not guarantee for individual puffs.",
+    "No extrapolation to untested baking times or other ovens.",
+    "Clock excludes handling."
+  ]
+}
